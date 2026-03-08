@@ -1,0 +1,24 @@
+---
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/global/Header.astro';
+import Footer from '../../components/global/Footer.astro';
+---
+<Base title="Our Methodology — postcode.page" description="How we collect and process postcode data from official UK government sources.">
+  <Header />
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+    <h1 class="mb-6">Our Methodology</h1>
+    <p class="text-brand-600 leading-relaxed max-w-2xl">
+      All data on postcode.page is sourced from official UK government datasets published under the Open Government Licence v3.0. We process and normalise data monthly and combine multiple sources to give a complete picture of each postcode district.
+    </p>
+    <ul class="mt-6 space-y-3 text-brand-600">
+      <li><strong>House prices:</strong> HM Land Registry Price Paid Data — all residential property sales in England and Wales.</li>
+      <li><strong>Crime:</strong> data.police.uk — recorded crime statistics published by UK police forces.</li>
+      <li><strong>Schools:</strong> DfE Get Information About Schools — Ofsted ratings and school details.</li>
+      <li><strong>Demographics:</strong> ONS Census 2021 — population and household statistics.</li>
+      <li><strong>Broadband:</strong> Ofcom Connected Nations — infrastructure and speed data.</li>
+      <li><strong>Council Tax:</strong> Valuation Office Agency — council tax band distributions.</li>
+      <li><strong>Energy efficiency:</strong> MHCLG Open EPC Register — Energy Performance Certificate data.</li>
+    </ul>
+  </main>
+  <Footer />
+</Base>

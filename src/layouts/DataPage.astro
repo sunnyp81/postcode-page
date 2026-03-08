@@ -1,0 +1,33 @@
+---
+import Base from './Base.astro';
+import Header from '../components/global/Header.astro';
+import Footer from '../components/global/Footer.astro';
+import Breadcrumb from '../components/global/Breadcrumb.astro';
+
+interface BreadcrumbItem {
+  label: string;
+  href?: string;
+}
+
+interface Props {
+  title: string;
+  description: string;
+  canonical?: string;
+  schema?: object | object[];
+  breadcrumbs: BreadcrumbItem[];
+  ogImage?: string;
+}
+
+const { title, description, canonical, schema, breadcrumbs, ogImage } = Astro.props;
+---
+
+<Base title={title} description={description} canonical={canonical} schema={schema} ogImage={ogImage}>
+  <Header />
+  <main>
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-4">
+      <Breadcrumb items={breadcrumbs} />
+    </div>
+    <slot />
+  </main>
+  <Footer />
+</Base>

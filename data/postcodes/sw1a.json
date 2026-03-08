@@ -1,0 +1,116 @@
+{
+  "code": "SW1A",
+  "name": "Westminster & Whitehall",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "coordinates": { "lat": 51.5010, "lng": -0.1278 },
+  "adjacent": ["SW1E", "SW1H", "WC2", "EC4"],
+
+  "property": {
+    "avgPrice": 1245000,
+    "medianPrice": 985000,
+    "priceChange1y": 3.2,
+    "priceChange5y": 14.8,
+    "transactions12m": 124,
+    "byType": {
+      "detached": { "avg": 4500000, "count": 4 },
+      "semi": { "avg": 2800000, "count": 8 },
+      "terraced": { "avg": 1850000, "count": 22 },
+      "flat": { "avg": 895000, "count": 90 }
+    },
+    "history": [
+      { "year": 2020, "avg": 1080000 },
+      { "year": 2021, "avg": 1105000 },
+      { "year": 2022, "avg": 1140000 },
+      { "year": 2023, "avg": 1175000 },
+      { "year": 2024, "avg": 1210000 },
+      { "year": 2025, "avg": 1245000 }
+    ]
+  },
+
+  "crime": {
+    "totalPer1000": 142.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 75.4,
+    "byType": {
+      "violentCrime": 28.4,
+      "burglary": 8.2,
+      "vehicleCrime": 12.1,
+      "antisocialBehaviour": 22.8,
+      "otherTheft": 42.6,
+      "other": 28.5
+    },
+    "trend12m": 2.1
+  },
+
+  "schools": {
+    "count": 6,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      { "name": "Westminster Cathedral Primary", "type": "Primary", "ofsted": "Good", "distance": 0.5 },
+      { "name": "St James the Less Primary", "type": "Primary", "ofsted": "Outstanding", "distance": 0.8 }
+    ]
+  },
+
+  "demographics": {
+    "population": 8200,
+    "medianAge": 36,
+    "ageGroups": { "0-17": 10, "18-34": 32, "35-54": 34, "55-74": 16, "75+": 8 },
+    "ownerOccupied": 38,
+    "socialRent": 22,
+    "privateRent": 40,
+    "economicallyActive": 80
+  },
+
+  "broadband": {
+    "avgDownload": 148.2,
+    "avgUpload": 58.4,
+    "superfastPct": 99,
+    "ultrafastPct": 88,
+    "fullFibrePct": 72
+  },
+
+  "councilTax": {
+    "authority": "Westminster City Council",
+    "bandD": 866,
+    "bands": { "A": 2, "B": 4, "C": 8, "D": 10, "E": 14, "F": 18, "G": 28, "H": 16 }
+  },
+
+  "epc": {
+    "distribution": { "A": 5, "B": 22, "C": 42, "D": 22, "E": 7, "F": 1, "G": 1 },
+    "avgScore": 74
+  },
+
+  "deprivation": {
+    "imdRank": 18450,
+    "imdDecile": 6,
+    "incomeRank": 22000,
+    "employmentRank": 24000
+  },
+
+  "context": {
+    "intro": "SW1A covers Westminster and Whitehall in central London, one of the most politically and historically significant postcode districts in the United Kingdom. It encompasses Buckingham Palace, the Houses of Parliament, Downing Street, and Horse Guards Parade.",
+    "priceVsCounty": "The average property price in SW1A is £1,245,000, which is substantially above the Greater London average of £520,000, reflecting its ultra-prime central London location.",
+    "priceVsNational": "Properties in SW1A cost 334% more than the England and Wales national average of £287,000, making it one of the most expensive postcode districts in the country.",
+    "priceTrend": "House prices in SW1A have risen 3.2% over the past 12 months and 14.8% over five years — growth that, while positive, trails the national and London averages due to the already-elevated base.",
+    "crimeContext": "SW1A has a higher-than-average crime rate of 142.6 per 1,000 residents, 75% above the national average. This is primarily driven by high levels of theft and antisocial behaviour typical of central London tourist and commercial areas, rather than serious violent crime.",
+    "schoolContext": "SW1A has limited school provision with 6 schools, including 1 Outstanding and 4 Good-rated. The mixed-use commercial nature of the district means fewer family residents and therefore less school infrastructure than surrounding areas.",
+    "broadbandContext": "SW1A benefits from excellent broadband infrastructure, with average download speeds of 148 Mbps and 99% superfast coverage. Full fibre availability is 72%, reflecting heavy investment in central London connectivity.",
+    "synthesis": "SW1A is one of the UK's most prestigious and expensive postcode districts, with an average property price of £1.245m. Its high crime statistics reflect the central London tourist environment rather than residential danger. Broadband connectivity is exceptional, and the low council tax rate (one of the lowest Band D rates in England) is a notable advantage for residents."
+  },
+
+  "comparisons": {
+    "countyAvg": { "price": 520000, "crime": 115.2, "broadband": 98.4 },
+    "regionalAvg": { "price": 520000, "crime": 115.2, "broadband": 98.4 },
+    "nationalAvg": { "price": 287000, "crime": 81.3, "broadband": 59.4 }
+  },
+
+  "meta": {
+    "lastUpdated": "2026-02",
+    "dataSources": ["land-registry-2026-01", "police-uk-2026-01", "gias-2025", "census-2021", "ofcom-2025"]
+  }
+}

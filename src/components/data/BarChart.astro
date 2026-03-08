@@ -1,0 +1,74 @@
+---
+interface BarItem {
+  label: string;
+  value: number;
+  comparison?: number; // national/county average for ghost bar
+  unit?: string;
+}
+interface Props {
+  items: BarItem[];
+  maxValue?: number;
+  unit?: string;
+  accentColor?: string;
+  label?: string;
+}
+
+const {
+  items,
+  maxValue,
+  unit = '',
+  accentColor = 'hsl(168, 55%, 45%)',
+  label = 'Chart',
+} = Astro.props;
+
+const max = maxValue ?? Math.max(...items.map(i => Math.max(i.value, i.comparison ?? 0))) * 1.1;
+---
+
+<figure class="w-full space-y-3" aria-label={label}>
+  {items.map(item => {
+    const barPct = (item.value / max) * 100;
+    const compPct = item.comparison !== undefined ? (item.comparison / max) * 100 : null;
+    const isAbove = item.comparison !== undefined && item.value > item.comparison;
+
+    return (
+      <div class="group">
+        <div class="flex items-center justify-between mb-1">
+          <span class="text-sm text-brand-600">{item.label}</span>
+          <div class="flex items-center gap-2">
+            <span class="font-mono text-sm font-500 text-brand-800">{item.value.toFixed(1)}{unit}</span>
+            {item.comparison !== undefined && (
+              <span class="text-xs text-brand-400">(avg: {item.comparison.toFixed(1)}{unit})</span>
+            )}
+          </div>
+        </div>
+        <div class="relative h-2 bg-brand-100 rounded-full overflow-hidden">
+          {/* Ghost/comparison bar */}
+          {compPct !== null && (
+            <div
+              class="absolute top-0 left-0 h-full bg-brand-200 rounded-full"
+              style={`width: ${compPct}%`}
+            />
+          )}
+          {/* Actual bar */}
+          <div
+            class="absolute top-0 left-0 h-full rounded-full transition-all duration-500"
+            style={`width: ${barPct}%; background: ${isAbove ? 'hsl(0, 65%, 55%)' : accentColor}`}
+          />
+        </div>
+      </div>
+    );
+  })}
+
+  {items.some(i => i.comparison !== undefined) && (
+    <div class="flex items-center gap-4 pt-1">
+      <div class="flex items-center gap-1.5">
+        <div class="w-3 h-1.5 rounded-full" style={`background: ${accentColor}`}/>
+        <span class="text-xs text-brand-400">This area</span>
+      </div>
+      <div class="flex items-center gap-1.5">
+        <div class="w-3 h-1.5 rounded-full bg-brand-200"/>
+        <span class="text-xs text-brand-400">National average</span>
+      </div>
+    </div>
+  )}
+</figure>

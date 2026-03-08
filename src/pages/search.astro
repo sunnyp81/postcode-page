@@ -1,0 +1,37 @@
+---
+import Base from '../layouts/Base.astro';
+import Header from '../components/global/Header.astro';
+import Footer from '../components/global/Footer.astro';
+
+// Read query param at build time — we'll handle redirects via Cloudflare Function or JS
+const query = Astro.url.searchParams.get('q') ?? '';
+const normalised = query.trim().toUpperCase().replace(/\s+/g, '');
+---
+
+<Base title="Search — postcode.page" description="Search UK postcodes." noindex={true}>
+  <Header />
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+    <h1 class="mb-4">Search Results for "{query}"</h1>
+    {normalised && (
+      <p class="text-brand-600">
+        Looking for <strong>{normalised}</strong>?
+        <a href={`/${normalised.toLowerCase()}/`} class="text-accent-500 hover:underline ml-1">
+          View {normalised} area data →
+        </a>
+      </p>
+    )}
+  </main>
+  <Footer />
+</Base>
+
+<script>
+  // Client-side: redirect directly to postcode page
+  const params = new URLSearchParams(window.location.search);
+  const q = params.get('q');
+  if (q) {
+    const code = q.trim().toUpperCase().replace(/\s+/g, '');
+    if (/^[A-Z]{1,2}\d[A-Z\d]?/.test(code)) {
+      window.location.replace(`/${code.toLowerCase()}/`);
+    }
+  }
+</script>

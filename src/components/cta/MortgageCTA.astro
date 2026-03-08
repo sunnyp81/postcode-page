@@ -1,0 +1,44 @@
+---
+interface Props {
+  postcode?: string;
+  price?: number;
+  variant?: 'inline' | 'block';
+}
+const { postcode, price, variant = 'block' } = Astro.props;
+
+const href = `https://www.habito.com/?utm_source=postcode.page&utm_medium=affiliate&utm_campaign=postcode${postcode ? `&postcode=${postcode}` : ''}`;
+const priceText = price ? `£${(price * 0.8 / 1000).toFixed(0)}K` : '';
+---
+
+{variant === 'block' ? (
+  <div class="rounded-xl bg-accent-400/5 border border-accent-400/20 p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+    <div>
+      <p class="font-600 text-brand-800">
+        {postcode ? `Looking to buy in ${postcode}?` : 'Need a mortgage?'}
+      </p>
+      <p class="text-sm text-brand-500 mt-0.5">
+        {priceText ? `Compare mortgage rates for a ${priceText} loan — free, no obligation.` : 'Compare mortgage rates from 90+ lenders — free, no obligation.'}
+      </p>
+    </div>
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener sponsored"
+      class="shrink-0 inline-flex items-center gap-2 px-4 py-2.5 bg-accent-400 text-white rounded-lg font-600 text-sm hover:bg-accent-500 transition-colors"
+    >
+      Compare rates
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+      </svg>
+    </a>
+  </div>
+) : (
+  <a
+    href={href}
+    target="_blank"
+    rel="noopener sponsored"
+    class="inline-flex items-center gap-1.5 text-sm font-600 text-accent-500 hover:text-accent-400 transition-colors"
+  >
+    Compare mortgage rates →
+  </a>
+)}

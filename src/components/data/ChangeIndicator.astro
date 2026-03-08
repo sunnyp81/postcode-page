@@ -1,0 +1,17 @@
+---
+interface Props {
+  value: number; // percentage change
+  suffix?: string;
+  size?: 'sm' | 'md' | 'lg';
+}
+const { value, suffix = '%', size = 'md' } = Astro.props;
+const isUp = value > 0;
+const isDown = value < 0;
+const absVal = Math.abs(value).toFixed(1);
+const sizeClass = { sm: 'text-xs', md: 'text-sm', lg: 'text-base' }[size];
+---
+
+<span class={`inline-flex items-center gap-0.5 font-600 font-mono ${sizeClass} ${isUp ? 'trend-up' : isDown ? 'trend-down' : 'trend-neutral'}`}>
+  {isUp ? '▲' : isDown ? '▼' : '—'}
+  {absVal}{suffix}
+</span>

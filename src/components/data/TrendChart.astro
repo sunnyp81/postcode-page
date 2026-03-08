@@ -1,0 +1,89 @@
+---
+interface DataPoint {
+  year: number;
+  avg: number;
+}
+interface Props {
+  data: DataPoint[];
+  label?: string;
+  color?: string;
+  height?: number;
+}
+
+const { data, label = 'Average price', color = 'hsl(168, 55%, 45%)', height = 140 } = Astro.props;
+
+if (!data || data.length < 2) return;
+
+const values = data.map(d => d.avg);
+const min = Math.min(...values);
+const max = Math.max(...values);
+const range = max - min || 1;
+const pad = { top: 12, right: 8, bottom: 28, left: 60 };
+const width = 560;
+const innerW = width - pad.left - pad.right;
+const innerH = height - pad.top - pad.bottom;
+
+const points = data.map((d, i) => ({
+  x: pad.left + (i / (data.length - 1)) * innerW,
+  y: pad.top + innerH - ((d.avg - min) / range) * innerH,
+  label: d.year,
+  value: d.avg,
+}));
+
+const linePath = points.map((p, i) => `${i === 0 ? 'M' : 'L'} ${p.x} ${p.y}`).join(' ');
+const areaPath = `${linePath} L ${points[points.length-1].x} ${pad.top + innerH} L ${points[0].x} ${pad.top + innerH} Z`;
+
+function formatK(n: number): string {
+  return n >= 1000 ? `£${(n/1000).toFixed(0)}K` : `£${n}`;
+}
+---
+
+<figure class="w-full" aria-label={`${label} trend chart`}>
+  <svg
+    viewBox={`0 0 ${width} ${height}`}
+    preserveAspectRatio="xMidYMid meet"
+    class="w-full h-auto"
+    role="img"
+    aria-label={`Line chart showing ${label} from ${data[0].year} to ${data[data.length-1].year}`}
+  >
+    <defs>
+      <linearGradient id="area-fill" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color={color} stop-opacity="0.15"/>
+        <stop offset="100%" stop-color={color} stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+
+    <!-- Y-axis grid lines + labels -->
+    {[0, 0.25, 0.5, 0.75, 1].map(t => {
+      const y = pad.top + innerH - t * innerH;
+      const val = min + t * range;
+      return (
+        <>
+          <line x1={pad.left} y1={y} x2={pad.left + innerW} y2={y}
+                stroke="hsl(210, 35%, 90%)" stroke-width="1" stroke-dasharray="4 4"/>
+          <text x={pad.left - 6} y={y + 4} text-anchor="end"
+                font-family="JetBrains Mono, monospace" font-size="11" fill="hsl(210, 30%, 58%)">
+            {formatK(val)}
+          </text>
+        </>
+      );
+    })}
+
+    <!-- Area fill -->
+    <path d={areaPath} fill="url(#area-fill)"/>
+
+    <!-- Line -->
+    <path d={linePath} fill="none" stroke={color} stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Data points + year labels -->
+    {points.map(p => (
+      <>
+        <circle cx={p.x} cy={p.y} r="4" fill="white" stroke={color} stroke-width="2"/>
+        <text x={p.x} y={pad.top + innerH + 18} text-anchor="middle"
+              font-family="Inter, sans-serif" font-size="11" fill="hsl(210, 30%, 58%)">
+          {p.label}
+        </text>
+      </>
+    ))}
+  </svg>
+</figure>

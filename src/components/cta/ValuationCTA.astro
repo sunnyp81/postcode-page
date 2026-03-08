@@ -1,0 +1,30 @@
+---
+interface Props {
+  postcode?: string;
+}
+const { postcode } = Astro.props;
+
+const href = `https://www.yopa.co.uk/free-valuation/?utm_source=postcode.page&utm_medium=affiliate${postcode ? `&area=${postcode}` : ''}`;
+---
+
+<div class="rounded-xl bg-brand-900 text-white p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+  <div>
+    <p class="font-700 text-lg">
+      {postcode ? `What's your property in ${postcode} worth?` : 'Find out what your property is worth'}
+    </p>
+    <p class="text-brand-300 text-sm mt-1">
+      Get a free, no-obligation valuation from a local expert.
+    </p>
+  </div>
+  <a
+    href={href}
+    target="_blank"
+    rel="noopener sponsored"
+    class="shrink-0 inline-flex items-center gap-2 px-5 py-3 bg-accent-400 text-white rounded-lg font-600 text-sm hover:bg-accent-500 transition-colors whitespace-nowrap"
+  >
+    Get free valuation
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+    </svg>
+  </a>
+</div>

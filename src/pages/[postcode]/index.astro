@@ -1,0 +1,471 @@
+---
+import DataPage from '../../layouts/DataPage.astro';
+import MetricCard from '../../components/data/MetricCard.astro';
+import TrendChart from '../../components/data/TrendChart.astro';
+import BarChart from '../../components/data/BarChart.astro';
+import SynthesisCard from '../../components/content/SynthesisCard.astro';
+import NearbyGrid from '../../components/content/NearbyGrid.astro';
+import MortgageCTA from '../../components/cta/MortgageCTA.astro';
+import ValuationCTA from '../../components/cta/ValuationCTA.astro';
+import {
+  getAllPostcodeSlugs,
+  getPostcodeData,
+  getAdjacentPostcodes,
+} from '../../utils/data';
+import {
+  formatPriceFull,
+  formatPrice,
+  formatPct,
+  pctDiff,
+  capitalize,
+  crimeSentiment,
+  schoolSentiment,
+} from '../../utils/format';
+import { buildPostcodeSchema } from '../../utils/schema';
+
+export async function getStaticPaths() {
+  const slugs = getAllPostcodeSlugs();
+  return slugs.map(slug => ({ params: { postcode: slug } }));
+}
+
+const { postcode } = Astro.params;
+const data = getPostcodeData(postcode!);
+
+if (!data) {
+  return Astro.redirect('/404');
+}
+
+const { code, name, county, region, property, crime, schools, demographics, broadband, councilTax, context } = data;
+
+const nationalAvgPrice = data.comparisons.nationalAvg.price;
+const countyAvgPrice = data.comparisons.countyAvg.price;
+const priceVsNational = pctDiff(property.avgPrice, nationalAvgPrice);
+const priceVsCounty = pctDiff(property.avgPrice, countyAvgPrice);
+
+const countyLabel = capitalize(county);
+const regionLabel = capitalize(region);
+
+const pageTitle = `${code} — ${name} | Property Prices, Crime & Area Data`;
+const metaDescription = `${code} (${name}): average house price ${formatPriceFull(property.avgPrice)} (${property.priceChange1y > 0 ? '+' : ''}${property.priceChange1y.toFixed(1)}% YoY). Crime ${Math.abs(crime.vsNational).toFixed(0)}% ${crime.vsNational < 0 ? 'below' : 'above'} national average. ${schools.outstanding} Outstanding-rated school${schools.outstanding !== 1 ? 's' : ''}. Data updated ${data.meta.lastUpdated}.`;
+
+const schema = buildPostcodeSchema(data, Astro.url.href);
+
+const nearbyPostcodes = getAdjacentPostcodes(data.adjacent);
+
+const crimeItems = [
+  { label: 'Violent crime', value: crime.byType.violentCrime, comparison: 22.1 },
+  { label: 'Burglary', value: crime.byType.burglary, comparison: 6.8 },
+  { label: 'Vehicle crime', value: crime.byType.vehicleCrime, comparison: 8.4 },
+  { label: 'Antisocial behaviour', value: crime.byType.antisocialBehaviour, comparison: 16.2 },
+  { label: 'Other theft', value: crime.byType.otherTheft, comparison: 9.5 },
+];
+
+const synthesisTag = [
+  {
+    label: 'Prices',
+    value: priceVsNational > 10 ? 'Above avg' : priceVsNational < -10 ? 'Below avg' : 'Near avg',
+    sentiment: (priceVsNational > 10 ? 'negative' : priceVsNational < -10 ? 'positive' : 'neutral') as 'positive' | 'negative' | 'neutral',
+  },
+  {
+    label: 'Safety',
+    value: crime.vsNational < -15 ? 'Low crime' : crime.vsNational > 15 ? 'High crime' : 'Average',
+    sentiment: crimeSentiment(crime.vsNational),
+  },
+  {
+    label: 'Schools',
+    value: schools.outstanding >= 3 ? 'Strong' : schools.outstanding === 0 ? 'Weak' : 'Average',
+    sentiment: schoolSentiment(schools.outstanding, schools.count),
+  },
+  {
+    label: 'Broadband',
+    value: broadband.avgDownload >= 60 ? 'Good' : broadband.avgDownload >= 30 ? 'Average' : 'Poor',
+    sentiment: (broadband.avgDownload >= 60 ? 'positive' : broadband.avgDownload < 30 ? 'negative' : 'neutral') as 'positive' | 'negative' | 'neutral',
+  },
+];
+---
+
+<DataPage
+  title={pageTitle}
+  description={metaDescription}
+  schema={schema}
+  breadcrumbs={[
+    { label: regionLabel, href: `/regions/${region}/` },
+    { label: countyLabel, href: `/counties/${county}/` },
+    { label: code },
+  ]}
+>
+
+  <!-- HERO -->
+  <div class="relative overflow-hidden bg-brand-950 text-white">
+    <!-- Dot grid -->
+    <div class="absolute inset-0 opacity-20 dot-grid" aria-hidden="true"/>
+    <!-- Accent aurora blob -->
+    <div class="absolute -top-20 -right-20 w-96 h-96 rounded-full opacity-10 blur-[80px]"
+         style="background: radial-gradient(circle, hsl(168, 55%, 45%), transparent 70%)" aria-hidden="true"/>
+
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-6">
+        <div>
+          <p class="font-mono text-accent-400 text-sm font-500 tracking-widest uppercase mb-2">Postcode District</p>
+          <h1 class="font-display font-700 text-5xl sm:text-6xl text-white tracking-tight leading-none font-mono">{code}</h1>
+          <p class="text-xl text-brand-300 mt-2 font-display font-600">{name}</p>
+          <p class="text-brand-400 text-sm mt-1">{countyLabel}, {regionLabel}, England</p>
+        </div>
+        <div class="flex gap-3">
+          <a href={`/compare/?a=${code}`} class="px-4 py-2 border border-brand-700 text-brand-300 rounded-lg text-sm hover:border-brand-500 hover:text-white transition-colors">
+            Compare area
+          </a>
+          <a href="#area-summary" class="px-4 py-2 bg-accent-400 text-white rounded-lg text-sm font-600 hover:bg-accent-500 transition-colors">
+            View summary
+          </a>
+        </div>
+      </div>
+
+      <!-- Intro paragraph -->
+      <p class="mt-6 text-brand-300 leading-relaxed max-w-2xl text-sm sm:text-base">{context.intro}</p>
+
+      <!-- Quick stats bar -->
+      <div class="flex flex-wrap gap-x-8 gap-y-2 mt-6 text-sm">
+        <div>
+          <span class="text-brand-500">Avg price</span>
+          <span class="ml-2 font-mono font-600 text-white">{formatPriceFull(property.avgPrice)}</span>
+        </div>
+        <div>
+          <span class="text-brand-500">1yr change</span>
+          <span class={`ml-2 font-mono font-600 ${property.priceChange1y >= 0 ? 'text-green-400' : 'text-red-400'}`}>
+            {property.priceChange1y >= 0 ? '▲' : '▼'} {Math.abs(property.priceChange1y).toFixed(1)}%
+          </span>
+        </div>
+        <div>
+          <span class="text-brand-500">Crime</span>
+          <span class={`ml-2 font-mono font-600 ${crime.vsNational < 0 ? 'text-green-400' : 'text-red-400'}`}>
+            {Math.abs(crime.vsNational).toFixed(0)}% {crime.vsNational < 0 ? 'below' : 'above'} avg
+          </span>
+        </div>
+        <div>
+          <span class="text-brand-500">Schools</span>
+          <span class="ml-2 font-mono font-600 text-white">{schools.outstanding} Outstanding</span>
+        </div>
+        <div>
+          <span class="text-brand-500">Updated</span>
+          <span class="ml-2 font-mono font-600 text-white">{data.meta.lastUpdated}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- METRIC BENTO GRID -->
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 mt-8">
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 fade-up">
+      <MetricCard
+        label="Average House Price"
+        value={formatPriceFull(property.avgPrice)}
+        change={property.priceChange1y}
+        changeLabel="vs last year"
+        context={`National avg ${formatPrice(nationalAvgPrice)}`}
+        contextPct={Math.round(priceVsNational)}
+        tooltip="Average of all residential property sales in the past 12 months. Source: HM Land Registry."
+      />
+      <MetricCard
+        label="Crime Rate"
+        value={`${crime.totalPer1000.toFixed(1)}/1,000`}
+        change={crime.trend12m}
+        changeLabel="vs previous year"
+        context={`National avg ${crime.nationalAvgPer1000.toFixed(1)}/1,000`}
+        contextPct={Math.round(crime.vsNational)}
+        tooltip="Total recorded crimes per 1,000 residents. Source: data.police.uk."
+      />
+      <MetricCard
+        label="Schools (Ofsted)"
+        value={`${schools.count} schools`}
+        context={`${schools.outstanding} Outstanding, ${schools.good} Good`}
+        tooltip="Number of schools within or near the postcode district. Source: DfE Get Information About Schools."
+      />
+      <MetricCard
+        label="Broadband Speed"
+        value={`${broadband.avgDownload.toFixed(0)} Mbps`}
+        context={`${broadband.superfastPct}% superfast coverage`}
+        tooltip="Average download speed. Source: Ofcom Connected Nations."
+      />
+    </div>
+  </div>
+
+  <!-- PROPERTY PRICES SECTION -->
+  <article class="max-w-5xl mx-auto px-4 sm:px-6 mt-12">
+    <section aria-labelledby="property-prices" class="fade-up">
+      <h2 id="property-prices" class="text-2xl font-display font-600 text-brand-900 mb-1">Property Prices in {code}</h2>
+      <p class="text-brand-500 text-sm mb-6">Source: HM Land Registry Price Paid Data</p>
+
+      <div class="card p-6 mb-4">
+        <p class="text-brand-700 leading-relaxed">{context.priceVsCounty}</p>
+        <p class="text-brand-700 leading-relaxed mt-3">{context.priceVsNational}</p>
+        <p class="text-brand-700 leading-relaxed mt-3">{context.priceTrend}</p>
+      </div>
+
+      <!-- Price by type table -->
+      <div class="card overflow-hidden mb-4">
+        <div class="px-6 py-4 border-b border-brand-100">
+          <h3 class="font-600 text-brand-900">Average Price by Property Type</h3>
+        </div>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>Average Price</th>
+              <th>Sales (12m)</th>
+            </tr>
+          </thead>
+          <tbody>
+            {Object.entries(property.byType).map(([type, stats]) => (
+              <tr>
+                <td class="capitalize">{type === 'semi' ? 'Semi-detached' : type.charAt(0).toUpperCase() + type.slice(1)}</td>
+                <td class="mono">{formatPriceFull(stats.avg)}</td>
+                <td class="mono">{stats.count}</td>
+              </tr>
+            ))}
+            <tr class="bg-brand-50">
+              <td class="font-600">All types</td>
+              <td class="mono font-600">{formatPriceFull(property.avgPrice)}</td>
+              <td class="mono font-600">{property.transactions12m}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 5-year trend chart -->
+      <div class="card p-6 mb-6">
+        <h3 class="font-600 text-brand-900 mb-4">5-Year Price History</h3>
+        <TrendChart data={property.history} label="Average property price" />
+      </div>
+
+      <MortgageCTA postcode={code} price={property.avgPrice} />
+    </section>
+
+    <!-- CRIME SECTION -->
+    <section aria-labelledby="crime-safety" class="mt-12 fade-up">
+      <h2 id="crime-safety" class="text-2xl font-display font-600 text-brand-900 mb-1">Crime &amp; Safety in {code}</h2>
+      <p class="text-brand-500 text-sm mb-6">Source: data.police.uk (rolling 12 months)</p>
+
+      <div class="card p-6 mb-4">
+        <p class="text-brand-700 leading-relaxed">{context.crimeContext}</p>
+      </div>
+
+      <div class="card p-6 mb-6">
+        <h3 class="font-600 text-brand-900 mb-4">Crime by Type vs National Average</h3>
+        <BarChart
+          items={crimeItems}
+          unit=" per 1,000"
+          label="Crime by type compared to national average"
+        />
+      </div>
+
+      <!-- Insurance CTA -->
+      <div class="rounded-xl bg-brand-50 border border-brand-200 p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div>
+          <p class="font-600 text-brand-800">Protect your home in {code}</p>
+          <p class="text-sm text-brand-500 mt-0.5">Compare home insurance quotes from leading UK providers.</p>
+        </div>
+        <a
+          href="https://www.gocompare.com/home-insurance/?utm_source=postcode.page&utm_medium=affiliate"
+          target="_blank"
+          rel="noopener sponsored"
+          class="shrink-0 inline-flex items-center gap-2 px-4 py-2.5 bg-brand-800 text-white rounded-lg font-600 text-sm hover:bg-brand-900 transition-colors"
+        >
+          Compare quotes →
+        </a>
+      </div>
+    </section>
+
+    <!-- SCHOOLS SECTION -->
+    <section aria-labelledby="schools" class="mt-12 fade-up">
+      <h2 id="schools" class="text-2xl font-display font-600 text-brand-900 mb-1">Schools in {code}</h2>
+      <p class="text-brand-500 text-sm mb-6">Source: DfE Get Information About Schools / Ofsted</p>
+
+      <div class="card p-6 mb-4">
+        <p class="text-brand-700 leading-relaxed">{context.schoolContext}</p>
+      </div>
+
+      {schools.nearest.length > 0 && (
+        <div class="card overflow-hidden mb-4">
+          <div class="px-6 py-4 border-b border-brand-100">
+            <h3 class="font-600 text-brand-900">Nearest Schools</h3>
+          </div>
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>School</th>
+                <th>Type</th>
+                <th>Ofsted</th>
+                <th>Distance</th>
+              </tr>
+            </thead>
+            <tbody>
+              {schools.nearest.map(school => (
+                <tr>
+                  <td class="font-500">{school.name}</td>
+                  <td>{school.type}</td>
+                  <td>
+                    <span class={`inline-block px-2 py-0.5 rounded text-xs font-600 ${
+                      school.ofsted === 'Outstanding' ? 'bg-green-100 text-green-700' :
+                      school.ofsted === 'Good' ? 'bg-blue-100 text-blue-700' :
+                      school.ofsted === 'Requires improvement' ? 'bg-amber-100 text-amber-700' :
+                      'bg-red-100 text-red-700'
+                    }`}>
+                      {school.ofsted}
+                    </span>
+                  </td>
+                  <td class="mono">{school.distance} mi</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        {[
+          { label: 'Outstanding', value: schools.outstanding, color: 'bg-green-100 text-green-700 border-green-200' },
+          { label: 'Good', value: schools.good, color: 'bg-blue-100 text-blue-700 border-blue-200' },
+          { label: 'Requires improvement', value: schools.requiresImprovement, color: 'bg-amber-100 text-amber-700 border-amber-200' },
+          { label: 'Inadequate', value: schools.inadequate, color: 'bg-red-100 text-red-700 border-red-200' },
+        ].map(({ label, value, color }) => (
+          <div class={`rounded-lg border px-4 py-3 text-center ${color}`}>
+            <p class="text-2xl font-700 font-mono">{value}</p>
+            <p class="text-xs font-600 mt-0.5">{label}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- DEMOGRAPHICS SECTION -->
+    <section aria-labelledby="demographics" class="mt-12 fade-up">
+      <h2 id="demographics" class="text-2xl font-display font-600 text-brand-900 mb-1">Demographics</h2>
+      <p class="text-brand-500 text-sm mb-6">Source: ONS Census 2021</p>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-6">
+        <div class="card p-4 text-center">
+          <p class="font-mono text-2xl font-700 text-brand-900">{demographics.population.toLocaleString()}</p>
+          <p class="text-xs text-brand-500 mt-1 font-500 uppercase tracking-wide">Population</p>
+        </div>
+        <div class="card p-4 text-center">
+          <p class="font-mono text-2xl font-700 text-brand-900">{demographics.medianAge}</p>
+          <p class="text-xs text-brand-500 mt-1 font-500 uppercase tracking-wide">Median Age</p>
+        </div>
+        <div class="card p-4 text-center">
+          <p class="font-mono text-2xl font-700 text-brand-900">{demographics.ownerOccupied}%</p>
+          <p class="text-xs text-brand-500 mt-1 font-500 uppercase tracking-wide">Owner-Occupied</p>
+        </div>
+        <div class="card p-4 text-center">
+          <p class="font-mono text-2xl font-700 text-brand-900">{demographics.economicallyActive}%</p>
+          <p class="text-xs text-brand-500 mt-1 font-500 uppercase tracking-wide">Economically Active</p>
+        </div>
+      </div>
+
+      <div class="card p-6">
+        <h3 class="font-600 text-brand-900 mb-4">Tenure Type</h3>
+        <BarChart
+          items={[
+            { label: 'Owner-occupied', value: demographics.ownerOccupied },
+            { label: 'Private rent', value: demographics.privateRent },
+            { label: 'Social rent', value: demographics.socialRent },
+          ]}
+          unit="%"
+          label="Tenure breakdown"
+        />
+      </div>
+    </section>
+
+    <!-- BROADBAND SECTION -->
+    <section aria-labelledby="broadband" class="mt-12 fade-up">
+      <h2 id="broadband" class="text-2xl font-display font-600 text-brand-900 mb-1">Broadband &amp; Connectivity</h2>
+      <p class="text-brand-500 text-sm mb-6">Source: Ofcom Connected Nations</p>
+
+      <div class="card p-6">
+        <p class="text-brand-700 leading-relaxed mb-5">{context.broadbandContext}</p>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+          {[
+            { label: 'Avg Download', value: `${broadband.avgDownload.toFixed(1)} Mbps` },
+            { label: 'Avg Upload', value: `${broadband.avgUpload.toFixed(1)} Mbps` },
+            { label: 'Superfast Coverage', value: `${broadband.superfastPct}%` },
+            { label: 'Ultrafast Coverage', value: `${broadband.ultrafastPct}%` },
+            { label: 'Full Fibre (FTTP)', value: `${broadband.fullFibrePct}%` },
+          ].map(item => (
+            <div class="text-center">
+              <p class="font-mono text-xl font-700 text-brand-900">{item.value}</p>
+              <p class="text-xs text-brand-500 mt-0.5 uppercase tracking-wide font-500">{item.label}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- COUNCIL TAX SECTION -->
+    <section aria-labelledby="council-tax" class="mt-12 fade-up">
+      <h2 id="council-tax" class="text-2xl font-display font-600 text-brand-900 mb-1">Council Tax</h2>
+      <p class="text-brand-500 text-sm mb-6">Source: Valuation Office Agency</p>
+
+      <div class="card p-6">
+        <p class="text-brand-700 mb-4">
+          Council tax in {code} is collected by <strong>{councilTax.authority}</strong>.
+          The Band D rate is <strong class="font-mono">£{councilTax.bandD.toLocaleString()}/year</strong>.
+        </p>
+        <BarChart
+          items={Object.entries(councilTax.bands).map(([band, pct]) => ({
+            label: `Band ${band}`,
+            value: pct as number,
+          }))}
+          unit="%"
+          label="Council tax band distribution"
+        />
+      </div>
+    </section>
+
+    <!-- AREA SUMMARY -->
+    <section aria-labelledby="area-summary" id="area-summary" class="mt-12 fade-up">
+      <h2 id="area-summary" class="text-2xl font-display font-600 text-brand-900 mb-6">Area Summary</h2>
+      <SynthesisCard
+        code={code}
+        name={name}
+        summary={context.synthesis}
+        tags={synthesisTag}
+      />
+      <div class="mt-6">
+        <ValuationCTA postcode={code} />
+      </div>
+    </section>
+
+    <!-- NEARBY POSTCODES -->
+    {nearbyPostcodes.length > 0 && (
+      <section aria-labelledby="nearby" class="mt-12 fade-up">
+        <div class="flex items-center justify-between mb-4">
+          <h2 id="nearby" class="text-xl font-display font-600 text-brand-900">Nearby Postcodes</h2>
+          <a href={`/compare/?a=${code}`} class="text-sm text-accent-500 hover:text-accent-400 font-500 transition-colors">
+            Compare areas →
+          </a>
+        </div>
+        <NearbyGrid items={nearbyPostcodes} currentCode={code} />
+      </section>
+    )}
+
+    <!-- METHODOLOGY NOTE -->
+    <aside class="mt-12 mb-8 fade-up">
+      <div class="rounded-xl bg-brand-50 border border-brand-200 p-5">
+        <p class="text-sm text-brand-600">
+          <strong class="text-brand-700">Data sources:</strong> House prices from
+          <a href="https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads" class="text-accent-500 hover:underline" target="_blank" rel="noopener">HM Land Registry</a>
+          under the Open Government Licence. Crime data from
+          <a href="https://data.police.uk/" class="text-accent-500 hover:underline" target="_blank" rel="noopener">data.police.uk</a>.
+          School data from the
+          <a href="https://get-information-schools.service.gov.uk/" class="text-accent-500 hover:underline" target="_blank" rel="noopener">Department for Education</a>.
+          Demographics from the
+          <a href="https://www.ons.gov.uk/census" class="text-accent-500 hover:underline" target="_blank" rel="noopener">ONS Census 2021</a>.
+          Broadband from <a href="https://www.ofcom.org.uk/research-and-data/telecoms-research/connected-nations" class="text-accent-500 hover:underline" target="_blank" rel="noopener">Ofcom</a>.
+          Last updated: {data.meta.lastUpdated}.
+          <a href="/methodology/" class="text-accent-500 hover:underline ml-1">Read our methodology →</a>
+        </p>
+      </div>
+    </aside>
+
+  </article>
+
+</DataPage>

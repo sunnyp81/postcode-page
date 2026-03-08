@@ -1,0 +1,33 @@
+---
+interface NearbyItem {
+  code: string;
+  name: string;
+  avgPrice: number;
+  priceChange1y: number;
+}
+interface Props {
+  items: NearbyItem[];
+  currentCode: string;
+}
+const { items, currentCode } = Astro.props;
+
+function formatPrice(n: number): string {
+  return '£' + (n >= 1000 ? Math.round(n / 1000) + 'K' : n.toString());
+}
+---
+
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+  {items.map(item => (
+    <a
+      href={`/${item.code.toLowerCase()}/`}
+      class="card p-4 hover:-translate-y-0.5 transition-transform duration-200 group block"
+    >
+      <p class="font-mono font-700 text-accent-500 text-sm group-hover:text-accent-400 transition-colors">{item.code}</p>
+      <p class="text-xs text-brand-500 mt-0.5 truncate">{item.name}</p>
+      <p class="font-mono text-brand-800 font-600 text-sm mt-2">{formatPrice(item.avgPrice)}</p>
+      <p class={`text-xs font-500 mt-0.5 ${item.priceChange1y >= 0 ? 'trend-up' : 'trend-down'}`}>
+        {item.priceChange1y >= 0 ? '▲' : '▼'} {Math.abs(item.priceChange1y).toFixed(1)}% YoY
+      </p>
+    </a>
+  ))}
+</div>

@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand palette — deep blue-slate (HSL 210) */
+  --color-brand-50: hsl(210, 40%, 97%);
+  --color-brand-100: hsl(210, 38%, 93%);
+  --color-brand-200: hsl(210, 35%, 85%);
+  --color-brand-300: hsl(210, 32%, 72%);
+  --color-brand-400: hsl(210, 30%, 58%);
+  --color-brand-500: hsl(210, 35%, 45%);
+  --color-brand-600: hsl(210, 40%, 35%);
+  --color-brand-700: hsl(210, 45%, 26%);
+  --color-brand-800: hsl(210, 50%, 18%);
+  --color-brand-900: hsl(210, 55%, 12%);
+  --color-brand-950: hsl(210, 60%, 7%);
+
+  /* Accent palette — teal (HSL 168) */
+  --color-accent-300: hsl(168, 50%, 55%);
+  --color-accent-400: hsl(168, 55%, 45%);
+  --color-accent-500: hsl(168, 60%, 38%);
+  --color-accent-600: hsl(168, 65%, 30%);
+
+  /* Semantic colours */
+  --color-up: hsl(152, 60%, 40%);
+  --color-down: hsl(0, 65%, 55%);
+  --color-neutral-data: hsl(42, 70%, 50%);
+
+  /* Fonts */
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Spacing */
+  --spacing-section: 4rem;
+  --spacing-card: 1.5rem;
+}
+
+/* Base resets */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-brand-50);
+  color: var(--color-brand-800);
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  line-height: 1.2;
+  color: var(--color-brand-900);
+}
+
+h1 { font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 700; letter-spacing: -0.03em; }
+h2 { font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 600; letter-spacing: -0.02em; }
+h3 { font-size: clamp(1.15rem, 2vw, 1.35rem); font-weight: 600; letter-spacing: -0.01em; }
+
+.font-mono { font-family: var(--font-mono); }
+
+/* Dot grid background */
+.dot-grid {
+  background-image: radial-gradient(circle, hsl(210, 35%, 80%) 1px, transparent 1px);
+  background-size: 24px 24px;
+  mask-image: radial-gradient(ellipse at center, black 30%, transparent 80%);
+}
+
+/* Fade-up animation */
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Metric trend colours */
+.trend-up { color: var(--color-up); }
+.trend-down { color: var(--color-down); }
+.trend-neutral { color: var(--color-neutral-data); }
+
+/* Data table */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+.data-table th {
+  text-align: left;
+  padding: 0.75rem 1rem;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-brand-500);
+  border-bottom: 2px solid var(--color-brand-100);
+  background: var(--color-brand-50);
+}
+.data-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--color-brand-100);
+  color: var(--color-brand-700);
+}
+.data-table tr:last-child td { border-bottom: none; }
+.data-table tr:hover td { background: var(--color-brand-50); }
+.data-table .mono { font-family: var(--font-mono); font-size: 0.85rem; }
+
+/* Card */
+.card {
+  background: white;
+  border: 1px solid var(--color-brand-100);
+  border-radius: 12px;
+  box-shadow: 0 1px 3px hsl(210 55% 12% / 0.05), 0 4px 12px hsl(210 55% 12% / 0.04);
+}
+
+/* Scroll-triggered fade */
+@media (prefers-reduced-motion: no-preference) {
+  .fade-up {
+    animation: none;
+  }
+}

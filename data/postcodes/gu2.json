@@ -1,0 +1,116 @@
+{
+  "code": "GU2",
+  "name": "Guildford West",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "coordinates": { "lat": 51.2421, "lng": -0.5921 },
+  "adjacent": ["GU1", "GU3", "GU7"],
+
+  "property": {
+    "avgPrice": 348000,
+    "medianPrice": 312000,
+    "priceChange1y": 7.1,
+    "priceChange5y": 21.4,
+    "transactions12m": 342,
+    "byType": {
+      "detached": { "avg": 650000, "count": 38 },
+      "semi": { "avg": 395000, "count": 112 },
+      "terraced": { "avg": 315000, "count": 98 },
+      "flat": { "avg": 218000, "count": 94 }
+    },
+    "history": [
+      { "year": 2020, "avg": 288000 },
+      { "year": 2021, "avg": 298000 },
+      { "year": 2022, "avg": 312000 },
+      { "year": 2023, "avg": 325000 },
+      { "year": 2024, "avg": 340000 },
+      { "year": 2025, "avg": 348000 }
+    ]
+  },
+
+  "crime": {
+    "totalPer1000": 55.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -31.4,
+    "byType": {
+      "violentCrime": 14.2,
+      "burglary": 3.6,
+      "vehicleCrime": 5.9,
+      "antisocialBehaviour": 12.8,
+      "otherTheft": 8.1,
+      "other": 11.2
+    },
+    "trend12m": -6.1
+  },
+
+  "schools": {
+    "count": 8,
+    "outstanding": 2,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      { "name": "Stoughton Infant School", "type": "Primary", "ofsted": "Good", "distance": 0.4 },
+      { "name": "St Peter's Church of England School", "type": "Primary", "ofsted": "Outstanding", "distance": 0.7 }
+    ]
+  },
+
+  "demographics": {
+    "population": 19800,
+    "medianAge": 41,
+    "ageGroups": { "0-17": 20, "18-34": 20, "35-54": 30, "55-74": 22, "75+": 8 },
+    "ownerOccupied": 66,
+    "socialRent": 10,
+    "privateRent": 24,
+    "economicallyActive": 74
+  },
+
+  "broadband": {
+    "avgDownload": 68.1,
+    "avgUpload": 16.4,
+    "superfastPct": 91,
+    "ultrafastPct": 36,
+    "fullFibrePct": 31
+  },
+
+  "councilTax": {
+    "authority": "Guildford Borough Council",
+    "bandD": 2043,
+    "bands": { "A": 3, "B": 8, "C": 22, "D": 28, "E": 20, "F": 12, "G": 6, "H": 1 }
+  },
+
+  "epc": {
+    "distribution": { "A": 1, "B": 12, "C": 35, "D": 34, "E": 13, "F": 4, "G": 1 },
+    "avgScore": 65
+  },
+
+  "deprivation": {
+    "imdRank": 29100,
+    "imdDecile": 9,
+    "incomeRank": 28500,
+    "employmentRank": 29800
+  },
+
+  "context": {
+    "intro": "GU2 covers the western residential suburbs of Guildford, including the Stoughton and Worplesdon Road areas in Surrey, South East England. It is predominantly a family-oriented residential district with good access to Guildford town centre and the A3.",
+    "priceVsCounty": "The average property price in GU2 is £348,000, which is 7% above the Surrey average of £326,000, reflecting its desirable suburban character and strong local amenities.",
+    "priceVsNational": "Properties in GU2 cost approximately 21% more than the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in GU2 have risen 7.1% over the past 12 months and 21.4% over five years.",
+    "crimeContext": "GU2 has one of the lowest crime rates in the Guildford area, with 55.8 crimes per 1,000 residents — 31% below the national average. Violent crime and burglary rates are among the lowest in Surrey.",
+    "schoolContext": "GU2 has 8 schools within or near its boundaries, including 2 Outstanding-rated and 5 Good-rated schools. The district is well-served for primary education in particular.",
+    "broadbandContext": "Average broadband download speeds in GU2 are 68.1 Mbps, with 91% of premises having access to superfast broadband.",
+    "synthesis": "GU2 offers a quieter, more suburban alternative to GU1 with lower property prices (£348,000), excellent safety credentials (31% below national crime average), and strong school provision. It appeals particularly to families seeking a residential setting with easy access to Guildford's amenities."
+  },
+
+  "comparisons": {
+    "countyAvg": { "price": 326000, "crime": 71.2, "broadband": 65.8 },
+    "regionalAvg": { "price": 345000, "crime": 74.5, "broadband": 68.2 },
+    "nationalAvg": { "price": 287000, "crime": 81.3, "broadband": 59.4 }
+  },
+
+  "meta": {
+    "lastUpdated": "2026-02",
+    "dataSources": ["land-registry-2026-01", "police-uk-2026-01", "gias-2025", "census-2021", "ofcom-2025"]
+  }
+}
