@@ -1,0 +1,201 @@
+---
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/global/Header.astro';
+import Footer from '../../components/global/Footer.astro';
+import { getAllPostcodeSlugs, getPostcodeData } from '../../utils/data';
+import { formatPriceFull } from '../../utils/format';
+
+const allSlugs = getAllPostcodeSlugs();
+const allData = allSlugs
+  .map(s => getPostcodeData(s))
+  .filter(Boolean)
+  .filter(d => d!.crime?.source === 'police-uk' && d!.crime.totalPer1000 > 5 && d!.property.transactions12m >= 20) as NonNullable<ReturnType<typeof getPostcodeData>>[];
+
+// Safest = lowest crime per 1,000
+const safest = [...allData]
+  .sort((a, b) => a.crime.totalPer1000 - b.crime.totalPer1000)
+  .slice(0, 30);
+
+// Highest crime
+const highest = [...allData]
+  .sort((a, b) => b.crime.totalPer1000 - a.crime.totalPer1000)
+  .slice(0, 15);
+
+// By region: average crime
+const regionCrime: Record<string, number[]> = {};
+for (const d of allData) {
+  if (!regionCrime[d.region]) regionCrime[d.region] = [];
+  regionCrime[d.region].push(d.crime.totalPer1000);
+}
+const regionRankings = Object.entries(regionCrime)
+  .map(([region, rates]) => ({
+    region,
+    avgCrime: Math.round(rates.reduce((s, r) => s + r, 0) / rates.length * 10) / 10
+  }))
+  .sort((a, b) => a.avgCrime - b.avgCrime);
+
+const nationalAvg = 81.3;
+---
+<Base
+  title="Safest Areas in England & Wales 2026 — Crime Rates by Postcode District"
+  description="The lowest crime rate postcode districts in England and Wales, ranked by recorded crimes per 1,000 residents. Police.uk data for 2024–25."
+>
+  <Header />
+
+  <div class="relative overflow-hidden bg-brand-950 text-white">
+    <div class="absolute inset-0 opacity-20 dot-grid" aria-hidden="true"/>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <p class="font-mono text-accent-400 text-sm font-500 tracking-widest uppercase mb-2">Property Guide</p>
+      <h1 class="font-display font-700 text-4xl sm:text-5xl text-white tracking-tight leading-tight">Safest Areas in England & Wales 2026</h1>
+      <p class="text-brand-300 text-lg mt-3 max-w-2xl">Postcode districts ranked by recorded crime rate. Based on Police.uk data covering {allData.length.toLocaleString()} postcode districts.</p>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+
+    <!-- Key facts -->
+    <section class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
+      {[
+        { label: 'National average', value: `${nationalAvg} per 1,000` },
+        { label: 'Safest district', value: `${safest[0]?.crime.totalPer1000.toFixed(1)} per 1,000` },
+        { label: 'Safest region', value: regionRankings[0]?.region.replace(/-/g,' ').replace(/\b\w/g, c=>c.toUpperCase()) },
+        { label: 'Data source', value: 'Police.uk 2024–25' },
+      ].map(k => (
+        <div class="bg-white border border-brand-100 rounded-xl p-4 shadow-sm">
+          <p class="text-brand-500 text-xs font-500 uppercase tracking-wide mb-1">{k.label}</p>
+          <p class="font-display font-700 text-xl text-brand-900">{k.value}</p>
+        </div>
+      ))}
+    </section>
+
+    <!-- Intro -->
+    <section class="mb-10 text-brand-600 leading-relaxed space-y-3">
+      <p>Crime is one of the most important factors for many homebuyers, especially families. The England and Wales average of <strong>{nationalAvg} crimes recorded per 1,000 residents per year</strong> (Police.uk / ONS, year ending March 2024) varies enormously by area — from fewer than 15 per 1,000 in the most peaceful rural districts to over 200 in city centres.</p>
+      <p>The figures below are based on <strong>Police.uk street-level crime data</strong> for all postcode districts, expressed as annual crimes per 1,000 estimated residents. Rural and semi-rural areas consistently rank among the safest; major city centres rank among the highest.</p>
+    </section>
+
+    <!-- 30 safest -->
+    <section class="mb-12">
+      <h2 class="font-display font-700 text-2xl text-brand-800 mb-2">30 Safest Postcode Districts</h2>
+      <p class="text-brand-500 text-sm mb-4">Ranked by recorded crimes per 1,000 residents. Source: Police.uk 2024–25.</p>
+      <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-brand-50 border-b border-brand-100">
+              <th class="text-left px-4 py-3 text-brand-600 font-600">Rank</th>
+              <th class="text-left px-4 py-3 text-brand-600 font-600">District</th>
+              <th class="text-left px-4 py-3 text-brand-600 font-600 hidden sm:table-cell">Area</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600">Crime / 1,000</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden md:table-cell">vs National</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden lg:table-cell">Avg Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            {safest.map((d, i) => {
+              const vsNat = ((d.crime.totalPer1000 - nationalAvg) / nationalAvg * 100);
+              return (
+                <tr class={`border-b border-brand-50 hover:bg-brand-50/50 transition-colors ${i % 2 === 0 ? '' : 'bg-brand-50/20'}`}>
+                  <td class="px-4 py-3 text-brand-400 font-mono text-sm">{i + 1}</td>
+                  <td class="px-4 py-3">
+                    <a href={`/${d.code.toLowerCase()}/`} class="text-accent-500 hover:text-accent-600 font-600">{d.code}</a>
+                  </td>
+                  <td class="px-4 py-3 text-brand-500 hidden sm:table-cell capitalize">{d.county.replace(/-/g,' ')}</td>
+                  <td class="px-4 py-3 text-right font-mono font-600 text-green-700">{d.crime.totalPer1000.toFixed(1)}</td>
+                  <td class="px-4 py-3 text-right hidden md:table-cell">
+                    <span class="text-xs font-600 text-accent-600">{vsNat.toFixed(0)}%</span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-mono text-brand-600 hidden lg:table-cell">{formatPriceFull(d.property.avgPrice)}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- By region -->
+    <section class="mb-12">
+      <h2 class="font-display font-700 text-2xl text-brand-800 mb-2">Crime Rate by Region</h2>
+      <p class="text-brand-500 text-sm mb-4">Average recorded crime rate across all postcode districts in each region.</p>
+      <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-brand-50 border-b border-brand-100">
+              <th class="text-left px-4 py-3 text-brand-600 font-600">Region</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600">Avg Crime / 1,000</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden sm:table-cell">vs National Avg</th>
+            </tr>
+          </thead>
+          <tbody>
+            {regionRankings.map((r, i) => {
+              const vsNat = ((r.avgCrime - nationalAvg) / nationalAvg * 100);
+              return (
+                <tr class={`border-b border-brand-50 hover:bg-brand-50/50 transition-colors ${i % 2 === 0 ? '' : 'bg-brand-50/20'}`}>
+                  <td class="px-4 py-3 font-500 text-brand-800 capitalize">{r.region.replace(/-/g,' ')}</td>
+                  <td class="px-4 py-3 text-right font-mono font-600 text-brand-800">{r.avgCrime.toFixed(1)}</td>
+                  <td class="px-4 py-3 text-right hidden sm:table-cell">
+                    <span class={`text-xs font-600 ${vsNat <= 0 ? 'text-green-600' : 'text-red-500'}`}>
+                      {vsNat > 0 ? '+' : ''}{vsNat.toFixed(0)}%
+                    </span>
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Highest crime (reference) -->
+    <section class="mb-12">
+      <h2 class="font-display font-700 text-2xl text-brand-800 mb-2">Highest Crime Rate Districts</h2>
+      <p class="text-brand-500 text-sm mb-4">For reference — city centres typically record the highest rates due to dense footfall.</p>
+      <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-brand-50 border-b border-brand-100">
+              <th class="text-left px-4 py-3 text-brand-600 font-600">District</th>
+              <th class="text-left px-4 py-3 text-brand-600 font-600 hidden sm:table-cell">Area</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600">Crime / 1,000</th>
+            </tr>
+          </thead>
+          <tbody>
+            {highest.map((d, i) => (
+              <tr class={`border-b border-brand-50 hover:bg-brand-50/50 transition-colors ${i % 2 === 0 ? '' : 'bg-brand-50/20'}`}>
+                <td class="px-4 py-3">
+                  <a href={`/${d.code.toLowerCase()}/`} class="text-accent-500 hover:underline font-600">{d.code}</a>
+                </td>
+                <td class="px-4 py-3 text-brand-500 hidden sm:table-cell capitalize">{d.county.replace(/-/g,' ')}</td>
+                <td class="px-4 py-3 text-right font-mono font-600 text-red-600">{d.crime.totalPer1000.toFixed(1)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Commentary -->
+    <section class="mb-10 text-brand-600 leading-relaxed space-y-3">
+      <h2 class="font-display font-700 text-2xl text-brand-800 mb-3">Understanding crime rate figures</h2>
+      <p>Crime rates per 1,000 residents allow fair comparisons across areas of different sizes. However, there are important caveats:</p>
+      <ul class="list-disc pl-5 space-y-2">
+        <li><strong>Footfall vs residents:</strong> City centre postcodes have high daytime populations not counted in resident figures, artificially elevating the rate per 1,000 residents. A city centre ranking highly does not mean residents face proportionally more crime than that number suggests.</li>
+        <li><strong>Under-reporting:</strong> Minor crimes, particularly some forms of anti-social behaviour, are significantly under-reported in some areas. Rural areas may appear safer in part because fewer incidents are formally reported.</li>
+        <li><strong>Crime type matters:</strong> A high overall rate driven by shoplifting affects visitors more than residents. Check individual postcode pages for a breakdown by crime type.</li>
+      </ul>
+    </section>
+
+    <!-- CTA -->
+    <section class="bg-accent-50 border border-accent-200 rounded-xl p-6 text-center">
+      <h3 class="font-display font-700 text-lg text-brand-900 mb-2">Check crime for any postcode</h3>
+      <p class="text-brand-500 text-sm mb-4">See full crime breakdown — by type, vs national average — for any UK postcode district.</p>
+      <form action="/search" method="get" class="flex gap-2 max-w-sm mx-auto">
+        <input name="q" type="text" placeholder="Enter postcode e.g. GU1" class="flex-1 px-4 py-2 border border-brand-200 rounded-lg text-sm focus:outline-none focus:border-accent-400" />
+        <button type="submit" class="bg-accent-500 text-white px-4 py-2 rounded-lg text-sm font-600 hover:bg-accent-600 transition-colors">Search</button>
+      </form>
+    </section>
+
+  </main>
+
+  <Footer />
+</Base>

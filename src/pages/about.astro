@@ -3,16 +3,42 @@ import Base from '../layouts/Base.astro';
 import Header from '../components/global/Header.astro';
 import Footer from '../components/global/Footer.astro';
 ---
-<Base title="About — postcode.page" description="About postcode.page — free UK postcode data.">
+<Base title="About — postcode.page" description="Free, comprehensive UK postcode data from official government sources. Property prices, crime, schools, and more for every postcode district.">
   <Header />
-  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
-    <h1>About postcode.page</h1>
-    <p class="text-brand-600 mt-4 max-w-2xl leading-relaxed">
-      postcode.page is a free resource providing comprehensive data for every UK postcode district. Our data is sourced from official UK government datasets and updated monthly.
-    </p>
-    <p class="text-brand-600 mt-4 max-w-2xl leading-relaxed">
-      Contact: <a href="mailto:hello@postcode.page" class="text-accent-500 hover:underline">hello@postcode.page</a>
-    </p>
+
+  <div class="relative overflow-hidden bg-brand-950 text-white">
+    <div class="absolute inset-0 opacity-20 dot-grid" aria-hidden="true"/>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <p class="font-mono text-accent-400 text-sm font-500 tracking-widest uppercase mb-2">About</p>
+      <h1 class="font-display font-700 text-4xl sm:text-5xl text-white tracking-tight leading-tight">postcode.page</h1>
+      <p class="text-brand-300 text-lg mt-3 max-w-xl">Free property prices, crime rates, school data, and demographics for every UK postcode district.</p>
+    </div>
+  </div>
+
+  <main class="max-w-3xl mx-auto px-4 sm:px-6 py-12 space-y-8">
+    <section>
+      <h2 class="font-display font-700 text-xl text-brand-900 mb-3">What is postcode.page?</h2>
+      <p class="text-brand-600 leading-relaxed">postcode.page is a free reference tool providing comprehensive data for every postcode district in England and Wales. We combine multiple official UK government datasets into a single, readable page — so you can research any area without hunting across five different government websites.</p>
+    </section>
+
+    <section>
+      <h2 class="font-display font-700 text-xl text-brand-900 mb-3">Our data sources</h2>
+      <p class="text-brand-600 leading-relaxed mb-3">All data is sourced from official UK government datasets published under the Open Government Licence v3.0, updated monthly:</p>
+      <ul class="space-y-1.5 text-brand-600 list-disc list-inside">
+        <li>HM Land Registry Price Paid Data — all residential property sales</li>
+        <li>DfE Get Information About Schools (GIAS) — school details and Ofsted ratings</li>
+        <li>ONS Census 2021 — population and demographic statistics</li>
+        <li>Ofcom Connected Nations — broadband infrastructure and speeds</li>
+        <li>Valuation Office Agency — council tax band distributions</li>
+        <li>MHCLG Open EPC Register — Energy Performance Certificate data</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="font-display font-700 text-xl text-brand-900 mb-3">Get in touch</h2>
+      <p class="text-brand-600 leading-relaxed">Questions, corrections, or partnership enquiries: <a href="mailto:hello@postcode.page" class="text-accent-500 hover:text-accent-600 transition-colors">hello@postcode.page</a></p>
+    </section>
   </main>
+
   <Footer />
 </Base>

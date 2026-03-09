@@ -1,0 +1,171 @@
+---
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/global/Header.astro';
+import Footer from '../../components/global/Footer.astro';
+import TrendChart from '../../components/data/TrendChart.astro';
+import { getPostcodeData } from '../../utils/data';
+import { formatPriceFull } from '../../utils/format';
+import { readFileSync, readdirSync, existsSync } from 'node:fs';
+import { join } from 'node:path';
+
+export async function getStaticPaths() {
+  const sectorsDir = join(process.cwd(), 'data', 'sectors');
+  if (!existsSync(sectorsDir)) return [];
+  const files = readdirSync(sectorsDir).filter(f => f.endsWith('.json'));
+  return files.map(f => {
+    const data = JSON.parse(readFileSync(join(sectorsDir, f), 'utf-8'));
+    return {
+      params: {
+        postcode: data.outcode.toLowerCase(),
+        sector: data.sectorNum,
+      },
+      props: { sectorData: data },
+    };
+  });
+}
+
+const { postcode, sector } = Astro.params;
+const { sectorData } = Astro.props;
+
+// Get parent district data for context
+const districtData = getPostcodeData(postcode!);
+
+const sectorLabel = `${sectorData.outcode} ${sectorData.sectorNum}`;
+const districtName = districtData?.name || sectorData.outcode;
+const county = districtData?.county || '';
+const region = districtData?.region || '';
+
+const nationalAvg = 287000;
+const vsNational = ((sectorData.property.avgPrice - nationalAvg) / nationalAvg * 100);
+---
+
+<Base
+  title={`${sectorLabel} House Prices 2026 — Average Property Price`}
+  description={`Average house price in ${sectorLabel} (${districtName}) is ${formatPriceFull(sectorData.property.avgPrice)} based on ${sectorData.property.transactions12m} recent sales. Price trends and breakdown by property type.`}
+>
+  <Header />
+
+  <div class="relative overflow-hidden bg-brand-950 text-white">
+    <div class="absolute inset-0 opacity-20 dot-grid" aria-hidden="true"/>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <nav class="flex items-center gap-2 text-brand-400 text-sm mb-4">
+        <a href="/" class="hover:text-accent-400 transition-colors">Home</a>
+        <span>/</span>
+        <a href={`/${postcode}/`} class="hover:text-accent-400 transition-colors">{sectorData.outcode}</a>
+        <span>/</span>
+        <span class="text-brand-300">{sectorLabel}</span>
+      </nav>
+      <p class="font-mono text-accent-400 text-sm font-500 tracking-widest uppercase mb-2">Postcode Sector</p>
+      <h1 class="font-display font-700 text-5xl sm:text-6xl text-white tracking-tight leading-none font-mono">{sectorLabel}</h1>
+      <p class="text-xl text-brand-300 mt-2 font-display font-600">{districtName}</p>
+      {county && <p class="text-brand-400 text-sm mt-1 capitalize">{county.replace(/-/g, ' ')}, England</p>}
+
+      <div class="flex flex-wrap gap-x-8 gap-y-2 mt-6 text-sm">
+        <div>
+          <span class="text-brand-500">Avg price</span>
+          <span class="ml-2 font-mono font-600 text-white">{formatPriceFull(sectorData.property.avgPrice)}</span>
+        </div>
+        {sectorData.property.priceChange1y !== null && (
+          <div>
+            <span class="text-brand-500">1yr change</span>
+            <span class={`ml-2 font-mono font-600 ${sectorData.property.priceChange1y >= 0 ? 'text-green-400' : 'text-red-400'}`}>
+              {sectorData.property.priceChange1y >= 0 ? '▲' : '▼'} {Math.abs(sectorData.property.priceChange1y).toFixed(1)}%
+            </span>
+          </div>
+        )}
+        <div>
+          <span class="text-brand-500">Sales</span>
+          <span class="ml-2 font-mono font-600 text-white">{sectorData.property.transactions12m}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+
+    <!-- Key stats -->
+    <section class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
+      {[
+        { label: 'Average price', value: formatPriceFull(sectorData.property.avgPrice) },
+        { label: 'Median price', value: formatPriceFull(sectorData.property.medianPrice) },
+        { label: 'vs national avg', value: `${vsNational > 0 ? '+' : ''}${vsNational.toFixed(0)}%` },
+        { label: 'Recent sales', value: sectorData.property.transactions12m.toLocaleString() },
+      ].map(k => (
+        <div class="bg-white border border-brand-100 rounded-xl p-4 shadow-sm">
+          <p class="text-brand-500 text-xs font-500 uppercase tracking-wide mb-1">{k.label}</p>
+          <p class="font-display font-700 text-xl text-brand-900">{k.value}</p>
+        </div>
+      ))}
+    </section>
+
+    <!-- Price by type -->
+    {Object.keys(sectorData.property.byType).length > 0 && (
+      <section class="mb-10">
+        <h2 class="font-display font-700 text-2xl text-brand-800 mb-4">Price by Property Type</h2>
+        <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="bg-brand-50 border-b border-brand-100">
+                <th class="text-left px-4 py-3 text-brand-600 font-600">Type</th>
+                <th class="text-right px-4 py-3 text-brand-600 font-600">Avg Price</th>
+                <th class="text-right px-4 py-3 text-brand-600 font-600 hidden sm:table-cell">Sales</th>
+              </tr>
+            </thead>
+            <tbody>
+              {Object.entries(sectorData.property.byType).map(([type, stats]: [string, any], i) => (
+                <tr class={`border-b border-brand-50 ${i % 2 === 0 ? '' : 'bg-brand-50/20'}`}>
+                  <td class="px-4 py-3 capitalize font-500">
+                    {type === 'semi' ? 'Semi-detached' : type.charAt(0).toUpperCase() + type.slice(1)}
+                  </td>
+                  <td class="px-4 py-3 text-right font-mono font-600 text-brand-800">{formatPriceFull(stats.avg)}</td>
+                  <td class="px-4 py-3 text-right text-brand-500 hidden sm:table-cell">{stats.count}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    )}
+
+    <!-- Price history chart -->
+    {sectorData.property.history.length >= 3 && (
+      <section class="mb-10">
+        <h2 class="font-display font-700 text-2xl text-brand-800 mb-4">Price History</h2>
+        <div class="bg-white border border-brand-100 rounded-xl p-6 shadow-sm">
+          <TrendChart data={sectorData.property.history} label="Average property price" />
+        </div>
+      </section>
+    )}
+
+    <!-- Parent district + guides -->
+    <section class="mb-10">
+      <h2 class="font-display font-700 text-xl text-brand-800 mb-4">Explore {sectorData.outcode}</h2>
+      <div class="grid sm:grid-cols-2 gap-3">
+        <a href={`/${postcode}/`} class="bg-white border border-brand-100 rounded-xl p-4 shadow-sm hover:border-accent-300 transition-all group">
+          <p class="text-xs font-600 text-accent-500 uppercase tracking-wide mb-1">District Profile</p>
+          <p class="font-display font-600 text-brand-900 group-hover:text-accent-500 transition-colors">{sectorData.outcode} — Full area data</p>
+          <p class="text-brand-500 text-sm mt-1">Crime, schools, broadband, demographics and council tax.</p>
+        </a>
+        {county && (
+          <a href={`/guides/${county}-house-prices/`} class="bg-white border border-brand-100 rounded-xl p-4 shadow-sm hover:border-accent-300 transition-all group">
+            <p class="text-xs font-600 text-accent-500 uppercase tracking-wide mb-1">County Guide</p>
+            <p class="font-display font-600 text-brand-900 group-hover:text-accent-500 transition-colors capitalize">{county.replace(/-/g, ' ')} House Prices</p>
+            <p class="text-brand-500 text-sm mt-1">Compare all postcode districts in {county.replace(/-/g, ' ')}.</p>
+          </a>
+        )}
+      </div>
+    </section>
+
+    <!-- Other sectors in same district -->
+    <section>
+      <p class="text-sm text-brand-500 mt-8 p-4 bg-brand-50 rounded-xl border border-brand-100">
+        <strong class="text-brand-700">Data source:</strong> House prices from HM Land Registry Price Paid Data under the Open Government Licence.
+        Sector data is aggregated from recent residential sales.
+        <a href="/methodology/" class="text-accent-500 hover:underline ml-1">Read our methodology →</a>
+      </p>
+    </section>
+
+  </main>
+
+  <Footer />
+</Base>

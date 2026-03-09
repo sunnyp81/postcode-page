@@ -2,12 +2,103 @@
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/global/Header.astro';
 import Footer from '../../components/global/Footer.astro';
+import { getAllRegions } from '../../utils/data';
+import { formatPriceFull } from '../../utils/format';
+
+const regions = getAllRegions();
 ---
-<Base title="Property Guides — postcode.page" description="UK property and area guides from postcode.page.">
+<Base title="Property Guides — postcode.page" description="UK property guides: cheapest and most expensive areas, best places for families, house price trends by region and county. Data from official UK sources.">
   <Header />
+
+  <div class="relative overflow-hidden bg-brand-950 text-white">
+    <div class="absolute inset-0 opacity-20 dot-grid" aria-hidden="true"/>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <p class="font-mono text-accent-400 text-sm font-500 tracking-widest uppercase mb-2">Guides</p>
+      <h1 class="font-display font-700 text-4xl sm:text-5xl text-white tracking-tight leading-tight">Property Guides</h1>
+      <p class="text-brand-300 text-lg mt-3 max-w-xl">In-depth guides to help you research, compare, and understand UK property areas.</p>
+    </div>
+  </div>
+
   <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
-    <h1>Property Guides</h1>
-    <p>Coming soon — <a href="/">return home</a>.</p>
+
+    <!-- Region price comparison — available now -->
+    <section class="mb-12">
+      <h2 class="font-display font-700 text-2xl text-brand-800 mb-2">Average House Prices by Region</h2>
+      <p class="text-brand-500 text-sm mb-6">Based on HM Land Registry Price Paid data, updated monthly.</p>
+      <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-brand-50 border-b border-brand-100">
+              <th class="text-left px-4 py-3 text-brand-600 font-600">Region</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600">Avg Price</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden sm:table-cell">vs National avg</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden md:table-cell">Districts</th>
+            </tr>
+          </thead>
+          <tbody>
+            {regions.map((r, i) => {
+              const vsNat = ((r.avgPrice - 287000) / 287000 * 100);
+              return (
+                <tr class={`border-b border-brand-50 hover:bg-brand-50/50 transition-colors ${i % 2 === 0 ? '' : 'bg-brand-50/30'}`}>
+                  <td class="px-4 py-3">
+                    <a href={`/regions/${r.slug}/`} class="text-accent-500 hover:text-accent-600 font-500 transition-colors">{r.label}</a>
+                  </td>
+                  <td class="px-4 py-3 text-right font-mono font-600 text-brand-800">{formatPriceFull(r.avgPrice)}</td>
+                  <td class="px-4 py-3 text-right hidden sm:table-cell">
+                    <span class={`text-xs font-600 ${vsNat > 0 ? 'text-brand-600' : 'text-accent-600'}`}>
+                      {vsNat > 0 ? '+' : ''}{vsNat.toFixed(0)}%
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right text-brand-500 hidden md:table-cell">{r.totalPostcodes}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Published guides -->
+    <section class="mb-12">
+      <h2 class="font-display font-700 text-2xl text-brand-800 mb-2">Property Guides</h2>
+      <p class="text-brand-500 text-sm mb-6">Data-driven guides from official UK sources, updated regularly.</p>
+      <div class="grid sm:grid-cols-2 gap-4">
+        {[
+          { href: '/guides/average-house-price-uk/', title: 'Average House Price in the UK 2026', desc: 'National, regional, county, and postcode-level averages from HM Land Registry Price Paid data.', tag: 'House Prices' },
+          { href: '/guides/cheapest-places-to-live-england/', title: 'Cheapest Places to Live in England 2026', desc: 'The 30 most affordable postcode districts, ranked by average price with regional breakdowns.', tag: 'Affordability' },
+          { href: '/guides/safest-areas-england-wales/', title: 'Safest Areas in England & Wales 2026', desc: 'Lowest crime rate postcode districts, ranked by Police.uk recorded crimes per 1,000 residents.', tag: 'Crime & Safety' },
+          { href: '/guides/best-areas-for-families/', title: 'Best Areas for Families 2026', desc: 'Top districts for families — scored on Ofsted school ratings, crime rates, and house prices combined.', tag: 'Family Living' },
+          { href: '/guides/fastest-rising-house-prices/', title: 'Fastest-Rising House Prices 2026', desc: '1-year and 5-year price growth ranked by postcode district. Where is momentum building?', tag: 'Price Trends' },
+        ].map(g => (
+          <a href={g.href} class="bg-white border border-brand-100 rounded-xl p-5 shadow-sm hover:border-accent-300 hover:shadow-md transition-all group block">
+            <span class="text-xs font-600 text-accent-500 uppercase tracking-wide">{g.tag}</span>
+            <h3 class="font-display font-600 text-brand-900 mt-1 mb-2 group-hover:text-accent-500 transition-colors">{g.title}</h3>
+            <p class="text-brand-500 text-sm">{g.desc}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- County guides -->
+    <section class="mb-12">
+      <h2 class="font-display font-700 text-2xl text-brand-800 mb-2">House Prices by County</h2>
+      <p class="text-brand-500 text-sm mb-6">Average house prices across every postcode district in each county.</p>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
+        {[
+          'surrey', 'kent', 'hampshire', 'essex', 'hertfordshire',
+          'west-yorkshire', 'west-midlands', 'greater-manchester',
+          'lancashire', 'county-durham', 'norfolk', 'suffolk',
+          'oxfordshire', 'buckinghamshire', 'berkshire',
+          'somerset', 'devon', 'cornwall',
+        ].map(slug => (
+          <a href={`/guides/${slug}-house-prices/`} class="bg-white border border-brand-100 rounded-lg px-4 py-3 shadow-sm hover:border-accent-300 hover:shadow-md transition-all text-sm font-500 text-brand-700 hover:text-accent-600 capitalize">
+            {slug.replace(/-/g,' ')} →
+          </a>
+        ))}
+      </div>
+    </section>
+
   </main>
+
   <Footer />
 </Base>

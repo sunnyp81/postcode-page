@@ -4,28 +4,19 @@ const currentYear = new Date().getFullYear();
 const regions = [
   { label: 'South East', href: '/regions/south-east/' },
   { label: 'London', href: '/regions/london/' },
-  { label: 'North West', href: '/regions/north-west/' },
-  { label: 'Yorkshire', href: '/regions/yorkshire/' },
-  { label: 'East Midlands', href: '/regions/east-midlands/' },
-  { label: 'West Midlands', href: '/regions/west-midlands/' },
-  { label: 'South West', href: '/regions/south-west/' },
   { label: 'East of England', href: '/regions/east-of-england/' },
-  { label: 'North East', href: '/regions/north-east/' },
-  { label: 'Wales', href: '/regions/wales/' },
+  { label: 'East Midlands', href: '/regions/east-midlands/' },
+  { label: 'South West', href: '/regions/south-west/' },
+  { label: 'Yorkshire', href: '/regions/yorkshire/' },
+  { label: 'All Regions', href: '/regions/' },
 ];
 
 const tools = [
-  { label: 'Postcode Lookup', href: '/tools/postcode-lookup/' },
-  { label: 'Area Comparison', href: '/tools/area-comparison/' },
-  { label: 'Affordability Calculator', href: '/tools/affordability-calculator/' },
-  { label: 'Stamp Duty Calculator', href: '/tools/stamp-duty-calculator/' },
+  { label: 'Area Research Tools', href: '/tools/' },
 ];
 
 const guides = [
-  { label: 'Cheapest Places to Live', href: '/guides/cheapest-places-to-live-uk/' },
-  { label: 'Safest Places to Live', href: '/guides/safest-places-to-live-uk/' },
-  { label: 'Best Areas for Families', href: '/guides/best-places-for-families-uk/' },
-  { label: 'Average UK House Price', href: '/guides/average-house-price-uk/' },
+  { label: 'Property Guides', href: '/guides/' },
 ];
 ---
 
@@ -38,9 +29,12 @@ const guides = [
       <!-- Brand -->
       <div class="col-span-2 sm:col-span-1">
         <a href="/" class="inline-flex items-center gap-2 mb-3">
-          <svg width="24" height="24" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="28" height="28" rx="6" fill="hsl(168, 55%, 45%)"/>
-            <text x="4" y="20" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700" fill="white">PC</text>
+          <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="32" height="32" rx="7" fill="hsl(168, 55%, 45%)"/>
+            <rect x="7" y="7" width="8" height="8" rx="2" fill="white"/>
+            <rect x="17" y="7" width="8" height="8" rx="2" fill="white" opacity="0.7"/>
+            <rect x="7" y="17" width="8" height="8" rx="2" fill="white" opacity="0.7"/>
+            <rect x="17" y="17" width="8" height="8" rx="2" fill="white" opacity="0.4"/>
           </svg>
           <span class="font-display font-700 text-white text-sm">postcode<span class="text-accent-400">.page</span></span>
         </a>
@@ -81,11 +75,10 @@ const guides = [
       <div>
         <h3 class="text-white font-600 text-sm mb-3">Data Sources</h3>
         <ul class="space-y-1.5">
-          <li><a href="/methodology/house-price-data/" class="text-sm text-brand-400 hover:text-white transition-colors">HM Land Registry</a></li>
-          <li><a href="/methodology/crime-data/" class="text-sm text-brand-400 hover:text-white transition-colors">data.police.uk</a></li>
-          <li><a href="/methodology/school-data/" class="text-sm text-brand-400 hover:text-white transition-colors">DfE Schools Data</a></li>
-          <li><a href="/methodology/demographic-data/" class="text-sm text-brand-400 hover:text-white transition-colors">ONS Census 2021</a></li>
-          <li><a href="/methodology/broadband-data/" class="text-sm text-brand-400 hover:text-white transition-colors">Ofcom Data</a></li>
+          <li><a href="/methodology/" class="text-sm text-brand-400 hover:text-white transition-colors">HM Land Registry</a></li>
+          <li><a href="/methodology/" class="text-sm text-brand-400 hover:text-white transition-colors">data.police.uk</a></li>
+          <li><a href="/methodology/" class="text-sm text-brand-400 hover:text-white transition-colors">DfE Schools Data</a></li>
+          <li><a href="/methodology/" class="text-sm text-brand-400 hover:text-white transition-colors">ONS Census 2021</a></li>
           <li><a href="/methodology/" class="text-sm text-brand-400 hover:text-white transition-colors">Our Methodology</a></li>
         </ul>
 

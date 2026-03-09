@@ -1,117 +1,197 @@
 {
   "code": "GU1",
-  "name": "Guildford Town Centre",
+  "name": "GUILDFORD",
   "county": "surrey",
   "region": "south-east",
   "city": "guildford",
-  "coordinates": { "lat": 51.2362, "lng": -0.5704 },
-  "adjacent": ["GU2", "GU3", "GU4"],
-
+  "adjacent": [
+    "GU2",
+    "GU3"
+  ],
   "property": {
-    "avgPrice": 385000,
-    "medianPrice": 342500,
-    "priceChange1y": 8.3,
-    "priceChange5y": 24.1,
-    "transactions12m": 487,
+    "avgPrice": 668263,
+    "medianPrice": 460000,
+    "priceChange1y": -6,
+    "priceChange5y": 0,
+    "transactions12m": 1502,
     "byType": {
-      "detached": { "avg": 725000, "count": 42 },
-      "semi": { "avg": 445000, "count": 98 },
-      "terraced": { "avg": 365000, "count": 134 },
-      "flat": { "avg": 245000, "count": 213 }
+      "detached": {
+        "avg": 1257612,
+        "count": 263
+      },
+      "semi": {
+        "avg": 570654,
+        "count": 400
+      },
+      "terraced": {
+        "avg": 579109,
+        "count": 185
+      },
+      "flat": {
+        "avg": 307380,
+        "count": 589
+      }
     },
     "history": [
-      { "year": 2020, "avg": 310000 },
-      { "year": 2021, "avg": 325000 },
-      { "year": 2022, "avg": 340000 },
-      { "year": 2023, "avg": 355500 },
-      { "year": 2024, "avg": 370000 },
-      { "year": 2025, "avg": 385000 }
+      {
+        "year": 2023,
+        "avg": 752642
+      },
+      {
+        "year": 2024,
+        "avg": 644751
+      },
+      {
+        "year": 2025,
+        "avg": 606376
+      }
     ]
   },
-
   "crime": {
-    "totalPer1000": 62.4,
+    "totalPer1000": 148.1,
     "nationalAvgPer1000": 81.3,
-    "vsNational": -23.2,
+    "vsNational": 82.2,
     "byType": {
-      "violentCrime": 18.2,
-      "burglary": 4.1,
-      "vehicleCrime": 6.8,
-      "antisocialBehaviour": 14.3,
-      "otherTheft": 9.2,
-      "other": 9.8
+      "violentCrime": 56.5,
+      "burglary": 2.6,
+      "vehicleCrime": 2.3,
+      "antisocialBehaviour": 18.4,
+      "otherTheft": 33.4,
+      "other": 34.9
     },
-    "trend12m": -4.2
+    "source": "police-uk",
+    "trend12m": null
   },
-
   "schools": {
-    "count": 12,
-    "outstanding": 3,
-    "good": 7,
-    "requiresImprovement": 2,
+    "count": 17,
+    "outstanding": 2,
+    "good": 3,
+    "requiresImprovement": 0,
     "inadequate": 0,
     "nearest": [
-      { "name": "Guildford Grove Primary School", "type": "Primary", "ofsted": "Outstanding", "distance": 0.3 },
-      { "name": "George Abbot School", "type": "Secondary", "ofsted": "Good", "distance": 0.8 },
-      { "name": "Holy Trinity Church of England Primary", "type": "Primary", "ofsted": "Outstanding", "distance": 1.1 }
+      {
+        "name": "Merrow Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holy Trinity, Guildford, CofE Aided Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Guildford High School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tormead School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Royal Grammar School Guildford",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
     ]
   },
-
   "demographics": {
-    "population": 24500,
-    "medianAge": 38,
-    "ageGroups": { "0-17": 22, "18-34": 24, "35-54": 28, "55-74": 18, "75+": 8 },
-    "ownerOccupied": 58,
-    "socialRent": 14,
-    "privateRent": 28,
-    "economicallyActive": 76
+    "population": 151359,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
   },
-
   "broadband": {
-    "avgDownload": 72.4,
-    "avgUpload": 18.6,
-    "superfastPct": 94,
-    "ultrafastPct": 42,
-    "fullFibrePct": 38
+    "avgDownload": 328,
+    "avgUpload": 59,
+    "superfastPct": 98,
+    "ultrafastPct": 86,
+    "gigabitPct": 77,
+    "fullFibrePct": 0,
+    "source": "ofcom"
   },
-
   "councilTax": {
-    "authority": "Guildford Borough Council",
-    "bandD": 2043,
-    "bands": { "A": 5, "B": 12, "C": 28, "D": 22, "E": 15, "F": 10, "G": 6, "H": 2 }
+    "authority": "Guildford",
+    "bandD": 2215,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
   },
-
   "epc": {
-    "distribution": { "A": 2, "B": 14, "C": 38, "D": 32, "E": 10, "F": 3, "G": 1 },
-    "avgScore": 68
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
   },
-
   "deprivation": {
-    "imdRank": 28450,
-    "imdDecile": 9,
-    "incomeRank": 27800,
-    "employmentRank": 29100
+    "imdScore": 9.4,
+    "imdRank": 7197,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
   },
-
   "context": {
-    "intro": "GU1 covers Guildford town centre and its immediate surroundings in Surrey, South East England. It is one of Surrey's most established residential and commercial postcode districts, combining Victorian and Edwardian housing with modern apartment developments.",
-    "priceVsCounty": "The average property price in GU1 is £385,000, which is 18% above the Surrey average of £326,000, reflecting the premium placed on Guildford's town centre location and strong commuter links to London Waterloo.",
-    "priceVsNational": "Properties in GU1 cost approximately 34% more than the England and Wales national average of £287,000, positioning it firmly in the above-average tier for UK property prices.",
-    "priceTrend": "House prices in GU1 have risen 8.3% over the past 12 months and 24.1% over five years, outperforming both the Surrey average and national house price growth over the same period.",
-    "crimeContext": "With 62.4 recorded crimes per 1,000 residents, GU1 has a crime rate 23% below the national average of 81.3 per 1,000. All major crime categories — including violent crime, burglary, and vehicle crime — sit below national averages, making GU1 one of Surrey's safer postcode districts.",
-    "schoolContext": "GU1 has 12 schools within or close to its boundaries, including 3 rated Outstanding by Ofsted and 7 rated Good. This gives families a strong selection of high-performing schools, particularly at primary level.",
-    "broadbandContext": "Average broadband download speeds in GU1 are 72.4 Mbps, with 94% of premises having access to superfast broadband (>30 Mbps) and 38% able to access full fibre (FTTP) connections.",
-    "synthesis": "GU1 combines above-average property prices (£385,000, 34% above national average) with notably low crime (23% below national average), strong school ratings (3 Outstanding-rated schools), and reliable broadband connectivity (72 Mbps average). It is one of Surrey's most desirable postcode districts for families and professionals seeking excellent commuter links to London."
+    "intro": "GU1 is the postcode district for GUILDFORD, located in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU1 is £668,263, which is 9% above the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU1 cost 132.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU1 have fallen 6.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 148.1 recorded crimes per 1,000 residents, GU1 has a crime rate significantly 82% above the national average of 81.3 per 1,000.",
+    "schoolContext": "GU1 has 17 schools within or near its boundaries, including 2 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU1 are 328.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU1 (GUILDFORD) offers above-average property prices (£668,263, 133% above national average), higher-than-average crime (82% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (328 Mbps average)."
   },
-
   "comparisons": {
-    "countyAvg": { "price": 326000, "crime": 71.2, "broadband": 65.8 },
-    "regionalAvg": { "price": 345000, "crime": 74.5, "broadband": 68.2 },
-    "nationalAvg": { "price": 287000, "crime": 81.3, "broadband": 59.4 }
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 328
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 328
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
   },
-
   "meta": {
-    "lastUpdated": "2026-02",
-    "dataSources": ["land-registry-2026-01", "police-uk-2026-01", "gias-2025", "census-2021", "ofcom-2025"]
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
   }
 }

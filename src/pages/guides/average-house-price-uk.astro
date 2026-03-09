@@ -1,0 +1,354 @@
+---
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/global/Header.astro';
+import Footer from '../../components/global/Footer.astro';
+import { getAllRegions, getAllCountyData, getAllPostcodeSlugs, getPostcodeData } from '../../utils/data';
+import { formatPriceFull } from '../../utils/format';
+
+const regions = getAllRegions().sort((a, b) => b.avgPrice - a.avgPrice);
+const counties = getAllCountyData().sort((a, b) => b.avgPrice - a.avgPrice);
+const nationalAvg = 287000;
+
+// Most and least expensive counties
+const topCounties = counties.slice(0, 10);
+const cheapestCounties = [...counties].sort((a, b) => a.avgPrice - b.avgPrice).slice(0, 10);
+
+// Most and least expensive postcode districts
+const allSlugs = getAllPostcodeSlugs();
+const allPostcodes = allSlugs
+  .map(s => getPostcodeData(s))
+  .filter(Boolean)
+  .filter(d => d!.property.transactions12m >= 10) as NonNullable<ReturnType<typeof getPostcodeData>>[];
+
+const mostExpensive = [...allPostcodes]
+  .sort((a, b) => b.property.avgPrice - a.property.avgPrice)
+  .slice(0, 10);
+
+const cheapest = [...allPostcodes]
+  .sort((a, b) => a.property.avgPrice - b.property.avgPrice)
+  .slice(0, 10);
+
+const pageTitle = 'Average House Price in the UK 2026 — By Region, County & Postcode';
+const metaDescription = `The average house price in the UK is £287,000 (March 2026). Explore average property prices by region, county, and postcode district — from the cheapest to the most expensive areas in England and Wales.`;
+---
+
+<Base title={pageTitle} description={metaDescription}>
+  <Header />
+
+  <!-- Hero -->
+  <div class="relative overflow-hidden bg-brand-950 text-white">
+    <div class="absolute inset-0 opacity-15 dot-grid" aria-hidden="true"/>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <nav class="flex items-center gap-2 text-xs text-brand-500 mb-4" aria-label="Breadcrumb">
+        <a href="/" class="hover:text-brand-300 transition-colors">Home</a>
+        <span>/</span>
+        <a href="/guides/" class="hover:text-brand-300 transition-colors">Guides</a>
+        <span>/</span>
+        <span class="text-brand-400">Average House Price UK</span>
+      </nav>
+      <p class="font-mono text-accent-400 text-sm font-500 tracking-widest uppercase mb-2">Property Guide · March 2026</p>
+      <h1 class="font-display font-700 text-4xl sm:text-5xl text-white tracking-tight leading-tight max-w-3xl">
+        Average House Price in the UK 2026
+      </h1>
+      <p class="text-brand-300 text-lg mt-3 max-w-2xl">
+        By region, county, and postcode district — based on HM Land Registry Price Paid data.
+      </p>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+
+    <!-- Key stat -->
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12">
+      <div class="bg-white border border-brand-100 rounded-xl p-6 shadow-sm text-center">
+        <p class="text-xs text-brand-400 font-500 uppercase tracking-wide mb-1">UK National Average</p>
+        <p class="font-mono font-700 text-brand-900 text-3xl">{formatPriceFull(nationalAvg)}</p>
+        <p class="text-xs text-brand-400 mt-1">England &amp; Wales · March 2026</p>
+      </div>
+      <div class="bg-white border border-brand-100 rounded-xl p-6 shadow-sm text-center">
+        <p class="text-xs text-brand-400 font-500 uppercase tracking-wide mb-1">Most Expensive Region</p>
+        <p class="font-mono font-700 text-brand-900 text-3xl">{formatPriceFull(regions[0]?.avgPrice ?? 0)}</p>
+        <p class="text-xs text-brand-400 mt-1">{regions[0]?.label ?? 'London'}</p>
+      </div>
+      <div class="bg-white border border-brand-100 rounded-xl p-6 shadow-sm text-center">
+        <p class="text-xs text-brand-400 font-500 uppercase tracking-wide mb-1">Most Affordable Region</p>
+        <p class="font-mono font-700 text-brand-900 text-3xl">{formatPriceFull(regions.at(-1)?.avgPrice ?? 0)}</p>
+        <p class="text-xs text-brand-400 mt-1">{regions.at(-1)?.label ?? 'North East'}</p>
+      </div>
+    </div>
+
+    <!-- Introduction -->
+    <div class="mb-12">
+      <h2 class="font-display font-700 text-2xl text-brand-900 mb-3">What is the average house price in the UK?</h2>
+      <p class="text-brand-600 leading-relaxed mb-4">
+        The average house price in England and Wales is <strong>{formatPriceFull(nationalAvg)}</strong> as of March 2026,
+        based on HM Land Registry Price Paid data. This figure represents the mean sale price across all residential
+        property transactions recorded in the most recent 12-month period.
+      </p>
+      <p class="text-brand-600 leading-relaxed mb-4">
+        However, averages mask enormous variation across the country. A property in central London costs more than
+        ten times the price of an equivalent home in parts of the North East or Wales. Understanding average prices
+        at the regional, county, and postcode level is essential for buyers, sellers, and investors.
+      </p>
+      <p class="text-brand-600 leading-relaxed mb-4">
+        The data on this page comes directly from the Land Registry Price Paid dataset — the most comprehensive
+        record of residential property transactions in England and Wales, updated monthly.
+      </p>
+    </div>
+
+    <!-- By Region table -->
+    <section class="mb-12">
+      <h2 class="font-display font-700 text-2xl text-brand-900 mb-2">Average House Price by Region (2026)</h2>
+      <p class="text-brand-500 text-sm mb-6">
+        Sorted by average price, highest first. Source: HM Land Registry Price Paid data.
+      </p>
+      <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-brand-50 border-b border-brand-100">
+              <th class="text-left px-4 py-3 text-brand-600 font-600">Region</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600">Avg Price</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden sm:table-cell">vs National Avg</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden md:table-cell">Districts</th>
+            </tr>
+          </thead>
+          <tbody>
+            {regions.map((r, i) => {
+              const vsNat = ((r.avgPrice - nationalAvg) / nationalAvg * 100);
+              return (
+                <tr class={`border-b border-brand-50 hover:bg-brand-50/50 transition-colors ${i % 2 === 0 ? '' : 'bg-brand-50/30'}`}>
+                  <td class="px-4 py-3">
+                    <a href={`/regions/${r.slug}/`} class="text-accent-500 hover:text-accent-600 font-500 transition-colors">{r.label}</a>
+                  </td>
+                  <td class="px-4 py-3 text-right font-mono font-600 text-brand-800">{formatPriceFull(r.avgPrice)}</td>
+                  <td class="px-4 py-3 text-right hidden sm:table-cell">
+                    <span class={`text-xs font-600 px-2 py-0.5 rounded-full ${vsNat > 0 ? 'bg-rose-50 text-rose-700' : 'bg-green-50 text-green-700'}`}>
+                      {vsNat > 0 ? '+' : ''}{vsNat.toFixed(0)}%
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right text-brand-500 hidden md:table-cell">{r.totalPostcodes}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Commentary -->
+    <div class="mb-12">
+      <h2 class="font-display font-700 text-2xl text-brand-900 mb-3">Which regions have the highest house prices?</h2>
+      <p class="text-brand-600 leading-relaxed mb-4">
+        <strong>{regions[0]?.label}</strong> consistently has the highest average house prices in England and Wales,
+        at {formatPriceFull(regions[0]?.avgPrice ?? 0)} — some {Math.round(((regions[0]?.avgPrice ?? 0) - nationalAvg) / nationalAvg * 100)}% above
+        the national average. High demand, limited land supply, and strong employment markets drive prices well above
+        what buyers can find elsewhere.
+      </p>
+      <p class="text-brand-600 leading-relaxed mb-4">
+        The <strong>South East</strong> is the second most expensive region, driven by commuter towns within reach
+        of London such as Guildford, Sevenoaks, and Windsor. Prices here typically run 30–60% above the national average.
+      </p>
+      <p class="text-brand-600 leading-relaxed mb-4">
+        At the other end of the scale, the <strong>{regions.at(-1)?.label}</strong> region offers the most affordable
+        property in England and Wales, with an average price of {formatPriceFull(regions.at(-1)?.avgPrice ?? 0)} —
+        around {Math.round((1 - (regions.at(-1)?.avgPrice ?? 0) / nationalAvg) * 100)}% below the national average.
+      </p>
+    </div>
+
+    <!-- Most expensive counties -->
+    <section class="mb-12">
+      <h2 class="font-display font-700 text-2xl text-brand-900 mb-2">Most Expensive Counties</h2>
+      <p class="text-brand-500 text-sm mb-6">Counties with the highest average property prices in England and Wales.</p>
+      <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-brand-50 border-b border-brand-100">
+              <th class="text-left px-4 py-3 text-brand-600 font-600">County</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600">Avg Price</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden sm:table-cell">vs National</th>
+            </tr>
+          </thead>
+          <tbody>
+            {topCounties.map((c, i) => {
+              const vsNat = ((c.avgPrice - nationalAvg) / nationalAvg * 100);
+              return (
+                <tr class={`border-b border-brand-50 hover:bg-brand-50/50 transition-colors ${i % 2 === 0 ? '' : 'bg-brand-50/30'}`}>
+                  <td class="px-4 py-3">
+                    <a href={`/counties/${c.slug}/`} class="text-accent-500 hover:text-accent-600 font-500 transition-colors">{c.label}</a>
+                  </td>
+                  <td class="px-4 py-3 text-right font-mono font-600 text-brand-800">{formatPriceFull(c.avgPrice)}</td>
+                  <td class="px-4 py-3 text-right hidden sm:table-cell">
+                    <span class="text-xs font-600 text-rose-700 bg-rose-50 px-2 py-0.5 rounded-full">
+                      +{vsNat.toFixed(0)}%
+                    </span>
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Cheapest counties -->
+    <section class="mb-12">
+      <h2 class="font-display font-700 text-2xl text-brand-900 mb-2">Most Affordable Counties</h2>
+      <p class="text-brand-500 text-sm mb-6">Counties with the lowest average property prices — best for first-time buyers and affordability-focused movers.</p>
+      <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-brand-50 border-b border-brand-100">
+              <th class="text-left px-4 py-3 text-brand-600 font-600">County</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600">Avg Price</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden sm:table-cell">vs National</th>
+            </tr>
+          </thead>
+          <tbody>
+            {cheapestCounties.map((c, i) => {
+              const vsNat = ((c.avgPrice - nationalAvg) / nationalAvg * 100);
+              return (
+                <tr class={`border-b border-brand-50 hover:bg-brand-50/50 transition-colors ${i % 2 === 0 ? '' : 'bg-brand-50/30'}`}>
+                  <td class="px-4 py-3">
+                    <a href={`/counties/${c.slug}/`} class="text-accent-500 hover:text-accent-600 font-500 transition-colors">{c.label}</a>
+                  </td>
+                  <td class="px-4 py-3 text-right font-mono font-600 text-brand-800">{formatPriceFull(c.avgPrice)}</td>
+                  <td class="px-4 py-3 text-right hidden sm:table-cell">
+                    <span class="text-xs font-600 text-green-700 bg-green-50 px-2 py-0.5 rounded-full">
+                      {vsNat.toFixed(0)}%
+                    </span>
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Most expensive postcodes -->
+    <section class="mb-12">
+      <h2 class="font-display font-700 text-2xl text-brand-900 mb-2">Most Expensive Postcode Districts</h2>
+      <p class="text-brand-500 text-sm mb-6">
+        Postcode districts with the highest average sold prices (minimum 10 transactions). Source: HM Land Registry.
+      </p>
+      <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-brand-50 border-b border-brand-100">
+              <th class="text-left px-4 py-3 text-brand-600 font-600">Postcode</th>
+              <th class="text-left px-4 py-3 text-brand-600 font-600 hidden sm:table-cell">Area</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600">Avg Price</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden md:table-cell">Transactions</th>
+            </tr>
+          </thead>
+          <tbody>
+            {mostExpensive.map((d, i) => (
+              <tr class={`border-b border-brand-50 hover:bg-brand-50/50 transition-colors ${i % 2 === 0 ? '' : 'bg-brand-50/30'}`}>
+                <td class="px-4 py-3">
+                  <a href={`/${d.code.toLowerCase()}/`} class="text-accent-500 hover:text-accent-600 font-600 font-mono transition-colors">{d.code}</a>
+                </td>
+                <td class="px-4 py-3 text-brand-500 hidden sm:table-cell capitalize">{d.name.toLowerCase()}</td>
+                <td class="px-4 py-3 text-right font-mono font-600 text-brand-800">{formatPriceFull(d.property.avgPrice)}</td>
+                <td class="px-4 py-3 text-right text-brand-400 hidden md:table-cell">{d.property.transactions12m}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Cheapest postcodes -->
+    <section class="mb-12">
+      <h2 class="font-display font-700 text-2xl text-brand-900 mb-2">Most Affordable Postcode Districts</h2>
+      <p class="text-brand-500 text-sm mb-6">
+        Postcode districts with the lowest average sold prices (minimum 10 transactions).
+      </p>
+      <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-brand-50 border-b border-brand-100">
+              <th class="text-left px-4 py-3 text-brand-600 font-600">Postcode</th>
+              <th class="text-left px-4 py-3 text-brand-600 font-600 hidden sm:table-cell">Area</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600">Avg Price</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden md:table-cell">Transactions</th>
+            </tr>
+          </thead>
+          <tbody>
+            {cheapest.map((d, i) => (
+              <tr class={`border-b border-brand-50 hover:bg-brand-50/50 transition-colors ${i % 2 === 0 ? '' : 'bg-brand-50/30'}`}>
+                <td class="px-4 py-3">
+                  <a href={`/${d.code.toLowerCase()}/`} class="text-accent-500 hover:text-accent-600 font-600 font-mono transition-colors">{d.code}</a>
+                </td>
+                <td class="px-4 py-3 text-brand-500 hidden sm:table-cell capitalize">{d.name.toLowerCase()}</td>
+                <td class="px-4 py-3 text-right font-mono font-600 text-brand-800">{formatPriceFull(d.property.avgPrice)}</td>
+                <td class="px-4 py-3 text-right text-brand-400 hidden md:table-cell">{d.property.transactions12m}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="mb-12">
+      <h2 class="font-display font-700 text-2xl text-brand-900 mb-6">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+        {[
+          {
+            q: 'What is the average house price in the UK in 2026?',
+            a: `The average house price in England and Wales is £287,000 as of March 2026, based on HM Land Registry Price Paid data. Scotland and Northern Ireland are not included in Land Registry figures and have their own registers.`,
+          },
+          {
+            q: 'Which region has the cheapest house prices in England?',
+            a: `The most affordable region in our dataset is ${regions.at(-1)?.label}, where the average house price is ${formatPriceFull(regions.at(-1)?.avgPrice ?? 0)}. This is around ${Math.round((1 - (regions.at(-1)?.avgPrice ?? 0) / nationalAvg) * 100)}% below the national average of £287,000.`,
+          },
+          {
+            q: 'Why are London house prices so high?',
+            a: `London house prices are driven by high demand from domestic and international buyers, strong employment, global business presence, and severely restricted land supply. Average prices in London are significantly above the national average, with some central districts seeing average prices well over £1 million.`,
+          },
+          {
+            q: 'How often is house price data updated?',
+            a: `HM Land Registry publishes Price Paid data monthly, with approximately a 6-week lag. postcode.page refreshes its data monthly to reflect the latest published transactions.`,
+          },
+          {
+            q: 'What counts in the average house price?',
+            a: `The average (mean) is calculated from all residential property sales registered with HM Land Registry in the past 12 months. It includes detached, semi-detached, terraced, and flat/maisonette sales. New builds and existing properties are both included.`,
+          },
+        ].map(item => (
+          <details class="bg-white border border-brand-100 rounded-xl shadow-sm group">
+            <summary class="px-5 py-4 cursor-pointer font-600 text-brand-900 hover:text-accent-500 transition-colors flex items-center justify-between">
+              {item.q}
+              <svg class="w-4 h-4 text-brand-400 shrink-0 ml-2 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="px-5 pb-4 text-sm text-brand-600 leading-relaxed">{item.a}</div>
+          </details>
+        ))}
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <div class="bg-brand-950 rounded-2xl p-8 text-center text-white">
+      <h2 class="font-display font-700 text-2xl mb-2">Research your area</h2>
+      <p class="text-brand-300 text-sm mb-6 max-w-md mx-auto">Enter any UK postcode to see property prices, crime rates, school ratings and more — all on one page.</p>
+      <form action="/search" method="get" class="max-w-sm mx-auto" role="search">
+        <div class="relative">
+          <input
+            type="search"
+            name="q"
+            placeholder="Enter a postcode (e.g. SW1A)"
+            autocomplete="off"
+            class="w-full pl-4 pr-28 py-3 text-brand-900 bg-white rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-accent-400"
+          />
+          <button type="submit" class="absolute right-2 top-1/2 -translate-y-1/2 px-4 py-1.5 bg-accent-400 text-white rounded-lg text-sm font-600 hover:bg-accent-500 transition-colors">
+            Search
+          </button>
+        </div>
+      </form>
+    </div>
+
+  </main>
+
+  <Footer />
+</Base>

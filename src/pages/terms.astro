@@ -3,11 +3,40 @@ import Base from '../layouts/Base.astro';
 import Header from '../components/global/Header.astro';
 import Footer from '../components/global/Footer.astro';
 ---
-<Base title="Terms of Use — postcode.page" description="Terms of use for postcode.page.">
+<Base title="Terms of Use — postcode.page" description="Terms of use for postcode.page. Data provided under the Open Government Licence v3.0.">
   <Header />
-  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
-    <h1>Terms of Use</h1>
-    <p class="text-brand-600 mt-4 max-w-2xl">Data on postcode.page is provided for informational purposes only under the Open Government Licence v3.0. No warranty is given for accuracy or completeness.</p>
+
+  <div class="relative overflow-hidden bg-brand-950 text-white">
+    <div class="absolute inset-0 opacity-20 dot-grid" aria-hidden="true"/>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <p class="font-mono text-accent-400 text-sm font-500 tracking-widest uppercase mb-2">Legal</p>
+      <h1 class="font-display font-700 text-4xl sm:text-5xl text-white tracking-tight leading-tight">Terms of Use</h1>
+      <p class="text-brand-300 text-lg mt-3 max-w-xl">Last updated: March 2026</p>
+    </div>
+  </div>
+
+  <main class="max-w-3xl mx-auto px-4 sm:px-6 py-12 space-y-8 text-brand-600 leading-relaxed">
+    <section>
+      <h2 class="font-display font-700 text-xl text-brand-900 mb-3">Data licence</h2>
+      <p>Property price data on postcode.page contains HM Land Registry data © Crown copyright and database right 2025. It is made available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" class="text-accent-500 hover:text-accent-600 transition-colors" target="_blank" rel="noopener">Open Government Licence v3.0</a>.</p>
+      <p class="mt-3">School data is sourced from the DfE Get Information About Schools register, also published under the Open Government Licence v3.0.</p>
+    </section>
+
+    <section>
+      <h2 class="font-display font-700 text-xl text-brand-900 mb-3">No warranty</h2>
+      <p>Data is provided for informational purposes only. While we take care to process data accurately, no warranty is given for accuracy, completeness, or fitness for any particular purpose. Do not rely solely on postcode.page data for financial, legal, or property decisions.</p>
+    </section>
+
+    <section>
+      <h2 class="font-display font-700 text-xl text-brand-900 mb-3">Affiliate links</h2>
+      <p>Some pages contain affiliate links to mortgage providers and property valuation services. We may receive a commission if you use these services, at no cost to you. This does not affect the independence of our data.</p>
+    </section>
+
+    <section>
+      <h2 class="font-display font-700 text-xl text-brand-900 mb-3">Contact</h2>
+      <p>Questions: <a href="mailto:hello@postcode.page" class="text-accent-500 hover:text-accent-600 transition-colors">hello@postcode.page</a></p>
+    </section>
   </main>
+
   <Footer />
 </Base>

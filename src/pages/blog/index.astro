@@ -1,0 +1,108 @@
+---
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/global/Header.astro';
+import Footer from '../../components/global/Footer.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog')).sort(
+  (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
+);
+
+const categories = [...new Set(posts.map(p => p.data.category))];
+const featured = posts[0];
+const rest = posts.slice(1);
+
+function categoryColor(cat: string) {
+  const map: Record<string, string> = {
+    'Buying Guides': 'bg-accent-50 text-accent-600 border-accent-200',
+    'Data Explained': 'bg-blue-50 text-blue-600 border-blue-200',
+    'Area Research': 'bg-amber-50 text-amber-600 border-amber-200',
+  };
+  return map[cat] ?? 'bg-brand-50 text-brand-600 border-brand-100';
+}
+---
+
+<Base
+  title="Property Research Blog — postcode.page"
+  description="Guides and explainers for UK homebuyers: house price data, crime statistics, school ratings, council tax, broadband, and how to research any area before buying."
+>
+  <Header />
+
+  <!-- Hero -->
+  <div class="relative overflow-hidden bg-brand-950 text-white">
+    <div class="absolute inset-0 opacity-20 dot-grid" aria-hidden="true"/>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <p class="font-mono text-accent-400 text-sm font-500 tracking-widest uppercase mb-2">Blog</p>
+      <h1 class="font-display font-700 text-4xl sm:text-5xl text-white tracking-tight leading-tight">Property Research Guides</h1>
+      <p class="text-brand-300 text-lg mt-3 max-w-xl">How to use area data to make better property decisions. Practical guides from official UK sources.</p>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-10 sm:py-14">
+
+    <!-- Category filter -->
+    <div class="flex flex-wrap gap-2 mb-10">
+      <span class="text-xs font-600 px-3 py-1.5 bg-brand-900 text-white rounded-full border border-brand-700">All</span>
+      {categories.map(cat => (
+        <span class={`text-xs font-600 px-3 py-1.5 rounded-full border ${categoryColor(cat)}`}>{cat}</span>
+      ))}
+    </div>
+
+    <!-- Featured post -->
+    <a
+      href={`/blog/${featured.id.replace(/\.mdx?$/, '')}/`}
+      class="group block bg-white border border-brand-100 rounded-2xl overflow-hidden shadow-sm hover:border-accent-300 hover:shadow-md transition-all mb-10"
+    >
+      <div class="p-7 sm:p-8">
+        <div class="flex items-center gap-3 mb-4">
+          <span class={`text-xs font-600 px-2.5 py-1 rounded-full border ${categoryColor(featured.data.category)}`}>
+            {featured.data.category}
+          </span>
+          <span class="text-xs text-brand-400 font-500">Latest</span>
+        </div>
+        <h2 class="font-display font-700 text-2xl sm:text-3xl text-brand-900 group-hover:text-accent-500 transition-colors leading-snug mb-3">
+          {featured.data.title}
+        </h2>
+        <p class="text-brand-500 text-base leading-relaxed mb-5 max-w-2xl">{featured.data.description}</p>
+        <div class="flex items-center gap-4 text-sm text-brand-400">
+          <time datetime={featured.data.pubDate}>
+            {new Date(featured.data.pubDate).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
+          </time>
+          <span>·</span>
+          <span>{featured.data.readTime} min read</span>
+          <span class="ml-auto text-accent-500 font-600 group-hover:underline text-sm">Read guide →</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Grid of remaining posts -->
+    {rest.length > 0 && (
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        {rest.map(post => (
+          <a
+            href={`/blog/${post.id.replace(/\.mdx?$/, '')}/`}
+            class="group flex flex-col bg-white border border-brand-100 rounded-xl p-5 shadow-sm hover:border-accent-300 hover:shadow-md transition-all"
+          >
+            <span class={`self-start text-xs font-600 px-2.5 py-1 rounded-full border mb-3 ${categoryColor(post.data.category)}`}>
+              {post.data.category}
+            </span>
+            <h2 class="font-display font-600 text-brand-900 group-hover:text-accent-500 transition-colors leading-snug mb-2 flex-1">
+              {post.data.title}
+            </h2>
+            <p class="text-brand-500 text-sm leading-relaxed mb-4 line-clamp-2">{post.data.description}</p>
+            <div class="flex items-center gap-3 text-xs text-brand-400 mt-auto">
+              <time datetime={post.data.pubDate}>
+                {new Date(post.data.pubDate).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
+              </time>
+              <span>·</span>
+              <span>{post.data.readTime} min read</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    )}
+
+  </main>
+
+  <Footer />
+</Base>

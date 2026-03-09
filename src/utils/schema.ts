@@ -1,3 +1,23 @@
+export interface FAQItem {
+  question: string;
+  answer: string;
+}
+
+export function buildFAQSchema(faqs: FAQItem[], url: string) {
+  return {
+    "@type": "FAQPage",
+    "@id": `${url}#faq`,
+    "mainEntity": faqs.map(f => ({
+      "@type": "Question",
+      "name": f.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": f.answer,
+      },
+    })),
+  };
+}
+
 interface PostcodeData {
   code: string;
   name: string;

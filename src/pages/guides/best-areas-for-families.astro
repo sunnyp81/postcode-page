@@ -1,0 +1,211 @@
+---
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/global/Header.astro';
+import Footer from '../../components/global/Footer.astro';
+import { getAllPostcodeSlugs, getPostcodeData } from '../../utils/data';
+import { formatPriceFull } from '../../utils/format';
+
+const allSlugs = getAllPostcodeSlugs();
+const allData = allSlugs
+  .map(s => getPostcodeData(s))
+  .filter(Boolean)
+  .filter(d => {
+    if (!d!.property.avgPrice || d!.property.transactions12m < 30) return false;
+    if (d!.schools.count < 5) return false;
+    if (d!.crime.source !== 'police-uk') return false;
+    return true;
+  }) as NonNullable<ReturnType<typeof getPostcodeData>>[];
+
+// Family score: % good/outstanding schools (0-100), low crime, affordable price
+// Normalise each dimension 0-1, weight: schools 40%, crime 35%, price 25%
+const maxPrice = 600000;
+const nationalAvgCrime = 81.3;
+
+function familyScore(d: (typeof allData)[0]) {
+  const schoolPct = d.schools.count > 0
+    ? (d.schools.outstanding + d.schools.good) / d.schools.count
+    : 0;
+  const crimeScore = Math.max(0, 1 - (d.crime.totalPer1000 / (nationalAvgCrime * 2)));
+  const priceScore = Math.max(0, 1 - (d.property.avgPrice / maxPrice));
+  return schoolPct * 0.40 + crimeScore * 0.35 + priceScore * 0.25;
+}
+
+const ranked = [...allData]
+  .map(d => ({ ...d, _score: familyScore(d) }))
+  .sort((a, b) => b._score - a._score);
+
+const top30 = ranked.slice(0, 30);
+
+// Best by price band
+const affordable = ranked.filter(d => d.property.avgPrice < 300000).slice(0, 10);
+const midRange = ranked.filter(d => d.property.avgPrice >= 300000 && d.property.avgPrice < 600000).slice(0, 10);
+---
+<Base
+  title="Best Areas for Families in England 2026 — Schools, Crime & Affordability"
+  description="Top postcode districts for families based on school ratings, crime rates, and house prices. Combined score from Ofsted, Police.uk, and Land Registry data."
+>
+  <Header />
+
+  <div class="relative overflow-hidden bg-brand-950 text-white">
+    <div class="absolute inset-0 opacity-20 dot-grid" aria-hidden="true"/>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <p class="font-mono text-accent-400 text-sm font-500 tracking-widest uppercase mb-2">Property Guide</p>
+      <h1 class="font-display font-700 text-4xl sm:text-5xl text-white tracking-tight leading-tight">Best Areas for Families 2026</h1>
+      <p class="text-brand-300 text-lg mt-3 max-w-2xl">Postcode districts ranked on schools, crime, and affordability combined. Based on Ofsted, Police.uk, and Land Registry data.</p>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+
+    <!-- Scoring explainer -->
+    <section class="mb-10">
+      <div class="bg-white border border-brand-100 rounded-xl p-6 shadow-sm">
+        <h2 class="font-display font-700 text-lg text-brand-800 mb-3">How the family score is calculated</h2>
+        <div class="grid sm:grid-cols-3 gap-4 text-sm">
+          <div class="text-center p-4 bg-green-50 rounded-lg">
+            <p class="font-700 text-green-700 text-2xl mb-1">40%</p>
+            <p class="font-600 text-brand-800">Schools</p>
+            <p class="text-brand-500 mt-1">% of Ofsted-inspected schools rated Good or Outstanding (Jan 2026 data)</p>
+          </div>
+          <div class="text-center p-4 bg-blue-50 rounded-lg">
+            <p class="font-700 text-blue-700 text-2xl mb-1">35%</p>
+            <p class="font-600 text-brand-800">Safety</p>
+            <p class="text-brand-500 mt-1">Recorded crime rate per 1,000 residents (Police.uk 2024–25)</p>
+          </div>
+          <div class="text-center p-4 bg-accent-50 rounded-lg">
+            <p class="font-700 text-accent-700 text-2xl mb-1">25%</p>
+            <p class="font-600 text-brand-800">Affordability</p>
+            <p class="text-brand-500 mt-1">Average house price vs the £600k cap (Land Registry 2023–25)</p>
+          </div>
+        </div>
+        <p class="text-brand-500 text-xs mt-3">Only districts with 5+ schools and real Police.uk crime data are included. Minimum 30 transactions required.</p>
+      </div>
+    </section>
+
+    <!-- Top 30 overall -->
+    <section class="mb-12">
+      <h2 class="font-display font-700 text-2xl text-brand-800 mb-2">Top 30 Districts for Families</h2>
+      <p class="text-brand-500 text-sm mb-4">Ranked by combined score across schools, crime, and affordability.</p>
+      <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-brand-50 border-b border-brand-100">
+              <th class="text-left px-4 py-3 text-brand-600 font-600">Rank</th>
+              <th class="text-left px-4 py-3 text-brand-600 font-600">District</th>
+              <th class="text-left px-4 py-3 text-brand-600 font-600 hidden sm:table-cell">Area</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600">Schools</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden md:table-cell">Crime/1k</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden md:table-cell">Avg Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            {top30.map((d, i) => {
+              const goodPct = d.schools.count > 0 ? Math.round((d.schools.outstanding + d.schools.good) / d.schools.count * 100) : 0;
+              return (
+                <tr class={`border-b border-brand-50 hover:bg-brand-50/50 transition-colors ${i % 2 === 0 ? '' : 'bg-brand-50/20'}`}>
+                  <td class="px-4 py-3 text-brand-400 font-mono text-sm">{i + 1}</td>
+                  <td class="px-4 py-3">
+                    <a href={`/${d.code.toLowerCase()}/`} class="text-accent-500 hover:text-accent-600 font-600">{d.code}</a>
+                  </td>
+                  <td class="px-4 py-3 text-brand-500 hidden sm:table-cell capitalize">{d.county.replace(/-/g,' ')}</td>
+                  <td class="px-4 py-3 text-right">
+                    <span class="text-xs font-600 text-green-700">{goodPct}% Good+</span>
+                    <span class="text-brand-400 text-xs ml-1">({d.schools.count})</span>
+                  </td>
+                  <td class="px-4 py-3 text-right font-mono text-brand-600 hidden md:table-cell">{d.crime.totalPer1000.toFixed(1)}</td>
+                  <td class="px-4 py-3 text-right font-mono text-brand-600 hidden md:table-cell">{formatPriceFull(d.property.avgPrice)}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Best by price band -->
+    <div class="grid md:grid-cols-2 gap-8 mb-12">
+      <section>
+        <h2 class="font-display font-700 text-xl text-brand-800 mb-2">Under £300,000</h2>
+        <p class="text-brand-500 text-sm mb-4">Top-scoring affordable districts.</p>
+        <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="bg-brand-50 border-b border-brand-100">
+                <th class="text-left px-4 py-3 text-brand-600 font-600">District</th>
+                <th class="text-right px-4 py-3 text-brand-600 font-600">Schools</th>
+                <th class="text-right px-4 py-3 text-brand-600 font-600">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              {affordable.map((d, i) => {
+                const goodPct = d.schools.count > 0 ? Math.round((d.schools.outstanding + d.schools.good) / d.schools.count * 100) : 0;
+                return (
+                  <tr class={`border-b border-brand-50 hover:bg-brand-50/50 transition-colors`}>
+                    <td class="px-4 py-3">
+                      <a href={`/${d.code.toLowerCase()}/`} class="text-accent-500 hover:underline font-600">{d.code}</a>
+                      <span class="text-brand-400 text-xs ml-2 capitalize hidden sm:inline">{d.county.replace(/-/g,' ')}</span>
+                    </td>
+                    <td class="px-4 py-3 text-right text-xs font-600 text-green-700">{goodPct}%</td>
+                    <td class="px-4 py-3 text-right font-mono text-sm text-brand-700">{formatPriceFull(d.property.avgPrice)}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="font-display font-700 text-xl text-brand-800 mb-2">£300,000–£600,000</h2>
+        <p class="text-brand-500 text-sm mb-4">Mid-range districts with strong family credentials.</p>
+        <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="bg-brand-50 border-b border-brand-100">
+                <th class="text-left px-4 py-3 text-brand-600 font-600">District</th>
+                <th class="text-right px-4 py-3 text-brand-600 font-600">Schools</th>
+                <th class="text-right px-4 py-3 text-brand-600 font-600">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              {midRange.map((d) => {
+                const goodPct = d.schools.count > 0 ? Math.round((d.schools.outstanding + d.schools.good) / d.schools.count * 100) : 0;
+                return (
+                  <tr class="border-b border-brand-50 hover:bg-brand-50/50 transition-colors">
+                    <td class="px-4 py-3">
+                      <a href={`/${d.code.toLowerCase()}/`} class="text-accent-500 hover:underline font-600">{d.code}</a>
+                      <span class="text-brand-400 text-xs ml-2 capitalize hidden sm:inline">{d.county.replace(/-/g,' ')}</span>
+                    </td>
+                    <td class="px-4 py-3 text-right text-xs font-600 text-green-700">{goodPct}%</td>
+                    <td class="px-4 py-3 text-right font-mono text-sm text-brand-700">{formatPriceFull(d.property.avgPrice)}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+
+    <!-- Commentary -->
+    <section class="mb-10 text-brand-600 leading-relaxed space-y-3">
+      <h2 class="font-display font-700 text-2xl text-brand-800 mb-3">What makes a good family area?</h2>
+      <p>The rankings above combine three measurable factors, but the right balance depends on your priorities. Some families prioritise schools above everything; others weight safety or commute time more heavily.</p>
+      <p>A few things the ranking <em>cannot</em> measure: the quality of local parks and green space, the strength of community, ease of commuting to your workplace, or how the area feels day to day. Always visit before you commit.</p>
+      <p>Note that Ofsted ratings are a lagging indicator — a school rated Good in 2023 may have improved or declined since. Check the individual school's most recent inspection on the <a href="https://reports.ofsted.gov.uk/" target="_blank" rel="noopener" class="text-accent-500 hover:underline">Ofsted website</a>.</p>
+    </section>
+
+    <!-- CTA -->
+    <section class="bg-accent-50 border border-accent-200 rounded-xl p-6 text-center">
+      <h3 class="font-display font-700 text-lg text-brand-900 mb-2">Look up any postcode</h3>
+      <p class="text-brand-500 text-sm mb-4">See schools, crime, broadband, council tax, and house prices for any UK postcode district.</p>
+      <form action="/search" method="get" class="flex gap-2 max-w-sm mx-auto">
+        <input name="q" type="text" placeholder="Enter postcode e.g. HX4" class="flex-1 px-4 py-2 border border-brand-200 rounded-lg text-sm focus:outline-none focus:border-accent-400" />
+        <button type="submit" class="bg-accent-500 text-white px-4 py-2 rounded-lg text-sm font-600 hover:bg-accent-600 transition-colors">Search</button>
+      </form>
+    </section>
+
+  </main>
+
+  <Footer />
+</Base>

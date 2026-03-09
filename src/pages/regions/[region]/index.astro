@@ -1,0 +1,141 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Header from '../../../components/global/Header.astro';
+import Footer from '../../../components/global/Footer.astro';
+import { getAllRegions, getRegionData, getCountyData } from '../../../utils/data';
+import { formatPriceFull, formatChange, capitalize } from '../../../utils/format';
+
+export async function getStaticPaths() {
+  const regions = getAllRegions();
+  return regions.map(r => ({ params: { region: r.slug } }));
+}
+
+const { region: regionSlug } = Astro.params;
+const region = getRegionData(regionSlug!);
+if (!region) return Astro.redirect('/regions/');
+
+const nationalAvgPrice = 287000;
+const priceVsNational = ((region.avgPrice - nationalAvgPrice) / nationalAvgPrice * 100);
+const priceDir = priceVsNational > 0 ? 'above' : 'below';
+
+// Get top/bottom postcodes across all counties in region
+const allPostcodes: Array<{ code: string; name: string; county: string; countySlug: string; avgPrice: number; priceChange1y: number }> = [];
+for (const county of region.counties) {
+  const countyData = getCountyData(county.slug);
+  if (!countyData) continue;
+  // Just use county-level data for the summary — don't load all postcode JSONs here
+  for (const code of (countyData.postcodes as string[]).slice(0, 5)) {
+    allPostcodes.push({ code, name: code, county: county.label, countySlug: county.slug, avgPrice: county.avgPrice, priceChange1y: 0 });
+  }
+}
+---
+
+<Base
+  title={`${region.label} — House Prices, Crime & Area Data | postcode.page`}
+  description={`Average house price in ${region.label}: ${formatPriceFull(region.avgPrice)} — ${Math.abs(priceVsNational).toFixed(0)}% ${priceDir} the national average. Data for ${region.totalPostcodes} postcode districts across ${region.counties.length} counties.`}
+>
+  <Header />
+
+  <!-- HERO -->
+  <div class="relative overflow-hidden bg-brand-950 text-white">
+    <div class="absolute inset-0 opacity-20 dot-grid" aria-hidden="true"/>
+    <div class="absolute -top-20 -right-20 w-96 h-96 rounded-full opacity-10 blur-[80px]"
+         style="background: radial-gradient(circle, hsl(168, 55%, 45%), transparent 70%)" aria-hidden="true"/>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <nav class="text-brand-400 text-sm mb-6" aria-label="Breadcrumb">
+        <a href="/" class="hover:text-accent-400 transition-colors">Home</a>
+        <span class="mx-2">›</span>
+        <a href="/regions/" class="hover:text-accent-400 transition-colors">Regions</a>
+        <span class="mx-2">›</span>
+        <span class="text-brand-300">{region.label}</span>
+      </nav>
+      <p class="font-mono text-accent-400 text-sm font-500 tracking-widest uppercase mb-2">UK Region</p>
+      <h1 class="font-display font-700 text-4xl sm:text-5xl text-white tracking-tight leading-tight mb-3">
+        {region.label}
+      </h1>
+      <p class="text-brand-300 text-lg max-w-xl mb-8">
+        {region.counties.length} counties · {region.totalPostcodes} postcode districts
+      </p>
+
+      <!-- Key stats -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 max-w-2xl">
+        <div class="bg-brand-900/50 rounded-xl p-4 border border-brand-800">
+          <p class="text-brand-400 text-xs font-500 uppercase tracking-wider mb-1">Avg house price</p>
+          <p class="font-mono font-700 text-2xl text-white">{formatPriceFull(region.avgPrice)}</p>
+          <p class="text-brand-400 text-xs mt-1">{Math.abs(priceVsNational).toFixed(0)}% {priceDir} national avg</p>
+        </div>
+        <div class="bg-brand-900/50 rounded-xl p-4 border border-brand-800">
+          <p class="text-brand-400 text-xs font-500 uppercase tracking-wider mb-1">Postcode districts</p>
+          <p class="font-mono font-700 text-2xl text-white">{region.totalPostcodes}</p>
+          <p class="text-brand-400 text-xs mt-1">Across {region.counties.length} counties</p>
+        </div>
+        <div class="bg-brand-900/50 rounded-xl p-4 border border-brand-800 col-span-2 sm:col-span-1">
+          <p class="text-brand-400 text-xs font-500 uppercase tracking-wider mb-1">Most expensive county</p>
+          <p class="font-display font-700 text-lg text-white leading-tight">{region.counties[0]?.label}</p>
+          <p class="text-brand-400 text-xs mt-1">{formatPriceFull(region.counties[0]?.avgPrice ?? 0)} avg</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+
+    <!-- Counties table -->
+    <section class="mb-12">
+      <h2 class="font-display font-700 text-2xl text-brand-800 mb-6">Counties in {region.label}</h2>
+      <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+        <div class="overflow-x-auto"><table class="w-full text-sm">
+          <thead>
+            <tr class="bg-brand-50 border-b border-brand-100">
+              <th class="text-left px-4 py-3 text-brand-600 font-600">County</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600">Avg Price</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden sm:table-cell">vs National</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden md:table-cell">Districts</th>
+            </tr>
+          </thead>
+          <tbody>
+            {region.counties.map((county, i) => {
+              const vsNat = ((county.avgPrice - nationalAvgPrice) / nationalAvgPrice * 100);
+              return (
+                <tr class={`border-b border-brand-50 hover:bg-brand-50/50 transition-colors ${i % 2 === 0 ? '' : 'bg-brand-50/30'}`}>
+                  <td class="px-4 py-3">
+                    <a href={`/counties/${county.slug}/`} class="text-accent-500 hover:text-accent-600 font-500 transition-colors">
+                      {county.label}
+                    </a>
+                  </td>
+                  <td class="px-4 py-3 text-right font-mono font-600 text-brand-800">{formatPriceFull(county.avgPrice)}</td>
+                  <td class="px-4 py-3 text-right hidden sm:table-cell">
+                    <span class={`text-xs font-600 ${vsNat > 0 ? 'text-red-500' : 'text-green-600'}`}>
+                      {vsNat > 0 ? '+' : ''}{vsNat.toFixed(0)}%
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-right text-brand-500 hidden md:table-cell">{county.postcodeCount}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table></div>
+      </div>
+    </section>
+
+    <!-- About this region -->
+    <section class="bg-white border border-brand-100 rounded-xl p-6 shadow-sm mb-12">
+      <h2 class="font-display font-700 text-xl text-brand-800 mb-3">About {region.label}</h2>
+      <p class="text-brand-600 leading-relaxed">
+        The {region.label} region covers {region.counties.length} counties and {region.totalPostcodes} postcode districts.
+        The average house price across the region is {formatPriceFull(region.avgPrice)},
+        which is {Math.abs(priceVsNational).toFixed(0)}% {priceDir} the England and Wales national average of {formatPriceFull(nationalAvgPrice)}.
+        {region.counties[0] && <>The most expensive county is {region.counties[0].label} (avg {formatPriceFull(region.counties[0].avgPrice)}){region.counties.length > 1 && <>, while {region.counties[region.counties.length - 1].label} offers the most affordable prices at {formatPriceFull(region.counties[region.counties.length - 1].avgPrice)} average</>}.</>}
+      </p>
+    </section>
+
+    <!-- Nav back -->
+    <div class="flex gap-4">
+      <a href="/regions/" class="text-accent-500 hover:text-accent-600 text-sm font-500 transition-colors">
+        ← All regions
+      </a>
+    </div>
+  </main>
+
+  <Footer />
+</Base>

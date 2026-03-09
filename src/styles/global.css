@@ -26,7 +26,7 @@
   --color-neutral-data: hsl(42, 70%, 50%);
 
   /* Fonts */
-  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
   --font-body: 'Inter', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 
@@ -58,7 +58,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
   line-height: 1.2;
-  color: var(--color-brand-900);
 }
 
 h1 { font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 700; letter-spacing: -0.03em; }
@@ -125,9 +124,11 @@ h3 { font-size: clamp(1.15rem, 2vw, 1.35rem); font-weight: 600; letter-spacing: 
   box-shadow: 0 1px 3px hsl(210 55% 12% / 0.05), 0 4px 12px hsl(210 55% 12% / 0.04);
 }
 
-/* Scroll-triggered fade */
-@media (prefers-reduced-motion: no-preference) {
+/* Scroll-triggered fade — disable for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
   .fade-up {
-    animation: none;
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 }

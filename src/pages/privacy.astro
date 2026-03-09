@@ -3,11 +3,39 @@ import Base from '../layouts/Base.astro';
 import Header from '../components/global/Header.astro';
 import Footer from '../components/global/Footer.astro';
 ---
-<Base title="Privacy Policy — postcode.page" description="Privacy policy for postcode.page.">
+<Base title="Privacy Policy — postcode.page" description="Privacy policy for postcode.page. We do not collect personal data or use tracking cookies.">
   <Header />
-  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
-    <h1>Privacy Policy</h1>
-    <p class="text-brand-600 mt-4 max-w-2xl">postcode.page does not collect personal data. We use no tracking cookies. Analytics are privacy-preserving and aggregate-only.</p>
+
+  <div class="relative overflow-hidden bg-brand-950 text-white">
+    <div class="absolute inset-0 opacity-20 dot-grid" aria-hidden="true"/>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <p class="font-mono text-accent-400 text-sm font-500 tracking-widest uppercase mb-2">Legal</p>
+      <h1 class="font-display font-700 text-4xl sm:text-5xl text-white tracking-tight leading-tight">Privacy Policy</h1>
+      <p class="text-brand-300 text-lg mt-3 max-w-xl">Last updated: March 2026</p>
+    </div>
+  </div>
+
+  <main class="max-w-3xl mx-auto px-4 sm:px-6 py-12 space-y-8 text-brand-600 leading-relaxed">
+    <section>
+      <h2 class="font-display font-700 text-xl text-brand-900 mb-3">Data we collect</h2>
+      <p>postcode.page does not collect personal data. We do not require registration, accounts, or any form of user sign-in. No personal information is stored on our servers.</p>
+    </section>
+
+    <section>
+      <h2 class="font-display font-700 text-xl text-brand-900 mb-3">Cookies</h2>
+      <p>We do not use tracking cookies or advertising cookies. No third-party tracking scripts are loaded. If analytics are used, they are privacy-preserving and aggregate-only (no individual user tracking).</p>
+    </section>
+
+    <section>
+      <h2 class="font-display font-700 text-xl text-brand-900 mb-3">Third-party links</h2>
+      <p>Some pages contain links to third-party services (mortgage providers, valuation tools). These are governed by their own privacy policies. postcode.page is not responsible for the privacy practices of linked sites.</p>
+    </section>
+
+    <section>
+      <h2 class="font-display font-700 text-xl text-brand-900 mb-3">Contact</h2>
+      <p>Questions about this policy: <a href="mailto:hello@postcode.page" class="text-accent-500 hover:text-accent-600 transition-colors">hello@postcode.page</a></p>
+    </section>
   </main>
+
   <Footer />
 </Base>

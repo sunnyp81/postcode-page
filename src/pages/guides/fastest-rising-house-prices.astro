@@ -1,0 +1,178 @@
+---
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/global/Header.astro';
+import Footer from '../../components/global/Footer.astro';
+import { getAllPostcodeSlugs, getPostcodeData } from '../../utils/data';
+import { formatPriceFull } from '../../utils/format';
+
+const allSlugs = getAllPostcodeSlugs();
+const allData = allSlugs
+  .map(s => getPostcodeData(s))
+  .filter(Boolean)
+  .filter(d => {
+    if (!d!.property.priceChange1y || d!.property.transactions12m < 50) return false;
+    // Exclude extreme outliers (>100% or <-50%) likely due to mix-change not real price moves
+    if (Math.abs(d!.property.priceChange1y) > 100) return false;
+    return true;
+  }) as NonNullable<ReturnType<typeof getPostcodeData>>[];
+
+const rising = [...allData]
+  .sort((a, b) => b.property.priceChange1y - a.property.priceChange1y)
+  .slice(0, 30);
+
+const falling = [...allData]
+  .sort((a, b) => a.property.priceChange1y - b.property.priceChange1y)
+  .slice(0, 15);
+
+// 5-year fastest
+const rising5y = allData
+  .filter(d => d.property.priceChange5y && d.property.transactions12m >= 50)
+  .sort((a, b) => b.property.priceChange5y - a.property.priceChange5y)
+  .slice(0, 20);
+---
+<Base
+  title="Fastest-Rising House Prices in England & Wales 2026 — by Postcode District"
+  description="Which postcode districts have seen the strongest house price growth? 1-year and 5-year changes ranked by Land Registry data, updated 2026."
+>
+  <Header />
+
+  <div class="relative overflow-hidden bg-brand-950 text-white">
+    <div class="absolute inset-0 opacity-20 dot-grid" aria-hidden="true"/>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <p class="font-mono text-accent-400 text-sm font-500 tracking-widest uppercase mb-2">Property Guide</p>
+      <h1 class="font-display font-700 text-4xl sm:text-5xl text-white tracking-tight leading-tight">Fastest-Rising House Prices 2026</h1>
+      <p class="text-brand-300 text-lg mt-3 max-w-2xl">Postcode districts with the strongest 1-year and 5-year price growth. Based on HM Land Registry Price Paid data.</p>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+
+    <!-- Key stats -->
+    <section class="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-10">
+      {[
+        { label: 'Fastest 1-year rise', value: `+${rising[0]?.property.priceChange1y.toFixed(1)}% (${rising[0]?.code})` },
+        { label: 'Fastest 5-year rise', value: `+${rising5y[0]?.property.priceChange5y.toFixed(1)}% (${rising5y[0]?.code})` },
+        { label: 'Districts tracked', value: allData.length.toLocaleString() },
+      ].map(k => (
+        <div class="bg-white border border-brand-100 rounded-xl p-4 shadow-sm">
+          <p class="text-brand-500 text-xs font-500 uppercase tracking-wide mb-1">{k.label}</p>
+          <p class="font-display font-700 text-lg text-brand-900">{k.value}</p>
+        </div>
+      ))}
+    </section>
+
+    <!-- Intro -->
+    <section class="mb-10 text-brand-600 leading-relaxed space-y-3">
+      <p>Year-on-year house price changes tell you where momentum is. Rising prices can indicate improving local demand — new employers, regeneration, improved transport links — or simple supply constraints. Falling prices may flag caution or represent a correction after an earlier spike.</p>
+      <p>All figures below compare the most recent 12 months of Land Registry transactions against the equivalent prior-year period. Districts with fewer than 50 transactions are excluded to reduce statistical noise from small sample sizes.</p>
+      <p class="text-sm bg-amber-50 border border-amber-200 rounded-lg px-4 py-3 text-amber-800">
+        <strong>Caveat:</strong> Short-term price changes can be driven by changes in property mix (e.g. more detached houses sold in a year) as much as genuine market movement. Treat 1-year figures as indicative, not definitive. 5-year changes are more reliable signals of long-term trends.
+      </p>
+    </section>
+
+    <!-- Top 30 fastest rising -->
+    <section class="mb-12">
+      <h2 class="font-display font-700 text-2xl text-brand-800 mb-2">30 Fastest-Rising Districts (1 Year)</h2>
+      <p class="text-brand-500 text-sm mb-4">Percentage change in average price, most recent 12 months vs prior 12 months. Min 50 transactions.</p>
+      <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-brand-50 border-b border-brand-100">
+              <th class="text-left px-4 py-3 text-brand-600 font-600">Rank</th>
+              <th class="text-left px-4 py-3 text-brand-600 font-600">District</th>
+              <th class="text-left px-4 py-3 text-brand-600 font-600 hidden sm:table-cell">Area</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600">1yr Change</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden md:table-cell">Avg Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rising.map((d, i) => (
+              <tr class={`border-b border-brand-50 hover:bg-brand-50/50 transition-colors ${i % 2 === 0 ? '' : 'bg-brand-50/20'}`}>
+                <td class="px-4 py-3 text-brand-400 font-mono text-sm">{i + 1}</td>
+                <td class="px-4 py-3">
+                  <a href={`/${d.code.toLowerCase()}/`} class="text-accent-500 hover:text-accent-600 font-600">{d.code}</a>
+                </td>
+                <td class="px-4 py-3 text-brand-500 hidden sm:table-cell capitalize">{d.county.replace(/-/g,' ')}</td>
+                <td class="px-4 py-3 text-right font-mono font-600 text-green-700">+{d.property.priceChange1y.toFixed(1)}%</td>
+                <td class="px-4 py-3 text-right font-mono text-brand-600 hidden md:table-cell">{formatPriceFull(d.property.avgPrice)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 5 year -->
+    <section class="mb-12">
+      <h2 class="font-display font-700 text-2xl text-brand-800 mb-2">Fastest 5-Year Growth</h2>
+      <p class="text-brand-500 text-sm mb-4">More reliable indicator of sustained local demand growth.</p>
+      <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-brand-50 border-b border-brand-100">
+              <th class="text-left px-4 py-3 text-brand-600 font-600">District</th>
+              <th class="text-left px-4 py-3 text-brand-600 font-600 hidden sm:table-cell">Area</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600">5yr Change</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden md:table-cell">Avg Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rising5y.map((d, i) => (
+              <tr class={`border-b border-brand-50 hover:bg-brand-50/50 transition-colors ${i % 2 === 0 ? '' : 'bg-brand-50/20'}`}>
+                <td class="px-4 py-3">
+                  <a href={`/${d.code.toLowerCase()}/`} class="text-accent-500 hover:text-accent-600 font-600">{d.code}</a>
+                </td>
+                <td class="px-4 py-3 text-brand-500 hidden sm:table-cell capitalize">{d.county.replace(/-/g,' ')}</td>
+                <td class="px-4 py-3 text-right font-mono font-600 text-green-700">+{d.property.priceChange5y.toFixed(1)}%</td>
+                <td class="px-4 py-3 text-right font-mono text-brand-600 hidden md:table-cell">{formatPriceFull(d.property.avgPrice)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Falling prices -->
+    <section class="mb-12">
+      <h2 class="font-display font-700 text-2xl text-brand-800 mb-2">Biggest 1-Year Falls</h2>
+      <p class="text-brand-500 text-sm mb-4">Districts showing the largest recent price declines.</p>
+      <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-brand-50 border-b border-brand-100">
+              <th class="text-left px-4 py-3 text-brand-600 font-600">District</th>
+              <th class="text-left px-4 py-3 text-brand-600 font-600 hidden sm:table-cell">Area</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600">1yr Change</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden md:table-cell">Avg Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            {falling.map((d, i) => (
+              <tr class={`border-b border-brand-50 hover:bg-brand-50/50 transition-colors ${i % 2 === 0 ? '' : 'bg-brand-50/20'}`}>
+                <td class="px-4 py-3">
+                  <a href={`/${d.code.toLowerCase()}/`} class="text-accent-500 hover:text-accent-600 font-600">{d.code}</a>
+                </td>
+                <td class="px-4 py-3 text-brand-500 hidden sm:table-cell capitalize">{d.county.replace(/-/g,' ')}</td>
+                <td class="px-4 py-3 text-right font-mono font-600 text-red-600">{d.property.priceChange1y.toFixed(1)}%</td>
+                <td class="px-4 py-3 text-right font-mono text-brand-600 hidden md:table-cell">{formatPriceFull(d.property.avgPrice)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="bg-accent-50 border border-accent-200 rounded-xl p-6 text-center">
+      <h3 class="font-display font-700 text-lg text-brand-900 mb-2">Track price trends for any area</h3>
+      <p class="text-brand-500 text-sm mb-4">Each postcode page shows a full price history chart and year-on-year trend.</p>
+      <form action="/search" method="get" class="flex gap-2 max-w-sm mx-auto">
+        <input name="q" type="text" placeholder="Enter postcode e.g. HP23" class="flex-1 px-4 py-2 border border-brand-200 rounded-lg text-sm focus:outline-none focus:border-accent-400" />
+        <button type="submit" class="bg-accent-500 text-white px-4 py-2 rounded-lg text-sm font-600 hover:bg-accent-600 transition-colors">Search</button>
+      </form>
+    </section>
+
+  </main>
+
+  <Footer />
+</Base>

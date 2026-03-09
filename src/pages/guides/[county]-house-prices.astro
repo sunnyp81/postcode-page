@@ -1,0 +1,159 @@
+---
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/global/Header.astro';
+import Footer from '../../components/global/Footer.astro';
+import { getAllCountyData, getPostcodeData, getAllPostcodeSlugs } from '../../utils/data';
+import { formatPriceFull } from '../../utils/format';
+
+export async function getStaticPaths() {
+  const counties = getAllCountyData();
+  return counties
+    .filter(c => c.postcodeCount >= 3)
+    .map(c => ({ params: { county: c.slug } }));
+}
+
+const { county } = Astro.params;
+const allCounties = getAllCountyData();
+const countyData = allCounties.find(c => c.slug === county);
+if (!countyData) return Astro.redirect('/guides/');
+
+const label = countyData.slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+
+// Get all postcode data for this county
+const allSlugs = getAllPostcodeSlugs();
+const postcodes = allSlugs
+  .map(s => getPostcodeData(s))
+  .filter(Boolean)
+  .filter(d => d!.county === county && d!.property.transactions12m >= 10) as NonNullable<ReturnType<typeof getPostcodeData>>[];
+
+postcodes.sort((a, b) => b.property.avgPrice - a.property.avgPrice);
+
+const mostExpensive = postcodes.slice(0, 10);
+const cheapest = [...postcodes].sort((a, b) => a.property.avgPrice - b.property.avgPrice).slice(0, 10);
+const avgPrice = Math.round(postcodes.reduce((s, d) => s + d.property.avgPrice, 0) / postcodes.length);
+const totalTx = postcodes.reduce((s, d) => s + d.property.transactions12m, 0);
+
+const nationalAvg = 287000;
+const vsNational = ((avgPrice - nationalAvg) / nationalAvg * 100);
+
+// Rising/falling
+const rising = [...postcodes]
+  .filter(d => d.property.priceChange1y && Math.abs(d.property.priceChange1y) < 100)
+  .sort((a, b) => b.property.priceChange1y - a.property.priceChange1y)
+  .slice(0, 5);
+---
+<Base
+  title={`${label} House Prices 2026 — Average by Postcode District`}
+  description={`Average house prices in ${label} by postcode district. Cheapest and most expensive areas, price trends, and market data from Land Registry 2025–26.`}
+>
+  <Header />
+
+  <div class="relative overflow-hidden bg-brand-950 text-white">
+    <div class="absolute inset-0 opacity-20 dot-grid" aria-hidden="true"/>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <nav class="flex items-center gap-2 text-brand-400 text-sm mb-4">
+        <a href="/guides/" class="hover:text-accent-400 transition-colors">Guides</a>
+        <span>/</span>
+        <span class="text-brand-300">{label}</span>
+      </nav>
+      <p class="font-mono text-accent-400 text-sm font-500 tracking-widest uppercase mb-2">Property Guide</p>
+      <h1 class="font-display font-700 text-4xl sm:text-5xl text-white tracking-tight leading-tight">{label} House Prices 2026</h1>
+      <p class="text-brand-300 text-lg mt-3 max-w-2xl">Average house prices across {postcodes.length} postcode districts in {label}. Based on {totalTx.toLocaleString()} Land Registry transactions.</p>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+
+    <!-- Key stats -->
+    <section class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
+      {[
+        { label: `${label} average`, value: formatPriceFull(avgPrice) },
+        { label: 'vs national avg', value: `${vsNational > 0 ? '+' : ''}${vsNational.toFixed(0)}%` },
+        { label: 'Postcode districts', value: postcodes.length.toString() },
+        { label: 'Transactions (12m)', value: totalTx.toLocaleString() },
+      ].map(k => (
+        <div class="bg-white border border-brand-100 rounded-xl p-4 shadow-sm">
+          <p class="text-brand-500 text-xs font-500 uppercase tracking-wide mb-1">{k.label}</p>
+          <p class="font-display font-700 text-xl text-brand-900">{k.value}</p>
+        </div>
+      ))}
+    </section>
+
+    <!-- All districts table -->
+    <section class="mb-12">
+      <h2 class="font-display font-700 text-2xl text-brand-800 mb-2">All {label} Postcode Districts</h2>
+      <p class="text-brand-500 text-sm mb-4">Average house price, ranked highest to lowest. Minimum 10 transactions.</p>
+      <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-brand-50 border-b border-brand-100">
+              <th class="text-left px-4 py-3 text-brand-600 font-600">District</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600">Avg Price</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden md:table-cell">1yr Change</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden lg:table-cell">Transactions</th>
+            </tr>
+          </thead>
+          <tbody>
+            {postcodes.map((d, i) => (
+              <tr class={`border-b border-brand-50 hover:bg-brand-50/50 transition-colors ${i % 2 === 0 ? '' : 'bg-brand-50/20'}`}>
+                <td class="px-4 py-3">
+                  <a href={`/${d.code.toLowerCase()}/`} class="text-accent-500 hover:text-accent-600 font-600">{d.code}</a>
+                  {d.name && d.name !== d.code && <span class="text-brand-400 text-xs ml-2">{d.name}</span>}
+                </td>
+                <td class="px-4 py-3 text-right font-mono font-600 text-brand-800">{formatPriceFull(d.property.avgPrice)}</td>
+                <td class="px-4 py-3 text-right hidden md:table-cell">
+                  {d.property.priceChange1y ? (
+                    <span class={`text-xs font-600 ${d.property.priceChange1y > 0 ? 'text-green-600' : 'text-red-500'}`}>
+                      {d.property.priceChange1y > 0 ? '+' : ''}{d.property.priceChange1y.toFixed(1)}%
+                    </span>
+                  ) : <span class="text-brand-300 text-xs">—</span>}
+                </td>
+                <td class="px-4 py-3 text-right text-brand-500 hidden lg:table-cell">{d.property.transactions12m.toLocaleString()}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Rising districts -->
+    {rising.length > 0 && (
+      <section class="mb-12">
+        <h2 class="font-display font-700 text-2xl text-brand-800 mb-4">Fastest Rising in {label}</h2>
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+          {rising.map(d => (
+            <a href={`/${d.code.toLowerCase()}/`} class="bg-white border border-brand-100 rounded-xl p-4 shadow-sm hover:border-accent-300 hover:shadow-md transition-all group block">
+              <div class="flex items-start justify-between mb-2">
+                <span class="font-display font-700 text-brand-900 group-hover:text-accent-500 transition-colors">{d.code}</span>
+                <span class="text-xs font-600 text-green-700 bg-green-50 px-2 py-0.5 rounded-full">+{d.property.priceChange1y.toFixed(1)}%</span>
+              </div>
+              <p class="font-mono font-600 text-lg text-brand-800">{formatPriceFull(d.property.avgPrice)}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Related counties -->
+    <section>
+      <h2 class="font-display font-700 text-xl text-brand-800 mb-4">Related guides</h2>
+      <div class="flex flex-wrap gap-2">
+        {allCounties
+          .filter(c => c.region === countyData.region && c.slug !== county && c.postcodeCount >= 3)
+          .slice(0, 8)
+          .map(c => (
+            <a href={`/guides/${c.slug}-house-prices/`} class="text-sm px-3 py-1.5 bg-brand-50 text-brand-600 rounded-lg hover:bg-accent-50 hover:text-accent-600 transition-colors border border-brand-100 capitalize">
+              {c.slug.replace(/-/g,' ')}
+            </a>
+          ))
+        }
+        <a href="/guides/" class="text-sm px-3 py-1.5 bg-brand-50 text-brand-600 rounded-lg hover:bg-accent-50 hover:text-accent-600 transition-colors border border-brand-100">
+          All guides →
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <Footer />
+</Base>

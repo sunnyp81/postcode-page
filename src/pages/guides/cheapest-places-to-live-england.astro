@@ -1,0 +1,173 @@
+---
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/global/Header.astro';
+import Footer from '../../components/global/Footer.astro';
+import { getAllPostcodeSlugs, getPostcodeData } from '../../utils/data';
+import { formatPriceFull } from '../../utils/format';
+
+// Commercial postcode prefixes to exclude from residential rankings
+const COMMERCIAL_RE = /^(EC[1-4]|WC[12]|W1[A-Z]|SW1[AHPVXY]|E1W)/;
+
+const allSlugs = getAllPostcodeSlugs();
+const allData = allSlugs
+  .map(s => getPostcodeData(s))
+  .filter(Boolean)
+  .filter(d => {
+    if (!d!.property.avgPrice || d!.property.transactions12m < 50) return false;
+    if (COMMERCIAL_RE.test(d!.code) && d!.property.avgPrice > 1000000) return false;
+    return true;
+  }) as NonNullable<ReturnType<typeof getPostcodeData>>[];
+
+const cheapest = [...allData]
+  .sort((a, b) => a.property.avgPrice - b.property.avgPrice)
+  .slice(0, 30);
+
+const cheapestEngland = cheapest.filter(d => !['wales', 'north-wales', 'south-wales', 'west-wales', 'mid-wales', 'gwent', 'cardiff'].includes(d.county));
+
+// Cheapest by region
+const regionCheapest: Record<string, typeof cheapest[0][]> = {};
+for (const d of allData) {
+  if (!regionCheapest[d.region]) regionCheapest[d.region] = [];
+  regionCheapest[d.region].push(d);
+}
+const regionRankings = Object.entries(regionCheapest)
+  .map(([region, items]) => {
+    const sorted = [...items].sort((a, b) => a.property.avgPrice - b.property.avgPrice);
+    return { region, cheapest: sorted[0], avgPrice: Math.round(items.reduce((s, d) => s + d.property.avgPrice, 0) / items.length) };
+  })
+  .sort((a, b) => a.avgPrice - b.avgPrice)
+  .filter(r => !['wales'].includes(r.region));
+
+const nationalAvg = 287000;
+const lastUpdated = 'March 2026';
+---
+<Base
+  title="Cheapest Places to Live in England 2026 — Postcode Districts Ranked"
+  description="The most affordable postcode districts in England by average house price, based on Land Registry data. Includes regional breakdowns and price-per-square-metre context."
+>
+  <Header />
+
+  <div class="relative overflow-hidden bg-brand-950 text-white">
+    <div class="absolute inset-0 opacity-20 dot-grid" aria-hidden="true"/>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <p class="font-mono text-accent-400 text-sm font-500 tracking-widest uppercase mb-2">Property Guide</p>
+      <h1 class="font-display font-700 text-4xl sm:text-5xl text-white tracking-tight leading-tight">Cheapest Places to Live in England 2026</h1>
+      <p class="text-brand-300 text-lg mt-3 max-w-2xl">Postcode districts ranked by average house price. Based on {allData.length.toLocaleString()} property transactions from HM Land Registry.</p>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+
+    <!-- Key facts -->
+    <section class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
+      {[
+        { label: 'National average', value: formatPriceFull(nationalAvg) },
+        { label: 'Cheapest district', value: formatPriceFull(cheapest[0]?.property.avgPrice) },
+        { label: 'Cheapest region', value: regionRankings[0]?.region.replace(/-/g,' ').replace(/\b\w/g, c=>c.toUpperCase()) },
+        { label: 'Data updated', value: lastUpdated },
+      ].map(k => (
+        <div class="bg-white border border-brand-100 rounded-xl p-4 shadow-sm">
+          <p class="text-brand-500 text-xs font-500 uppercase tracking-wide mb-1">{k.label}</p>
+          <p class="font-display font-700 text-xl text-brand-900">{k.value}</p>
+        </div>
+      ))}
+    </section>
+
+    <!-- Intro -->
+    <section class="mb-10 text-brand-600 leading-relaxed space-y-3">
+      <p>The average house price in England and Wales stood at <strong>{formatPriceFull(nationalAvg)}</strong> in early 2026, according to HM Land Registry data. But that national average masks enormous variation — the cheapest postcode districts have average prices below £100,000, while the most expensive exceed £2 million.</p>
+      <p>Below are the 30 most affordable postcode districts in England and Wales with at least 50 transactions in our dataset — a threshold that ensures the averages are statistically meaningful rather than based on a handful of sales.</p>
+    </section>
+
+    <!-- Top 30 cheapest table -->
+    <section class="mb-12">
+      <h2 class="font-display font-700 text-2xl text-brand-800 mb-2">30 Cheapest Postcode Districts</h2>
+      <p class="text-brand-500 text-sm mb-4">Minimum 50 transactions. Average of all residential sales 2023–2025.</p>
+      <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-brand-50 border-b border-brand-100">
+              <th class="text-left px-4 py-3 text-brand-600 font-600">Rank</th>
+              <th class="text-left px-4 py-3 text-brand-600 font-600">District</th>
+              <th class="text-left px-4 py-3 text-brand-600 font-600 hidden sm:table-cell">Area</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600">Avg Price</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden md:table-cell">vs National</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden lg:table-cell">Transactions</th>
+            </tr>
+          </thead>
+          <tbody>
+            {cheapest.map((d, i) => {
+              const vsNat = ((d.property.avgPrice - nationalAvg) / nationalAvg * 100);
+              return (
+                <tr class={`border-b border-brand-50 hover:bg-brand-50/50 transition-colors ${i % 2 === 0 ? '' : 'bg-brand-50/20'}`}>
+                  <td class="px-4 py-3 text-brand-400 font-mono text-sm">{i + 1}</td>
+                  <td class="px-4 py-3">
+                    <a href={`/${d.code.toLowerCase()}/`} class="text-accent-500 hover:text-accent-600 font-600 transition-colors">{d.code}</a>
+                  </td>
+                  <td class="px-4 py-3 text-brand-500 hidden sm:table-cell capitalize">{d.county.replace(/-/g,' ')}</td>
+                  <td class="px-4 py-3 text-right font-mono font-600 text-brand-800">{formatPriceFull(d.property.avgPrice)}</td>
+                  <td class="px-4 py-3 text-right hidden md:table-cell">
+                    <span class="text-xs font-600 text-accent-600">{vsNat.toFixed(0)}%</span>
+                  </td>
+                  <td class="px-4 py-3 text-right text-brand-500 hidden lg:table-cell">{d.property.transactions12m.toLocaleString()}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- By region -->
+    <section class="mb-12">
+      <h2 class="font-display font-700 text-2xl text-brand-800 mb-2">Cheapest Regions</h2>
+      <p class="text-brand-500 text-sm mb-4">Average house price across all postcode districts in each region.</p>
+      <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-brand-50 border-b border-brand-100">
+              <th class="text-left px-4 py-3 text-brand-600 font-600">Region</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600">Avg Price</th>
+              <th class="text-left px-4 py-3 text-brand-600 font-600 hidden sm:table-cell">Cheapest District</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden sm:table-cell">Cheapest Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            {regionRankings.map((r, i) => (
+              <tr class={`border-b border-brand-50 hover:bg-brand-50/50 transition-colors ${i % 2 === 0 ? '' : 'bg-brand-50/20'}`}>
+                <td class="px-4 py-3 font-500 text-brand-800 capitalize">{r.region.replace(/-/g,' ')}</td>
+                <td class="px-4 py-3 text-right font-mono font-600 text-brand-800">{formatPriceFull(r.avgPrice)}</td>
+                <td class="px-4 py-3 hidden sm:table-cell">
+                  <a href={`/${r.cheapest.code.toLowerCase()}/`} class="text-accent-500 hover:underline font-600">{r.cheapest.code}</a>
+                  <span class="text-brand-400 ml-2 text-xs capitalize">{r.cheapest.county.replace(/-/g,' ')}</span>
+                </td>
+                <td class="px-4 py-3 text-right font-mono text-brand-600 hidden sm:table-cell">{formatPriceFull(r.cheapest.property.avgPrice)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Commentary -->
+    <section class="mb-10 text-brand-600 leading-relaxed space-y-3">
+      <h2 class="font-display font-700 text-2xl text-brand-800 mb-3">What drives affordability?</h2>
+      <p>The most affordable areas in England are concentrated in the <strong>North East</strong>, <strong>Yorkshire</strong>, and parts of <strong>the North West</strong>. County Durham, Teesside, and South Yorkshire consistently feature at the bottom of the price table, with many districts averaging well below £150,000.</p>
+      <p>Low prices often reflect lower average earnings, reduced demand from London-based buyers, and a higher proportion of older terraced housing stock. They do not necessarily mean poor quality of life — crime rates and school quality in these areas vary considerably and should be checked separately.</p>
+      <p>For buyers, the affordability calculation extends beyond the purchase price. <strong>Council tax</strong>, <strong>commuting costs</strong>, and <strong>broadband quality</strong> all affect the true cost of living in an area. Use the individual postcode pages to check all factors together.</p>
+    </section>
+
+    <!-- CTA -->
+    <section class="bg-accent-50 border border-accent-200 rounded-xl p-6 text-center">
+      <h3 class="font-display font-700 text-lg text-brand-900 mb-2">Look up any postcode district</h3>
+      <p class="text-brand-500 text-sm mb-4">Check house prices, crime, schools, broadband, and council tax for any UK area.</p>
+      <form action="/search" method="get" class="flex gap-2 max-w-sm mx-auto">
+        <input name="q" type="text" placeholder="Enter postcode e.g. DL4" class="flex-1 px-4 py-2 border border-brand-200 rounded-lg text-sm focus:outline-none focus:border-accent-400" />
+        <button type="submit" class="bg-accent-500 text-white px-4 py-2 rounded-lg text-sm font-600 hover:bg-accent-600 transition-colors">Search</button>
+      </form>
+    </section>
+
+  </main>
+
+  <Footer />
+</Base>

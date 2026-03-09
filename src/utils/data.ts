@@ -170,3 +170,98 @@ export function getCountyData(slug: string) {
     return null;
   }
 }
+
+export interface CountySummary {
+  slug: string;
+  label: string;
+  region: string;
+  avgPrice: number;
+  postcodeCount: number;
+}
+
+export interface RegionSummary {
+  slug: string;
+  label: string;
+  counties: CountySummary[];
+  totalPostcodes: number;
+  avgPrice: number;
+}
+
+const REGION_LABELS: Record<string, string> = {
+  'london': 'London',
+  'south-east': 'South East',
+  'south-west': 'South West',
+  'east-of-england': 'East of England',
+  'east-midlands': 'East Midlands',
+  'west-midlands': 'West Midlands',
+  'yorkshire': 'Yorkshire & the Humber',
+  'north-west': 'North West',
+  'north-east': 'North East',
+  'wales': 'Wales',
+};
+
+export function getAllCountyData(): CountySummary[] {
+  const slugs = getAllCountySlugs();
+  return slugs
+    .map(slug => getCountyData(slug))
+    .filter(Boolean)
+    .map(d => ({
+      slug: d.slug,
+      label: d.label,
+      region: d.region,
+      avgPrice: d.avgPrice,
+      postcodeCount: d.postcodeCount,
+    }));
+}
+
+export function getAllRegions(): RegionSummary[] {
+  const counties = getAllCountyData();
+  const byRegion = new Map<string, CountySummary[]>();
+
+  for (const county of counties) {
+    if (!byRegion.has(county.region)) byRegion.set(county.region, []);
+    byRegion.get(county.region)!.push(county);
+  }
+
+  return Array.from(byRegion.entries())
+    .map(([slug, regionCounties]) => {
+      const totalPostcodes = regionCounties.reduce((s, c) => s + c.postcodeCount, 0);
+      const avgPrice = Math.round(
+        regionCounties.reduce((s, c) => s + c.avgPrice * c.postcodeCount, 0) / totalPostcodes
+      );
+      return {
+        slug,
+        label: REGION_LABELS[slug] || slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()),
+        counties: regionCounties.sort((a, b) => b.avgPrice - a.avgPrice),
+        totalPostcodes,
+        avgPrice,
+      };
+    })
+    .sort((a, b) => b.avgPrice - a.avgPrice);
+}
+
+export function getRegionData(slug: string): RegionSummary | null {
+  const regions = getAllRegions();
+  return regions.find(r => r.slug === slug) || null;
+}
+
+export function getCountyPostcodes(countySlug: string): Array<{
+  code: string; name: string; avgPrice: number; priceChange1y: number; crime: number; schools: number;
+}> {
+  const county = getCountyData(countySlug);
+  if (!county) return [];
+  return (county.postcodes as string[])
+    .map(code => {
+      const d = getPostcodeData(code.toLowerCase());
+      if (!d) return null;
+      return {
+        code: d.code,
+        name: d.name,
+        avgPrice: d.property.avgPrice,
+        priceChange1y: d.property.priceChange1y,
+        crime: d.crime.totalPer1000,
+        schools: d.schools.count,
+      };
+    })
+    .filter(Boolean) as Array<{ code: string; name: string; avgPrice: number; priceChange1y: number; crime: number; schools: number }>;
+}

@@ -21,7 +21,7 @@ import {
   crimeSentiment,
   schoolSentiment,
 } from '../../utils/format';
-import { buildPostcodeSchema } from '../../utils/schema';
+import { buildPostcodeSchema, buildFAQSchema, type FAQItem } from '../../utils/schema';
 
 export async function getStaticPaths() {
   const slugs = getAllPostcodeSlugs();
@@ -35,7 +35,7 @@ if (!data) {
   return Astro.redirect('/404');
 }
 
-const { code, name, county, region, property, crime, schools, demographics, broadband, councilTax, context } = data;
+const { code, name, county, region, property, crime, schools, demographics, broadband, councilTax, deprivation, context } = data;
 
 const nationalAvgPrice = data.comparisons.nationalAvg.price;
 const countyAvgPrice = data.comparisons.countyAvg.price;
@@ -48,7 +48,67 @@ const regionLabel = capitalize(region);
 const pageTitle = `${code} — ${name} | Property Prices, Crime & Area Data`;
 const metaDescription = `${code} (${name}): average house price ${formatPriceFull(property.avgPrice)} (${property.priceChange1y > 0 ? '+' : ''}${property.priceChange1y.toFixed(1)}% YoY). Crime ${Math.abs(crime.vsNational).toFixed(0)}% ${crime.vsNational < 0 ? 'below' : 'above'} national average. ${schools.outstanding} Outstanding-rated school${schools.outstanding !== 1 ? 's' : ''}. Data updated ${data.meta.lastUpdated}.`;
 
-const schema = buildPostcodeSchema(data, Astro.url.href);
+// Build FAQ data from real district metrics
+const goodSchoolPct = schools.count > 0
+  ? Math.round((schools.outstanding + schools.good) / schools.count * 100)
+  : 0;
+const crimeVerdict = crime.vsNational < -20
+  ? `significantly below the national average (${crime.totalPer1000.toFixed(1)} crimes per 1,000 residents vs the national average of ${crime.nationalAvgPer1000.toFixed(1)})`
+  : crime.vsNational > 20
+    ? `above the national average (${crime.totalPer1000.toFixed(1)} crimes per 1,000 residents vs ${crime.nationalAvgPer1000.toFixed(1)} nationally)`
+    : `close to the national average at ${crime.totalPer1000.toFixed(1)} crimes per 1,000 residents`;
+
+const faqs: FAQItem[] = [
+  {
+    question: `What is the average house price in ${code}?`,
+    answer: `The average house price in ${code} (${name}) is ${formatPriceFull(property.avgPrice)}, based on ${property.transactions12m} residential sales in the past 12 months. This is ${Math.abs(Math.round(priceVsNational))}% ${priceVsNational > 0 ? 'above' : 'below'} the national average of ${formatPriceFull(nationalAvgPrice)}. Prices have ${property.priceChange1y >= 0 ? 'risen' : 'fallen'} by ${Math.abs(property.priceChange1y).toFixed(1)}% over the past year.`,
+  },
+  {
+    question: `Is ${code} a safe area to live?`,
+    answer: `Crime in ${code} is ${crimeVerdict}. The most common crime types recorded are violent crime (${crime.byType.violentCrime.toFixed(1)} per 1,000) and antisocial behaviour (${crime.byType.antisocialBehaviour.toFixed(1)} per 1,000). Crime figures are sourced from data.police.uk rolling 12-month data.`,
+  },
+  {
+    question: `What are the schools like in ${code}?`,
+    answer: `There are ${schools.count} schools in or near ${code}. ${goodSchoolPct}% are rated Good or Outstanding by Ofsted — ${schools.outstanding} Outstanding and ${schools.good} Good. ${schools.requiresImprovement > 0 ? `${schools.requiresImprovement} school${schools.requiresImprovement > 1 ? 's' : ''} require${schools.requiresImprovement === 1 ? 's' : ''} improvement.` : 'None require improvement.'}`,
+  },
+  {
+    question: `What is the council tax in ${code}?`,
+    answer: `Council tax in ${code} is collected by ${councilTax.authority}. The Band D rate is £${councilTax.bandD.toLocaleString()} per year (2025–26). This is the total bill including county, district, police, and fire precepts.`,
+  },
+  {
+    question: `What broadband speeds are available in ${code}?`,
+    answer: `The average broadband download speed in ${code} is ${broadband.avgDownload.toFixed(0)} Mbps. Superfast broadband (30 Mbps+) is available to ${broadband.superfastPct}% of premises, ultrafast to ${broadband.ultrafastPct}%, and full-fibre (FTTP) to ${broadband.fullFibrePct}%. Source: Ofcom Connected Nations.`,
+  },
+  {
+    question: `What percentage of homes in ${code} are owner-occupied?`,
+    answer: `According to the ONS Census 2021, ${demographics.ownerOccupied}% of homes in ${code} are owner-occupied. ${demographics.privateRent}% are privately rented and ${demographics.socialRent}% are social housing. The total population is approximately ${demographics.population.toLocaleString()}.`,
+  },
+];
+
+const schema = [...buildPostcodeSchema(data, Astro.url.href), buildFAQSchema(faqs, Astro.url.href)];
+
+// Deprivation display helpers (computed in frontmatter to avoid JSX ternary parse issues)
+const imdDecile = deprivation?.imdDecile ?? null;
+const imdScore = deprivation?.imdScore ?? null;
+const imdPct = deprivation?.pct10MostDeprived ?? null;
+const imdDecileColor = imdDecile !== null
+  ? imdDecile <= 3 ? 'text-red-600' : imdDecile >= 8 ? 'text-green-600' : 'text-amber-600'
+  : '';
+const imdDecileLabel = imdDecile !== null
+  ? imdDecile <= 2 ? 'High deprivation' : imdDecile >= 9 ? 'Very low deprivation' : imdDecile <= 4 ? 'Above average deprivation' : imdDecile >= 7 ? 'Below average deprivation' : 'Average deprivation'
+  : '';
+const imdBarColors = imdDecile !== null
+  ? Array.from({ length: 10 }, (_, i) => {
+      const d = i + 1;
+      if (d !== imdDecile) return 'bg-brand-100';
+      return imdDecile <= 3 ? 'bg-red-500' : imdDecile >= 8 ? 'bg-green-500' : 'bg-amber-400';
+    })
+  : [];
+const imdContextText = imdDecile === null ? '' : imdDecile <= 2
+  ? `${code} falls within the most deprived 20% of local authorities in England (IMD decile ${imdDecile} of 10). This reflects lower relative incomes, higher unemployment, and fewer local services compared to the national average.`
+  : imdDecile >= 9
+    ? `${code} is among the least deprived areas in England (IMD decile ${imdDecile} of 10), indicating high relative affluence, strong employment, and good access to services.`
+    : `${code} has a deprivation decile of ${imdDecile} out of 10 (where 1 is most deprived and 10 is least deprived), placing it ${imdDecile <= 5 ? 'slightly above' : 'below'} the national average for deprivation.`;
 
 const nearbyPostcodes = getAdjacentPostcodes(data.adjacent);
 
@@ -112,9 +172,6 @@ const synthesisTag = [
           <p class="text-brand-400 text-sm mt-1">{countyLabel}, {regionLabel}, England</p>
         </div>
         <div class="flex gap-3">
-          <a href={`/compare/?a=${code}`} class="px-4 py-2 border border-brand-700 text-brand-300 rounded-lg text-sm hover:border-brand-500 hover:text-white transition-colors">
-            Compare area
-          </a>
           <a href="#area-summary" class="px-4 py-2 bg-accent-400 text-white rounded-lg text-sm font-600 hover:bg-accent-500 transition-colors">
             View summary
           </a>
@@ -169,7 +226,7 @@ const synthesisTag = [
       <MetricCard
         label="Crime Rate"
         value={`${crime.totalPer1000.toFixed(1)}/1,000`}
-        change={crime.trend12m}
+        change={crime.trend12m ?? undefined}
         changeLabel="vs previous year"
         context={`National avg ${crime.nationalAvgPer1000.toFixed(1)}/1,000`}
         contextPct={Math.round(crime.vsNational)}
@@ -207,7 +264,7 @@ const synthesisTag = [
         <div class="px-6 py-4 border-b border-brand-100">
           <h3 class="font-600 text-brand-900">Average Price by Property Type</h3>
         </div>
-        <table class="data-table">
+        <div class="overflow-x-auto"><table class="data-table">
           <thead>
             <tr>
               <th>Type</th>
@@ -229,7 +286,7 @@ const synthesisTag = [
               <td class="mono font-600">{property.transactions12m}</td>
             </tr>
           </tbody>
-        </table>
+        </table></div>
       </div>
 
       <!-- 5-year trend chart -->
@@ -290,7 +347,7 @@ const synthesisTag = [
           <div class="px-6 py-4 border-b border-brand-100">
             <h3 class="font-600 text-brand-900">Nearest Schools</h3>
           </div>
-          <table class="data-table">
+          <div class="overflow-x-auto"><table class="data-table">
             <thead>
               <tr>
                 <th>School</th>
@@ -318,7 +375,7 @@ const synthesisTag = [
                 </tr>
               ))}
             </tbody>
-          </table>
+          </table></div>
         </div>
       )}
 
@@ -420,6 +477,62 @@ const synthesisTag = [
       </div>
     </section>
 
+    <!-- DEPRIVATION SECTION -->
+    {imdDecile !== null && (
+      <section aria-labelledby="deprivation" class="mt-12 fade-up">
+        <h2 id="deprivation" class="text-2xl font-display font-600 text-brand-900 mb-1">Deprivation Index</h2>
+        <p class="text-brand-500 text-sm mb-6">Source: Ministry of Housing, Communities &amp; Local Government — English Indices of Deprivation 2019</p>
+
+        <div class="card p-6 mb-4">
+          <p class="text-brand-700 leading-relaxed mb-4">
+            {imdContextText}
+            {imdPct !== null && ` ${imdPct}% of small areas within the local authority fall into the most deprived 10% nationally.`}
+          </p>
+
+          <!-- Decile bar visualisation -->
+          <div class="mt-4">
+            <div class="flex items-center justify-between text-xs text-brand-500 mb-1">
+              <span>Most deprived</span>
+              <span>Least deprived</span>
+            </div>
+            <div class="flex gap-1 h-6">
+              {imdBarColors.map((cls, i) => (
+                <div class={`flex-1 rounded ${cls}`} title={`Decile ${i + 1}`} />
+              ))}
+            </div>
+            <p class="text-xs text-brand-400 mt-1 text-center">Decile {imdDecile} of 10</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+          <div class="card p-4">
+            <p class="text-brand-500 text-xs font-500 uppercase tracking-wide mb-1">IMD Decile</p>
+            <p class={`font-display font-700 text-xl ${imdDecileColor}`}>{imdDecile} / 10</p>
+            <p class="text-brand-400 text-xs mt-1">{imdDecileLabel}</p>
+          </div>
+          {imdScore !== null && (
+            <div class="card p-4">
+              <p class="text-brand-500 text-xs font-500 uppercase tracking-wide mb-1">IMD Score</p>
+              <p class="font-display font-700 text-xl text-brand-900">{imdScore.toFixed(1)}</p>
+              <p class="text-brand-400 text-xs mt-1">Higher = more deprived</p>
+            </div>
+          )}
+          {imdPct !== null && (
+            <div class="card p-4">
+              <p class="text-brand-500 text-xs font-500 uppercase tracking-wide mb-1">In most deprived 10%</p>
+              <p class="font-display font-700 text-xl text-brand-900">{imdPct}%</p>
+              <p class="text-brand-400 text-xs mt-1">of local small areas</p>
+            </div>
+          )}
+        </div>
+
+        <p class="text-xs text-brand-400 mt-3">
+          IMD 2019 data is at local authority level — it reflects the average across all neighbourhoods in the authority, which may mask variation within the postcode district.
+          <a href="/blog/understanding-deprivation-indices/" class="text-accent-500 hover:underline ml-1">Learn more about the IMD →</a>
+        </p>
+      </section>
+    )}
+
     <!-- AREA SUMMARY -->
     <section aria-labelledby="area-summary" id="area-summary" class="mt-12 fade-up">
       <h2 id="area-summary" class="text-2xl font-display font-600 text-brand-900 mb-6">Area Summary</h2>
@@ -447,8 +560,62 @@ const synthesisTag = [
       </section>
     )}
 
+    <!-- COMPARE LINKS -->
+    {nearbyPostcodes.length > 0 && (
+      <section class="mt-8 fade-up">
+        <h2 class="text-lg font-display font-600 text-brand-900 mb-3">Compare {code} with nearby areas</h2>
+        <div class="flex flex-wrap gap-2">
+          {nearbyPostcodes.slice(0, 6).map(n => (
+            <a href={`/compare/${[code, n.code].sort().join('-vs-').toLowerCase()}/`}
+               class="text-sm px-3 py-1.5 bg-white border border-brand-200 text-brand-600 rounded-lg hover:border-accent-300 hover:text-accent-600 transition-colors">
+              {code} vs {n.code}
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- RELATED GUIDES -->
+    <section class="mt-8 fade-up">
+      <h2 class="text-lg font-display font-600 text-brand-900 mb-3">Related property guides</h2>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
+        {[
+          { href: '/guides/average-house-price-uk/', label: 'UK Average House Prices' },
+          { href: `/guides/${county}-house-prices/`, label: `${county.replace(/-/g,' ').replace(/\b\w/g, (c: string) => c.toUpperCase())} House Prices` },
+          { href: '/guides/cheapest-places-to-live-england/', label: 'Cheapest Places to Live' },
+          { href: '/guides/safest-areas-england-wales/', label: 'Safest Areas in England' },
+          { href: '/guides/best-areas-for-families/', label: 'Best Areas for Families' },
+          { href: '/guides/fastest-rising-house-prices/', label: 'Fastest-Rising Prices' },
+        ].map(g => (
+          <a href={g.href} class="text-sm px-3 py-2.5 bg-white border border-brand-100 text-brand-600 rounded-lg hover:border-accent-200 hover:text-accent-600 transition-colors font-500">
+            {g.label} →
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section aria-labelledby="faq" class="mt-12 fade-up">
+      <h2 id="faq" class="text-2xl font-display font-600 text-brand-900 mb-6">Frequently Asked Questions</h2>
+      <div class="space-y-3">
+        {faqs.map((faq, i) => (
+          <details class="bg-white border border-brand-100 rounded-xl shadow-sm group" open={i === 0}>
+            <summary class="px-5 py-4 cursor-pointer flex items-center justify-between gap-4 font-600 text-brand-900 hover:text-accent-600 transition-colors list-none">
+              <span>{faq.question}</span>
+              <svg class="w-4 h-4 shrink-0 text-brand-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </summary>
+            <div class="px-5 pb-4 text-brand-600 text-sm leading-relaxed border-t border-brand-50 pt-3">
+              {faq.answer}
+            </div>
+          </details>
+        ))}
+      </div>
+    </section>
+
     <!-- METHODOLOGY NOTE -->
-    <aside class="mt-12 mb-8 fade-up">
+    <aside class="mt-8 mb-8 fade-up">
       <div class="rounded-xl bg-brand-50 border border-brand-200 p-5">
         <p class="text-sm text-brand-600">
           <strong class="text-brand-700">Data sources:</strong> House prices from

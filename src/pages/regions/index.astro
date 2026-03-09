@@ -2,12 +2,115 @@
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/global/Header.astro';
 import Footer from '../../components/global/Footer.astro';
+import { getAllRegions } from '../../utils/data';
+import { formatPriceFull } from '../../utils/format';
+
+const regions = getAllRegions();
+const totalPostcodes = regions.reduce((s, r) => s + r.totalPostcodes, 0);
 ---
-<Base title="UK Regions — postcode.page" description="Browse UK postcode data by region.">
+
+<Base
+  title="UK Regions — House Prices & Area Data | postcode.page"
+  description={`Browse property prices, crime rates, and school data for ${regions.length} UK regions covering ${totalPostcodes.toLocaleString()} postcode districts. Updated monthly from official sources.`}
+>
   <Header />
+
+  <!-- HERO -->
+  <div class="relative overflow-hidden bg-brand-950 text-white">
+    <div class="absolute inset-0 opacity-20 dot-grid" aria-hidden="true"/>
+    <div class="absolute -top-20 -right-20 w-96 h-96 rounded-full opacity-10 blur-[80px]"
+         style="background: radial-gradient(circle, hsl(168, 55%, 45%), transparent 70%)" aria-hidden="true"/>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <nav class="text-brand-400 text-sm mb-6" aria-label="Breadcrumb">
+        <a href="/" class="hover:text-accent-400 transition-colors">Home</a>
+        <span class="mx-2">›</span>
+        <span class="text-brand-300">Regions</span>
+      </nav>
+      <p class="font-mono text-accent-400 text-sm font-500 tracking-widest uppercase mb-2">Browse by Area</p>
+      <h1 class="font-display font-700 text-4xl sm:text-5xl text-white tracking-tight leading-tight mb-3">
+        UK Regions
+      </h1>
+      <p class="text-brand-300 text-lg max-w-xl">
+        House prices, crime rates, and school data for {regions.length} regions, {regions.reduce((s, r) => s + r.counties.length, 0)} counties, and {totalPostcodes.toLocaleString()} postcode districts.
+      </p>
+    </div>
+  </div>
+
+  <!-- REGIONS GRID -->
   <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
-    <h1>Browse by Region</h1>
-    <p>Coming soon — <a href="/">return home</a>.</p>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {regions.map(region => (
+        <a
+          href={`/regions/${region.slug}/`}
+          class="group block bg-white border border-brand-100 rounded-xl p-6 shadow-sm hover:shadow-md hover:border-accent-400/40 transition-all"
+        >
+          <div class="flex items-start justify-between mb-4">
+            <div>
+              <h2 class="font-display font-700 text-lg text-brand-800 group-hover:text-accent-500 transition-colors leading-tight">
+                {region.label}
+              </h2>
+              <p class="text-brand-400 text-sm mt-0.5">{region.totalPostcodes} postcode districts</p>
+            </div>
+            <svg class="w-5 h-5 text-brand-300 group-hover:text-accent-400 transition-colors mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+            </svg>
+          </div>
+
+          <div class="space-y-2">
+            <div class="flex justify-between items-baseline">
+              <span class="text-brand-500 text-sm">Avg house price</span>
+              <span class="font-mono font-600 text-brand-800">{formatPriceFull(region.avgPrice)}</span>
+            </div>
+            <div class="flex justify-between items-baseline">
+              <span class="text-brand-500 text-sm">Counties covered</span>
+              <span class="font-mono font-600 text-brand-800">{region.counties.length}</span>
+            </div>
+          </div>
+
+          <div class="mt-4 pt-4 border-t border-brand-100">
+            <p class="text-brand-400 text-xs truncate">
+              {region.counties.slice(0, 3).map(c => c.label).join(', ')}{region.counties.length > 3 ? ` +${region.counties.length - 3} more` : ''}
+            </p>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <!-- All counties table -->
+    <div class="mt-12">
+      <h2 class="font-display font-700 text-2xl text-brand-800 mb-6">All Counties</h2>
+      <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-brand-50 border-b border-brand-100">
+              <th class="text-left px-4 py-3 text-brand-600 font-600">County</th>
+              <th class="text-left px-4 py-3 text-brand-600 font-600 hidden sm:table-cell">Region</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600">Avg Price</th>
+              <th class="text-right px-4 py-3 text-brand-600 font-600 hidden md:table-cell">Districts</th>
+            </tr>
+          </thead>
+          <tbody>
+            {regions.flatMap(r => r.counties.map(c => ({ ...c, regionSlug: r.slug, regionLabel: r.label }))).sort((a, b) => b.avgPrice - a.avgPrice).map((county, i) => (
+              <tr class={`border-b border-brand-50 hover:bg-brand-50/50 transition-colors ${i % 2 === 0 ? '' : 'bg-brand-50/30'}`}>
+                <td class="px-4 py-3">
+                  <a href={`/counties/${county.slug}/`} class="text-accent-500 hover:text-accent-600 font-500 transition-colors">
+                    {county.label}
+                  </a>
+                </td>
+                <td class="px-4 py-3 text-brand-500 hidden sm:table-cell">
+                  <a href={`/regions/${county.regionSlug}/`} class="hover:text-accent-500 transition-colors">
+                    {county.regionLabel}
+                  </a>
+                </td>
+                <td class="px-4 py-3 text-right font-mono font-600 text-brand-800">{formatPriceFull(county.avgPrice)}</td>
+                <td class="px-4 py-3 text-right text-brand-500 hidden md:table-cell">{county.postcodeCount}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
+
   <Footer />
 </Base>

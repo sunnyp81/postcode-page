@@ -3,11 +3,65 @@ import Base from '../../layouts/Base.astro';
 import Header from '../../components/global/Header.astro';
 import Footer from '../../components/global/Footer.astro';
 ---
-<Base title="Area Research Tools — postcode.page" description="Free tools to research any UK postcode.">
+<Base title="Area Research Tools — postcode.page" description="Free tools to research any UK postcode. Compare areas, look up postcode data, and find the right neighbourhood.">
   <Header />
+
+  <div class="relative overflow-hidden bg-brand-950 text-white">
+    <div class="absolute inset-0 opacity-20 dot-grid" aria-hidden="true"/>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <p class="font-mono text-accent-400 text-sm font-500 tracking-widest uppercase mb-2">Tools</p>
+      <h1 class="font-display font-700 text-4xl sm:text-5xl text-white tracking-tight leading-tight">Area Research Tools</h1>
+      <p class="text-brand-300 text-lg mt-3 max-w-xl">Free tools to compare, research, and understand any UK postcode area.</p>
+    </div>
+  </div>
+
   <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
-    <h1>Area Research Tools</h1>
-    <p>Coming soon — <a href="/">return home</a>.</p>
+
+    <!-- Postcode search — available now -->
+    <section class="mb-12">
+      <div class="bg-white border border-brand-100 rounded-xl p-8 shadow-sm text-center max-w-lg mx-auto">
+        <h2 class="font-display font-700 text-xl text-brand-800 mb-2">Postcode Lookup</h2>
+        <p class="text-brand-500 text-sm mb-6">Enter any UK postcode district to view property prices, crime data, schools, and more.</p>
+        <form action="/search" method="get" role="search">
+          <label for="tools-search" class="sr-only">Search postcodes</label>
+          <div class="relative max-w-sm mx-auto">
+            <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+            </svg>
+            <input
+              id="tools-search"
+              type="search"
+              name="q"
+              placeholder="e.g. SW1A, GU1, M1"
+              autocomplete="off"
+              class="w-full pl-10 pr-4 py-3 bg-brand-50 border border-brand-200 rounded-lg text-brand-800 placeholder:text-brand-400 focus:outline-none focus:ring-2 focus:ring-accent-400 focus:border-transparent transition-colors"
+            />
+          </div>
+          <button type="submit" class="mt-3 px-6 py-2.5 bg-accent-400 text-white rounded-lg font-600 hover:bg-accent-500 transition-colors text-sm">
+            Search
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Coming soon tools -->
+    <section>
+      <h2 class="font-display font-700 text-2xl text-brand-800 mb-6">More tools coming soon</h2>
+      <div class="grid sm:grid-cols-3 gap-4">
+        {[
+          { title: 'Area Comparison', desc: 'Compare two postcode districts side by side across all metrics.' },
+          { title: 'Affordability Calculator', desc: 'See what salary you need to afford an area based on current prices.' },
+          { title: 'Stamp Duty Calculator', desc: 'Calculate stamp duty for any property price in any postcode.' },
+        ].map(t => (
+          <div class="bg-white border border-brand-100 rounded-xl p-5 shadow-sm">
+            <h3 class="font-display font-600 text-brand-800 mb-1">{t.title}</h3>
+            <p class="text-brand-500 text-sm">{t.desc}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
   </main>
+
   <Footer />
 </Base>
