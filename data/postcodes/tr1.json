@@ -1,0 +1,197 @@
+{
+  "code": "TR1",
+  "name": "TRURO",
+  "county": "cornwall",
+  "region": "south-west",
+  "city": "truro",
+  "adjacent": [
+    "TR2",
+    "TR3"
+  ],
+  "property": {
+    "avgPrice": 360629,
+    "medianPrice": 295000,
+    "priceChange1y": -6.2,
+    "priceChange5y": 0,
+    "transactions12m": 1099,
+    "byType": {
+      "detached": {
+        "avg": 525197,
+        "count": 279
+      },
+      "semi": {
+        "avg": 319710,
+        "count": 190
+      },
+      "terraced": {
+        "avg": 297871,
+        "count": 377
+      },
+      "flat": {
+        "avg": 199669,
+        "count": 193
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 379716
+      },
+      {
+        "year": 2024,
+        "avg": 362532
+      },
+      {
+        "year": 2025,
+        "avg": 339990
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 68.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -16,
+    "byType": {
+      "violentCrime": 27,
+      "burglary": 1,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 15,
+      "otherTheft": 11.6,
+      "other": 12.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Truro Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bosvigo School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's CofE School, Truro",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Truro School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Truro High School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 583289,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 293,
+    "avgUpload": 53,
+    "superfastPct": 93,
+    "ultrafastPct": 70,
+    "gigabitPct": 70,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Truro Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.1,
+    "imdRank": 19382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TR1 encompasses TRURO and its surrounding areas in Cornwall, South West.",
+    "priceVsCounty": "The average property price in TR1 is £360,629, which is 10% below the Cornwall average of £402,222.",
+    "priceVsNational": "Properties in TR1 cost 25.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TR1 have fallen 6.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 68.3 recorded crimes per 1,000 residents, TR1 has a crime rate 16% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TR1 has 13 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TR1 are 293.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TR1 (TRURO) offers above-average property prices (£360,629, 26% above national average), low crime (16% below national average), 13 nearby schools, and excellent broadband (293 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 402222,
+      "crime": 75,
+      "broadband": 293
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 293
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

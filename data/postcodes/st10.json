@@ -1,0 +1,198 @@
+{
+  "code": "ST10",
+  "name": "STOKE-ON-TRENT",
+  "county": "staffordshire",
+  "region": "west-midlands",
+  "city": "stoke-on-trent",
+  "adjacent": [
+    "ST9",
+    "ST11",
+    "ST12"
+  ],
+  "property": {
+    "avgPrice": 270325,
+    "medianPrice": 228350,
+    "priceChange1y": -1.6,
+    "priceChange5y": 0,
+    "transactions12m": 1289,
+    "byType": {
+      "detached": {
+        "avg": 352069,
+        "count": 482
+      },
+      "semi": {
+        "avg": 208722,
+        "count": 441
+      },
+      "terraced": {
+        "avg": 160421,
+        "count": 238
+      },
+      "flat": {
+        "avg": 102527,
+        "count": 33
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 253495
+      },
+      {
+        "year": 2024,
+        "avg": 281786
+      },
+      {
+        "year": 2025,
+        "avg": 277186
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 12.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -85.1,
+    "byType": {
+      "violentCrime": 5.7,
+      "burglary": 0.3,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1.9,
+      "otherTheft": 1.6,
+      "other": 2.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 0,
+    "good": 8,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Cheadle Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Cheadle Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Faber Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Giles' Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Thomas' Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 129659,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 171,
+    "avgUpload": 31,
+    "superfastPct": 81,
+    "ultrafastPct": 36,
+    "gigabitPct": 36,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Staffordshire",
+    "bandD": 2054,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19,
+    "imdRank": 15288,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ST10 covers STOKE-ON-TRENT in Staffordshire, West Midlands.",
+    "priceVsCounty": "The average property price in ST10 is £270,325, broadly in line with the Staffordshire average of £267,729.",
+    "priceVsNational": "Properties in ST10 cost 5.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ST10 have fallen 1.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 12.1 recorded crimes per 1,000 residents, ST10 has a crime rate well 85% below the national average of 81.3 per 1,000.",
+    "schoolContext": "ST10 has 21 schools within or near its boundaries, including 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ST10 are 171.0 Mbps, with 96% of premises having access to superfast broadband and 62% with full fibre (FTTP) connectivity.",
+    "synthesis": "ST10 (STOKE-ON-TRENT) offers property prices near the national average (£270,325), low crime (85% below national average), 21 nearby schools, and excellent broadband (171 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 267729,
+      "crime": 75,
+      "broadband": 171
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 171
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

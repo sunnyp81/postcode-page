@@ -1,0 +1,198 @@
+{
+  "code": "TS25",
+  "name": "HARTLEPOOL",
+  "county": "teesside",
+  "region": "north-east",
+  "city": "middlesbrough",
+  "adjacent": [
+    "TS24",
+    "TS26",
+    "TS27"
+  ],
+  "property": {
+    "avgPrice": 130566,
+    "medianPrice": 110000,
+    "priceChange1y": 12.8,
+    "priceChange5y": 0,
+    "transactions12m": 1933,
+    "byType": {
+      "detached": {
+        "avg": 229979,
+        "count": 237
+      },
+      "semi": {
+        "avg": 145127,
+        "count": 646
+      },
+      "terraced": {
+        "avg": 77902,
+        "count": 933
+      },
+      "flat": {
+        "avg": 69755,
+        "count": 43
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 127429
+      },
+      {
+        "year": 2024,
+        "avg": 125177
+      },
+      {
+        "year": 2025,
+        "avg": 141235
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 108.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 33.9,
+    "byType": {
+      "violentCrime": 37,
+      "burglary": 4.2,
+      "vehicleCrime": 3.6,
+      "antisocialBehaviour": 16.2,
+      "otherTheft": 21.2,
+      "other": 26.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 2,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Fens Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kingsley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rift House Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Horizon School, Hartlepool",
+        "type": "Other",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Cambian Hartlepool School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 98180,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 23,
+    "privateRent": 16,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 378,
+    "avgUpload": 68,
+    "superfastPct": 98,
+    "ultrafastPct": 94,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Middlesbrough Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 35,
+    "imdRank": 22581,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TS25 covers HARTLEPOOL in Teesside, North East.",
+    "priceVsCounty": "The average property price in TS25 is £130,566, which is 31% below the Teesside average of £189,841.",
+    "priceVsNational": "Properties in TS25 cost 54.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TS25 have risen 12.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 108.9 recorded crimes per 1,000 residents, TS25 has a crime rate significantly 34% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TS25 has 19 schools within or near its boundaries, including 2 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TS25 are 378.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TS25 (HARTLEPOOL) offers affordable property prices (£130,566, 55% below national average), higher-than-average crime (34% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (378 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 189841,
+      "crime": 75,
+      "broadband": 378
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 378
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

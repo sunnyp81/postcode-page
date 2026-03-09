@@ -1,0 +1,198 @@
+{
+  "code": "IG2",
+  "name": "ILFORD",
+  "county": "greater-london",
+  "region": "london",
+  "city": "ilford",
+  "adjacent": [
+    "IG1",
+    "IG3",
+    "IG4"
+  ],
+  "property": {
+    "avgPrice": 449204,
+    "medianPrice": 495000,
+    "priceChange1y": -2.7,
+    "priceChange5y": 0,
+    "transactions12m": 572,
+    "byType": {
+      "detached": {
+        "avg": 648907,
+        "count": 14
+      },
+      "semi": {
+        "avg": 593676,
+        "count": 63
+      },
+      "terraced": {
+        "avg": 540292,
+        "count": 288
+      },
+      "flat": {
+        "avg": 240904,
+        "count": 183
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 446259
+      },
+      {
+        "year": 2024,
+        "avg": 456388
+      },
+      {
+        "year": 2025,
+        "avg": 444215
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 105,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 29.2,
+    "byType": {
+      "violentCrime": 34.5,
+      "burglary": 3.5,
+      "vehicleCrime": 9.3,
+      "antisocialBehaviour": 22.4,
+      "otherTheft": 19.5,
+      "other": 15.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Newbury Park Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "William Torbitt Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Augustine's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Seven Kings School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Valentines High School",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 321231,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 11,
+    "privateRent": 28,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 375,
+    "avgUpload": 68,
+    "superfastPct": 99,
+    "ultrafastPct": 93,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Redbridge",
+    "bandD": 1976,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.2,
+    "imdRank": 15082,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IG2 encompasses ILFORD and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in IG2 is £449,204, which is 66% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in IG2 cost 56.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IG2 have fallen 2.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 105.0 recorded crimes per 1,000 residents, IG2 has a crime rate significantly 29% above the national average of 81.3 per 1,000.",
+    "schoolContext": "IG2 has 8 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IG2 are 375.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "IG2 (ILFORD) offers above-average property prices (£449,204, 57% above national average), higher-than-average crime (29% above national average), 8 nearby schools, and excellent broadband (375 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 375
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 375
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

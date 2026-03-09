@@ -1,0 +1,198 @@
+{
+  "code": "OX3",
+  "name": "OXFORD",
+  "county": "oxfordshire",
+  "region": "south-east",
+  "city": "oxford",
+  "adjacent": [
+    "OX2",
+    "OX4",
+    "OX5"
+  ],
+  "property": {
+    "avgPrice": 560422,
+    "medianPrice": 440000,
+    "priceChange1y": -7.6,
+    "priceChange5y": 0,
+    "transactions12m": 1368,
+    "byType": {
+      "detached": {
+        "avg": 910952,
+        "count": 191
+      },
+      "semi": {
+        "avg": 527205,
+        "count": 545
+      },
+      "terraced": {
+        "avg": 425045,
+        "count": 253
+      },
+      "flat": {
+        "avg": 283893,
+        "count": 331
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 524658
+      },
+      {
+        "year": 2024,
+        "avg": 595479
+      },
+      {
+        "year": 2025,
+        "avg": 550446
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 73.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -9.3,
+    "byType": {
+      "violentCrime": 26.6,
+      "burglary": 2.9,
+      "vehicleCrime": 2.9,
+      "antisocialBehaviour": 7.4,
+      "otherTheft": 17.5,
+      "other": 16.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Headington Quarry Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Slade Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Nicholas' Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Windmill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wood Farm Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 156470,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 12,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 320,
+    "avgUpload": 58,
+    "superfastPct": 97,
+    "ultrafastPct": 83,
+    "gigabitPct": 75,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Oxfordshire",
+    "bandD": 2240,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.5,
+    "imdRank": 6409,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "OX3 encompasses OXFORD and its surrounding areas in Oxfordshire, South East.",
+    "priceVsCounty": "The average property price in OX3 is £560,422, broadly in line with the Oxfordshire average of £588,175.",
+    "priceVsNational": "Properties in OX3 cost 95.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in OX3 have fallen 7.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 73.7 recorded crimes per 1,000 residents, OX3 has a crime rate 9% below the national average of 81.3 per 1,000.",
+    "schoolContext": "OX3 has 21 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in OX3 are 320.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "OX3 (OXFORD) offers above-average property prices (£560,422, 95% above national average), 21 nearby schools, and excellent broadband (320 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 588175,
+      "crime": 75,
+      "broadband": 320
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 320
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

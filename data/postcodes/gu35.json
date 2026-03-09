@@ -1,0 +1,196 @@
+{
+  "code": "GU35",
+  "name": "BORDON",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU34"
+  ],
+  "property": {
+    "avgPrice": 432994,
+    "medianPrice": 330000,
+    "priceChange1y": -6.1,
+    "priceChange5y": 0,
+    "transactions12m": 1140,
+    "byType": {
+      "detached": {
+        "avg": 621812,
+        "count": 306
+      },
+      "semi": {
+        "avg": 379233,
+        "count": 240
+      },
+      "terraced": {
+        "avg": 295276,
+        "count": 423
+      },
+      "flat": {
+        "avg": 198362,
+        "count": 139
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 461115
+      },
+      {
+        "year": 2024,
+        "avg": 429897
+      },
+      {
+        "year": 2025,
+        "avg": 403538
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 25.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -68.9,
+    "byType": {
+      "violentCrime": 11,
+      "burglary": 1,
+      "vehicleCrime": 1,
+      "antisocialBehaviour": 3.4,
+      "otherTheft": 3.4,
+      "other": 5.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Hollywater School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Holme Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oakmoor School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Green Room School Kingsley",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bordon Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 129975,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 226,
+    "avgUpload": 41,
+    "superfastPct": 95,
+    "ultrafastPct": 53,
+    "gigabitPct": 49,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Hampshire",
+    "bandD": 2028,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10.3,
+    "imdRank": 8236,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU35 encompasses BORDON and its surrounding areas in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU35 is £432,994, which is 29% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU35 cost 50.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU35 have fallen 6.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 25.3 recorded crimes per 1,000 residents, GU35 has a crime rate well 69% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU35 has 8 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU35 are 226.0 Mbps, with 99% of premises having access to superfast broadband and 77% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU35 (BORDON) offers above-average property prices (£432,994, 51% above national average), low crime (69% below national average), 8 nearby schools, and excellent broadband (226 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 226
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 226
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

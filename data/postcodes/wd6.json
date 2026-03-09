@@ -1,0 +1,197 @@
+{
+  "code": "WD6",
+  "name": "BOREHAMWOOD",
+  "county": "greater-london",
+  "region": "london",
+  "city": "watford",
+  "adjacent": [
+    "WD5",
+    "WD7"
+  ],
+  "property": {
+    "avgPrice": 625844,
+    "medianPrice": 452000,
+    "priceChange1y": -6.9,
+    "priceChange5y": 0,
+    "transactions12m": 1188,
+    "byType": {
+      "detached": {
+        "avg": 1191361,
+        "count": 94
+      },
+      "semi": {
+        "avg": 609406,
+        "count": 279
+      },
+      "terraced": {
+        "avg": 481760,
+        "count": 406
+      },
+      "flat": {
+        "avg": 359185,
+        "count": 355
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 751271
+      },
+      {
+        "year": 2024,
+        "avg": 578850
+      },
+      {
+        "year": 2025,
+        "avg": 538710
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 73,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -10.2,
+    "byType": {
+      "violentCrime": 25.4,
+      "burglary": 2.4,
+      "vehicleCrime": 3.3,
+      "antisocialBehaviour": 13.9,
+      "otherTheft": 13.3,
+      "other": 14.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Cowley Hill School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Woodlands Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Summerswood Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Kenilworth Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Saffron Green Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 110212,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 17,
+    "privateRent": 15,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 316,
+    "avgUpload": 57,
+    "superfastPct": 95,
+    "ultrafastPct": 82,
+    "gigabitPct": 74,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hertsmere",
+    "bandD": 2076,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.9,
+    "imdRank": 11669,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WD6 encompasses BOREHAMWOOD and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in WD6 is £625,844, which is 52% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in WD6 cost 118.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WD6 have fallen 6.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 73.0 recorded crimes per 1,000 residents, WD6 has a crime rate 10% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WD6 has 17 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WD6 are 316.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WD6 (BOREHAMWOOD) offers above-average property prices (£625,844, 118% above national average), 17 nearby schools, and excellent broadband (316 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 316
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 316
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

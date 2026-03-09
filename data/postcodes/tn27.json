@@ -1,0 +1,198 @@
+{
+  "code": "TN27",
+  "name": "ASHFORD",
+  "county": "kent",
+  "region": "south-east",
+  "city": "tunbridge-wells",
+  "adjacent": [
+    "TN26",
+    "TN28",
+    "TN29"
+  ],
+  "property": {
+    "avgPrice": 554553,
+    "medianPrice": 445000,
+    "priceChange1y": -0.7,
+    "priceChange5y": 0,
+    "transactions12m": 584,
+    "byType": {
+      "detached": {
+        "avg": 691233,
+        "count": 264
+      },
+      "semi": {
+        "avg": 402845,
+        "count": 145
+      },
+      "terraced": {
+        "avg": 308211,
+        "count": 84
+      },
+      "flat": {
+        "avg": 212096,
+        "count": 31
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 579080
+      },
+      {
+        "year": 2024,
+        "avg": 542608
+      },
+      {
+        "year": 2025,
+        "avg": 538757
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.1,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Headcorn Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Egerton Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Heath Farm School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Greenfields School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Smarden Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 158379,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 193,
+    "avgUpload": 35,
+    "superfastPct": 79,
+    "ultrafastPct": 44,
+    "gigabitPct": 42,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swale",
+    "bandD": 2094,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.1,
+    "imdRank": 19995,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TN27 covers ASHFORD in Kent, South East.",
+    "priceVsCounty": "The average property price in TN27 is £554,553, which is 23% above the Kent average of £450,882.",
+    "priceVsNational": "Properties in TN27 cost 93.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TN27 have fallen 0.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TN27 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TN27 has 8 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TN27 are 193.0 Mbps, with 99% of premises having access to superfast broadband and 68% with full fibre (FTTP) connectivity.",
+    "synthesis": "TN27 (ASHFORD) offers above-average property prices (£554,553, 93% above national average), low crime (94% below national average), 8 nearby schools, and excellent broadband (193 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 193
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 193
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

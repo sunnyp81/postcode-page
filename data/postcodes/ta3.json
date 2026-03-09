@@ -1,0 +1,197 @@
+{
+  "code": "TA3",
+  "name": "TAUNTON",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "taunton",
+  "adjacent": [
+    "TA2",
+    "TA4",
+    "TA5"
+  ],
+  "property": {
+    "avgPrice": 472161,
+    "medianPrice": 390000,
+    "priceChange1y": -7.7,
+    "priceChange5y": 0,
+    "transactions12m": 621,
+    "byType": {
+      "detached": {
+        "avg": 520772,
+        "count": 309
+      },
+      "semi": {
+        "avg": 332192,
+        "count": 138
+      },
+      "terraced": {
+        "avg": 285783,
+        "count": 99
+      },
+      "flat": {
+        "avg": 188333,
+        "count": 12
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 472436
+      },
+      {
+        "year": 2024,
+        "avg": 490738
+      },
+      {
+        "year": 2025,
+        "avg": 453183
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.3,
+      "burglary": 0.2,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.1,
+      "other": 0.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Churchstanton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Curry Mallet Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Creech St Michael Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Thurlbear Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Trull Church of England VA Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 26693,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 166,
+    "avgUpload": 30,
+    "superfastPct": 61,
+    "ultrafastPct": 37,
+    "gigabitPct": 37,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Taunton Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TA3 encompasses TAUNTON and its surrounding areas in Somerset, South West.",
+    "priceVsCounty": "The average property price in TA3 is £472,161, which is 26% above the Somerset average of £373,759.",
+    "priceVsNational": "Properties in TA3 cost 64.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TA3 have fallen 7.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TA3 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TA3 has 12 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TA3 are 166.0 Mbps, with 95% of premises having access to superfast broadband and 61% with full fibre (FTTP) connectivity.",
+    "synthesis": "TA3 (TAUNTON) offers above-average property prices (£472,161, 65% above national average), low crime (94% below national average), 12 nearby schools, and excellent broadband (166 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 166
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 166
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "LE13",
+  "name": "MELTON MOWBRAY",
+  "county": "leicestershire",
+  "region": "east-midlands",
+  "city": "leicester",
+  "adjacent": [
+    "LE12",
+    "LE14",
+    "LE15"
+  ],
+  "property": {
+    "avgPrice": 270747,
+    "medianPrice": 245000,
+    "priceChange1y": -3.9,
+    "priceChange5y": 0,
+    "transactions12m": 1689,
+    "byType": {
+      "detached": {
+        "avg": 344799,
+        "count": 619
+      },
+      "semi": {
+        "avg": 226016,
+        "count": 638
+      },
+      "terraced": {
+        "avg": 187532,
+        "count": 308
+      },
+      "flat": {
+        "avg": 166995,
+        "count": 67
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 276698
+      },
+      {
+        "year": 2024,
+        "avg": 272612
+      },
+      {
+        "year": 2025,
+        "avg": 262069
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 59.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -26.7,
+    "byType": {
+      "violentCrime": 21.8,
+      "burglary": 1.5,
+      "vehicleCrime": 1.9,
+      "antisocialBehaviour": 7.6,
+      "otherTheft": 14,
+      "other": 12.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "John Ferneley College",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Long Field Spencer Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Swallowdale Primary School and Community Centre",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Brownlow Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 54052,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 11,
+    "privateRent": 15,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 369,
+    "avgUpload": 66,
+    "superfastPct": 99,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Melton",
+    "bandD": 2140,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.5,
+    "imdRank": 10438,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LE13 encompasses MELTON MOWBRAY and its surrounding areas in Leicestershire, East Midlands.",
+    "priceVsCounty": "The average property price in LE13 is £270,747, which is 22% below the Leicestershire average of £348,118.",
+    "priceVsNational": "Properties in LE13 cost 5.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LE13 have fallen 3.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 59.6 recorded crimes per 1,000 residents, LE13 has a crime rate well 27% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LE13 has 10 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LE13 are 369.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LE13 (MELTON MOWBRAY) offers property prices near the national average (£270,747), low crime (27% below national average), 10 nearby schools, and excellent broadband (369 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 348118,
+      "crime": 75,
+      "broadband": 369
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 369
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

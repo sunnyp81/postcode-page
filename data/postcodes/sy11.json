@@ -1,0 +1,198 @@
+{
+  "code": "SY11",
+  "name": "OSWESTRY",
+  "county": "mid-wales",
+  "region": "wales",
+  "city": "shrewsbury",
+  "adjacent": [
+    "SY10",
+    "SY12",
+    "SY13"
+  ],
+  "property": {
+    "avgPrice": 270946,
+    "medianPrice": 215000,
+    "priceChange1y": -17,
+    "priceChange5y": 0,
+    "transactions12m": 1271,
+    "byType": {
+      "detached": {
+        "avg": 345177,
+        "count": 428
+      },
+      "semi": {
+        "avg": 208857,
+        "count": 415
+      },
+      "terraced": {
+        "avg": 172926,
+        "count": 303
+      },
+      "flat": {
+        "avg": 132702,
+        "count": 62
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 247334
+      },
+      {
+        "year": 2024,
+        "avg": 306306
+      },
+      {
+        "year": 2025,
+        "avg": 254352
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 11.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -85.6,
+    "byType": {
+      "violentCrime": 6.5,
+      "burglary": 0.2,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 1.4,
+      "otherTheft": 0.6,
+      "other": 2.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Gobowen Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Meadows Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Whittington CofE (VA) Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Moreton Hall School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oswestry School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 332455,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 71,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 283,
+    "avgUpload": 51,
+    "superfastPct": 94,
+    "ultrafastPct": 74,
+    "gigabitPct": 64,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Shrewsbury Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.2,
+    "imdRank": 14862,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SY11 covers OSWESTRY in Mid Wales, Wales.",
+    "priceVsCounty": "The average property price in SY11 is £270,946, which is 14% below the Mid Wales average of £315,596.",
+    "priceVsNational": "Properties in SY11 cost 5.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SY11 have fallen 17.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 11.7 recorded crimes per 1,000 residents, SY11 has a crime rate well 86% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SY11 has 11 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SY11 are 283.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SY11 (OSWESTRY) offers property prices near the national average (£270,946), low crime (86% below national average), 11 nearby schools, and excellent broadband (283 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 315596,
+      "crime": 75,
+      "broadband": 283
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 283
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

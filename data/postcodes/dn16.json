@@ -1,0 +1,198 @@
+{
+  "code": "DN16",
+  "name": "SCUNTHORPE",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "doncaster",
+  "adjacent": [
+    "DN15",
+    "DN17",
+    "DN18"
+  ],
+  "property": {
+    "avgPrice": 160716,
+    "medianPrice": 145000,
+    "priceChange1y": -5.6,
+    "priceChange5y": 0,
+    "transactions12m": 1436,
+    "byType": {
+      "detached": {
+        "avg": 230496,
+        "count": 279
+      },
+      "semi": {
+        "avg": 144276,
+        "count": 817
+      },
+      "terraced": {
+        "avg": 118174,
+        "count": 268
+      },
+      "flat": {
+        "avg": 77666,
+        "count": 47
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 161151
+      },
+      {
+        "year": 2024,
+        "avg": 165000
+      },
+      {
+        "year": 2025,
+        "avg": 155805
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 88.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 9.3,
+    "byType": {
+      "violentCrime": 38,
+      "burglary": 3.5,
+      "vehicleCrime": 3.6,
+      "antisocialBehaviour": 9.5,
+      "otherTheft": 14.5,
+      "other": 19.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 0,
+    "good": 8,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bottesford Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bushfield Road Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Frodingham Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bottesford Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holme Valley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 171336,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 15,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 378,
+    "avgUpload": 68,
+    "superfastPct": 98,
+    "ultrafastPct": 94,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Doncaster Council",
+    "bandD": 2168,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.1,
+    "imdRank": 17200,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DN16 covers SCUNTHORPE in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in DN16 is £160,716, which is 30% below the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in DN16 cost 44.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DN16 have fallen 5.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 88.9 recorded crimes per 1,000 residents, DN16 has a crime rate 9% above the national average of 81.3 per 1,000.",
+    "schoolContext": "DN16 has 19 schools within or near its boundaries, including 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DN16 are 378.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DN16 (SCUNTHORPE) offers affordable property prices (£160,716, 44% below national average), 19 nearby schools, and excellent broadband (378 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 378
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 378
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

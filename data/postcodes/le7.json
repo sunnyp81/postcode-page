@@ -1,0 +1,198 @@
+{
+  "code": "LE7",
+  "name": "LEICESTER",
+  "county": "leicestershire",
+  "region": "east-midlands",
+  "city": "leicester",
+  "adjacent": [
+    "LE6",
+    "LE8",
+    "LE9"
+  ],
+  "property": {
+    "avgPrice": 386108,
+    "medianPrice": 320000,
+    "priceChange1y": -9.6,
+    "priceChange5y": 0,
+    "transactions12m": 2576,
+    "byType": {
+      "detached": {
+        "avg": 486051,
+        "count": 1155
+      },
+      "semi": {
+        "avg": 289027,
+        "count": 801
+      },
+      "terraced": {
+        "avg": 238887,
+        "count": 410
+      },
+      "flat": {
+        "avg": 143887,
+        "count": 130
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 369480
+      },
+      {
+        "year": 2024,
+        "avg": 413330
+      },
+      {
+        "year": 2025,
+        "avg": 373735
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 21.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -73.7,
+    "byType": {
+      "violentCrime": 8.6,
+      "burglary": 0.9,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 3.5,
+      "otherTheft": 2.9,
+      "other": 4.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 22,
+    "outstanding": 0,
+    "good": 9,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Latimer Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Billesdon Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cossington Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ratcliffe College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Martin High School Anstey",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 54052,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 11,
+    "privateRent": 15,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 290,
+    "avgUpload": 52,
+    "superfastPct": 91,
+    "ultrafastPct": 70,
+    "gigabitPct": 69,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Melton",
+    "bandD": 2140,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.5,
+    "imdRank": 10438,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LE7 encompasses LEICESTER and its surrounding areas in Leicestershire, East Midlands.",
+    "priceVsCounty": "The average property price in LE7 is £386,108, which is 11% above the Leicestershire average of £348,118.",
+    "priceVsNational": "Properties in LE7 cost 34.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LE7 have fallen 9.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 21.4 recorded crimes per 1,000 residents, LE7 has a crime rate well 74% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LE7 has 22 schools within or near its boundaries, including 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LE7 are 290.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LE7 (LEICESTER) offers above-average property prices (£386,108, 35% above national average), low crime (74% below national average), 22 nearby schools, and excellent broadband (290 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 348118,
+      "crime": 75,
+      "broadband": 290
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 290
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

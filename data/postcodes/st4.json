@@ -1,0 +1,198 @@
+{
+  "code": "ST4",
+  "name": "STOKE-ON-TRENT",
+  "county": "staffordshire",
+  "region": "west-midlands",
+  "city": "stoke-on-trent",
+  "adjacent": [
+    "ST3",
+    "ST5",
+    "ST6"
+  ],
+  "property": {
+    "avgPrice": 210437,
+    "medianPrice": 131500,
+    "priceChange1y": -29.7,
+    "priceChange5y": 0,
+    "transactions12m": 3071,
+    "byType": {
+      "detached": {
+        "avg": 334483,
+        "count": 406
+      },
+      "semi": {
+        "avg": 189295,
+        "count": 817
+      },
+      "terraced": {
+        "avg": 112031,
+        "count": 1441
+      },
+      "flat": {
+        "avg": 81763,
+        "count": 232
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 177425
+      },
+      {
+        "year": 2024,
+        "avg": 260332
+      },
+      {
+        "year": 2025,
+        "avg": 183085
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 101.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 25,
+    "byType": {
+      "violentCrime": 37.8,
+      "burglary": 4.3,
+      "vehicleCrime": 3.9,
+      "antisocialBehaviour": 17.5,
+      "otherTheft": 15.8,
+      "other": 22.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 28,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Willows Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Heron Cross Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St John's CofE (A) Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Stoke-on-Trent College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Regent College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 141556,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 14,
+    "privateRent": 13,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 350,
+    "avgUpload": 63,
+    "superfastPct": 95,
+    "ultrafastPct": 86,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stafford",
+    "bandD": 2012,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.7,
+    "imdRank": 11220,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ST4 covers STOKE-ON-TRENT in Staffordshire, West Midlands.",
+    "priceVsCounty": "The average property price in ST4 is £210,437, which is 21% below the Staffordshire average of £267,729.",
+    "priceVsNational": "Properties in ST4 cost 26.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ST4 have fallen 29.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 101.6 recorded crimes per 1,000 residents, ST4 has a crime rate significantly 25% above the national average of 81.3 per 1,000.",
+    "schoolContext": "ST4 has 28 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ST4 are 350.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "ST4 (STOKE-ON-TRENT) offers affordable property prices (£210,437, 27% below national average), higher-than-average crime (25% above national average), 28 nearby schools, and excellent broadband (350 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 267729,
+      "crime": 75,
+      "broadband": 350
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 350
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

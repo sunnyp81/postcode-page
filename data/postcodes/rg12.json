@@ -1,0 +1,196 @@
+{
+  "code": "RG12",
+  "name": "BRACKNELL",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [
+    "RG14"
+  ],
+  "property": {
+    "avgPrice": 443488,
+    "medianPrice": 357500,
+    "priceChange1y": -28.7,
+    "priceChange5y": 0,
+    "transactions12m": 2491,
+    "byType": {
+      "detached": {
+        "avg": 598336,
+        "count": 311
+      },
+      "semi": {
+        "avg": 427801,
+        "count": 371
+      },
+      "terraced": {
+        "avg": 365368,
+        "count": 1006
+      },
+      "flat": {
+        "avg": 239445,
+        "count": 739
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 399917
+      },
+      {
+        "year": 2024,
+        "avg": 533494
+      },
+      {
+        "year": 2025,
+        "avg": 380156
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 99.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 22.9,
+    "byType": {
+      "violentCrime": 36.9,
+      "burglary": 2.7,
+      "vehicleCrime": 5.7,
+      "antisocialBehaviour": 13.2,
+      "otherTheft": 22.1,
+      "other": 19.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 11,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Fox Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Holly Spring Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wildridings Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Michael's Easthampstead Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Joseph's Catholic Primary School, Bracknell",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 130806,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 16,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 376,
+    "avgUpload": 68,
+    "superfastPct": 97,
+    "ultrafastPct": 94,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Reading Council",
+    "bandD": 1606,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10.2,
+    "imdRank": 8295,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG12 covers BRACKNELL in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG12 is £443,488, which is 24% below the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG12 cost 54.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG12 have fallen 28.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 99.9 recorded crimes per 1,000 residents, RG12 has a crime rate significantly 23% above the national average of 81.3 per 1,000.",
+    "schoolContext": "RG12 has 17 schools within or near its boundaries, including 11 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG12 are 376.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG12 (BRACKNELL) offers above-average property prices (£443,488, 55% above national average), higher-than-average crime (23% above national average), 17 nearby schools, and excellent broadband (376 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 376
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 376
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

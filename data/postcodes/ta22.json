@@ -1,0 +1,183 @@
+{
+  "code": "TA22",
+  "name": "DULVERTON",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "taunton",
+  "adjacent": [
+    "TA21",
+    "TA23",
+    "TA24"
+  ],
+  "property": {
+    "avgPrice": 415666,
+    "medianPrice": 325000,
+    "priceChange1y": -29.2,
+    "priceChange5y": 0,
+    "transactions12m": 92,
+    "byType": {
+      "detached": {
+        "avg": 582406,
+        "count": 42
+      },
+      "semi": {
+        "avg": 265230,
+        "count": 15
+      },
+      "terraced": {
+        "avg": 248472,
+        "count": 18
+      },
+      "flat": {
+        "avg": 172400,
+        "count": 10
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 567502
+      },
+      {
+        "year": 2024,
+        "avg": 400375
+      },
+      {
+        "year": 2025,
+        "avg": 283491
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.6,
+      "burglary": 0,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.3,
+      "otherTheft": 0.4,
+      "other": 0.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "All Saints CofE VC Infants School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Dulverton Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 101222,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 11,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 141,
+    "avgUpload": 25,
+    "superfastPct": 76,
+    "ultrafastPct": 28,
+    "gigabitPct": 28,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Devon",
+    "bandD": 2279,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.6,
+    "imdRank": 17090,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TA22 covers DULVERTON in Somerset, South West.",
+    "priceVsCounty": "The average property price in TA22 is £415,666, which is 11% above the Somerset average of £373,759.",
+    "priceVsNational": "Properties in TA22 cost 44.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TA22 have fallen 29.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TA22 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TA22 has 2 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TA22 are 141.0 Mbps, with 91% of premises having access to superfast broadband and 54% with full fibre (FTTP) connectivity.",
+    "synthesis": "TA22 (DULVERTON) offers above-average property prices (£415,666, 45% above national average), low crime (94% below national average), 2 nearby schools, and excellent broadband (141 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 141
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 141
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

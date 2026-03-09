@@ -1,0 +1,194 @@
+{
+  "code": "SO45",
+  "name": "SOUTHAMPTON",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "southampton",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 376525,
+    "medianPrice": 325000,
+    "priceChange1y": -9.5,
+    "priceChange5y": 0,
+    "transactions12m": 1305,
+    "byType": {
+      "detached": {
+        "avg": 452864,
+        "count": 530
+      },
+      "semi": {
+        "avg": 320042,
+        "count": 321
+      },
+      "terraced": {
+        "avg": 285879,
+        "count": 248
+      },
+      "flat": {
+        "avg": 199940,
+        "count": 163
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 402526
+      },
+      {
+        "year": 2024,
+        "avg": 382047
+      },
+      {
+        "year": 2025,
+        "avg": 345904
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 17,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -79.1,
+    "byType": {
+      "violentCrime": 8.2,
+      "burglary": 0.7,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 1.5,
+      "otherTheft": 2.2,
+      "other": 3.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Greenwood School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wildground Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wildground Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Waterside Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hythe Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 176116,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 11,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 325,
+    "avgUpload": 59,
+    "superfastPct": 97,
+    "ultrafastPct": 80,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "New Forest",
+    "bandD": 2091,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13,
+    "imdRank": 10782,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SO45 covers SOUTHAMPTON in Hampshire, South East.",
+    "priceVsCounty": "The average property price in SO45 is £376,525, which is 13% below the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in SO45 cost 31.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SO45 have fallen 9.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 17.0 recorded crimes per 1,000 residents, SO45 has a crime rate well 79% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SO45 has 18 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SO45 are 325.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SO45 (SOUTHAMPTON) offers above-average property prices (£376,525, 31% above national average), low crime (79% below national average), 18 nearby schools, and excellent broadband (325 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 325
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 325
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

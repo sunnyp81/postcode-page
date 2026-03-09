@@ -1,0 +1,197 @@
+{
+  "code": "YO23",
+  "name": "YORK",
+  "county": "north-yorkshire",
+  "region": "yorkshire",
+  "city": "york",
+  "adjacent": [
+    "YO22",
+    "YO24",
+    "YO25"
+  ],
+  "property": {
+    "avgPrice": 450069,
+    "medianPrice": 360000,
+    "priceChange1y": -12.6,
+    "priceChange5y": 0,
+    "transactions12m": 972,
+    "byType": {
+      "detached": {
+        "avg": 527007,
+        "count": 234
+      },
+      "semi": {
+        "avg": 390066,
+        "count": 179
+      },
+      "terraced": {
+        "avg": 359382,
+        "count": 428
+      },
+      "flat": {
+        "avg": 286233,
+        "count": 109
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 478753
+      },
+      {
+        "year": 2024,
+        "avg": 464833
+      },
+      {
+        "year": 2025,
+        "avg": 406109
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 8.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -89.9,
+    "byType": {
+      "violentCrime": 2.6,
+      "burglary": 0.4,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 1.6,
+      "otherTheft": 1.7,
+      "other": 1.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Mary's Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "York College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Askham Bryan College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Copmanthorpe Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "OneSchool Global York Campus",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 28133,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 284,
+    "avgUpload": 51,
+    "superfastPct": 91,
+    "ultrafastPct": 71,
+    "gigabitPct": 66,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "York Council",
+    "bandD": 1725,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "YO23 encompasses YORK and its surrounding areas in North Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in YO23 is £450,069, which is 27% above the North Yorkshire average of £354,925.",
+    "priceVsNational": "Properties in YO23 cost 56.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in YO23 have fallen 12.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 8.2 recorded crimes per 1,000 residents, YO23 has a crime rate well 90% below the national average of 81.3 per 1,000.",
+    "schoolContext": "YO23 has 12 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in YO23 are 284.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "YO23 (YORK) offers above-average property prices (£450,069, 57% above national average), low crime (90% below national average), 12 nearby schools, and excellent broadband (284 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 354925,
+      "crime": 75,
+      "broadband": 284
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 284
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

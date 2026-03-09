@@ -1,0 +1,198 @@
+{
+  "code": "KT10",
+  "name": "ESHER",
+  "county": "greater-london",
+  "region": "london",
+  "city": "kingston-upon-thames",
+  "adjacent": [
+    "KT9",
+    "KT11",
+    "KT12"
+  ],
+  "property": {
+    "avgPrice": 1084876,
+    "medianPrice": 880000,
+    "priceChange1y": 1.4,
+    "priceChange5y": 0,
+    "transactions12m": 915,
+    "byType": {
+      "detached": {
+        "avg": 1612440,
+        "count": 375
+      },
+      "semi": {
+        "avg": 924109,
+        "count": 189
+      },
+      "terraced": {
+        "avg": 662071,
+        "count": 96
+      },
+      "flat": {
+        "avg": 470737,
+        "count": 220
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1194254
+      },
+      {
+        "year": 2024,
+        "avg": 1028733
+      },
+      {
+        "year": 2025,
+        "avg": 1043212
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 12.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -84.6,
+    "byType": {
+      "violentCrime": 4.5,
+      "burglary": 0.6,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 1.7,
+      "otherTheft": 1.8,
+      "other": 3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Claygate Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Rowan Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Claremont Fan Court School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Milbourne Lodge School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cranmere Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 141926,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 10,
+    "privateRent": 16,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 306,
+    "avgUpload": 55,
+    "superfastPct": 98,
+    "ultrafastPct": 73,
+    "gigabitPct": 73,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Elmbridge",
+    "bandD": 2230,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 7.9,
+    "imdRank": 5634,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "KT10 is the postcode district for ESHER, located in Greater London, London.",
+    "priceVsCounty": "The average property price in KT10 is £1,084,876, which is 17% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in KT10 cost 278.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in KT10 have risen 1.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 12.5 recorded crimes per 1,000 residents, KT10 has a crime rate well 85% below the national average of 81.3 per 1,000.",
+    "schoolContext": "KT10 has 9 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in KT10 are 306.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "KT10 (ESHER) offers above-average property prices (£1,084,876, 278% above national average), low crime (85% below national average), 9 nearby schools, and excellent broadband (306 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 306
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 306
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

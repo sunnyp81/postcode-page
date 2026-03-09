@@ -1,0 +1,197 @@
+{
+  "code": "OX9",
+  "name": "THAME",
+  "county": "oxfordshire",
+  "region": "south-east",
+  "city": "oxford",
+  "adjacent": [
+    "OX10",
+    "OX11"
+  ],
+  "property": {
+    "avgPrice": 500198,
+    "medianPrice": 430000,
+    "priceChange1y": -3.5,
+    "priceChange5y": 0,
+    "transactions12m": 760,
+    "byType": {
+      "detached": {
+        "avg": 671461,
+        "count": 211
+      },
+      "semi": {
+        "avg": 465443,
+        "count": 210
+      },
+      "terraced": {
+        "avg": 397141,
+        "count": 175
+      },
+      "flat": {
+        "avg": 270847,
+        "count": 130
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 475960
+      },
+      {
+        "year": 2024,
+        "avg": 518958
+      },
+      {
+        "year": 2025,
+        "avg": 500778
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 12.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -85,
+    "byType": {
+      "violentCrime": 4.4,
+      "burglary": 0.3,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 1.3,
+      "otherTheft": 2.3,
+      "other": 3.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Tetsworth Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Barley Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "John Hampden Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lord Williams's School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Joseph's Catholic Primary School, Thame",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 156470,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 12,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 302,
+    "avgUpload": 54,
+    "superfastPct": 92,
+    "ultrafastPct": 74,
+    "gigabitPct": 72,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Oxfordshire",
+    "bandD": 2240,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.5,
+    "imdRank": 6409,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "OX9 encompasses THAME and its surrounding areas in Oxfordshire, South East.",
+    "priceVsCounty": "The average property price in OX9 is £500,198, which is 15% below the Oxfordshire average of £588,175.",
+    "priceVsNational": "Properties in OX9 cost 74.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in OX9 have fallen 3.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 12.2 recorded crimes per 1,000 residents, OX9 has a crime rate well 85% below the national average of 81.3 per 1,000.",
+    "schoolContext": "OX9 has 5 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in OX9 are 302.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "OX9 (THAME) offers above-average property prices (£500,198, 74% above national average), low crime (85% below national average), 5 nearby schools, and excellent broadband (302 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 588175,
+      "crime": 75,
+      "broadband": 302
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 302
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

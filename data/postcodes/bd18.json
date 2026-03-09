@@ -1,0 +1,198 @@
+{
+  "code": "BD18",
+  "name": "SHIPLEY",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "bradford",
+  "adjacent": [
+    "BD17",
+    "BD19",
+    "BD20"
+  ],
+  "property": {
+    "avgPrice": 210278,
+    "medianPrice": 186000,
+    "priceChange1y": 2.8,
+    "priceChange5y": 0,
+    "transactions12m": 1159,
+    "byType": {
+      "detached": {
+        "avg": 336633,
+        "count": 94
+      },
+      "semi": {
+        "avg": 210434,
+        "count": 476
+      },
+      "terraced": {
+        "avg": 198130,
+        "count": 430
+      },
+      "flat": {
+        "avg": 121795,
+        "count": 121
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 208482
+      },
+      {
+        "year": 2024,
+        "avg": 208373
+      },
+      {
+        "year": 2025,
+        "avg": 214196
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 118.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 46.1,
+    "byType": {
+      "violentCrime": 53.3,
+      "burglary": 5.8,
+      "vehicleCrime": 4.8,
+      "antisocialBehaviour": 14,
+      "otherTheft": 15.3,
+      "other": 25.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hirst Wood Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Saltaire Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Low Ash Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Shipley College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Christ Church Church of England Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 563605,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 379,
+    "avgUpload": 68,
+    "superfastPct": 100,
+    "ultrafastPct": 96,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bradford",
+    "bandD": 1956,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 34.7,
+    "imdRank": 23086,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BD18 encompasses SHIPLEY and its surrounding areas in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in BD18 is £210,278, which is 24% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in BD18 cost 26.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BD18 have risen 2.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 118.8 recorded crimes per 1,000 residents, BD18 has a crime rate significantly 46% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BD18 has 11 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BD18 are 379.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BD18 (SHIPLEY) offers affordable property prices (£210,278, 27% below national average), higher-than-average crime (46% above national average), 11 nearby schools, and excellent broadband (379 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 379
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 379
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

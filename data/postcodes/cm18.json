@@ -1,0 +1,198 @@
+{
+  "code": "CM18",
+  "name": "HARLOW",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "chelmsford",
+  "adjacent": [
+    "CM17",
+    "CM19",
+    "CM20"
+  ],
+  "property": {
+    "avgPrice": 311077,
+    "medianPrice": 310000,
+    "priceChange1y": 3.7,
+    "priceChange5y": 0,
+    "transactions12m": 778,
+    "byType": {
+      "detached": {
+        "avg": 495616,
+        "count": 54
+      },
+      "semi": {
+        "avg": 383673,
+        "count": 81
+      },
+      "terraced": {
+        "avg": 312023,
+        "count": 487
+      },
+      "flat": {
+        "avg": 181410,
+        "count": 145
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 306122
+      },
+      {
+        "year": 2024,
+        "avg": 307542
+      },
+      {
+        "year": 2025,
+        "avg": 318893
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 90.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 11.6,
+    "byType": {
+      "violentCrime": 36.8,
+      "burglary": 2.6,
+      "vehicleCrime": 5.5,
+      "antisocialBehaviour": 7.5,
+      "otherTheft": 16.7,
+      "other": 21.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Harlow Fields School and College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holy Cross Catholic Primary School, Harlow",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mark's West Essex Catholic School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Passmores Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stewards Academy - Science Specialist, Harlow",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 98235,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 29,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 374,
+    "avgUpload": 67,
+    "superfastPct": 99,
+    "ultrafastPct": 94,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Harlow",
+    "bandD": 2053,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.4,
+    "imdRank": 18582,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CM18 covers HARLOW in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CM18 is £311,077, which is 28% below the Essex average of £429,754.",
+    "priceVsNational": "Properties in CM18 cost 8.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CM18 have risen 3.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 90.7 recorded crimes per 1,000 residents, CM18 has a crime rate 12% above the national average of 81.3 per 1,000.",
+    "schoolContext": "CM18 has 17 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CM18 are 374.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CM18 (HARLOW) offers property prices near the national average (£311,077), 17 nearby schools, and excellent broadband (374 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 374
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 374
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

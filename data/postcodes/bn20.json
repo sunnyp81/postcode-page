@@ -1,0 +1,197 @@
+{
+  "code": "BN20",
+  "name": "EASTBOURNE",
+  "county": "east-sussex",
+  "region": "south-east",
+  "city": "brighton",
+  "adjacent": [
+    "BN21",
+    "BN22"
+  ],
+  "property": {
+    "avgPrice": 444926,
+    "medianPrice": 367250,
+    "priceChange1y": -4.3,
+    "priceChange5y": 0,
+    "transactions12m": 954,
+    "byType": {
+      "detached": {
+        "avg": 656255,
+        "count": 258
+      },
+      "semi": {
+        "avg": 413754,
+        "count": 186
+      },
+      "terraced": {
+        "avg": 391833,
+        "count": 150
+      },
+      "flat": {
+        "avg": 276850,
+        "count": 344
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 490932
+      },
+      {
+        "year": 2024,
+        "avg": 431758
+      },
+      {
+        "year": 2025,
+        "avg": 413098
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 47.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -41.3,
+    "byType": {
+      "violentCrime": 10.7,
+      "burglary": 0.7,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 5.2,
+      "otherTheft": 22.1,
+      "other": 8.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Willingdon Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Pashley Down Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Willingdon Community School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Andrew's Prep",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bede's Prep School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 166908,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 8,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 240,
+    "avgUpload": 43,
+    "superfastPct": 97,
+    "ultrafastPct": 54,
+    "gigabitPct": 54,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wealden",
+    "bandD": 2363,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.3,
+    "imdRank": 10272,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BN20 encompasses EASTBOURNE and its surrounding areas in East Sussex, South East.",
+    "priceVsCounty": "The average property price in BN20 is £444,926, broadly in line with the East Sussex average of £455,819.",
+    "priceVsNational": "Properties in BN20 cost 55.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BN20 have fallen 4.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 47.7 recorded crimes per 1,000 residents, BN20 has a crime rate well 41% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BN20 has 9 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BN20 are 240.0 Mbps, with 99% of premises having access to superfast broadband and 81% with full fibre (FTTP) connectivity.",
+    "synthesis": "BN20 (EASTBOURNE) offers above-average property prices (£444,926, 55% above national average), low crime (41% below national average), 9 nearby schools, and excellent broadband (240 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 455819,
+      "crime": 75,
+      "broadband": 240
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 240
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

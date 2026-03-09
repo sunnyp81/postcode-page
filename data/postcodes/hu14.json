@@ -1,0 +1,188 @@
+{
+  "code": "HU14",
+  "name": "NORTH FERRIBY",
+  "county": "east-yorkshire",
+  "region": "yorkshire",
+  "city": "hull",
+  "adjacent": [
+    "HU13",
+    "HU15",
+    "HU16"
+  ],
+  "property": {
+    "avgPrice": 361722,
+    "medianPrice": 315000,
+    "priceChange1y": 11.6,
+    "priceChange5y": 0,
+    "transactions12m": 435,
+    "byType": {
+      "detached": {
+        "avg": 490312,
+        "count": 208
+      },
+      "semi": {
+        "avg": 276363,
+        "count": 133
+      },
+      "terraced": {
+        "avg": 200858,
+        "count": 53
+      },
+      "flat": {
+        "avg": 166984,
+        "count": 29
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 371648
+      },
+      {
+        "year": 2024,
+        "avg": 337455
+      },
+      {
+        "year": 2025,
+        "avg": 376500
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.8,
+      "burglary": 0.1,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 0.5,
+      "otherTheft": 0.8,
+      "other": 1.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "North Ferriby Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "South Hunsley School and Sixth Form College",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Swanland Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 355884,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 9,
+    "privateRent": 15,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 392,
+    "avgUpload": 71,
+    "superfastPct": 98,
+    "ultrafastPct": 98,
+    "gigabitPct": 98,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hull Council",
+    "bandD": 2236,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.6,
+    "imdRank": 12095,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HU14 covers NORTH FERRIBY in East Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HU14 is £361,722, which is 71% above the East Yorkshire average of £211,309.",
+    "priceVsNational": "Properties in HU14 cost 26.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HU14 have risen 11.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, HU14 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HU14 has 3 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HU14 are 392.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HU14 (NORTH FERRIBY) offers above-average property prices (£361,722, 26% above national average), low crime (94% below national average), 3 nearby schools, and excellent broadband (392 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 211309,
+      "crime": 75,
+      "broadband": 392
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 392
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

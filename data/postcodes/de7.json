@@ -1,0 +1,196 @@
+{
+  "code": "DE7",
+  "name": "ILKESTON",
+  "county": "derbyshire",
+  "region": "east-midlands",
+  "city": "derby",
+  "adjacent": [
+    "DE6"
+  ],
+  "property": {
+    "avgPrice": 229631,
+    "medianPrice": 184000,
+    "priceChange1y": -5.2,
+    "priceChange5y": 0,
+    "transactions12m": 2337,
+    "byType": {
+      "detached": {
+        "avg": 326200,
+        "count": 554
+      },
+      "semi": {
+        "avg": 195669,
+        "count": 816
+      },
+      "terraced": {
+        "avg": 147553,
+        "count": 750
+      },
+      "flat": {
+        "avg": 101355,
+        "count": 74
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 239514
+      },
+      {
+        "year": 2024,
+        "avg": 230281
+      },
+      {
+        "year": 2025,
+        "avg": 218199
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 63.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -22.1,
+    "byType": {
+      "violentCrime": 25,
+      "burglary": 1.7,
+      "vehicleCrime": 1.9,
+      "antisocialBehaviour": 10.7,
+      "otherTheft": 10.6,
+      "other": 13.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 25,
+    "outstanding": 0,
+    "good": 9,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Cotmanhay Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cotmanhay Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Granby Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hallam Fields Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Charlotte Nursery and Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 130451,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 13,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 364,
+    "avgUpload": 66,
+    "superfastPct": 97,
+    "ultrafastPct": 90,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Amber Valley",
+    "bandD": 2086,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 14755,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DE7 covers ILKESTON in Derbyshire, East Midlands.",
+    "priceVsCounty": "The average property price in DE7 is £229,631, which is 21% below the Derbyshire average of £289,862.",
+    "priceVsNational": "Properties in DE7 cost 20.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DE7 have fallen 5.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 63.3 recorded crimes per 1,000 residents, DE7 has a crime rate well 22% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DE7 has 25 schools within or near its boundaries, including 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DE7 are 364.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DE7 (ILKESTON) offers affordable property prices (£229,631, 20% below national average), low crime (22% below national average), 25 nearby schools, and excellent broadband (364 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 289862,
+      "crime": 75,
+      "broadband": 364
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 364
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

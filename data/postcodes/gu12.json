@@ -1,0 +1,197 @@
+{
+  "code": "GU12",
+  "name": "ALDERSHOT",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU11",
+    "GU14"
+  ],
+  "property": {
+    "avgPrice": 391638,
+    "medianPrice": 370000,
+    "priceChange1y": -6.9,
+    "priceChange5y": 0,
+    "transactions12m": 1529,
+    "byType": {
+      "detached": {
+        "avg": 560629,
+        "count": 275
+      },
+      "semi": {
+        "avg": 400022,
+        "count": 542
+      },
+      "terraced": {
+        "avg": 336053,
+        "count": 454
+      },
+      "flat": {
+        "avg": 194217,
+        "count": 219
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 382467
+      },
+      {
+        "year": 2024,
+        "avg": 410613
+      },
+      {
+        "year": 2025,
+        "avg": 382309
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 50.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -38,
+    "byType": {
+      "violentCrime": 20.9,
+      "burglary": 1,
+      "vehicleCrime": 4.7,
+      "antisocialBehaviour": 7,
+      "otherTheft": 5.2,
+      "other": 11.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Alderwood School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Shawfield Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ash Grange Nursery and Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ash Manor School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holly Lodge Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 94492,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 10,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 358,
+    "avgUpload": 64,
+    "superfastPct": 99,
+    "ultrafastPct": 88,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Surrey Heath",
+    "bandD": 2248,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.1,
+    "imdRank": 5859,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU12 covers ALDERSHOT in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU12 is £391,638, which is 36% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU12 cost 36.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU12 have fallen 6.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 50.4 recorded crimes per 1,000 residents, GU12 has a crime rate well 38% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU12 has 7 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU12 are 358.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU12 (ALDERSHOT) offers above-average property prices (£391,638, 36% above national average), low crime (38% below national average), 7 nearby schools, and excellent broadband (358 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 358
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 358
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

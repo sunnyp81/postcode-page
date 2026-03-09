@@ -1,0 +1,197 @@
+{
+  "code": "DT6",
+  "name": "BRIDPORT",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "dorchester",
+  "adjacent": [
+    "DT5",
+    "DT7",
+    "DT8"
+  ],
+  "property": {
+    "avgPrice": 430406,
+    "medianPrice": 372500,
+    "priceChange1y": -1.9,
+    "priceChange5y": 0,
+    "transactions12m": 1100,
+    "byType": {
+      "detached": {
+        "avg": 594468,
+        "count": 419
+      },
+      "semi": {
+        "avg": 376312,
+        "count": 174
+      },
+      "terraced": {
+        "avg": 294692,
+        "count": 255
+      },
+      "flat": {
+        "avg": 214773,
+        "count": 178
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 428393
+      },
+      {
+        "year": 2024,
+        "avg": 435511
+      },
+      {
+        "year": 2025,
+        "avg": 427294
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 15,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -81.5,
+    "byType": {
+      "violentCrime": 6.5,
+      "burglary": 0.4,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 3.9,
+      "otherTheft": 1.4,
+      "other": 2.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 4,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Salway Ash Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Powerstock Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Symondsbury Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Catherine's Roman Catholic School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Marshwood CofE Primary Academy",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 23666,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 217,
+    "avgUpload": 39,
+    "superfastPct": 92,
+    "ultrafastPct": 48,
+    "gigabitPct": 48,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Dorchester Council",
+    "bandD": 2115,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.7,
+    "imdRank": 13227,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DT6 encompasses BRIDPORT and its surrounding areas in Dorset, South West.",
+    "priceVsCounty": "The average property price in DT6 is £430,406, broadly in line with the Dorset average of £425,376.",
+    "priceVsNational": "Properties in DT6 cost 50.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DT6 have fallen 1.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 15.0 recorded crimes per 1,000 residents, DT6 has a crime rate well 82% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DT6 has 11 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DT6 are 217.0 Mbps, with 99% of premises having access to superfast broadband and 75% with full fibre (FTTP) connectivity.",
+    "synthesis": "DT6 (BRIDPORT) offers above-average property prices (£430,406, 50% above national average), low crime (82% below national average), 11 nearby schools, and excellent broadband (217 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 217
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 217
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

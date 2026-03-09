@@ -1,0 +1,197 @@
+{
+  "code": "B90",
+  "name": "SOLIHULL",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B91",
+    "B92"
+  ],
+  "property": {
+    "avgPrice": 362123,
+    "medianPrice": 334455,
+    "priceChange1y": 0.7,
+    "priceChange5y": 0,
+    "transactions12m": 2854,
+    "byType": {
+      "detached": {
+        "avg": 524043,
+        "count": 583
+      },
+      "semi": {
+        "avg": 358971,
+        "count": 1054
+      },
+      "terraced": {
+        "avg": 310430,
+        "count": 418
+      },
+      "flat": {
+        "avg": 194942,
+        "count": 720
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 375020
+      },
+      {
+        "year": 2024,
+        "avg": 353242
+      },
+      {
+        "year": 2025,
+        "avg": 355683
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 58,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -28.7,
+    "byType": {
+      "violentCrime": 16.8,
+      "burglary": 2.7,
+      "vehicleCrime": 5.5,
+      "antisocialBehaviour": 2.6,
+      "otherTheft": 22.5,
+      "other": 7.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Blossomfield Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Burman Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cranmore Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Shirley Heath Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Woodlands Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 101685,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 11,
+    "privateRent": 9,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 369,
+    "avgUpload": 66,
+    "superfastPct": 97,
+    "ultrafastPct": 92,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bromsgrove",
+    "bandD": 2097,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9402,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B90 covers SOLIHULL in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B90 is £362,123, which is 8% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B90 cost 26.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B90 have risen 0.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 58.0 recorded crimes per 1,000 residents, B90 has a crime rate well 29% below the national average of 81.3 per 1,000.",
+    "schoolContext": "B90 has 20 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B90 are 369.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B90 (SOLIHULL) offers above-average property prices (£362,123, 26% above national average), low crime (29% below national average), 20 nearby schools, and excellent broadband (369 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 369
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 369
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

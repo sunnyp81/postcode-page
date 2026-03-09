@@ -1,0 +1,198 @@
+{
+  "code": "SL6",
+  "name": "MAIDENHEAD",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "slough",
+  "adjacent": [
+    "SL5",
+    "SL7",
+    "SL8"
+  ],
+  "property": {
+    "avgPrice": 671934,
+    "medianPrice": 475000,
+    "priceChange1y": -16.6,
+    "priceChange5y": 0,
+    "transactions12m": 3598,
+    "byType": {
+      "detached": {
+        "avg": 996882,
+        "count": 877
+      },
+      "semi": {
+        "avg": 563459,
+        "count": 804
+      },
+      "terraced": {
+        "avg": 481719,
+        "count": 625
+      },
+      "flat": {
+        "avg": 311792,
+        "count": 1156
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 602435
+      },
+      {
+        "year": 2024,
+        "avg": 765078
+      },
+      {
+        "year": 2025,
+        "avg": 638178
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 89.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 9.7,
+    "byType": {
+      "violentCrime": 34.2,
+      "burglary": 3.3,
+      "vehicleCrime": 5.6,
+      "antisocialBehaviour": 9.3,
+      "otherTheft": 14.8,
+      "other": 22.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 39,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 2,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Cookham Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Maidenhead Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Alwyn Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Courthouse Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Riverside Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 167359,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 29,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 312,
+    "avgUpload": 56,
+    "superfastPct": 98,
+    "ultrafastPct": 79,
+    "gigabitPct": 73,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Slough Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23,
+    "imdRank": 19788,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SL6 covers MAIDENHEAD in Berkshire, South East.",
+    "priceVsCounty": "The average property price in SL6 is £671,934, which is 15% above the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in SL6 cost 134.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SL6 have fallen 16.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 89.2 recorded crimes per 1,000 residents, SL6 has a crime rate 10% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SL6 has 39 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SL6 are 312.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SL6 (MAIDENHEAD) offers above-average property prices (£671,934, 134% above national average), 39 nearby schools, and excellent broadband (312 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 312
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 312
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "DE6",
+  "name": "ASHBOURNE",
+  "county": "derbyshire",
+  "region": "east-midlands",
+  "city": "derby",
+  "adjacent": [
+    "DE5",
+    "DE7"
+  ],
+  "property": {
+    "avgPrice": 419817,
+    "medianPrice": 345000,
+    "priceChange1y": 9.6,
+    "priceChange5y": 0,
+    "transactions12m": 1167,
+    "byType": {
+      "detached": {
+        "avg": 502033,
+        "count": 585
+      },
+      "semi": {
+        "avg": 280562,
+        "count": 247
+      },
+      "terraced": {
+        "avg": 231838,
+        "count": 175
+      },
+      "flat": {
+        "avg": 191604,
+        "count": 51
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 421297
+      },
+      {
+        "year": 2024,
+        "avg": 402311
+      },
+      {
+        "year": 2025,
+        "avg": 440755
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.1,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 23,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 3,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Doveridge Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Parwich Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Oswald's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Clifton CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kirk Ireton C of E Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 130451,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 13,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 191,
+    "avgUpload": 34,
+    "superfastPct": 80,
+    "ultrafastPct": 42,
+    "gigabitPct": 42,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Amber Valley",
+    "bandD": 2086,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 14755,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DE6 encompasses ASHBOURNE and its surrounding areas in Derbyshire, East Midlands.",
+    "priceVsCounty": "The average property price in DE6 is £419,817, which is 45% above the Derbyshire average of £289,862.",
+    "priceVsNational": "Properties in DE6 cost 46.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DE6 have risen 9.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, DE6 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DE6 has 23 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DE6 are 191.0 Mbps, with 99% of premises having access to superfast broadband and 68% with full fibre (FTTP) connectivity.",
+    "synthesis": "DE6 (ASHBOURNE) offers above-average property prices (£419,817, 46% above national average), low crime (94% below national average), 23 nearby schools, and excellent broadband (191 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 289862,
+      "crime": 75,
+      "broadband": 191
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 191
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

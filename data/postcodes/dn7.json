@@ -1,0 +1,198 @@
+{
+  "code": "DN7",
+  "name": "DONCASTER",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "doncaster",
+  "adjacent": [
+    "DN6",
+    "DN8",
+    "DN9"
+  ],
+  "property": {
+    "avgPrice": 200608,
+    "medianPrice": 165000,
+    "priceChange1y": 9.2,
+    "priceChange5y": 0,
+    "transactions12m": 1212,
+    "byType": {
+      "detached": {
+        "avg": 275703,
+        "count": 398
+      },
+      "semi": {
+        "avg": 149245,
+        "count": 553
+      },
+      "terraced": {
+        "avg": 114246,
+        "count": 221
+      },
+      "flat": {
+        "avg": 95322,
+        "count": 9
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 217833
+      },
+      {
+        "year": 2024,
+        "avg": 181405
+      },
+      {
+        "year": 2025,
+        "avg": 198021
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 42.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -47.5,
+    "byType": {
+      "violentCrime": 15.1,
+      "burglary": 1.7,
+      "vehicleCrime": 2.8,
+      "antisocialBehaviour": 8.1,
+      "otherTheft": 4.8,
+      "other": 10.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Stainforth Kirton Lane Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Long Toft Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ash Hill Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hatfield Woodhouse Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Crookesbroom Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 319765,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 17,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 340,
+    "avgUpload": 61,
+    "superfastPct": 96,
+    "ultrafastPct": 83,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Doncaster",
+    "bandD": 1926,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 30.3,
+    "imdRank": 21613,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DN7 covers DONCASTER in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in DN7 is £200,608, which is 13% below the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in DN7 cost 30.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DN7 have risen 9.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 42.7 recorded crimes per 1,000 residents, DN7 has a crime rate well 47% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DN7 has 11 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DN7 are 340.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DN7 (DONCASTER) offers affordable property prices (£200,608, 30% below national average), low crime (47% below national average), 11 nearby schools, and excellent broadband (340 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 340
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 340
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

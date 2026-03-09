@@ -1,0 +1,197 @@
+{
+  "code": "HU9",
+  "name": "HULL",
+  "county": "east-yorkshire",
+  "region": "yorkshire",
+  "city": "hull",
+  "adjacent": [
+    "HU8",
+    "HU10",
+    "HU11"
+  ],
+  "property": {
+    "avgPrice": 140213,
+    "medianPrice": 112000,
+    "priceChange1y": -20.8,
+    "priceChange5y": 0,
+    "transactions12m": 1623,
+    "byType": {
+      "detached": {
+        "avg": 252051,
+        "count": 92
+      },
+      "semi": {
+        "avg": 147531,
+        "count": 458
+      },
+      "terraced": {
+        "avg": 101259,
+        "count": 940
+      },
+      "flat": {
+        "avg": 92840,
+        "count": 86
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 126949
+      },
+      {
+        "year": 2024,
+        "avg": 163503
+      },
+      {
+        "year": 2025,
+        "avg": 129571
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 119.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 47.4,
+    "byType": {
+      "violentCrime": 53.4,
+      "burglary": 3.6,
+      "vehicleCrime": 2.7,
+      "antisocialBehaviour": 6.3,
+      "otherTheft": 26.6,
+      "other": 27.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Liberty Academy",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Craven Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Maybury Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Estcourt Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Southcoates Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 39,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 396,
+    "avgUpload": 71,
+    "superfastPct": 99,
+    "ultrafastPct": 99,
+    "gigabitPct": 99,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hull Council",
+    "bandD": 2183,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 40.6,
+    "imdRank": 25222,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HU9 is the postcode district for HULL, located in East Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HU9 is £140,213, which is 34% below the East Yorkshire average of £211,309.",
+    "priceVsNational": "Properties in HU9 cost 51.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HU9 have fallen 20.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 119.8 recorded crimes per 1,000 residents, HU9 has a crime rate significantly 47% above the national average of 81.3 per 1,000.",
+    "schoolContext": "HU9 has 18 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HU9 are 396.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HU9 (HULL) offers affordable property prices (£140,213, 51% below national average), higher-than-average crime (47% above national average), 18 nearby schools, and excellent broadband (396 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 211309,
+      "crime": 75,
+      "broadband": 396
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 396
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

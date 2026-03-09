@@ -1,0 +1,198 @@
+{
+  "code": "NG22",
+  "name": "NEWARK",
+  "county": "nottinghamshire",
+  "region": "east-midlands",
+  "city": "nottingham",
+  "adjacent": [
+    "NG21",
+    "NG23",
+    "NG24"
+  ],
+  "property": {
+    "avgPrice": 274571,
+    "medianPrice": 212000,
+    "priceChange1y": 2.6,
+    "priceChange5y": 0,
+    "transactions12m": 1457,
+    "byType": {
+      "detached": {
+        "avg": 339881,
+        "count": 624
+      },
+      "semi": {
+        "avg": 181473,
+        "count": 604
+      },
+      "terraced": {
+        "avg": 164542,
+        "count": 132
+      },
+      "flat": {
+        "avg": 91250,
+        "count": 27
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 280912
+      },
+      {
+        "year": 2024,
+        "avg": 268340
+      },
+      {
+        "year": 2025,
+        "avg": 275289
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "East Markham Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dunham-on-Trent CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Walesby CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Wellow House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wings School Notts",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 127886,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 14,
+    "privateRent": 14,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 209,
+    "avgUpload": 38,
+    "superfastPct": 88,
+    "ultrafastPct": 46,
+    "gigabitPct": 46,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Nottingham Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.2,
+    "imdRank": 15577,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NG22 covers NEWARK in Nottinghamshire, East Midlands.",
+    "priceVsCounty": "The average property price in NG22 is £274,571, which is 60% below the Nottinghamshire average of £678,596.",
+    "priceVsNational": "Property values in NG22 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in NG22 have risen 2.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, NG22 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NG22 has 18 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NG22 are 209.0 Mbps, with 99% of premises having access to superfast broadband and 72% with full fibre (FTTP) connectivity.",
+    "synthesis": "NG22 (NEWARK) offers property prices near the national average (£274,571), low crime (94% below national average), 18 nearby schools, and excellent broadband (209 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 678596,
+      "crime": 75,
+      "broadband": 209
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 209
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

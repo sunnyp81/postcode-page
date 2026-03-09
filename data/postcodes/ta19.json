@@ -1,0 +1,197 @@
+{
+  "code": "TA19",
+  "name": "ILMINSTER",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "taunton",
+  "adjacent": [
+    "TA18",
+    "TA20",
+    "TA21"
+  ],
+  "property": {
+    "avgPrice": 347133,
+    "medianPrice": 296000,
+    "priceChange1y": -10.9,
+    "priceChange5y": 0,
+    "transactions12m": 590,
+    "byType": {
+      "detached": {
+        "avg": 474101,
+        "count": 207
+      },
+      "semi": {
+        "avg": 294212,
+        "count": 154
+      },
+      "terraced": {
+        "avg": 243855,
+        "count": 164
+      },
+      "flat": {
+        "avg": 149767,
+        "count": 30
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 349524
+      },
+      {
+        "year": 2024,
+        "avg": 364784
+      },
+      {
+        "year": 2025,
+        "avg": 324887
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 9.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -88.7,
+    "byType": {
+      "violentCrime": 4.6,
+      "burglary": 0.3,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1.3,
+      "otherTheft": 0.8,
+      "other": 2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Herne View Church of England Primary",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Dillington House",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ashill Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary's & St Peter's Church School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Shepton Beauchamp Church School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 26693,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 274,
+    "avgUpload": 49,
+    "superfastPct": 87,
+    "ultrafastPct": 65,
+    "gigabitPct": 65,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Taunton Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TA19 covers ILMINSTER in Somerset, South West.",
+    "priceVsCounty": "The average property price in TA19 is £347,133, which is 7% below the Somerset average of £373,759.",
+    "priceVsNational": "Properties in TA19 cost 21.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TA19 have fallen 10.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 9.2 recorded crimes per 1,000 residents, TA19 has a crime rate well 89% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TA19 has 6 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TA19 are 274.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TA19 (ILMINSTER) offers above-average property prices (£347,133, 21% above national average), low crime (89% below national average), 6 nearby schools, and excellent broadband (274 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 274
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 274
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

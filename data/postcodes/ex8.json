@@ -1,0 +1,198 @@
+{
+  "code": "EX8",
+  "name": "EXMOUTH",
+  "county": "devon",
+  "region": "south-west",
+  "city": "exeter",
+  "adjacent": [
+    "EX7",
+    "EX9",
+    "EX10"
+  ],
+  "property": {
+    "avgPrice": 369013,
+    "medianPrice": 320000,
+    "priceChange1y": -5.1,
+    "priceChange5y": 0,
+    "transactions12m": 1853,
+    "byType": {
+      "detached": {
+        "avg": 537566,
+        "count": 492
+      },
+      "semi": {
+        "avg": 349840,
+        "count": 433
+      },
+      "terraced": {
+        "avg": 301495,
+        "count": 396
+      },
+      "flat": {
+        "avg": 248430,
+        "count": 459
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 380652
+      },
+      {
+        "year": 2024,
+        "avg": 371936
+      },
+      {
+        "year": 2025,
+        "avg": 352984
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 45.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -44.5,
+    "byType": {
+      "violentCrime": 21.7,
+      "burglary": 0.8,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 6.6,
+      "otherTheft": 5.1,
+      "other": 10.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 2,
+    "nearest": [
+      {
+        "name": "Exeter Road Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bassetts Farm Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Withycombe Raleigh Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lympstone Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Beacon Church of England (VA) Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 158239,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 10,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 387,
+    "avgUpload": 70,
+    "superfastPct": 99,
+    "ultrafastPct": 97,
+    "gigabitPct": 96,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Devon",
+    "bandD": 2236,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.8,
+    "imdRank": 10893,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EX8 covers EXMOUTH in Devon, South West.",
+    "priceVsCounty": "The average property price in EX8 is £369,013, broadly in line with the Devon average of £385,452.",
+    "priceVsNational": "Properties in EX8 cost 28.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EX8 have fallen 5.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 45.1 recorded crimes per 1,000 residents, EX8 has a crime rate well 45% below the national average of 81.3 per 1,000.",
+    "schoolContext": "EX8 has 13 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EX8 are 387.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "EX8 (EXMOUTH) offers above-average property prices (£369,013, 29% above national average), low crime (45% below national average), 13 nearby schools, and excellent broadband (387 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 387
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 387
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

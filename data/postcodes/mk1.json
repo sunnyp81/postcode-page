@@ -1,0 +1,177 @@
+{
+  "code": "MK1",
+  "name": "MILTON KEYNES",
+  "county": "buckinghamshire",
+  "region": "south-east",
+  "city": "milton-keynes",
+  "adjacent": [
+    "MK2",
+    "MK3"
+  ],
+  "property": {
+    "avgPrice": 1860401,
+    "medianPrice": 422500,
+    "priceChange1y": -77.2,
+    "priceChange5y": 0,
+    "transactions12m": 46,
+    "byType": {
+      "detached": {
+        "avg": 626600,
+        "count": 5
+      },
+      "semi": {
+        "avg": 372556,
+        "count": 9
+      },
+      "terraced": {
+        "avg": 265000,
+        "count": 1
+      },
+      "flat": {
+        "avg": 98714,
+        "count": 7
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 3025290
+      },
+      {
+        "year": 2024,
+        "avg": 1800938
+      },
+      {
+        "year": 2025,
+        "avg": 410269
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 75.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -6.8,
+    "byType": {
+      "violentCrime": 28.6,
+      "burglary": 1.8,
+      "vehicleCrime": 4.7,
+      "antisocialBehaviour": 7.3,
+      "otherTheft": 18,
+      "other": 15.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Baytul Ilm Secondary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 305884,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 18,
+    "privateRent": 19,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 143,
+    "avgUpload": 26,
+    "superfastPct": 83,
+    "ultrafastPct": 29,
+    "gigabitPct": 27,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Milton Keynes Council",
+    "bandD": 2268,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 14351,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "MK1 covers MILTON KEYNES in Buckinghamshire, South East.",
+    "priceVsCounty": "The average property price in MK1 is £1,860,401, which is 293% above the Buckinghamshire average of £472,988.",
+    "priceVsNational": "Properties in MK1 cost 548.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in MK1 have fallen 77.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 75.8 recorded crimes per 1,000 residents, MK1 has a crime rate 7% below the national average of 81.3 per 1,000.",
+    "schoolContext": "MK1 has 1 school within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in MK1 are 143.0 Mbps, with 91% of premises having access to superfast broadband and 54% with full fibre (FTTP) connectivity.",
+    "synthesis": "MK1 (MILTON KEYNES) offers above-average property prices (£1,860,401, 548% above national average), 1 nearby school, and excellent broadband (143 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 472988,
+      "crime": 75,
+      "broadband": 143
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 143
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

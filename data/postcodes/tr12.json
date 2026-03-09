@@ -1,0 +1,198 @@
+{
+  "code": "TR12",
+  "name": "HELSTON",
+  "county": "cornwall",
+  "region": "south-west",
+  "city": "truro",
+  "adjacent": [
+    "TR11",
+    "TR13",
+    "TR14"
+  ],
+  "property": {
+    "avgPrice": 491011,
+    "medianPrice": 375000,
+    "priceChange1y": -7.6,
+    "priceChange5y": 0,
+    "transactions12m": 377,
+    "byType": {
+      "detached": {
+        "avg": 515997,
+        "count": 196
+      },
+      "semi": {
+        "avg": 281254,
+        "count": 67
+      },
+      "terraced": {
+        "avg": 283932,
+        "count": 55
+      },
+      "flat": {
+        "avg": 265600,
+        "count": 10
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 582838
+      },
+      {
+        "year": 2024,
+        "avg": 464670
+      },
+      {
+        "year": 2025,
+        "avg": 429159
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 4,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Coverack Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Grade-Ruan CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Manaccan Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "St Keverne Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Garras Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 583289,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 250,
+    "avgUpload": 45,
+    "superfastPct": 80,
+    "ultrafastPct": 59,
+    "gigabitPct": 59,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Truro Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.1,
+    "imdRank": 19382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TR12 is the postcode district for HELSTON, located in Cornwall, South West.",
+    "priceVsCounty": "The average property price in TR12 is £491,011, which is 22% above the Cornwall average of £402,222.",
+    "priceVsNational": "Properties in TR12 cost 71.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TR12 have fallen 7.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TR12 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TR12 has 8 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TR12 are 250.0 Mbps, with 99% of premises having access to superfast broadband and 84% with full fibre (FTTP) connectivity.",
+    "synthesis": "TR12 (HELSTON) offers above-average property prices (£491,011, 71% above national average), low crime (94% below national average), 8 nearby schools, and excellent broadband (250 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 402222,
+      "crime": 75,
+      "broadband": 250
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 250
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

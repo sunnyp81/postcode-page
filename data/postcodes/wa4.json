@@ -1,0 +1,198 @@
+{
+  "code": "WA4",
+  "name": "WARRINGTON",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "warrington",
+  "adjacent": [
+    "WA3",
+    "WA5",
+    "WA6"
+  ],
+  "property": {
+    "avgPrice": 370674,
+    "medianPrice": 300000,
+    "priceChange1y": 0.6,
+    "priceChange5y": 0,
+    "transactions12m": 2658,
+    "byType": {
+      "detached": {
+        "avg": 557807,
+        "count": 729
+      },
+      "semi": {
+        "avg": 326254,
+        "count": 941
+      },
+      "terraced": {
+        "avg": 230755,
+        "count": 595
+      },
+      "flat": {
+        "avg": 142976,
+        "count": 279
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 356329
+      },
+      {
+        "year": 2024,
+        "avg": 377777
+      },
+      {
+        "year": 2025,
+        "avg": 379933
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 18.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -76.8,
+    "byType": {
+      "violentCrime": 8.7,
+      "burglary": 0.7,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 1.7,
+      "otherTheft": 2.5,
+      "other": 4.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 25,
+    "outstanding": 0,
+    "good": 9,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Moore Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stockton Heath Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Thelwall Community Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Cobbs Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Augustine's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 131543,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 24,
+    "privateRent": 13,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 314,
+    "avgUpload": 57,
+    "superfastPct": 92,
+    "ultrafastPct": 76,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Warrington Council",
+    "bandD": 1638,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 32.3,
+    "imdRank": 21746,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WA4 covers WARRINGTON in Cheshire, North West.",
+    "priceVsCounty": "The average property price in WA4 is £370,674, which is 19% above the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in WA4 cost 29.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WA4 have risen 0.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 18.9 recorded crimes per 1,000 residents, WA4 has a crime rate well 77% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WA4 has 25 schools within or near its boundaries, including 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WA4 are 314.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WA4 (WARRINGTON) offers above-average property prices (£370,674, 29% above national average), low crime (77% below national average), 25 nearby schools, and excellent broadband (314 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 314
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 314
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

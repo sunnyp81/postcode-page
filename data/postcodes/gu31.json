@@ -1,0 +1,198 @@
+{
+  "code": "GU31",
+  "name": "PETERSFIELD",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU30",
+    "GU32",
+    "GU33"
+  ],
+  "property": {
+    "avgPrice": 633838,
+    "medianPrice": 520000,
+    "priceChange1y": 2.2,
+    "priceChange5y": 0,
+    "transactions12m": 512,
+    "byType": {
+      "detached": {
+        "avg": 900503,
+        "count": 184
+      },
+      "semi": {
+        "avg": 525742,
+        "count": 125
+      },
+      "terraced": {
+        "avg": 419608,
+        "count": 115
+      },
+      "flat": {
+        "avg": 301217,
+        "count": 60
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 718886
+      },
+      {
+        "year": 2024,
+        "avg": 587913
+      },
+      {
+        "year": 2025,
+        "avg": 600951
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.9,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.1,
+      "other": 0.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Buriton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Herne Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ditcham Park School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Churcher's College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rogate CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 129975,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 236,
+    "avgUpload": 42,
+    "superfastPct": 87,
+    "ultrafastPct": 54,
+    "gigabitPct": 54,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Hampshire",
+    "bandD": 2028,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10.3,
+    "imdRank": 8236,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU31 is the postcode district for PETERSFIELD, located in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU31 is £633,838, broadly in line with the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU31 cost 120.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU31 have risen 2.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, GU31 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU31 has 6 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU31 are 236.0 Mbps, with 99% of premises having access to superfast broadband and 80% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU31 (PETERSFIELD) offers above-average property prices (£633,838, 121% above national average), low crime (94% below national average), 6 nearby schools, and excellent broadband (236 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 236
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 236
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

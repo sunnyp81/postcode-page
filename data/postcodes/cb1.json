@@ -1,0 +1,197 @@
+{
+  "code": "CB1",
+  "name": "CAMBRIDGE",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "cambridge",
+  "adjacent": [
+    "CB2",
+    "CB3"
+  ],
+  "property": {
+    "avgPrice": 613886,
+    "medianPrice": 495000,
+    "priceChange1y": -3,
+    "priceChange5y": 0,
+    "transactions12m": 1807,
+    "byType": {
+      "detached": {
+        "avg": 839430,
+        "count": 200
+      },
+      "semi": {
+        "avg": 640827,
+        "count": 401
+      },
+      "terraced": {
+        "avg": 547620,
+        "count": 709
+      },
+      "flat": {
+        "avg": 333171,
+        "count": 442
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 719153
+      },
+      {
+        "year": 2024,
+        "avg": 567032
+      },
+      {
+        "year": 2025,
+        "avg": 550071
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 149.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 83.8,
+    "byType": {
+      "violentCrime": 38.8,
+      "burglary": 4,
+      "vehicleCrime": 4.3,
+      "antisocialBehaviour": 20.1,
+      "otherTheft": 52.3,
+      "other": 29.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 24,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Holme Court School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Homerton Early Years Centre",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brunswick Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Morley Memorial Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Colville Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 149352,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 20,
+    "socialRent": 23,
+    "privateRent": 28,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 376,
+    "avgUpload": 68,
+    "superfastPct": 99,
+    "ultrafastPct": 94,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cambridge",
+    "bandD": 2126,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.9,
+    "imdRank": 12582,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CB1 encompasses CAMBRIDGE and its surrounding areas in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in CB1 is £613,886, which is 60% above the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in CB1 cost 113.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CB1 have fallen 3.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 149.4 recorded crimes per 1,000 residents, CB1 has a crime rate significantly 84% above the national average of 81.3 per 1,000.",
+    "schoolContext": "CB1 has 24 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CB1 are 376.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CB1 (CAMBRIDGE) offers above-average property prices (£613,886, 114% above national average), higher-than-average crime (84% above national average), 24 nearby schools, and excellent broadband (376 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 376
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 376
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

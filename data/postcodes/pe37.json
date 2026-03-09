@@ -1,0 +1,197 @@
+{
+  "code": "PE37",
+  "name": "SWAFFHAM",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "peterborough",
+  "adjacent": [
+    "PE36",
+    "PE38"
+  ],
+  "property": {
+    "avgPrice": 318779,
+    "medianPrice": 264995,
+    "priceChange1y": -11.6,
+    "priceChange5y": 0,
+    "transactions12m": 813,
+    "byType": {
+      "detached": {
+        "avg": 329740,
+        "count": 402
+      },
+      "semi": {
+        "avg": 226759,
+        "count": 228
+      },
+      "terraced": {
+        "avg": 183227,
+        "count": 124
+      },
+      "flat": {
+        "avg": 108198,
+        "count": 20
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 386274
+      },
+      {
+        "year": 2024,
+        "avg": 292887
+      },
+      {
+        "year": 2025,
+        "avg": 258827
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 16.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -80.1,
+    "byType": {
+      "violentCrime": 6.8,
+      "burglary": 0.2,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 2.9,
+      "otherTheft": 2.3,
+      "other": 3.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Heartwood CofE VC Primary & Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Necton VA Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "OneSchool Global UK - Swaffham Campus",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Nicholas Hamond Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Swaffham CofE Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 146620,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 166,
+    "avgUpload": 30,
+    "superfastPct": 93,
+    "ultrafastPct": 33,
+    "gigabitPct": 33,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Breckland",
+    "bandD": 2114,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.6,
+    "imdRank": 16834,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PE37 covers SWAFFHAM in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in PE37 is £318,779, which is 17% below the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in PE37 cost 11.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PE37 have fallen 11.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 16.2 recorded crimes per 1,000 residents, PE37 has a crime rate well 80% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PE37 has 6 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PE37 are 166.0 Mbps, with 95% of premises having access to superfast broadband and 61% with full fibre (FTTP) connectivity.",
+    "synthesis": "PE37 (SWAFFHAM) offers property prices near the national average (£318,779), low crime (80% below national average), 6 nearby schools, and excellent broadband (166 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 166
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 166
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

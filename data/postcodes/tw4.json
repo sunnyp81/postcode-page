@@ -1,0 +1,197 @@
+{
+  "code": "TW4",
+  "name": "HOUNSLOW",
+  "county": "greater-london",
+  "region": "london",
+  "city": "twickenham",
+  "adjacent": [
+    "TW3",
+    "TW5"
+  ],
+  "property": {
+    "avgPrice": 457477,
+    "medianPrice": 464000,
+    "priceChange1y": 3.2,
+    "priceChange5y": 0,
+    "transactions12m": 422,
+    "byType": {
+      "detached": {
+        "avg": 583776,
+        "count": 19
+      },
+      "semi": {
+        "avg": 538252,
+        "count": 115
+      },
+      "terraced": {
+        "avg": 475821,
+        "count": 149
+      },
+      "flat": {
+        "avg": 281567,
+        "count": 119
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 476674
+      },
+      {
+        "year": 2024,
+        "avg": 442768
+      },
+      {
+        "year": 2025,
+        "avg": 456819
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 115.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 41.7,
+    "byType": {
+      "violentCrime": 35.6,
+      "burglary": 4.8,
+      "vehicleCrime": 8.3,
+      "antisocialBehaviour": 28.8,
+      "otherTheft": 17.2,
+      "other": 20.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 2,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Beavers Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Michael and St Martin Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "The Heathland School",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Suffah Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Orchard Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 299424,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 21,
+    "privateRent": 29,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 340,
+    "avgUpload": 61,
+    "superfastPct": 97,
+    "ultrafastPct": 83,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hounslow",
+    "bandD": 1882,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.5,
+    "imdRank": 18652,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TW4 is the postcode district for HOUNSLOW, located in Greater London, London.",
+    "priceVsCounty": "The average property price in TW4 is £457,477, which is 65% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in TW4 cost 59.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TW4 have risen 3.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 115.2 recorded crimes per 1,000 residents, TW4 has a crime rate significantly 42% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TW4 has 7 schools within or near its boundaries, including 2 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TW4 are 340.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TW4 (HOUNSLOW) offers above-average property prices (£457,477, 59% above national average), higher-than-average crime (42% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (340 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 340
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 340
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

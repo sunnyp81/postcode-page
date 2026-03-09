@@ -1,0 +1,198 @@
+{
+  "code": "PE26",
+  "name": "HUNTINGDON",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "peterborough",
+  "adjacent": [
+    "PE25",
+    "PE27",
+    "PE28"
+  ],
+  "property": {
+    "avgPrice": 302321,
+    "medianPrice": 280000,
+    "priceChange1y": -9.9,
+    "priceChange5y": 0,
+    "transactions12m": 644,
+    "byType": {
+      "detached": {
+        "avg": 381988,
+        "count": 296
+      },
+      "semi": {
+        "avg": 250634,
+        "count": 186
+      },
+      "terraced": {
+        "avg": 186392,
+        "count": 92
+      },
+      "flat": {
+        "avg": 128824,
+        "count": 33
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 319382
+      },
+      {
+        "year": 2024,
+        "avg": 308750
+      },
+      {
+        "year": 2025,
+        "avg": 278128
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 18.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -77.6,
+    "byType": {
+      "violentCrime": 7.7,
+      "burglary": 0.3,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 3.4,
+      "otherTheft": 1.9,
+      "other": 4.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Ashbeach Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Abbey College, Ramsey",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bury CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ramsey Spinning Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ramsey Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 104896,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 13,
+    "privateRent": 18,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 336,
+    "avgUpload": 60,
+    "superfastPct": 96,
+    "ultrafastPct": 82,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Fenland",
+    "bandD": 2214,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.4,
+    "imdRank": 20893,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PE26 is the postcode district for HUNTINGDON, located in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in PE26 is £302,321, which is 21% below the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in PE26 cost 5.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PE26 have fallen 9.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 18.2 recorded crimes per 1,000 residents, PE26 has a crime rate well 78% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PE26 has 6 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PE26 are 336.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PE26 (HUNTINGDON) offers property prices near the national average (£302,321), low crime (78% below national average), 6 nearby schools, and excellent broadband (336 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 336
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 336
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

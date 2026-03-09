@@ -1,0 +1,198 @@
+{
+  "code": "WV4",
+  "name": "WOLVERHAMPTON",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "wolverhampton",
+  "adjacent": [
+    "WV3",
+    "WV5",
+    "WV6"
+  ],
+  "property": {
+    "avgPrice": 282638,
+    "medianPrice": 235000,
+    "priceChange1y": 15.2,
+    "priceChange5y": 0,
+    "transactions12m": 1104,
+    "byType": {
+      "detached": {
+        "avg": 357150,
+        "count": 224
+      },
+      "semi": {
+        "avg": 239531,
+        "count": 528
+      },
+      "terraced": {
+        "avg": 209749,
+        "count": 176
+      },
+      "flat": {
+        "avg": 106757,
+        "count": 140
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 317065
+      },
+      {
+        "year": 2024,
+        "avg": 247037
+      },
+      {
+        "year": 2025,
+        "avg": 284605
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 41.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -48.7,
+    "byType": {
+      "violentCrime": 19.8,
+      "burglary": 2.1,
+      "vehicleCrime": 4,
+      "antisocialBehaviour": 2.4,
+      "otherTheft": 4.7,
+      "other": 8.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 2,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Windsor Nursery School",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lanesfield Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Colton Hills Community School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Penn Fields School",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Teresa's Catholic Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 331930,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 19,
+    "privateRent": 12,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 368,
+    "avgUpload": 66,
+    "superfastPct": 97,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Dudley",
+    "bandD": 1844,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 24.1,
+    "imdRank": 18193,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WV4 covers WOLVERHAMPTON in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in WV4 is £282,638, which is 15% below the West Midlands average of £334,385.",
+    "priceVsNational": "Property values in WV4 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in WV4 have risen 15.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 41.7 recorded crimes per 1,000 residents, WV4 has a crime rate well 49% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WV4 has 21 schools within or near its boundaries, including 2 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WV4 are 368.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WV4 (WOLVERHAMPTON) offers property prices near the national average (£282,638), low crime (49% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (368 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 368
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 368
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "code": "NG25",
+  "name": "SOUTHWELL",
+  "county": "nottinghamshire",
+  "region": "east-midlands",
+  "city": "nottingham",
+  "adjacent": [
+    "NG24"
+  ],
+  "property": {
+    "avgPrice": 426604,
+    "medianPrice": 375000,
+    "priceChange1y": -4.4,
+    "priceChange5y": 0,
+    "transactions12m": 406,
+    "byType": {
+      "detached": {
+        "avg": 527833,
+        "count": 219
+      },
+      "semi": {
+        "avg": 320346,
+        "count": 84
+      },
+      "terraced": {
+        "avg": 282678,
+        "count": 53
+      },
+      "flat": {
+        "avg": 197588,
+        "count": 34
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 425191
+      },
+      {
+        "year": 2024,
+        "avg": 436446
+      },
+      {
+        "year": 2025,
+        "avg": 417236
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 8.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -89.2,
+    "byType": {
+      "violentCrime": 3,
+      "burglary": 0.7,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 1.3,
+      "otherTheft": 1.4,
+      "other": 2.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Lowe's Wong Infant School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "The Minster School",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Holy Trinity CofE Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lowe's Wong Anglican Methodist Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 127886,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 14,
+    "privateRent": 14,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 216,
+    "avgUpload": 39,
+    "superfastPct": 89,
+    "ultrafastPct": 48,
+    "gigabitPct": 48,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Nottingham Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.2,
+    "imdRank": 15577,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NG25 covers SOUTHWELL in Nottinghamshire, East Midlands.",
+    "priceVsCounty": "The average property price in NG25 is £426,604, which is 37% below the Nottinghamshire average of £678,596.",
+    "priceVsNational": "Properties in NG25 cost 48.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NG25 have fallen 4.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 8.8 recorded crimes per 1,000 residents, NG25 has a crime rate well 89% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NG25 has 4 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NG25 are 216.0 Mbps, with 99% of premises having access to superfast broadband and 74% with full fibre (FTTP) connectivity.",
+    "synthesis": "NG25 (SOUTHWELL) offers above-average property prices (£426,604, 49% above national average), low crime (89% below national average), 4 nearby schools, and excellent broadband (216 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 678596,
+      "crime": 75,
+      "broadband": 216
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 216
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

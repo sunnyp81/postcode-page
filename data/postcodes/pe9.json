@@ -1,0 +1,198 @@
+{
+  "code": "PE9",
+  "name": "STAMFORD",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "peterborough",
+  "adjacent": [
+    "PE8",
+    "PE10",
+    "PE11"
+  ],
+  "property": {
+    "avgPrice": 427506,
+    "medianPrice": 330000,
+    "priceChange1y": -13.2,
+    "priceChange5y": 0,
+    "transactions12m": 1525,
+    "byType": {
+      "detached": {
+        "avg": 609576,
+        "count": 476
+      },
+      "semi": {
+        "avg": 331989,
+        "count": 455
+      },
+      "terraced": {
+        "avg": 334326,
+        "count": 395
+      },
+      "flat": {
+        "avg": 206165,
+        "count": 141
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 453152
+      },
+      {
+        "year": 2024,
+        "avg": 442250
+      },
+      {
+        "year": 2025,
+        "avg": 383744
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 34.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -58.1,
+    "byType": {
+      "violentCrime": 12.3,
+      "burglary": 0.8,
+      "vehicleCrime": 1.1,
+      "antisocialBehaviour": 8.1,
+      "otherTheft": 5.7,
+      "other": 6.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Barnack CofE (Controlled) Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Uffington Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St George's Church of England Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stamford Endowed Schools",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Copthill Independent Day School & Nursery",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 147151,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 336,
+    "avgUpload": 60,
+    "superfastPct": 96,
+    "ultrafastPct": 82,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Kesteven",
+    "bandD": 2015,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.5,
+    "imdRank": 11133,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PE9 encompasses STAMFORD and its surrounding areas in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in PE9 is £427,506, which is 11% above the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in PE9 cost 49.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PE9 have fallen 13.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 34.1 recorded crimes per 1,000 residents, PE9 has a crime rate well 58% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PE9 has 16 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PE9 are 336.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PE9 (STAMFORD) offers above-average property prices (£427,506, 49% above national average), low crime (58% below national average), 16 nearby schools, and excellent broadband (336 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 336
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 336
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "code": "E20",
+  "name": "OLYMPIC PARK",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 881799,
+    "medianPrice": 575000,
+    "priceChange1y": -26.3,
+    "priceChange5y": 0,
+    "transactions12m": 162,
+    "byType": {
+      "detached": {
+        "avg": 1675418,
+        "count": 0
+      },
+      "semi": {
+        "avg": 1058159,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 1196500,
+        "count": 10
+      },
+      "flat": {
+        "avg": 570149,
+        "count": 148
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1135305
+      },
+      {
+        "year": 2024,
+        "avg": 850550
+      },
+      {
+        "year": 2025,
+        "avg": 627175
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 281,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 245.6,
+    "byType": {
+      "violentCrime": 58.7,
+      "burglary": 9.5,
+      "vehicleCrime": 14.2,
+      "antisocialBehaviour": 46.3,
+      "otherTheft": 111.8,
+      "other": 40.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Harris Academy Chobham",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bobby Moore Academy",
+        "type": "Other",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 266758,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 15,
+    "socialRent": 41,
+    "privateRent": 30,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 354,
+    "avgUpload": 64,
+    "superfastPct": 90,
+    "ultrafastPct": 88,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hackney",
+    "bandD": 1773,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 32.5,
+    "imdRank": 25312,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "E20 encompasses OLYMPIC PARK and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in E20 is £881,799, which is 33% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in E20 cost 207.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in E20 have fallen 26.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 281.0 recorded crimes per 1,000 residents, E20 has a crime rate significantly 246% above the national average of 81.3 per 1,000.",
+    "schoolContext": "E20 has 2 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in E20 are 354.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "E20 (OLYMPIC PARK) offers above-average property prices (£881,799, 207% above national average), higher-than-average crime (246% above national average), 2 nearby schools, and excellent broadband (354 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 354
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 354
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

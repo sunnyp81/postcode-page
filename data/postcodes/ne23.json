@@ -1,0 +1,198 @@
+{
+  "code": "NE23",
+  "name": "CRAMLINGTON",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "newcastle-upon-tyne",
+  "adjacent": [
+    "NE22",
+    "NE24",
+    "NE25"
+  ],
+  "property": {
+    "avgPrice": 207699,
+    "medianPrice": 181973,
+    "priceChange1y": 2.3,
+    "priceChange5y": 0,
+    "transactions12m": 2126,
+    "byType": {
+      "detached": {
+        "avg": 311911,
+        "count": 611
+      },
+      "semi": {
+        "avg": 176716,
+        "count": 646
+      },
+      "terraced": {
+        "avg": 140506,
+        "count": 636
+      },
+      "flat": {
+        "avg": 79166,
+        "count": 161
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 213294
+      },
+      {
+        "year": 2024,
+        "avg": 202770
+      },
+      {
+        "year": 2025,
+        "avg": 207395
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 55.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -31.4,
+    "byType": {
+      "violentCrime": 18.7,
+      "burglary": 1.1,
+      "vehicleCrime": 1.4,
+      "antisocialBehaviour": 12.6,
+      "otherTheft": 9,
+      "other": 13
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Fordley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Burradon Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eastlea Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beaconhill Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cramlington Shanklea Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 215025,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 21,
+    "privateRent": 13,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 353,
+    "avgUpload": 64,
+    "superfastPct": 98,
+    "ultrafastPct": 88,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Tyneside",
+    "bandD": 2112,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.3,
+    "imdRank": 16825,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NE23 encompasses CRAMLINGTON and its surrounding areas in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in NE23 is £207,699, which is 22% below the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in NE23 cost 27.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NE23 have risen 2.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 55.8 recorded crimes per 1,000 residents, NE23 has a crime rate well 31% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NE23 has 17 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NE23 are 353.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NE23 (CRAMLINGTON) offers affordable property prices (£207,699, 28% below national average), low crime (31% below national average), 17 nearby schools, and excellent broadband (353 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 353
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 353
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

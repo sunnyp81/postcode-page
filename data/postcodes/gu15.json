@@ -1,0 +1,198 @@
+{
+  "code": "GU15",
+  "name": "CAMBERLEY",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU14",
+    "GU16",
+    "GU17"
+  ],
+  "property": {
+    "avgPrice": 552847,
+    "medianPrice": 425000,
+    "priceChange1y": -13.3,
+    "priceChange5y": 0,
+    "transactions12m": 1383,
+    "byType": {
+      "detached": {
+        "avg": 808369,
+        "count": 489
+      },
+      "semi": {
+        "avg": 456832,
+        "count": 264
+      },
+      "terraced": {
+        "avg": 379480,
+        "count": 153
+      },
+      "flat": {
+        "avg": 232213,
+        "count": 426
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 495475
+      },
+      {
+        "year": 2024,
+        "avg": 619275
+      },
+      {
+        "year": 2025,
+        "avg": 536994
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 45.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -44.2,
+    "byType": {
+      "violentCrime": 16.6,
+      "burglary": 1,
+      "vehicleCrime": 1.5,
+      "antisocialBehaviour": 7.5,
+      "otherTheft": 7.4,
+      "other": 11.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Heather Ridge Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Prior Heath Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lyndhurst School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Collingwood College",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cordwalles Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 94492,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 10,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 351,
+    "avgUpload": 63,
+    "superfastPct": 99,
+    "ultrafastPct": 86,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Surrey Heath",
+    "bandD": 2248,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.1,
+    "imdRank": 5859,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU15 covers CAMBERLEY in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU15 is £552,847, which is 10% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU15 cost 92.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU15 have fallen 13.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 45.4 recorded crimes per 1,000 residents, GU15 has a crime rate well 44% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU15 has 12 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU15 are 351.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU15 (CAMBERLEY) offers above-average property prices (£552,847, 93% above national average), low crime (44% below national average), 12 nearby schools, and excellent broadband (351 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 351
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 351
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

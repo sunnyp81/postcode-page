@@ -1,0 +1,198 @@
+{
+  "code": "SK6",
+  "name": "STOCKPORT",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "stockport",
+  "adjacent": [
+    "SK5",
+    "SK7",
+    "SK8"
+  ],
+  "property": {
+    "avgPrice": 341448,
+    "medianPrice": 295000,
+    "priceChange1y": -0.6,
+    "priceChange5y": 0,
+    "transactions12m": 2261,
+    "byType": {
+      "detached": {
+        "avg": 495841,
+        "count": 530
+      },
+      "semi": {
+        "avg": 317056,
+        "count": 907
+      },
+      "terraced": {
+        "avg": 261461,
+        "count": 500
+      },
+      "flat": {
+        "avg": 157645,
+        "count": 234
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 335169
+      },
+      {
+        "year": 2024,
+        "avg": 345115
+      },
+      {
+        "year": 2025,
+        "avg": 343117
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 22,
+    "outstanding": 0,
+    "good": 9,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Brookside Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Greave Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ludworth Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Rose Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Arden Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 303929,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 13,
+    "privateRent": 13,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 346,
+    "avgUpload": 62,
+    "superfastPct": 95,
+    "ultrafastPct": 85,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stockport",
+    "bandD": 2235,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.8,
+    "imdRank": 15400,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SK6 encompasses STOCKPORT and its surrounding areas in Cheshire, North West.",
+    "priceVsCounty": "The average property price in SK6 is £341,448, which is 10% above the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in SK6 cost 19.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SK6 have fallen 0.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SK6 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SK6 has 22 schools within or near its boundaries, including 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SK6 are 346.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SK6 (STOCKPORT) offers property prices near the national average (£341,448), low crime (94% below national average), 22 nearby schools, and excellent broadband (346 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 346
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 346
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

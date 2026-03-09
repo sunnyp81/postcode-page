@@ -1,0 +1,198 @@
+{
+  "code": "NE32",
+  "name": "JARROW",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "newcastle-upon-tyne",
+  "adjacent": [
+    "NE31",
+    "NE33",
+    "NE34"
+  ],
+  "property": {
+    "avgPrice": 155678,
+    "medianPrice": 138000,
+    "priceChange1y": 4.1,
+    "priceChange5y": 0,
+    "transactions12m": 788,
+    "byType": {
+      "detached": {
+        "avg": 289221,
+        "count": 36
+      },
+      "semi": {
+        "avg": 165421,
+        "count": 327
+      },
+      "terraced": {
+        "avg": 138864,
+        "count": 259
+      },
+      "flat": {
+        "avg": 69339,
+        "count": 115
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 156651
+      },
+      {
+        "year": 2024,
+        "avg": 152456
+      },
+      {
+        "year": 2025,
+        "avg": 158671
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 83.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 2.6,
+    "byType": {
+      "violentCrime": 32.3,
+      "burglary": 2.7,
+      "vehicleCrime": 2.4,
+      "antisocialBehaviour": 11.8,
+      "otherTheft": 14.7,
+      "other": 19.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Clervaux Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bede Burn Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Valley View Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Simonside Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hedworthfield Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 151393,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 30,
+    "privateRent": 11,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 356,
+    "avgUpload": 64,
+    "superfastPct": 95,
+    "ultrafastPct": 88,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Tyneside",
+    "bandD": 2091,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 31.5,
+    "imdRank": 22573,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NE32 encompasses JARROW and its surrounding areas in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in NE32 is £155,678, which is 41% below the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in NE32 cost 45.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NE32 have risen 4.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "NE32 has a crime rate of 83.4 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "NE32 has 13 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NE32 are 356.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NE32 (JARROW) offers affordable property prices (£155,678, 46% below national average), 13 nearby schools, and excellent broadband (356 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 356
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 356
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

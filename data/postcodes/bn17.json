@@ -1,0 +1,197 @@
+{
+  "code": "BN17",
+  "name": "LITTLEHAMPTON",
+  "county": "east-sussex",
+  "region": "south-east",
+  "city": "brighton",
+  "adjacent": [
+    "BN16",
+    "BN18"
+  ],
+  "property": {
+    "avgPrice": 326622,
+    "medianPrice": 285000,
+    "priceChange1y": -15,
+    "priceChange5y": 0,
+    "transactions12m": 1483,
+    "byType": {
+      "detached": {
+        "avg": 471850,
+        "count": 224
+      },
+      "semi": {
+        "avg": 333817,
+        "count": 318
+      },
+      "terraced": {
+        "avg": 280964,
+        "count": 495
+      },
+      "flat": {
+        "avg": 171372,
+        "count": 387
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 300096
+      },
+      {
+        "year": 2024,
+        "avg": 367129
+      },
+      {
+        "year": 2025,
+        "avg": 312202
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 87.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 7.7,
+    "byType": {
+      "violentCrime": 34.1,
+      "burglary": 2.1,
+      "vehicleCrime": 3.7,
+      "antisocialBehaviour": 14,
+      "otherTheft": 15.6,
+      "other": 18
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Lyminster Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cornfield School, Littlehampton",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Littlehampton Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "River Beach Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 170064,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 9,
+    "privateRent": 16,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 118,
+    "avgUpload": 21,
+    "superfastPct": 95,
+    "ultrafastPct": 19,
+    "gigabitPct": 19,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Arun",
+    "bandD": 2158,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.6,
+    "imdRank": 15557,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BN17 encompasses LITTLEHAMPTON and its surrounding areas in East Sussex, South East.",
+    "priceVsCounty": "The average property price in BN17 is £326,622, which is 28% below the East Sussex average of £455,819.",
+    "priceVsNational": "Properties in BN17 cost 13.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BN17 have fallen 15.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 87.6 recorded crimes per 1,000 residents, BN17 has a crime rate 8% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BN17 has 7 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BN17 are 118.0 Mbps, with 88% of premises having access to superfast broadband and 47% with full fibre (FTTP) connectivity.",
+    "synthesis": "BN17 (LITTLEHAMPTON) offers property prices near the national average (£326,622), 7 nearby schools, and excellent broadband (118 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 455819,
+      "crime": 75,
+      "broadband": 118
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 118
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

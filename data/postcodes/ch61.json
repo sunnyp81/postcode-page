@@ -1,0 +1,198 @@
+{
+  "code": "CH61",
+  "name": "WIRRAL",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "chester",
+  "adjacent": [
+    "CH60",
+    "CH62",
+    "CH63"
+  ],
+  "property": {
+    "avgPrice": 295439,
+    "medianPrice": 268000,
+    "priceChange1y": 5.7,
+    "priceChange5y": 0,
+    "transactions12m": 751,
+    "byType": {
+      "detached": {
+        "avg": 415065,
+        "count": 155
+      },
+      "semi": {
+        "avg": 271235,
+        "count": 511
+      },
+      "terraced": {
+        "avg": 235018,
+        "count": 56
+      },
+      "flat": {
+        "avg": 148463,
+        "count": 16
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 297870
+      },
+      {
+        "year": 2024,
+        "avg": 287253
+      },
+      {
+        "year": 2025,
+        "avg": 303493
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 13.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -82.9,
+    "byType": {
+      "violentCrime": 6.6,
+      "burglary": 0.7,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 1.1,
+      "otherTheft": 1.2,
+      "other": 3.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ladymount Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Pensby High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stanley School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pensby Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Thurstaston Dawpool CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 328873,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 15,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 372,
+    "avgUpload": 67,
+    "superfastPct": 98,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wirral",
+    "bandD": 2158,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 29.6,
+    "imdRank": 19585,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CH61 encompasses WIRRAL and its surrounding areas in Cheshire, North West.",
+    "priceVsCounty": "The average property price in CH61 is £295,439, which is 5% below the Cheshire average of £311,410.",
+    "priceVsNational": "Property values in CH61 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in CH61 have risen 5.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 13.9 recorded crimes per 1,000 residents, CH61 has a crime rate well 83% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CH61 has 7 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CH61 are 372.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CH61 (WIRRAL) offers property prices near the national average (£295,439), low crime (83% below national average), 7 nearby schools, and excellent broadband (372 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 372
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 372
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

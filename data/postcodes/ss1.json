@@ -1,0 +1,197 @@
+{
+  "code": "SS1",
+  "name": "SOUTHEND-ON-SEA",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "southend-on-sea",
+  "adjacent": [
+    "SS2",
+    "SS3"
+  ],
+  "property": {
+    "avgPrice": 396337,
+    "medianPrice": 291000,
+    "priceChange1y": 3.9,
+    "priceChange5y": 0,
+    "transactions12m": 1230,
+    "byType": {
+      "detached": {
+        "avg": 745059,
+        "count": 219
+      },
+      "semi": {
+        "avg": 484380,
+        "count": 177
+      },
+      "terraced": {
+        "avg": 342616,
+        "count": 190
+      },
+      "flat": {
+        "avg": 203351,
+        "count": 551
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 393988
+      },
+      {
+        "year": 2024,
+        "avg": 390275
+      },
+      {
+        "year": 2025,
+        "avg": 405562
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 218.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 168.6,
+    "byType": {
+      "violentCrime": 96.2,
+      "burglary": 4.9,
+      "vehicleCrime": 6.1,
+      "antisocialBehaviour": 21.9,
+      "otherTheft": 38.8,
+      "other": 50.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Thorpe Hall School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "South Essex College of Further and Higher Education",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Porters Grange Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Greenways Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bournes Green Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 185256,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 12,
+    "privateRent": 24,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 379,
+    "avgUpload": 68,
+    "superfastPct": 97,
+    "ultrafastPct": 95,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Southend On Sea Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.4,
+    "imdRank": 16811,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SS1 encompasses SOUTHEND-ON-SEA and its surrounding areas in Essex, East Of England.",
+    "priceVsCounty": "The average property price in SS1 is £396,337, which is 8% below the Essex average of £429,754.",
+    "priceVsNational": "Properties in SS1 cost 38.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SS1 have risen 3.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 218.4 recorded crimes per 1,000 residents, SS1 has a crime rate significantly 169% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SS1 has 7 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SS1 are 379.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SS1 (SOUTHEND-ON-SEA) offers above-average property prices (£396,337, 38% above national average), higher-than-average crime (169% above national average), 7 nearby schools, and excellent broadband (379 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 379
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 379
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

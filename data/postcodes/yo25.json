@@ -1,0 +1,196 @@
+{
+  "code": "YO25",
+  "name": "DRIFFIELD",
+  "county": "north-yorkshire",
+  "region": "yorkshire",
+  "city": "york",
+  "adjacent": [
+    "YO24",
+    "YO26"
+  ],
+  "property": {
+    "avgPrice": 266756,
+    "medianPrice": 210900,
+    "priceChange1y": -2.6,
+    "priceChange5y": 0,
+    "transactions12m": 2085,
+    "byType": {
+      "detached": {
+        "avg": 337869,
+        "count": 805
+      },
+      "semi": {
+        "avg": 197973,
+        "count": 701
+      },
+      "terraced": {
+        "avg": 153158,
+        "count": 405
+      },
+      "flat": {
+        "avg": 90207,
+        "count": 58
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 256563
+      },
+      {
+        "year": 2024,
+        "avg": 276132
+      },
+      {
+        "year": 2025,
+        "avg": 268944
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 16.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -79.8,
+    "byType": {
+      "violentCrime": 8,
+      "burglary": 0.5,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 1.9,
+      "otherTheft": 1.4,
+      "other": 4.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 0,
+    "good": 10,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Brandesburton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Driffield Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hutton Cranswick Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Nafferton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "North Frodingham Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 28133,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 256,
+    "avgUpload": 46,
+    "superfastPct": 86,
+    "ultrafastPct": 60,
+    "gigabitPct": 60,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "York Council",
+    "bandD": 1725,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "YO25 is the postcode district for DRIFFIELD, located in North Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in YO25 is £266,756, which is 25% below the North Yorkshire average of £354,925.",
+    "priceVsNational": "Properties in YO25 cost 7.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in YO25 have fallen 2.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 16.4 recorded crimes per 1,000 residents, YO25 has a crime rate well 80% below the national average of 81.3 per 1,000.",
+    "schoolContext": "YO25 has 20 schools within or near its boundaries, including 10 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in YO25 are 256.0 Mbps, with 99% of premises having access to superfast broadband and 85% with full fibre (FTTP) connectivity.",
+    "synthesis": "YO25 (DRIFFIELD) offers property prices near the national average (£266,756), low crime (80% below national average), 20 nearby schools, and excellent broadband (256 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 354925,
+      "crime": 75,
+      "broadband": 256
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 256
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "N16",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "N15",
+    "N17",
+    "N18"
+  ],
+  "property": {
+    "avgPrice": 753098,
+    "medianPrice": 575000,
+    "priceChange1y": -1.8,
+    "priceChange5y": 0,
+    "transactions12m": 1718,
+    "byType": {
+      "detached": {
+        "avg": 1545667,
+        "count": 6
+      },
+      "semi": {
+        "avg": 1300308,
+        "count": 33
+      },
+      "terraced": {
+        "avg": 1220259,
+        "count": 425
+      },
+      "flat": {
+        "avg": 527395,
+        "count": 1153
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 761841
+      },
+      {
+        "year": 2024,
+        "avg": 754753
+      },
+      {
+        "year": 2025,
+        "avg": 741023
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 252.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 210.5,
+    "byType": {
+      "violentCrime": 67.3,
+      "burglary": 12.1,
+      "vehicleCrime": 12.9,
+      "antisocialBehaviour": 60.2,
+      "otherTheft": 56.9,
+      "other": 42.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 41,
+    "outstanding": 3,
+    "good": 8,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Princess May Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Grasmere Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Jubilee Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Holmleigh Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Grazebrook Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 266758,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 15,
+    "socialRent": 41,
+    "privateRent": 30,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 371,
+    "avgUpload": 67,
+    "superfastPct": 99,
+    "ultrafastPct": 94,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hackney",
+    "bandD": 1773,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 32.5,
+    "imdRank": 25312,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "N16 is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in N16 is £753,098, which is 42% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in N16 cost 162.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in N16 have fallen 1.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 252.4 recorded crimes per 1,000 residents, N16 has a crime rate significantly 210% above the national average of 81.3 per 1,000.",
+    "schoolContext": "N16 has 41 schools within or near its boundaries, including 3 rated Outstanding and 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in N16 are 371.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "N16 (LONDON) offers above-average property prices (£753,098, 162% above national average), higher-than-average crime (210% above national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (371 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 371
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 371
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

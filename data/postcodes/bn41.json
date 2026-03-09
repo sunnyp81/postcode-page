@@ -1,0 +1,197 @@
+{
+  "code": "BN41",
+  "name": "BRIGHTON",
+  "county": "east-sussex",
+  "region": "south-east",
+  "city": "brighton",
+  "adjacent": [
+    "BN42",
+    "BN43"
+  ],
+  "property": {
+    "avgPrice": 376735,
+    "medianPrice": 355269,
+    "priceChange1y": 7,
+    "priceChange5y": 0,
+    "transactions12m": 807,
+    "byType": {
+      "detached": {
+        "avg": 457106,
+        "count": 92
+      },
+      "semi": {
+        "avg": 389577,
+        "count": 269
+      },
+      "terraced": {
+        "avg": 393012,
+        "count": 283
+      },
+      "flat": {
+        "avg": 247256,
+        "count": 129
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 375698
+      },
+      {
+        "year": 2024,
+        "avg": 365562
+      },
+      {
+        "year": 2025,
+        "avg": 391330
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 72.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -11.1,
+    "byType": {
+      "violentCrime": 23.9,
+      "burglary": 2.2,
+      "vehicleCrime": 2.9,
+      "antisocialBehaviour": 12.6,
+      "otherTheft": 14.7,
+      "other": 15.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Brackenbury Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Mile Oak Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Peter Gladwin Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Nicolas CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 283870,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 15,
+    "privateRent": 31,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 368,
+    "avgUpload": 66,
+    "superfastPct": 98,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Brighton Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.8,
+    "imdRank": 16209,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BN41 encompasses BRIGHTON and its surrounding areas in East Sussex, South East.",
+    "priceVsCounty": "The average property price in BN41 is £376,735, which is 17% below the East Sussex average of £455,819.",
+    "priceVsNational": "Properties in BN41 cost 31.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BN41 have risen 7.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 72.3 recorded crimes per 1,000 residents, BN41 has a crime rate 11% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BN41 has 8 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BN41 are 368.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BN41 (BRIGHTON) offers above-average property prices (£376,735, 31% above national average), 8 nearby schools, and excellent broadband (368 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 455819,
+      "crime": 75,
+      "broadband": 368
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 368
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

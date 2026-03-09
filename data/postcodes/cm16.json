@@ -1,0 +1,198 @@
+{
+  "code": "CM16",
+  "name": "EPPING",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "chelmsford",
+  "adjacent": [
+    "CM15",
+    "CM17",
+    "CM18"
+  ],
+  "property": {
+    "avgPrice": 707166,
+    "medianPrice": 577500,
+    "priceChange1y": -15.1,
+    "priceChange5y": 0,
+    "transactions12m": 963,
+    "byType": {
+      "detached": {
+        "avg": 1023832,
+        "count": 209
+      },
+      "semi": {
+        "avg": 661767,
+        "count": 289
+      },
+      "terraced": {
+        "avg": 530217,
+        "count": 238
+      },
+      "flat": {
+        "avg": 376112,
+        "count": 173
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 710534
+      },
+      {
+        "year": 2024,
+        "avg": 760593
+      },
+      {
+        "year": 2025,
+        "avg": 646072
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 26.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -67.9,
+    "byType": {
+      "violentCrime": 9.1,
+      "burglary": 0.8,
+      "vehicleCrime": 2.9,
+      "antisocialBehaviour": 2.6,
+      "otherTheft": 4.3,
+      "other": 6.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Coopersale and Theydon Garnon Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Andrew's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Coopersale Hall School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Epping Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Open Box Education Centre",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 137451,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 15,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 327,
+    "avgUpload": 59,
+    "superfastPct": 91,
+    "ultrafastPct": 80,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Epping Forest",
+    "bandD": 2002,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.1,
+    "imdRank": 12930,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CM16 is the postcode district for EPPING, located in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CM16 is £707,166, which is 65% above the Essex average of £429,754.",
+    "priceVsNational": "Properties in CM16 cost 146.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CM16 have fallen 15.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 26.1 recorded crimes per 1,000 residents, CM16 has a crime rate well 68% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CM16 has 10 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CM16 are 327.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CM16 (EPPING) offers above-average property prices (£707,166, 146% above national average), low crime (68% below national average), 10 nearby schools, and excellent broadband (327 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 327
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 327
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

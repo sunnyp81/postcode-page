@@ -1,0 +1,192 @@
+{
+  "code": "BS27",
+  "name": "CHEDDAR",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS26",
+    "BS28",
+    "BS29"
+  ],
+  "property": {
+    "avgPrice": 395658,
+    "medianPrice": 360000,
+    "priceChange1y": 7.8,
+    "priceChange5y": 0,
+    "transactions12m": 468,
+    "byType": {
+      "detached": {
+        "avg": 501815,
+        "count": 198
+      },
+      "semi": {
+        "avg": 328596,
+        "count": 139
+      },
+      "terraced": {
+        "avg": 254573,
+        "count": 65
+      },
+      "flat": {
+        "avg": 155659,
+        "count": 33
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 417552
+      },
+      {
+        "year": 2024,
+        "avg": 372007
+      },
+      {
+        "year": 2025,
+        "avg": 400966
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 11.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -86.2,
+    "byType": {
+      "violentCrime": 4.3,
+      "burglary": 0.4,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 3,
+      "otherTheft": 0.8,
+      "other": 2.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Kings of Wessex Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cheddar First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Draycott & Rodney Stoke Church of England First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fairlands Middle School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 322,
+    "avgUpload": 58,
+    "superfastPct": 96,
+    "ultrafastPct": 78,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS27 encompasses CHEDDAR and its surrounding areas in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS27 is £395,658, which is 12% below the Bristol average of £449,132.",
+    "priceVsNational": "Properties in BS27 cost 37.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BS27 have risen 7.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 11.2 recorded crimes per 1,000 residents, BS27 has a crime rate well 86% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BS27 has 4 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS27 are 322.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS27 (CHEDDAR) offers above-average property prices (£395,658, 38% above national average), low crime (86% below national average), 4 nearby schools, and excellent broadband (322 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 322
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 322
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

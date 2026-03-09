@@ -1,0 +1,196 @@
+{
+  "code": "HD9",
+  "name": "HOLMFIRTH",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "huddersfield",
+  "adjacent": [
+    "HD8"
+  ],
+  "property": {
+    "avgPrice": 319895,
+    "medianPrice": 262000,
+    "priceChange1y": 6.3,
+    "priceChange5y": 0,
+    "transactions12m": 1875,
+    "byType": {
+      "detached": {
+        "avg": 460297,
+        "count": 565
+      },
+      "semi": {
+        "avg": 278878,
+        "count": 465
+      },
+      "terraced": {
+        "avg": 212345,
+        "count": 668
+      },
+      "flat": {
+        "avg": 160283,
+        "count": 99
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 303528
+      },
+      {
+        "year": 2024,
+        "avg": 318795
+      },
+      {
+        "year": 2025,
+        "avg": 338799
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 12.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -84.7,
+    "byType": {
+      "violentCrime": 6.1,
+      "burglary": 0.5,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 1.1,
+      "otherTheft": 1.5,
+      "other": 2.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 4,
+    "good": 4,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Holmfirth Junior Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hade Edge Junior, Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Hepworth Junior and Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hinchliffe Mill Junior and Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holme Junior and Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 447847,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 15,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 278,
+    "avgUpload": 50,
+    "superfastPct": 90,
+    "ultrafastPct": 66,
+    "gigabitPct": 66,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Kirklees",
+    "bandD": 2102,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.2,
+    "imdRank": 19120,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HD9 encompasses HOLMFIRTH and its surrounding areas in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HD9 is £319,895, which is 15% above the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in HD9 cost 11.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HD9 have risen 6.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 12.4 recorded crimes per 1,000 residents, HD9 has a crime rate well 85% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HD9 has 17 schools within or near its boundaries, including 4 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HD9 are 278.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HD9 (HOLMFIRTH) offers property prices near the national average (£319,895), low crime (85% below national average), strong school provision (4 Outstanding-rated schools), and excellent broadband (278 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 278
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 278
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "SK8",
+  "name": "CHEADLE",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "stockport",
+  "adjacent": [
+    "SK7",
+    "SK9",
+    "SK10"
+  ],
+  "property": {
+    "avgPrice": 399424,
+    "medianPrice": 357000,
+    "priceChange1y": -4.5,
+    "priceChange5y": 0,
+    "transactions12m": 2654,
+    "byType": {
+      "detached": {
+        "avg": 519050,
+        "count": 692
+      },
+      "semi": {
+        "avg": 376216,
+        "count": 1142
+      },
+      "terraced": {
+        "avg": 303323,
+        "count": 416
+      },
+      "flat": {
+        "avg": 185129,
+        "count": 311
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 405206
+      },
+      {
+        "year": 2024,
+        "avg": 405572
+      },
+      {
+        "year": 2025,
+        "avg": 387139
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 33,
+    "outstanding": 3,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Cheadle Village Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Etchells Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hursthead Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ladybridge Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Prospect Vale Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 303929,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 13,
+    "privateRent": 13,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 375,
+    "avgUpload": 68,
+    "superfastPct": 98,
+    "ultrafastPct": 93,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stockport",
+    "bandD": 2235,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.8,
+    "imdRank": 15400,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SK8 is the postcode district for CHEADLE, located in Cheshire, North West.",
+    "priceVsCounty": "The average property price in SK8 is £399,424, which is 28% above the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in SK8 cost 39.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SK8 have fallen 4.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SK8 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SK8 has 33 schools within or near its boundaries, including 3 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SK8 are 375.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SK8 (CHEADLE) offers above-average property prices (£399,424, 39% above national average), low crime (94% below national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (375 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 375
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 375
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

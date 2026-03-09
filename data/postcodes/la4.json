@@ -1,0 +1,198 @@
+{
+  "code": "LA4",
+  "name": "MORECAMBE",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "lancaster",
+  "adjacent": [
+    "LA3",
+    "LA5",
+    "LA6"
+  ],
+  "property": {
+    "avgPrice": 198318,
+    "medianPrice": 172500,
+    "priceChange1y": 17.8,
+    "priceChange5y": 0,
+    "transactions12m": 1329,
+    "byType": {
+      "detached": {
+        "avg": 315710,
+        "count": 103
+      },
+      "semi": {
+        "avg": 207049,
+        "count": 611
+      },
+      "terraced": {
+        "avg": 146470,
+        "count": 289
+      },
+      "flat": {
+        "avg": 123011,
+        "count": 248
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 204951
+      },
+      {
+        "year": 2024,
+        "avg": 179595
+      },
+      {
+        "year": 2025,
+        "avg": 211507
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 98.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 21.5,
+    "byType": {
+      "violentCrime": 31.8,
+      "burglary": 3.3,
+      "vehicleCrime": 2.6,
+      "antisocialBehaviour": 29.8,
+      "otherTheft": 10.6,
+      "other": 20.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Morecambe Bay Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lancaster Road Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Morecambe and Heysham Torrisholme Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Great Wood Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Morecambe and Heysham Westgate Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 145006,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 10,
+    "privateRent": 19,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 362,
+    "avgUpload": 65,
+    "superfastPct": 100,
+    "ultrafastPct": 92,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lancaster",
+    "bandD": 2205,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 24.2,
+    "imdRank": 17708,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LA4 is the postcode district for MORECAMBE, located in Lancashire, North West.",
+    "priceVsCounty": "The average property price in LA4 is £198,318, which is 22% below the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in LA4 cost 30.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LA4 have risen 17.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 98.8 recorded crimes per 1,000 residents, LA4 has a crime rate significantly 22% above the national average of 81.3 per 1,000.",
+    "schoolContext": "LA4 has 8 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LA4 are 362.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LA4 (MORECAMBE) offers affordable property prices (£198,318, 31% below national average), higher-than-average crime (22% above national average), 8 nearby schools, and excellent broadband (362 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 362
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 362
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

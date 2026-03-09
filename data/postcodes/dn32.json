@@ -1,0 +1,198 @@
+{
+  "code": "DN32",
+  "name": "GRIMSBY",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "doncaster",
+  "adjacent": [
+    "DN31",
+    "DN33",
+    "DN34"
+  ],
+  "property": {
+    "avgPrice": 129626,
+    "medianPrice": 80000,
+    "priceChange1y": -2.3,
+    "priceChange5y": 0,
+    "transactions12m": 1529,
+    "byType": {
+      "detached": {
+        "avg": 293816,
+        "count": 77
+      },
+      "semi": {
+        "avg": 178331,
+        "count": 251
+      },
+      "terraced": {
+        "avg": 78060,
+        "count": 1055
+      },
+      "flat": {
+        "avg": 69735,
+        "count": 75
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 165419
+      },
+      {
+        "year": 2024,
+        "avg": 112567
+      },
+      {
+        "year": 2025,
+        "avg": 109974
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 263.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 224.1,
+    "byType": {
+      "violentCrime": 88.6,
+      "burglary": 10.9,
+      "vehicleCrime": 8.6,
+      "antisocialBehaviour": 23.1,
+      "otherTheft": 64.2,
+      "other": 68.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Linkage College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Special Educational Needs Support Service (Senss)",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oasis Academy Wintringham",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Havelock Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lisle Marsden Church of England Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 159911,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 13,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 375,
+    "avgUpload": 68,
+    "superfastPct": 97,
+    "ultrafastPct": 93,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Doncaster Council",
+    "bandD": 2168,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 31.3,
+    "imdRank": 20177,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DN32 is the postcode district for GRIMSBY, located in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in DN32 is £129,626, which is 44% below the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in DN32 cost 54.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DN32 have fallen 2.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 263.5 recorded crimes per 1,000 residents, DN32 has a crime rate significantly 224% above the national average of 81.3 per 1,000.",
+    "schoolContext": "DN32 has 13 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DN32 are 375.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DN32 (GRIMSBY) offers affordable property prices (£129,626, 55% below national average), higher-than-average crime (224% above national average), 13 nearby schools, and excellent broadband (375 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 375
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 375
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "code": "EX19",
+  "name": "WINKLEIGH",
+  "county": "devon",
+  "region": "south-west",
+  "city": "exeter",
+  "adjacent": [
+    "EX18",
+    "EX20",
+    "EX21"
+  ],
+  "property": {
+    "avgPrice": 407505,
+    "medianPrice": 325000,
+    "priceChange1y": -26.4,
+    "priceChange5y": 0,
+    "transactions12m": 220,
+    "byType": {
+      "detached": {
+        "avg": 413947,
+        "count": 120
+      },
+      "semi": {
+        "avg": 295428,
+        "count": 35
+      },
+      "terraced": {
+        "avg": 254806,
+        "count": 31
+      },
+      "flat": {
+        "avg": 179367,
+        "count": 3
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 378513
+      },
+      {
+        "year": 2024,
+        "avg": 478314
+      },
+      {
+        "year": 2025,
+        "avg": 352093
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 67.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -17.5,
+    "byType": {
+      "violentCrime": 18.1,
+      "burglary": 4.4,
+      "vehicleCrime": 6.7,
+      "antisocialBehaviour": 14.8,
+      "otherTheft": 10.7,
+      "other": 12.4
+    },
+    "source": "synthetic-estimate",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Winkleigh Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Acorn School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dolton Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Beaford Community Primary & Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 69841,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 24,
+    "socialRent": 9,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 47,
+    "avgUpload": 8,
+    "superfastPct": 50,
+    "ultrafastPct": 4,
+    "gigabitPct": 4,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Torridge",
+    "bandD": 2255,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.3,
+    "imdRank": 20086,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EX19 encompasses WINKLEIGH and its surrounding areas in Devon, South West.",
+    "priceVsCounty": "The average property price in EX19 is £407,505, which is 6% above the Devon average of £385,452.",
+    "priceVsNational": "Properties in EX19 cost 42.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EX19 have fallen 26.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 67.1 recorded crimes per 1,000 residents, EX19 has a crime rate 17% below the national average of 81.3 per 1,000.",
+    "schoolContext": "EX19 has 4 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EX19 are 47.0 Mbps, with 77% of premises having access to superfast broadband and 28% with full fibre (FTTP) connectivity.",
+    "synthesis": "EX19 (WINKLEIGH) offers above-average property prices (£407,505, 42% above national average), low crime (17% below national average), and 4 nearby schools."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 47
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 47
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

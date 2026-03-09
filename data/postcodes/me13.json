@@ -1,0 +1,198 @@
+{
+  "code": "ME13",
+  "name": "FAVERSHAM",
+  "county": "kent",
+  "region": "south-east",
+  "city": "medway",
+  "adjacent": [
+    "ME12",
+    "ME14",
+    "ME15"
+  ],
+  "property": {
+    "avgPrice": 386654,
+    "medianPrice": 340000,
+    "priceChange1y": -2.4,
+    "priceChange5y": 0,
+    "transactions12m": 1295,
+    "byType": {
+      "detached": {
+        "avg": 565733,
+        "count": 295
+      },
+      "semi": {
+        "avg": 366622,
+        "count": 361
+      },
+      "terraced": {
+        "avg": 327517,
+        "count": 446
+      },
+      "flat": {
+        "avg": 210983,
+        "count": 136
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 391726
+      },
+      {
+        "year": 2024,
+        "avg": 389126
+      },
+      {
+        "year": 2025,
+        "avg": 379924
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 35.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -56,
+    "byType": {
+      "violentCrime": 11.3,
+      "burglary": 1.1,
+      "vehicleCrime": 1.8,
+      "antisocialBehaviour": 7,
+      "otherTheft": 7.8,
+      "other": 6.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Eastling Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ethelbert Road Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Davington Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ospringe Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hernhill Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 158379,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 255,
+    "avgUpload": 46,
+    "superfastPct": 84,
+    "ultrafastPct": 60,
+    "gigabitPct": 60,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swale",
+    "bandD": 2094,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.1,
+    "imdRank": 19995,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ME13 covers FAVERSHAM in Kent, South East.",
+    "priceVsCounty": "The average property price in ME13 is £386,654, which is 14% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in ME13 cost 34.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ME13 have fallen 2.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 35.8 recorded crimes per 1,000 residents, ME13 has a crime rate well 56% below the national average of 81.3 per 1,000.",
+    "schoolContext": "ME13 has 15 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ME13 are 255.0 Mbps, with 99% of premises having access to superfast broadband and 85% with full fibre (FTTP) connectivity.",
+    "synthesis": "ME13 (FAVERSHAM) offers above-average property prices (£386,654, 35% above national average), low crime (56% below national average), 15 nearby schools, and excellent broadband (255 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 255
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 255
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

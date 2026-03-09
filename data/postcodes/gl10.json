@@ -1,0 +1,198 @@
+{
+  "code": "GL10",
+  "name": "STONEHOUSE",
+  "county": "gloucestershire",
+  "region": "south-west",
+  "city": "gloucester",
+  "adjacent": [
+    "GL9",
+    "GL11",
+    "GL12"
+  ],
+  "property": {
+    "avgPrice": 400729,
+    "medianPrice": 330000,
+    "priceChange1y": -15.3,
+    "priceChange5y": 0,
+    "transactions12m": 870,
+    "byType": {
+      "detached": {
+        "avg": 481113,
+        "count": 298
+      },
+      "semi": {
+        "avg": 320575,
+        "count": 275
+      },
+      "terraced": {
+        "avg": 281499,
+        "count": 196
+      },
+      "flat": {
+        "avg": 199930,
+        "count": 53
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 401239
+      },
+      {
+        "year": 2024,
+        "avg": 428294
+      },
+      {
+        "year": 2025,
+        "avg": 362561
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 19.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -76.4,
+    "byType": {
+      "violentCrime": 8.8,
+      "burglary": 0.6,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 3.6,
+      "otherTheft": 2.5,
+      "other": 3.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Eastington Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Park Junior School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Stonehouse Park Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Haresfield Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Leonard Stanley Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 125680,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 12,
+    "privateRent": 12,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 265,
+    "avgUpload": 48,
+    "superfastPct": 98,
+    "ultrafastPct": 61,
+    "gigabitPct": 61,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stroud",
+    "bandD": 2155,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10.8,
+    "imdRank": 8821,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GL10 is the postcode district for STONEHOUSE, located in Gloucestershire, South West.",
+    "priceVsCounty": "The average property price in GL10 is £400,729, which is 9% below the Gloucestershire average of £441,384.",
+    "priceVsNational": "Properties in GL10 cost 39.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GL10 have fallen 15.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 19.2 recorded crimes per 1,000 residents, GL10 has a crime rate well 76% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GL10 has 13 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GL10 are 265.0 Mbps, with 99% of premises having access to superfast broadband and 88% with full fibre (FTTP) connectivity.",
+    "synthesis": "GL10 (STONEHOUSE) offers above-average property prices (£400,729, 40% above national average), low crime (76% below national average), 13 nearby schools, and excellent broadband (265 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 441384,
+      "crime": 75,
+      "broadband": 265
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 265
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "code": "PE36",
+  "name": "HUNSTANTON",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "peterborough",
+  "adjacent": [
+    "PE37",
+    "PE38"
+  ],
+  "property": {
+    "avgPrice": 421396,
+    "medianPrice": 320000,
+    "priceChange1y": -9.3,
+    "priceChange5y": 0,
+    "transactions12m": 495,
+    "byType": {
+      "detached": {
+        "avg": 540923,
+        "count": 205
+      },
+      "semi": {
+        "avg": 327670,
+        "count": 88
+      },
+      "terraced": {
+        "avg": 307587,
+        "count": 62
+      },
+      "flat": {
+        "avg": 192851,
+        "count": 107
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 436003
+      },
+      {
+        "year": 2024,
+        "avg": 428413
+      },
+      {
+        "year": 2025,
+        "avg": 388618
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93,
+    "byType": {
+      "violentCrime": 2.7,
+      "burglary": 0.2,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.8,
+      "otherTheft": 0.5,
+      "other": 1.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hunstanton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Glebe House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Smithdon High School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 156206,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 14,
+    "privateRent": 16,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 281,
+    "avgUpload": 51,
+    "superfastPct": 96,
+    "ultrafastPct": 66,
+    "gigabitPct": 66,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Peterborough Council",
+    "bandD": 2372,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.7,
+    "imdRank": 19493,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PE36 encompasses HUNSTANTON and its surrounding areas in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in PE36 is £421,396, which is 10% above the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in PE36 cost 46.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PE36 have fallen 9.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.7 recorded crimes per 1,000 residents, PE36 has a crime rate well 93% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PE36 has 3 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PE36 are 281.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PE36 (HUNSTANTON) offers above-average property prices (£421,396, 47% above national average), low crime (93% below national average), 3 nearby schools, and excellent broadband (281 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 281
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 281
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

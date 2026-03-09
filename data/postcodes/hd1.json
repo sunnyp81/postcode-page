@@ -1,0 +1,197 @@
+{
+  "code": "HD1",
+  "name": "HUDDERSFIELD",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "huddersfield",
+  "adjacent": [
+    "HD2",
+    "HD3"
+  ],
+  "property": {
+    "avgPrice": 224160,
+    "medianPrice": 134000,
+    "priceChange1y": -10.1,
+    "priceChange5y": 0,
+    "transactions12m": 665,
+    "byType": {
+      "detached": {
+        "avg": 384794,
+        "count": 36
+      },
+      "semi": {
+        "avg": 227496,
+        "count": 96
+      },
+      "terraced": {
+        "avg": 126816,
+        "count": 355
+      },
+      "flat": {
+        "avg": 117412,
+        "count": 85
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 307993
+      },
+      {
+        "year": 2024,
+        "avg": 184840
+      },
+      {
+        "year": 2025,
+        "avg": 166135
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 189.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 132.8,
+    "byType": {
+      "violentCrime": 77.6,
+      "burglary": 6,
+      "vehicleCrime": 6.1,
+      "antisocialBehaviour": 12.3,
+      "otherTheft": 32.6,
+      "other": 54.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Birkby Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Paddock Junior Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Birkby Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Huddersfield Grammar School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kirklees College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 447847,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 15,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 322,
+    "avgUpload": 58,
+    "superfastPct": 95,
+    "ultrafastPct": 78,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Kirklees",
+    "bandD": 2102,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.2,
+    "imdRank": 19120,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HD1 covers HUDDERSFIELD in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HD1 is £224,160, which is 19% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in HD1 cost 21.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HD1 have fallen 10.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 189.3 recorded crimes per 1,000 residents, HD1 has a crime rate significantly 133% above the national average of 81.3 per 1,000.",
+    "schoolContext": "HD1 has 11 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HD1 are 322.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HD1 (HUDDERSFIELD) offers affordable property prices (£224,160, 22% below national average), higher-than-average crime (133% above national average), 11 nearby schools, and excellent broadband (322 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 322
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 322
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

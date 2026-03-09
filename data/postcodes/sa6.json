@@ -1,0 +1,197 @@
+{
+  "code": "SA6",
+  "name": "SWANSEA",
+  "county": "west-wales",
+  "region": "wales",
+  "city": "swansea",
+  "adjacent": [
+    "SA5",
+    "SA7",
+    "SA8"
+  ],
+  "property": {
+    "avgPrice": 202201,
+    "medianPrice": 160000,
+    "priceChange1y": -8.3,
+    "priceChange5y": 0,
+    "transactions12m": 1301,
+    "byType": {
+      "detached": {
+        "avg": 283511,
+        "count": 281
+      },
+      "semi": {
+        "avg": 174563,
+        "count": 503
+      },
+      "terraced": {
+        "avg": 131258,
+        "count": 437
+      },
+      "flat": {
+        "avg": 107938,
+        "count": 20
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 195825
+      },
+      {
+        "year": 2024,
+        "avg": 214122
+      },
+      {
+        "year": 2025,
+        "avg": 196270
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 40.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -50.7,
+    "byType": {
+      "violentCrime": 16.8,
+      "burglary": 0.9,
+      "vehicleCrime": 1.4,
+      "antisocialBehaviour": 4.7,
+      "otherTheft": 4.3,
+      "other": 12
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Cwmrhydyceirw Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Morriston Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Plasmarl Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ynystawe Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Clase Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 251304,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 317,
+    "avgUpload": 57,
+    "superfastPct": 95,
+    "ultrafastPct": 78,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swansea Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "SA6 is the postcode district for SWANSEA, located in West Wales, Wales.",
+    "priceVsCounty": "The average property price in SA6 is £202,201, which is 23% below the West Wales average of £261,315.",
+    "priceVsNational": "Properties in SA6 cost 29.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SA6 have fallen 8.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 40.1 recorded crimes per 1,000 residents, SA6 has a crime rate well 51% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SA6 has 17 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SA6 are 317.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SA6 (SWANSEA) offers affordable property prices (£202,201, 30% below national average), low crime (51% below national average), 17 nearby schools, and excellent broadband (317 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 261315,
+      "crime": 75,
+      "broadband": 317
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 317
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

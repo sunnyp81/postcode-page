@@ -1,0 +1,197 @@
+{
+  "code": "RG41",
+  "name": "WOKINGHAM",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [
+    "RG40",
+    "RG42"
+  ],
+  "property": {
+    "avgPrice": 552647,
+    "medianPrice": 510000,
+    "priceChange1y": 5.9,
+    "priceChange5y": 0,
+    "transactions12m": 1302,
+    "byType": {
+      "detached": {
+        "avg": 690697,
+        "count": 520
+      },
+      "semi": {
+        "avg": 501914,
+        "count": 316
+      },
+      "terraced": {
+        "avg": 407161,
+        "count": 250
+      },
+      "flat": {
+        "avg": 287897,
+        "count": 172
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 560176
+      },
+      {
+        "year": 2024,
+        "avg": 534210
+      },
+      {
+        "year": 2025,
+        "avg": 565657
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 18.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -77.6,
+    "byType": {
+      "violentCrime": 6.9,
+      "burglary": 0.7,
+      "vehicleCrime": 1.5,
+      "antisocialBehaviour": 2.1,
+      "otherTheft": 3.7,
+      "other": 3.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bearwood Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Walter Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Winnersh Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Paul's CofE Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Reddam House Berkshire",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 187200,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 40,
+    "socialRent": 8,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 320,
+    "avgUpload": 58,
+    "superfastPct": 97,
+    "ultrafastPct": 80,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Reading Council",
+    "bandD": 1606,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 5.8,
+    "imdRank": 3651,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG41 encompasses WOKINGHAM and its surrounding areas in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG41 is £552,647, which is 6% below the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG41 cost 92.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG41 have risen 5.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 18.2 recorded crimes per 1,000 residents, RG41 has a crime rate well 78% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RG41 has 16 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG41 are 320.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG41 (WOKINGHAM) offers above-average property prices (£552,647, 93% above national average), low crime (78% below national average), 16 nearby schools, and excellent broadband (320 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 320
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 320
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

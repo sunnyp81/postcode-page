@@ -1,0 +1,198 @@
+{
+  "code": "CV11",
+  "name": "NUNEATON",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "coventry",
+  "adjacent": [
+    "CV10",
+    "CV12",
+    "CV13"
+  ],
+  "property": {
+    "avgPrice": 282244,
+    "medianPrice": 266450,
+    "priceChange1y": -0.3,
+    "priceChange5y": 0,
+    "transactions12m": 2270,
+    "byType": {
+      "detached": {
+        "avg": 374179,
+        "count": 861
+      },
+      "semi": {
+        "avg": 249461,
+        "count": 668
+      },
+      "terraced": {
+        "avg": 183534,
+        "count": 501
+      },
+      "flat": {
+        "avg": 121090,
+        "count": 151
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 280609
+      },
+      {
+        "year": 2024,
+        "avg": 283453
+      },
+      {
+        "year": 2025,
+        "avg": 282518
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 102.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 26.1,
+    "byType": {
+      "violentCrime": 34.6,
+      "burglary": 4.2,
+      "vehicleCrime": 4.3,
+      "antisocialBehaviour": 22.2,
+      "otherTheft": 19.2,
+      "other": 18
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Chilvers Coton Community Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Whitestone Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Chetwynd Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Abbey CofE Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "North Warwickshire and South Leicestershire College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 141565,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 15,
+    "privateRent": 15,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 344,
+    "avgUpload": 62,
+    "superfastPct": 97,
+    "ultrafastPct": 84,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Coventry Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.5,
+    "imdRank": 18479,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CV11 encompasses NUNEATON and its surrounding areas in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in CV11 is £282,244, which is 16% below the West Midlands average of £334,385.",
+    "priceVsNational": "Property values in CV11 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in CV11 have fallen 0.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 102.5 recorded crimes per 1,000 residents, CV11 has a crime rate significantly 26% above the national average of 81.3 per 1,000.",
+    "schoolContext": "CV11 has 19 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CV11 are 344.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CV11 (NUNEATON) offers property prices near the national average (£282,244), higher-than-average crime (26% above national average), 19 nearby schools, and excellent broadband (344 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 344
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 344
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

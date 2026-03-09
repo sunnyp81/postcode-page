@@ -1,0 +1,196 @@
+{
+  "code": "DE56",
+  "name": "BELPER",
+  "county": "derbyshire",
+  "region": "east-midlands",
+  "city": "derby",
+  "adjacent": [
+    "DE55"
+  ],
+  "property": {
+    "avgPrice": 311649,
+    "medianPrice": 257150,
+    "priceChange1y": -4.8,
+    "priceChange5y": 0,
+    "transactions12m": 1955,
+    "byType": {
+      "detached": {
+        "avg": 430588,
+        "count": 682
+      },
+      "semi": {
+        "avg": 261154,
+        "count": 562
+      },
+      "terraced": {
+        "avg": 213813,
+        "count": 528
+      },
+      "flat": {
+        "avg": 164620,
+        "count": 100
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 306340
+      },
+      {
+        "year": 2024,
+        "avg": 321368
+      },
+      {
+        "year": 2025,
+        "avg": 305787
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 27.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -66.1,
+    "byType": {
+      "violentCrime": 10.8,
+      "burglary": 0.6,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 4.7,
+      "otherTheft": 4.9,
+      "other": 5.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Kilburn Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Duffield the Meadows Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Long Row Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ambergate Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pottery Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 130451,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 13,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 266,
+    "avgUpload": 48,
+    "superfastPct": 95,
+    "ultrafastPct": 64,
+    "gigabitPct": 61,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Amber Valley",
+    "bandD": 2086,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 14755,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DE56 is the postcode district for BELPER, located in Derbyshire, East Midlands.",
+    "priceVsCounty": "The average property price in DE56 is £311,649, which is 8% above the Derbyshire average of £289,862.",
+    "priceVsNational": "Properties in DE56 cost 8.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DE56 have fallen 4.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 27.6 recorded crimes per 1,000 residents, DE56 has a crime rate well 66% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DE56 has 19 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DE56 are 266.0 Mbps, with 99% of premises having access to superfast broadband and 88% with full fibre (FTTP) connectivity.",
+    "synthesis": "DE56 (BELPER) offers property prices near the national average (£311,649), low crime (66% below national average), 19 nearby schools, and excellent broadband (266 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 289862,
+      "crime": 75,
+      "broadband": 266
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 266
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

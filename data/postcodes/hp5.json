@@ -1,0 +1,198 @@
+{
+  "code": "HP5",
+  "name": "CHESHAM",
+  "county": "hertfordshire",
+  "region": "south-east",
+  "city": "hemel-hempstead",
+  "adjacent": [
+    "HP4",
+    "HP6",
+    "HP7"
+  ],
+  "property": {
+    "avgPrice": 518779,
+    "medianPrice": 438000,
+    "priceChange1y": -6,
+    "priceChange5y": 0,
+    "transactions12m": 1019,
+    "byType": {
+      "detached": {
+        "avg": 826095,
+        "count": 201
+      },
+      "semi": {
+        "avg": 520938,
+        "count": 265
+      },
+      "terraced": {
+        "avg": 419733,
+        "count": 299
+      },
+      "flat": {
+        "avg": 240374,
+        "count": 188
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 516220
+      },
+      {
+        "year": 2024,
+        "avg": 534596
+      },
+      {
+        "year": 2025,
+        "avg": 502478
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 39,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -52,
+    "byType": {
+      "violentCrime": 15.3,
+      "burglary": 1.7,
+      "vehicleCrime": 1.4,
+      "antisocialBehaviour": 5.6,
+      "otherTheft": 7.1,
+      "other": 7.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 1,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Newtown School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ley Hill School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chartridge Combined School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hawridge and Cholesbury Church of England School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brushwood Junior School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 161420,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 21,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 312,
+    "avgUpload": 56,
+    "superfastPct": 95,
+    "ultrafastPct": 75,
+    "gigabitPct": 75,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Dacorum",
+    "bandD": 2087,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13,
+    "imdRank": 10835,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HP5 is the postcode district for CHESHAM, located in Hertfordshire, South East.",
+    "priceVsCounty": "The average property price in HP5 is £518,779, which is 9% below the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in HP5 cost 80.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HP5 have fallen 6.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 39.0 recorded crimes per 1,000 residents, HP5 has a crime rate well 52% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HP5 has 13 schools within or near its boundaries, including 1 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HP5 are 312.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HP5 (CHESHAM) offers above-average property prices (£518,779, 81% above national average), low crime (52% below national average), 13 nearby schools, and excellent broadband (312 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 312
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 312
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

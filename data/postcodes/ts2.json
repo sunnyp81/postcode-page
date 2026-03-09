@@ -1,0 +1,188 @@
+{
+  "code": "TS2",
+  "name": "MIDDLESBROUGH",
+  "county": "teesside",
+  "region": "north-east",
+  "city": "middlesbrough",
+  "adjacent": [
+    "TS1",
+    "TS3",
+    "TS4"
+  ],
+  "property": {
+    "avgPrice": 260586,
+    "medianPrice": 75500,
+    "priceChange1y": 413.6,
+    "priceChange5y": 0,
+    "transactions12m": 40,
+    "byType": {
+      "detached": {
+        "avg": 120000,
+        "count": 1
+      },
+      "semi": {
+        "avg": 86375,
+        "count": 4
+      },
+      "terraced": {
+        "avg": 52472,
+        "count": 18
+      },
+      "flat": {
+        "avg": 35681,
+        "count": 0
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 252713
+      },
+      {
+        "year": 2024,
+        "avg": 110660
+      },
+      {
+        "year": 2025,
+        "avg": 568310
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 136.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 68,
+    "byType": {
+      "violentCrime": 45.6,
+      "burglary": 3,
+      "vehicleCrime": 5.6,
+      "antisocialBehaviour": 23.2,
+      "otherTheft": 21.9,
+      "other": 37.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Middlesbrough College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hopefields Education CiC",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "High Clarence Academy",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 206800,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 16,
+    "privateRent": 15,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 196,
+    "avgUpload": 35,
+    "superfastPct": 66,
+    "ultrafastPct": 45,
+    "gigabitPct": 45,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Middlesbrough Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.8,
+    "imdRank": 17541,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TS2 is the postcode district for MIDDLESBROUGH, located in Teesside, North East.",
+    "priceVsCounty": "The average property price in TS2 is £260,586, which is 37% above the Teesside average of £189,841.",
+    "priceVsNational": "Properties in TS2 cost 9.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TS2 have risen 413.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 136.6 recorded crimes per 1,000 residents, TS2 has a crime rate significantly 68% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TS2 has 3 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TS2 are 196.0 Mbps, with 99% of premises having access to superfast broadband and 69% with full fibre (FTTP) connectivity.",
+    "synthesis": "TS2 (MIDDLESBROUGH) offers property prices near the national average (£260,586), higher-than-average crime (68% above national average), 3 nearby schools, and excellent broadband (196 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 189841,
+      "crime": 75,
+      "broadband": 196
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 196
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "CA26",
+  "name": "FRIZINGTON",
+  "county": "cumbria",
+  "region": "north-west",
+  "city": "carlisle",
+  "adjacent": [
+    "CA25",
+    "CA27",
+    "CA28"
+  ],
+  "property": {
+    "avgPrice": 169850,
+    "medianPrice": 119500,
+    "priceChange1y": -20.7,
+    "priceChange5y": 0,
+    "transactions12m": 223,
+    "byType": {
+      "detached": {
+        "avg": 313750,
+        "count": 59
+      },
+      "semi": {
+        "avg": 151454,
+        "count": 47
+      },
+      "terraced": {
+        "avg": 90379,
+        "count": 107
+      },
+      "flat": {
+        "avg": 61458,
+        "count": 0
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 165046
+      },
+      {
+        "year": 2024,
+        "avg": 189708
+      },
+      {
+        "year": 2025,
+        "avg": 150349
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 6.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -92.3,
+    "byType": {
+      "violentCrime": 2.8,
+      "burglary": 0.3,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.5,
+      "otherTheft": 0.5,
+      "other": 2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Frizington Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Frizington Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Joseph's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Arlecdon Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kirkland Church of England Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 83,
+    "avgUpload": 15,
+    "superfastPct": 94,
+    "ultrafastPct": 9,
+    "gigabitPct": 9,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cumberland",
+    "bandD": 2175,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CA26 encompasses FRIZINGTON and its surrounding areas in Cumbria, North West.",
+    "priceVsCounty": "The average property price in CA26 is £169,850, which is 31% below the Cumbria average of £244,524.",
+    "priceVsNational": "Properties in CA26 cost 40.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CA26 have fallen 20.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 6.3 recorded crimes per 1,000 residents, CA26 has a crime rate well 92% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CA26 has 5 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CA26 are 83.0 Mbps, with 82% of premises having access to superfast broadband and 38% with full fibre (FTTP) connectivity.",
+    "synthesis": "CA26 (FRIZINGTON) offers affordable property prices (£169,850, 41% below national average), low crime (92% below national average), 5 nearby schools, and good broadband connectivity (83 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 244524,
+      "crime": 75,
+      "broadband": 83
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 83
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

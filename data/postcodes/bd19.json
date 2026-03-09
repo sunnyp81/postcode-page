@@ -1,0 +1,198 @@
+{
+  "code": "BD19",
+  "name": "CLECKHEATON",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "bradford",
+  "adjacent": [
+    "BD18",
+    "BD20",
+    "BD21"
+  ],
+  "property": {
+    "avgPrice": 253812,
+    "medianPrice": 205500,
+    "priceChange1y": 1.1,
+    "priceChange5y": 0,
+    "transactions12m": 1216,
+    "byType": {
+      "detached": {
+        "avg": 361596,
+        "count": 275
+      },
+      "semi": {
+        "avg": 212033,
+        "count": 400
+      },
+      "terraced": {
+        "avg": 155072,
+        "count": 412
+      },
+      "flat": {
+        "avg": 117930,
+        "count": 76
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 283681
+      },
+      {
+        "year": 2024,
+        "avg": 236181
+      },
+      {
+        "year": 2025,
+        "avg": 238741
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 47.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -41.1,
+    "byType": {
+      "violentCrime": 19.7,
+      "burglary": 2.8,
+      "vehicleCrime": 2.4,
+      "antisocialBehaviour": 5.5,
+      "otherTheft": 6.1,
+      "other": 11.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Gomersal Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Howard Park Community School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Scholes Village Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gomersal St Mary's Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Whitechapel Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 447847,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 15,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 364,
+    "avgUpload": 66,
+    "superfastPct": 97,
+    "ultrafastPct": 90,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Kirklees",
+    "bandD": 2102,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.2,
+    "imdRank": 19120,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BD19 covers CLECKHEATON in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in BD19 is £253,812, which is 9% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in BD19 cost 11.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BD19 have risen 1.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 47.9 recorded crimes per 1,000 residents, BD19 has a crime rate well 41% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BD19 has 8 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BD19 are 364.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BD19 (CLECKHEATON) offers property prices near the national average (£253,812), low crime (41% below national average), 8 nearby schools, and excellent broadband (364 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 364
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 364
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

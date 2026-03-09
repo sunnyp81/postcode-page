@@ -1,0 +1,198 @@
+{
+  "code": "GL6",
+  "name": "STROUD",
+  "county": "gloucestershire",
+  "region": "south-west",
+  "city": "gloucester",
+  "adjacent": [
+    "GL5",
+    "GL7",
+    "GL8"
+  ],
+  "property": {
+    "avgPrice": 565317,
+    "medianPrice": 429250,
+    "priceChange1y": -12,
+    "priceChange5y": 0,
+    "transactions12m": 1106,
+    "byType": {
+      "detached": {
+        "avg": 719731,
+        "count": 508
+      },
+      "semi": {
+        "avg": 402866,
+        "count": 198
+      },
+      "terraced": {
+        "avg": 339820,
+        "count": 209
+      },
+      "flat": {
+        "avg": 237512,
+        "count": 118
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 599134
+      },
+      {
+        "year": 2024,
+        "avg": 578560
+      },
+      {
+        "year": 2025,
+        "avg": 509207
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 14.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -81.9,
+    "byType": {
+      "violentCrime": 4.8,
+      "burglary": 0.7,
+      "vehicleCrime": 1.8,
+      "antisocialBehaviour": 3.2,
+      "otherTheft": 1.4,
+      "other": 2.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Eastcombe Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Chalford Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Sheepscombe Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Croft Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bisley Blue Coat Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 125680,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 12,
+    "privateRent": 12,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 212,
+    "avgUpload": 38,
+    "superfastPct": 95,
+    "ultrafastPct": 46,
+    "gigabitPct": 46,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stroud",
+    "bandD": 2155,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10.8,
+    "imdRank": 8821,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GL6 covers STROUD in Gloucestershire, South West.",
+    "priceVsCounty": "The average property price in GL6 is £565,317, which is 28% above the Gloucestershire average of £441,384.",
+    "priceVsNational": "Properties in GL6 cost 97.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GL6 have fallen 12.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 14.7 recorded crimes per 1,000 residents, GL6 has a crime rate well 82% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GL6 has 18 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GL6 are 212.0 Mbps, with 99% of premises having access to superfast broadband and 73% with full fibre (FTTP) connectivity.",
+    "synthesis": "GL6 (STROUD) offers above-average property prices (£565,317, 97% above national average), low crime (82% below national average), 18 nearby schools, and excellent broadband (212 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 441384,
+      "crime": 75,
+      "broadband": 212
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 212
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

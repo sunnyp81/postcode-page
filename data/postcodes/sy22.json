@@ -1,0 +1,198 @@
+{
+  "code": "SY22",
+  "name": "LLANYMYNECH",
+  "county": "mid-wales",
+  "region": "wales",
+  "city": "shrewsbury",
+  "adjacent": [
+    "SY21",
+    "SY23",
+    "SY24"
+  ],
+  "property": {
+    "avgPrice": 299742,
+    "medianPrice": 267000,
+    "priceChange1y": -14.3,
+    "priceChange5y": 0,
+    "transactions12m": 363,
+    "byType": {
+      "detached": {
+        "avg": 349614,
+        "count": 195
+      },
+      "semi": {
+        "avg": 196529,
+        "count": 71
+      },
+      "terraced": {
+        "avg": 146413,
+        "count": 55
+      },
+      "flat": {
+        "avg": 126900,
+        "count": 5
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 302170
+      },
+      {
+        "year": 2024,
+        "avg": 319663
+      },
+      {
+        "year": 2025,
+        "avg": 274024
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Arddleen C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Carreghofa C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Meifod",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Pontrobert",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Llanfechain C.I.W. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 332455,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 71,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 204,
+    "avgUpload": 37,
+    "superfastPct": 78,
+    "ultrafastPct": 46,
+    "gigabitPct": 46,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Shrewsbury Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.2,
+    "imdRank": 14862,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SY22 encompasses LLANYMYNECH and its surrounding areas in Mid Wales, Wales.",
+    "priceVsCounty": "The average property price in SY22 is £299,742, which is 5% below the Mid Wales average of £315,596.",
+    "priceVsNational": "Property values in SY22 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in SY22 have fallen 14.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SY22 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SY22 has 9 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SY22 are 204.0 Mbps, with 99% of premises having access to superfast broadband and 71% with full fibre (FTTP) connectivity.",
+    "synthesis": "SY22 (LLANYMYNECH) offers property prices near the national average (£299,742), low crime (94% below national average), 9 nearby schools, and excellent broadband (204 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 315596,
+      "crime": 75,
+      "broadband": 204
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 204
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

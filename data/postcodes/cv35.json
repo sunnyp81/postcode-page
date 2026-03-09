@@ -1,0 +1,198 @@
+{
+  "code": "CV35",
+  "name": "WARWICK",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "coventry",
+  "adjacent": [
+    "CV34",
+    "CV36",
+    "CV37"
+  ],
+  "property": {
+    "avgPrice": 491232,
+    "medianPrice": 402250,
+    "priceChange1y": -8.9,
+    "priceChange5y": 0,
+    "transactions12m": 1306,
+    "byType": {
+      "detached": {
+        "avg": 615376,
+        "count": 634
+      },
+      "semi": {
+        "avg": 350545,
+        "count": 324
+      },
+      "terraced": {
+        "avg": 303772,
+        "count": 209
+      },
+      "flat": {
+        "avg": 250038,
+        "count": 64
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 526472
+      },
+      {
+        "year": 2024,
+        "avg": 493394
+      },
+      {
+        "year": 2025,
+        "avg": 449546
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Claverdon Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Hampton Lucy CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Loxley CofE Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Barford St Peter's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wolverton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 154889,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 14,
+    "privateRent": 17,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 198,
+    "avgUpload": 36,
+    "superfastPct": 93,
+    "ultrafastPct": 46,
+    "gigabitPct": 41,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Warwick",
+    "bandD": 2144,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12,
+    "imdRank": 9860,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CV35 encompasses WARWICK and its surrounding areas in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in CV35 is £491,232, which is 47% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in CV35 cost 71.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CV35 have fallen 8.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, CV35 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CV35 has 14 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CV35 are 198.0 Mbps, with 99% of premises having access to superfast broadband and 69% with full fibre (FTTP) connectivity.",
+    "synthesis": "CV35 (WARWICK) offers above-average property prices (£491,232, 71% above national average), low crime (94% below national average), 14 nearby schools, and excellent broadband (198 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 198
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 198
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

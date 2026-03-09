@@ -1,0 +1,198 @@
+{
+  "code": "CA3",
+  "name": "CARLISLE",
+  "county": "cumbria",
+  "region": "north-west",
+  "city": "carlisle",
+  "adjacent": [
+    "CA2",
+    "CA4",
+    "CA5"
+  ],
+  "property": {
+    "avgPrice": 226594,
+    "medianPrice": 200000,
+    "priceChange1y": 0.9,
+    "priceChange5y": 0,
+    "transactions12m": 949,
+    "byType": {
+      "detached": {
+        "avg": 290320,
+        "count": 258
+      },
+      "semi": {
+        "avg": 193628,
+        "count": 403
+      },
+      "terraced": {
+        "avg": 170563,
+        "count": 181
+      },
+      "flat": {
+        "avg": 105537,
+        "count": 64
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 214094
+      },
+      {
+        "year": 2024,
+        "avg": 232776
+      },
+      {
+        "year": 2025,
+        "avg": 234945
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 25.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -68.5,
+    "byType": {
+      "violentCrime": 8.7,
+      "burglary": 0.5,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 2.5,
+      "otherTheft": 6.2,
+      "other": 7.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Kingmoor Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kingmoor Nursery and Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Houghton CofE School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Austin Friars",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "University of Cumbria",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 294,
+    "avgUpload": 53,
+    "superfastPct": 97,
+    "ultrafastPct": 71,
+    "gigabitPct": 69,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cumberland",
+    "bandD": 2175,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CA3 covers CARLISLE in Cumbria, North West.",
+    "priceVsCounty": "The average property price in CA3 is £226,594, which is 7% below the Cumbria average of £244,524.",
+    "priceVsNational": "Properties in CA3 cost 21.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CA3 have risen 0.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 25.6 recorded crimes per 1,000 residents, CA3 has a crime rate well 69% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CA3 has 7 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CA3 are 294.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CA3 (CARLISLE) offers affordable property prices (£226,594, 21% below national average), low crime (69% below national average), 7 nearby schools, and excellent broadband (294 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 244524,
+      "crime": 75,
+      "broadband": 294
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 294
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

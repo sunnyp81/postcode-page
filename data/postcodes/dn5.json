@@ -1,0 +1,198 @@
+{
+  "code": "DN5",
+  "name": "DONCASTER",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "doncaster",
+  "adjacent": [
+    "DN4",
+    "DN6",
+    "DN7"
+  ],
+  "property": {
+    "avgPrice": 212176,
+    "medianPrice": 165000,
+    "priceChange1y": -20.3,
+    "priceChange5y": 0,
+    "transactions12m": 1784,
+    "byType": {
+      "detached": {
+        "avg": 332045,
+        "count": 334
+      },
+      "semi": {
+        "avg": 176670,
+        "count": 910
+      },
+      "terraced": {
+        "avg": 117091,
+        "count": 441
+      },
+      "flat": {
+        "avg": 95013,
+        "count": 36
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 187559
+      },
+      {
+        "year": 2024,
+        "avg": 247577
+      },
+      {
+        "year": 2025,
+        "avg": 197235
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 46.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -43.3,
+    "byType": {
+      "violentCrime": 15.1,
+      "burglary": 2.6,
+      "vehicleCrime": 2.8,
+      "antisocialBehaviour": 7.1,
+      "otherTheft": 9.5,
+      "other": 9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Levett School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Arksey Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Toll Bar Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Scawsby Saltersgate Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sprotbrough Orchard Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 319765,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 17,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 328,
+    "avgUpload": 59,
+    "superfastPct": 98,
+    "ultrafastPct": 80,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Doncaster",
+    "bandD": 1926,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 30.3,
+    "imdRank": 21613,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DN5 is the postcode district for DONCASTER, located in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in DN5 is £212,176, which is 8% below the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in DN5 cost 26.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DN5 have fallen 20.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 46.1 recorded crimes per 1,000 residents, DN5 has a crime rate well 43% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DN5 has 20 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DN5 are 328.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DN5 (DONCASTER) offers affordable property prices (£212,176, 26% below national average), low crime (43% below national average), 20 nearby schools, and excellent broadband (328 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 328
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 328
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

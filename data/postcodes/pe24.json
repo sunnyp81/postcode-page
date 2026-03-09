@@ -1,0 +1,193 @@
+{
+  "code": "PE24",
+  "name": "SKEGNESS",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "peterborough",
+  "adjacent": [
+    "PE23",
+    "PE25",
+    "PE26"
+  ],
+  "property": {
+    "avgPrice": 199794,
+    "medianPrice": 185000,
+    "priceChange1y": 9.9,
+    "priceChange5y": 0,
+    "transactions12m": 612,
+    "byType": {
+      "detached": {
+        "avg": 247198,
+        "count": 348
+      },
+      "semi": {
+        "avg": 169787,
+        "count": 107
+      },
+      "terraced": {
+        "avg": 140070,
+        "count": 42
+      },
+      "flat": {
+        "avg": 73636,
+        "count": 14
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 197192
+      },
+      {
+        "year": 2024,
+        "avg": 192384
+      },
+      {
+        "year": 2025,
+        "avg": 211464
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.3,
+      "otherTheft": 0.4,
+      "other": 0.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The St Peter and St Paul C of E Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hogsthorpe Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Wainfleet Magdalen Church of England/Methodist School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chapel St Leonards Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 145183,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 21,
+    "socialRent": 11,
+    "privateRent": 17,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 136,
+    "avgUpload": 24,
+    "superfastPct": 74,
+    "ultrafastPct": 29,
+    "gigabitPct": 26,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Lindsey",
+    "bandD": 2031,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 29.9,
+    "imdRank": 22178,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PE24 encompasses SKEGNESS and its surrounding areas in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in PE24 is £199,794, which is 48% below the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in PE24 cost 30.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PE24 have risen 9.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, PE24 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PE24 has 4 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PE24 are 136.0 Mbps, with 90% of premises having access to superfast broadband and 52% with full fibre (FTTP) connectivity.",
+    "synthesis": "PE24 (SKEGNESS) offers affordable property prices (£199,794, 30% below national average), low crime (94% below national average), 4 nearby schools, and excellent broadband (136 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 136
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 136
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

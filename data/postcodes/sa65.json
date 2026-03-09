@@ -1,0 +1,192 @@
+{
+  "code": "SA65",
+  "name": "FISHGUARD",
+  "county": "west-wales",
+  "region": "wales",
+  "city": "swansea",
+  "adjacent": [
+    "SA64",
+    "SA66",
+    "SA67"
+  ],
+  "property": {
+    "avgPrice": 225182,
+    "medianPrice": 210000,
+    "priceChange1y": 16.5,
+    "priceChange5y": 0,
+    "transactions12m": 197,
+    "byType": {
+      "detached": {
+        "avg": 299985,
+        "count": 68
+      },
+      "semi": {
+        "avg": 192900,
+        "count": 45
+      },
+      "terraced": {
+        "avg": 173658,
+        "count": 56
+      },
+      "flat": {
+        "avg": 106625,
+        "count": 4
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 251529
+      },
+      {
+        "year": 2024,
+        "avg": 192535
+      },
+      {
+        "year": 2025,
+        "avg": 224375
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 7.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -90.9,
+    "byType": {
+      "violentCrime": 3.9,
+      "burglary": 0.3,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.5,
+      "otherTheft": 0.7,
+      "other": 2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ysgol Llanychllwydog",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holy Name V.R.C. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Bro Gwaun",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Glannau Gwaun",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 125761,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 297,
+    "avgUpload": 53,
+    "superfastPct": 85,
+    "ultrafastPct": 72,
+    "gigabitPct": 72,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swansea Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "SA65 covers FISHGUARD in West Wales, Wales.",
+    "priceVsCounty": "The average property price in SA65 is £225,182, which is 14% below the West Wales average of £261,315.",
+    "priceVsNational": "Properties in SA65 cost 21.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SA65 have risen 16.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 7.4 recorded crimes per 1,000 residents, SA65 has a crime rate well 91% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SA65 has 4 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SA65 are 297.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SA65 (FISHGUARD) offers affordable property prices (£225,182, 22% below national average), low crime (91% below national average), 4 nearby schools, and excellent broadband (297 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 261315,
+      "crime": 75,
+      "broadband": 297
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 297
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

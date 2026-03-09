@@ -1,0 +1,198 @@
+{
+  "code": "TW10",
+  "name": "RICHMOND",
+  "county": "greater-london",
+  "region": "london",
+  "city": "twickenham",
+  "adjacent": [
+    "TW9",
+    "TW11",
+    "TW12"
+  ],
+  "property": {
+    "avgPrice": 1178761,
+    "medianPrice": 786500,
+    "priceChange1y": 2.2,
+    "priceChange5y": 0,
+    "transactions12m": 800,
+    "byType": {
+      "detached": {
+        "avg": 2690567,
+        "count": 75
+      },
+      "semi": {
+        "avg": 1845471,
+        "count": 104
+      },
+      "terraced": {
+        "avg": 1094531,
+        "count": 221
+      },
+      "flat": {
+        "avg": 690958,
+        "count": 372
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1377209
+      },
+      {
+        "year": 2024,
+        "avg": 1076205
+      },
+      {
+        "year": 2025,
+        "avg": 1099768
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 40.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -50.1,
+    "byType": {
+      "violentCrime": 9.1,
+      "burglary": 2.3,
+      "vehicleCrime": 3.4,
+      "antisocialBehaviour": 8.9,
+      "otherTheft": 11,
+      "other": 5.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 1,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Meadlands Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Russell Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Vineyard School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Richard's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holy Trinity Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 196678,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 12,
+    "privateRent": 23,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 310,
+    "avgUpload": 56,
+    "superfastPct": 96,
+    "ultrafastPct": 76,
+    "gigabitPct": 74,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Richmond upon Thames",
+    "bandD": 2141,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 9.4,
+    "imdRank": 7159,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TW10 is the postcode district for RICHMOND, located in Greater London, London.",
+    "priceVsCounty": "The average property price in TW10 is £1,178,761, which is 10% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in TW10 cost 310.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TW10 have risen 2.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 40.6 recorded crimes per 1,000 residents, TW10 has a crime rate well 50% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TW10 has 13 schools within or near its boundaries, including 1 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TW10 are 310.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TW10 (RICHMOND) offers above-average property prices (£1,178,761, 311% above national average), low crime (50% below national average), 13 nearby schools, and excellent broadband (310 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 310
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 310
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

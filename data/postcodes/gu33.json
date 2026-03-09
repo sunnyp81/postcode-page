@@ -1,0 +1,198 @@
+{
+  "code": "GU33",
+  "name": "LISS",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU32",
+    "GU34",
+    "GU35"
+  ],
+  "property": {
+    "avgPrice": 670679,
+    "medianPrice": 500000,
+    "priceChange1y": -11.3,
+    "priceChange5y": 0,
+    "transactions12m": 315,
+    "byType": {
+      "detached": {
+        "avg": 839251,
+        "count": 124
+      },
+      "semi": {
+        "avg": 539085,
+        "count": 89
+      },
+      "terraced": {
+        "avg": 399250,
+        "count": 50
+      },
+      "flat": {
+        "avg": 281140,
+        "count": 25
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 775514
+      },
+      {
+        "year": 2024,
+        "avg": 654799
+      },
+      {
+        "year": 2025,
+        "avg": 580677
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.1,
+    "byType": {
+      "violentCrime": 2.8,
+      "burglary": 0.1,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 0.5,
+      "otherTheft": 0.3,
+      "other": 1.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Greatham Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Liss Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Liss Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Matthew's Church of England Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Rake CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 129975,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 205,
+    "avgUpload": 37,
+    "superfastPct": 87,
+    "ultrafastPct": 45,
+    "gigabitPct": 45,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Hampshire",
+    "bandD": 2028,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10.3,
+    "imdRank": 8236,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU33 covers LISS in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU33 is £670,679, which is 9% above the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU33 cost 133.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU33 have fallen 11.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.6 recorded crimes per 1,000 residents, GU33 has a crime rate well 93% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU33 has 6 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU33 are 205.0 Mbps, with 99% of premises having access to superfast broadband and 71% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU33 (LISS) offers above-average property prices (£670,679, 134% above national average), low crime (93% below national average), 6 nearby schools, and excellent broadband (205 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 205
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 205
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

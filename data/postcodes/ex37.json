@@ -1,0 +1,188 @@
+{
+  "code": "EX37",
+  "name": "UMBERLEIGH",
+  "county": "devon",
+  "region": "south-west",
+  "city": "exeter",
+  "adjacent": [
+    "EX36",
+    "EX38",
+    "EX39"
+  ],
+  "property": {
+    "avgPrice": 429614,
+    "medianPrice": 330000,
+    "priceChange1y": -10.1,
+    "priceChange5y": 0,
+    "transactions12m": 151,
+    "byType": {
+      "detached": {
+        "avg": 540338,
+        "count": 67
+      },
+      "semi": {
+        "avg": 284161,
+        "count": 28
+      },
+      "terraced": {
+        "avg": 238326,
+        "count": 23
+      },
+      "flat": {
+        "avg": 162062,
+        "count": 0
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 377977
+      },
+      {
+        "year": 2024,
+        "avg": 486627
+      },
+      {
+        "year": 2025,
+        "avg": 437343
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Kings Nympton Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Umberleigh Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "High Bickington Church of England Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 69841,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 24,
+    "socialRent": 9,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 88,
+    "avgUpload": 16,
+    "superfastPct": 48,
+    "ultrafastPct": 16,
+    "gigabitPct": 16,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Torridge",
+    "bandD": 2255,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.3,
+    "imdRank": 20086,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EX37 encompasses UMBERLEIGH and its surrounding areas in Devon, South West.",
+    "priceVsCounty": "The average property price in EX37 is £429,614, which is 11% above the Devon average of £385,452.",
+    "priceVsNational": "Properties in EX37 cost 49.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EX37 have fallen 10.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, EX37 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "EX37 has 3 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EX37 are 88.0 Mbps, with 83% of premises having access to superfast broadband and 39% with full fibre (FTTP) connectivity.",
+    "synthesis": "EX37 (UMBERLEIGH) offers above-average property prices (£429,614, 50% above national average), low crime (94% below national average), 3 nearby schools, and good broadband connectivity (88 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 88
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 88
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

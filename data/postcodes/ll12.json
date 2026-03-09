@@ -1,0 +1,197 @@
+{
+  "code": "LL12",
+  "name": "WREXHAM",
+  "county": "north-wales",
+  "region": "wales",
+  "city": "north-wales",
+  "adjacent": [
+    "LL11",
+    "LL13",
+    "LL14"
+  ],
+  "property": {
+    "avgPrice": 278970,
+    "medianPrice": 245000,
+    "priceChange1y": 4.4,
+    "priceChange5y": 0,
+    "transactions12m": 1131,
+    "byType": {
+      "detached": {
+        "avg": 359949,
+        "count": 477
+      },
+      "semi": {
+        "avg": 214764,
+        "count": 388
+      },
+      "terraced": {
+        "avg": 190817,
+        "count": 182
+      },
+      "flat": {
+        "avg": 155944,
+        "count": 34
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 270493
+      },
+      {
+        "year": 2024,
+        "avg": 277929
+      },
+      {
+        "year": 2025,
+        "avg": 290134
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 9.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -88.6,
+    "byType": {
+      "violentCrime": 4.2,
+      "burglary": 0.2,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 2.2,
+      "otherTheft": 1.1,
+      "other": 1.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ysgol Estyn C.P.",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Abermorddu C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Rofft C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Alexandra C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Peter's CIW Voluntary Controlled Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 138245,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 339,
+    "avgUpload": 61,
+    "superfastPct": 95,
+    "ultrafastPct": 83,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Wales Council",
+    "bandD": 2304,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LL12 encompasses WREXHAM and its surrounding areas in North Wales, Wales.",
+    "priceVsCounty": "The average property price in LL12 is £278,970, broadly in line with the North Wales average of £271,879.",
+    "priceVsNational": "Property values in LL12 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in LL12 have risen 4.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 9.3 recorded crimes per 1,000 residents, LL12 has a crime rate well 89% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LL12 has 13 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LL12 are 339.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LL12 (WREXHAM) offers property prices near the national average (£278,970), low crime (89% below national average), 13 nearby schools, and excellent broadband (339 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 271879,
+      "crime": 75,
+      "broadband": 339
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 339
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

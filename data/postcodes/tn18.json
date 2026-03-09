@@ -1,0 +1,188 @@
+{
+  "code": "TN18",
+  "name": "CRANBROOK",
+  "county": "kent",
+  "region": "south-east",
+  "city": "tunbridge-wells",
+  "adjacent": [
+    "TN17",
+    "TN19",
+    "TN20"
+  ],
+  "property": {
+    "avgPrice": 523738,
+    "medianPrice": 413000,
+    "priceChange1y": -7.1,
+    "priceChange5y": 0,
+    "transactions12m": 269,
+    "byType": {
+      "detached": {
+        "avg": 801416,
+        "count": 74
+      },
+      "semi": {
+        "avg": 415964,
+        "count": 69
+      },
+      "terraced": {
+        "avg": 326797,
+        "count": 58
+      },
+      "flat": {
+        "avg": 387652,
+        "count": 45
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 534411
+      },
+      {
+        "year": 2024,
+        "avg": 533275
+      },
+      {
+        "year": 2025,
+        "avg": 495606
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 7.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -91.3,
+    "byType": {
+      "violentCrime": 2.9,
+      "burglary": 0.2,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 1,
+      "otherTheft": 1.3,
+      "other": 1.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Sandhurst Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hawkhurst Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Ronan's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 119694,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 15,
+    "privateRent": 17,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 235,
+    "avgUpload": 42,
+    "superfastPct": 85,
+    "ultrafastPct": 54,
+    "gigabitPct": 54,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Tunbridge Wells",
+    "bandD": 2135,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.3,
+    "imdRank": 9295,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TN18 covers CRANBROOK in Kent, South East.",
+    "priceVsCounty": "The average property price in TN18 is £523,738, which is 16% above the Kent average of £450,882.",
+    "priceVsNational": "Properties in TN18 cost 82.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TN18 have fallen 7.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 7.1 recorded crimes per 1,000 residents, TN18 has a crime rate well 91% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TN18 has 3 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TN18 are 235.0 Mbps, with 99% of premises having access to superfast broadband and 80% with full fibre (FTTP) connectivity.",
+    "synthesis": "TN18 (CRANBROOK) offers above-average property prices (£523,738, 82% above national average), low crime (91% below national average), 3 nearby schools, and excellent broadband (235 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 235
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 235
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

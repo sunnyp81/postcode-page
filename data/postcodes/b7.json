@@ -1,0 +1,198 @@
+{
+  "code": "B7",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B6",
+    "B8",
+    "B9"
+  ],
+  "property": {
+    "avgPrice": 996567,
+    "medianPrice": 211000,
+    "priceChange1y": -87.4,
+    "priceChange5y": 0,
+    "transactions12m": 100,
+    "byType": {
+      "detached": {
+        "avg": 115000,
+        "count": 1
+      },
+      "semi": {
+        "avg": 185000,
+        "count": 6
+      },
+      "terraced": {
+        "avg": 181965,
+        "count": 37
+      },
+      "flat": {
+        "avg": 96356,
+        "count": 9
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 383110
+      },
+      {
+        "year": 2024,
+        "avg": 1739427
+      },
+      {
+        "year": 2025,
+        "avg": 219739
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 122.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 50.2,
+    "byType": {
+      "violentCrime": 57.5,
+      "burglary": 4.8,
+      "vehicleCrime": 13.2,
+      "antisocialBehaviour": 7.3,
+      "otherTheft": 15.3,
+      "other": 24
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bloomsbury Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Matthew's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "E-ACT Heartlands Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Aston University Engineering Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "E-ACT Nechells Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 310,
+    "avgUpload": 56,
+    "superfastPct": 78,
+    "ultrafastPct": 78,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B7 is the postcode district for BIRMINGHAM, located in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B7 is £996,567, which is 198% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B7 cost 247.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B7 have fallen 87.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 122.1 recorded crimes per 1,000 residents, B7 has a crime rate significantly 50% above the national average of 81.3 per 1,000.",
+    "schoolContext": "B7 has 12 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B7 are 310.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B7 (BIRMINGHAM) offers above-average property prices (£996,567, 247% above national average), higher-than-average crime (50% above national average), 12 nearby schools, and excellent broadband (310 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 310
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 310
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

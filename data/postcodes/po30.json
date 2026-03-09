@@ -1,0 +1,197 @@
+{
+  "code": "PO30",
+  "name": "NEWPORT",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "portsmouth",
+  "adjacent": [
+    "PO31",
+    "PO32"
+  ],
+  "property": {
+    "avgPrice": 282970,
+    "medianPrice": 233500,
+    "priceChange1y": -13.8,
+    "priceChange5y": 0,
+    "transactions12m": 1456,
+    "byType": {
+      "detached": {
+        "avg": 402175,
+        "count": 312
+      },
+      "semi": {
+        "avg": 257669,
+        "count": 394
+      },
+      "terraced": {
+        "avg": 208200,
+        "count": 428
+      },
+      "flat": {
+        "avg": 130429,
+        "count": 216
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 263640
+      },
+      {
+        "year": 2024,
+        "avg": 313425
+      },
+      {
+        "year": 2025,
+        "avg": 270182
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 26.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -66.9,
+    "byType": {
+      "violentCrime": 12.5,
+      "burglary": 0.7,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 3.7,
+      "otherTheft": 3,
+      "other": 6.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 3,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Barton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Nine Acres Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Summerfields Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Arreton St George's Church of England (Aided) Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Carisbrooke Church of England Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 141660,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 23,
+    "socialRent": 11,
+    "privateRent": 18,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 281,
+    "avgUpload": 51,
+    "superfastPct": 87,
+    "ultrafastPct": 67,
+    "gigabitPct": 67,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Portsmouth Council",
+    "bandD": 2372,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.3,
+    "imdRank": 19454,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PO30 covers NEWPORT in Hampshire, South East.",
+    "priceVsCounty": "The average property price in PO30 is £282,970, which is 34% below the Hampshire average of £431,529.",
+    "priceVsNational": "Property values in PO30 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in PO30 have fallen 13.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 26.9 recorded crimes per 1,000 residents, PO30 has a crime rate well 67% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PO30 has 17 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PO30 are 281.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PO30 (NEWPORT) offers property prices near the national average (£282,970), low crime (67% below national average), 17 nearby schools, and excellent broadband (281 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 281
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 281
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

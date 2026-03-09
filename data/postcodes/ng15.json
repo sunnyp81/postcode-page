@@ -1,0 +1,198 @@
+{
+  "code": "NG15",
+  "name": "NOTTINGHAM",
+  "county": "nottinghamshire",
+  "region": "east-midlands",
+  "city": "nottingham",
+  "adjacent": [
+    "NG14",
+    "NG16",
+    "NG17"
+  ],
+  "property": {
+    "avgPrice": 268361,
+    "medianPrice": 225000,
+    "priceChange1y": -7.4,
+    "priceChange5y": 0,
+    "transactions12m": 2331,
+    "byType": {
+      "detached": {
+        "avg": 360332,
+        "count": 853
+      },
+      "semi": {
+        "avg": 210348,
+        "count": 799
+      },
+      "terraced": {
+        "avg": 167144,
+        "count": 520
+      },
+      "flat": {
+        "avg": 131994,
+        "count": 90
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 266485
+      },
+      {
+        "year": 2024,
+        "avg": 278015
+      },
+      {
+        "year": 2025,
+        "avg": 257428
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 64,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -21.3,
+    "byType": {
+      "violentCrime": 19.3,
+      "burglary": 1.6,
+      "vehicleCrime": 2.4,
+      "antisocialBehaviour": 11.6,
+      "otherTheft": 16.9,
+      "other": 12.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 1,
+    "good": 9,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Beardall Fields Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Broomhill Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Butler's Hill Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Edgewood Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Leen Mills Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 120179,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 10,
+    "privateRent": 14,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 359,
+    "avgUpload": 65,
+    "superfastPct": 97,
+    "ultrafastPct": 90,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Gedling",
+    "bandD": 2288,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.9,
+    "imdRank": 12438,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NG15 encompasses NOTTINGHAM and its surrounding areas in Nottinghamshire, East Midlands.",
+    "priceVsCounty": "The average property price in NG15 is £268,361, which is 60% below the Nottinghamshire average of £678,596.",
+    "priceVsNational": "Properties in NG15 cost 6.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NG15 have fallen 7.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 64.0 recorded crimes per 1,000 residents, NG15 has a crime rate well 21% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NG15 has 17 schools within or near its boundaries, including 1 rated Outstanding and 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NG15 are 359.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NG15 (NOTTINGHAM) offers property prices near the national average (£268,361), low crime (21% below national average), 17 nearby schools, and excellent broadband (359 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 678596,
+      "crime": 75,
+      "broadband": 359
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 359
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

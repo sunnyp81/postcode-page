@@ -1,0 +1,168 @@
+{
+  "code": "EC4A",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 1625869,
+    "medianPrice": 597500,
+    "priceChange1y": -69.7,
+    "priceChange5y": 0,
+    "transactions12m": 32,
+    "byType": {
+      "detached": {
+        "avg": 3089151,
+        "count": 0
+      },
+      "semi": {
+        "avg": 1951043,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 1625869,
+        "count": 0
+      },
+      "flat": {
+        "avg": 603512,
+        "count": 25
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 2280375
+      },
+      {
+        "year": 2024,
+        "avg": 1796436
+      },
+      {
+        "year": 2025,
+        "avg": 544722
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 120.5,
+      "burglary": 24,
+      "vehicleCrime": 13,
+      "antisocialBehaviour": 81.8,
+      "otherTheft": 404.9,
+      "other": 77.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 0,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": []
+  },
+  "demographics": {
+    "population": 209996,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 11,
+    "socialRent": 28,
+    "privateRent": 39,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 121,
+    "avgUpload": 22,
+    "superfastPct": 28,
+    "ultrafastPct": 28,
+    "gigabitPct": 28,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Westminster",
+    "bandD": 914,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.3,
+    "imdRank": 16573,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EC4A is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in EC4A is £1,625,869, which is 24% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in EC4A cost 466.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EC4A have fallen 69.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, EC4A has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "School data for EC4A is not currently available.",
+    "broadbandContext": "Average broadband download speeds in EC4A are 121.0 Mbps, with 88% of premises having access to superfast broadband and 48% with full fibre (FTTP) connectivity.",
+    "synthesis": "EC4A (LONDON) offers above-average property prices (£1,625,869, 467% above national average), higher-than-average crime (269% above national average), and excellent broadband (121 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 121
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 121
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

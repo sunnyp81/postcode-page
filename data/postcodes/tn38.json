@@ -1,0 +1,198 @@
+{
+  "code": "TN38",
+  "name": "ST LEONARDS-ON-SEA",
+  "county": "kent",
+  "region": "south-east",
+  "city": "tunbridge-wells",
+  "adjacent": [
+    "TN37",
+    "TN39",
+    "TN40"
+  ],
+  "property": {
+    "avgPrice": 318866,
+    "medianPrice": 275000,
+    "priceChange1y": 0.8,
+    "priceChange5y": 0,
+    "transactions12m": 1443,
+    "byType": {
+      "detached": {
+        "avg": 460316,
+        "count": 262
+      },
+      "semi": {
+        "avg": 341372,
+        "count": 286
+      },
+      "terraced": {
+        "avg": 298978,
+        "count": 283
+      },
+      "flat": {
+        "avg": 219563,
+        "count": 536
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 324185
+      },
+      {
+        "year": 2024,
+        "avg": 314883
+      },
+      {
+        "year": 2025,
+        "avg": 317398
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 92.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 13.3,
+    "byType": {
+      "violentCrime": 29.9,
+      "burglary": 1.7,
+      "vehicleCrime": 4,
+      "antisocialBehaviour": 12.2,
+      "otherTheft": 24.3,
+      "other": 19.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Mulberry West St Leonards Primary",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Churchwood Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Robsack Wood Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Saxon Mount School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Leonards Church of England Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 91219,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 14,
+    "privateRent": 26,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 241,
+    "avgUpload": 43,
+    "superfastPct": 99,
+    "ultrafastPct": 54,
+    "gigabitPct": 54,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hastings",
+    "bandD": 2328,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 34.3,
+    "imdRank": 23845,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TN38 encompasses ST LEONARDS-ON-SEA and its surrounding areas in Kent, South East.",
+    "priceVsCounty": "The average property price in TN38 is £318,866, which is 29% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in TN38 cost 11.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TN38 have risen 0.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 92.1 recorded crimes per 1,000 residents, TN38 has a crime rate 13% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TN38 has 8 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TN38 are 241.0 Mbps, with 99% of premises having access to superfast broadband and 81% with full fibre (FTTP) connectivity.",
+    "synthesis": "TN38 (ST LEONARDS-ON-SEA) offers property prices near the national average (£318,866), 8 nearby schools, and excellent broadband (241 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 241
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 241
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

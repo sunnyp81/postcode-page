@@ -1,0 +1,198 @@
+{
+  "code": "TN5",
+  "name": "WADHURST",
+  "county": "kent",
+  "region": "south-east",
+  "city": "tunbridge-wells",
+  "adjacent": [
+    "TN4",
+    "TN6",
+    "TN7"
+  ],
+  "property": {
+    "avgPrice": 700837,
+    "medianPrice": 480000,
+    "priceChange1y": -26.2,
+    "priceChange5y": 0,
+    "transactions12m": 385,
+    "byType": {
+      "detached": {
+        "avg": 910524,
+        "count": 126
+      },
+      "semi": {
+        "avg": 495726,
+        "count": 113
+      },
+      "terraced": {
+        "avg": 397938,
+        "count": 77
+      },
+      "flat": {
+        "avg": 305433,
+        "count": 41
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 687204
+      },
+      {
+        "year": 2024,
+        "avg": 782834
+      },
+      {
+        "year": 2025,
+        "avg": 577659
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.1,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Stonegate Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ticehurst and Flimwell Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wadhurst CofE Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sacred Heart School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Mount Camphill Community Ltd",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 166908,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 8,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 272,
+    "avgUpload": 49,
+    "superfastPct": 90,
+    "ultrafastPct": 64,
+    "gigabitPct": 64,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wealden",
+    "bandD": 2363,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.3,
+    "imdRank": 10272,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TN5 encompasses WADHURST and its surrounding areas in Kent, South East.",
+    "priceVsCounty": "The average property price in TN5 is £700,837, which is 55% above the Kent average of £450,882.",
+    "priceVsNational": "Properties in TN5 cost 144.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TN5 have fallen 26.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TN5 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TN5 has 7 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TN5 are 272.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TN5 (WADHURST) offers above-average property prices (£700,837, 144% above national average), low crime (94% below national average), 7 nearby schools, and excellent broadband (272 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 272
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 272
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

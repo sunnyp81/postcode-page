@@ -1,0 +1,198 @@
+{
+  "code": "SN10",
+  "name": "DEVIZES",
+  "county": "wiltshire",
+  "region": "south-west",
+  "city": "swindon",
+  "adjacent": [
+    "SN9",
+    "SN11",
+    "SN12"
+  ],
+  "property": {
+    "avgPrice": 363669,
+    "medianPrice": 300000,
+    "priceChange1y": -4.5,
+    "priceChange5y": 0,
+    "transactions12m": 1512,
+    "byType": {
+      "detached": {
+        "avg": 523578,
+        "count": 460
+      },
+      "semi": {
+        "avg": 319007,
+        "count": 371
+      },
+      "terraced": {
+        "avg": 263158,
+        "count": 399
+      },
+      "flat": {
+        "avg": 158044,
+        "count": 205
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 361429
+      },
+      {
+        "year": 2024,
+        "avg": 372874
+      },
+      {
+        "year": 2025,
+        "avg": 356111
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 13.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -83.8,
+    "byType": {
+      "violentCrime": 5.8,
+      "burglary": 0.3,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 3.1,
+      "otherTheft": 0.5,
+      "other": 3.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Dauntsey's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Downland School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Nursteed Community Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Lavington School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Joseph's Catholic Primary School, Devizes",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 523700,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 190,
+    "avgUpload": 34,
+    "superfastPct": 92,
+    "ultrafastPct": 40,
+    "gigabitPct": 40,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swindon Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.4,
+    "imdRank": 11265,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SN10 covers DEVIZES in Wiltshire, South West.",
+    "priceVsCounty": "The average property price in SN10 is £363,669, which is 9% below the Wiltshire average of £397,459.",
+    "priceVsNational": "Properties in SN10 cost 26.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SN10 have fallen 4.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 13.2 recorded crimes per 1,000 residents, SN10 has a crime rate well 84% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SN10 has 20 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SN10 are 190.0 Mbps, with 99% of premises having access to superfast broadband and 67% with full fibre (FTTP) connectivity.",
+    "synthesis": "SN10 (DEVIZES) offers above-average property prices (£363,669, 27% above national average), low crime (84% below national average), 20 nearby schools, and excellent broadband (190 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 397459,
+      "crime": 75,
+      "broadband": 190
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 190
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

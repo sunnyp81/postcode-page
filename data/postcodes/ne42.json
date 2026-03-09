@@ -1,0 +1,198 @@
+{
+  "code": "NE42",
+  "name": "PRUDHOE",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "newcastle-upon-tyne",
+  "adjacent": [
+    "NE41",
+    "NE43",
+    "NE44"
+  ],
+  "property": {
+    "avgPrice": 212501,
+    "medianPrice": 175000,
+    "priceChange1y": -14.5,
+    "priceChange5y": 0,
+    "transactions12m": 494,
+    "byType": {
+      "detached": {
+        "avg": 338131,
+        "count": 128
+      },
+      "semi": {
+        "avg": 166728,
+        "count": 189
+      },
+      "terraced": {
+        "avg": 154669,
+        "count": 132
+      },
+      "flat": {
+        "avg": 96846,
+        "count": 28
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 196483
+      },
+      {
+        "year": 2024,
+        "avg": 235827
+      },
+      {
+        "year": 2025,
+        "avg": 201670
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 21.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -73.1,
+    "byType": {
+      "violentCrime": 8,
+      "burglary": 1,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 4.5,
+      "otherTheft": 2.8,
+      "other": 5.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Matthew's Catholic Primary School, Prudhoe",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Adderlane Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Prudhoe West Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Highfield Middle School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ovingham Middle School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 331420,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 18,
+    "privateRent": 14,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 293,
+    "avgUpload": 53,
+    "superfastPct": 95,
+    "ultrafastPct": 74,
+    "gigabitPct": 68,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newcastle Upon Tyne Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.1,
+    "imdRank": 16778,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NE42 covers PRUDHOE in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in NE42 is £212,501, which is 20% below the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in NE42 cost 26.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NE42 have fallen 14.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 21.9 recorded crimes per 1,000 residents, NE42 has a crime rate well 73% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NE42 has 8 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NE42 are 293.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NE42 (PRUDHOE) offers affordable property prices (£212,501, 26% below national average), low crime (73% below national average), 8 nearby schools, and excellent broadband (293 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 293
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 293
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

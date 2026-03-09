@@ -1,0 +1,198 @@
+{
+  "code": "HU10",
+  "name": "HULL",
+  "county": "east-yorkshire",
+  "region": "yorkshire",
+  "city": "hull",
+  "adjacent": [
+    "HU9",
+    "HU11",
+    "HU12"
+  ],
+  "property": {
+    "avgPrice": 273081,
+    "medianPrice": 252000,
+    "priceChange1y": -4.4,
+    "priceChange5y": 0,
+    "transactions12m": 1201,
+    "byType": {
+      "detached": {
+        "avg": 399449,
+        "count": 340
+      },
+      "semi": {
+        "avg": 256922,
+        "count": 530
+      },
+      "terraced": {
+        "avg": 171084,
+        "count": 190
+      },
+      "flat": {
+        "avg": 106068,
+        "count": 118
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 271882
+      },
+      {
+        "year": 2024,
+        "avg": 279085
+      },
+      {
+        "year": 2025,
+        "avg": 266768
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 28.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -64.7,
+    "byType": {
+      "violentCrime": 11.2,
+      "burglary": 1.2,
+      "vehicleCrime": 1.1,
+      "antisocialBehaviour": 4.2,
+      "otherTheft": 5,
+      "other": 6.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Kirk Ella St Andrew's Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Springhead Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tranby",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Anlaby Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Willerby Carr Lane Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 355884,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 9,
+    "privateRent": 15,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 396,
+    "avgUpload": 71,
+    "superfastPct": 99,
+    "ultrafastPct": 99,
+    "gigabitPct": 99,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hull Council",
+    "bandD": 2236,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.6,
+    "imdRank": 12095,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HU10 encompasses HULL and its surrounding areas in East Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HU10 is £273,081, which is 29% above the East Yorkshire average of £211,309.",
+    "priceVsNational": "Property values in HU10 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in HU10 have fallen 4.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 28.7 recorded crimes per 1,000 residents, HU10 has a crime rate well 65% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HU10 has 6 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HU10 are 396.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HU10 (HULL) offers property prices near the national average (£273,081), low crime (65% below national average), 6 nearby schools, and excellent broadband (396 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 211309,
+      "crime": 75,
+      "broadband": 396
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 396
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

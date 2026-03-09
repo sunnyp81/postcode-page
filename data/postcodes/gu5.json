@@ -1,0 +1,198 @@
+{
+  "code": "GU5",
+  "name": "GUILDFORD",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU4",
+    "GU6",
+    "GU7"
+  ],
+  "property": {
+    "avgPrice": 928732,
+    "medianPrice": 748250,
+    "priceChange1y": 4.4,
+    "priceChange5y": 0,
+    "transactions12m": 380,
+    "byType": {
+      "detached": {
+        "avg": 1209988,
+        "count": 161
+      },
+      "semi": {
+        "avg": 688205,
+        "count": 99
+      },
+      "terraced": {
+        "avg": 531818,
+        "count": 59
+      },
+      "flat": {
+        "avg": 411083,
+        "count": 30
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 975390
+      },
+      {
+        "year": 2024,
+        "avg": 879412
+      },
+      {
+        "year": 2025,
+        "avg": 918038
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Wonersh and Shamley Green CofE Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Shere CofE Aided Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Catherine's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Longacre School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gosden House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 134284,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 12,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 57,
+    "avgUpload": 10,
+    "superfastPct": 81,
+    "ultrafastPct": 3,
+    "gigabitPct": 3,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Waverley",
+    "bandD": 2263,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 7.5,
+    "imdRank": 5343,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU5 encompasses GUILDFORD and its surrounding areas in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU5 is £928,732, which is 52% above the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU5 cost 223.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU5 have risen 4.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, GU5 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU5 has 10 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU5 are 57.0 Mbps, with 79% of premises having access to superfast broadband and 31% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU5 (GUILDFORD) offers above-average property prices (£928,732, 224% above national average), low crime (94% below national average), 10 nearby schools, and good broadband connectivity (57 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 57
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 57
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

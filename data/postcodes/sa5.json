@@ -1,0 +1,197 @@
+{
+  "code": "SA5",
+  "name": "SWANSEA",
+  "county": "west-wales",
+  "region": "wales",
+  "city": "swansea",
+  "adjacent": [
+    "SA4",
+    "SA6",
+    "SA7"
+  ],
+  "property": {
+    "avgPrice": 195598,
+    "medianPrice": 147500,
+    "priceChange1y": -32.9,
+    "priceChange5y": 0,
+    "transactions12m": 1168,
+    "byType": {
+      "detached": {
+        "avg": 258035,
+        "count": 129
+      },
+      "semi": {
+        "avg": 164912,
+        "count": 367
+      },
+      "terraced": {
+        "avg": 132571,
+        "count": 600
+      },
+      "flat": {
+        "avg": 89531,
+        "count": 16
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 158750
+      },
+      {
+        "year": 2024,
+        "avg": 253276
+      },
+      {
+        "year": 2025,
+        "avg": 169827
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 68.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -16.2,
+    "byType": {
+      "violentCrime": 24.2,
+      "burglary": 1.1,
+      "vehicleCrime": 2.1,
+      "antisocialBehaviour": 9,
+      "otherTheft": 13.3,
+      "other": 18.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Cadle Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gendros Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Waunarlwydd Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Clwyd Community Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Portmead Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 251304,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 344,
+    "avgUpload": 62,
+    "superfastPct": 95,
+    "ultrafastPct": 85,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swansea Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "SA5 covers SWANSEA in West Wales, Wales.",
+    "priceVsCounty": "The average property price in SA5 is £195,598, which is 25% below the West Wales average of £261,315.",
+    "priceVsNational": "Properties in SA5 cost 31.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SA5 have fallen 32.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 68.1 recorded crimes per 1,000 residents, SA5 has a crime rate 16% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SA5 has 13 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SA5 are 344.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SA5 (SWANSEA) offers affordable property prices (£195,598, 32% below national average), low crime (16% below national average), 13 nearby schools, and excellent broadband (344 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 261315,
+      "crime": 75,
+      "broadband": 344
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 344
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

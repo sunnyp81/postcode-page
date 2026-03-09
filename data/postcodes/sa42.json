@@ -1,0 +1,177 @@
+{
+  "code": "SA42",
+  "name": "NEWPORT",
+  "county": "west-wales",
+  "region": "wales",
+  "city": "swansea",
+  "adjacent": [
+    "SA41",
+    "SA43",
+    "SA44"
+  ],
+  "property": {
+    "avgPrice": 432286,
+    "medianPrice": 395000,
+    "priceChange1y": 14.6,
+    "priceChange5y": 0,
+    "transactions12m": 110,
+    "byType": {
+      "detached": {
+        "avg": 469141,
+        "count": 46
+      },
+      "semi": {
+        "avg": 339474,
+        "count": 19
+      },
+      "terraced": {
+        "avg": 326433,
+        "count": 23
+      },
+      "flat": {
+        "avg": 182500,
+        "count": 2
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 382532
+      },
+      {
+        "year": 2024,
+        "avg": 431112
+      },
+      {
+        "year": 2025,
+        "avg": 494000
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.4,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.1,
+      "other": 0.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ysgol Bro Ingli",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 125761,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 120,
+    "avgUpload": 22,
+    "superfastPct": 82,
+    "ultrafastPct": 21,
+    "gigabitPct": 21,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swansea Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "SA42 is the postcode district for NEWPORT, located in West Wales, Wales.",
+    "priceVsCounty": "The average property price in SA42 is £432,286, which is 65% above the West Wales average of £261,315.",
+    "priceVsNational": "Properties in SA42 cost 50.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SA42 have risen 14.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SA42 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SA42 has 1 school within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SA42 are 120.0 Mbps, with 88% of premises having access to superfast broadband and 48% with full fibre (FTTP) connectivity.",
+    "synthesis": "SA42 (NEWPORT) offers above-average property prices (£432,286, 51% above national average), low crime (94% below national average), 1 nearby school, and excellent broadband (120 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 261315,
+      "crime": 75,
+      "broadband": 120
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 120
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

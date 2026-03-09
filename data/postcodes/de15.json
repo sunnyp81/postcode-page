@@ -1,0 +1,196 @@
+{
+  "code": "DE15",
+  "name": "BURTON-ON-TRENT",
+  "county": "derbyshire",
+  "region": "east-midlands",
+  "city": "derby",
+  "adjacent": [
+    "DE14"
+  ],
+  "property": {
+    "avgPrice": 248021,
+    "medianPrice": 202750,
+    "priceChange1y": 19.6,
+    "priceChange5y": 0,
+    "transactions12m": 1033,
+    "byType": {
+      "detached": {
+        "avg": 339730,
+        "count": 356
+      },
+      "semi": {
+        "avg": 209557,
+        "count": 358
+      },
+      "terraced": {
+        "avg": 152636,
+        "count": 261
+      },
+      "flat": {
+        "avg": 115161,
+        "count": 41
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 258640
+      },
+      {
+        "year": 2024,
+        "avg": 221348
+      },
+      {
+        "year": 2025,
+        "avg": 264708
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 55.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -31.9,
+    "byType": {
+      "violentCrime": 23.2,
+      "burglary": 1.9,
+      "vehicleCrime": 1.8,
+      "antisocialBehaviour": 7.7,
+      "otherTheft": 8.2,
+      "other": 12.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Stanton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Newton Solney CofE (Aided) Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bladon House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Abbot Beyne School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Burton PRU",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 129659,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 337,
+    "avgUpload": 61,
+    "superfastPct": 95,
+    "ultrafastPct": 83,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Staffordshire",
+    "bandD": 2054,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19,
+    "imdRank": 15288,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DE15 encompasses BURTON-ON-TRENT and its surrounding areas in Derbyshire, East Midlands.",
+    "priceVsCounty": "The average property price in DE15 is £248,021, which is 14% below the Derbyshire average of £289,862.",
+    "priceVsNational": "Properties in DE15 cost 13.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DE15 have risen 19.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 55.4 recorded crimes per 1,000 residents, DE15 has a crime rate well 32% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DE15 has 13 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DE15 are 337.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DE15 (BURTON-ON-TRENT) offers property prices near the national average (£248,021), low crime (32% below national average), 13 nearby schools, and excellent broadband (337 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 289862,
+      "crime": 75,
+      "broadband": 337
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 337
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

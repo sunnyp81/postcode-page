@@ -1,0 +1,198 @@
+{
+  "code": "SO20",
+  "name": "STOCKBRIDGE",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "southampton",
+  "adjacent": [
+    "SO19",
+    "SO21",
+    "SO22"
+  ],
+  "property": {
+    "avgPrice": 844944,
+    "medianPrice": 614750,
+    "priceChange1y": -8.8,
+    "priceChange5y": 0,
+    "transactions12m": 288,
+    "byType": {
+      "detached": {
+        "avg": 1000861,
+        "count": 143
+      },
+      "semi": {
+        "avg": 452028,
+        "count": 57
+      },
+      "terraced": {
+        "avg": 462703,
+        "count": 44
+      },
+      "flat": {
+        "avg": 252583,
+        "count": 14
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 851838
+      },
+      {
+        "year": 2024,
+        "avg": 876813
+      },
+      {
+        "year": 2025,
+        "avg": 799505
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0.2,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Broughton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stockbridge Primary & Pre-School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wallop Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "King's Somborne Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Danebury School",
+        "type": "Secondary",
+        "ofsted": "Inadequate"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 135201,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 14,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 231,
+    "avgUpload": 42,
+    "superfastPct": 84,
+    "ultrafastPct": 53,
+    "gigabitPct": 53,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Test Valley",
+    "bandD": 1996,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.9,
+    "imdRank": 9889,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SO20 encompasses STOCKBRIDGE and its surrounding areas in Hampshire, South East.",
+    "priceVsCounty": "The average property price in SO20 is £844,944, which is 96% above the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in SO20 cost 194.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SO20 have fallen 8.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SO20 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SO20 has 5 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SO20 are 231.0 Mbps, with 99% of premises having access to superfast broadband and 79% with full fibre (FTTP) connectivity.",
+    "synthesis": "SO20 (STOCKBRIDGE) offers above-average property prices (£844,944, 194% above national average), low crime (94% below national average), 5 nearby schools, and excellent broadband (231 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 231
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 231
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

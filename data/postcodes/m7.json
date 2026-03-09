@@ -1,0 +1,198 @@
+{
+  "code": "M7",
+  "name": "SALFORD",
+  "county": "greater-manchester",
+  "region": "north-west",
+  "city": "manchester",
+  "adjacent": [
+    "M6",
+    "M8",
+    "M9"
+  ],
+  "property": {
+    "avgPrice": 297339,
+    "medianPrice": 225000,
+    "priceChange1y": 6.3,
+    "priceChange5y": 0,
+    "transactions12m": 826,
+    "byType": {
+      "detached": {
+        "avg": 555608,
+        "count": 78
+      },
+      "semi": {
+        "avg": 362468,
+        "count": 201
+      },
+      "terraced": {
+        "avg": 289195,
+        "count": 240
+      },
+      "flat": {
+        "avg": 165124,
+        "count": 262
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 270191
+      },
+      {
+        "year": 2024,
+        "avg": 300889
+      },
+      {
+        "year": 2025,
+        "avg": 319765
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.3,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.1,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 36,
+    "outstanding": 2,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Lower Kersal Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Paul's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Boniface RC Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Philip's RC Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "St Thomas of Canterbury RC Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 294348,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 25,
+    "privateRent": 25,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 304,
+    "avgUpload": 55,
+    "superfastPct": 97,
+    "ultrafastPct": 77,
+    "gigabitPct": 71,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Salford",
+    "bandD": 2214,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 34.2,
+    "imdRank": 23233,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "M7 covers SALFORD in Greater Manchester, North West.",
+    "priceVsCounty": "The average property price in M7 is £297,339, which is 22% below the Greater Manchester average of £381,941.",
+    "priceVsNational": "Property values in M7 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in M7 have risen 6.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, M7 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "M7 has 36 schools within or near its boundaries, including 2 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in M7 are 304.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "M7 (SALFORD) offers property prices near the national average (£297,339), low crime (94% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (304 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 381941,
+      "crime": 75,
+      "broadband": 304
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 304
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

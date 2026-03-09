@@ -1,0 +1,188 @@
+{
+  "code": "RH18",
+  "name": "FOREST ROW",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "redhill",
+  "adjacent": [
+    "RH17",
+    "RH19",
+    "RH20"
+  ],
+  "property": {
+    "avgPrice": 580567,
+    "medianPrice": 457500,
+    "priceChange1y": -18.2,
+    "priceChange5y": 0,
+    "transactions12m": 169,
+    "byType": {
+      "detached": {
+        "avg": 843699,
+        "count": 69
+      },
+      "semi": {
+        "avg": 433327,
+        "count": 32
+      },
+      "terraced": {
+        "avg": 393553,
+        "count": 19
+      },
+      "flat": {
+        "avg": 233473,
+        "count": 35
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 665013
+      },
+      {
+        "year": 2024,
+        "avg": 583355
+      },
+      {
+        "year": 2025,
+        "avg": 476932
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 11.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -85.6,
+    "byType": {
+      "violentCrime": 2.6,
+      "burglary": 0.3,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1.3,
+      "otherTheft": 5.9,
+      "other": 1.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Forest Row Church of England Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Michael Hall School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Greenfields School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 166908,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 8,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 308,
+    "avgUpload": 55,
+    "superfastPct": 95,
+    "ultrafastPct": 74,
+    "gigabitPct": 74,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wealden",
+    "bandD": 2363,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.3,
+    "imdRank": 10272,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RH18 is the postcode district for FOREST ROW, located in Surrey, South East.",
+    "priceVsCounty": "The average property price in RH18 is £580,567, which is 5% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in RH18 cost 102.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RH18 have fallen 18.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 11.7 recorded crimes per 1,000 residents, RH18 has a crime rate well 86% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RH18 has 3 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RH18 are 308.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RH18 (FOREST ROW) offers above-average property prices (£580,567, 102% above national average), low crime (86% below national average), 3 nearby schools, and excellent broadband (308 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 308
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 308
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "code": "LE19",
+  "name": "LEICESTER",
+  "county": "leicestershire",
+  "region": "east-midlands",
+  "city": "leicester",
+  "adjacent": [
+    "LE18"
+  ],
+  "property": {
+    "avgPrice": 353867,
+    "medianPrice": 272000,
+    "priceChange1y": 14.4,
+    "priceChange5y": 0,
+    "transactions12m": 1066,
+    "byType": {
+      "detached": {
+        "avg": 384175,
+        "count": 375
+      },
+      "semi": {
+        "avg": 336512,
+        "count": 378
+      },
+      "terraced": {
+        "avg": 233919,
+        "count": 223
+      },
+      "flat": {
+        "avg": 173718,
+        "count": 58
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 332261
+      },
+      {
+        "year": 2024,
+        "avg": 344959
+      },
+      {
+        "year": 2025,
+        "avg": 394649
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 25.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -68.8,
+    "byType": {
+      "violentCrime": 9.8,
+      "burglary": 1,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 5.2,
+      "otherTheft": 3.3,
+      "other": 5.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Brockington College",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Red Hill Field Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Pastures Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Enderby Danemill Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Greystoke Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 108165,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 8,
+    "privateRent": 11,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 321,
+    "avgUpload": 58,
+    "superfastPct": 95,
+    "ultrafastPct": 80,
+    "gigabitPct": 77,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Blaby",
+    "bandD": 2184,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10.6,
+    "imdRank": 8738,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LE19 encompasses LEICESTER and its surrounding areas in Leicestershire, East Midlands.",
+    "priceVsCounty": "The average property price in LE19 is £353,867, broadly in line with the Leicestershire average of £348,118.",
+    "priceVsNational": "Properties in LE19 cost 23.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LE19 have risen 14.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 25.4 recorded crimes per 1,000 residents, LE19 has a crime rate well 69% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LE19 has 6 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LE19 are 321.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LE19 (LEICESTER) offers above-average property prices (£353,867, 23% above national average), low crime (69% below national average), 6 nearby schools, and excellent broadband (321 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 348118,
+      "crime": 75,
+      "broadband": 321
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 321
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

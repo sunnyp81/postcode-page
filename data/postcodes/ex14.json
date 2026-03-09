@@ -1,0 +1,198 @@
+{
+  "code": "EX14",
+  "name": "HONITON",
+  "county": "devon",
+  "region": "south-west",
+  "city": "exeter",
+  "adjacent": [
+    "EX13",
+    "EX15",
+    "EX16"
+  ],
+  "property": {
+    "avgPrice": 340091,
+    "medianPrice": 286500,
+    "priceChange1y": -9.2,
+    "priceChange5y": 0,
+    "transactions12m": 1110,
+    "byType": {
+      "detached": {
+        "avg": 456896,
+        "count": 379
+      },
+      "semi": {
+        "avg": 288841,
+        "count": 269
+      },
+      "terraced": {
+        "avg": 226139,
+        "count": 281
+      },
+      "flat": {
+        "avg": 185785,
+        "count": 102
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 355273
+      },
+      {
+        "year": 2024,
+        "avg": 348138
+      },
+      {
+        "year": 2025,
+        "avg": 316093
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.1,
+    "byType": {
+      "violentCrime": 2.3,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.9,
+      "otherTheft": 0.7,
+      "other": 1.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Honiton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Upottery Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Offwell Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Payhembury Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Awliscombe Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 84993,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 293,
+    "avgUpload": 53,
+    "superfastPct": 84,
+    "ultrafastPct": 71,
+    "gigabitPct": 71,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Mid Devon",
+    "bandD": 2295,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.9,
+    "imdRank": 15037,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EX14 covers HONITON in Devon, South West.",
+    "priceVsCounty": "The average property price in EX14 is £340,091, which is 12% below the Devon average of £385,452.",
+    "priceVsNational": "Properties in EX14 cost 18.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EX14 have fallen 9.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.6 recorded crimes per 1,000 residents, EX14 has a crime rate well 93% below the national average of 81.3 per 1,000.",
+    "schoolContext": "EX14 has 10 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EX14 are 293.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "EX14 (HONITON) offers property prices near the national average (£340,091), low crime (93% below national average), 10 nearby schools, and excellent broadband (293 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 293
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 293
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

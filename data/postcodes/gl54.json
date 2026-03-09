@@ -1,0 +1,198 @@
+{
+  "code": "GL54",
+  "name": "CHELTENHAM",
+  "county": "gloucestershire",
+  "region": "south-west",
+  "city": "gloucester",
+  "adjacent": [
+    "GL53",
+    "GL55",
+    "GL56"
+  ],
+  "property": {
+    "avgPrice": 664019,
+    "medianPrice": 455000,
+    "priceChange1y": 0.2,
+    "priceChange5y": 0,
+    "transactions12m": 1212,
+    "byType": {
+      "detached": {
+        "avg": 826921,
+        "count": 469
+      },
+      "semi": {
+        "avg": 409602,
+        "count": 275
+      },
+      "terraced": {
+        "avg": 372249,
+        "count": 255
+      },
+      "flat": {
+        "avg": 299644,
+        "count": 82
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 628109
+      },
+      {
+        "year": 2024,
+        "avg": 684743
+      },
+      {
+        "year": 2025,
+        "avg": 686087
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.3,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 0,
+    "good": 8,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Rissington School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Stow-on-the-Wold Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Northleach Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Temple Guiting Church of England School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Withington Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 101949,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 286,
+    "avgUpload": 51,
+    "superfastPct": 91,
+    "ultrafastPct": 68,
+    "gigabitPct": 68,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Tewkesbury",
+    "bandD": 2029,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.1,
+    "imdRank": 9967,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GL54 covers CHELTENHAM in Gloucestershire, South West.",
+    "priceVsCounty": "The average property price in GL54 is £664,019, which is 50% above the Gloucestershire average of £441,384.",
+    "priceVsNational": "Properties in GL54 cost 131.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GL54 have risen 0.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, GL54 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GL54 has 16 schools within or near its boundaries, including 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GL54 are 286.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GL54 (CHELTENHAM) offers above-average property prices (£664,019, 131% above national average), low crime (94% below national average), 16 nearby schools, and excellent broadband (286 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 441384,
+      "crime": 75,
+      "broadband": 286
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 286
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

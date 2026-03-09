@@ -1,0 +1,198 @@
+{
+  "code": "SW17",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SW16",
+    "SW18",
+    "SW19"
+  ],
+  "property": {
+    "avgPrice": 723523,
+    "medianPrice": 577250,
+    "priceChange1y": -6.1,
+    "priceChange5y": 0,
+    "transactions12m": 2886,
+    "byType": {
+      "detached": {
+        "avg": 1434000,
+        "count": 9
+      },
+      "semi": {
+        "avg": 1209142,
+        "count": 100
+      },
+      "terraced": {
+        "avg": 897757,
+        "count": 986
+      },
+      "flat": {
+        "avg": 501529,
+        "count": 1686
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 742195
+      },
+      {
+        "year": 2024,
+        "avg": 733930
+      },
+      {
+        "year": 2025,
+        "avg": 689443
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 155.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 91.4,
+    "byType": {
+      "violentCrime": 47.1,
+      "burglary": 6.2,
+      "vehicleCrime": 11.1,
+      "antisocialBehaviour": 32.8,
+      "otherTheft": 32.5,
+      "other": 25.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 25,
+    "outstanding": 3,
+    "good": 7,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Francis Barber Pupil Referral Unit",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Furzedown Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sellincourt Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Smallwood Primary School and Language Unit",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Boniface RC Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 337655,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 19,
+    "privateRent": 34,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 367,
+    "avgUpload": 66,
+    "superfastPct": 98,
+    "ultrafastPct": 93,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wandsworth",
+    "bandD": 921,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.6,
+    "imdRank": 14312,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SW17 is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in SW17 is £723,523, which is 45% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SW17 cost 152.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SW17 have fallen 6.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 155.6 recorded crimes per 1,000 residents, SW17 has a crime rate significantly 91% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SW17 has 25 schools within or near its boundaries, including 3 rated Outstanding and 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SW17 are 367.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SW17 (LONDON) offers above-average property prices (£723,523, 152% above national average), higher-than-average crime (91% above national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (367 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 367
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 367
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

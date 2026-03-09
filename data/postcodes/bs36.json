@@ -1,0 +1,197 @@
+{
+  "code": "BS36",
+  "name": "BRISTOL",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS35",
+    "BS37"
+  ],
+  "property": {
+    "avgPrice": 444259,
+    "medianPrice": 400000,
+    "priceChange1y": 6.1,
+    "priceChange5y": 0,
+    "transactions12m": 638,
+    "byType": {
+      "detached": {
+        "avg": 557585,
+        "count": 234
+      },
+      "semi": {
+        "avg": 399067,
+        "count": 258
+      },
+      "terraced": {
+        "avg": 362171,
+        "count": 106
+      },
+      "flat": {
+        "avg": 198918,
+        "count": 19
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 434242
+      },
+      {
+        "year": 2024,
+        "avg": 437470
+      },
+      {
+        "year": 2025,
+        "avg": 464278
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 18.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -77.6,
+    "byType": {
+      "violentCrime": 8.6,
+      "burglary": 1.1,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 2.4,
+      "otherTheft": 1.8,
+      "other": 3.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Elm Park Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Frampton Cotterell Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Manor Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Watermore Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Winterbourne Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 306332,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 11,
+    "privateRent": 14,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 337,
+    "avgUpload": 61,
+    "superfastPct": 96,
+    "ultrafastPct": 83,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9595,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS36 encompasses BRISTOL and its surrounding areas in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS36 is £444,259, broadly in line with the Bristol average of £449,132.",
+    "priceVsNational": "Properties in BS36 cost 54.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BS36 have risen 6.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 18.2 recorded crimes per 1,000 residents, BS36 has a crime rate well 78% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BS36 has 6 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS36 are 337.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS36 (BRISTOL) offers above-average property prices (£444,259, 55% above national average), low crime (78% below national average), 6 nearby schools, and excellent broadband (337 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 337
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 337
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

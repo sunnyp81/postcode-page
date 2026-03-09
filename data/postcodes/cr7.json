@@ -1,0 +1,198 @@
+{
+  "code": "CR7",
+  "name": "THORNTON HEATH",
+  "county": "greater-london",
+  "region": "london",
+  "city": "croydon",
+  "adjacent": [
+    "CR6",
+    "CR8",
+    "CR9"
+  ],
+  "property": {
+    "avgPrice": 424356,
+    "medianPrice": 395000,
+    "priceChange1y": 29.1,
+    "priceChange5y": 0,
+    "transactions12m": 1199,
+    "byType": {
+      "detached": {
+        "avg": 562967,
+        "count": 15
+      },
+      "semi": {
+        "avg": 491874,
+        "count": 123
+      },
+      "terraced": {
+        "avg": 421420,
+        "count": 662
+      },
+      "flat": {
+        "avg": 245747,
+        "count": 336
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 411251
+      },
+      {
+        "year": 2024,
+        "avg": 379558
+      },
+      {
+        "year": 2025,
+        "avg": 490085
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 166,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 104.2,
+    "byType": {
+      "violentCrime": 58.9,
+      "burglary": 5.9,
+      "vehicleCrime": 14.7,
+      "antisocialBehaviour": 33.7,
+      "otherTheft": 18.1,
+      "other": 34.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 2,
+    "good": 6,
+    "requiresImprovement": 3,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Beulah Junior School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Winterbourne Junior Girls' School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Winterbourne Nursery and Infants' School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bensham Manor School",
+        "type": "Other",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Thornton Heath Nursery School",
+        "type": "Nursery",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 409342,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 18,
+    "privateRent": 24,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 382,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 95,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Croydon",
+    "bandD": 2240,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.5,
+    "imdRank": 18371,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CR7 covers THORNTON HEATH in Greater London, London.",
+    "priceVsCounty": "The average property price in CR7 is £424,356, which is 68% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in CR7 cost 47.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CR7 have risen 29.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 166.0 recorded crimes per 1,000 residents, CR7 has a crime rate significantly 104% above the national average of 81.3 per 1,000.",
+    "schoolContext": "CR7 has 18 schools within or near its boundaries, including 2 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CR7 are 382.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CR7 (THORNTON HEATH) offers above-average property prices (£424,356, 48% above national average), higher-than-average crime (104% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (382 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 382
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 382
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

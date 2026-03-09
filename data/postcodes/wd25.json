@@ -1,0 +1,196 @@
+{
+  "code": "WD25",
+  "name": "WATFORD",
+  "county": "greater-london",
+  "region": "london",
+  "city": "watford",
+  "adjacent": [
+    "WD24"
+  ],
+  "property": {
+    "avgPrice": 492176,
+    "medianPrice": 466000,
+    "priceChange1y": -2.8,
+    "priceChange5y": 0,
+    "transactions12m": 858,
+    "byType": {
+      "detached": {
+        "avg": 717573,
+        "count": 99
+      },
+      "semi": {
+        "avg": 523943,
+        "count": 323
+      },
+      "terraced": {
+        "avg": 466855,
+        "count": 217
+      },
+      "flat": {
+        "avg": 241352,
+        "count": 203
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 532438
+      },
+      {
+        "year": 2024,
+        "avg": 480650
+      },
+      {
+        "year": 2025,
+        "avg": 467222
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 54.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -33.5,
+    "byType": {
+      "violentCrime": 19.7,
+      "burglary": 1.4,
+      "vehicleCrime": 3.6,
+      "antisocialBehaviour": 10.8,
+      "otherTheft": 9.5,
+      "other": 9.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Kingswood Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kingsway Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Kingsway Infants' School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Leavesden JMI School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Coates Way JMI and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 110212,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 17,
+    "privateRent": 15,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 335,
+    "avgUpload": 60,
+    "superfastPct": 94,
+    "ultrafastPct": 84,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hertsmere",
+    "bandD": 2076,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.9,
+    "imdRank": 11669,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WD25 covers WATFORD in Greater London, London.",
+    "priceVsCounty": "The average property price in WD25 is £492,176, which is 62% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in WD25 cost 71.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WD25 have fallen 2.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 54.1 recorded crimes per 1,000 residents, WD25 has a crime rate well 33% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WD25 has 16 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WD25 are 335.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WD25 (WATFORD) offers above-average property prices (£492,176, 71% above national average), low crime (33% below national average), 16 nearby schools, and excellent broadband (335 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 335
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 335
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

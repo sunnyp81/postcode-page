@@ -1,0 +1,193 @@
+{
+  "code": "B5",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B4",
+    "B6",
+    "B7"
+  ],
+  "property": {
+    "avgPrice": 500491,
+    "medianPrice": 238377,
+    "priceChange1y": -64.6,
+    "priceChange5y": 0,
+    "transactions12m": 433,
+    "byType": {
+      "detached": {
+        "avg": 686551,
+        "count": 11
+      },
+      "semi": {
+        "avg": 413857,
+        "count": 14
+      },
+      "terraced": {
+        "avg": 288395,
+        "count": 50
+      },
+      "flat": {
+        "avg": 221603,
+        "count": 321
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 543441
+      },
+      {
+        "year": 2024,
+        "avg": 721380
+      },
+      {
+        "year": 2025,
+        "avg": 255361
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 192.3,
+      "burglary": 14.5,
+      "vehicleCrime": 31.5,
+      "antisocialBehaviour": 36.8,
+      "otherTheft": 125.4,
+      "other": 102.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 1,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Lillian De Lissa Nursery School",
+        "type": "Nursery",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "South and City College Birmingham",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Birmingham City University",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Elmhurst Ballet School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 256,
+    "avgUpload": 46,
+    "superfastPct": 71,
+    "ultrafastPct": 62,
+    "gigabitPct": 62,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B5 encompasses BIRMINGHAM and its surrounding areas in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B5 is £500,491, which is 50% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B5 cost 74.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B5 have fallen 64.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, B5 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "B5 has 4 schools within or near its boundaries, including 1 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B5 are 256.0 Mbps, with 99% of premises having access to superfast broadband and 85% with full fibre (FTTP) connectivity.",
+    "synthesis": "B5 (BIRMINGHAM) offers above-average property prices (£500,491, 74% above national average), higher-than-average crime (269% above national average), 4 nearby schools, and excellent broadband (256 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 256
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 256
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

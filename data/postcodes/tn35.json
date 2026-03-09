@@ -1,0 +1,198 @@
+{
+  "code": "TN35",
+  "name": "HASTINGS",
+  "county": "kent",
+  "region": "south-east",
+  "city": "tunbridge-wells",
+  "adjacent": [
+    "TN34",
+    "TN36",
+    "TN37"
+  ],
+  "property": {
+    "avgPrice": 357325,
+    "medianPrice": 307500,
+    "priceChange1y": 0,
+    "priceChange5y": 0,
+    "transactions12m": 700,
+    "byType": {
+      "detached": {
+        "avg": 541542,
+        "count": 190
+      },
+      "semi": {
+        "avg": 319844,
+        "count": 160
+      },
+      "terraced": {
+        "avg": 274405,
+        "count": 249
+      },
+      "flat": {
+        "avg": 184558,
+        "count": 75
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 371596
+      },
+      {
+        "year": 2024,
+        "avg": 349565
+      },
+      {
+        "year": 2025,
+        "avg": 349726
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 21.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -73.6,
+    "byType": {
+      "violentCrime": 7.9,
+      "burglary": 0.6,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 3.8,
+      "otherTheft": 2.7,
+      "other": 5.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Westfield School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Guestling Bradshaw Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Sacred Heart Catholic Primary School, Hastings",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Buckswood School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mulberry Academy Hastings",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 91219,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 14,
+    "privateRent": 26,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 271,
+    "avgUpload": 49,
+    "superfastPct": 97,
+    "ultrafastPct": 63,
+    "gigabitPct": 63,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hastings",
+    "bandD": 2328,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 34.3,
+    "imdRank": 23845,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TN35 encompasses HASTINGS and its surrounding areas in Kent, South East.",
+    "priceVsCounty": "The average property price in TN35 is £357,325, which is 21% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in TN35 cost 24.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TN35 have risen 0.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 21.5 recorded crimes per 1,000 residents, TN35 has a crime rate well 74% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TN35 has 8 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TN35 are 271.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TN35 (HASTINGS) offers above-average property prices (£357,325, 25% above national average), low crime (74% below national average), 8 nearby schools, and excellent broadband (271 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 271
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 271
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

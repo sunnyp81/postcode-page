@@ -1,0 +1,198 @@
+{
+  "code": "SP3",
+  "name": "SALISBURY",
+  "county": "wiltshire",
+  "region": "south-west",
+  "city": "salisbury",
+  "adjacent": [
+    "SP2",
+    "SP4",
+    "SP5"
+  ],
+  "property": {
+    "avgPrice": 553869,
+    "medianPrice": 432000,
+    "priceChange1y": -12.9,
+    "priceChange5y": 0,
+    "transactions12m": 429,
+    "byType": {
+      "detached": {
+        "avg": 673756,
+        "count": 212
+      },
+      "semi": {
+        "avg": 340323,
+        "count": 83
+      },
+      "terraced": {
+        "avg": 356085,
+        "count": 81
+      },
+      "flat": {
+        "avg": 272704,
+        "count": 15
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 592367
+      },
+      {
+        "year": 2024,
+        "avg": 565566
+      },
+      {
+        "year": 2025,
+        "avg": 492676
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St John's Church of England Primary School, Tisbury",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wardour Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Chilmark and Fonthill Bishop Church of England Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hindon Church of England Voluntary Aided Primary School, St Mary's and St John's",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Appleford School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 523700,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 160,
+    "avgUpload": 29,
+    "superfastPct": 87,
+    "ultrafastPct": 32,
+    "gigabitPct": 32,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Salisbury Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.4,
+    "imdRank": 11265,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SP3 is the postcode district for SALISBURY, located in Wiltshire, South West.",
+    "priceVsCounty": "The average property price in SP3 is £553,869, which is 39% above the Wiltshire average of £397,459.",
+    "priceVsNational": "Properties in SP3 cost 93.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SP3 have fallen 12.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SP3 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SP3 has 8 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SP3 are 160.0 Mbps, with 94% of premises having access to superfast broadband and 59% with full fibre (FTTP) connectivity.",
+    "synthesis": "SP3 (SALISBURY) offers above-average property prices (£553,869, 93% above national average), low crime (94% below national average), 8 nearby schools, and excellent broadband (160 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 397459,
+      "crime": 75,
+      "broadband": 160
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 160
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

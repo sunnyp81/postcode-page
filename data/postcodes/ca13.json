@@ -1,0 +1,198 @@
+{
+  "code": "CA13",
+  "name": "COCKERMOUTH",
+  "county": "cumbria",
+  "region": "north-west",
+  "city": "carlisle",
+  "adjacent": [
+    "CA12",
+    "CA14",
+    "CA15"
+  ],
+  "property": {
+    "avgPrice": 275728,
+    "medianPrice": 245000,
+    "priceChange1y": -7.1,
+    "priceChange5y": 0,
+    "transactions12m": 893,
+    "byType": {
+      "detached": {
+        "avg": 390271,
+        "count": 320
+      },
+      "semi": {
+        "avg": 232709,
+        "count": 222
+      },
+      "terraced": {
+        "avg": 191724,
+        "count": 218
+      },
+      "flat": {
+        "avg": 145048,
+        "count": 88
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 266176
+      },
+      {
+        "year": 2024,
+        "avg": 290129
+      },
+      {
+        "year": 2025,
+        "avg": 269662
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 11.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -86.3,
+    "byType": {
+      "violentCrime": 5.5,
+      "burglary": 0.2,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.6,
+      "otherTheft": 1.4,
+      "other": 3.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bridekirk Dovenby CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Bridget's CofE School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "All Saints' CofE School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eaglesfield Paddle CofE Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Broughton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 130,
+    "avgUpload": 23,
+    "superfastPct": 91,
+    "ultrafastPct": 23,
+    "gigabitPct": 23,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cumberland",
+    "bandD": 2175,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CA13 is the postcode district for COCKERMOUTH, located in Cumbria, North West.",
+    "priceVsCounty": "The average property price in CA13 is £275,728, which is 13% above the Cumbria average of £244,524.",
+    "priceVsNational": "Property values in CA13 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in CA13 have fallen 7.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 11.1 recorded crimes per 1,000 residents, CA13 has a crime rate well 86% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CA13 has 8 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CA13 are 130.0 Mbps, with 90% of premises having access to superfast broadband and 51% with full fibre (FTTP) connectivity.",
+    "synthesis": "CA13 (COCKERMOUTH) offers property prices near the national average (£275,728), low crime (86% below national average), 8 nearby schools, and excellent broadband (130 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 244524,
+      "crime": 75,
+      "broadband": 130
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 130
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

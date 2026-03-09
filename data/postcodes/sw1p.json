@@ -1,0 +1,197 @@
+{
+  "code": "SW1P",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SW2",
+    "SW3"
+  ],
+  "property": {
+    "avgPrice": 1553485,
+    "medianPrice": 975000,
+    "priceChange1y": -4.3,
+    "priceChange5y": 0,
+    "transactions12m": 629,
+    "byType": {
+      "detached": {
+        "avg": 2951622,
+        "count": 0
+      },
+      "semi": {
+        "avg": 1864182,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 3143714,
+        "count": 14
+      },
+      "flat": {
+        "avg": 1304321,
+        "count": 583
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1863305
+      },
+      {
+        "year": 2024,
+        "avg": 1293491
+      },
+      {
+        "year": 2025,
+        "avg": 1237624
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 88.3,
+      "burglary": 12.3,
+      "vehicleCrime": 8.3,
+      "antisocialBehaviour": 89.1,
+      "otherTheft": 153.7,
+      "other": 49.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Burdett-Coutts and Townshend Foundation CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Matthew's School, Westminster",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Vincent De Paul Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Westminster Abbey Choir School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Westminster School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 209996,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 11,
+    "socialRent": 28,
+    "privateRent": 39,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 321,
+    "avgUpload": 58,
+    "superfastPct": 85,
+    "ultrafastPct": 79,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Westminster",
+    "bandD": 914,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.3,
+    "imdRank": 16573,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SW1P encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in SW1P is £1,553,485, which is 19% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SW1P cost 441.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SW1P have fallen 4.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, SW1P has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SW1P has 10 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SW1P are 321.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SW1P (LONDON) offers above-average property prices (£1,553,485, 441% above national average), higher-than-average crime (269% above national average), 10 nearby schools, and excellent broadband (321 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 321
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 321
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

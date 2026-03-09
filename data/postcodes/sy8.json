@@ -1,0 +1,197 @@
+{
+  "code": "SY8",
+  "name": "LUDLOW",
+  "county": "mid-wales",
+  "region": "wales",
+  "city": "shrewsbury",
+  "adjacent": [
+    "SY7",
+    "SY9",
+    "SY10"
+  ],
+  "property": {
+    "avgPrice": 344383,
+    "medianPrice": 280000,
+    "priceChange1y": -3.9,
+    "priceChange5y": 0,
+    "transactions12m": 947,
+    "byType": {
+      "detached": {
+        "avg": 421077,
+        "count": 394
+      },
+      "semi": {
+        "avg": 275580,
+        "count": 173
+      },
+      "terraced": {
+        "avg": 251863,
+        "count": 216
+      },
+      "flat": {
+        "avg": 162622,
+        "count": 95
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 340520
+      },
+      {
+        "year": 2024,
+        "avg": 352289
+      },
+      {
+        "year": 2025,
+        "avg": 338706
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 15.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -81.3,
+    "byType": {
+      "violentCrime": 5.8,
+      "burglary": 0.8,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 2.3,
+      "otherTheft": 2,
+      "other": 3.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Orleton CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Laurence CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Moor Park School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bishop Hooper Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Clee Hill Community Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 18857,
+    "medianAge": 43,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 242,
+    "avgUpload": 44,
+    "superfastPct": 78,
+    "ultrafastPct": 57,
+    "gigabitPct": 57,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Shrewsbury Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.9,
+    "imdRank": 16384,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SY8 covers LUDLOW in Mid Wales, Wales.",
+    "priceVsCounty": "The average property price in SY8 is £344,383, which is 9% above the Mid Wales average of £315,596.",
+    "priceVsNational": "Properties in SY8 cost 20.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SY8 have fallen 3.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 15.2 recorded crimes per 1,000 residents, SY8 has a crime rate well 81% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SY8 has 9 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SY8 are 242.0 Mbps, with 99% of premises having access to superfast broadband and 82% with full fibre (FTTP) connectivity.",
+    "synthesis": "SY8 (LUDLOW) offers property prices near the national average (£344,383), low crime (81% below national average), 9 nearby schools, and excellent broadband (242 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 315596,
+      "crime": 75,
+      "broadband": 242
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 242
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

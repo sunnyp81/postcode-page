@@ -1,0 +1,198 @@
+{
+  "code": "SG13",
+  "name": "HERTFORD",
+  "county": "hertfordshire",
+  "region": "east-of-england",
+  "city": "stevenage",
+  "adjacent": [
+    "SG12",
+    "SG14",
+    "SG15"
+  ],
+  "property": {
+    "avgPrice": 598675,
+    "medianPrice": 470000,
+    "priceChange1y": -13.5,
+    "priceChange5y": 0,
+    "transactions12m": 868,
+    "byType": {
+      "detached": {
+        "avg": 969149,
+        "count": 130
+      },
+      "semi": {
+        "avg": 619002,
+        "count": 166
+      },
+      "terraced": {
+        "avg": 521309,
+        "count": 263
+      },
+      "flat": {
+        "avg": 340656,
+        "count": 270
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 622626
+      },
+      {
+        "year": 2024,
+        "avg": 626161
+      },
+      {
+        "year": 2025,
+        "avg": 541359
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 35.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -56.2,
+    "byType": {
+      "violentCrime": 11.9,
+      "burglary": 1.2,
+      "vehicleCrime": 2.1,
+      "antisocialBehaviour": 7.3,
+      "otherTheft": 6.2,
+      "other": 6.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Abel Smith School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Hertford Heath Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wheatcroft Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Morgans Primary School & Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bayford Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 101900,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 290,
+    "avgUpload": 52,
+    "superfastPct": 91,
+    "ultrafastPct": 72,
+    "gigabitPct": 68,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Broxbourne",
+    "bandD": 1997,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 15414,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SG13 encompasses HERTFORD and its surrounding areas in Hertfordshire, East Of England.",
+    "priceVsCounty": "The average property price in SG13 is £598,675, broadly in line with the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in SG13 cost 108.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SG13 have fallen 13.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 35.6 recorded crimes per 1,000 residents, SG13 has a crime rate well 56% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SG13 has 10 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SG13 are 290.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SG13 (HERTFORD) offers above-average property prices (£598,675, 109% above national average), low crime (56% below national average), 10 nearby schools, and excellent broadband (290 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 290
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 290
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

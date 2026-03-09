@@ -1,0 +1,187 @@
+{
+  "code": "SO42",
+  "name": "BROCKENHURST",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "southampton",
+  "adjacent": [
+    "SO41",
+    "SO43"
+  ],
+  "property": {
+    "avgPrice": 1051331,
+    "medianPrice": 795190,
+    "priceChange1y": 5.7,
+    "priceChange5y": 0,
+    "transactions12m": 201,
+    "byType": {
+      "detached": {
+        "avg": 1356706,
+        "count": 105
+      },
+      "semi": {
+        "avg": 741688,
+        "count": 21
+      },
+      "terraced": {
+        "avg": 574783,
+        "count": 23
+      },
+      "flat": {
+        "avg": 250543,
+        "count": 35
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1123725
+      },
+      {
+        "year": 2024,
+        "avg": 980644
+      },
+      {
+        "year": 2025,
+        "avg": 1036210
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Beaulieu Village Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brockenhurst Church of England Primary School & Pre-School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brockenhurst College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 176116,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 11,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 272,
+    "avgUpload": 49,
+    "superfastPct": 83,
+    "ultrafastPct": 65,
+    "gigabitPct": 65,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "New Forest",
+    "bandD": 2091,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13,
+    "imdRank": 10782,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SO42 covers BROCKENHURST in Hampshire, South East.",
+    "priceVsCounty": "The average property price in SO42 is £1,051,331, which is 144% above the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in SO42 cost 266.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SO42 have risen 5.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SO42 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SO42 has 3 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SO42 are 272.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SO42 (BROCKENHURST) offers above-average property prices (£1,051,331, 266% above national average), low crime (94% below national average), 3 nearby schools, and excellent broadband (272 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 272
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 272
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

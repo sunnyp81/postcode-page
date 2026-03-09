@@ -1,0 +1,183 @@
+{
+  "code": "GU25",
+  "name": "VIRGINIA WATER",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU24",
+    "GU26",
+    "GU27"
+  ],
+  "property": {
+    "avgPrice": 1683062,
+    "medianPrice": 810000,
+    "priceChange1y": -30.7,
+    "priceChange5y": 0,
+    "transactions12m": 252,
+    "byType": {
+      "detached": {
+        "avg": 2636834,
+        "count": 115
+      },
+      "semi": {
+        "avg": 679353,
+        "count": 34
+      },
+      "terraced": {
+        "avg": 782021,
+        "count": 24
+      },
+      "flat": {
+        "avg": 421048,
+        "count": 59
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1751303
+      },
+      {
+        "year": 2024,
+        "avg": 1884274
+      },
+      {
+        "year": 2025,
+        "avg": 1306717
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 6.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -92,
+    "byType": {
+      "violentCrime": 2.3,
+      "burglary": 0.6,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 0.7,
+      "otherTheft": 1.1,
+      "other": 1.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Trumps Green Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Ann's Heath Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 92118,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 339,
+    "avgUpload": 61,
+    "superfastPct": 95,
+    "ultrafastPct": 83,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Runnymede",
+    "bandD": 2171,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12,
+    "imdRank": 10056,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU25 is the postcode district for VIRGINIA WATER, located in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU25 is £1,683,062, which is 175% above the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU25 cost 486.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU25 have fallen 30.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 6.5 recorded crimes per 1,000 residents, GU25 has a crime rate well 92% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU25 has 2 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU25 are 339.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU25 (VIRGINIA WATER) offers above-average property prices (£1,683,062, 486% above national average), low crime (92% below national average), 2 nearby schools, and excellent broadband (339 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 339
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 339
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

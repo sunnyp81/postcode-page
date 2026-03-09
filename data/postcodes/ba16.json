@@ -1,0 +1,195 @@
+{
+  "code": "BA16",
+  "name": "STREET",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "bath",
+  "adjacent": [
+    "BA15"
+  ],
+  "property": {
+    "avgPrice": 291057,
+    "medianPrice": 265000,
+    "priceChange1y": 1.1,
+    "priceChange5y": 0,
+    "transactions12m": 561,
+    "byType": {
+      "detached": {
+        "avg": 443358,
+        "count": 109
+      },
+      "semi": {
+        "avg": 275855,
+        "count": 198
+      },
+      "terraced": {
+        "avg": 262286,
+        "count": 132
+      },
+      "flat": {
+        "avg": 132580,
+        "count": 85
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 307815
+      },
+      {
+        "year": 2024,
+        "avg": 280699
+      },
+      {
+        "year": 2025,
+        "avg": 283866
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 22.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -72.2,
+    "byType": {
+      "violentCrime": 10.3,
+      "burglary": 0.5,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 3.3,
+      "otherTheft": 3.5,
+      "other": 4.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hindhayes Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Walton Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Millfield School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Avalon School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brookside Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 323,
+    "avgUpload": 58,
+    "superfastPct": 93,
+    "ultrafastPct": 80,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bath Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BA16 covers STREET in Somerset, South West.",
+    "priceVsCounty": "The average property price in BA16 is £291,057, which is 22% below the Somerset average of £373,759.",
+    "priceVsNational": "Property values in BA16 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in BA16 have risen 1.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 22.6 recorded crimes per 1,000 residents, BA16 has a crime rate well 72% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BA16 has 7 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BA16 are 323.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BA16 (STREET) offers property prices near the national average (£291,057), low crime (72% below national average), 7 nearby schools, and excellent broadband (323 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 323
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 323
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

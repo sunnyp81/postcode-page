@@ -1,0 +1,197 @@
+{
+  "code": "WD18",
+  "name": "WATFORD",
+  "county": "greater-london",
+  "region": "london",
+  "city": "watford",
+  "adjacent": [
+    "WD17",
+    "WD19"
+  ],
+  "property": {
+    "avgPrice": 454940,
+    "medianPrice": 374000,
+    "priceChange1y": -17.2,
+    "priceChange5y": 0,
+    "transactions12m": 1183,
+    "byType": {
+      "detached": {
+        "avg": 755472,
+        "count": 24
+      },
+      "semi": {
+        "avg": 600723,
+        "count": 81
+      },
+      "terraced": {
+        "avg": 430585,
+        "count": 405
+      },
+      "flat": {
+        "avg": 312685,
+        "count": 622
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 370425
+      },
+      {
+        "year": 2024,
+        "avg": 560394
+      },
+      {
+        "year": 2025,
+        "avg": 463966
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 94.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 15.7,
+    "byType": {
+      "violentCrime": 34.1,
+      "burglary": 2.1,
+      "vehicleCrime": 3.9,
+      "antisocialBehaviour": 19.8,
+      "otherTheft": 16.6,
+      "other": 17.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 2,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Chater Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chater Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Field Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Watford Field School (Infant & Nursery)",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Anthony's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 95807,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 15,
+    "privateRent": 12,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 364,
+    "avgUpload": 66,
+    "superfastPct": 98,
+    "ultrafastPct": 92,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Three Rivers",
+    "bandD": 2099,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 9.9,
+    "imdRank": 7742,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WD18 encompasses WATFORD and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in WD18 is £454,940, which is 65% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in WD18 cost 58.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WD18 have fallen 17.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 94.1 recorded crimes per 1,000 residents, WD18 has a crime rate 16% above the national average of 81.3 per 1,000.",
+    "schoolContext": "WD18 has 12 schools within or near its boundaries, including 2 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WD18 are 364.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WD18 (WATFORD) offers above-average property prices (£454,940, 59% above national average), higher-than-average crime (16% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (364 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 364
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 364
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

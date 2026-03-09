@@ -1,0 +1,198 @@
+{
+  "code": "WF2",
+  "name": "WAKEFIELD",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "wakefield",
+  "adjacent": [
+    "WF1",
+    "WF3",
+    "WF4"
+  ],
+  "property": {
+    "avgPrice": 306061,
+    "medianPrice": 212000,
+    "priceChange1y": -1.1,
+    "priceChange5y": 0,
+    "transactions12m": 1883,
+    "byType": {
+      "detached": {
+        "avg": 402464,
+        "count": 510
+      },
+      "semi": {
+        "avg": 209700,
+        "count": 783
+      },
+      "terraced": {
+        "avg": 164851,
+        "count": 425
+      },
+      "flat": {
+        "avg": 122947,
+        "count": 98
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 384428
+      },
+      {
+        "year": 2024,
+        "avg": 269890
+      },
+      {
+        "year": 2025,
+        "avg": 266985
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 146.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 80.4,
+    "byType": {
+      "violentCrime": 61.4,
+      "burglary": 4.9,
+      "vehicleCrime": 5.9,
+      "antisocialBehaviour": 12.9,
+      "otherTheft": 28.4,
+      "other": 33.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Mount Junior Infant & Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wakefield Flanshaw Junior and Infant School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Hendal Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Methodist Voluntary Controlled Junior, Infant and Nursery School: With Communication Resource",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Alverthorpe St Paul's CofE (VA) School 3-11yrs",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 845189,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 368,
+    "avgUpload": 66,
+    "superfastPct": 98,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Leeds",
+    "bandD": 1968,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.3,
+    "imdRank": 18909,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WF2 covers WAKEFIELD in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in WF2 is £306,061, which is 10% above the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in WF2 cost 6.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WF2 have fallen 1.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 146.7 recorded crimes per 1,000 residents, WF2 has a crime rate significantly 80% above the national average of 81.3 per 1,000.",
+    "schoolContext": "WF2 has 21 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WF2 are 368.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WF2 (WAKEFIELD) offers property prices near the national average (£306,061), higher-than-average crime (80% above national average), 21 nearby schools, and excellent broadband (368 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 368
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 368
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

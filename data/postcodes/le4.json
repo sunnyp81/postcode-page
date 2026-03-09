@@ -1,0 +1,198 @@
+{
+  "code": "LE4",
+  "name": "LEICESTER",
+  "county": "leicestershire",
+  "region": "east-midlands",
+  "city": "leicester",
+  "adjacent": [
+    "LE3",
+    "LE5",
+    "LE6"
+  ],
+  "property": {
+    "avgPrice": 313334,
+    "medianPrice": 258500,
+    "priceChange1y": -25,
+    "priceChange5y": 0,
+    "transactions12m": 2665,
+    "byType": {
+      "detached": {
+        "avg": 353452,
+        "count": 387
+      },
+      "semi": {
+        "avg": 266605,
+        "count": 1197
+      },
+      "terraced": {
+        "avg": 234348,
+        "count": 828
+      },
+      "flat": {
+        "avg": 134741,
+        "count": 151
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 282669
+      },
+      {
+        "year": 2024,
+        "avg": 375193
+      },
+      {
+        "year": 2025,
+        "avg": 281501
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 87.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 7.9,
+    "byType": {
+      "violentCrime": 32.8,
+      "burglary": 3.9,
+      "vehicleCrime": 5.8,
+      "antisocialBehaviour": 14.5,
+      "otherTheft": 10.3,
+      "other": 20.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 37,
+    "outstanding": 3,
+    "good": 6,
+    "requiresImprovement": 4,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Catherine Infant School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Catherine Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Rushey Mead Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wyvern Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wolsey House Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 388348,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 22,
+    "socialRent": 23,
+    "privateRent": 27,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 389,
+    "avgUpload": 70,
+    "superfastPct": 99,
+    "ultrafastPct": 97,
+    "gigabitPct": 97,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Leicester Council",
+    "bandD": 2251,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 30.9,
+    "imdRank": 22857,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LE4 encompasses LEICESTER and its surrounding areas in Leicestershire, East Midlands.",
+    "priceVsCounty": "The average property price in LE4 is £313,334, which is 10% below the Leicestershire average of £348,118.",
+    "priceVsNational": "Properties in LE4 cost 9.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LE4 have fallen 25.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 87.7 recorded crimes per 1,000 residents, LE4 has a crime rate 8% above the national average of 81.3 per 1,000.",
+    "schoolContext": "LE4 has 37 schools within or near its boundaries, including 3 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LE4 are 389.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LE4 (LEICESTER) offers property prices near the national average (£313,334), strong school provision (3 Outstanding-rated schools), and excellent broadband (389 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 348118,
+      "crime": 75,
+      "broadband": 389
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 389
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

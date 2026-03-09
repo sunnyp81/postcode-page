@@ -1,0 +1,198 @@
+{
+  "code": "S11",
+  "name": "SHEFFIELD",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "sheffield",
+  "adjacent": [
+    "S10",
+    "S12",
+    "S13"
+  ],
+  "property": {
+    "avgPrice": 409272,
+    "medianPrice": 348000,
+    "priceChange1y": -1.7,
+    "priceChange5y": 0,
+    "transactions12m": 1395,
+    "byType": {
+      "detached": {
+        "avg": 711839,
+        "count": 218
+      },
+      "semi": {
+        "avg": 456810,
+        "count": 358
+      },
+      "terraced": {
+        "avg": 310145,
+        "count": 514
+      },
+      "flat": {
+        "avg": 226188,
+        "count": 237
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 433357
+      },
+      {
+        "year": 2024,
+        "avg": 399412
+      },
+      {
+        "year": 2025,
+        "avg": 392608
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 59.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -26.6,
+    "byType": {
+      "violentCrime": 15.9,
+      "burglary": 5,
+      "vehicleCrime": 6.7,
+      "antisocialBehaviour": 9.1,
+      "otherTheft": 12.7,
+      "other": 10.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Mylnhurst Preparatory School and Nursery",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Silverdale School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Porter Croft Church of England Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "High Storrs School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Clifford All Saints CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 582493,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 23,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 346,
+    "avgUpload": 62,
+    "superfastPct": 99,
+    "ultrafastPct": 86,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Sheffield",
+    "bandD": 2166,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.1,
+    "imdRank": 18742,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "S11 is the postcode district for SHEFFIELD, located in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in S11 is £409,272, which is 77% above the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in S11 cost 42.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in S11 have fallen 1.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 59.7 recorded crimes per 1,000 residents, S11 has a crime rate well 27% below the national average of 81.3 per 1,000.",
+    "schoolContext": "S11 has 10 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in S11 are 346.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "S11 (SHEFFIELD) offers above-average property prices (£409,272, 43% above national average), low crime (27% below national average), 10 nearby schools, and excellent broadband (346 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 346
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 346
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "TA9",
+  "name": "HIGHBRIDGE",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "taunton",
+  "adjacent": [
+    "TA8",
+    "TA10",
+    "TA11"
+  ],
+  "property": {
+    "avgPrice": 310699,
+    "medianPrice": 268848,
+    "priceChange1y": -4.2,
+    "priceChange5y": 0,
+    "transactions12m": 658,
+    "byType": {
+      "detached": {
+        "avg": 427970,
+        "count": 182
+      },
+      "semi": {
+        "avg": 274530,
+        "count": 207
+      },
+      "terraced": {
+        "avg": 227704,
+        "count": 141
+      },
+      "flat": {
+        "avg": 107877,
+        "count": 71
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 345955
+      },
+      {
+        "year": 2024,
+        "avg": 299242
+      },
+      {
+        "year": 2025,
+        "avg": 286553
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 21.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -74,
+    "byType": {
+      "violentCrime": 8.5,
+      "burglary": 0.5,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 3.2,
+      "otherTheft": 4.2,
+      "other": 4.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Sedgemoor Manor School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Churchfield Church School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "East Brent Church of England First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mark First and Pre-School CE Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The King Alfred School an Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 26693,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 281,
+    "avgUpload": 51,
+    "superfastPct": 89,
+    "ultrafastPct": 69,
+    "gigabitPct": 66,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Taunton Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TA9 encompasses HIGHBRIDGE and its surrounding areas in Somerset, South West.",
+    "priceVsCounty": "The average property price in TA9 is £310,699, which is 17% below the Somerset average of £373,759.",
+    "priceVsNational": "Properties in TA9 cost 8.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TA9 have fallen 4.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 21.1 recorded crimes per 1,000 residents, TA9 has a crime rate well 74% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TA9 has 8 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TA9 are 281.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TA9 (HIGHBRIDGE) offers property prices near the national average (£310,699), low crime (74% below national average), 8 nearby schools, and excellent broadband (281 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 281
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 281
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

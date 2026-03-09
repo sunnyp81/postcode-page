@@ -1,0 +1,198 @@
+{
+  "code": "CA12",
+  "name": "KESWICK",
+  "county": "cumbria",
+  "region": "north-west",
+  "city": "carlisle",
+  "adjacent": [
+    "CA11",
+    "CA13",
+    "CA14"
+  ],
+  "property": {
+    "avgPrice": 466172,
+    "medianPrice": 385000,
+    "priceChange1y": -23.8,
+    "priceChange5y": 0,
+    "transactions12m": 405,
+    "byType": {
+      "detached": {
+        "avg": 649787,
+        "count": 113
+      },
+      "semi": {
+        "avg": 414699,
+        "count": 71
+      },
+      "terraced": {
+        "avg": 369692,
+        "count": 103
+      },
+      "flat": {
+        "avg": 229844,
+        "count": 72
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 462213
+      },
+      {
+        "year": 2024,
+        "avg": 520548
+      },
+      {
+        "year": 2025,
+        "avg": 396516
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 11.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -86.2,
+    "byType": {
+      "violentCrime": 4.3,
+      "burglary": 0.2,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1.1,
+      "otherTheft": 2.7,
+      "other": 2.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Borrowdale CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Herbert's CofE (VA) Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Keswick School",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Braithwaite CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bassenthwaite Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 234,
+    "avgUpload": 42,
+    "superfastPct": 91,
+    "ultrafastPct": 53,
+    "gigabitPct": 53,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cumberland",
+    "bandD": 2175,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CA12 covers KESWICK in Cumbria, North West.",
+    "priceVsCounty": "The average property price in CA12 is £466,172, which is 91% above the Cumbria average of £244,524.",
+    "priceVsNational": "Properties in CA12 cost 62.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CA12 have fallen 23.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 11.2 recorded crimes per 1,000 residents, CA12 has a crime rate well 86% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CA12 has 7 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CA12 are 234.0 Mbps, with 99% of premises having access to superfast broadband and 79% with full fibre (FTTP) connectivity.",
+    "synthesis": "CA12 (KESWICK) offers above-average property prices (£466,172, 62% above national average), low crime (86% below national average), 7 nearby schools, and excellent broadband (234 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 244524,
+      "crime": 75,
+      "broadband": 234
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 234
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

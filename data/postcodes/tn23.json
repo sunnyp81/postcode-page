@@ -1,0 +1,198 @@
+{
+  "code": "TN23",
+  "name": "ASHFORD",
+  "county": "kent",
+  "region": "south-east",
+  "city": "tunbridge-wells",
+  "adjacent": [
+    "TN22",
+    "TN24",
+    "TN25"
+  ],
+  "property": {
+    "avgPrice": 336540,
+    "medianPrice": 285000,
+    "priceChange1y": 3.2,
+    "priceChange5y": 0,
+    "transactions12m": 1976,
+    "byType": {
+      "detached": {
+        "avg": 484637,
+        "count": 430
+      },
+      "semi": {
+        "avg": 307422,
+        "count": 466
+      },
+      "terraced": {
+        "avg": 270656,
+        "count": 685
+      },
+      "flat": {
+        "avg": 199055,
+        "count": 343
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 357657
+      },
+      {
+        "year": 2024,
+        "avg": 320736
+      },
+      {
+        "year": 2025,
+        "avg": 330854
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 98.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 20.8,
+    "byType": {
+      "violentCrime": 35.3,
+      "burglary": 1.9,
+      "vehicleCrime": 1.8,
+      "antisocialBehaviour": 16.3,
+      "otherTheft": 22.7,
+      "other": 20.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 2,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Victoria Road Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Great Chart Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Ashford, St Mary's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Goldwyn School",
+        "type": "Other",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "The Wyvern School (Buxford)",
+        "type": "Other",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 140936,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 356,
+    "avgUpload": 64,
+    "superfastPct": 96,
+    "ultrafastPct": 90,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Ashford",
+    "bandD": 2101,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.5,
+    "imdRank": 15484,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TN23 encompasses ASHFORD and its surrounding areas in Kent, South East.",
+    "priceVsCounty": "The average property price in TN23 is £336,540, which is 25% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in TN23 cost 17.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TN23 have risen 3.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 98.2 recorded crimes per 1,000 residents, TN23 has a crime rate significantly 21% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TN23 has 18 schools within or near its boundaries, including 2 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TN23 are 356.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TN23 (ASHFORD) offers property prices near the national average (£336,540), higher-than-average crime (21% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (356 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 356
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 356
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "CF35",
+  "name": "BRIDGEND",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF34",
+    "CF36",
+    "CF37"
+  ],
+  "property": {
+    "avgPrice": 280500,
+    "medianPrice": 240000,
+    "priceChange1y": -4,
+    "priceChange5y": 0,
+    "transactions12m": 861,
+    "byType": {
+      "detached": {
+        "avg": 372850,
+        "count": 292
+      },
+      "semi": {
+        "avg": 231817,
+        "count": 368
+      },
+      "terraced": {
+        "avg": 188544,
+        "count": 141
+      },
+      "flat": {
+        "avg": 157922,
+        "count": 20
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 261845
+      },
+      {
+        "year": 2024,
+        "avg": 294469
+      },
+      {
+        "year": 2025,
+        "avg": 282831
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 2.4,
+      "burglary": 0,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 0.7,
+      "otherTheft": 0.3,
+      "other": 1.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Coety Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Coychurch (Llangrallo) Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Croesty Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Llangan C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pencoed Comprehensive School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 319,
+    "avgUpload": 57,
+    "superfastPct": 93,
+    "ultrafastPct": 78,
+    "gigabitPct": 77,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF35 is the postcode district for BRIDGEND, located in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF35 is £280,500, broadly in line with the Cardiff average of £275,506.",
+    "priceVsNational": "Property values in CF35 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in CF35 have fallen 4.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, CF35 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CF35 has 7 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF35 are 319.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF35 (BRIDGEND) offers property prices near the national average (£280,500), low crime (94% below national average), 7 nearby schools, and excellent broadband (319 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 319
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 319
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

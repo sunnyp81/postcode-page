@@ -1,0 +1,197 @@
+{
+  "code": "PO1",
+  "name": "PORTSMOUTH",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "portsmouth",
+  "adjacent": [
+    "PO2",
+    "PO3"
+  ],
+  "property": {
+    "avgPrice": 369378,
+    "medianPrice": 223000,
+    "priceChange1y": -16,
+    "priceChange5y": 0,
+    "transactions12m": 853,
+    "byType": {
+      "detached": {
+        "avg": 485917,
+        "count": 6
+      },
+      "semi": {
+        "avg": 461125,
+        "count": 8
+      },
+      "terraced": {
+        "avg": 254806,
+        "count": 490
+      },
+      "flat": {
+        "avg": 235332,
+        "count": 281
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 309920
+      },
+      {
+        "year": 2024,
+        "avg": 424522
+      },
+      {
+        "year": 2025,
+        "avg": 356806
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 133.8,
+      "burglary": 7.9,
+      "vehicleCrime": 11.6,
+      "antisocialBehaviour": 35.4,
+      "otherTheft": 67.2,
+      "other": 70.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Manor Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Jude's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St George's Beneficial Church of England (Voluntary Controlled) Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John's Cathedral Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Edmund's Catholic School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 214321,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 18,
+    "privateRent": 26,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 333,
+    "avgUpload": 60,
+    "superfastPct": 92,
+    "ultrafastPct": 86,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Portsmouth Council",
+    "bandD": 2319,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.9,
+    "imdRank": 20660,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PO1 is the postcode district for PORTSMOUTH, located in Hampshire, South East.",
+    "priceVsCounty": "The average property price in PO1 is £369,378, which is 14% below the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in PO1 cost 28.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PO1 have fallen 16.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, PO1 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "PO1 has 12 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PO1 are 333.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PO1 (PORTSMOUTH) offers above-average property prices (£369,378, 29% above national average), higher-than-average crime (269% above national average), 12 nearby schools, and excellent broadband (333 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 333
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 333
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

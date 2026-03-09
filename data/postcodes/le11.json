@@ -1,0 +1,198 @@
+{
+  "code": "LE11",
+  "name": "LOUGHBOROUGH",
+  "county": "leicestershire",
+  "region": "east-midlands",
+  "city": "leicester",
+  "adjacent": [
+    "LE10",
+    "LE12",
+    "LE13"
+  ],
+  "property": {
+    "avgPrice": 273793,
+    "medianPrice": 236000,
+    "priceChange1y": -8.1,
+    "priceChange5y": 0,
+    "transactions12m": 2246,
+    "byType": {
+      "detached": {
+        "avg": 379868,
+        "count": 536
+      },
+      "semi": {
+        "avg": 245343,
+        "count": 722
+      },
+      "terraced": {
+        "avg": 205038,
+        "count": 603
+      },
+      "flat": {
+        "avg": 161349,
+        "count": 269
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 267484
+      },
+      {
+        "year": 2024,
+        "avg": 288395
+      },
+      {
+        "year": 2025,
+        "avg": 264924
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 140.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 72.7,
+    "byType": {
+      "violentCrime": 41.8,
+      "burglary": 7.6,
+      "vehicleCrime": 6.2,
+      "antisocialBehaviour": 18.6,
+      "otherTheft": 38.4,
+      "other": 27.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 29,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Thorpe Acre Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Thorpe Acre Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Loughborough Grammar School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Loughborough High School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fairfield Prep School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 188385,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 12,
+    "privateRent": 16,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 369,
+    "avgUpload": 66,
+    "superfastPct": 99,
+    "ultrafastPct": 94,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Charnwood",
+    "bandD": 2119,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.2,
+    "imdRank": 10708,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LE11 covers LOUGHBOROUGH in Leicestershire, East Midlands.",
+    "priceVsCounty": "The average property price in LE11 is £273,793, which is 21% below the Leicestershire average of £348,118.",
+    "priceVsNational": "Property values in LE11 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in LE11 have fallen 8.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 140.4 recorded crimes per 1,000 residents, LE11 has a crime rate significantly 73% above the national average of 81.3 per 1,000.",
+    "schoolContext": "LE11 has 29 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LE11 are 369.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LE11 (LOUGHBOROUGH) offers property prices near the national average (£273,793), higher-than-average crime (73% above national average), 29 nearby schools, and excellent broadband (369 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 348118,
+      "crime": 75,
+      "broadband": 369
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 369
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

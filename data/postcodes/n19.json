@@ -1,0 +1,198 @@
+{
+  "code": "N19",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "N18",
+    "N20",
+    "N21"
+  ],
+  "property": {
+    "avgPrice": 769162,
+    "medianPrice": 600000,
+    "priceChange1y": -1.9,
+    "priceChange5y": 0,
+    "transactions12m": 908,
+    "byType": {
+      "detached": {
+        "avg": 1796250,
+        "count": 4
+      },
+      "semi": {
+        "avg": 1655660,
+        "count": 23
+      },
+      "terraced": {
+        "avg": 1207091,
+        "count": 230
+      },
+      "flat": {
+        "avg": 545800,
+        "count": 607
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 843293
+      },
+      {
+        "year": 2024,
+        "avg": 736339
+      },
+      {
+        "year": 2025,
+        "avg": 722288
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 70.5,
+      "burglary": 15.7,
+      "vehicleCrime": 22.5,
+      "antisocialBehaviour": 88.1,
+      "otherTheft": 64,
+      "other": 49.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 2,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Brookfield Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Margaret McMillan Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Duncombe Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hargrave Park Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Yerbury Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 216943,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 14,
+    "socialRent": 34,
+    "privateRent": 33,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 368,
+    "avgUpload": 66,
+    "superfastPct": 97,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Camden",
+    "bandD": 1900,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.1,
+    "imdRank": 16763,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "N19 is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in N19 is £769,162, which is 41% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in N19 cost 168.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in N19 have fallen 1.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, N19 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "N19 has 10 schools within or near its boundaries, including 2 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in N19 are 368.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "N19 (LONDON) offers above-average property prices (£769,162, 168% above national average), higher-than-average crime (269% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (368 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 368
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 368
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

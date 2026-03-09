@@ -1,0 +1,198 @@
+{
+  "code": "HX4",
+  "name": "HALIFAX",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "halifax",
+  "adjacent": [
+    "HX3",
+    "HX5",
+    "HX6"
+  ],
+  "property": {
+    "avgPrice": 267437,
+    "medianPrice": 215000,
+    "priceChange1y": 11.3,
+    "priceChange5y": 0,
+    "transactions12m": 613,
+    "byType": {
+      "detached": {
+        "avg": 455222,
+        "count": 122
+      },
+      "semi": {
+        "avg": 256459,
+        "count": 130
+      },
+      "terraced": {
+        "avg": 189603,
+        "count": 274
+      },
+      "flat": {
+        "avg": 168970,
+        "count": 60
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 262394
+      },
+      {
+        "year": 2024,
+        "avg": 255350
+      },
+      {
+        "year": 2025,
+        "avg": 284212
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 8.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -89.9,
+    "byType": {
+      "violentCrime": 3.8,
+      "burglary": 0.4,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 1.2,
+      "otherTheft": 0.6,
+      "other": 1.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Holywell Green Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Barkisland CofE VA Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Greetland Academy",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "West Vale Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bowling Green Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 447847,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 15,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 251,
+    "avgUpload": 45,
+    "superfastPct": 91,
+    "ultrafastPct": 58,
+    "gigabitPct": 58,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Kirklees",
+    "bandD": 2102,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.2,
+    "imdRank": 19120,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HX4 encompasses HALIFAX and its surrounding areas in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HX4 is £267,437, broadly in line with the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in HX4 cost 6.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HX4 have risen 11.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 8.2 recorded crimes per 1,000 residents, HX4 has a crime rate well 90% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HX4 has 5 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HX4 are 251.0 Mbps, with 99% of premises having access to superfast broadband and 84% with full fibre (FTTP) connectivity.",
+    "synthesis": "HX4 (HALIFAX) offers property prices near the national average (£267,437), low crime (90% below national average), 5 nearby schools, and excellent broadband (251 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 251
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 251
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

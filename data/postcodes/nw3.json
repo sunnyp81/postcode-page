@@ -1,0 +1,198 @@
+{
+  "code": "NW3",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "NW2",
+    "NW4",
+    "NW5"
+  ],
+  "property": {
+    "avgPrice": 1635033,
+    "medianPrice": 970000,
+    "priceChange1y": -9.1,
+    "priceChange5y": 0,
+    "transactions12m": 1985,
+    "byType": {
+      "detached": {
+        "avg": 6134438,
+        "count": 73
+      },
+      "semi": {
+        "avg": 4128729,
+        "count": 92
+      },
+      "terraced": {
+        "avg": 2567757,
+        "count": 216
+      },
+      "flat": {
+        "avg": 1038110,
+        "count": 1473
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1618123
+      },
+      {
+        "year": 2024,
+        "avg": 1703445
+      },
+      {
+        "year": 2025,
+        "avg": 1548307
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 188.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 132,
+    "byType": {
+      "violentCrime": 38.5,
+      "burglary": 13.5,
+      "vehicleCrime": 16.6,
+      "antisocialBehaviour": 39.8,
+      "otherTheft": 55.9,
+      "other": 24.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 36,
+    "outstanding": 2,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Heath School",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Fleet Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "New End Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Gospel Oak Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fitzjohn's Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 405050,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 13,
+    "privateRent": 30,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 362,
+    "avgUpload": 65,
+    "superfastPct": 99,
+    "ultrafastPct": 89,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Barnet",
+    "bandD": 1836,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.1,
+    "imdRank": 13803,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NW3 covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in NW3 is £1,635,033, which is 25% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in NW3 cost 469.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NW3 have fallen 9.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 188.6 recorded crimes per 1,000 residents, NW3 has a crime rate significantly 132% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NW3 has 36 schools within or near its boundaries, including 2 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NW3 are 362.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NW3 (LONDON) offers above-average property prices (£1,635,033, 470% above national average), higher-than-average crime (132% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (362 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 362
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 362
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

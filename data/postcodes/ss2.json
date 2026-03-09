@@ -1,0 +1,198 @@
+{
+  "code": "SS2",
+  "name": "SOUTHEND-ON-SEA",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "southend-on-sea",
+  "adjacent": [
+    "SS1",
+    "SS3",
+    "SS4"
+  ],
+  "property": {
+    "avgPrice": 305649,
+    "medianPrice": 300000,
+    "priceChange1y": 6.4,
+    "priceChange5y": 0,
+    "transactions12m": 1552,
+    "byType": {
+      "detached": {
+        "avg": 418479,
+        "count": 143
+      },
+      "semi": {
+        "avg": 350462,
+        "count": 498
+      },
+      "terraced": {
+        "avg": 304413,
+        "count": 426
+      },
+      "flat": {
+        "avg": 186488,
+        "count": 413
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 318967
+      },
+      {
+        "year": 2024,
+        "avg": 290918
+      },
+      {
+        "year": 2025,
+        "avg": 309441
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 195.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 140,
+    "byType": {
+      "violentCrime": 83.7,
+      "burglary": 4.3,
+      "vehicleCrime": 6.5,
+      "antisocialBehaviour": 18.5,
+      "otherTheft": 38.1,
+      "other": 43.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Mary's, Prittlewell, CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Southend High School for Girls",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Southend YMCA Community School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Victory Park Academy",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Sutton House Academy",
+        "type": "Other",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 185256,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 12,
+    "privateRent": 24,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 378,
+    "avgUpload": 68,
+    "superfastPct": 98,
+    "ultrafastPct": 94,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Southend On Sea Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.4,
+    "imdRank": 16811,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SS2 covers SOUTHEND-ON-SEA in Essex, East Of England.",
+    "priceVsCounty": "The average property price in SS2 is £305,649, which is 29% below the Essex average of £429,754.",
+    "priceVsNational": "Properties in SS2 cost 6.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SS2 have risen 6.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 195.1 recorded crimes per 1,000 residents, SS2 has a crime rate significantly 140% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SS2 has 13 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SS2 are 378.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SS2 (SOUTHEND-ON-SEA) offers property prices near the national average (£305,649), higher-than-average crime (140% above national average), 13 nearby schools, and excellent broadband (378 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 378
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 378
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

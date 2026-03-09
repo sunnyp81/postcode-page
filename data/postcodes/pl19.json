@@ -1,0 +1,198 @@
+{
+  "code": "PL19",
+  "name": "TAVISTOCK",
+  "county": "devon",
+  "region": "south-west",
+  "city": "plymouth",
+  "adjacent": [
+    "PL18",
+    "PL20",
+    "PL21"
+  ],
+  "property": {
+    "avgPrice": 348394,
+    "medianPrice": 295000,
+    "priceChange1y": 8.2,
+    "priceChange5y": 0,
+    "transactions12m": 892,
+    "byType": {
+      "detached": {
+        "avg": 480728,
+        "count": 306
+      },
+      "semi": {
+        "avg": 319913,
+        "count": 165
+      },
+      "terraced": {
+        "avg": 259946,
+        "count": 211
+      },
+      "flat": {
+        "avg": 180667,
+        "count": 152
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 363735
+      },
+      {
+        "year": 2024,
+        "avg": 328734
+      },
+      {
+        "year": 2025,
+        "avg": 355671
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 13.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -83.4,
+    "byType": {
+      "violentCrime": 5.5,
+      "burglary": 0.2,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1.9,
+      "otherTheft": 2.1,
+      "other": 3.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Mary Tavy and Brentor Community Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Tavistock Primary & Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Mount Kelly",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Peter's Church of England (VA) Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Rumon's Church of England (VC) Infants School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 58923,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 24,
+    "socialRent": 10,
+    "privateRent": 15,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 299,
+    "avgUpload": 54,
+    "superfastPct": 81,
+    "ultrafastPct": 73,
+    "gigabitPct": 73,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "West Devon",
+    "bandD": 2347,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.1,
+    "imdRank": 16270,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PL19 is the postcode district for TAVISTOCK, located in Devon, South West.",
+    "priceVsCounty": "The average property price in PL19 is £348,394, which is 10% below the Devon average of £385,452.",
+    "priceVsNational": "Properties in PL19 cost 21.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PL19 have risen 8.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 13.5 recorded crimes per 1,000 residents, PL19 has a crime rate well 83% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PL19 has 12 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PL19 are 299.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PL19 (TAVISTOCK) offers above-average property prices (£348,394, 21% above national average), low crime (83% below national average), 12 nearby schools, and excellent broadband (299 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 299
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 299
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "code": "WC1N",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 1244027,
+    "medianPrice": 755000,
+    "priceChange1y": 13.1,
+    "priceChange5y": 0,
+    "transactions12m": 122,
+    "byType": {
+      "detached": {
+        "avg": 2363651,
+        "count": 0
+      },
+      "semi": {
+        "avg": 2120000,
+        "count": 2
+      },
+      "terraced": {
+        "avg": 2715000,
+        "count": 14
+      },
+      "flat": {
+        "avg": 813383,
+        "count": 87
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1408838
+      },
+      {
+        "year": 2024,
+        "avg": 1103280
+      },
+      {
+        "year": 2025,
+        "avg": 1247286
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 165.7,
+      "burglary": 28.5,
+      "vehicleCrime": 20.6,
+      "antisocialBehaviour": 125,
+      "otherTheft": 574.7,
+      "other": 103.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 1,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Thomas Coram Centre",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St George the Martyr Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Children's Hospital School at Gt Ormond Street and UCH",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 216943,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 14,
+    "socialRent": 34,
+    "privateRent": 33,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 382,
+    "avgUpload": 69,
+    "superfastPct": 98,
+    "ultrafastPct": 95,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Camden",
+    "bandD": 1900,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.1,
+    "imdRank": 16763,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WC1N encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in WC1N is £1,244,027, broadly in line with the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in WC1N cost 333.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WC1N have risen 13.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, WC1N has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "WC1N has 3 schools within or near its boundaries, including 1 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WC1N are 382.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WC1N (LONDON) offers above-average property prices (£1,244,027, 333% above national average), higher-than-average crime (269% above national average), 3 nearby schools, and excellent broadband (382 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 382
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 382
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

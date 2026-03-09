@@ -1,0 +1,197 @@
+{
+  "code": "SA3",
+  "name": "SWANSEA",
+  "county": "west-wales",
+  "region": "wales",
+  "city": "swansea",
+  "adjacent": [
+    "SA2",
+    "SA4",
+    "SA5"
+  ],
+  "property": {
+    "avgPrice": 396387,
+    "medianPrice": 355000,
+    "priceChange1y": -1.3,
+    "priceChange5y": 0,
+    "transactions12m": 1205,
+    "byType": {
+      "detached": {
+        "avg": 529712,
+        "count": 476
+      },
+      "semi": {
+        "avg": 333718,
+        "count": 307
+      },
+      "terraced": {
+        "avg": 287180,
+        "count": 181
+      },
+      "flat": {
+        "avg": 199420,
+        "count": 161
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 388564
+      },
+      {
+        "year": 2024,
+        "avg": 402758
+      },
+      {
+        "year": 2025,
+        "avg": 397330
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.8,
+      "burglary": 0,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.3,
+      "other": 0.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Grange Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oystermouth Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mayals Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Newton Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Whitestone Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 251304,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 288,
+    "avgUpload": 52,
+    "superfastPct": 93,
+    "ultrafastPct": 72,
+    "gigabitPct": 67,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swansea Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "SA3 is the postcode district for SWANSEA, located in West Wales, Wales.",
+    "priceVsCounty": "The average property price in SA3 is £396,387, which is 52% above the West Wales average of £261,315.",
+    "priceVsNational": "Properties in SA3 cost 38.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SA3 have fallen 1.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SA3 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SA3 has 13 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SA3 are 288.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SA3 (SWANSEA) offers above-average property prices (£396,387, 38% above national average), low crime (94% below national average), 13 nearby schools, and excellent broadband (288 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 261315,
+      "crime": 75,
+      "broadband": 288
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 288
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

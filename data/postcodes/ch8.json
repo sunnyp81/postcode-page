@@ -1,0 +1,195 @@
+{
+  "code": "CH8",
+  "name": "HOLYWELL",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "chester",
+  "adjacent": [
+    "CH7"
+  ],
+  "property": {
+    "avgPrice": 230334,
+    "medianPrice": 180000,
+    "priceChange1y": 13.1,
+    "priceChange5y": 0,
+    "transactions12m": 801,
+    "byType": {
+      "detached": {
+        "avg": 315320,
+        "count": 301
+      },
+      "semi": {
+        "avg": 165703,
+        "count": 282
+      },
+      "terraced": {
+        "avg": 141487,
+        "count": 137
+      },
+      "flat": {
+        "avg": 133886,
+        "count": 22
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 234603
+      },
+      {
+        "year": 2024,
+        "avg": 215473
+      },
+      {
+        "year": 2025,
+        "avg": 243656
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 2.1,
+      "burglary": 0,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.9,
+      "otherTheft": 0.9,
+      "other": 0.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ysgol Bryn Garth",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Greenfield C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Gymraeg Mornant",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Gynradd Trelogan",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Bryn Pennant C.P.",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 98202,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 342,
+    "avgUpload": 62,
+    "superfastPct": 93,
+    "ultrafastPct": 84,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Chester Council",
+    "bandD": 2098,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CH8 covers HOLYWELL in Cheshire, North West.",
+    "priceVsCounty": "The average property price in CH8 is £230,334, which is 26% below the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in CH8 cost 19.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CH8 have risen 13.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, CH8 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CH8 has 14 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CH8 are 342.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CH8 (HOLYWELL) offers affordable property prices (£230,334, 20% below national average), low crime (94% below national average), 14 nearby schools, and excellent broadband (342 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 342
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 342
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

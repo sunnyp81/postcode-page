@@ -1,0 +1,198 @@
+{
+  "code": "SW3",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SW2",
+    "SW4",
+    "SW5"
+  ],
+  "property": {
+    "avgPrice": 2472088,
+    "medianPrice": 1400000,
+    "priceChange1y": -3.7,
+    "priceChange5y": 0,
+    "transactions12m": 1110,
+    "byType": {
+      "detached": {
+        "avg": 9218750,
+        "count": 4
+      },
+      "semi": {
+        "avg": 8064085,
+        "count": 13
+      },
+      "terraced": {
+        "avg": 4574665,
+        "count": 253
+      },
+      "flat": {
+        "avg": 1491613,
+        "count": 757
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 2756423
+      },
+      {
+        "year": 2024,
+        "avg": 2345716
+      },
+      {
+        "year": 2025,
+        "avg": 2259109
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 274.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 238.1,
+    "byType": {
+      "violentCrime": 51.5,
+      "burglary": 11.2,
+      "vehicleCrime": 32.9,
+      "antisocialBehaviour": 43.5,
+      "otherTheft": 103.5,
+      "other": 32.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 3,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Chelsea Open Air Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Marlborough Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Christ Church CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Oratory Roman Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Garden House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 209996,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 11,
+    "socialRent": 28,
+    "privateRent": 39,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 357,
+    "avgUpload": 64,
+    "superfastPct": 97,
+    "ultrafastPct": 88,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Westminster",
+    "bandD": 914,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.3,
+    "imdRank": 16573,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SW3 encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in SW3 is £2,472,088, which is 89% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SW3 cost 761.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SW3 have fallen 3.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 274.9 recorded crimes per 1,000 residents, SW3 has a crime rate significantly 238% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SW3 has 10 schools within or near its boundaries, including 3 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SW3 are 357.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SW3 (LONDON) offers above-average property prices (£2,472,088, 761% above national average), higher-than-average crime (238% above national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (357 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 357
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 357
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

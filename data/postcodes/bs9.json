@@ -1,0 +1,197 @@
+{
+  "code": "BS9",
+  "name": "BRISTOL",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS8",
+    "BS10",
+    "BS11"
+  ],
+  "property": {
+    "avgPrice": 624635,
+    "medianPrice": 550000,
+    "priceChange1y": 0.8,
+    "priceChange5y": 0,
+    "transactions12m": 1235,
+    "byType": {
+      "detached": {
+        "avg": 986569,
+        "count": 266
+      },
+      "semi": {
+        "avg": 670165,
+        "count": 405
+      },
+      "terraced": {
+        "avg": 508057,
+        "count": 217
+      },
+      "flat": {
+        "avg": 342380,
+        "count": 318
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 606771
+      },
+      {
+        "year": 2024,
+        "avg": 630551
+      },
+      {
+        "year": 2025,
+        "avg": 635894
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 56.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -30.9,
+    "byType": {
+      "violentCrime": 15.3,
+      "burglary": 3.6,
+      "vehicleCrime": 4.4,
+      "antisocialBehaviour": 5.8,
+      "otherTheft": 17.2,
+      "other": 9.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Badminton School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Redmaids' High School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Claremont School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Elmlea Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Westbury-On-Trym Church of England Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 375,
+    "avgUpload": 68,
+    "superfastPct": 98,
+    "ultrafastPct": 93,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.4,
+    "imdRank": 19421,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS9 encompasses BRISTOL and its surrounding areas in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS9 is £624,635, which is 39% above the Bristol average of £449,132.",
+    "priceVsNational": "Properties in BS9 cost 117.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BS9 have risen 0.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 56.2 recorded crimes per 1,000 residents, BS9 has a crime rate well 31% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BS9 has 13 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS9 are 375.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS9 (BRISTOL) offers above-average property prices (£624,635, 118% above national average), low crime (31% below national average), 13 nearby schools, and excellent broadband (375 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 375
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 375
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

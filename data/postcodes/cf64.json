@@ -1,0 +1,195 @@
+{
+  "code": "CF64",
+  "name": "PENARTH",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF63"
+  ],
+  "property": {
+    "avgPrice": 395994,
+    "medianPrice": 325000,
+    "priceChange1y": 5.3,
+    "priceChange5y": 0,
+    "transactions12m": 1718,
+    "byType": {
+      "detached": {
+        "avg": 611560,
+        "count": 369
+      },
+      "semi": {
+        "avg": 422713,
+        "count": 462
+      },
+      "terraced": {
+        "avg": 342048,
+        "count": 460
+      },
+      "flat": {
+        "avg": 217695,
+        "count": 377
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 406822
+      },
+      {
+        "year": 2024,
+        "avg": 381180
+      },
+      {
+        "year": 2025,
+        "avg": 401471
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 31.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -60.9,
+    "byType": {
+      "violentCrime": 11.8,
+      "burglary": 1.2,
+      "vehicleCrime": 2.2,
+      "antisocialBehaviour": 3.9,
+      "otherTheft": 4.2,
+      "other": 8.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Beechwood College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cogan Nursery School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bute Cottage Nursery School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Albert C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cogan Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 135743,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 355,
+    "avgUpload": 64,
+    "superfastPct": 98,
+    "ultrafastPct": 90,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF64 covers PENARTH in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF64 is £395,994, which is 44% above the Cardiff average of £275,506.",
+    "priceVsNational": "Properties in CF64 cost 38.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CF64 have risen 5.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 31.8 recorded crimes per 1,000 residents, CF64 has a crime rate well 61% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CF64 has 20 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF64 are 355.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF64 (PENARTH) offers above-average property prices (£395,994, 38% above national average), low crime (61% below national average), 20 nearby schools, and excellent broadband (355 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 355
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 355
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

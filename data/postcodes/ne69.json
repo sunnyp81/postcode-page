@@ -1,0 +1,172 @@
+{
+  "code": "NE69",
+  "name": "BAMBURGH",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "newcastle-upon-tyne",
+  "adjacent": [
+    "NE68",
+    "NE70",
+    "NE71"
+  ],
+  "property": {
+    "avgPrice": 603801,
+    "medianPrice": 500000,
+    "priceChange1y": -7.3,
+    "priceChange5y": 0,
+    "transactions12m": 35,
+    "byType": {
+      "detached": {
+        "avg": 623955,
+        "count": 10
+      },
+      "semi": {
+        "avg": 501714,
+        "count": 7
+      },
+      "terraced": {
+        "avg": 563929,
+        "count": 7
+      },
+      "flat": {
+        "avg": 435000,
+        "count": 5
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 579120
+      },
+      {
+        "year": 2024,
+        "avg": 636777
+      },
+      {
+        "year": 2025,
+        "avg": 590550
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.1,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 0,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": []
+  },
+  "demographics": {
+    "population": 331420,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 18,
+    "privateRent": 14,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 362,
+    "avgUpload": 65,
+    "superfastPct": 93,
+    "ultrafastPct": 90,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newcastle Upon Tyne Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.1,
+    "imdRank": 16778,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NE69 covers BAMBURGH in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in NE69 is £603,801, which is 128% above the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in NE69 cost 110.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NE69 have fallen 7.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, NE69 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "School data for NE69 is not currently available.",
+    "broadbandContext": "Average broadband download speeds in NE69 are 362.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NE69 (BAMBURGH) offers above-average property prices (£603,801, 110% above national average), low crime (94% below national average), and excellent broadband (362 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 362
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 362
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

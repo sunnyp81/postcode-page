@@ -1,0 +1,197 @@
+{
+  "code": "YO12",
+  "name": "SCARBOROUGH",
+  "county": "north-yorkshire",
+  "region": "yorkshire",
+  "city": "york",
+  "adjacent": [
+    "YO11",
+    "YO13",
+    "YO14"
+  ],
+  "property": {
+    "avgPrice": 206211,
+    "medianPrice": 175000,
+    "priceChange1y": -9.9,
+    "priceChange5y": 0,
+    "transactions12m": 2144,
+    "byType": {
+      "detached": {
+        "avg": 333631,
+        "count": 308
+      },
+      "semi": {
+        "avg": 215976,
+        "count": 658
+      },
+      "terraced": {
+        "avg": 148812,
+        "count": 804
+      },
+      "flat": {
+        "avg": 135717,
+        "count": 288
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 199834
+      },
+      {
+        "year": 2024,
+        "avg": 219314
+      },
+      {
+        "year": 2025,
+        "avg": 197711
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 98.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 21,
+    "byType": {
+      "violentCrime": 33.7,
+      "burglary": 1.8,
+      "vehicleCrime": 1.7,
+      "antisocialBehaviour": 27.1,
+      "otherTheft": 14.7,
+      "other": 19.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 3,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Barrowcliff School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Gladstone Road Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Scarborough, Northstead Community Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Seamer and Irton Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hertford Vale Church of England Voluntary Controlled Primary School, Staxton",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 28133,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 347,
+    "avgUpload": 62,
+    "superfastPct": 96,
+    "ultrafastPct": 85,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "York Council",
+    "bandD": 1725,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "YO12 covers SCARBOROUGH in North Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in YO12 is £206,211, which is 42% below the North Yorkshire average of £354,925.",
+    "priceVsNational": "Properties in YO12 cost 28.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in YO12 have fallen 9.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 98.4 recorded crimes per 1,000 residents, YO12 has a crime rate significantly 21% above the national average of 81.3 per 1,000.",
+    "schoolContext": "YO12 has 14 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in YO12 are 347.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "YO12 (SCARBOROUGH) offers affordable property prices (£206,211, 28% below national average), higher-than-average crime (21% above national average), 14 nearby schools, and excellent broadband (347 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 354925,
+      "crime": 75,
+      "broadband": 347
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 347
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "KT21",
+  "name": "ASHTEAD",
+  "county": "greater-london",
+  "region": "london",
+  "city": "kingston-upon-thames",
+  "adjacent": [
+    "KT20",
+    "KT22",
+    "KT23"
+  ],
+  "property": {
+    "avgPrice": 735505,
+    "medianPrice": 690000,
+    "priceChange1y": -1.1,
+    "priceChange5y": 0,
+    "transactions12m": 536,
+    "byType": {
+      "detached": {
+        "avg": 1058411,
+        "count": 202
+      },
+      "semi": {
+        "avg": 682514,
+        "count": 149
+      },
+      "terraced": {
+        "avg": 579121,
+        "count": 56
+      },
+      "flat": {
+        "avg": 331478,
+        "count": 116
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 753700
+      },
+      {
+        "year": 2024,
+        "avg": 728752
+      },
+      {
+        "year": 2025,
+        "avg": 720454
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 10.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -87.6,
+    "byType": {
+      "violentCrime": 3.6,
+      "burglary": 1.1,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 1.1,
+      "otherTheft": 1,
+      "other": 3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Barnett Wood Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Greville Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Giles' CofE (Aided) Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "City of London Freemen's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "West Ashtead Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 88709,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 12,
+    "privateRent": 12,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 292,
+    "avgUpload": 53,
+    "superfastPct": 97,
+    "ultrafastPct": 69,
+    "gigabitPct": 69,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Mole Valley",
+    "bandD": 2194,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 9.5,
+    "imdRank": 7447,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "KT21 covers ASHTEAD in Greater London, London.",
+    "priceVsCounty": "The average property price in KT21 is £735,505, which is 44% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in KT21 cost 156.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in KT21 have fallen 1.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 10.1 recorded crimes per 1,000 residents, KT21 has a crime rate well 88% below the national average of 81.3 per 1,000.",
+    "schoolContext": "KT21 has 5 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in KT21 are 292.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "KT21 (ASHTEAD) offers above-average property prices (£735,505, 156% above national average), low crime (88% below national average), 5 nearby schools, and excellent broadband (292 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 292
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 292
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

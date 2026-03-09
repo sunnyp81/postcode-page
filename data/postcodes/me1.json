@@ -1,0 +1,197 @@
+{
+  "code": "ME1",
+  "name": "ROCHESTER",
+  "county": "kent",
+  "region": "south-east",
+  "city": "medway",
+  "adjacent": [
+    "ME2",
+    "ME3"
+  ],
+  "property": {
+    "avgPrice": 354503,
+    "medianPrice": 300000,
+    "priceChange1y": -2.9,
+    "priceChange5y": 0,
+    "transactions12m": 1570,
+    "byType": {
+      "detached": {
+        "avg": 533432,
+        "count": 163
+      },
+      "semi": {
+        "avg": 370374,
+        "count": 332
+      },
+      "terraced": {
+        "avg": 318488,
+        "count": 614
+      },
+      "flat": {
+        "avg": 209079,
+        "count": 414
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 379459
+      },
+      {
+        "year": 2024,
+        "avg": 345317
+      },
+      {
+        "year": 2025,
+        "avg": 335251
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 69.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -14.3,
+    "byType": {
+      "violentCrime": 24.9,
+      "burglary": 1.7,
+      "vehicleCrime": 3.3,
+      "antisocialBehaviour": 8.8,
+      "otherTheft": 16.8,
+      "other": 14.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Balfour Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Crest Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Peter's Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Burham Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wouldham, All Saints Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 292655,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 14,
+    "privateRent": 18,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 305,
+    "avgUpload": 55,
+    "superfastPct": 97,
+    "ultrafastPct": 78,
+    "gigabitPct": 71,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Medway Council",
+    "bandD": 2268,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.9,
+    "imdRank": 18587,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ME1 covers ROCHESTER in Kent, South East.",
+    "priceVsCounty": "The average property price in ME1 is £354,503, which is 21% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in ME1 cost 23.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ME1 have fallen 2.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 69.7 recorded crimes per 1,000 residents, ME1 has a crime rate 14% below the national average of 81.3 per 1,000.",
+    "schoolContext": "ME1 has 21 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ME1 are 305.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "ME1 (ROCHESTER) offers above-average property prices (£354,503, 24% above national average), 21 nearby schools, and excellent broadband (305 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 305
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 305
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

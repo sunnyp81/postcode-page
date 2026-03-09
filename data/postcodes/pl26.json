@@ -1,0 +1,198 @@
+{
+  "code": "PL26",
+  "name": "ST AUSTELL",
+  "county": "devon",
+  "region": "south-west",
+  "city": "plymouth",
+  "adjacent": [
+    "PL25",
+    "PL27",
+    "PL28"
+  ],
+  "property": {
+    "avgPrice": 322119,
+    "medianPrice": 250000,
+    "priceChange1y": 1.2,
+    "priceChange5y": 0,
+    "transactions12m": 1208,
+    "byType": {
+      "detached": {
+        "avg": 427908,
+        "count": 445
+      },
+      "semi": {
+        "avg": 243949,
+        "count": 282
+      },
+      "terraced": {
+        "avg": 211737,
+        "count": 322
+      },
+      "flat": {
+        "avg": 205775,
+        "count": 88
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 343390
+      },
+      {
+        "year": 2024,
+        "avg": 308166
+      },
+      {
+        "year": 2025,
+        "avg": 311765
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.4,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.3,
+      "other": 0.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Gorran School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Treverbyn Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mewan Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Whitemoor Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Foxhole Learning Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 583289,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 170,
+    "avgUpload": 31,
+    "superfastPct": 87,
+    "ultrafastPct": 37,
+    "gigabitPct": 34,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Plymouth Council",
+    "bandD": 2372,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.1,
+    "imdRank": 19382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PL26 encompasses ST AUSTELL and its surrounding areas in Devon, South West.",
+    "priceVsCounty": "The average property price in PL26 is £322,119, which is 16% below the Devon average of £385,452.",
+    "priceVsNational": "Properties in PL26 cost 12.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PL26 have risen 1.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, PL26 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PL26 has 13 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PL26 are 170.0 Mbps, with 96% of premises having access to superfast broadband and 62% with full fibre (FTTP) connectivity.",
+    "synthesis": "PL26 (ST AUSTELL) offers property prices near the national average (£322,119), low crime (94% below national average), 13 nearby schools, and excellent broadband (170 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 170
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 170
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

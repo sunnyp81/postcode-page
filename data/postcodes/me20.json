@@ -1,0 +1,196 @@
+{
+  "code": "ME20",
+  "name": "AYLESFORD",
+  "county": "kent",
+  "region": "south-east",
+  "city": "medway",
+  "adjacent": [
+    "ME19"
+  ],
+  "property": {
+    "avgPrice": 408055,
+    "medianPrice": 370000,
+    "priceChange1y": 5.1,
+    "priceChange5y": 0,
+    "transactions12m": 1068,
+    "byType": {
+      "detached": {
+        "avg": 561650,
+        "count": 183
+      },
+      "semi": {
+        "avg": 391489,
+        "count": 411
+      },
+      "terraced": {
+        "avg": 321242,
+        "count": 317
+      },
+      "flat": {
+        "avg": 233213,
+        "count": 117
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 421134
+      },
+      {
+        "year": 2024,
+        "avg": 393840
+      },
+      {
+        "year": 2025,
+        "avg": 413869
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 28.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -64.5,
+    "byType": {
+      "violentCrime": 10.8,
+      "burglary": 0.8,
+      "vehicleCrime": 1.7,
+      "antisocialBehaviour": 5.6,
+      "otherTheft": 4.5,
+      "other": 5.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 1,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Brookfield Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lunsford Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Peter's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ditton Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Brookfield Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 187767,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 274,
+    "avgUpload": 49,
+    "superfastPct": 93,
+    "ultrafastPct": 71,
+    "gigabitPct": 62,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Maidstone",
+    "bandD": 2190,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.5,
+    "imdRank": 13639,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ME20 is the postcode district for AYLESFORD, located in Kent, South East.",
+    "priceVsCounty": "The average property price in ME20 is £408,055, which is 9% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in ME20 cost 42.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ME20 have risen 5.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 28.9 recorded crimes per 1,000 residents, ME20 has a crime rate well 64% below the national average of 81.3 per 1,000.",
+    "schoolContext": "ME20 has 10 schools within or near its boundaries, including 1 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ME20 are 274.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "ME20 (AYLESFORD) offers above-average property prices (£408,055, 42% above national average), low crime (64% below national average), 10 nearby schools, and excellent broadband (274 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 274
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 274
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

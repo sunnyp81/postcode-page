@@ -1,0 +1,198 @@
+{
+  "code": "KT17",
+  "name": "EPSOM",
+  "county": "greater-london",
+  "region": "london",
+  "city": "kingston-upon-thames",
+  "adjacent": [
+    "KT16",
+    "KT18",
+    "KT19"
+  ],
+  "property": {
+    "avgPrice": 597920,
+    "medianPrice": 515000,
+    "priceChange1y": -3.3,
+    "priceChange5y": 0,
+    "transactions12m": 1102,
+    "byType": {
+      "detached": {
+        "avg": 970552,
+        "count": 254
+      },
+      "semi": {
+        "avg": 657286,
+        "count": 283
+      },
+      "terraced": {
+        "avg": 478801,
+        "count": 171
+      },
+      "flat": {
+        "avg": 319871,
+        "count": 354
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 589255
+      },
+      {
+        "year": 2024,
+        "avg": 611896
+      },
+      {
+        "year": 2025,
+        "avg": 591997
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 53.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -33.8,
+    "byType": {
+      "violentCrime": 17.4,
+      "burglary": 2.2,
+      "vehicleCrime": 3.9,
+      "antisocialBehaviour": 8.9,
+      "otherTheft": 8,
+      "other": 13.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 2,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Wallace Fields Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Epsom College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Little Downsend Epsom",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ewell Castle School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "North East Surrey College of Technology",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 159134,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 37,
+    "socialRent": 12,
+    "privateRent": 14,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 383,
+    "avgUpload": 69,
+    "superfastPct": 100,
+    "ultrafastPct": 95,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Kingston Upon Thames Council",
+    "bandD": 1023,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.3,
+    "imdRank": 9065,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "KT17 encompasses EPSOM and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in KT17 is £597,920, which is 54% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in KT17 cost 108.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in KT17 have fallen 3.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 53.8 recorded crimes per 1,000 residents, KT17 has a crime rate well 34% below the national average of 81.3 per 1,000.",
+    "schoolContext": "KT17 has 11 schools within or near its boundaries, including 2 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in KT17 are 383.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "KT17 (EPSOM) offers above-average property prices (£597,920, 108% above national average), low crime (34% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (383 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 383
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 383
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

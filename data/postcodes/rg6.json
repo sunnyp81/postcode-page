@@ -1,0 +1,198 @@
+{
+  "code": "RG6",
+  "name": "READING",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [
+    "RG5",
+    "RG7",
+    "RG8"
+  ],
+  "property": {
+    "avgPrice": 460762,
+    "medianPrice": 450000,
+    "priceChange1y": -2,
+    "priceChange5y": 0,
+    "transactions12m": 1241,
+    "byType": {
+      "detached": {
+        "avg": 622888,
+        "count": 387
+      },
+      "semi": {
+        "avg": 499013,
+        "count": 371
+      },
+      "terraced": {
+        "avg": 340245,
+        "count": 315
+      },
+      "flat": {
+        "avg": 207956,
+        "count": 150
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 472182
+      },
+      {
+        "year": 2024,
+        "avg": 459595
+      },
+      {
+        "year": 2025,
+        "avg": 450374
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 51.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -36.4,
+    "byType": {
+      "violentCrime": 19.9,
+      "burglary": 1.2,
+      "vehicleCrime": 1.8,
+      "antisocialBehaviour": 4,
+      "otherTheft": 14.8,
+      "other": 9.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Alfred Sutton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Aldryngton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Loddon Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "University of Reading",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Maiden Erlegh School",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 187200,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 40,
+    "socialRent": 8,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 390,
+    "avgUpload": 70,
+    "superfastPct": 99,
+    "ultrafastPct": 98,
+    "gigabitPct": 97,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Reading Council",
+    "bandD": 2353,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 5.8,
+    "imdRank": 3651,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG6 covers READING in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG6 is £460,762, which is 21% below the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG6 cost 60.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG6 have fallen 2.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 51.7 recorded crimes per 1,000 residents, RG6 has a crime rate well 36% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RG6 has 9 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG6 are 390.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG6 (READING) offers above-average property prices (£460,762, 61% above national average), low crime (36% below national average), 9 nearby schools, and excellent broadband (390 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 390
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 390
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

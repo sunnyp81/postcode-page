@@ -1,0 +1,198 @@
+{
+  "code": "PL13",
+  "name": "LOOE",
+  "county": "devon",
+  "region": "south-west",
+  "city": "plymouth",
+  "adjacent": [
+    "PL12",
+    "PL14",
+    "PL15"
+  ],
+  "property": {
+    "avgPrice": 329938,
+    "medianPrice": 275000,
+    "priceChange1y": -4.2,
+    "priceChange5y": 0,
+    "transactions12m": 574,
+    "byType": {
+      "detached": {
+        "avg": 437744,
+        "count": 197
+      },
+      "semi": {
+        "avg": 288170,
+        "count": 102
+      },
+      "terraced": {
+        "avg": 233613,
+        "count": 139
+      },
+      "flat": {
+        "avg": 216738,
+        "count": 75
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 344321
+      },
+      {
+        "year": 2024,
+        "avg": 327111
+      },
+      {
+        "year": 2025,
+        "avg": 313235
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 7.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -91.3,
+    "byType": {
+      "violentCrime": 3,
+      "burglary": 0.2,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 1.3,
+      "otherTheft": 0.7,
+      "other": 1.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Looe Community Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Looe Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Polperro Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pelynt Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Trenode CofE VA Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 583289,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 159,
+    "avgUpload": 29,
+    "superfastPct": 92,
+    "ultrafastPct": 31,
+    "gigabitPct": 31,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Plymouth Council",
+    "bandD": 2372,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.1,
+    "imdRank": 19382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PL13 is the postcode district for LOOE, located in Devon, South West.",
+    "priceVsCounty": "The average property price in PL13 is £329,938, which is 14% below the Devon average of £385,452.",
+    "priceVsNational": "Properties in PL13 cost 15.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PL13 have fallen 4.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 7.1 recorded crimes per 1,000 residents, PL13 has a crime rate well 91% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PL13 has 5 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PL13 are 159.0 Mbps, with 94% of premises having access to superfast broadband and 59% with full fibre (FTTP) connectivity.",
+    "synthesis": "PL13 (LOOE) offers property prices near the national average (£329,938), low crime (91% below national average), 5 nearby schools, and excellent broadband (159 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 159
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 159
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

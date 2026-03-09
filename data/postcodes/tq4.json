@@ -1,0 +1,198 @@
+{
+  "code": "TQ4",
+  "name": "PAIGNTON",
+  "county": "devon",
+  "region": "south-west",
+  "city": "torquay",
+  "adjacent": [
+    "TQ3",
+    "TQ5",
+    "TQ6"
+  ],
+  "property": {
+    "avgPrice": 299527,
+    "medianPrice": 280000,
+    "priceChange1y": -4.9,
+    "priceChange5y": 0,
+    "transactions12m": 1161,
+    "byType": {
+      "detached": {
+        "avg": 423297,
+        "count": 314
+      },
+      "semi": {
+        "avg": 289162,
+        "count": 256
+      },
+      "terraced": {
+        "avg": 248376,
+        "count": 280
+      },
+      "flat": {
+        "avg": 158110,
+        "count": 231
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 304707
+      },
+      {
+        "year": 2024,
+        "avg": 303565
+      },
+      {
+        "year": 2025,
+        "avg": 288579
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 64.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -20.9,
+    "byType": {
+      "violentCrime": 25.6,
+      "burglary": 1.4,
+      "vehicleCrime": 1.8,
+      "antisocialBehaviour": 11.4,
+      "otherTheft": 12.8,
+      "other": 11.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "White Rock Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "South Devon College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cambian Devon School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hayes School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Curledge Street Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 140126,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 8,
+    "privateRent": 24,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 327,
+    "avgUpload": 59,
+    "superfastPct": 94,
+    "ultrafastPct": 81,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Torquay Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 28.1,
+    "imdRank": 21088,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TQ4 is the postcode district for PAIGNTON, located in Devon, South West.",
+    "priceVsCounty": "The average property price in TQ4 is £299,527, which is 22% below the Devon average of £385,452.",
+    "priceVsNational": "Property values in TQ4 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in TQ4 have fallen 4.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 64.3 recorded crimes per 1,000 residents, TQ4 has a crime rate well 21% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TQ4 has 7 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TQ4 are 327.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TQ4 (PAIGNTON) offers property prices near the national average (£299,527), low crime (21% below national average), 7 nearby schools, and excellent broadband (327 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 327
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 327
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

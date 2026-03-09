@@ -1,0 +1,198 @@
+{
+  "code": "NN6",
+  "name": "NORTHAMPTON",
+  "county": "northamptonshire",
+  "region": "east-midlands",
+  "city": "northampton",
+  "adjacent": [
+    "NN5",
+    "NN7",
+    "NN8"
+  ],
+  "property": {
+    "avgPrice": 474823,
+    "medianPrice": 350000,
+    "priceChange1y": 1.7,
+    "priceChange5y": 0,
+    "transactions12m": 2093,
+    "byType": {
+      "detached": {
+        "avg": 512171,
+        "count": 978
+      },
+      "semi": {
+        "avg": 310324,
+        "count": 623
+      },
+      "terraced": {
+        "avg": 268359,
+        "count": 332
+      },
+      "flat": {
+        "avg": 173452,
+        "count": 42
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 458350
+      },
+      {
+        "year": 2024,
+        "avg": 480284
+      },
+      {
+        "year": 2025,
+        "avg": 488484
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.9,
+      "burglary": 0.2,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0,
+      "other": 0.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 24,
+    "outstanding": 0,
+    "good": 9,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Bramptons Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Crick Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Long Buckby Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Long Buckby Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Maidwell Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 20486,
+    "medianAge": 42,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 340,
+    "avgUpload": 61,
+    "superfastPct": 89,
+    "ultrafastPct": 84,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Northamptonshire",
+    "bandD": 2089,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.4,
+    "imdRank": 18085,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NN6 covers NORTHAMPTON in Northamptonshire, East Midlands.",
+    "priceVsCounty": "The average property price in NN6 is £474,823, which is 47% above the Northamptonshire average of £323,962.",
+    "priceVsNational": "Properties in NN6 cost 65.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NN6 have risen 1.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, NN6 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NN6 has 24 schools within or near its boundaries, including 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NN6 are 340.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NN6 (NORTHAMPTON) offers above-average property prices (£474,823, 65% above national average), low crime (94% below national average), 24 nearby schools, and excellent broadband (340 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 323962,
+      "crime": 75,
+      "broadband": 340
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 340
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

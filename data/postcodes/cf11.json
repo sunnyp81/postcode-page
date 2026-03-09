@@ -1,0 +1,195 @@
+{
+  "code": "CF11",
+  "name": "CARDIFF",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF10"
+  ],
+  "property": {
+    "avgPrice": 289905,
+    "medianPrice": 233000,
+    "priceChange1y": -9.6,
+    "priceChange5y": 0,
+    "transactions12m": 1719,
+    "byType": {
+      "detached": {
+        "avg": 414598,
+        "count": 32
+      },
+      "semi": {
+        "avg": 331888,
+        "count": 153
+      },
+      "terraced": {
+        "avg": 313632,
+        "count": 780
+      },
+      "flat": {
+        "avg": 190250,
+        "count": 650
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 274477
+      },
+      {
+        "year": 2024,
+        "avg": 311735
+      },
+      {
+        "year": 2025,
+        "avg": 281653
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 267.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 229.2,
+    "byType": {
+      "violentCrime": 87.5,
+      "burglary": 8.6,
+      "vehicleCrime": 16.9,
+      "antisocialBehaviour": 33.2,
+      "otherTheft": 66.6,
+      "other": 54.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Kitchener Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ninian Park Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Gymraeg Treganna",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Gymraeg Pwll Coch",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's R.C. Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 383919,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 367,
+    "avgUpload": 66,
+    "superfastPct": 98,
+    "ultrafastPct": 92,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF11 is the postcode district for CARDIFF, located in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF11 is £289,905, which is 5% above the Cardiff average of £275,506.",
+    "priceVsNational": "Property values in CF11 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in CF11 have fallen 9.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 267.6 recorded crimes per 1,000 residents, CF11 has a crime rate significantly 229% above the national average of 81.3 per 1,000.",
+    "schoolContext": "CF11 has 11 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF11 are 367.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF11 (CARDIFF) offers property prices near the national average (£289,905), higher-than-average crime (229% above national average), 11 nearby schools, and excellent broadband (367 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 367
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 367
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

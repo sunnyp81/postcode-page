@@ -1,0 +1,198 @@
+{
+  "code": "B72",
+  "name": "SUTTON COLDFIELD",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B71",
+    "B73",
+    "B74"
+  ],
+  "property": {
+    "avgPrice": 429377,
+    "medianPrice": 345500,
+    "priceChange1y": -16.7,
+    "priceChange5y": 0,
+    "transactions12m": 456,
+    "byType": {
+      "detached": {
+        "avg": 561308,
+        "count": 144
+      },
+      "semi": {
+        "avg": 388899,
+        "count": 89
+      },
+      "terraced": {
+        "avg": 295235,
+        "count": 60
+      },
+      "flat": {
+        "avg": 191599,
+        "count": 137
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 468658
+      },
+      {
+        "year": 2024,
+        "avg": 444183
+      },
+      {
+        "year": 2025,
+        "avg": 370099
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 54.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -32.7,
+    "byType": {
+      "violentCrime": 18.2,
+      "burglary": 3.7,
+      "vehicleCrime": 5.8,
+      "antisocialBehaviour": 5.2,
+      "otherTheft": 12.7,
+      "other": 9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Maney Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Penns Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Plantsbrook School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Town Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Holland House Infant School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 357,
+    "avgUpload": 64,
+    "superfastPct": 95,
+    "ultrafastPct": 89,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B72 covers SUTTON COLDFIELD in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B72 is £429,377, which is 28% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B72 cost 49.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B72 have fallen 16.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 54.7 recorded crimes per 1,000 residents, B72 has a crime rate well 33% below the national average of 81.3 per 1,000.",
+    "schoolContext": "B72 has 5 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B72 are 357.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B72 (SUTTON COLDFIELD) offers above-average property prices (£429,377, 50% above national average), low crime (33% below national average), 5 nearby schools, and excellent broadband (357 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 357
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 357
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

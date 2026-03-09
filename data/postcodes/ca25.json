@@ -1,0 +1,188 @@
+{
+  "code": "CA25",
+  "name": "CLEATOR MOOR",
+  "county": "cumbria",
+  "region": "north-west",
+  "city": "carlisle",
+  "adjacent": [
+    "CA24",
+    "CA26",
+    "CA27"
+  ],
+  "property": {
+    "avgPrice": 157016,
+    "medianPrice": 115000,
+    "priceChange1y": -9.2,
+    "priceChange5y": 0,
+    "transactions12m": 267,
+    "byType": {
+      "detached": {
+        "avg": 296476,
+        "count": 63
+      },
+      "semi": {
+        "avg": 177783,
+        "count": 58
+      },
+      "terraced": {
+        "avg": 86016,
+        "count": 127
+      },
+      "flat": {
+        "avg": 145000,
+        "count": 1
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 160710
+      },
+      {
+        "year": 2024,
+        "avg": 161527
+      },
+      {
+        "year": 2025,
+        "avg": 146700
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 15.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -81.2,
+    "byType": {
+      "violentCrime": 6.6,
+      "burglary": 0.4,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 1.8,
+      "otherTheft": 1.1,
+      "other": 5.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Cleator Moor Nursery School",
+        "type": "Nursery",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Montreal CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Patrick's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 74,
+    "avgUpload": 13,
+    "superfastPct": 97,
+    "ultrafastPct": 6,
+    "gigabitPct": 6,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cumberland",
+    "bandD": 2175,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CA25 is the postcode district for CLEATOR MOOR, located in Cumbria, North West.",
+    "priceVsCounty": "The average property price in CA25 is £157,016, which is 36% below the Cumbria average of £244,524.",
+    "priceVsNational": "Properties in CA25 cost 45.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CA25 have fallen 9.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 15.3 recorded crimes per 1,000 residents, CA25 has a crime rate well 81% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CA25 has 3 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CA25 are 74.0 Mbps, with 81% of premises having access to superfast broadband and 35% with full fibre (FTTP) connectivity.",
+    "synthesis": "CA25 (CLEATOR MOOR) offers affordable property prices (£157,016, 45% below national average), low crime (81% below national average), 3 nearby schools, and good broadband connectivity (74 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 244524,
+      "crime": 75,
+      "broadband": 74
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 74
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

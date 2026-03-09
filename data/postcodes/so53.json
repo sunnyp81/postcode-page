@@ -1,0 +1,196 @@
+{
+  "code": "SO53",
+  "name": "EASTLEIGH",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "southampton",
+  "adjacent": [
+    "SO52"
+  ],
+  "property": {
+    "avgPrice": 461138,
+    "medianPrice": 400000,
+    "priceChange1y": 1.3,
+    "priceChange5y": 0,
+    "transactions12m": 1306,
+    "byType": {
+      "detached": {
+        "avg": 589496,
+        "count": 632
+      },
+      "semi": {
+        "avg": 378375,
+        "count": 222
+      },
+      "terraced": {
+        "avg": 327394,
+        "count": 246
+      },
+      "flat": {
+        "avg": 212497,
+        "count": 187
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 492970
+      },
+      {
+        "year": 2024,
+        "avg": 444063
+      },
+      {
+        "year": 2025,
+        "avg": 449894
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 24.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -70.4,
+    "byType": {
+      "violentCrime": 11.6,
+      "burglary": 1,
+      "vehicleCrime": 1.2,
+      "antisocialBehaviour": 2.7,
+      "otherTheft": 3.1,
+      "other": 4.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Chandler's Ford Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Merdon Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fryern Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fryern Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hiltingbury Infant School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 135201,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 14,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 306,
+    "avgUpload": 55,
+    "superfastPct": 99,
+    "ultrafastPct": 73,
+    "gigabitPct": 73,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Test Valley",
+    "bandD": 1996,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.9,
+    "imdRank": 9889,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SO53 encompasses EASTLEIGH and its surrounding areas in Hampshire, South East.",
+    "priceVsCounty": "The average property price in SO53 is £461,138, which is 7% above the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in SO53 cost 60.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SO53 have risen 1.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 24.1 recorded crimes per 1,000 residents, SO53 has a crime rate well 70% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SO53 has 14 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SO53 are 306.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SO53 (EASTLEIGH) offers above-average property prices (£461,138, 61% above national average), low crime (70% below national average), 14 nearby schools, and excellent broadband (306 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 306
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 306
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

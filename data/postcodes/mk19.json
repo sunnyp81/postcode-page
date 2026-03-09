@@ -1,0 +1,196 @@
+{
+  "code": "MK19",
+  "name": "MILTON KEYNES",
+  "county": "buckinghamshire",
+  "region": "south-east",
+  "city": "milton-keynes",
+  "adjacent": [
+    "MK18"
+  ],
+  "property": {
+    "avgPrice": 404798,
+    "medianPrice": 355000,
+    "priceChange1y": -0.8,
+    "priceChange5y": 0,
+    "transactions12m": 508,
+    "byType": {
+      "detached": {
+        "avg": 559707,
+        "count": 168
+      },
+      "semi": {
+        "avg": 337293,
+        "count": 198
+      },
+      "terraced": {
+        "avg": 299193,
+        "count": 97
+      },
+      "flat": {
+        "avg": 200000,
+        "count": 27
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 416321
+      },
+      {
+        "year": 2024,
+        "avg": 401015
+      },
+      {
+        "year": 2025,
+        "avg": 397728
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.8,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.1,
+      "other": 0.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Castlethorpe First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hanslope Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Haversham Village School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cosgrove Village Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Akeley Wood Junior School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 305884,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 18,
+    "privateRent": 19,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 336,
+    "avgUpload": 60,
+    "superfastPct": 93,
+    "ultrafastPct": 83,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Milton Keynes Council",
+    "bandD": 2321,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 14351,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "MK19 covers MILTON KEYNES in Buckinghamshire, South East.",
+    "priceVsCounty": "The average property price in MK19 is £404,798, which is 14% below the Buckinghamshire average of £472,988.",
+    "priceVsNational": "Properties in MK19 cost 41.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in MK19 have fallen 0.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, MK19 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "MK19 has 7 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in MK19 are 336.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "MK19 (MILTON KEYNES) offers above-average property prices (£404,798, 41% above national average), low crime (94% below national average), 7 nearby schools, and excellent broadband (336 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 472988,
+      "crime": 75,
+      "broadband": 336
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 336
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

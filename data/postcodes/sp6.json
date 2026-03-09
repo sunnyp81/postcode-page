@@ -1,0 +1,198 @@
+{
+  "code": "SP6",
+  "name": "FORDINGBRIDGE",
+  "county": "wiltshire",
+  "region": "south-west",
+  "city": "salisbury",
+  "adjacent": [
+    "SP5",
+    "SP7",
+    "SP8"
+  ],
+  "property": {
+    "avgPrice": 488661,
+    "medianPrice": 400000,
+    "priceChange1y": -1.6,
+    "priceChange5y": 0,
+    "transactions12m": 618,
+    "byType": {
+      "detached": {
+        "avg": 589263,
+        "count": 309
+      },
+      "semi": {
+        "avg": 368024,
+        "count": 143
+      },
+      "terraced": {
+        "avg": 306925,
+        "count": 60
+      },
+      "flat": {
+        "avg": 172830,
+        "count": 56
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 494911
+      },
+      {
+        "year": 2024,
+        "avg": 489598
+      },
+      {
+        "year": 2025,
+        "avg": 481738
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 11.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -85.9,
+    "byType": {
+      "violentCrime": 4.9,
+      "burglary": 0.4,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 1.8,
+      "otherTheft": 1.1,
+      "other": 2.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hale Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Fordingbridge Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Fordingbridge Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Breamore Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hyde Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 523700,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 271,
+    "avgUpload": 49,
+    "superfastPct": 89,
+    "ultrafastPct": 64,
+    "gigabitPct": 64,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Salisbury Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.4,
+    "imdRank": 11265,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SP6 is the postcode district for FORDINGBRIDGE, located in Wiltshire, South West.",
+    "priceVsCounty": "The average property price in SP6 is £488,661, which is 23% above the Wiltshire average of £397,459.",
+    "priceVsNational": "Properties in SP6 cost 70.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SP6 have fallen 1.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 11.5 recorded crimes per 1,000 residents, SP6 has a crime rate well 86% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SP6 has 9 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SP6 are 271.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SP6 (FORDINGBRIDGE) offers above-average property prices (£488,661, 70% above national average), low crime (86% below national average), 9 nearby schools, and excellent broadband (271 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 397459,
+      "crime": 75,
+      "broadband": 271
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 271
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

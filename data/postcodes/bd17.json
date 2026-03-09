@@ -1,0 +1,198 @@
+{
+  "code": "BD17",
+  "name": "SHIPLEY",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "bradford",
+  "adjacent": [
+    "BD16",
+    "BD18",
+    "BD19"
+  ],
+  "property": {
+    "avgPrice": 291336,
+    "medianPrice": 246008,
+    "priceChange1y": 14.4,
+    "priceChange5y": 0,
+    "transactions12m": 912,
+    "byType": {
+      "detached": {
+        "avg": 460629,
+        "count": 177
+      },
+      "semi": {
+        "avg": 271792,
+        "count": 381
+      },
+      "terraced": {
+        "avg": 196406,
+        "count": 171
+      },
+      "flat": {
+        "avg": 105932,
+        "count": 147
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 331924
+      },
+      {
+        "year": 2024,
+        "avg": 252111
+      },
+      {
+        "year": 2025,
+        "avg": 288443
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 57.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -28.8,
+    "byType": {
+      "violentCrime": 25.5,
+      "burglary": 3.7,
+      "vehicleCrime": 2.9,
+      "antisocialBehaviour": 8.2,
+      "otherTheft": 5.9,
+      "other": 11.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hoyle Court Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Sandal Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Titus Salt School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Baildon Glen Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Baildon Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 563605,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 361,
+    "avgUpload": 65,
+    "superfastPct": 98,
+    "ultrafastPct": 91,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bradford",
+    "bandD": 1956,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 34.7,
+    "imdRank": 23086,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BD17 is the postcode district for SHIPLEY, located in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in BD17 is £291,336, broadly in line with the West Yorkshire average of £277,857.",
+    "priceVsNational": "Property values in BD17 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in BD17 have risen 14.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 57.9 recorded crimes per 1,000 residents, BD17 has a crime rate well 29% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BD17 has 5 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BD17 are 361.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BD17 (SHIPLEY) offers property prices near the national average (£291,336), low crime (29% below national average), 5 nearby schools, and excellent broadband (361 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 361
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 361
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

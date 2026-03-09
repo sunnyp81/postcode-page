@@ -1,0 +1,197 @@
+{
+  "code": "OX1",
+  "name": "OXFORD",
+  "county": "oxfordshire",
+  "region": "south-east",
+  "city": "oxford",
+  "adjacent": [
+    "OX2",
+    "OX3"
+  ],
+  "property": {
+    "avgPrice": 782980,
+    "medianPrice": 475000,
+    "priceChange1y": -22.6,
+    "priceChange5y": 0,
+    "transactions12m": 563,
+    "byType": {
+      "detached": {
+        "avg": 755070,
+        "count": 114
+      },
+      "semi": {
+        "avg": 551494,
+        "count": 103
+      },
+      "terraced": {
+        "avg": 677514,
+        "count": 114
+      },
+      "flat": {
+        "avg": 400850,
+        "count": 189
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 780521
+      },
+      {
+        "year": 2024,
+        "avg": 875700
+      },
+      {
+        "year": 2025,
+        "avg": 677480
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 137.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 69.1,
+    "byType": {
+      "violentCrime": 42.5,
+      "burglary": 2.9,
+      "vehicleCrime": 2.6,
+      "antisocialBehaviour": 9.1,
+      "otherTheft": 55.3,
+      "other": 25
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Grandpont Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "New Hinksey Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Swithun's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Ebbe's Church of England Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wootton St Peter's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 166034,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 20,
+    "socialRent": 21,
+    "privateRent": 29,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 240,
+    "avgUpload": 43,
+    "superfastPct": 93,
+    "ultrafastPct": 61,
+    "gigabitPct": 52,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Oxford",
+    "bandD": 2332,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.7,
+    "imdRank": 13634,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "OX1 covers OXFORD in Oxfordshire, South East.",
+    "priceVsCounty": "The average property price in OX1 is £782,980, which is 33% above the Oxfordshire average of £588,175.",
+    "priceVsNational": "Properties in OX1 cost 172.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in OX1 have fallen 22.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 137.5 recorded crimes per 1,000 residents, OX1 has a crime rate significantly 69% above the national average of 81.3 per 1,000.",
+    "schoolContext": "OX1 has 13 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in OX1 are 240.0 Mbps, with 99% of premises having access to superfast broadband and 81% with full fibre (FTTP) connectivity.",
+    "synthesis": "OX1 (OXFORD) offers above-average property prices (£782,980, 173% above national average), higher-than-average crime (69% above national average), 13 nearby schools, and excellent broadband (240 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 588175,
+      "crime": 75,
+      "broadband": 240
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 240
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

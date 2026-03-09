@@ -1,0 +1,187 @@
+{
+  "code": "W1U",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "W2",
+    "W3"
+  ],
+  "property": {
+    "avgPrice": 2738560,
+    "medianPrice": 1450000,
+    "priceChange1y": -6.5,
+    "priceChange5y": 0,
+    "transactions12m": 285,
+    "byType": {
+      "detached": {
+        "avg": 5203264,
+        "count": 0
+      },
+      "semi": {
+        "avg": 3286272,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 3592798,
+        "count": 27
+      },
+      "flat": {
+        "avg": 2408370,
+        "count": 233
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 3190312
+      },
+      {
+        "year": 2024,
+        "avg": 2520032
+      },
+      {
+        "year": 2025,
+        "avg": 2357283
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 137.2,
+      "burglary": 24.6,
+      "vehicleCrime": 31.5,
+      "antisocialBehaviour": 100.7,
+      "otherTheft": 551.2,
+      "other": 75
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 1,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Vincent's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "The St Marylebone CofE School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wetherby Senior School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 209996,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 11,
+    "socialRent": 28,
+    "privateRent": 39,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 330,
+    "avgUpload": 59,
+    "superfastPct": 89,
+    "ultrafastPct": 81,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Westminster",
+    "bandD": 914,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.3,
+    "imdRank": 16573,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "W1U encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in W1U is £2,738,560, which is 109% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in W1U cost 854.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in W1U have fallen 6.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, W1U has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "W1U has 3 schools within or near its boundaries, including 1 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in W1U are 330.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "W1U (LONDON) offers above-average property prices (£2,738,560, 854% above national average), higher-than-average crime (269% above national average), 3 nearby schools, and excellent broadband (330 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 330
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 330
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

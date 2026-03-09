@@ -1,0 +1,196 @@
+{
+  "code": "PR9",
+  "name": "SOUTHPORT",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "preston",
+  "adjacent": [
+    "PR8"
+  ],
+  "property": {
+    "avgPrice": 241862,
+    "medianPrice": 199995,
+    "priceChange1y": -9,
+    "priceChange5y": 0,
+    "transactions12m": 2356,
+    "byType": {
+      "detached": {
+        "avg": 358112,
+        "count": 413
+      },
+      "semi": {
+        "avg": 218653,
+        "count": 1152
+      },
+      "terraced": {
+        "avg": 175260,
+        "count": 177
+      },
+      "flat": {
+        "avg": 126093,
+        "count": 522
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 243089
+      },
+      {
+        "year": 2024,
+        "avg": 250877
+      },
+      {
+        "year": 2025,
+        "avg": 228280
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 25.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -68.1,
+    "byType": {
+      "violentCrime": 12.7,
+      "burglary": 0.6,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 1.7,
+      "otherTheft": 2.9,
+      "other": 7.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 8,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Crossens Nursery School",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Norwood Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Marshside Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Larkfield Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St John's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 121995,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 14,
+    "privateRent": 12,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 160,
+    "avgUpload": 29,
+    "superfastPct": 95,
+    "ultrafastPct": 52,
+    "gigabitPct": 23,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "West Lancashire",
+    "bandD": 2153,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.6,
+    "imdRank": 14071,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PR9 covers SOUTHPORT in Lancashire, North West.",
+    "priceVsCounty": "The average property price in PR9 is £241,862, broadly in line with the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in PR9 cost 15.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PR9 have fallen 9.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 25.9 recorded crimes per 1,000 residents, PR9 has a crime rate well 68% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PR9 has 17 schools within or near its boundaries, including 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PR9 are 160.0 Mbps, with 94% of premises having access to superfast broadband and 59% with full fibre (FTTP) connectivity.",
+    "synthesis": "PR9 (SOUTHPORT) offers affordable property prices (£241,862, 16% below national average), low crime (68% below national average), 17 nearby schools, and excellent broadband (160 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 160
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 160
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "HP20",
+  "name": "AYLESBURY",
+  "county": "hertfordshire",
+  "region": "south-east",
+  "city": "hemel-hempstead",
+  "adjacent": [
+    "HP19",
+    "HP21",
+    "HP22"
+  ],
+  "property": {
+    "avgPrice": 313368,
+    "medianPrice": 280000,
+    "priceChange1y": 1.7,
+    "priceChange5y": 0,
+    "transactions12m": 745,
+    "byType": {
+      "detached": {
+        "avg": 486541,
+        "count": 58
+      },
+      "semi": {
+        "avg": 374987,
+        "count": 165
+      },
+      "terraced": {
+        "avg": 303197,
+        "count": 247
+      },
+      "flat": {
+        "avg": 199780,
+        "count": 244
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 287336
+      },
+      {
+        "year": 2024,
+        "avg": 325656
+      },
+      {
+        "year": 2025,
+        "avg": 331125
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 121.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 49.2,
+    "byType": {
+      "violentCrime": 49.9,
+      "burglary": 2,
+      "vehicleCrime": 4.6,
+      "antisocialBehaviour": 10.5,
+      "otherTheft": 25.6,
+      "other": 28.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Broughton Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Broughton Community Schools (Infants)",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Stocklake Park Community School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Elmhurst School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "St Louis Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 40,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 65,
+    "socialRent": 13,
+    "privateRent": 22,
+    "economicallyActive": 76,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 336,
+    "avgUpload": 60,
+    "superfastPct": 97,
+    "ultrafastPct": 87,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hemel Hempstead Council",
+    "bandD": 2236,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "HP20 is the postcode district for AYLESBURY, located in Hertfordshire, South East.",
+    "priceVsCounty": "The average property price in HP20 is £313,368, which is 45% below the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in HP20 cost 9.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HP20 have risen 1.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 121.3 recorded crimes per 1,000 residents, HP20 has a crime rate significantly 49% above the national average of 81.3 per 1,000.",
+    "schoolContext": "HP20 has 5 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HP20 are 336.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HP20 (AYLESBURY) offers property prices near the national average (£313,368), higher-than-average crime (49% above national average), 5 nearby schools, and excellent broadband (336 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 336
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 336
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "code": "WC2H",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 3611890,
+    "medianPrice": 850000,
+    "priceChange1y": -58.7,
+    "priceChange5y": 0,
+    "transactions12m": 91,
+    "byType": {
+      "detached": {
+        "avg": 2307247,
+        "count": 1
+      },
+      "semi": {
+        "avg": 4334268,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 2550000,
+        "count": 2
+      },
+      "flat": {
+        "avg": 982504,
+        "count": 57
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 3036198
+      },
+      {
+        "year": 2024,
+        "avg": 4506724
+      },
+      {
+        "year": 2025,
+        "avg": 1862640
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 183.7,
+      "burglary": 27.9,
+      "vehicleCrime": 26.5,
+      "antisocialBehaviour": 124.4,
+      "otherTheft": 775.3,
+      "other": 101.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 0,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": []
+  },
+  "demographics": {
+    "population": 209996,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 11,
+    "socialRent": 28,
+    "privateRent": 39,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 274,
+    "avgUpload": 49,
+    "superfastPct": 72,
+    "ultrafastPct": 67,
+    "gigabitPct": 67,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Westminster",
+    "bandD": 914,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.3,
+    "imdRank": 16573,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WC2H covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in WC2H is £3,611,890, which is 176% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in WC2H cost 1158.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WC2H have fallen 58.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, WC2H has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "School data for WC2H is not currently available.",
+    "broadbandContext": "Average broadband download speeds in WC2H are 274.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WC2H (LONDON) offers above-average property prices (£3,611,890, 1158% above national average), higher-than-average crime (269% above national average), and excellent broadband (274 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 274
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 274
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

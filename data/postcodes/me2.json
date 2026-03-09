@@ -1,0 +1,198 @@
+{
+  "code": "ME2",
+  "name": "ROCHESTER",
+  "county": "kent",
+  "region": "south-east",
+  "city": "medway",
+  "adjacent": [
+    "ME1",
+    "ME3",
+    "ME4"
+  ],
+  "property": {
+    "avgPrice": 338958,
+    "medianPrice": 300350,
+    "priceChange1y": 2.2,
+    "priceChange5y": 0,
+    "transactions12m": 1748,
+    "byType": {
+      "detached": {
+        "avg": 504720,
+        "count": 208
+      },
+      "semi": {
+        "avg": 346587,
+        "count": 594
+      },
+      "terraced": {
+        "avg": 277512,
+        "count": 701
+      },
+      "flat": {
+        "avg": 178946,
+        "count": 164
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 334553
+      },
+      {
+        "year": 2024,
+        "avg": 337592
+      },
+      {
+        "year": 2025,
+        "avg": 345042
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 85.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 5.7,
+    "byType": {
+      "violentCrime": 33.6,
+      "burglary": 1.6,
+      "vehicleCrime": 3.7,
+      "antisocialBehaviour": 13.9,
+      "otherTheft": 16,
+      "other": 17.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 0,
+    "good": 8,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Nicholas CEVC Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Abbey Court Foundation Special School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Leigh Academy Strood",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "All Faiths Children's Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Gordons Children's Academy, Junior",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 110671,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 17,
+    "privateRent": 17,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 316,
+    "avgUpload": 57,
+    "superfastPct": 95,
+    "ultrafastPct": 80,
+    "gigabitPct": 75,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Gravesham",
+    "bandD": 2104,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.4,
+    "imdRank": 17293,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ME2 is the postcode district for ROCHESTER, located in Kent, South East.",
+    "priceVsCounty": "The average property price in ME2 is £338,958, which is 25% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in ME2 cost 18.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ME2 have risen 2.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 85.9 recorded crimes per 1,000 residents, ME2 has a crime rate 6% above the national average of 81.3 per 1,000.",
+    "schoolContext": "ME2 has 19 schools within or near its boundaries, including 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ME2 are 316.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "ME2 (ROCHESTER) offers property prices near the national average (£338,958), 19 nearby schools, and excellent broadband (316 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 316
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 316
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "FY5",
+  "name": "THORNTON-CLEVELEYS",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "blackpool",
+  "adjacent": [
+    "FY4",
+    "FY6",
+    "FY7"
+  ],
+  "property": {
+    "avgPrice": 195182,
+    "medianPrice": 170000,
+    "priceChange1y": 5.1,
+    "priceChange5y": 0,
+    "transactions12m": 2894,
+    "byType": {
+      "detached": {
+        "avg": 280272,
+        "count": 593
+      },
+      "semi": {
+        "avg": 169703,
+        "count": 1614
+      },
+      "terraced": {
+        "avg": 141690,
+        "count": 395
+      },
+      "flat": {
+        "avg": 102567,
+        "count": 225
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 219005
+      },
+      {
+        "year": 2024,
+        "avg": 178741
+      },
+      {
+        "year": 2025,
+        "avg": 187865
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 70.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -13,
+    "byType": {
+      "violentCrime": 24.2,
+      "burglary": 2,
+      "vehicleCrime": 3.3,
+      "antisocialBehaviour": 19.9,
+      "otherTheft": 10.8,
+      "other": 10.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Thornton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Thornton Cleveleys Royles Brook Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Northfold Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Stanah Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Thornton Cleveleys Manor Beach Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 144191,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 10,
+    "privateRent": 29,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 355,
+    "avgUpload": 64,
+    "superfastPct": 99,
+    "ultrafastPct": 87,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Blackpool Council",
+    "bandD": 2149,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 45,
+    "imdRank": 26765,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "FY5 encompasses THORNTON-CLEVELEYS and its surrounding areas in Lancashire, North West.",
+    "priceVsCounty": "The average property price in FY5 is £195,182, which is 23% below the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in FY5 cost 32.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in FY5 have risen 5.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 70.7 recorded crimes per 1,000 residents, FY5 has a crime rate 13% below the national average of 81.3 per 1,000.",
+    "schoolContext": "FY5 has 13 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in FY5 are 355.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "FY5 (THORNTON-CLEVELEYS) offers affordable property prices (£195,182, 32% below national average), 13 nearby schools, and excellent broadband (355 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 355
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 355
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

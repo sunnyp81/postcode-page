@@ -1,0 +1,198 @@
+{
+  "code": "RG18",
+  "name": "THATCHAM",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [
+    "RG17",
+    "RG19",
+    "RG20"
+  ],
+  "property": {
+    "avgPrice": 504621,
+    "medianPrice": 408500,
+    "priceChange1y": -3.4,
+    "priceChange5y": 0,
+    "transactions12m": 696,
+    "byType": {
+      "detached": {
+        "avg": 689164,
+        "count": 294
+      },
+      "semi": {
+        "avg": 387642,
+        "count": 215
+      },
+      "terraced": {
+        "avg": 336480,
+        "count": 109
+      },
+      "flat": {
+        "avg": 206308,
+        "count": 59
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 491648
+      },
+      {
+        "year": 2024,
+        "avg": 519602
+      },
+      {
+        "year": 2025,
+        "avg": 502131
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.3,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.2,
+      "other": 0.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Curridge Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hermitage Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cold Ash St Mark's CE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hampstead Norreys C.E. Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Yattendon C.E. Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 165112,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 372,
+    "avgUpload": 67,
+    "superfastPct": 98,
+    "ultrafastPct": 93,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Reading Council",
+    "bandD": 1606,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10,
+    "imdRank": 7974,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG18 covers THATCHAM in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG18 is £504,621, which is 14% below the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG18 cost 75.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG18 have fallen 3.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, RG18 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RG18 has 11 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG18 are 372.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG18 (THATCHAM) offers above-average property prices (£504,621, 76% above national average), low crime (94% below national average), 11 nearby schools, and excellent broadband (372 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 372
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 372
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

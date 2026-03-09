@@ -1,0 +1,198 @@
+{
+  "code": "UB7",
+  "name": "WEST DRAYTON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "uxbridge",
+  "adjacent": [
+    "UB6",
+    "UB8",
+    "UB9"
+  ],
+  "property": {
+    "avgPrice": 601347,
+    "medianPrice": 405000,
+    "priceChange1y": -33.2,
+    "priceChange5y": 0,
+    "transactions12m": 967,
+    "byType": {
+      "detached": {
+        "avg": 658001,
+        "count": 49
+      },
+      "semi": {
+        "avg": 503223,
+        "count": 253
+      },
+      "terraced": {
+        "avg": 442277,
+        "count": 236
+      },
+      "flat": {
+        "avg": 272229,
+        "count": 378
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 781146
+      },
+      {
+        "year": 2024,
+        "avg": 596831
+      },
+      {
+        "year": 2025,
+        "avg": 398600
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 78.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -3.6,
+    "byType": {
+      "violentCrime": 23,
+      "burglary": 3,
+      "vehicleCrime": 6.5,
+      "antisocialBehaviour": 18.7,
+      "otherTheft": 11.7,
+      "other": 15.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Eden School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Harmondsworth Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Heathrow Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Rabbsfarm Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Catherine Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 329185,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 16,
+    "privateRent": 24,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 332,
+    "avgUpload": 60,
+    "superfastPct": 93,
+    "ultrafastPct": 82,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hillingdon",
+    "bandD": 1760,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.2,
+    "imdRank": 15515,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "UB7 encompasses WEST DRAYTON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in UB7 is £601,347, which is 54% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in UB7 cost 109.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in UB7 have fallen 33.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "UB7 has a crime rate of 78.4 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "UB7 has 14 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in UB7 are 332.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "UB7 (WEST DRAYTON) offers above-average property prices (£601,347, 110% above national average), 14 nearby schools, and excellent broadband (332 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 332
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 332
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

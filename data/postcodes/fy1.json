@@ -1,0 +1,197 @@
+{
+  "code": "FY1",
+  "name": "BLACKPOOL",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "blackpool",
+  "adjacent": [
+    "FY2",
+    "FY3"
+  ],
+  "property": {
+    "avgPrice": 127931,
+    "medianPrice": 95000,
+    "priceChange1y": -10.1,
+    "priceChange5y": 0,
+    "transactions12m": 2146,
+    "byType": {
+      "detached": {
+        "avg": 219213,
+        "count": 41
+      },
+      "semi": {
+        "avg": 140045,
+        "count": 332
+      },
+      "terraced": {
+        "avg": 101347,
+        "count": 1269
+      },
+      "flat": {
+        "avg": 67865,
+        "count": 193
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 121581
+      },
+      {
+        "year": 2024,
+        "avg": 137668
+      },
+      {
+        "year": 2025,
+        "avg": 123779
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 147.9,
+      "burglary": 10.6,
+      "vehicleCrime": 8.8,
+      "antisocialBehaviour": 106.1,
+      "otherTheft": 46.1,
+      "other": 66.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Blackpool St John's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Revoe Learning Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Blackpool Gateway Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Westminster Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tower Learning Centre Independent School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 144191,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 10,
+    "privateRent": 29,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 271,
+    "avgUpload": 49,
+    "superfastPct": 98,
+    "ultrafastPct": 63,
+    "gigabitPct": 63,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Blackpool Council",
+    "bandD": 2149,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 45,
+    "imdRank": 26765,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "FY1 is the postcode district for BLACKPOOL, located in Lancashire, North West.",
+    "priceVsCounty": "The average property price in FY1 is £127,931, which is 50% below the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in FY1 cost 55.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in FY1 have fallen 10.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, FY1 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "FY1 has 9 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in FY1 are 271.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "FY1 (BLACKPOOL) offers affordable property prices (£127,931, 55% below national average), higher-than-average crime (269% above national average), 9 nearby schools, and excellent broadband (271 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 271
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 271
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

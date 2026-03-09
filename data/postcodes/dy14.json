@@ -1,0 +1,196 @@
+{
+  "code": "DY14",
+  "name": "KIDDERMINSTER",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "dudley",
+  "adjacent": [
+    "DY13"
+  ],
+  "property": {
+    "avgPrice": 432226,
+    "medianPrice": 350000,
+    "priceChange1y": 11.2,
+    "priceChange5y": 0,
+    "transactions12m": 255,
+    "byType": {
+      "detached": {
+        "avg": 503690,
+        "count": 115
+      },
+      "semi": {
+        "avg": 261738,
+        "count": 56
+      },
+      "terraced": {
+        "avg": 227415,
+        "count": 42
+      },
+      "flat": {
+        "avg": 157500,
+        "count": 2
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 483889
+      },
+      {
+        "year": 2024,
+        "avg": 389394
+      },
+      {
+        "year": 2025,
+        "avg": 433133
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.4,
+      "burglary": 0.2,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.3,
+      "otherTheft": 0.3,
+      "other": 0.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bayton CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Farlow CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Lacon Childe School",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Cleobury Mortimer Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Stottesdon CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 103913,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 14,
+    "privateRent": 14,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 177,
+    "avgUpload": 32,
+    "superfastPct": 78,
+    "ultrafastPct": 38,
+    "gigabitPct": 38,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wyre Forest",
+    "bandD": 2112,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.4,
+    "imdRank": 17487,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DY14 covers KIDDERMINSTER in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in DY14 is £432,226, which is 29% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in DY14 cost 50.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DY14 have risen 11.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, DY14 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DY14 has 7 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DY14 are 177.0 Mbps, with 97% of premises having access to superfast broadband and 64% with full fibre (FTTP) connectivity.",
+    "synthesis": "DY14 (KIDDERMINSTER) offers above-average property prices (£432,226, 51% above national average), low crime (94% below national average), 7 nearby schools, and excellent broadband (177 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 177
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 177
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

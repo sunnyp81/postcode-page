@@ -1,0 +1,195 @@
+{
+  "code": "CF83",
+  "name": "CAERPHILLY",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF82"
+  ],
+  "property": {
+    "avgPrice": 238045,
+    "medianPrice": 210000,
+    "priceChange1y": -4,
+    "priceChange5y": 0,
+    "transactions12m": 2290,
+    "byType": {
+      "detached": {
+        "avg": 365451,
+        "count": 445
+      },
+      "semi": {
+        "avg": 228059,
+        "count": 809
+      },
+      "terraced": {
+        "avg": 174486,
+        "count": 866
+      },
+      "flat": {
+        "avg": 120506,
+        "count": 84
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 229853
+      },
+      {
+        "year": 2024,
+        "avg": 246317
+      },
+      {
+        "year": 2025,
+        "avg": 236461
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 49.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -39.2,
+    "byType": {
+      "violentCrime": 17.2,
+      "burglary": 1.4,
+      "vehicleCrime": 1.2,
+      "antisocialBehaviour": 8.8,
+      "otherTheft": 6.2,
+      "other": 14.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 25,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Coed-Y-Brain Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cwmaber Junior School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Nant Y Parc Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cwm Ifor Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Ifor Bach",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 383919,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 354,
+    "avgUpload": 64,
+    "superfastPct": 98,
+    "ultrafastPct": 89,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF83 is the postcode district for CAERPHILLY, located in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF83 is £238,045, which is 14% below the Cardiff average of £275,506.",
+    "priceVsNational": "Properties in CF83 cost 17.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CF83 have fallen 4.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 49.4 recorded crimes per 1,000 residents, CF83 has a crime rate well 39% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CF83 has 25 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF83 are 354.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF83 (CAERPHILLY) offers affordable property prices (£238,045, 17% below national average), low crime (39% below national average), 25 nearby schools, and excellent broadband (354 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 354
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 354
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

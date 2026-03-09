@@ -1,0 +1,195 @@
+{
+  "code": "TA24",
+  "name": "MINEHEAD",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "taunton",
+  "adjacent": [
+    "TA23"
+  ],
+  "property": {
+    "avgPrice": 359458,
+    "medianPrice": 285000,
+    "priceChange1y": -6.1,
+    "priceChange5y": 0,
+    "transactions12m": 923,
+    "byType": {
+      "detached": {
+        "avg": 454435,
+        "count": 262
+      },
+      "semi": {
+        "avg": 314004,
+        "count": 217
+      },
+      "terraced": {
+        "avg": 257822,
+        "count": 186
+      },
+      "flat": {
+        "avg": 164570,
+        "count": 187
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 372297
+      },
+      {
+        "year": 2024,
+        "avg": 363473
+      },
+      {
+        "year": 2025,
+        "avg": 341399
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Dunster First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Exford Church of England First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cutcombe Church of England First School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Dubricius Church of England VA School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Timberscombe Church of England First School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 26693,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 170,
+    "avgUpload": 31,
+    "superfastPct": 79,
+    "ultrafastPct": 36,
+    "gigabitPct": 36,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Taunton Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TA24 encompasses MINEHEAD and its surrounding areas in Somerset, South West.",
+    "priceVsCounty": "The average property price in TA24 is £359,458, broadly in line with the Somerset average of £373,759.",
+    "priceVsNational": "Properties in TA24 cost 25.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TA24 have fallen 6.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TA24 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TA24 has 10 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TA24 are 170.0 Mbps, with 96% of premises having access to superfast broadband and 62% with full fibre (FTTP) connectivity.",
+    "synthesis": "TA24 (MINEHEAD) offers above-average property prices (£359,458, 25% above national average), low crime (94% below national average), 10 nearby schools, and excellent broadband (170 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 170
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 170
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "TR7",
+  "name": "NEWQUAY",
+  "county": "cornwall",
+  "region": "south-west",
+  "city": "truro",
+  "adjacent": [
+    "TR6",
+    "TR8",
+    "TR9"
+  ],
+  "property": {
+    "avgPrice": 352950,
+    "medianPrice": 320000,
+    "priceChange1y": -6.6,
+    "priceChange5y": 0,
+    "transactions12m": 1391,
+    "byType": {
+      "detached": {
+        "avg": 509262,
+        "count": 302
+      },
+      "semi": {
+        "avg": 342894,
+        "count": 236
+      },
+      "terraced": {
+        "avg": 321600,
+        "count": 364
+      },
+      "flat": {
+        "avg": 260805,
+        "count": 421
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 341008
+      },
+      {
+        "year": 2024,
+        "avg": 370223
+      },
+      {
+        "year": 2025,
+        "avg": 345849
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 55.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -32.2,
+    "byType": {
+      "violentCrime": 24.1,
+      "burglary": 1,
+      "vehicleCrime": 1.1,
+      "antisocialBehaviour": 7.9,
+      "otherTheft": 8.7,
+      "other": 12.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 2,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Trenance Learning Academy",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Newquay Junior Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Newquay Tretherras",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Columb Minor Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Bishops CofE Learning Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 583289,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 244,
+    "avgUpload": 44,
+    "superfastPct": 90,
+    "ultrafastPct": 56,
+    "gigabitPct": 56,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Truro Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.1,
+    "imdRank": 19382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TR7 encompasses NEWQUAY and its surrounding areas in Cornwall, South West.",
+    "priceVsCounty": "The average property price in TR7 is £352,950, which is 12% below the Cornwall average of £402,222.",
+    "priceVsNational": "Properties in TR7 cost 23.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TR7 have fallen 6.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 55.1 recorded crimes per 1,000 residents, TR7 has a crime rate well 32% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TR7 has 7 schools within or near its boundaries, including 2 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TR7 are 244.0 Mbps, with 99% of premises having access to superfast broadband and 82% with full fibre (FTTP) connectivity.",
+    "synthesis": "TR7 (NEWQUAY) offers above-average property prices (£352,950, 23% above national average), low crime (32% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (244 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 402222,
+      "crime": 75,
+      "broadband": 244
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 244
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

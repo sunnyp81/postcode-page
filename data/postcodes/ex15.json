@@ -1,0 +1,198 @@
+{
+  "code": "EX15",
+  "name": "CULLOMPTON",
+  "county": "devon",
+  "region": "south-west",
+  "city": "exeter",
+  "adjacent": [
+    "EX14",
+    "EX16",
+    "EX17"
+  ],
+  "property": {
+    "avgPrice": 350942,
+    "medianPrice": 299000,
+    "priceChange1y": 4.1,
+    "priceChange5y": 0,
+    "transactions12m": 1259,
+    "byType": {
+      "detached": {
+        "avg": 442135,
+        "count": 482
+      },
+      "semi": {
+        "avg": 282040,
+        "count": 368
+      },
+      "terraced": {
+        "avg": 229555,
+        "count": 244
+      },
+      "flat": {
+        "avg": 174007,
+        "count": 79
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 366458
+      },
+      {
+        "year": 2024,
+        "avg": 337685
+      },
+      {
+        "year": 2025,
+        "avg": 351563
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.1,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Clyst Hydon Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Culmstock Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Willand School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Kentisbeare Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Plymtree Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 84993,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 233,
+    "avgUpload": 42,
+    "superfastPct": 73,
+    "ultrafastPct": 55,
+    "gigabitPct": 55,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Mid Devon",
+    "bandD": 2295,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.9,
+    "imdRank": 15037,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EX15 is the postcode district for CULLOMPTON, located in Devon, South West.",
+    "priceVsCounty": "The average property price in EX15 is £350,942, which is 9% below the Devon average of £385,452.",
+    "priceVsNational": "Properties in EX15 cost 22.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EX15 have risen 4.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, EX15 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "EX15 has 12 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EX15 are 233.0 Mbps, with 99% of premises having access to superfast broadband and 79% with full fibre (FTTP) connectivity.",
+    "synthesis": "EX15 (CULLOMPTON) offers above-average property prices (£350,942, 22% above national average), low crime (94% below national average), 12 nearby schools, and excellent broadband (233 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 233
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 233
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

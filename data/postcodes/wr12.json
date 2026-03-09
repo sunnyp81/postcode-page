@@ -1,0 +1,193 @@
+{
+  "code": "WR12",
+  "name": "BROADWAY",
+  "county": "worcestershire",
+  "region": "west-midlands",
+  "city": "worcester",
+  "adjacent": [
+    "WR11",
+    "WR13",
+    "WR14"
+  ],
+  "property": {
+    "avgPrice": 696013,
+    "medianPrice": 514000,
+    "priceChange1y": -20.5,
+    "priceChange5y": 0,
+    "transactions12m": 324,
+    "byType": {
+      "detached": {
+        "avg": 929649,
+        "count": 125
+      },
+      "semi": {
+        "avg": 470760,
+        "count": 76
+      },
+      "terraced": {
+        "avg": 429538,
+        "count": 67
+      },
+      "flat": {
+        "avg": 170833,
+        "count": 18
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 754494
+      },
+      {
+        "year": 2024,
+        "avg": 730252
+      },
+      {
+        "year": 2025,
+        "avg": 580422
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.3,
+      "burglary": 0.4,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.9,
+      "otherTheft": 0.6,
+      "other": 0.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Willersey Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Broadway First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cotswold Spa Hospital School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 101949,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 305,
+    "avgUpload": 55,
+    "superfastPct": 95,
+    "ultrafastPct": 73,
+    "gigabitPct": 73,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Tewkesbury",
+    "bandD": 2029,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.1,
+    "imdRank": 9967,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WR12 is the postcode district for BROADWAY, located in Worcestershire, West Midlands.",
+    "priceVsCounty": "The average property price in WR12 is £696,013, which is 67% above the Worcestershire average of £417,033.",
+    "priceVsNational": "Properties in WR12 cost 142.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WR12 have fallen 20.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, WR12 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WR12 has 4 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WR12 are 305.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WR12 (BROADWAY) offers above-average property prices (£696,013, 143% above national average), low crime (94% below national average), 4 nearby schools, and excellent broadband (305 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 417033,
+      "crime": 75,
+      "broadband": 305
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 305
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

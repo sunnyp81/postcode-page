@@ -1,0 +1,198 @@
+{
+  "code": "BN25",
+  "name": "SEAFORD",
+  "county": "east-sussex",
+  "region": "south-east",
+  "city": "brighton",
+  "adjacent": [
+    "BN24",
+    "BN26",
+    "BN27"
+  ],
+  "property": {
+    "avgPrice": 397811,
+    "medianPrice": 375000,
+    "priceChange1y": -2,
+    "priceChange5y": 0,
+    "transactions12m": 1191,
+    "byType": {
+      "detached": {
+        "avg": 515184,
+        "count": 480
+      },
+      "semi": {
+        "avg": 375822,
+        "count": 252
+      },
+      "terraced": {
+        "avg": 330760,
+        "count": 152
+      },
+      "flat": {
+        "avg": 229674,
+        "count": 276
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 419875
+      },
+      {
+        "year": 2024,
+        "avg": 391341
+      },
+      {
+        "year": 2025,
+        "avg": 383593
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 26.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -67.4,
+    "byType": {
+      "violentCrime": 9.6,
+      "burglary": 0.4,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 5.3,
+      "otherTheft": 4.9,
+      "other": 5.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bowden House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Seaford Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cradle Hill Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Seaford Head School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cuckmere House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 166908,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 8,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 299,
+    "avgUpload": 54,
+    "superfastPct": 98,
+    "ultrafastPct": 71,
+    "gigabitPct": 71,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wealden",
+    "bandD": 2363,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.3,
+    "imdRank": 10272,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BN25 is the postcode district for SEAFORD, located in East Sussex, South East.",
+    "priceVsCounty": "The average property price in BN25 is £397,811, which is 13% below the East Sussex average of £455,819.",
+    "priceVsNational": "Properties in BN25 cost 38.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BN25 have fallen 2.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 26.5 recorded crimes per 1,000 residents, BN25 has a crime rate well 67% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BN25 has 7 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BN25 are 299.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BN25 (SEAFORD) offers above-average property prices (£397,811, 39% above national average), low crime (67% below national average), 7 nearby schools, and excellent broadband (299 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 455819,
+      "crime": 75,
+      "broadband": 299
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 299
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

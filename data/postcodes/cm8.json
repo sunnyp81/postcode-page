@@ -1,0 +1,197 @@
+{
+  "code": "CM8",
+  "name": "WITHAM",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "chelmsford",
+  "adjacent": [
+    "CM7",
+    "CM9"
+  ],
+  "property": {
+    "avgPrice": 381582,
+    "medianPrice": 324000,
+    "priceChange1y": -7.8,
+    "priceChange5y": 0,
+    "transactions12m": 1789,
+    "byType": {
+      "detached": {
+        "avg": 548978,
+        "count": 399
+      },
+      "semi": {
+        "avg": 364766,
+        "count": 436
+      },
+      "terraced": {
+        "avg": 302770,
+        "count": 510
+      },
+      "flat": {
+        "avg": 190190,
+        "count": 388
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 409812
+      },
+      {
+        "year": 2024,
+        "avg": 378509
+      },
+      {
+        "year": 2025,
+        "avg": 349174
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 46.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -42.9,
+    "byType": {
+      "violentCrime": 20.9,
+      "burglary": 1.8,
+      "vehicleCrime": 1.9,
+      "antisocialBehaviour": 4.3,
+      "otherTheft": 6.9,
+      "other": 10.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 2,
+    "good": 7,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Chipping Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Howbridge Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "White Notley Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lift New Rickstones",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lift Maltings",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 164304,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 16,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 330,
+    "avgUpload": 59,
+    "superfastPct": 97,
+    "ultrafastPct": 80,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Braintree",
+    "bandD": 2010,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.7,
+    "imdRank": 12716,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CM8 encompasses WITHAM and its surrounding areas in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CM8 is £381,582, which is 11% below the Essex average of £429,754.",
+    "priceVsNational": "Properties in CM8 cost 33.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CM8 have fallen 7.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 46.4 recorded crimes per 1,000 residents, CM8 has a crime rate well 43% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CM8 has 16 schools within or near its boundaries, including 2 rated Outstanding and 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CM8 are 330.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CM8 (WITHAM) offers above-average property prices (£381,582, 33% above national average), low crime (43% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (330 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 330
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 330
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

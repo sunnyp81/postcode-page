@@ -1,0 +1,198 @@
+{
+  "code": "NR5",
+  "name": "NORWICH",
+  "county": "norfolk",
+  "region": "east-of-england",
+  "city": "norwich",
+  "adjacent": [
+    "NR4",
+    "NR6",
+    "NR7"
+  ],
+  "property": {
+    "avgPrice": 274458,
+    "medianPrice": 250000,
+    "priceChange1y": -6.1,
+    "priceChange5y": 0,
+    "transactions12m": 951,
+    "byType": {
+      "detached": {
+        "avg": 338327,
+        "count": 305
+      },
+      "semi": {
+        "avg": 251682,
+        "count": 307
+      },
+      "terraced": {
+        "avg": 225032,
+        "count": 247
+      },
+      "flat": {
+        "avg": 139558,
+        "count": 68
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 290185
+      },
+      {
+        "year": 2024,
+        "avg": 274367
+      },
+      {
+        "year": 2025,
+        "avg": 257638
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 58.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -27.6,
+    "byType": {
+      "violentCrime": 27.2,
+      "burglary": 1.6,
+      "vehicleCrime": 1.5,
+      "antisocialBehaviour": 7.4,
+      "otherTheft": 8.3,
+      "other": 13
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Earlham Nursery School",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "West Earlham Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "West Earlham Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chapel Break Infant School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "St Michael's VA Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 138157,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 10,
+    "privateRent": 10,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 369,
+    "avgUpload": 66,
+    "superfastPct": 99,
+    "ultrafastPct": 92,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Broadland",
+    "bandD": 2121,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.8,
+    "imdRank": 10039,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NR5 covers NORWICH in Norfolk, East Of England.",
+    "priceVsCounty": "The average property price in NR5 is £274,458, which is 22% below the Norfolk average of £352,657.",
+    "priceVsNational": "Property values in NR5 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in NR5 have fallen 6.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 58.9 recorded crimes per 1,000 residents, NR5 has a crime rate well 28% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NR5 has 13 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NR5 are 369.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NR5 (NORWICH) offers property prices near the national average (£274,458), low crime (28% below national average), 13 nearby schools, and excellent broadband (369 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 352657,
+      "crime": 75,
+      "broadband": 369
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 369
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

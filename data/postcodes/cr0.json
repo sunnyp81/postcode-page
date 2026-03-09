@@ -1,0 +1,196 @@
+{
+  "code": "CR0",
+  "name": "CROYDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "croydon",
+  "adjacent": [
+    "CR2"
+  ],
+  "property": {
+    "avgPrice": 463593,
+    "medianPrice": 365000,
+    "priceChange1y": -0.7,
+    "priceChange5y": 0,
+    "transactions12m": 5201,
+    "byType": {
+      "detached": {
+        "avg": 723146,
+        "count": 213
+      },
+      "semi": {
+        "avg": 493905,
+        "count": 886
+      },
+      "terraced": {
+        "avg": 406570,
+        "count": 1787
+      },
+      "flat": {
+        "avg": 272156,
+        "count": 2034
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 517424
+      },
+      {
+        "year": 2024,
+        "avg": 439923
+      },
+      {
+        "year": 2025,
+        "avg": 436951
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 134.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 65.9,
+    "byType": {
+      "violentCrime": 38.3,
+      "burglary": 5.8,
+      "vehicleCrime": 8.1,
+      "antisocialBehaviour": 32.9,
+      "otherTheft": 24.6,
+      "other": 25.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 60,
+    "outstanding": 6,
+    "good": 13,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Tunstall Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Elmwood Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Elmwood Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Howard Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Forestdale Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 214525,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 14,
+    "privateRent": 19,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 336,
+    "avgUpload": 60,
+    "superfastPct": 95,
+    "ultrafastPct": 82,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Sutton",
+    "bandD": 2048,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14,
+    "imdRank": 11415,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CR0 encompasses CROYDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in CR0 is £463,593, which is 65% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in CR0 cost 61.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CR0 have fallen 0.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 134.9 recorded crimes per 1,000 residents, CR0 has a crime rate significantly 66% above the national average of 81.3 per 1,000.",
+    "schoolContext": "CR0 has 60 schools within or near its boundaries, including 6 rated Outstanding and 13 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CR0 are 336.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CR0 (CROYDON) offers above-average property prices (£463,593, 62% above national average), higher-than-average crime (66% above national average), strong school provision (6 Outstanding-rated schools), and excellent broadband (336 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 336
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 336
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

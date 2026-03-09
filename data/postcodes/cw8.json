@@ -1,0 +1,198 @@
+{
+  "code": "CW8",
+  "name": "NORTHWICH",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "crewe",
+  "adjacent": [
+    "CW7",
+    "CW9",
+    "CW10"
+  ],
+  "property": {
+    "avgPrice": 312093,
+    "medianPrice": 254998,
+    "priceChange1y": 7.3,
+    "priceChange5y": 0,
+    "transactions12m": 2188,
+    "byType": {
+      "detached": {
+        "avg": 465026,
+        "count": 742
+      },
+      "semi": {
+        "avg": 253593,
+        "count": 699
+      },
+      "terraced": {
+        "avg": 185866,
+        "count": 538
+      },
+      "flat": {
+        "avg": 143936,
+        "count": 160
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 304256
+      },
+      {
+        "year": 2024,
+        "avg": 305608
+      },
+      {
+        "year": 2025,
+        "avg": 327943
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 8.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -89.2,
+    "byType": {
+      "violentCrime": 4.5,
+      "burglary": 0.2,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.9,
+      "otherTheft": 0.8,
+      "other": 2.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 23,
+    "outstanding": 1,
+    "good": 9,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Charles Darwin Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Weaverham Forest Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hartford Manor Primary School & Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Winnington Park Community Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Crowton Christ Church CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 371652,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 15,
+    "privateRent": 14,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 310,
+    "avgUpload": 56,
+    "superfastPct": 95,
+    "ultrafastPct": 76,
+    "gigabitPct": 74,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Crewe Council",
+    "bandD": 2098,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.1,
+    "imdRank": 13862,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CW8 covers NORTHWICH in Cheshire, North West.",
+    "priceVsCounty": "The average property price in CW8 is £312,093, broadly in line with the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in CW8 cost 8.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CW8 have risen 7.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 8.8 recorded crimes per 1,000 residents, CW8 has a crime rate well 89% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CW8 has 23 schools within or near its boundaries, including 1 rated Outstanding and 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CW8 are 310.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CW8 (NORTHWICH) offers property prices near the national average (£312,093), low crime (89% below national average), 23 nearby schools, and excellent broadband (310 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 310
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 310
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

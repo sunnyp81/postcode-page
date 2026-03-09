@@ -1,0 +1,198 @@
+{
+  "code": "TW18",
+  "name": "STAINES-UPON-THAMES",
+  "county": "greater-london",
+  "region": "london",
+  "city": "twickenham",
+  "adjacent": [
+    "TW17",
+    "TW19",
+    "TW20"
+  ],
+  "property": {
+    "avgPrice": 487686,
+    "medianPrice": 425000,
+    "priceChange1y": -7.4,
+    "priceChange5y": 0,
+    "transactions12m": 1295,
+    "byType": {
+      "detached": {
+        "avg": 730971,
+        "count": 149
+      },
+      "semi": {
+        "avg": 509520,
+        "count": 370
+      },
+      "terraced": {
+        "avg": 438793,
+        "count": 220
+      },
+      "flat": {
+        "avg": 333641,
+        "count": 504
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 521787
+      },
+      {
+        "year": 2024,
+        "avg": 489854
+      },
+      {
+        "year": 2025,
+        "avg": 453628
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 58.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -28.3,
+    "byType": {
+      "violentCrime": 19.8,
+      "burglary": 1.5,
+      "vehicleCrime": 1.6,
+      "antisocialBehaviour": 9.1,
+      "otherTheft": 11,
+      "other": 15.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hythe Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Laleham CofE VA Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Staines Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Buckland Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Magna Carta School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 92118,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 332,
+    "avgUpload": 60,
+    "superfastPct": 96,
+    "ultrafastPct": 85,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Runnymede",
+    "bandD": 2171,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12,
+    "imdRank": 10056,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TW18 covers STAINES-UPON-THAMES in Greater London, London.",
+    "priceVsCounty": "The average property price in TW18 is £487,686, which is 63% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in TW18 cost 69.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TW18 have fallen 7.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 58.3 recorded crimes per 1,000 residents, TW18 has a crime rate well 28% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TW18 has 8 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TW18 are 332.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TW18 (STAINES-UPON-THAMES) offers above-average property prices (£487,686, 70% above national average), low crime (28% below national average), 8 nearby schools, and excellent broadband (332 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 332
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 332
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

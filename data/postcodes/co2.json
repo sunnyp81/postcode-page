@@ -1,0 +1,198 @@
+{
+  "code": "CO2",
+  "name": "COLCHESTER",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "colchester",
+  "adjacent": [
+    "CO1",
+    "CO3",
+    "CO4"
+  ],
+  "property": {
+    "avgPrice": 304533,
+    "medianPrice": 275000,
+    "priceChange1y": 4.6,
+    "priceChange5y": 0,
+    "transactions12m": 1657,
+    "byType": {
+      "detached": {
+        "avg": 461452,
+        "count": 273
+      },
+      "semi": {
+        "avg": 318649,
+        "count": 447
+      },
+      "terraced": {
+        "avg": 272382,
+        "count": 491
+      },
+      "flat": {
+        "avg": 179124,
+        "count": 397
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 308688
+      },
+      {
+        "year": 2024,
+        "avg": 295387
+      },
+      {
+        "year": 2025,
+        "avg": 309044
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 58.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -28.4,
+    "byType": {
+      "violentCrime": 27.2,
+      "burglary": 2.4,
+      "vehicleCrime": 4.4,
+      "antisocialBehaviour": 4.7,
+      "otherTheft": 8.1,
+      "other": 11.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St. George's School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Old Heath Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John's Green Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "King's Ford Infant School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gosbecks Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 200222,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 13,
+    "privateRent": 19,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 337,
+    "avgUpload": 61,
+    "superfastPct": 98,
+    "ultrafastPct": 82,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Colchester",
+    "bandD": 2011,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.8,
+    "imdRank": 13956,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CO2 is the postcode district for COLCHESTER, located in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CO2 is £304,533, which is 29% below the Essex average of £429,754.",
+    "priceVsNational": "Properties in CO2 cost 6.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CO2 have risen 4.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 58.2 recorded crimes per 1,000 residents, CO2 has a crime rate well 28% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CO2 has 16 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CO2 are 337.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CO2 (COLCHESTER) offers property prices near the national average (£304,533), low crime (28% below national average), 16 nearby schools, and excellent broadband (337 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 337
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 337
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

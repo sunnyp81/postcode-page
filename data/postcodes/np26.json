@@ -1,0 +1,195 @@
+{
+  "code": "NP26",
+  "name": "CALDICOT",
+  "county": "gwent",
+  "region": "wales",
+  "city": "newport",
+  "adjacent": [
+    "NP25"
+  ],
+  "property": {
+    "avgPrice": 332343,
+    "medianPrice": 302500,
+    "priceChange1y": -0.6,
+    "priceChange5y": 0,
+    "transactions12m": 987,
+    "byType": {
+      "detached": {
+        "avg": 419740,
+        "count": 429
+      },
+      "semi": {
+        "avg": 275595,
+        "count": 336
+      },
+      "terraced": {
+        "avg": 244634,
+        "count": 158
+      },
+      "flat": {
+        "avg": 162158,
+        "count": 27
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 347430
+      },
+      {
+        "year": 2024,
+        "avg": 326317
+      },
+      {
+        "year": 2025,
+        "avg": 324233
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 7.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -90.8,
+    "byType": {
+      "violentCrime": 3.1,
+      "burglary": 0.1,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1.6,
+      "otherTheft": 0.6,
+      "other": 2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Rogiet C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Durand Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Magor V.A. Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Archbishop Rowan Williams CIW School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Caldicot Comprehensive School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 167899,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 292,
+    "avgUpload": 53,
+    "superfastPct": 93,
+    "ultrafastPct": 74,
+    "gigabitPct": 68,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newport Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "NP26 is the postcode district for CALDICOT, located in Gwent, Wales.",
+    "priceVsCounty": "The average property price in NP26 is £332,343, which is 22% above the Gwent average of £273,109.",
+    "priceVsNational": "Properties in NP26 cost 15.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NP26 have fallen 0.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 7.5 recorded crimes per 1,000 residents, NP26 has a crime rate well 91% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NP26 has 7 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NP26 are 292.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NP26 (CALDICOT) offers property prices near the national average (£332,343), low crime (91% below national average), 7 nearby schools, and excellent broadband (292 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 273109,
+      "crime": 75,
+      "broadband": 292
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 292
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

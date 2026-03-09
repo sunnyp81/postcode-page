@@ -1,0 +1,164 @@
+{
+  "code": "EC3V",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 9329420,
+    "medianPrice": 2060969,
+    "priceChange1y": 1221.4,
+    "priceChange5y": 0,
+    "transactions12m": 10,
+    "byType": {
+      "detached": {
+        "avg": 17725898,
+        "count": 0
+      },
+      "semi": {
+        "avg": 11195304,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 9329420,
+        "count": 0
+      },
+      "flat": {
+        "avg": 6344006,
+        "count": 0
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1120169
+      },
+      {
+        "year": 2024,
+        "avg": 14801959
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 107.7,
+      "burglary": 26.9,
+      "vehicleCrime": 12.3,
+      "antisocialBehaviour": 70.4,
+      "otherTheft": 280.9,
+      "other": 75.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 0,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": []
+  },
+  "demographics": {
+    "population": 223024,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 15,
+    "socialRent": 40,
+    "privateRent": 29,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 128,
+    "avgUpload": 23,
+    "superfastPct": 37,
+    "ultrafastPct": 29,
+    "gigabitPct": 29,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Islington",
+    "bandD": 1815,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.5,
+    "imdRank": 22490,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EC3V covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in EC3V is £9,329,420, which is 613% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in EC3V cost 3150.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EC3V have risen 1221.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, EC3V has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "School data for EC3V is not currently available.",
+    "broadbandContext": "Average broadband download speeds in EC3V are 128.0 Mbps, with 89% of premises having access to superfast broadband and 50% with full fibre (FTTP) connectivity.",
+    "synthesis": "EC3V (LONDON) offers above-average property prices (£9,329,420, 3151% above national average), higher-than-average crime (269% above national average), and excellent broadband (128 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 128
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 128
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

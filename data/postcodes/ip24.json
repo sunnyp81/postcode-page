@@ -1,0 +1,198 @@
+{
+  "code": "IP24",
+  "name": "THETFORD",
+  "county": "suffolk",
+  "region": "east-of-england",
+  "city": "ipswich",
+  "adjacent": [
+    "IP23",
+    "IP25",
+    "IP26"
+  ],
+  "property": {
+    "avgPrice": 266018,
+    "medianPrice": 225000,
+    "priceChange1y": -8.5,
+    "priceChange5y": 0,
+    "transactions12m": 1193,
+    "byType": {
+      "detached": {
+        "avg": 353784,
+        "count": 353
+      },
+      "semi": {
+        "avg": 238876,
+        "count": 250
+      },
+      "terraced": {
+        "avg": 190873,
+        "count": 444
+      },
+      "flat": {
+        "avg": 140613,
+        "count": 95
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 283684
+      },
+      {
+        "year": 2024,
+        "avg": 266430
+      },
+      {
+        "year": 2025,
+        "avg": 243707
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 35.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -55.8,
+    "byType": {
+      "violentCrime": 15.1,
+      "burglary": 0.8,
+      "vehicleCrime": 1.1,
+      "antisocialBehaviour": 5.8,
+      "otherTheft": 4.2,
+      "other": 8.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Redcastle Family School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Drake Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Thetford Grammar School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Barnham Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Thetford Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 146620,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 263,
+    "avgUpload": 47,
+    "superfastPct": 92,
+    "ultrafastPct": 65,
+    "gigabitPct": 60,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Breckland",
+    "bandD": 2114,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.6,
+    "imdRank": 16834,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IP24 covers THETFORD in Suffolk, East Of England.",
+    "priceVsCounty": "The average property price in IP24 is £266,018, which is 30% below the Suffolk average of £379,904.",
+    "priceVsNational": "Properties in IP24 cost 7.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IP24 have fallen 8.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 35.9 recorded crimes per 1,000 residents, IP24 has a crime rate well 56% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IP24 has 17 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IP24 are 263.0 Mbps, with 99% of premises having access to superfast broadband and 87% with full fibre (FTTP) connectivity.",
+    "synthesis": "IP24 (THETFORD) offers property prices near the national average (£266,018), low crime (56% below national average), 17 nearby schools, and excellent broadband (263 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 379904,
+      "crime": 75,
+      "broadband": 263
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 263
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "BL3",
+  "name": "BOLTON",
+  "county": "greater-manchester",
+  "region": "north-west",
+  "city": "bolton",
+  "adjacent": [
+    "BL2",
+    "BL4",
+    "BL5"
+  ],
+  "property": {
+    "avgPrice": 199432,
+    "medianPrice": 160000,
+    "priceChange1y": 26.5,
+    "priceChange5y": 0,
+    "transactions12m": 1984,
+    "byType": {
+      "detached": {
+        "avg": 317902,
+        "count": 257
+      },
+      "semi": {
+        "avg": 202121,
+        "count": 578
+      },
+      "terraced": {
+        "avg": 132719,
+        "count": 892
+      },
+      "flat": {
+        "avg": 112297,
+        "count": 160
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 178225
+      },
+      {
+        "year": 2024,
+        "avg": 189935
+      },
+      {
+        "year": 2025,
+        "avg": 240194
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.1,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 41,
+    "outstanding": 0,
+    "good": 13,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Brandwood Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Clarendon Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pikes Lane Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sunning Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Haslam Park Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 198921,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 15,
+    "privateRent": 16,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 367,
+    "avgUpload": 66,
+    "superfastPct": 98,
+    "ultrafastPct": 92,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bury",
+    "bandD": 2180,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.7,
+    "imdRank": 17812,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BL3 is the postcode district for BOLTON, located in Greater Manchester, North West.",
+    "priceVsCounty": "The average property price in BL3 is £199,432, which is 48% below the Greater Manchester average of £381,941.",
+    "priceVsNational": "Properties in BL3 cost 30.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BL3 have risen 26.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, BL3 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BL3 has 41 schools within or near its boundaries, including 13 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BL3 are 367.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BL3 (BOLTON) offers affordable property prices (£199,432, 31% below national average), low crime (94% below national average), 41 nearby schools, and excellent broadband (367 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 381941,
+      "crime": 75,
+      "broadband": 367
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 367
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "KT6",
+  "name": "SURBITON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "kingston-upon-thames",
+  "adjacent": [
+    "KT5",
+    "KT7",
+    "KT8"
+  ],
+  "property": {
+    "avgPrice": 643695,
+    "medianPrice": 475000,
+    "priceChange1y": 15.8,
+    "priceChange5y": 0,
+    "transactions12m": 1550,
+    "byType": {
+      "detached": {
+        "avg": 1324678,
+        "count": 130
+      },
+      "semi": {
+        "avg": 808669,
+        "count": 267
+      },
+      "terraced": {
+        "avg": 691654,
+        "count": 225
+      },
+      "flat": {
+        "avg": 395901,
+        "count": 830
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 646191
+      },
+      {
+        "year": 2024,
+        "avg": 599526
+      },
+      {
+        "year": 2025,
+        "avg": 694460
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 65,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -20,
+    "byType": {
+      "violentCrime": 19.8,
+      "burglary": 3.7,
+      "vehicleCrime": 7,
+      "antisocialBehaviour": 13.9,
+      "otherTheft": 9.3,
+      "other": 11.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 2,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Tolworth Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tolworth Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Maple Infants' School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Andrew's and St Mark's CofE Junior School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "St Matthew's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 141926,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 10,
+    "privateRent": 16,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 346,
+    "avgUpload": 62,
+    "superfastPct": 99,
+    "ultrafastPct": 91,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Elmbridge",
+    "bandD": 2230,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 7.9,
+    "imdRank": 5634,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "KT6 covers SURBITON in Greater London, London.",
+    "priceVsCounty": "The average property price in KT6 is £643,695, which is 51% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in KT6 cost 124.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in KT6 have risen 15.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 65.0 recorded crimes per 1,000 residents, KT6 has a crime rate well 20% below the national average of 81.3 per 1,000.",
+    "schoolContext": "KT6 has 14 schools within or near its boundaries, including 2 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in KT6 are 346.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "KT6 (SURBITON) offers above-average property prices (£643,695, 124% above national average), low crime (20% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (346 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 346
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 346
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

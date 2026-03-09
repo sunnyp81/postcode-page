@@ -1,0 +1,198 @@
+{
+  "code": "L14",
+  "name": "LIVERPOOL",
+  "county": "merseyside",
+  "region": "north-west",
+  "city": "liverpool",
+  "adjacent": [
+    "L13",
+    "L15",
+    "L16"
+  ],
+  "property": {
+    "avgPrice": 180925,
+    "medianPrice": 165000,
+    "priceChange1y": -1.5,
+    "priceChange5y": 0,
+    "transactions12m": 874,
+    "byType": {
+      "detached": {
+        "avg": 306783,
+        "count": 73
+      },
+      "semi": {
+        "avg": 196436,
+        "count": 405
+      },
+      "terraced": {
+        "avg": 130112,
+        "count": 330
+      },
+      "flat": {
+        "avg": 129799,
+        "count": 45
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 178529
+      },
+      {
+        "year": 2024,
+        "avg": 183722
+      },
+      {
+        "year": 2025,
+        "avg": 180973
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 94.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 16.7,
+    "byType": {
+      "violentCrime": 43.9,
+      "burglary": 2.2,
+      "vehicleCrime": 3.4,
+      "antisocialBehaviour": 11.6,
+      "otherTheft": 6.1,
+      "other": 27.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Malvern Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Margaret Mary's Catholic Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Margaret Mary's Catholic Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "East Prescot Road Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Clifford Holroyde Specialist Sen College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 162565,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 25,
+    "privateRent": 13,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 386,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 96,
+    "gigabitPct": 96,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Knowsley",
+    "bandD": 2150,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 43,
+    "imdRank": 26199,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "L14 covers LIVERPOOL in Merseyside, North West.",
+    "priceVsCounty": "The average property price in L14 is £180,925, which is 28% below the Merseyside average of £252,845.",
+    "priceVsNational": "Properties in L14 cost 37.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in L14 have fallen 1.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 94.9 recorded crimes per 1,000 residents, L14 has a crime rate 17% above the national average of 81.3 per 1,000.",
+    "schoolContext": "L14 has 10 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in L14 are 386.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "L14 (LIVERPOOL) offers affordable property prices (£180,925, 37% below national average), higher-than-average crime (17% above national average), 10 nearby schools, and excellent broadband (386 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 252845,
+      "crime": 75,
+      "broadband": 386
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 386
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

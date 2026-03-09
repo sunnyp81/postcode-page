@@ -1,0 +1,197 @@
+{
+  "code": "GU14",
+  "name": "FARNBOROUGH",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU15",
+    "GU16"
+  ],
+  "property": {
+    "avgPrice": 412470,
+    "medianPrice": 355000,
+    "priceChange1y": -1.6,
+    "priceChange5y": 0,
+    "transactions12m": 2269,
+    "byType": {
+      "detached": {
+        "avg": 585455,
+        "count": 362
+      },
+      "semi": {
+        "avg": 414542,
+        "count": 621
+      },
+      "terraced": {
+        "avg": 341080,
+        "count": 597
+      },
+      "flat": {
+        "avg": 217103,
+        "count": 632
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 498821
+      },
+      {
+        "year": 2024,
+        "avg": 373529
+      },
+      {
+        "year": 2025,
+        "avg": 367433
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 65.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -19.1,
+    "byType": {
+      "violentCrime": 27.1,
+      "burglary": 1.5,
+      "vehicleCrime": 3.9,
+      "antisocialBehaviour": 8.1,
+      "otherTheft": 13.3,
+      "other": 11.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 30,
+    "outstanding": 0,
+    "good": 8,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Cove Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cove Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Tower Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "South Farnborough Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "North Farnborough Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 103162,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 9,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 372,
+    "avgUpload": 67,
+    "superfastPct": 98,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hart",
+    "bandD": 2079,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 5.5,
+    "imdRank": 3284,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU14 encompasses FARNBOROUGH and its surrounding areas in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU14 is £412,470, which is 33% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU14 cost 43.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU14 have fallen 1.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 65.8 recorded crimes per 1,000 residents, GU14 has a crime rate 19% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU14 has 30 schools within or near its boundaries, including 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU14 are 372.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU14 (FARNBOROUGH) offers above-average property prices (£412,470, 44% above national average), low crime (19% below national average), 30 nearby schools, and excellent broadband (372 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 372
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 372
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

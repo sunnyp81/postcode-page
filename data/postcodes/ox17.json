@@ -1,0 +1,197 @@
+{
+  "code": "OX17",
+  "name": "BANBURY",
+  "county": "oxfordshire",
+  "region": "south-east",
+  "city": "oxford",
+  "adjacent": [
+    "OX16",
+    "OX18"
+  ],
+  "property": {
+    "avgPrice": 611665,
+    "medianPrice": 410000,
+    "priceChange1y": -35.2,
+    "priceChange5y": 0,
+    "transactions12m": 789,
+    "byType": {
+      "detached": {
+        "avg": 602351,
+        "count": 361
+      },
+      "semi": {
+        "avg": 377035,
+        "count": 242
+      },
+      "terraced": {
+        "avg": 346694,
+        "count": 119
+      },
+      "flat": {
+        "avg": 204682,
+        "count": 22
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 497197
+      },
+      {
+        "year": 2024,
+        "avg": 786297
+      },
+      {
+        "year": 2025,
+        "avg": 509421
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1,
+      "burglary": 0.1,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.7,
+      "otherTheft": 0.3,
+      "other": 0.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Greatworth Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Newbottle and Charlton Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chenderit School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Chipping Warden Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Kings Sutton Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 25202,
+    "medianAge": 40,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 65,
+    "socialRent": 13,
+    "privateRent": 22,
+    "economicallyActive": 76,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 318,
+    "avgUpload": 57,
+    "superfastPct": 93,
+    "ultrafastPct": 80,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "West Northamptonshire",
+    "bandD": 2146,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.4,
+    "imdRank": 18085,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "OX17 is the postcode district for BANBURY, located in Oxfordshire, South East.",
+    "priceVsCounty": "The average property price in OX17 is £611,665, broadly in line with the Oxfordshire average of £588,175.",
+    "priceVsNational": "Properties in OX17 cost 113.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in OX17 have fallen 35.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, OX17 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "OX17 has 10 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in OX17 are 318.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "OX17 (BANBURY) offers above-average property prices (£611,665, 113% above national average), low crime (94% below national average), 10 nearby schools, and excellent broadband (318 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 588175,
+      "crime": 75,
+      "broadband": 318
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 318
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

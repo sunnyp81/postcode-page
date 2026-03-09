@@ -1,0 +1,198 @@
+{
+  "code": "NG6",
+  "name": "NOTTINGHAM",
+  "county": "nottinghamshire",
+  "region": "east-midlands",
+  "city": "nottingham",
+  "adjacent": [
+    "NG5",
+    "NG7",
+    "NG8"
+  ],
+  "property": {
+    "avgPrice": 202899,
+    "medianPrice": 168000,
+    "priceChange1y": -24.8,
+    "priceChange5y": 0,
+    "transactions12m": 1485,
+    "byType": {
+      "detached": {
+        "avg": 265688,
+        "count": 188
+      },
+      "semi": {
+        "avg": 188293,
+        "count": 590
+      },
+      "terraced": {
+        "avg": 143222,
+        "count": 616
+      },
+      "flat": {
+        "avg": 97633,
+        "count": 49
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 178272
+      },
+      {
+        "year": 2024,
+        "avg": 244108
+      },
+      {
+        "year": 2025,
+        "avg": 183457
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 125.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 54.5,
+    "byType": {
+      "violentCrime": 46.7,
+      "burglary": 3.2,
+      "vehicleCrime": 3.9,
+      "antisocialBehaviour": 24,
+      "otherTheft": 17.3,
+      "other": 30.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 2,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Crabtree Farm Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hempshill Hall Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Snape Wood Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Rufford Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Green Crescent School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 120179,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 10,
+    "privateRent": 14,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 376,
+    "avgUpload": 68,
+    "superfastPct": 99,
+    "ultrafastPct": 94,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Gedling",
+    "bandD": 2288,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.9,
+    "imdRank": 12438,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NG6 encompasses NOTTINGHAM and its surrounding areas in Nottinghamshire, East Midlands.",
+    "priceVsCounty": "The average property price in NG6 is £202,899, which is 70% below the Nottinghamshire average of £678,596.",
+    "priceVsNational": "Properties in NG6 cost 29.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NG6 have fallen 24.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 125.6 recorded crimes per 1,000 residents, NG6 has a crime rate significantly 54% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NG6 has 15 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NG6 are 376.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NG6 (NOTTINGHAM) offers affordable property prices (£202,899, 29% below national average), higher-than-average crime (54% above national average), 15 nearby schools, and excellent broadband (376 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 678596,
+      "crime": 75,
+      "broadband": 376
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 376
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

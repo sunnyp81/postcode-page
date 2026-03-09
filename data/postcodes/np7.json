@@ -1,0 +1,195 @@
+{
+  "code": "NP7",
+  "name": "ABERGAVENNY",
+  "county": "gwent",
+  "region": "wales",
+  "city": "newport",
+  "adjacent": [
+    "NP8"
+  ],
+  "property": {
+    "avgPrice": 352556,
+    "medianPrice": 315000,
+    "priceChange1y": -5.7,
+    "priceChange5y": 0,
+    "transactions12m": 1165,
+    "byType": {
+      "detached": {
+        "avg": 449534,
+        "count": 428
+      },
+      "semi": {
+        "avg": 311696,
+        "count": 294
+      },
+      "terraced": {
+        "avg": 246531,
+        "count": 283
+      },
+      "flat": {
+        "avg": 197618,
+        "count": 94
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 327738
+      },
+      {
+        "year": 2024,
+        "avg": 375680
+      },
+      {
+        "year": 2025,
+        "avg": 354205
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 26.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -66.9,
+    "byType": {
+      "violentCrime": 8.5,
+      "burglary": 0.6,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 6.2,
+      "otherTheft": 4.1,
+      "other": 6.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Gilwern C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Llanfihangel Crucorney C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cross Ash C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Gymraeg Y Fenni",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Llantilio Pertholey C.V. Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 20486,
+    "medianAge": 43,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 240,
+    "avgUpload": 43,
+    "superfastPct": 79,
+    "ultrafastPct": 57,
+    "gigabitPct": 56,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newport Council",
+    "bandD": 2285,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.9,
+    "imdRank": 16384,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NP7 covers ABERGAVENNY in Gwent, Wales.",
+    "priceVsCounty": "The average property price in NP7 is £352,556, which is 29% above the Gwent average of £273,109.",
+    "priceVsNational": "Properties in NP7 cost 22.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NP7 have fallen 5.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 26.9 recorded crimes per 1,000 residents, NP7 has a crime rate well 67% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NP7 has 9 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NP7 are 240.0 Mbps, with 99% of premises having access to superfast broadband and 81% with full fibre (FTTP) connectivity.",
+    "synthesis": "NP7 (ABERGAVENNY) offers above-average property prices (£352,556, 23% above national average), low crime (67% below national average), 9 nearby schools, and excellent broadband (240 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 273109,
+      "crime": 75,
+      "broadband": 240
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 240
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

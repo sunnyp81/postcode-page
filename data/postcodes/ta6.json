@@ -1,0 +1,197 @@
+{
+  "code": "TA6",
+  "name": "BRIDGWATER",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "taunton",
+  "adjacent": [
+    "TA5",
+    "TA7",
+    "TA8"
+  ],
+  "property": {
+    "avgPrice": 261738,
+    "medianPrice": 226000,
+    "priceChange1y": -0.9,
+    "priceChange5y": 0,
+    "transactions12m": 2361,
+    "byType": {
+      "detached": {
+        "avg": 357329,
+        "count": 446
+      },
+      "semi": {
+        "avg": 257001,
+        "count": 613
+      },
+      "terraced": {
+        "avg": 201982,
+        "count": 949
+      },
+      "flat": {
+        "avg": 141741,
+        "count": 230
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 274004
+      },
+      {
+        "year": 2024,
+        "avg": 256445
+      },
+      {
+        "year": 2025,
+        "avg": 254218
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 171.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 111.1,
+    "byType": {
+      "violentCrime": 74.3,
+      "burglary": 2.9,
+      "vehicleCrime": 2.4,
+      "antisocialBehaviour": 27.1,
+      "otherTheft": 29.7,
+      "other": 35.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 0,
+    "good": 12,
+    "requiresImprovement": 3,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Eastover Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hamp Nursery and Infants' School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Somerset Bridge Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary's Voluntary Controlled Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Robert Blake School",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 26693,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 354,
+    "avgUpload": 64,
+    "superfastPct": 98,
+    "ultrafastPct": 87,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Taunton Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TA6 encompasses BRIDGWATER and its surrounding areas in Somerset, South West.",
+    "priceVsCounty": "The average property price in TA6 is £261,738, which is 30% below the Somerset average of £373,759.",
+    "priceVsNational": "Properties in TA6 cost 8.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TA6 have fallen 0.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 171.6 recorded crimes per 1,000 residents, TA6 has a crime rate significantly 111% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TA6 has 21 schools within or near its boundaries, including 12 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TA6 are 354.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TA6 (BRIDGWATER) offers property prices near the national average (£261,738), higher-than-average crime (111% above national average), 21 nearby schools, and excellent broadband (354 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 354
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 354
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

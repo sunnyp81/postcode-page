@@ -1,0 +1,197 @@
+{
+  "code": "BH12",
+  "name": "POOLE",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "bournemouth",
+  "adjacent": [
+    "BH11",
+    "BH13",
+    "BH14"
+  ],
+  "property": {
+    "avgPrice": 359829,
+    "medianPrice": 314225,
+    "priceChange1y": -13.2,
+    "priceChange5y": 0,
+    "transactions12m": 1522,
+    "byType": {
+      "detached": {
+        "avg": 378700,
+        "count": 576
+      },
+      "semi": {
+        "avg": 326390,
+        "count": 429
+      },
+      "terraced": {
+        "avg": 287360,
+        "count": 178
+      },
+      "flat": {
+        "avg": 192306,
+        "count": 278
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 356333
+      },
+      {
+        "year": 2024,
+        "avg": 383741
+      },
+      {
+        "year": 2025,
+        "avg": 332986
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 75.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -7.4,
+    "byType": {
+      "violentCrime": 27.4,
+      "burglary": 2.4,
+      "vehicleCrime": 3.5,
+      "antisocialBehaviour": 14.9,
+      "otherTheft": 15.2,
+      "other": 11.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Winchelsea School",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Langside School",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bournemouth University",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Arts University Bournemouth",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Aldhelm's Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 373,
+    "avgUpload": 67,
+    "superfastPct": 99,
+    "ultrafastPct": 93,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bournemouth Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.2,
+    "imdRank": 14820,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BH12 covers POOLE in Dorset, South West.",
+    "priceVsCounty": "The average property price in BH12 is £359,829, which is 15% below the Dorset average of £425,376.",
+    "priceVsNational": "Properties in BH12 cost 25.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BH12 have fallen 13.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 75.3 recorded crimes per 1,000 residents, BH12 has a crime rate 7% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BH12 has 14 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BH12 are 373.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BH12 (POOLE) offers above-average property prices (£359,829, 25% above national average), 14 nearby schools, and excellent broadband (373 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 373
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 373
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

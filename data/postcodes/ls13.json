@@ -1,0 +1,198 @@
+{
+  "code": "LS13",
+  "name": "LEEDS",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "leeds",
+  "adjacent": [
+    "LS12",
+    "LS14",
+    "LS15"
+  ],
+  "property": {
+    "avgPrice": 202516,
+    "medianPrice": 185000,
+    "priceChange1y": -1,
+    "priceChange5y": 0,
+    "transactions12m": 1446,
+    "byType": {
+      "detached": {
+        "avg": 294123,
+        "count": 56
+      },
+      "semi": {
+        "avg": 211669,
+        "count": 569
+      },
+      "terraced": {
+        "avg": 186989,
+        "count": 636
+      },
+      "flat": {
+        "avg": 133253,
+        "count": 157
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 201052
+      },
+      {
+        "year": 2024,
+        "avg": 204199
+      },
+      {
+        "year": 2025,
+        "avg": 202176
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 129.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 59.4,
+    "byType": {
+      "violentCrime": 63.7,
+      "burglary": 7.4,
+      "vehicleCrime": 5.3,
+      "antisocialBehaviour": 8.4,
+      "otherTheft": 18,
+      "other": 26.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Park Spring Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Summerfield Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Whitecote Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Greenhill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Swinnow Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 845189,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 397,
+    "avgUpload": 71,
+    "superfastPct": 100,
+    "ultrafastPct": 99,
+    "gigabitPct": 99,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Leeds",
+    "bandD": 1968,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.3,
+    "imdRank": 18909,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LS13 is the postcode district for LEEDS, located in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in LS13 is £202,516, which is 27% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in LS13 cost 29.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LS13 have fallen 1.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 129.6 recorded crimes per 1,000 residents, LS13 has a crime rate significantly 59% above the national average of 81.3 per 1,000.",
+    "schoolContext": "LS13 has 12 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LS13 are 397.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LS13 (LEEDS) offers affordable property prices (£202,516, 29% below national average), higher-than-average crime (59% above national average), 12 nearby schools, and excellent broadband (397 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 397
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 397
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

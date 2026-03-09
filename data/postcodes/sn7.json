@@ -1,0 +1,198 @@
+{
+  "code": "SN7",
+  "name": "FARINGDON",
+  "county": "wiltshire",
+  "region": "south-west",
+  "city": "swindon",
+  "adjacent": [
+    "SN6",
+    "SN8",
+    "SN9"
+  ],
+  "property": {
+    "avgPrice": 419878,
+    "medianPrice": 350000,
+    "priceChange1y": 1.2,
+    "priceChange5y": 0,
+    "transactions12m": 912,
+    "byType": {
+      "detached": {
+        "avg": 549103,
+        "count": 329
+      },
+      "semi": {
+        "avg": 352144,
+        "count": 246
+      },
+      "terraced": {
+        "avg": 304527,
+        "count": 198
+      },
+      "flat": {
+        "avg": 174128,
+        "count": 96
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 424919
+      },
+      {
+        "year": 2024,
+        "avg": 415074
+      },
+      {
+        "year": 2025,
+        "avg": 420206
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 10.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -87,
+    "byType": {
+      "violentCrime": 4.3,
+      "burglary": 0.3,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 1.4,
+      "otherTheft": 2.7,
+      "other": 1.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Stanford In the Vale CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Uffington Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Shellingford Church of England (Voluntary Aided) School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Hugh's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Folly View Primary",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 149347,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 14,
+    "privateRent": 12,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 304,
+    "avgUpload": 55,
+    "superfastPct": 93,
+    "ultrafastPct": 73,
+    "gigabitPct": 73,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Vale of White Horse",
+    "bandD": 2231,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.4,
+    "imdRank": 6253,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SN7 covers FARINGDON in Wiltshire, South West.",
+    "priceVsCounty": "The average property price in SN7 is £419,878, which is 6% above the Wiltshire average of £397,459.",
+    "priceVsNational": "Properties in SN7 cost 46.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SN7 have risen 1.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 10.6 recorded crimes per 1,000 residents, SN7 has a crime rate well 87% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SN7 has 9 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SN7 are 304.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SN7 (FARINGDON) offers above-average property prices (£419,878, 46% above national average), low crime (87% below national average), 9 nearby schools, and excellent broadband (304 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 397459,
+      "crime": 75,
+      "broadband": 304
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 304
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

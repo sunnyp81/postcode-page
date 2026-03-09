@@ -1,0 +1,198 @@
+{
+  "code": "LU2",
+  "name": "LUTON",
+  "county": "bedfordshire",
+  "region": "east-of-england",
+  "city": "luton",
+  "adjacent": [
+    "LU1",
+    "LU3",
+    "LU4"
+  ],
+  "property": {
+    "avgPrice": 345242,
+    "medianPrice": 310000,
+    "priceChange1y": -10.4,
+    "priceChange5y": 0,
+    "transactions12m": 2395,
+    "byType": {
+      "detached": {
+        "avg": 494969,
+        "count": 363
+      },
+      "semi": {
+        "avg": 343862,
+        "count": 933
+      },
+      "terraced": {
+        "avg": 282808,
+        "count": 537
+      },
+      "flat": {
+        "avg": 197732,
+        "count": 490
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 338465
+      },
+      {
+        "year": 2024,
+        "avg": 366876
+      },
+      {
+        "year": 2025,
+        "avg": 328693
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 80.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -1.5,
+    "byType": {
+      "violentCrime": 28.7,
+      "burglary": 2.7,
+      "vehicleCrime": 8.6,
+      "antisocialBehaviour": 12.7,
+      "otherTheft": 9.1,
+      "other": 18.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 2,
+    "nearest": [
+      {
+        "name": "Hart Hill Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Matthew's Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Stopsley Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Putteridge Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Someries Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 315877,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 366,
+    "avgUpload": 66,
+    "superfastPct": 94,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Luton Council",
+    "bandD": 2251,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.2,
+    "imdRank": 9823,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LU2 is the postcode district for LUTON, located in Bedfordshire, East Of England.",
+    "priceVsCounty": "The average property price in LU2 is £345,242, which is 6% below the Bedfordshire average of £368,807.",
+    "priceVsNational": "Properties in LU2 cost 20.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LU2 have fallen 10.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "LU2 has a crime rate of 80.1 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "LU2 has 21 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LU2 are 366.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LU2 (LUTON) offers above-average property prices (£345,242, 20% above national average), 21 nearby schools, and excellent broadband (366 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 368807,
+      "crime": 75,
+      "broadband": 366
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 366
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

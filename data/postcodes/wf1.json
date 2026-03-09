@@ -1,0 +1,197 @@
+{
+  "code": "WF1",
+  "name": "WAKEFIELD",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "wakefield",
+  "adjacent": [
+    "WF2",
+    "WF3"
+  ],
+  "property": {
+    "avgPrice": 228961,
+    "medianPrice": 192000,
+    "priceChange1y": -16.2,
+    "priceChange5y": 0,
+    "transactions12m": 1959,
+    "byType": {
+      "detached": {
+        "avg": 362994,
+        "count": 386
+      },
+      "semi": {
+        "avg": 217266,
+        "count": 598
+      },
+      "terraced": {
+        "avg": 164240,
+        "count": 528
+      },
+      "flat": {
+        "avg": 114066,
+        "count": 355
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 221380
+      },
+      {
+        "year": 2024,
+        "avg": 251293
+      },
+      {
+        "year": 2025,
+        "avg": 210576
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 185.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 128.3,
+    "byType": {
+      "violentCrime": 77.7,
+      "burglary": 5.9,
+      "vehicleCrime": 6.7,
+      "antisocialBehaviour": 14.9,
+      "otherTheft": 36,
+      "other": 44.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Newton Hill Community School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wakefield Pinders Primary (JIN) School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wakefield St Johns Church of England Voluntary Aided Junior and Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wakefield St Marys Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wakefield Girls' High School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 367666,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 22,
+    "privateRent": 13,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 346,
+    "avgUpload": 62,
+    "superfastPct": 94,
+    "ultrafastPct": 85,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wakefield",
+    "bandD": 1981,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.3,
+    "imdRank": 20272,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WF1 encompasses WAKEFIELD and its surrounding areas in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in WF1 is £228,961, which is 18% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in WF1 cost 20.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WF1 have fallen 16.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 185.6 recorded crimes per 1,000 residents, WF1 has a crime rate significantly 128% above the national average of 81.3 per 1,000.",
+    "schoolContext": "WF1 has 20 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WF1 are 346.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WF1 (WAKEFIELD) offers affordable property prices (£228,961, 20% below national average), higher-than-average crime (128% above national average), 20 nearby schools, and excellent broadband (346 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 346
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 346
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

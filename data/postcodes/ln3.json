@@ -1,0 +1,198 @@
+{
+  "code": "LN3",
+  "name": "LINCOLN",
+  "county": "lincolnshire",
+  "region": "east-midlands",
+  "city": "lincoln",
+  "adjacent": [
+    "LN2",
+    "LN4",
+    "LN5"
+  ],
+  "property": {
+    "avgPrice": 256079,
+    "medianPrice": 230000,
+    "priceChange1y": -0.6,
+    "priceChange5y": 0,
+    "transactions12m": 393,
+    "byType": {
+      "detached": {
+        "avg": 298938,
+        "count": 229
+      },
+      "semi": {
+        "avg": 198276,
+        "count": 80
+      },
+      "terraced": {
+        "avg": 178442,
+        "count": 60
+      },
+      "flat": {
+        "avg": 98650,
+        "count": 5
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 254726
+      },
+      {
+        "year": 2024,
+        "avg": 257386
+      },
+      {
+        "year": 2025,
+        "avg": 255934
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.4,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.3,
+      "otherTheft": 0.1,
+      "other": 0.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Fiskerton Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Reepham Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bardney Church of England and Methodist Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Priory Pembroke Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cherry Willingham Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 99208,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 11,
+    "privateRent": 15,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 224,
+    "avgUpload": 40,
+    "superfastPct": 84,
+    "ultrafastPct": 51,
+    "gigabitPct": 51,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "West Lindsey",
+    "bandD": 2111,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.4,
+    "imdRank": 15724,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LN3 is the postcode district for LINCOLN, located in Lincolnshire, East Midlands.",
+    "priceVsCounty": "The average property price in LN3 is £256,079, broadly in line with the Lincolnshire average of £265,006.",
+    "priceVsNational": "Properties in LN3 cost 10.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LN3 have fallen 0.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, LN3 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LN3 has 6 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LN3 are 224.0 Mbps, with 99% of premises having access to superfast broadband and 77% with full fibre (FTTP) connectivity.",
+    "synthesis": "LN3 (LINCOLN) offers property prices near the national average (£256,079), low crime (94% below national average), 6 nearby schools, and excellent broadband (224 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 265006,
+      "crime": 75,
+      "broadband": 224
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 224
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

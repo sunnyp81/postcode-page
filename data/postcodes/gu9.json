@@ -1,0 +1,198 @@
+{
+  "code": "GU9",
+  "name": "FARNHAM",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU8",
+    "GU10",
+    "GU11"
+  ],
+  "property": {
+    "avgPrice": 574377,
+    "medianPrice": 465000,
+    "priceChange1y": 4,
+    "priceChange5y": 0,
+    "transactions12m": 1516,
+    "byType": {
+      "detached": {
+        "avg": 868641,
+        "count": 422
+      },
+      "semi": {
+        "avg": 523923,
+        "count": 351
+      },
+      "terraced": {
+        "avg": 408035,
+        "count": 319
+      },
+      "flat": {
+        "avg": 358510,
+        "count": 353
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 593467
+      },
+      {
+        "year": 2024,
+        "avg": 554214
+      },
+      {
+        "year": 2025,
+        "avg": 576634
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 27.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -66.4,
+    "byType": {
+      "violentCrime": 9.3,
+      "burglary": 0.6,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 4.6,
+      "otherTheft": 5.4,
+      "other": 6.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 2,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Badshot Lea Village Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "William Cobbett Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Peter's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "University for the Creative Arts",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Weydon School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 134284,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 12,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 285,
+    "avgUpload": 51,
+    "superfastPct": 99,
+    "ultrafastPct": 74,
+    "gigabitPct": 64,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Waverley",
+    "bandD": 2263,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 7.5,
+    "imdRank": 5343,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU9 covers FARNHAM in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU9 is £574,377, which is 6% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU9 cost 100.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU9 have risen 4.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 27.3 recorded crimes per 1,000 residents, GU9 has a crime rate well 66% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU9 has 16 schools within or near its boundaries, including 2 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU9 are 285.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU9 (FARNHAM) offers above-average property prices (£574,377, 100% above national average), low crime (66% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (285 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 285
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 285
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "MK2",
+  "name": "MILTON KEYNES",
+  "county": "buckinghamshire",
+  "region": "south-east",
+  "city": "milton-keynes",
+  "adjacent": [
+    "MK1",
+    "MK3",
+    "MK4"
+  ],
+  "property": {
+    "avgPrice": 276367,
+    "medianPrice": 248750,
+    "priceChange1y": 22.3,
+    "priceChange5y": 0,
+    "transactions12m": 572,
+    "byType": {
+      "detached": {
+        "avg": 388689,
+        "count": 53
+      },
+      "semi": {
+        "avg": 310941,
+        "count": 124
+      },
+      "terraced": {
+        "avg": 250812,
+        "count": 214
+      },
+      "flat": {
+        "avg": 151725,
+        "count": 144
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 270827
+      },
+      {
+        "year": 2024,
+        "avg": 253346
+      },
+      {
+        "year": 2025,
+        "avg": 309805
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 70.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -12.9,
+    "byType": {
+      "violentCrime": 29.3,
+      "burglary": 1.9,
+      "vehicleCrime": 4.3,
+      "antisocialBehaviour": 8.7,
+      "otherTheft": 11.7,
+      "other": 14.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Knowles Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bishop Parker Catholic School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Premier Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lift Sir Herbert Leon",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Knowles Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 305884,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 18,
+    "privateRent": 19,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 363,
+    "avgUpload": 65,
+    "superfastPct": 99,
+    "ultrafastPct": 93,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Milton Keynes Council",
+    "bandD": 2268,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 14351,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "MK2 is the postcode district for MILTON KEYNES, located in Buckinghamshire, South East.",
+    "priceVsCounty": "The average property price in MK2 is £276,367, which is 42% below the Buckinghamshire average of £472,988.",
+    "priceVsNational": "Property values in MK2 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in MK2 have risen 22.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 70.8 recorded crimes per 1,000 residents, MK2 has a crime rate 13% below the national average of 81.3 per 1,000.",
+    "schoolContext": "MK2 has 8 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in MK2 are 363.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "MK2 (MILTON KEYNES) offers property prices near the national average (£276,367), 8 nearby schools, and excellent broadband (363 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 472988,
+      "crime": 75,
+      "broadband": 363
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 363
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

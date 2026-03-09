@@ -1,0 +1,198 @@
+{
+  "code": "BA2",
+  "name": "BATH",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "bath",
+  "adjacent": [
+    "BA1",
+    "BA3",
+    "BA4"
+  ],
+  "property": {
+    "avgPrice": 605085,
+    "medianPrice": 420000,
+    "priceChange1y": -6.2,
+    "priceChange5y": 0,
+    "transactions12m": 3266,
+    "byType": {
+      "detached": {
+        "avg": 841477,
+        "count": 641
+      },
+      "semi": {
+        "avg": 519134,
+        "count": 739
+      },
+      "terraced": {
+        "avg": 491396,
+        "count": 1196
+      },
+      "flat": {
+        "avg": 343385,
+        "count": 524
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 660313
+      },
+      {
+        "year": 2024,
+        "avg": 592359
+      },
+      {
+        "year": 2025,
+        "avg": 555668
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 40,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -50.8,
+    "byType": {
+      "violentCrime": 17.3,
+      "burglary": 1.8,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 4.2,
+      "otherTheft": 8.4,
+      "other": 7.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 37,
+    "outstanding": 0,
+    "good": 16,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Twerton Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Saint Gregory's Catholic College",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Prior Park College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Paragon School, Junior School of Prior Park College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Monkton Combe School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 523700,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 295,
+    "avgUpload": 53,
+    "superfastPct": 93,
+    "ultrafastPct": 74,
+    "gigabitPct": 69,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bath Council",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.4,
+    "imdRank": 11265,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BA2 is the postcode district for BATH, located in Somerset, South West.",
+    "priceVsCounty": "The average property price in BA2 is £605,085, which is 62% above the Somerset average of £373,759.",
+    "priceVsNational": "Properties in BA2 cost 110.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BA2 have fallen 6.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 40.0 recorded crimes per 1,000 residents, BA2 has a crime rate well 51% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BA2 has 37 schools within or near its boundaries, including 16 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BA2 are 295.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BA2 (BATH) offers above-average property prices (£605,085, 111% above national average), low crime (51% below national average), 37 nearby schools, and excellent broadband (295 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 295
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 295
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

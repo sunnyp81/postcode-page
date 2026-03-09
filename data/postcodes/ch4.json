@@ -1,0 +1,198 @@
+{
+  "code": "CH4",
+  "name": "CHESTER",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "chester",
+  "adjacent": [
+    "CH3",
+    "CH5",
+    "CH6"
+  ],
+  "property": {
+    "avgPrice": 335887,
+    "medianPrice": 267000,
+    "priceChange1y": -4.4,
+    "priceChange5y": 0,
+    "transactions12m": 1755,
+    "byType": {
+      "detached": {
+        "avg": 457690,
+        "count": 655
+      },
+      "semi": {
+        "avg": 262466,
+        "count": 609
+      },
+      "terraced": {
+        "avg": 223097,
+        "count": 317
+      },
+      "flat": {
+        "avg": 181591,
+        "count": 126
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 347828
+      },
+      {
+        "year": 2024,
+        "avg": 335117
+      },
+      {
+        "year": 2025,
+        "avg": 320297
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 7.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -90.4,
+    "byType": {
+      "violentCrime": 2.1,
+      "burglary": 0,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.9,
+      "otherTheft": 3.2,
+      "other": 1.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Clare's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eccleston CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The King's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Catholic High School, Chester",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Queen's Park High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 371652,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 15,
+    "privateRent": 14,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 315,
+    "avgUpload": 57,
+    "superfastPct": 94,
+    "ultrafastPct": 76,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Chester Council",
+    "bandD": 2098,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.1,
+    "imdRank": 13862,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CH4 encompasses CHESTER and its surrounding areas in Cheshire, North West.",
+    "priceVsCounty": "The average property price in CH4 is £335,887, which is 8% above the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in CH4 cost 17.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CH4 have fallen 4.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 7.8 recorded crimes per 1,000 residents, CH4 has a crime rate well 90% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CH4 has 18 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CH4 are 315.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CH4 (CHESTER) offers property prices near the national average (£335,887), low crime (90% below national average), 18 nearby schools, and excellent broadband (315 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 315
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 315
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

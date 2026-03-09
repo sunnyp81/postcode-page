@@ -1,0 +1,198 @@
+{
+  "code": "S5",
+  "name": "SHEFFIELD",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "sheffield",
+  "adjacent": [
+    "S4",
+    "S6",
+    "S7"
+  ],
+  "property": {
+    "avgPrice": 154579,
+    "medianPrice": 140000,
+    "priceChange1y": 2.6,
+    "priceChange5y": 0,
+    "transactions12m": 1492,
+    "byType": {
+      "detached": {
+        "avg": 238534,
+        "count": 86
+      },
+      "semi": {
+        "avg": 158436,
+        "count": 773
+      },
+      "terraced": {
+        "avg": 128760,
+        "count": 533
+      },
+      "flat": {
+        "avg": 87990,
+        "count": 71
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 154460
+      },
+      {
+        "year": 2024,
+        "avg": 152780
+      },
+      {
+        "year": 2025,
+        "avg": 156696
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 145.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 79.3,
+    "byType": {
+      "violentCrime": 60.7,
+      "burglary": 6.1,
+      "vehicleCrime": 6.7,
+      "antisocialBehaviour": 21.7,
+      "otherTheft": 11.7,
+      "other": 39
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 0,
+    "good": 9,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Woolley Wood School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Watercliffe Meadow Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "E-Act Parkwood Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chaucer School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Southey Green Nursery & Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 582493,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 23,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 393,
+    "avgUpload": 71,
+    "superfastPct": 100,
+    "ultrafastPct": 98,
+    "gigabitPct": 98,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Sheffield",
+    "bandD": 2166,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.1,
+    "imdRank": 18742,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "S5 is the postcode district for SHEFFIELD, located in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in S5 is £154,579, which is 33% below the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in S5 cost 46.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in S5 have risen 2.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 145.8 recorded crimes per 1,000 residents, S5 has a crime rate significantly 79% above the national average of 81.3 per 1,000.",
+    "schoolContext": "S5 has 19 schools within or near its boundaries, including 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in S5 are 393.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "S5 (SHEFFIELD) offers affordable property prices (£154,579, 46% below national average), higher-than-average crime (79% above national average), 19 nearby schools, and excellent broadband (393 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 393
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 393
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

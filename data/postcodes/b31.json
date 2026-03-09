@@ -1,0 +1,198 @@
+{
+  "code": "B31",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B30",
+    "B32",
+    "B33"
+  ],
+  "property": {
+    "avgPrice": 240748,
+    "medianPrice": 220000,
+    "priceChange1y": -4,
+    "priceChange5y": 0,
+    "transactions12m": 2335,
+    "byType": {
+      "detached": {
+        "avg": 375754,
+        "count": 249
+      },
+      "semi": {
+        "avg": 251326,
+        "count": 962
+      },
+      "terraced": {
+        "avg": 208979,
+        "count": 712
+      },
+      "flat": {
+        "avg": 152520,
+        "count": 359
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 231081
+      },
+      {
+        "year": 2024,
+        "avg": 250143
+      },
+      {
+        "year": 2025,
+        "avg": 240223
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 131.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 61.6,
+    "byType": {
+      "violentCrime": 55.9,
+      "burglary": 5.6,
+      "vehicleCrime": 9.5,
+      "antisocialBehaviour": 9.8,
+      "otherTheft": 24.4,
+      "other": 26.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 22,
+    "outstanding": 1,
+    "good": 9,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "West Heath Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Shenley Fields Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bellfield Infant School (NC)",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bellfield Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cofton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 378,
+    "avgUpload": 68,
+    "superfastPct": 98,
+    "ultrafastPct": 94,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B31 is the postcode district for BIRMINGHAM, located in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B31 is £240,748, which is 28% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B31 cost 16.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B31 have fallen 4.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 131.4 recorded crimes per 1,000 residents, B31 has a crime rate significantly 62% above the national average of 81.3 per 1,000.",
+    "schoolContext": "B31 has 22 schools within or near its boundaries, including 1 rated Outstanding and 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B31 are 378.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B31 (BIRMINGHAM) offers affordable property prices (£240,748, 16% below national average), higher-than-average crime (62% above national average), 22 nearby schools, and excellent broadband (378 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 378
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 378
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "code": "CT21",
+  "name": "HYTHE",
+  "county": "kent",
+  "region": "south-east",
+  "city": "canterbury",
+  "adjacent": [
+    "CT20"
+  ],
+  "property": {
+    "avgPrice": 462493,
+    "medianPrice": 350000,
+    "priceChange1y": 0.5,
+    "priceChange5y": 0,
+    "transactions12m": 948,
+    "byType": {
+      "detached": {
+        "avg": 592194,
+        "count": 260
+      },
+      "semi": {
+        "avg": 390021,
+        "count": 228
+      },
+      "terraced": {
+        "avg": 332319,
+        "count": 193
+      },
+      "flat": {
+        "avg": 266272,
+        "count": 222
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 530306
+      },
+      {
+        "year": 2024,
+        "avg": 420486
+      },
+      {
+        "year": 2025,
+        "avg": 422652
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 16.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -79.5,
+    "byType": {
+      "violentCrime": 6.8,
+      "burglary": 0.6,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 2.8,
+      "otherTheft": 2.4,
+      "other": 3.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Palmarsh Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Seabrook Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lympne Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Saltwood CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hythe Bay CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 112411,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 11,
+    "privateRent": 20,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 324,
+    "avgUpload": 58,
+    "superfastPct": 92,
+    "ultrafastPct": 79,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Canterbury Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 24.1,
+    "imdRank": 19337,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CT21 is the postcode district for HYTHE, located in Kent, South East.",
+    "priceVsCounty": "The average property price in CT21 is £462,493, broadly in line with the Kent average of £450,882.",
+    "priceVsNational": "Properties in CT21 cost 61.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CT21 have risen 0.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 16.7 recorded crimes per 1,000 residents, CT21 has a crime rate well 79% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CT21 has 7 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CT21 are 324.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CT21 (HYTHE) offers above-average property prices (£462,493, 61% above national average), low crime (79% below national average), 7 nearby schools, and excellent broadband (324 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 324
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 324
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

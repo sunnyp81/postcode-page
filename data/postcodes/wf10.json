@@ -1,0 +1,198 @@
+{
+  "code": "WF10",
+  "name": "CASTLEFORD",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "wakefield",
+  "adjacent": [
+    "WF9",
+    "WF11",
+    "WF12"
+  ],
+  "property": {
+    "avgPrice": 202409,
+    "medianPrice": 171000,
+    "priceChange1y": -0.8,
+    "priceChange5y": 0,
+    "transactions12m": 2470,
+    "byType": {
+      "detached": {
+        "avg": 296607,
+        "count": 429
+      },
+      "semi": {
+        "avg": 186696,
+        "count": 934
+      },
+      "terraced": {
+        "avg": 142355,
+        "count": 981
+      },
+      "flat": {
+        "avg": 106606,
+        "count": 63
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 212805
+      },
+      {
+        "year": 2024,
+        "avg": 197723
+      },
+      {
+        "year": 2025,
+        "avg": 196050
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 109.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 34.9,
+    "byType": {
+      "violentCrime": 39.8,
+      "burglary": 4.8,
+      "vehicleCrime": 8.4,
+      "antisocialBehaviour": 10.1,
+      "otherTheft": 24.6,
+      "other": 22.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 0,
+    "good": 8,
+    "requiresImprovement": 3,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Lady Elizabeth Hastings CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Castleford Wheldon Infant School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Grange School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Airedale Academy",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Castleford Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 845189,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 371,
+    "avgUpload": 67,
+    "superfastPct": 97,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Leeds",
+    "bandD": 1968,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.3,
+    "imdRank": 18909,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WF10 encompasses CASTLEFORD and its surrounding areas in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in WF10 is £202,409, which is 27% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in WF10 cost 29.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WF10 have fallen 0.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 109.7 recorded crimes per 1,000 residents, WF10 has a crime rate significantly 35% above the national average of 81.3 per 1,000.",
+    "schoolContext": "WF10 has 19 schools within or near its boundaries, including 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WF10 are 371.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WF10 (CASTLEFORD) offers affordable property prices (£202,409, 29% below national average), higher-than-average crime (35% above national average), 19 nearby schools, and excellent broadband (371 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 371
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 371
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

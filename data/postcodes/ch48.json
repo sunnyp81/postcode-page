@@ -1,0 +1,197 @@
+{
+  "code": "CH48",
+  "name": "WIRRAL",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "chester",
+  "adjacent": [
+    "CH47",
+    "CH49"
+  ],
+  "property": {
+    "avgPrice": 464275,
+    "medianPrice": 337500,
+    "priceChange1y": -10,
+    "priceChange5y": 0,
+    "transactions12m": 744,
+    "byType": {
+      "detached": {
+        "avg": 738390,
+        "count": 235
+      },
+      "semi": {
+        "avg": 352540,
+        "count": 202
+      },
+      "terraced": {
+        "avg": 279308,
+        "count": 117
+      },
+      "flat": {
+        "avg": 256440,
+        "count": 159
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 495717
+      },
+      {
+        "year": 2024,
+        "avg": 471860
+      },
+      {
+        "year": 2025,
+        "avg": 424804
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 15.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -80.4,
+    "byType": {
+      "violentCrime": 5.7,
+      "burglary": 0.8,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 3.3,
+      "otherTheft": 2.1,
+      "other": 3.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "West Kirby Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Black Horse Hill Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Avalon School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "West Kirby School and College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "West Kirby Grammar School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 328873,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 15,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 361,
+    "avgUpload": 65,
+    "superfastPct": 97,
+    "ultrafastPct": 89,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wirral",
+    "bandD": 2158,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 29.6,
+    "imdRank": 19585,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CH48 is the postcode district for WIRRAL, located in Cheshire, North West.",
+    "priceVsCounty": "The average property price in CH48 is £464,275, which is 49% above the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in CH48 cost 61.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CH48 have fallen 10.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 15.9 recorded crimes per 1,000 residents, CH48 has a crime rate well 80% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CH48 has 9 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CH48 are 361.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CH48 (WIRRAL) offers above-average property prices (£464,275, 62% above national average), low crime (80% below national average), 9 nearby schools, and excellent broadband (361 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 361
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 361
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

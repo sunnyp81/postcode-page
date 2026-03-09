@@ -1,0 +1,193 @@
+{
+  "code": "YO51",
+  "name": "YORK",
+  "county": "north-yorkshire",
+  "region": "yorkshire",
+  "city": "york",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 342106,
+    "medianPrice": 319000,
+    "priceChange1y": -11.8,
+    "priceChange5y": 0,
+    "transactions12m": 603,
+    "byType": {
+      "detached": {
+        "avg": 430658,
+        "count": 272
+      },
+      "semi": {
+        "avg": 227898,
+        "count": 185
+      },
+      "terraced": {
+        "avg": 215762,
+        "count": 80
+      },
+      "flat": {
+        "avg": 156974,
+        "count": 28
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 319745
+      },
+      {
+        "year": 2024,
+        "avg": 378958
+      },
+      {
+        "year": 2025,
+        "avg": 334260
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 11.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -85.7,
+    "byType": {
+      "violentCrime": 4.1,
+      "burglary": 0.3,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 4,
+      "otherTheft": 0.6,
+      "other": 2.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Boroughbridge Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kirby Hill Church of England (VC) Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Boroughbridge High School",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Marton-Cum-Grafton Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Roecliffe CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 28133,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 275,
+    "avgUpload": 50,
+    "superfastPct": 91,
+    "ultrafastPct": 65,
+    "gigabitPct": 65,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "York Council",
+    "bandD": 1725,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "YO51 covers YORK in North Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in YO51 is £342,106, broadly in line with the North Yorkshire average of £354,925.",
+    "priceVsNational": "Properties in YO51 cost 19.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in YO51 have fallen 11.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 11.6 recorded crimes per 1,000 residents, YO51 has a crime rate well 86% below the national average of 81.3 per 1,000.",
+    "schoolContext": "YO51 has 5 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in YO51 are 275.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "YO51 (YORK) offers property prices near the national average (£342,106), low crime (86% below national average), 5 nearby schools, and excellent broadband (275 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 354925,
+      "crime": 75,
+      "broadband": 275
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 275
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

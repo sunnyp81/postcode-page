@@ -1,0 +1,196 @@
+{
+  "code": "IG11",
+  "name": "BARKING",
+  "county": "greater-london",
+  "region": "london",
+  "city": "ilford",
+  "adjacent": [
+    "IG10"
+  ],
+  "property": {
+    "avgPrice": 427586,
+    "medianPrice": 345400,
+    "priceChange1y": -17.4,
+    "priceChange5y": 0,
+    "transactions12m": 1457,
+    "byType": {
+      "detached": {
+        "avg": 550000,
+        "count": 5
+      },
+      "semi": {
+        "avg": 534477,
+        "count": 74
+      },
+      "terraced": {
+        "avg": 438875,
+        "count": 552
+      },
+      "flat": {
+        "avg": 280985,
+        "count": 785
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 453143
+      },
+      {
+        "year": 2024,
+        "avg": 444118
+      },
+      {
+        "year": 2025,
+        "avg": 366749
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 153.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 88.7,
+    "byType": {
+      "violentCrime": 53.4,
+      "burglary": 4.6,
+      "vehicleCrime": 10.3,
+      "antisocialBehaviour": 29.7,
+      "otherTheft": 25.7,
+      "other": 29.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 3,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Manor Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Northbury Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ripple Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Barking Abbey School, A Specialist Sports and Humanities College",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Eastbury Community School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 232747,
+    "medianAge": 52,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 32,
+    "privateRent": 22,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 353,
+    "avgUpload": 64,
+    "superfastPct": 95,
+    "ultrafastPct": 87,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Ilford Council",
+    "bandD": 997,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 32.8,
+    "imdRank": 25551,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IG11 encompasses BARKING and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in IG11 is £427,586, which is 67% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in IG11 cost 49.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IG11 have fallen 17.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 153.4 recorded crimes per 1,000 residents, IG11 has a crime rate significantly 89% above the national average of 81.3 per 1,000.",
+    "schoolContext": "IG11 has 19 schools within or near its boundaries, including 3 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IG11 are 353.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "IG11 (BARKING) offers above-average property prices (£427,586, 49% above national average), higher-than-average crime (89% above national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (353 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 353
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 353
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

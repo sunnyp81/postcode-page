@@ -1,0 +1,198 @@
+{
+  "code": "NR29",
+  "name": "GREAT YARMOUTH",
+  "county": "norfolk",
+  "region": "east-of-england",
+  "city": "norwich",
+  "adjacent": [
+    "NR28",
+    "NR30",
+    "NR31"
+  ],
+  "property": {
+    "avgPrice": 255719,
+    "medianPrice": 240000,
+    "priceChange1y": 23.2,
+    "priceChange5y": 0,
+    "transactions12m": 1261,
+    "byType": {
+      "detached": {
+        "avg": 349309,
+        "count": 540
+      },
+      "semi": {
+        "avg": 253623,
+        "count": 242
+      },
+      "terraced": {
+        "avg": 205782,
+        "count": 150
+      },
+      "flat": {
+        "avg": 107423,
+        "count": 17
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 263017
+      },
+      {
+        "year": 2024,
+        "avg": 229067
+      },
+      {
+        "year": 2025,
+        "avg": 282237
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.5,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.6,
+      "otherTheft": 0.2,
+      "other": 0.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hemsby Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ludham Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ormesby Village Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ormesby Village Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fleggburgh CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 100529,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 24,
+    "socialRent": 16,
+    "privateRent": 19,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 113,
+    "avgUpload": 20,
+    "superfastPct": 90,
+    "ultrafastPct": 18,
+    "gigabitPct": 18,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Great Yarmouth",
+    "bandD": 2100,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 33.1,
+    "imdRank": 22767,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NR29 covers GREAT YARMOUTH in Norfolk, East Of England.",
+    "priceVsCounty": "The average property price in NR29 is £255,719, which is 27% below the Norfolk average of £352,657.",
+    "priceVsNational": "Properties in NR29 cost 10.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NR29 have risen 23.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, NR29 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NR29 has 11 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NR29 are 113.0 Mbps, with 87% of premises having access to superfast broadband and 46% with full fibre (FTTP) connectivity.",
+    "synthesis": "NR29 (GREAT YARMOUTH) offers property prices near the national average (£255,719), low crime (94% below national average), 11 nearby schools, and excellent broadband (113 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 352657,
+      "crime": 75,
+      "broadband": 113
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 113
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

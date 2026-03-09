@@ -1,0 +1,198 @@
+{
+  "code": "GL52",
+  "name": "CHELTENHAM",
+  "county": "gloucestershire",
+  "region": "south-west",
+  "city": "gloucester",
+  "adjacent": [
+    "GL51",
+    "GL53",
+    "GL54"
+  ],
+  "property": {
+    "avgPrice": 420230,
+    "medianPrice": 342500,
+    "priceChange1y": -4.3,
+    "priceChange5y": 0,
+    "transactions12m": 2781,
+    "byType": {
+      "detached": {
+        "avg": 633717,
+        "count": 724
+      },
+      "semi": {
+        "avg": 390022,
+        "count": 828
+      },
+      "terraced": {
+        "avg": 346056,
+        "count": 605
+      },
+      "flat": {
+        "avg": 212763,
+        "count": 514
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 416751
+      },
+      {
+        "year": 2024,
+        "avg": 430590
+      },
+      {
+        "year": 2025,
+        "avg": 412073
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 21.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -74,
+    "byType": {
+      "violentCrime": 7.3,
+      "burglary": 1.1,
+      "vehicleCrime": 1.6,
+      "antisocialBehaviour": 5.4,
+      "otherTheft": 2.1,
+      "other": 3.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Woodmancote School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Glenfall Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holy Trinity Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holy Apostles' Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 101949,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 349,
+    "avgUpload": 63,
+    "superfastPct": 96,
+    "ultrafastPct": 88,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Tewkesbury",
+    "bandD": 2029,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.1,
+    "imdRank": 9967,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GL52 is the postcode district for CHELTENHAM, located in Gloucestershire, South West.",
+    "priceVsCounty": "The average property price in GL52 is £420,230, broadly in line with the Gloucestershire average of £441,384.",
+    "priceVsNational": "Properties in GL52 cost 46.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GL52 have fallen 4.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 21.1 recorded crimes per 1,000 residents, GL52 has a crime rate well 74% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GL52 has 17 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GL52 are 349.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GL52 (CHELTENHAM) offers above-average property prices (£420,230, 46% above national average), low crime (74% below national average), 17 nearby schools, and excellent broadband (349 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 441384,
+      "crime": 75,
+      "broadband": 349
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 349
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

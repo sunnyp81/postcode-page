@@ -1,0 +1,197 @@
+{
+  "code": "SM1",
+  "name": "SUTTON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "sutton",
+  "adjacent": [
+    "SM2",
+    "SM3"
+  ],
+  "property": {
+    "avgPrice": 451520,
+    "medianPrice": 425000,
+    "priceChange1y": -1,
+    "priceChange5y": 0,
+    "transactions12m": 1726,
+    "byType": {
+      "detached": {
+        "avg": 686928,
+        "count": 87
+      },
+      "semi": {
+        "avg": 600650,
+        "count": 409
+      },
+      "terraced": {
+        "avg": 485006,
+        "count": 487
+      },
+      "flat": {
+        "avg": 282561,
+        "count": 672
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 446214
+      },
+      {
+        "year": 2024,
+        "avg": 456341
+      },
+      {
+        "year": 2025,
+        "avg": 451974
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 102.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 26,
+    "byType": {
+      "violentCrime": 34.3,
+      "burglary": 4.7,
+      "vehicleCrime": 7,
+      "antisocialBehaviour": 19.6,
+      "otherTheft": 16.9,
+      "other": 19.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Thomas Wall Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Robin Hood Infants' School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Robin Hood Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "All Saints Benhilton CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Homefield Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 214525,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 14,
+    "privateRent": 19,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 368,
+    "avgUpload": 66,
+    "superfastPct": 96,
+    "ultrafastPct": 92,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Sutton",
+    "bandD": 2048,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14,
+    "imdRank": 11415,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SM1 encompasses SUTTON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in SM1 is £451,520, which is 65% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SM1 cost 57.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SM1 have fallen 1.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 102.4 recorded crimes per 1,000 residents, SM1 has a crime rate significantly 26% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SM1 has 14 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SM1 are 368.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SM1 (SUTTON) offers above-average property prices (£451,520, 57% above national average), higher-than-average crime (26% above national average), 14 nearby schools, and excellent broadband (368 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 368
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 368
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

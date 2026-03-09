@@ -1,0 +1,197 @@
+{
+  "code": "TR2",
+  "name": "TRURO",
+  "county": "cornwall",
+  "region": "south-west",
+  "city": "truro",
+  "adjacent": [
+    "TR1",
+    "TR3",
+    "TR4"
+  ],
+  "property": {
+    "avgPrice": 517559,
+    "medianPrice": 370000,
+    "priceChange1y": -13.5,
+    "priceChange5y": 0,
+    "transactions12m": 448,
+    "byType": {
+      "detached": {
+        "avg": 711583,
+        "count": 182
+      },
+      "semi": {
+        "avg": 340541,
+        "count": 102
+      },
+      "terraced": {
+        "avg": 343147,
+        "count": 102
+      },
+      "flat": {
+        "avg": 259878,
+        "count": 23
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 480881
+      },
+      {
+        "year": 2024,
+        "avg": 576008
+      },
+      {
+        "year": 2025,
+        "avg": 498401
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 65.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -19.2,
+    "byType": {
+      "violentCrime": 17.7,
+      "burglary": 4.3,
+      "vehicleCrime": 6.6,
+      "antisocialBehaviour": 14.5,
+      "otherTheft": 10.5,
+      "other": 12.2
+    },
+    "source": "synthetic-estimate",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "The Roseland Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Grampound Road Village CofE School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ladock C of E School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Veryan CofE School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gerrans School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 583289,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 210,
+    "avgUpload": 38,
+    "superfastPct": 87,
+    "ultrafastPct": 48,
+    "gigabitPct": 46,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Truro Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.1,
+    "imdRank": 19382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TR2 covers TRURO in Cornwall, South West.",
+    "priceVsCounty": "The average property price in TR2 is £517,559, which is 29% above the Cornwall average of £402,222.",
+    "priceVsNational": "Properties in TR2 cost 80.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TR2 have fallen 13.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 65.7 recorded crimes per 1,000 residents, TR2 has a crime rate 19% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TR2 has 9 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TR2 are 210.0 Mbps, with 99% of premises having access to superfast broadband and 73% with full fibre (FTTP) connectivity.",
+    "synthesis": "TR2 (TRURO) offers above-average property prices (£517,559, 80% above national average), low crime (19% below national average), 9 nearby schools, and excellent broadband (210 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 402222,
+      "crime": 75,
+      "broadband": 210
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 210
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

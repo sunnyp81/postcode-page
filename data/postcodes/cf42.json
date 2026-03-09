@@ -1,0 +1,197 @@
+{
+  "code": "CF42",
+  "name": "TREORCHY",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF41",
+    "CF43",
+    "CF44"
+  ],
+  "property": {
+    "avgPrice": 123267,
+    "medianPrice": 105000,
+    "priceChange1y": 1.9,
+    "priceChange5y": 0,
+    "transactions12m": 708,
+    "byType": {
+      "detached": {
+        "avg": 293446,
+        "count": 28
+      },
+      "semi": {
+        "avg": 131748,
+        "count": 46
+      },
+      "terraced": {
+        "avg": 107049,
+        "count": 587
+      },
+      "flat": {
+        "avg": 84188,
+        "count": 8
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 108936
+      },
+      {
+        "year": 2024,
+        "avg": 129060
+      },
+      {
+        "year": 2025,
+        "avg": 131523
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 18.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -77.1,
+    "byType": {
+      "violentCrime": 9.5,
+      "burglary": 0.4,
+      "vehicleCrime": 1,
+      "antisocialBehaviour": 1.4,
+      "otherTheft": 1.6,
+      "other": 4.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Parc Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Treorchy Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol G.G. Ynyswen",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Penpych Community Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Treorchy Comprehensive School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 158,
+    "avgUpload": 28,
+    "superfastPct": 98,
+    "ultrafastPct": 30,
+    "gigabitPct": 30,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF42 encompasses TREORCHY and its surrounding areas in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF42 is £123,267, which is 55% below the Cardiff average of £275,506.",
+    "priceVsNational": "Properties in CF42 cost 57.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CF42 have risen 1.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 18.6 recorded crimes per 1,000 residents, CF42 has a crime rate well 77% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CF42 has 6 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF42 are 158.0 Mbps, with 94% of premises having access to superfast broadband and 58% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF42 (TREORCHY) offers affordable property prices (£123,267, 57% below national average), low crime (77% below national average), 6 nearby schools, and excellent broadband (158 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 158
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 158
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "GL51",
+  "name": "CHELTENHAM",
+  "county": "gloucestershire",
+  "region": "south-west",
+  "city": "gloucester",
+  "adjacent": [
+    "GL50",
+    "GL52",
+    "GL53"
+  ],
+  "property": {
+    "avgPrice": 350996,
+    "medianPrice": 287000,
+    "priceChange1y": -3.4,
+    "priceChange5y": 0,
+    "transactions12m": 2289,
+    "byType": {
+      "detached": {
+        "avg": 536127,
+        "count": 378
+      },
+      "semi": {
+        "avg": 332779,
+        "count": 828
+      },
+      "terraced": {
+        "avg": 268649,
+        "count": 599
+      },
+      "flat": {
+        "avg": 187514,
+        "count": 399
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 358440
+      },
+      {
+        "year": 2024,
+        "avg": 353450
+      },
+      {
+        "year": 2025,
+        "avg": 341563
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 87.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 7.1,
+    "byType": {
+      "violentCrime": 32.6,
+      "burglary": 3.7,
+      "vehicleCrime": 4.6,
+      "antisocialBehaviour": 20,
+      "otherTheft": 9.8,
+      "other": 16.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 22,
+    "outstanding": 2,
+    "good": 8,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Gloucester Road Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Greatfield Park Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lakeside Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Benhall Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Shurdington Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 101949,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 372,
+    "avgUpload": 67,
+    "superfastPct": 98,
+    "ultrafastPct": 93,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Tewkesbury",
+    "bandD": 2029,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.1,
+    "imdRank": 9967,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GL51 covers CHELTENHAM in Gloucestershire, South West.",
+    "priceVsCounty": "The average property price in GL51 is £350,996, which is 20% below the Gloucestershire average of £441,384.",
+    "priceVsNational": "Properties in GL51 cost 22.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GL51 have fallen 3.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 87.1 recorded crimes per 1,000 residents, GL51 has a crime rate 7% above the national average of 81.3 per 1,000.",
+    "schoolContext": "GL51 has 22 schools within or near its boundaries, including 2 rated Outstanding and 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GL51 are 372.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GL51 (CHELTENHAM) offers above-average property prices (£350,996, 22% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (372 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 441384,
+      "crime": 75,
+      "broadband": 372
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 372
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

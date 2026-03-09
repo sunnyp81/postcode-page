@@ -1,0 +1,197 @@
+{
+  "code": "S40",
+  "name": "CHESTERFIELD",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "sheffield",
+  "adjacent": [
+    "S41",
+    "S42"
+  ],
+  "property": {
+    "avgPrice": 233308,
+    "medianPrice": 196750,
+    "priceChange1y": 1.3,
+    "priceChange5y": 0,
+    "transactions12m": 1722,
+    "byType": {
+      "detached": {
+        "avg": 365732,
+        "count": 399
+      },
+      "semi": {
+        "avg": 210697,
+        "count": 649
+      },
+      "terraced": {
+        "avg": 148500,
+        "count": 367
+      },
+      "flat": {
+        "avg": 127044,
+        "count": 227
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 235726
+      },
+      {
+        "year": 2024,
+        "avg": 230700
+      },
+      {
+        "year": 2025,
+        "avg": 233761
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 127,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 56.2,
+    "byType": {
+      "violentCrime": 46.6,
+      "burglary": 2.2,
+      "vehicleCrime": 4.3,
+      "antisocialBehaviour": 23.5,
+      "otherTheft": 23.2,
+      "other": 27.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Spire Nursery and Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Spire Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Brockwell Nursery and Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brockwell Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary's Catholic Primary",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 106646,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 19,
+    "privateRent": 8,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 337,
+    "avgUpload": 61,
+    "superfastPct": 98,
+    "ultrafastPct": 82,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North East Derbyshire",
+    "bandD": 2144,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.4,
+    "imdRank": 14111,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "S40 covers CHESTERFIELD in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in S40 is £233,308, broadly in line with the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in S40 cost 18.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in S40 have risen 1.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 127.0 recorded crimes per 1,000 residents, S40 has a crime rate significantly 56% above the national average of 81.3 per 1,000.",
+    "schoolContext": "S40 has 14 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in S40 are 337.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "S40 (CHESTERFIELD) offers affordable property prices (£233,308, 19% below national average), higher-than-average crime (56% above national average), 14 nearby schools, and excellent broadband (337 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 337
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 337
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

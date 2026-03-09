@@ -1,0 +1,198 @@
+{
+  "code": "CB5",
+  "name": "CAMBRIDGE",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "cambridge",
+  "adjacent": [
+    "CB4",
+    "CB6",
+    "CB7"
+  ],
+  "property": {
+    "avgPrice": 547734,
+    "medianPrice": 501251,
+    "priceChange1y": -15.9,
+    "priceChange5y": 0,
+    "transactions12m": 543,
+    "byType": {
+      "detached": {
+        "avg": 756366,
+        "count": 121
+      },
+      "semi": {
+        "avg": 535429,
+        "count": 131
+      },
+      "terraced": {
+        "avg": 561709,
+        "count": 130
+      },
+      "flat": {
+        "avg": 363299,
+        "count": 134
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 588529
+      },
+      {
+        "year": 2024,
+        "avg": 548202
+      },
+      {
+        "year": 2025,
+        "avg": 461204
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 101.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 24.4,
+    "byType": {
+      "violentCrime": 30.7,
+      "burglary": 3.3,
+      "vehicleCrime": 5.3,
+      "antisocialBehaviour": 15,
+      "otherTheft": 27.1,
+      "other": 19.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Fields Nursery School",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Park Street CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Fen Ditton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Galfrid School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Marleigh Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 149352,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 20,
+    "socialRent": 23,
+    "privateRent": 28,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 367,
+    "avgUpload": 66,
+    "superfastPct": 96,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cambridge",
+    "bandD": 2126,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.9,
+    "imdRank": 12582,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CB5 covers CAMBRIDGE in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in CB5 is £547,734, which is 43% above the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in CB5 cost 90.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CB5 have fallen 15.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 101.1 recorded crimes per 1,000 residents, CB5 has a crime rate significantly 24% above the national average of 81.3 per 1,000.",
+    "schoolContext": "CB5 has 5 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CB5 are 367.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CB5 (CAMBRIDGE) offers above-average property prices (£547,734, 91% above national average), higher-than-average crime (24% above national average), 5 nearby schools, and excellent broadband (367 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 367
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 367
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

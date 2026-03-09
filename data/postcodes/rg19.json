@@ -1,0 +1,198 @@
+{
+  "code": "RG19",
+  "name": "THATCHAM",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [
+    "RG18",
+    "RG20",
+    "RG21"
+  ],
+  "property": {
+    "avgPrice": 406329,
+    "medianPrice": 340000,
+    "priceChange1y": 4,
+    "priceChange5y": 0,
+    "transactions12m": 815,
+    "byType": {
+      "detached": {
+        "avg": 594814,
+        "count": 189
+      },
+      "semi": {
+        "avg": 359954,
+        "count": 257
+      },
+      "terraced": {
+        "avg": 322340,
+        "count": 203
+      },
+      "flat": {
+        "avg": 219556,
+        "count": 137
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 411918
+      },
+      {
+        "year": 2024,
+        "avg": 396464
+      },
+      {
+        "year": 2025,
+        "avg": 412421
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 23.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -71,
+    "byType": {
+      "violentCrime": 12,
+      "burglary": 0.5,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 2.5,
+      "otherTheft": 4.3,
+      "other": 3.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Parsons Down Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Parsons Down Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Spurcroft Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cheam School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kennet School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 165112,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 322,
+    "avgUpload": 58,
+    "superfastPct": 94,
+    "ultrafastPct": 81,
+    "gigabitPct": 77,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Reading Council",
+    "bandD": 1606,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10,
+    "imdRank": 7974,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG19 is the postcode district for THATCHAM, located in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG19 is £406,329, which is 31% below the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG19 cost 41.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG19 have risen 4.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 23.6 recorded crimes per 1,000 residents, RG19 has a crime rate well 71% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RG19 has 8 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG19 are 322.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG19 (THATCHAM) offers above-average property prices (£406,329, 42% above national average), low crime (71% below national average), 8 nearby schools, and excellent broadband (322 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 322
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 322
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "RG30",
+  "name": "READING",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [
+    "RG29",
+    "RG31"
+  ],
+  "property": {
+    "avgPrice": 418237,
+    "medianPrice": 325000,
+    "priceChange1y": -24.1,
+    "priceChange5y": 0,
+    "transactions12m": 1835,
+    "byType": {
+      "detached": {
+        "avg": 564684,
+        "count": 137
+      },
+      "semi": {
+        "avg": 401784,
+        "count": 453
+      },
+      "terraced": {
+        "avg": 325022,
+        "count": 772
+      },
+      "flat": {
+        "avg": 214903,
+        "count": 415
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 432028
+      },
+      {
+        "year": 2024,
+        "avg": 464602
+      },
+      {
+        "year": 2025,
+        "avg": 352734
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 104.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 29,
+    "byType": {
+      "violentCrime": 47,
+      "burglary": 2.8,
+      "vehicleCrime": 5.6,
+      "antisocialBehaviour": 13.3,
+      "otherTheft": 14.7,
+      "other": 21.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 0,
+    "good": 12,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Blagrave Nursery School",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Norcot Early Years Centre",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wilson Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Southcote Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Michael's Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 187200,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 40,
+    "socialRent": 8,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 377,
+    "avgUpload": 68,
+    "superfastPct": 99,
+    "ultrafastPct": 95,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Reading Council",
+    "bandD": 1606,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 5.8,
+    "imdRank": 3651,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG30 covers READING in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG30 is £418,237, which is 29% below the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG30 cost 45.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG30 have fallen 24.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 104.9 recorded crimes per 1,000 residents, RG30 has a crime rate significantly 29% above the national average of 81.3 per 1,000.",
+    "schoolContext": "RG30 has 21 schools within or near its boundaries, including 12 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG30 are 377.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG30 (READING) offers above-average property prices (£418,237, 46% above national average), higher-than-average crime (29% above national average), 21 nearby schools, and excellent broadband (377 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 377
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 377
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

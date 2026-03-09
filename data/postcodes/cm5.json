@@ -1,0 +1,198 @@
+{
+  "code": "CM5",
+  "name": "ONGAR",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "chelmsford",
+  "adjacent": [
+    "CM4",
+    "CM6",
+    "CM7"
+  ],
+  "property": {
+    "avgPrice": 598856,
+    "medianPrice": 495000,
+    "priceChange1y": -14.5,
+    "priceChange5y": 0,
+    "transactions12m": 436,
+    "byType": {
+      "detached": {
+        "avg": 897245,
+        "count": 123
+      },
+      "semi": {
+        "avg": 498674,
+        "count": 154
+      },
+      "terraced": {
+        "avg": 450532,
+        "count": 66
+      },
+      "flat": {
+        "avg": 245621,
+        "count": 60
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 550855
+      },
+      {
+        "year": 2024,
+        "avg": 670444
+      },
+      {
+        "year": 2025,
+        "avg": 573457
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.2,
+    "byType": {
+      "violentCrime": 2.5,
+      "burglary": 0.1,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 0.3,
+      "otherTheft": 0.5,
+      "other": 1.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Moreton Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Ongar Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "High Ongar Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Chipping Ongar Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ongar Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 137451,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 15,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 355,
+    "avgUpload": 64,
+    "superfastPct": 92,
+    "ultrafastPct": 88,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Epping Forest",
+    "bandD": 2002,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.1,
+    "imdRank": 12930,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CM5 encompasses ONGAR and its surrounding areas in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CM5 is £598,856, which is 39% above the Essex average of £429,754.",
+    "priceVsNational": "Properties in CM5 cost 108.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CM5 have fallen 14.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.5 recorded crimes per 1,000 residents, CM5 has a crime rate well 93% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CM5 has 6 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CM5 are 355.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CM5 (ONGAR) offers above-average property prices (£598,856, 109% above national average), low crime (93% below national average), 6 nearby schools, and excellent broadband (355 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 355
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 355
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "EX31",
+  "name": "BARNSTAPLE",
+  "county": "devon",
+  "region": "south-west",
+  "city": "exeter",
+  "adjacent": [
+    "EX32",
+    "EX33"
+  ],
+  "property": {
+    "avgPrice": 357705,
+    "medianPrice": 313500,
+    "priceChange1y": -14.3,
+    "priceChange5y": 0,
+    "transactions12m": 1482,
+    "byType": {
+      "detached": {
+        "avg": 411234,
+        "count": 640
+      },
+      "semi": {
+        "avg": 296988,
+        "count": 305
+      },
+      "terraced": {
+        "avg": 256345,
+        "count": 298
+      },
+      "flat": {
+        "avg": 188036,
+        "count": 115
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 365945
+      },
+      {
+        "year": 2024,
+        "avg": 376708
+      },
+      {
+        "year": 2025,
+        "avg": 322701
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 65.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -19.8,
+    "byType": {
+      "violentCrime": 23.1,
+      "burglary": 1.5,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 11,
+      "otherTheft": 15.5,
+      "other": 13.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Kentisbury Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Parracombe Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pathfield School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pilton Community College",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Pilton Bluecoat Church of England Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 69841,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 24,
+    "socialRent": 9,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 315,
+    "avgUpload": 57,
+    "superfastPct": 88,
+    "ultrafastPct": 77,
+    "gigabitPct": 77,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Torridge",
+    "bandD": 2255,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.3,
+    "imdRank": 20086,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EX31 encompasses BARNSTAPLE and its surrounding areas in Devon, South West.",
+    "priceVsCounty": "The average property price in EX31 is £357,705, which is 7% below the Devon average of £385,452.",
+    "priceVsNational": "Properties in EX31 cost 24.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EX31 have fallen 14.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 65.2 recorded crimes per 1,000 residents, EX31 has a crime rate 20% below the national average of 81.3 per 1,000.",
+    "schoolContext": "EX31 has 16 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EX31 are 315.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "EX31 (BARNSTAPLE) offers above-average property prices (£357,705, 25% above national average), low crime (20% below national average), 16 nearby schools, and excellent broadband (315 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 315
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 315
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

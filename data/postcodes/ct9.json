@@ -1,0 +1,198 @@
+{
+  "code": "CT9",
+  "name": "MARGATE",
+  "county": "kent",
+  "region": "south-east",
+  "city": "canterbury",
+  "adjacent": [
+    "CT8",
+    "CT10",
+    "CT11"
+  ],
+  "property": {
+    "avgPrice": 300520,
+    "medianPrice": 265000,
+    "priceChange1y": -1.7,
+    "priceChange5y": 0,
+    "transactions12m": 2035,
+    "byType": {
+      "detached": {
+        "avg": 487538,
+        "count": 247
+      },
+      "semi": {
+        "avg": 344572,
+        "count": 384
+      },
+      "terraced": {
+        "avg": 299454,
+        "count": 614
+      },
+      "flat": {
+        "avg": 170544,
+        "count": 664
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 307355
+      },
+      {
+        "year": 2024,
+        "avg": 299539
+      },
+      {
+        "year": 2025,
+        "avg": 294318
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 149.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 84.1,
+    "byType": {
+      "violentCrime": 61.7,
+      "burglary": 2.7,
+      "vehicleCrime": 4.7,
+      "antisocialBehaviour": 30,
+      "otherTheft": 19.9,
+      "other": 30.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Margate, Holy Trinity and St John's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Anthony's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Garlinge Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Enterprise Learning Alliance",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hartsdown Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 142691,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 12,
+    "privateRent": 24,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 306,
+    "avgUpload": 55,
+    "superfastPct": 98,
+    "ultrafastPct": 73,
+    "gigabitPct": 73,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Thanet",
+    "bandD": 2173,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 31.3,
+    "imdRank": 21985,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CT9 is the postcode district for MARGATE, located in Kent, South East.",
+    "priceVsCounty": "The average property price in CT9 is £300,520, which is 33% below the Kent average of £450,882.",
+    "priceVsNational": "Property values in CT9 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in CT9 have fallen 1.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 149.7 recorded crimes per 1,000 residents, CT9 has a crime rate significantly 84% above the national average of 81.3 per 1,000.",
+    "schoolContext": "CT9 has 15 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CT9 are 306.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CT9 (MARGATE) offers property prices near the national average (£300,520), higher-than-average crime (84% above national average), 15 nearby schools, and excellent broadband (306 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 306
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 306
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

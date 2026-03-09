@@ -1,0 +1,198 @@
+{
+  "code": "ST13",
+  "name": "LEEK",
+  "county": "staffordshire",
+  "region": "west-midlands",
+  "city": "stoke-on-trent",
+  "adjacent": [
+    "ST12",
+    "ST14",
+    "ST15"
+  ],
+  "property": {
+    "avgPrice": 239842,
+    "medianPrice": 195000,
+    "priceChange1y": 2.2,
+    "priceChange5y": 0,
+    "transactions12m": 1302,
+    "byType": {
+      "detached": {
+        "avg": 367162,
+        "count": 336
+      },
+      "semi": {
+        "avg": 215981,
+        "count": 331
+      },
+      "terraced": {
+        "avg": 152679,
+        "count": 462
+      },
+      "flat": {
+        "avg": 122504,
+        "count": 77
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 249042
+      },
+      {
+        "year": 2024,
+        "avg": 233333
+      },
+      {
+        "year": 2025,
+        "avg": 238380
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 40.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -50.2,
+    "byType": {
+      "violentCrime": 16.8,
+      "burglary": 1.1,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 7.1,
+      "otherTheft": 6.7,
+      "other": 8.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Horton Lodge Community Special School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hopedale School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's Catholic Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Edward's Church of England Academy",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Churnet View Middle School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 96651,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 9,
+    "privateRent": 11,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 289,
+    "avgUpload": 52,
+    "superfastPct": 83,
+    "ultrafastPct": 70,
+    "gigabitPct": 70,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Staffordshire Moorlands",
+    "bandD": 2038,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15,
+    "imdRank": 12590,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ST13 covers LEEK in Staffordshire, West Midlands.",
+    "priceVsCounty": "The average property price in ST13 is £239,842, which is 10% below the Staffordshire average of £267,729.",
+    "priceVsNational": "Properties in ST13 cost 16.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ST13 have risen 2.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 40.5 recorded crimes per 1,000 residents, ST13 has a crime rate well 50% below the national average of 81.3 per 1,000.",
+    "schoolContext": "ST13 has 17 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ST13 are 289.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "ST13 (LEEK) offers affordable property prices (£239,842, 16% below national average), low crime (50% below national average), 17 nearby schools, and excellent broadband (289 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 267729,
+      "crime": 75,
+      "broadband": 289
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 289
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

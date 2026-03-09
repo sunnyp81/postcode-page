@@ -1,0 +1,192 @@
+{
+  "code": "CH60",
+  "name": "WIRRAL",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "chester",
+  "adjacent": [
+    "CH61",
+    "CH62"
+  ],
+  "property": {
+    "avgPrice": 476806,
+    "medianPrice": 425000,
+    "priceChange1y": -0.6,
+    "priceChange5y": 0,
+    "transactions12m": 632,
+    "byType": {
+      "detached": {
+        "avg": 632923,
+        "count": 310
+      },
+      "semi": {
+        "avg": 349997,
+        "count": 154
+      },
+      "terraced": {
+        "avg": 252528,
+        "count": 22
+      },
+      "flat": {
+        "avg": 230631,
+        "count": 125
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 452675
+      },
+      {
+        "year": 2024,
+        "avg": 489214
+      },
+      {
+        "year": 2025,
+        "avg": 486146
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 11.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -85.6,
+    "byType": {
+      "violentCrime": 4.8,
+      "burglary": 0.4,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 1.5,
+      "otherTheft": 1.4,
+      "other": 2.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Barnston Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Heswall St Peter's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gayton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Heswall Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 328873,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 15,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 329,
+    "avgUpload": 59,
+    "superfastPct": 96,
+    "ultrafastPct": 80,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wirral",
+    "bandD": 2158,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 29.6,
+    "imdRank": 19585,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CH60 is the postcode district for WIRRAL, located in Cheshire, North West.",
+    "priceVsCounty": "The average property price in CH60 is £476,806, which is 53% above the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in CH60 cost 66.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CH60 have fallen 0.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 11.7 recorded crimes per 1,000 residents, CH60 has a crime rate well 86% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CH60 has 4 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CH60 are 329.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CH60 (WIRRAL) offers above-average property prices (£476,806, 66% above national average), low crime (86% below national average), 4 nearby schools, and excellent broadband (329 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 329
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 329
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

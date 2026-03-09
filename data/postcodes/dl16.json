@@ -1,0 +1,197 @@
+{
+  "code": "DL16",
+  "name": "SPENNYMOOR",
+  "county": "county-durham",
+  "region": "north-east",
+  "city": "darlington",
+  "adjacent": [
+    "DL15",
+    "DL17"
+  ],
+  "property": {
+    "avgPrice": 160031,
+    "medianPrice": 133498,
+    "priceChange1y": -0.4,
+    "priceChange5y": 0,
+    "transactions12m": 1256,
+    "byType": {
+      "detached": {
+        "avg": 242109,
+        "count": 295
+      },
+      "semi": {
+        "avg": 140443,
+        "count": 404
+      },
+      "terraced": {
+        "avg": 91333,
+        "count": 492
+      },
+      "flat": {
+        "avg": 73728,
+        "count": 25
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 173670
+      },
+      {
+        "year": 2024,
+        "avg": 153090
+      },
+      {
+        "year": 2025,
+        "avg": 152501
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 59.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -26.9,
+    "byType": {
+      "violentCrime": 21.9,
+      "burglary": 1.5,
+      "vehicleCrime": 1.5,
+      "antisocialBehaviour": 12.6,
+      "otherTheft": 6,
+      "other": 15.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Tudhoe Moor Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Byers Green Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kirk Merrington Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Springmoor Grange School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "King Street Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 538011,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 20,
+    "privateRent": 15,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 322,
+    "avgUpload": 58,
+    "superfastPct": 96,
+    "ultrafastPct": 78,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Darlington Council",
+    "bandD": 2168,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.8,
+    "imdRank": 20206,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DL16 is the postcode district for SPENNYMOOR, located in County Durham, North East.",
+    "priceVsCounty": "The average property price in DL16 is £160,031, which is 23% below the County Durham average of £207,512.",
+    "priceVsNational": "Properties in DL16 cost 44.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DL16 have fallen 0.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 59.4 recorded crimes per 1,000 residents, DL16 has a crime rate well 27% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DL16 has 13 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DL16 are 322.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DL16 (SPENNYMOOR) offers affordable property prices (£160,031, 44% below national average), low crime (27% below national average), 13 nearby schools, and excellent broadband (322 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 207512,
+      "crime": 75,
+      "broadband": 322
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 322
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

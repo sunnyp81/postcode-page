@@ -1,0 +1,198 @@
+{
+  "code": "TR15",
+  "name": "REDRUTH",
+  "county": "cornwall",
+  "region": "south-west",
+  "city": "truro",
+  "adjacent": [
+    "TR14",
+    "TR16",
+    "TR17"
+  ],
+  "property": {
+    "avgPrice": 263384,
+    "medianPrice": 230000,
+    "priceChange1y": 2.3,
+    "priceChange5y": 0,
+    "transactions12m": 1031,
+    "byType": {
+      "detached": {
+        "avg": 343737,
+        "count": 244
+      },
+      "semi": {
+        "avg": 251969,
+        "count": 236
+      },
+      "terraced": {
+        "avg": 204562,
+        "count": 365
+      },
+      "flat": {
+        "avg": 122884,
+        "count": 114
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 260554
+      },
+      {
+        "year": 2024,
+        "avg": 262101
+      },
+      {
+        "year": 2025,
+        "avg": 268208
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 41.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -48.7,
+    "byType": {
+      "violentCrime": 18.9,
+      "burglary": 0.8,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 7.6,
+      "otherTheft": 5.3,
+      "other": 8.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Redruth School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pool Academy",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Trewirgie Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Trewirgie Infants' School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Curnow School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 583289,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 291,
+    "avgUpload": 52,
+    "superfastPct": 95,
+    "ultrafastPct": 69,
+    "gigabitPct": 69,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Truro Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.1,
+    "imdRank": 19382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TR15 is the postcode district for REDRUTH, located in Cornwall, South West.",
+    "priceVsCounty": "The average property price in TR15 is £263,384, which is 35% below the Cornwall average of £402,222.",
+    "priceVsNational": "Properties in TR15 cost 8.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TR15 have risen 2.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 41.7 recorded crimes per 1,000 residents, TR15 has a crime rate well 49% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TR15 has 8 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TR15 are 291.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TR15 (REDRUTH) offers property prices near the national average (£263,384), low crime (49% below national average), 8 nearby schools, and excellent broadband (291 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 402222,
+      "crime": 75,
+      "broadband": 291
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 291
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

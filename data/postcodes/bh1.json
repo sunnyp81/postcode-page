@@ -1,0 +1,191 @@
+{
+  "code": "BH1",
+  "name": "BOURNEMOUTH",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "bournemouth",
+  "adjacent": [
+    "BH2",
+    "BH3"
+  ],
+  "property": {
+    "avgPrice": 288676,
+    "medianPrice": 230000,
+    "priceChange1y": -15.2,
+    "priceChange5y": 0,
+    "transactions12m": 1145,
+    "byType": {
+      "detached": {
+        "avg": 409038,
+        "count": 38
+      },
+      "semi": {
+        "avg": 311601,
+        "count": 60
+      },
+      "terraced": {
+        "avg": 270004,
+        "count": 112
+      },
+      "flat": {
+        "avg": 238435,
+        "count": 848
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 327348
+      },
+      {
+        "year": 2024,
+        "avg": 285595
+      },
+      {
+        "year": 2025,
+        "avg": 242249
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 238.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 193.5,
+    "byType": {
+      "violentCrime": 77.1,
+      "burglary": 7,
+      "vehicleCrime": 15,
+      "antisocialBehaviour": 67.3,
+      "otherTheft": 35,
+      "other": 37.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "King's Park Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bethany Church of England Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Clement's and St John's Church of England Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Livingstone Academy Bournemouth",
+        "type": "Other",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 326,
+    "avgUpload": 59,
+    "superfastPct": 98,
+    "ultrafastPct": 86,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bournemouth Council",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.2,
+    "imdRank": 14820,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BH1 is the postcode district for BOURNEMOUTH, located in Dorset, South West.",
+    "priceVsCounty": "The average property price in BH1 is £288,676, which is 32% below the Dorset average of £425,376.",
+    "priceVsNational": "Property values in BH1 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in BH1 have fallen 15.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 238.6 recorded crimes per 1,000 residents, BH1 has a crime rate significantly 193% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BH1 has 4 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BH1 are 326.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BH1 (BOURNEMOUTH) offers property prices near the national average (£288,676), higher-than-average crime (193% above national average), 4 nearby schools, and excellent broadband (326 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 326
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 326
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

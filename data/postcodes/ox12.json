@@ -1,0 +1,198 @@
+{
+  "code": "OX12",
+  "name": "WANTAGE",
+  "county": "oxfordshire",
+  "region": "south-east",
+  "city": "oxford",
+  "adjacent": [
+    "OX11",
+    "OX13",
+    "OX14"
+  ],
+  "property": {
+    "avgPrice": 420349,
+    "medianPrice": 368000,
+    "priceChange1y": -1.9,
+    "priceChange5y": 0,
+    "transactions12m": 1771,
+    "byType": {
+      "detached": {
+        "avg": 557256,
+        "count": 627
+      },
+      "semi": {
+        "avg": 364273,
+        "count": 520
+      },
+      "terraced": {
+        "avg": 315196,
+        "count": 328
+      },
+      "flat": {
+        "avg": 238815,
+        "count": 237
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 429890
+      },
+      {
+        "year": 2024,
+        "avg": 419132
+      },
+      {
+        "year": 2025,
+        "avg": 410990
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 36.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -55.4,
+    "byType": {
+      "violentCrime": 15.4,
+      "burglary": 1.1,
+      "vehicleCrime": 1,
+      "antisocialBehaviour": 5.4,
+      "otherTheft": 5.4,
+      "other": 8.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 2,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Stockham Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Ridgeway Church of England (C) Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Amand's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "King Alfred's",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Fitzwaryn School",
+        "type": "Other",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 165112,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 322,
+    "avgUpload": 58,
+    "superfastPct": 96,
+    "ultrafastPct": 78,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Oxford Council",
+    "bandD": 2355,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10,
+    "imdRank": 7974,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "OX12 encompasses WANTAGE and its surrounding areas in Oxfordshire, South East.",
+    "priceVsCounty": "The average property price in OX12 is £420,349, which is 29% below the Oxfordshire average of £588,175.",
+    "priceVsNational": "Properties in OX12 cost 46.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in OX12 have fallen 1.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 36.3 recorded crimes per 1,000 residents, OX12 has a crime rate well 55% below the national average of 81.3 per 1,000.",
+    "schoolContext": "OX12 has 15 schools within or near its boundaries, including 2 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in OX12 are 322.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "OX12 (WANTAGE) offers above-average property prices (£420,349, 46% above national average), low crime (55% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (322 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 588175,
+      "crime": 75,
+      "broadband": 322
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 322
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

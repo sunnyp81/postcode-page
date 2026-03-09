@@ -1,0 +1,197 @@
+{
+  "code": "LA12",
+  "name": "ULVERSTON",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "lancaster",
+  "adjacent": [
+    "LA11",
+    "LA13",
+    "LA14"
+  ],
+  "property": {
+    "avgPrice": 303124,
+    "medianPrice": 255000,
+    "priceChange1y": -9.8,
+    "priceChange5y": 0,
+    "transactions12m": 1124,
+    "byType": {
+      "detached": {
+        "avg": 459375,
+        "count": 313
+      },
+      "semi": {
+        "avg": 273833,
+        "count": 299
+      },
+      "terraced": {
+        "avg": 198699,
+        "count": 372
+      },
+      "flat": {
+        "avg": 198389,
+        "count": 65
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 304625
+      },
+      {
+        "year": 2024,
+        "avg": 317239
+      },
+      {
+        "year": 2025,
+        "avg": 286183
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 16.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -79.8,
+    "byType": {
+      "violentCrime": 8.1,
+      "burglary": 0.3,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1.1,
+      "otherTheft": 1.6,
+      "other": 5.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Croftlands Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Croftlands Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sir John Barrow School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Pennington CofE School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Low Furness CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 111,
+    "avgUpload": 20,
+    "superfastPct": 85,
+    "ultrafastPct": 18,
+    "gigabitPct": 18,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lancaster Council",
+    "bandD": 2304,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LA12 covers ULVERSTON in Lancashire, North West.",
+    "priceVsCounty": "The average property price in LA12 is £303,124, which is 19% above the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in LA12 cost 5.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LA12 have fallen 9.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 16.4 recorded crimes per 1,000 residents, LA12 has a crime rate well 80% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LA12 has 12 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LA12 are 111.0 Mbps, with 87% of premises having access to superfast broadband and 46% with full fibre (FTTP) connectivity.",
+    "synthesis": "LA12 (ULVERSTON) offers property prices near the national average (£303,124), low crime (80% below national average), 12 nearby schools, and excellent broadband (111 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 111
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 111
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

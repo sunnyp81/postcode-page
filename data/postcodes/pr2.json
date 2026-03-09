@@ -1,0 +1,198 @@
+{
+  "code": "PR2",
+  "name": "PRESTON",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "preston",
+  "adjacent": [
+    "PR1",
+    "PR3",
+    "PR4"
+  ],
+  "property": {
+    "avgPrice": 220937,
+    "medianPrice": 180000,
+    "priceChange1y": -0.1,
+    "priceChange5y": 0,
+    "transactions12m": 3736,
+    "byType": {
+      "detached": {
+        "avg": 325910,
+        "count": 855
+      },
+      "semi": {
+        "avg": 202151,
+        "count": 1439
+      },
+      "terraced": {
+        "avg": 136199,
+        "count": 1036
+      },
+      "flat": {
+        "avg": 96586,
+        "count": 288
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 233264
+      },
+      {
+        "year": 2024,
+        "avg": 214831
+      },
+      {
+        "year": 2025,
+        "avg": 214547
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 105.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 30.3,
+    "byType": {
+      "violentCrime": 36.4,
+      "burglary": 3.7,
+      "vehicleCrime": 4.3,
+      "antisocialBehaviour": 30.6,
+      "otherTheft": 12.8,
+      "other": 18.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 42,
+    "outstanding": 0,
+    "good": 14,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Fulwood and Cadley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Harris Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kennington Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lea Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brookfield Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 162864,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 19,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 329,
+    "avgUpload": 59,
+    "superfastPct": 98,
+    "ultrafastPct": 81,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Preston",
+    "bandD": 2262,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 29.5,
+    "imdRank": 21185,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PR2 encompasses PRESTON and its surrounding areas in Lancashire, North West.",
+    "priceVsCounty": "The average property price in PR2 is £220,937, which is 13% below the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in PR2 cost 23.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PR2 have fallen 0.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 105.9 recorded crimes per 1,000 residents, PR2 has a crime rate significantly 30% above the national average of 81.3 per 1,000.",
+    "schoolContext": "PR2 has 42 schools within or near its boundaries, including 14 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PR2 are 329.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PR2 (PRESTON) offers affordable property prices (£220,937, 23% below national average), higher-than-average crime (30% above national average), 42 nearby schools, and excellent broadband (329 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 329
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 329
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

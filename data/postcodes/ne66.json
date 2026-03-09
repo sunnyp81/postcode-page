@@ -1,0 +1,198 @@
+{
+  "code": "NE66",
+  "name": "ALNWICK",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "newcastle-upon-tyne",
+  "adjacent": [
+    "NE65",
+    "NE67",
+    "NE68"
+  ],
+  "property": {
+    "avgPrice": 356069,
+    "medianPrice": 276248,
+    "priceChange1y": -11.5,
+    "priceChange5y": 0,
+    "transactions12m": 1068,
+    "byType": {
+      "detached": {
+        "avg": 446073,
+        "count": 350
+      },
+      "semi": {
+        "avg": 267522,
+        "count": 239
+      },
+      "terraced": {
+        "avg": 241616,
+        "count": 309
+      },
+      "flat": {
+        "avg": 164878,
+        "count": 95
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 352315
+      },
+      {
+        "year": 2024,
+        "avg": 377897
+      },
+      {
+        "year": 2025,
+        "avg": 334599
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hipsburn Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Whittingham Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Barndale School",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Paul's Catholic Primary School, Alnwick",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ncea Harry Hotspur Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 331420,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 18,
+    "privateRent": 14,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 214,
+    "avgUpload": 39,
+    "superfastPct": 84,
+    "ultrafastPct": 48,
+    "gigabitPct": 48,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newcastle Upon Tyne Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.1,
+    "imdRank": 16778,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NE66 covers ALNWICK in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in NE66 is £356,069, which is 34% above the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in NE66 cost 24.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NE66 have fallen 11.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, NE66 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NE66 has 11 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NE66 are 214.0 Mbps, with 99% of premises having access to superfast broadband and 74% with full fibre (FTTP) connectivity.",
+    "synthesis": "NE66 (ALNWICK) offers above-average property prices (£356,069, 24% above national average), low crime (94% below national average), 11 nearby schools, and excellent broadband (214 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 214
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 214
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

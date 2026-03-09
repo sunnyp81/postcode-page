@@ -1,0 +1,198 @@
+{
+  "code": "BN12",
+  "name": "WORTHING",
+  "county": "east-sussex",
+  "region": "south-east",
+  "city": "brighton",
+  "adjacent": [
+    "BN11",
+    "BN13",
+    "BN14"
+  ],
+  "property": {
+    "avgPrice": 459569,
+    "medianPrice": 420000,
+    "priceChange1y": 1.1,
+    "priceChange5y": 0,
+    "transactions12m": 1190,
+    "byType": {
+      "detached": {
+        "avg": 613358,
+        "count": 456
+      },
+      "semi": {
+        "avg": 431620,
+        "count": 342
+      },
+      "terraced": {
+        "avg": 367300,
+        "count": 129
+      },
+      "flat": {
+        "avg": 250560,
+        "count": 229
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 454808
+      },
+      {
+        "year": 2024,
+        "avg": 459519
+      },
+      {
+        "year": 2025,
+        "avg": 464741
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 41.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -49.4,
+    "byType": {
+      "violentCrime": 10.8,
+      "burglary": 0.9,
+      "vehicleCrime": 1.4,
+      "antisocialBehaviour": 8.2,
+      "otherTheft": 11.8,
+      "other": 8.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ferring C of E Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "West Park CofE Primary (Controlled) School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Goring-By-Sea CofE (Aided) Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "English Martyrs Catholic Primary School, Worthing",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Oscar Romero Catholic School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 113866,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 10,
+    "privateRent": 20,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 330,
+    "avgUpload": 59,
+    "superfastPct": 98,
+    "ultrafastPct": 82,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Worthing",
+    "bandD": 2133,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17,
+    "imdRank": 14282,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BN12 covers WORTHING in East Sussex, South East.",
+    "priceVsCounty": "The average property price in BN12 is £459,569, broadly in line with the East Sussex average of £455,819.",
+    "priceVsNational": "Properties in BN12 cost 60.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BN12 have risen 1.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 41.1 recorded crimes per 1,000 residents, BN12 has a crime rate well 49% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BN12 has 9 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BN12 are 330.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BN12 (WORTHING) offers above-average property prices (£459,569, 60% above national average), low crime (49% below national average), 9 nearby schools, and excellent broadband (330 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 455819,
+      "crime": 75,
+      "broadband": 330
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 330
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

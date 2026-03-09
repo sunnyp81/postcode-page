@@ -1,0 +1,193 @@
+{
+  "code": "IG4",
+  "name": "ILFORD",
+  "county": "greater-london",
+  "region": "london",
+  "city": "ilford",
+  "adjacent": [
+    "IG3",
+    "IG5",
+    "IG6"
+  ],
+  "property": {
+    "avgPrice": 593529,
+    "medianPrice": 585000,
+    "priceChange1y": 1.6,
+    "priceChange5y": 0,
+    "transactions12m": 201,
+    "byType": {
+      "detached": {
+        "avg": 700000,
+        "count": 6
+      },
+      "semi": {
+        "avg": 640238,
+        "count": 43
+      },
+      "terraced": {
+        "avg": 610308,
+        "count": 107
+      },
+      "flat": {
+        "avg": 202266,
+        "count": 35
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 646747
+      },
+      {
+        "year": 2024,
+        "avg": 547263
+      },
+      {
+        "year": 2025,
+        "avg": 556052
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 66.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -18.3,
+    "byType": {
+      "violentCrime": 19.5,
+      "burglary": 2.8,
+      "vehicleCrime": 8.2,
+      "antisocialBehaviour": 13.8,
+      "otherTheft": 11.8,
+      "other": 10.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Beehive Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Redbridge Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Beal High School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Beacon Business Innovation Hub",
+        "type": "Other",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 321231,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 11,
+    "privateRent": 28,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 382,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 95,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Redbridge",
+    "bandD": 1976,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.2,
+    "imdRank": 15082,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IG4 is the postcode district for ILFORD, located in Greater London, London.",
+    "priceVsCounty": "The average property price in IG4 is £593,529, which is 55% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in IG4 cost 106.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IG4 have risen 1.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 66.4 recorded crimes per 1,000 residents, IG4 has a crime rate 18% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IG4 has 4 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IG4 are 382.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "IG4 (ILFORD) offers above-average property prices (£593,529, 107% above national average), low crime (18% below national average), 4 nearby schools, and excellent broadband (382 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 382
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 382
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

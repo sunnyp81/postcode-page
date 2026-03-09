@@ -1,0 +1,198 @@
+{
+  "code": "PL14",
+  "name": "LISKEARD",
+  "county": "devon",
+  "region": "south-west",
+  "city": "plymouth",
+  "adjacent": [
+    "PL13",
+    "PL15",
+    "PL16"
+  ],
+  "property": {
+    "avgPrice": 292560,
+    "medianPrice": 235000,
+    "priceChange1y": -13.9,
+    "priceChange5y": 0,
+    "transactions12m": 1174,
+    "byType": {
+      "detached": {
+        "avg": 369661,
+        "count": 433
+      },
+      "semi": {
+        "avg": 232669,
+        "count": 268
+      },
+      "terraced": {
+        "avg": 190385,
+        "count": 322
+      },
+      "flat": {
+        "avg": 120712,
+        "count": 52
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 281653
+      },
+      {
+        "year": 2024,
+        "avg": 319300
+      },
+      {
+        "year": 2025,
+        "avg": 274792
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 31.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -61.7,
+    "byType": {
+      "violentCrime": 13.5,
+      "burglary": 0.7,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 5.6,
+      "otherTheft": 3.5,
+      "other": 7.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Pensilva Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "St Neot Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Menheniot Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Taliesin Education Ltd",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Caradon Alternative Provision Academy",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 583289,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 287,
+    "avgUpload": 52,
+    "superfastPct": 86,
+    "ultrafastPct": 69,
+    "gigabitPct": 69,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Plymouth Council",
+    "bandD": 2372,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.1,
+    "imdRank": 19382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PL14 encompasses LISKEARD and its surrounding areas in Devon, South West.",
+    "priceVsCounty": "The average property price in PL14 is £292,560, which is 24% below the Devon average of £385,452.",
+    "priceVsNational": "Property values in PL14 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in PL14 have fallen 13.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 31.1 recorded crimes per 1,000 residents, PL14 has a crime rate well 62% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PL14 has 16 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PL14 are 287.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PL14 (LISKEARD) offers property prices near the national average (£292,560), low crime (62% below national average), 16 nearby schools, and excellent broadband (287 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 287
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 287
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

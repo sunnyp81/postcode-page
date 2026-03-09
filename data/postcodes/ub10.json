@@ -1,0 +1,197 @@
+{
+  "code": "UB10",
+  "name": "UXBRIDGE",
+  "county": "greater-london",
+  "region": "london",
+  "city": "uxbridge",
+  "adjacent": [
+    "UB9",
+    "UB11"
+  ],
+  "property": {
+    "avgPrice": 638815,
+    "medianPrice": 530000,
+    "priceChange1y": 14.6,
+    "priceChange5y": 0,
+    "transactions12m": 1184,
+    "byType": {
+      "detached": {
+        "avg": 910454,
+        "count": 233
+      },
+      "semi": {
+        "avg": 616687,
+        "count": 331
+      },
+      "terraced": {
+        "avg": 507162,
+        "count": 310
+      },
+      "flat": {
+        "avg": 362197,
+        "count": 284
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 574672
+      },
+      {
+        "year": 2024,
+        "avg": 624503
+      },
+      {
+        "year": 2025,
+        "avg": 715676
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 27.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -65.8,
+    "byType": {
+      "violentCrime": 8.4,
+      "burglary": 1.1,
+      "vehicleCrime": 3,
+      "antisocialBehaviour": 7.1,
+      "otherTheft": 2.4,
+      "other": 5.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 2,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Breakspear School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Glebe Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Highfield Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oak Farm Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Oak Wood School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 329185,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 16,
+    "privateRent": 24,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 363,
+    "avgUpload": 65,
+    "superfastPct": 98,
+    "ultrafastPct": 91,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hillingdon",
+    "bandD": 1760,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.2,
+    "imdRank": 15515,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "UB10 encompasses UXBRIDGE and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in UB10 is £638,815, which is 51% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in UB10 cost 122.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in UB10 have risen 14.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 27.8 recorded crimes per 1,000 residents, UB10 has a crime rate well 66% below the national average of 81.3 per 1,000.",
+    "schoolContext": "UB10 has 15 schools within or near its boundaries, including 2 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in UB10 are 363.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "UB10 (UXBRIDGE) offers above-average property prices (£638,815, 123% above national average), low crime (66% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (363 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 363
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 363
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

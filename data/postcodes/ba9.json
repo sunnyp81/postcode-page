@@ -1,0 +1,187 @@
+{
+  "code": "BA9",
+  "name": "WINCANTON",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "bath",
+  "adjacent": [
+    "BA8",
+    "BA10",
+    "BA11"
+  ],
+  "property": {
+    "avgPrice": 411862,
+    "medianPrice": 282500,
+    "priceChange1y": 27,
+    "priceChange5y": 0,
+    "transactions12m": 417,
+    "byType": {
+      "detached": {
+        "avg": 523281,
+        "count": 142
+      },
+      "semi": {
+        "avg": 290028,
+        "count": 106
+      },
+      "terraced": {
+        "avg": 226580,
+        "count": 75
+      },
+      "flat": {
+        "avg": 131691,
+        "count": 69
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 446323
+      },
+      {
+        "year": 2024,
+        "avg": 355976
+      },
+      {
+        "year": 2025,
+        "avg": 452055
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 16.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -79.7,
+    "byType": {
+      "violentCrime": 6.9,
+      "burglary": 0.3,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 2.3,
+      "otherTheft": 3.6,
+      "other": 3.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Wincanton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "King Arthur's School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Our Lady of Mount Carmel Catholic Primary",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 349,
+    "avgUpload": 63,
+    "superfastPct": 94,
+    "ultrafastPct": 86,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bath Council",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BA9 encompasses WINCANTON and its surrounding areas in Somerset, South West.",
+    "priceVsCounty": "The average property price in BA9 is £411,862, which is 10% above the Somerset average of £373,759.",
+    "priceVsNational": "Properties in BA9 cost 43.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BA9 have risen 27.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 16.5 recorded crimes per 1,000 residents, BA9 has a crime rate well 80% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BA9 has 3 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BA9 are 349.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BA9 (WINCANTON) offers above-average property prices (£411,862, 44% above national average), low crime (80% below national average), 3 nearby schools, and excellent broadband (349 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 349
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 349
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

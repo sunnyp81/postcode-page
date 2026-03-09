@@ -1,0 +1,198 @@
+{
+  "code": "TF11",
+  "name": "SHIFNAL",
+  "county": "shropshire",
+  "region": "west-midlands",
+  "city": "telford",
+  "adjacent": [
+    "TF10",
+    "TF12",
+    "TF13"
+  ],
+  "property": {
+    "avgPrice": 322153,
+    "medianPrice": 268000,
+    "priceChange1y": 4.3,
+    "priceChange5y": 0,
+    "transactions12m": 519,
+    "byType": {
+      "detached": {
+        "avg": 425070,
+        "count": 190
+      },
+      "semi": {
+        "avg": 259700,
+        "count": 165
+      },
+      "terraced": {
+        "avg": 232035,
+        "count": 95
+      },
+      "flat": {
+        "avg": 133036,
+        "count": 32
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 330154
+      },
+      {
+        "year": 2024,
+        "avg": 312316
+      },
+      {
+        "year": 2025,
+        "avg": 325882
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 13.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -83.9,
+    "byType": {
+      "violentCrime": 6.1,
+      "burglary": 0.5,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 1.4,
+      "otherTheft": 2.1,
+      "other": 2.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Sheriffhales Primary School and Preschool",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Shifnal Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Andrew's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lamledge School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Options Higford",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 332455,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 219,
+    "avgUpload": 39,
+    "superfastPct": 75,
+    "ultrafastPct": 52,
+    "gigabitPct": 50,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Telford Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.2,
+    "imdRank": 14862,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TF11 covers SHIFNAL in Shropshire, West Midlands.",
+    "priceVsCounty": "The average property price in TF11 is £322,153, which is 9% above the Shropshire average of £296,045.",
+    "priceVsNational": "Properties in TF11 cost 12.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TF11 have risen 4.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 13.1 recorded crimes per 1,000 residents, TF11 has a crime rate well 84% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TF11 has 7 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TF11 are 219.0 Mbps, with 99% of premises having access to superfast broadband and 75% with full fibre (FTTP) connectivity.",
+    "synthesis": "TF11 (SHIFNAL) offers property prices near the national average (£322,153), low crime (84% below national average), 7 nearby schools, and excellent broadband (219 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 296045,
+      "crime": 75,
+      "broadband": 219
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 219
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

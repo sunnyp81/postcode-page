@@ -1,0 +1,198 @@
+{
+  "code": "TA21",
+  "name": "WELLINGTON",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "taunton",
+  "adjacent": [
+    "TA20",
+    "TA22",
+    "TA23"
+  ],
+  "property": {
+    "avgPrice": 315488,
+    "medianPrice": 275000,
+    "priceChange1y": -2.4,
+    "priceChange5y": 0,
+    "transactions12m": 1095,
+    "byType": {
+      "detached": {
+        "avg": 443074,
+        "count": 327
+      },
+      "semi": {
+        "avg": 284004,
+        "count": 234
+      },
+      "terraced": {
+        "avg": 238372,
+        "count": 341
+      },
+      "flat": {
+        "avg": 148542,
+        "count": 106
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 317897
+      },
+      {
+        "year": 2024,
+        "avg": 317772
+      },
+      {
+        "year": 2025,
+        "avg": 310276
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 29.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -63.5,
+    "byType": {
+      "violentCrime": 14.5,
+      "burglary": 0.3,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 5.2,
+      "otherTheft": 3.2,
+      "other": 6.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Sampford Arundel Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stawley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beech Grove Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Langford Budville Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rockwell Green Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 84993,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 284,
+    "avgUpload": 51,
+    "superfastPct": 81,
+    "ultrafastPct": 71,
+    "gigabitPct": 68,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Mid Devon",
+    "bandD": 2295,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.9,
+    "imdRank": 15037,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TA21 encompasses WELLINGTON and its surrounding areas in Somerset, South West.",
+    "priceVsCounty": "The average property price in TA21 is £315,488, which is 16% below the Somerset average of £373,759.",
+    "priceVsNational": "Properties in TA21 cost 9.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TA21 have fallen 2.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 29.7 recorded crimes per 1,000 residents, TA21 has a crime rate well 63% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TA21 has 12 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TA21 are 284.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TA21 (WELLINGTON) offers property prices near the national average (£315,488), low crime (63% below national average), 12 nearby schools, and excellent broadband (284 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 284
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 284
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "IP25",
+  "name": "THETFORD",
+  "county": "suffolk",
+  "region": "east-of-england",
+  "city": "ipswich",
+  "adjacent": [
+    "IP24",
+    "IP26",
+    "IP27"
+  ],
+  "property": {
+    "avgPrice": 306408,
+    "medianPrice": 250000,
+    "priceChange1y": -11.3,
+    "priceChange5y": 0,
+    "transactions12m": 1068,
+    "byType": {
+      "detached": {
+        "avg": 352343,
+        "count": 508
+      },
+      "semi": {
+        "avg": 232875,
+        "count": 297
+      },
+      "terraced": {
+        "avg": 189447,
+        "count": 171
+      },
+      "flat": {
+        "avg": 121823,
+        "count": 41
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 331234
+      },
+      {
+        "year": 2024,
+        "avg": 306714
+      },
+      {
+        "year": 2025,
+        "avg": 271909
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.4,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ashill Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wayland Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Thomas Bullock Church of England Primary and Nursery Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Peter and St Paul Church of England Primary Academy & Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Watton Westfield Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 146620,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 215,
+    "avgUpload": 39,
+    "superfastPct": 87,
+    "ultrafastPct": 48,
+    "gigabitPct": 48,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Breckland",
+    "bandD": 2114,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.6,
+    "imdRank": 16834,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IP25 is the postcode district for THETFORD, located in Suffolk, East Of England.",
+    "priceVsCounty": "The average property price in IP25 is £306,408, which is 19% below the Suffolk average of £379,904.",
+    "priceVsNational": "Properties in IP25 cost 6.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IP25 have fallen 11.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, IP25 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IP25 has 8 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IP25 are 215.0 Mbps, with 99% of premises having access to superfast broadband and 74% with full fibre (FTTP) connectivity.",
+    "synthesis": "IP25 (THETFORD) offers property prices near the national average (£306,408), low crime (94% below national average), 8 nearby schools, and excellent broadband (215 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 379904,
+      "crime": 75,
+      "broadband": 215
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 215
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

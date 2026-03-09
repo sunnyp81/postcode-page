@@ -1,0 +1,178 @@
+{
+  "code": "NE17",
+  "name": "NEWCASTLE UPON TYNE",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "newcastle-upon-tyne",
+  "adjacent": [
+    "NE16",
+    "NE18",
+    "NE19"
+  ],
+  "property": {
+    "avgPrice": 119027,
+    "medianPrice": 92000,
+    "priceChange1y": -5.6,
+    "priceChange5y": 0,
+    "transactions12m": 315,
+    "byType": {
+      "detached": {
+        "avg": 213119,
+        "count": 58
+      },
+      "semi": {
+        "avg": 146134,
+        "count": 55
+      },
+      "terraced": {
+        "avg": 80857,
+        "count": 183
+      },
+      "flat": {
+        "avg": 59050,
+        "count": 10
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 112576
+      },
+      {
+        "year": 2024,
+        "avg": 124823
+      },
+      {
+        "year": 2025,
+        "avg": 117797
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 12,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -85.2,
+    "byType": {
+      "violentCrime": 3.9,
+      "burglary": 0.4,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 3.6,
+      "otherTheft": 1.4,
+      "other": 2.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Chopwell Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 331420,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 18,
+    "privateRent": 14,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 58,
+    "avgUpload": 10,
+    "superfastPct": 90,
+    "ultrafastPct": 2,
+    "gigabitPct": 2,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newcastle Upon Tyne Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.1,
+    "imdRank": 16778,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NE17 encompasses NEWCASTLE UPON TYNE and its surrounding areas in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in NE17 is £119,027, which is 55% below the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in NE17 cost 58.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NE17 have fallen 5.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 12.0 recorded crimes per 1,000 residents, NE17 has a crime rate well 85% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NE17 has 1 school within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NE17 are 58.0 Mbps, with 79% of premises having access to superfast broadband and 31% with full fibre (FTTP) connectivity.",
+    "synthesis": "NE17 (NEWCASTLE UPON TYNE) offers affordable property prices (£119,027, 59% below national average), low crime (85% below national average), 1 nearby school, and good broadband connectivity (58 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 58
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 58
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

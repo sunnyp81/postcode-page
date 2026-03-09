@@ -1,0 +1,198 @@
+{
+  "code": "DY2",
+  "name": "DUDLEY",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "dudley",
+  "adjacent": [
+    "DY1",
+    "DY3",
+    "DY4"
+  ],
+  "property": {
+    "avgPrice": 193466,
+    "medianPrice": 180500,
+    "priceChange1y": -5.4,
+    "priceChange5y": 0,
+    "transactions12m": 991,
+    "byType": {
+      "detached": {
+        "avg": 276318,
+        "count": 104
+      },
+      "semi": {
+        "avg": 193015,
+        "count": 396
+      },
+      "terraced": {
+        "avg": 164312,
+        "count": 365
+      },
+      "flat": {
+        "avg": 100804,
+        "count": 69
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 184781
+      },
+      {
+        "year": 2024,
+        "avg": 202343
+      },
+      {
+        "year": 2025,
+        "avg": 191411
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 75.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -7.3,
+    "byType": {
+      "violentCrime": 37,
+      "burglary": 4.1,
+      "vehicleCrime": 5.8,
+      "antisocialBehaviour": 4.4,
+      "otherTheft": 8.4,
+      "other": 15.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Netherton Park Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Joseph's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beechwood Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Woodside Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Dudley Wood Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 331930,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 19,
+    "privateRent": 12,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 354,
+    "avgUpload": 64,
+    "superfastPct": 99,
+    "ultrafastPct": 89,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Dudley",
+    "bandD": 1844,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 24.1,
+    "imdRank": 18193,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DY2 covers DUDLEY in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in DY2 is £193,466, which is 42% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in DY2 cost 32.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DY2 have fallen 5.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 75.4 recorded crimes per 1,000 residents, DY2 has a crime rate 7% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DY2 has 12 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DY2 are 354.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DY2 (DUDLEY) offers affordable property prices (£193,466, 33% below national average), 12 nearby schools, and excellent broadband (354 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 354
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 354
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

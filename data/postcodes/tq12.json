@@ -1,0 +1,198 @@
+{
+  "code": "TQ12",
+  "name": "NEWTON ABBOT",
+  "county": "devon",
+  "region": "south-west",
+  "city": "torquay",
+  "adjacent": [
+    "TQ11",
+    "TQ13",
+    "TQ14"
+  ],
+  "property": {
+    "avgPrice": 316297,
+    "medianPrice": 277000,
+    "priceChange1y": -1,
+    "priceChange5y": 0,
+    "transactions12m": 2753,
+    "byType": {
+      "detached": {
+        "avg": 420186,
+        "count": 849
+      },
+      "semi": {
+        "avg": 296972,
+        "count": 696
+      },
+      "terraced": {
+        "avg": 232674,
+        "count": 803
+      },
+      "flat": {
+        "avg": 154674,
+        "count": 267
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 328144
+      },
+      {
+        "year": 2024,
+        "avg": 311424
+      },
+      {
+        "year": 2025,
+        "avg": 308441
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 55.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -31.9,
+    "byType": {
+      "violentCrime": 21.9,
+      "burglary": 1.1,
+      "vehicleCrime": 1,
+      "antisocialBehaviour": 9.6,
+      "otherTheft": 10.6,
+      "other": 11.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 28,
+    "outstanding": 0,
+    "good": 13,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Abbotskerswell Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Denbury Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ipplepen Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Decoy Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Highweek Community Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 92148,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 12,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 312,
+    "avgUpload": 56,
+    "superfastPct": 89,
+    "ultrafastPct": 76,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Hams",
+    "bandD": 2261,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.7,
+    "imdRank": 12057,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TQ12 covers NEWTON ABBOT in Devon, South West.",
+    "priceVsCounty": "The average property price in TQ12 is £316,297, which is 18% below the Devon average of £385,452.",
+    "priceVsNational": "Properties in TQ12 cost 10.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TQ12 have fallen 1.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 55.4 recorded crimes per 1,000 residents, TQ12 has a crime rate well 32% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TQ12 has 28 schools within or near its boundaries, including 13 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TQ12 are 312.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TQ12 (NEWTON ABBOT) offers property prices near the national average (£316,297), low crime (32% below national average), 28 nearby schools, and excellent broadband (312 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 312
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 312
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

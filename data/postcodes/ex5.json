@@ -1,0 +1,198 @@
+{
+  "code": "EX5",
+  "name": "EXETER",
+  "county": "devon",
+  "region": "south-west",
+  "city": "exeter",
+  "adjacent": [
+    "EX4",
+    "EX6",
+    "EX7"
+  ],
+  "property": {
+    "avgPrice": 394571,
+    "medianPrice": 295000,
+    "priceChange1y": -13,
+    "priceChange5y": 0,
+    "transactions12m": 1394,
+    "byType": {
+      "detached": {
+        "avg": 495909,
+        "count": 453
+      },
+      "semi": {
+        "avg": 310216,
+        "count": 334
+      },
+      "terraced": {
+        "avg": 258393,
+        "count": 437
+      },
+      "flat": {
+        "avg": 183234,
+        "count": 59
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 408653
+      },
+      {
+        "year": 2024,
+        "avg": 408702
+      },
+      {
+        "year": 2025,
+        "avg": 355672
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.5,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.6,
+      "otherTheft": 0.2,
+      "other": 1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Clyst St Mary Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Newton St Cyres Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Whimple Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brampford Speke Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Silverton Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 138399,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 17,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 246,
+    "avgUpload": 44,
+    "superfastPct": 78,
+    "ultrafastPct": 58,
+    "gigabitPct": 58,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Exeter",
+    "bandD": 2168,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.2,
+    "imdRank": 13406,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EX5 covers EXETER in Devon, South West.",
+    "priceVsCounty": "The average property price in EX5 is £394,571, broadly in line with the Devon average of £385,452.",
+    "priceVsNational": "Properties in EX5 cost 37.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EX5 have fallen 13.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, EX5 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "EX5 has 16 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EX5 are 246.0 Mbps, with 99% of premises having access to superfast broadband and 83% with full fibre (FTTP) connectivity.",
+    "synthesis": "EX5 (EXETER) offers above-average property prices (£394,571, 37% above national average), low crime (94% below national average), 16 nearby schools, and excellent broadband (246 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 246
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 246
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

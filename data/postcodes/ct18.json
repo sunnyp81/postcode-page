@@ -1,0 +1,193 @@
+{
+  "code": "CT18",
+  "name": "FOLKESTONE",
+  "county": "kent",
+  "region": "south-east",
+  "city": "canterbury",
+  "adjacent": [
+    "CT17",
+    "CT19",
+    "CT20"
+  ],
+  "property": {
+    "avgPrice": 402518,
+    "medianPrice": 355000,
+    "priceChange1y": 1.3,
+    "priceChange5y": 0,
+    "transactions12m": 711,
+    "byType": {
+      "detached": {
+        "avg": 494100,
+        "count": 286
+      },
+      "semi": {
+        "avg": 349765,
+        "count": 224
+      },
+      "terraced": {
+        "avg": 296817,
+        "count": 137
+      },
+      "flat": {
+        "avg": 191973,
+        "count": 39
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 385624
+      },
+      {
+        "year": 2024,
+        "avg": 406550
+      },
+      {
+        "year": 2025,
+        "avg": 411870
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 11.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -85.5,
+    "byType": {
+      "violentCrime": 4.7,
+      "burglary": 0.2,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 2.9,
+      "otherTheft": 1.5,
+      "other": 2.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hawkinge Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Capel-le-Ferne Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lyminge Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Churchill School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 119768,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 14,
+    "privateRent": 17,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 246,
+    "avgUpload": 44,
+    "superfastPct": 87,
+    "ultrafastPct": 57,
+    "gigabitPct": 57,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Dover",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.2,
+    "imdRank": 17915,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CT18 is the postcode district for FOLKESTONE, located in Kent, South East.",
+    "priceVsCounty": "The average property price in CT18 is £402,518, which is 11% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in CT18 cost 40.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CT18 have risen 1.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 11.8 recorded crimes per 1,000 residents, CT18 has a crime rate well 85% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CT18 has 4 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CT18 are 246.0 Mbps, with 99% of premises having access to superfast broadband and 83% with full fibre (FTTP) connectivity.",
+    "synthesis": "CT18 (FOLKESTONE) offers above-average property prices (£402,518, 40% above national average), low crime (85% below national average), 4 nearby schools, and excellent broadband (246 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 246
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 246
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

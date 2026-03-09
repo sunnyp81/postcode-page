@@ -1,0 +1,198 @@
+{
+  "code": "NG4",
+  "name": "NOTTINGHAM",
+  "county": "nottinghamshire",
+  "region": "east-midlands",
+  "city": "nottingham",
+  "adjacent": [
+    "NG3",
+    "NG5",
+    "NG6"
+  ],
+  "property": {
+    "avgPrice": 243442,
+    "medianPrice": 220000,
+    "priceChange1y": -5.5,
+    "priceChange5y": 0,
+    "transactions12m": 2176,
+    "byType": {
+      "detached": {
+        "avg": 321857,
+        "count": 606
+      },
+      "semi": {
+        "avg": 224770,
+        "count": 824
+      },
+      "terraced": {
+        "avg": 172886,
+        "count": 489
+      },
+      "flat": {
+        "avg": 126224,
+        "count": 198
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 250496
+      },
+      {
+        "year": 2024,
+        "avg": 246197
+      },
+      {
+        "year": 2025,
+        "avg": 232631
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 57.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -28.9,
+    "byType": {
+      "violentCrime": 22.9,
+      "burglary": 1.3,
+      "vehicleCrime": 2.4,
+      "antisocialBehaviour": 9.1,
+      "otherTheft": 7.5,
+      "other": 14.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 2,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Standhill Infants' School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Priory Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Phoenix Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lambley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "All Hallows CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 120179,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 10,
+    "privateRent": 14,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 376,
+    "avgUpload": 68,
+    "superfastPct": 99,
+    "ultrafastPct": 94,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Gedling",
+    "bandD": 2288,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.9,
+    "imdRank": 12438,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NG4 covers NOTTINGHAM in Nottinghamshire, East Midlands.",
+    "priceVsCounty": "The average property price in NG4 is £243,442, which is 64% below the Nottinghamshire average of £678,596.",
+    "priceVsNational": "Properties in NG4 cost 15.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NG4 have fallen 5.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 57.8 recorded crimes per 1,000 residents, NG4 has a crime rate well 29% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NG4 has 18 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NG4 are 376.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NG4 (NOTTINGHAM) offers affordable property prices (£243,442, 15% below national average), low crime (29% below national average), 18 nearby schools, and excellent broadband (376 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 678596,
+      "crime": 75,
+      "broadband": 376
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 376
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

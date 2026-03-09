@@ -1,0 +1,198 @@
+{
+  "code": "OX15",
+  "name": "BANBURY",
+  "county": "oxfordshire",
+  "region": "south-east",
+  "city": "oxford",
+  "adjacent": [
+    "OX14",
+    "OX16",
+    "OX17"
+  ],
+  "property": {
+    "avgPrice": 591194,
+    "medianPrice": 425000,
+    "priceChange1y": 34.9,
+    "priceChange5y": 0,
+    "transactions12m": 830,
+    "byType": {
+      "detached": {
+        "avg": 622968,
+        "count": 366
+      },
+      "semi": {
+        "avg": 389410,
+        "count": 209
+      },
+      "terraced": {
+        "avg": 359800,
+        "count": 162
+      },
+      "flat": {
+        "avg": 212003,
+        "count": 34
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 535007
+      },
+      {
+        "year": 2024,
+        "avg": 524102
+      },
+      {
+        "year": 2025,
+        "avg": 707098
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hook Norton Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bloxham Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Shenington Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bloxham School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sibford School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 170426,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 322,
+    "avgUpload": 58,
+    "superfastPct": 92,
+    "ultrafastPct": 79,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cherwell",
+    "bandD": 2243,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.4,
+    "imdRank": 11879,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "OX15 encompasses BANBURY and its surrounding areas in Oxfordshire, South East.",
+    "priceVsCounty": "The average property price in OX15 is £591,194, broadly in line with the Oxfordshire average of £588,175.",
+    "priceVsNational": "Properties in OX15 cost 106.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in OX15 have risen 34.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, OX15 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "OX15 has 16 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in OX15 are 322.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "OX15 (BANBURY) offers above-average property prices (£591,194, 106% above national average), low crime (94% below national average), 16 nearby schools, and excellent broadband (322 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 588175,
+      "crime": 75,
+      "broadband": 322
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 322
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

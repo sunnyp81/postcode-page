@@ -1,0 +1,198 @@
+{
+  "code": "SG4",
+  "name": "HITCHIN",
+  "county": "hertfordshire",
+  "region": "east-of-england",
+  "city": "stevenage",
+  "adjacent": [
+    "SG3",
+    "SG5",
+    "SG6"
+  ],
+  "property": {
+    "avgPrice": 560252,
+    "medianPrice": 468000,
+    "priceChange1y": -1.6,
+    "priceChange5y": 0,
+    "transactions12m": 1473,
+    "byType": {
+      "detached": {
+        "avg": 876382,
+        "count": 363
+      },
+      "semi": {
+        "avg": 564652,
+        "count": 417
+      },
+      "terraced": {
+        "avg": 401954,
+        "count": 336
+      },
+      "flat": {
+        "avg": 244684,
+        "count": 293
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 540722
+      },
+      {
+        "year": 2024,
+        "avg": 572199
+      },
+      {
+        "year": 2025,
+        "avg": 563000
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.6,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.2,
+      "other": 0.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 0,
+    "good": 8,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Highbury Infant School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Highover Junior Mixed and Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kimpton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Breachwood Green Junior Mixed and Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Paul's Walden Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 91774,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 26,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 277,
+    "avgUpload": 50,
+    "superfastPct": 90,
+    "ultrafastPct": 67,
+    "gigabitPct": 65,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stevenage",
+    "bandD": 2076,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.7,
+    "imdRank": 17354,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SG4 encompasses HITCHIN and its surrounding areas in Hertfordshire, East Of England.",
+    "priceVsCounty": "The average property price in SG4 is £560,252, broadly in line with the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in SG4 cost 95.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SG4 have fallen 1.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SG4 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SG4 has 19 schools within or near its boundaries, including 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SG4 are 277.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SG4 (HITCHIN) offers above-average property prices (£560,252, 95% above national average), low crime (94% below national average), 19 nearby schools, and excellent broadband (277 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 277
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 277
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

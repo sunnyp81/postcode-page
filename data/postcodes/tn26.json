@@ -1,0 +1,193 @@
+{
+  "code": "TN26",
+  "name": "ASHFORD",
+  "county": "kent",
+  "region": "south-east",
+  "city": "tunbridge-wells",
+  "adjacent": [
+    "TN25",
+    "TN27",
+    "TN28"
+  ],
+  "property": {
+    "avgPrice": 587878,
+    "medianPrice": 472500,
+    "priceChange1y": -16.7,
+    "priceChange5y": 0,
+    "transactions12m": 485,
+    "byType": {
+      "detached": {
+        "avg": 662421,
+        "count": 222
+      },
+      "semi": {
+        "avg": 370623,
+        "count": 121
+      },
+      "terraced": {
+        "avg": 314974,
+        "count": 67
+      },
+      "flat": {
+        "avg": 268317,
+        "count": 11
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 578004
+      },
+      {
+        "year": 2024,
+        "avg": 640056
+      },
+      {
+        "year": 2025,
+        "avg": 532993
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.1,
+      "other": 0.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bethersden Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "High Halden Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Woodchurch Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hamstreet Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 140936,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 106,
+    "avgUpload": 19,
+    "superfastPct": 71,
+    "ultrafastPct": 19,
+    "gigabitPct": 18,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Ashford",
+    "bandD": 2101,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.5,
+    "imdRank": 15484,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TN26 encompasses ASHFORD and its surrounding areas in Kent, South East.",
+    "priceVsCounty": "The average property price in TN26 is £587,878, which is 30% above the Kent average of £450,882.",
+    "priceVsNational": "Properties in TN26 cost 104.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TN26 have fallen 16.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TN26 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TN26 has 4 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TN26 are 106.0 Mbps, with 86% of premises having access to superfast broadband and 44% with full fibre (FTTP) connectivity.",
+    "synthesis": "TN26 (ASHFORD) offers above-average property prices (£587,878, 105% above national average), low crime (94% below national average), 4 nearby schools, and excellent broadband (106 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 106
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 106
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

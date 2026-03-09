@@ -1,0 +1,196 @@
+{
+  "code": "HG4",
+  "name": "RIPON",
+  "county": "north-yorkshire",
+  "region": "yorkshire",
+  "city": "harrogate",
+  "adjacent": [
+    "HG3",
+    "HG5"
+  ],
+  "property": {
+    "avgPrice": 359829,
+    "medianPrice": 295000,
+    "priceChange1y": -3.8,
+    "priceChange5y": 0,
+    "transactions12m": 1149,
+    "byType": {
+      "detached": {
+        "avg": 525447,
+        "count": 380
+      },
+      "semi": {
+        "avg": 289996,
+        "count": 271
+      },
+      "terraced": {
+        "avg": 239549,
+        "count": 284
+      },
+      "flat": {
+        "avg": 197386,
+        "count": 150
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 363579
+      },
+      {
+        "year": 2024,
+        "avg": 363245
+      },
+      {
+        "year": 2025,
+        "avg": 349607
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Moorside Primary School & Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Thornton Watlass Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Nicholas Church of England Primary School, West Tanfield",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kirkby Malzeard Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ripon Cathedral Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 99,
+    "avgUpload": 18,
+    "superfastPct": 81,
+    "ultrafastPct": 15,
+    "gigabitPct": 15,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Harrogate Council",
+    "bandD": 2183,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HG4 covers RIPON in North Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HG4 is £359,829, broadly in line with the North Yorkshire average of £354,925.",
+    "priceVsNational": "Properties in HG4 cost 25.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HG4 have fallen 3.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, HG4 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HG4 has 16 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HG4 are 99.0 Mbps, with 85% of premises having access to superfast broadband and 42% with full fibre (FTTP) connectivity.",
+    "synthesis": "HG4 (RIPON) offers above-average property prices (£359,829, 25% above national average), low crime (94% below national average), 16 nearby schools, and good broadband connectivity (99 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 354925,
+      "crime": 75,
+      "broadband": 99
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 99
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

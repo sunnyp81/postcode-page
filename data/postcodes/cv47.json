@@ -1,0 +1,194 @@
+{
+  "code": "CV47",
+  "name": "SOUTHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "coventry",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 380338,
+    "medianPrice": 315000,
+    "priceChange1y": -1,
+    "priceChange5y": 0,
+    "transactions12m": 1000,
+    "byType": {
+      "detached": {
+        "avg": 531121,
+        "count": 320
+      },
+      "semi": {
+        "avg": 314884,
+        "count": 340
+      },
+      "terraced": {
+        "avg": 255680,
+        "count": 225
+      },
+      "flat": {
+        "avg": 166058,
+        "count": 53
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 376286
+      },
+      {
+        "year": 2024,
+        "avg": 383909
+      },
+      {
+        "year": 2025,
+        "avg": 380189
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.6,
+      "burglary": 0.2,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.7,
+      "otherTheft": 0.6,
+      "other": 0.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 1,
+    "good": 0,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Dassett CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Lawrence CofE (Voluntary Aided) Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Priors School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Arc School Napton",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stockton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 122378,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 342,
+    "avgUpload": 62,
+    "superfastPct": 95,
+    "ultrafastPct": 86,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Rugby",
+    "bandD": 2166,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.1,
+    "imdRank": 11801,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CV47 encompasses SOUTHAM and its surrounding areas in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in CV47 is £380,338, which is 14% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in CV47 cost 32.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CV47 have fallen 1.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, CV47 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CV47 has 12 schools within or near its boundaries, including 1 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CV47 are 342.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CV47 (SOUTHAM) offers above-average property prices (£380,338, 33% above national average), low crime (94% below national average), 12 nearby schools, and excellent broadband (342 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 342
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 342
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "code": "S32",
+  "name": "HOPE VALLEY",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "sheffield",
+  "adjacent": [
+    "S33"
+  ],
+  "property": {
+    "avgPrice": 486115,
+    "medianPrice": 400000,
+    "priceChange1y": -9.3,
+    "priceChange5y": 0,
+    "transactions12m": 259,
+    "byType": {
+      "detached": {
+        "avg": 654958,
+        "count": 102
+      },
+      "semi": {
+        "avg": 396431,
+        "count": 47
+      },
+      "terraced": {
+        "avg": 327751,
+        "count": 59
+      },
+      "flat": {
+        "avg": 353332,
+        "count": 15
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 438585
+      },
+      {
+        "year": 2024,
+        "avg": 546954
+      },
+      {
+        "year": 2025,
+        "avg": 496264
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.1,
+      "other": 0.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Curbar Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Grindleford Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Eyam CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stoney Middleton CofE (C) Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hathersage St Michael's CofE (Aided) Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 71757,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 24,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 101,
+    "avgUpload": 18,
+    "superfastPct": 87,
+    "ultrafastPct": 15,
+    "gigabitPct": 15,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Derbyshire Dales",
+    "bandD": 2125,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.9,
+    "imdRank": 9811,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "S32 is the postcode district for HOPE VALLEY, located in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in S32 is £486,115, which is 111% above the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in S32 cost 69.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in S32 have fallen 9.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, S32 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "S32 has 5 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in S32 are 101.0 Mbps, with 85% of premises having access to superfast broadband and 43% with full fibre (FTTP) connectivity.",
+    "synthesis": "S32 (HOPE VALLEY) offers above-average property prices (£486,115, 69% above national average), low crime (94% below national average), 5 nearby schools, and excellent broadband (101 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 101
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 101
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

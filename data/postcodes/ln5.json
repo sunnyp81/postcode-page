@@ -1,0 +1,198 @@
+{
+  "code": "LN5",
+  "name": "LINCOLN",
+  "county": "lincolnshire",
+  "region": "east-midlands",
+  "city": "lincoln",
+  "adjacent": [
+    "LN4",
+    "LN6",
+    "LN7"
+  ],
+  "property": {
+    "avgPrice": 238592,
+    "medianPrice": 184000,
+    "priceChange1y": 1.4,
+    "priceChange5y": 0,
+    "transactions12m": 1697,
+    "byType": {
+      "detached": {
+        "avg": 342318,
+        "count": 491
+      },
+      "semi": {
+        "avg": 208949,
+        "count": 349
+      },
+      "terraced": {
+        "avg": 141548,
+        "count": 672
+      },
+      "flat": {
+        "avg": 126575,
+        "count": 104
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 259141
+      },
+      {
+        "year": 2024,
+        "avg": 225365
+      },
+      {
+        "year": 2025,
+        "avg": 228448
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 7.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -91,
+    "byType": {
+      "violentCrime": 3.1,
+      "burglary": 0,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 1.5,
+      "otherTheft": 0.6,
+      "other": 1.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Navenby Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Welbourn Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Lincoln St Peter at Gowts Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Brant Broughton Church of England and Methodist Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Lincoln Bishop King Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 105114,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 24,
+    "socialRent": 21,
+    "privateRent": 25,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 297,
+    "avgUpload": 53,
+    "superfastPct": 92,
+    "ultrafastPct": 71,
+    "gigabitPct": 71,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lincoln",
+    "bandD": 2094,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.9,
+    "imdRank": 20015,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LN5 covers LINCOLN in Lincolnshire, East Midlands.",
+    "priceVsCounty": "The average property price in LN5 is £238,592, which is 10% below the Lincolnshire average of £265,006.",
+    "priceVsNational": "Properties in LN5 cost 16.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LN5 have risen 1.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 7.3 recorded crimes per 1,000 residents, LN5 has a crime rate well 91% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LN5 has 17 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LN5 are 297.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LN5 (LINCOLN) offers affordable property prices (£238,592, 17% below national average), low crime (91% below national average), 17 nearby schools, and excellent broadband (297 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 265006,
+      "crime": 75,
+      "broadband": 297
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 297
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "code": "EN10",
+  "name": "BROXBOURNE",
+  "county": "greater-london",
+  "region": "london",
+  "city": "enfield",
+  "adjacent": [
+    "EN9",
+    "EN11"
+  ],
+  "property": {
+    "avgPrice": 517107,
+    "medianPrice": 457000,
+    "priceChange1y": 3.5,
+    "priceChange5y": 0,
+    "transactions12m": 755,
+    "byType": {
+      "detached": {
+        "avg": 918270,
+        "count": 148
+      },
+      "semi": {
+        "avg": 601520,
+        "count": 151
+      },
+      "terraced": {
+        "avg": 455280,
+        "count": 197
+      },
+      "flat": {
+        "avg": 260672,
+        "count": 239
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 510386
+      },
+      {
+        "year": 2024,
+        "avg": 511724
+      },
+      {
+        "year": 2025,
+        "avg": 529711
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 17.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -78.1,
+    "byType": {
+      "violentCrime": 6.4,
+      "burglary": 0.6,
+      "vehicleCrime": 1.7,
+      "antisocialBehaviour": 3.9,
+      "otherTheft": 2.1,
+      "other": 3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 2,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Longlands Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wormley CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Broxbourne CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "The Broxbourne School",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 101900,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 333,
+    "avgUpload": 60,
+    "superfastPct": 94,
+    "ultrafastPct": 85,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Broxbourne",
+    "bandD": 1997,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 15414,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EN10 is the postcode district for BROXBOURNE, located in Greater London, London.",
+    "priceVsCounty": "The average property price in EN10 is £517,107, which is 60% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in EN10 cost 80.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EN10 have risen 3.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 17.8 recorded crimes per 1,000 residents, EN10 has a crime rate well 78% below the national average of 81.3 per 1,000.",
+    "schoolContext": "EN10 has 4 schools within or near its boundaries, including 2 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EN10 are 333.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "EN10 (BROXBOURNE) offers above-average property prices (£517,107, 80% above national average), low crime (78% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (333 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 333
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 333
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

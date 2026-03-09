@@ -1,0 +1,198 @@
+{
+  "code": "HA7",
+  "name": "STANMORE",
+  "county": "greater-london",
+  "region": "london",
+  "city": "harrow",
+  "adjacent": [
+    "HA6",
+    "HA8",
+    "HA9"
+  ],
+  "property": {
+    "avgPrice": 661913,
+    "medianPrice": 580000,
+    "priceChange1y": -1,
+    "priceChange5y": 0,
+    "transactions12m": 980,
+    "byType": {
+      "detached": {
+        "avg": 1259405,
+        "count": 148
+      },
+      "semi": {
+        "avg": 661801,
+        "count": 308
+      },
+      "terraced": {
+        "avg": 622673,
+        "count": 94
+      },
+      "flat": {
+        "avg": 431667,
+        "count": 395
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 716007
+      },
+      {
+        "year": 2024,
+        "avg": 641469
+      },
+      {
+        "year": 2025,
+        "avg": 634957
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 44.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -44.9,
+    "byType": {
+      "violentCrime": 12.4,
+      "burglary": 4.4,
+      "vehicleCrime": 4.9,
+      "antisocialBehaviour": 9.8,
+      "otherTheft": 6.4,
+      "other": 6.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Stanburn Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stanmore College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Whitchurch Primary School & Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John's CofE School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Park High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 110212,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 17,
+    "privateRent": 15,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 309,
+    "avgUpload": 56,
+    "superfastPct": 98,
+    "ultrafastPct": 74,
+    "gigabitPct": 74,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hertsmere",
+    "bandD": 2076,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.9,
+    "imdRank": 11669,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HA7 covers STANMORE in Greater London, London.",
+    "priceVsCounty": "The average property price in HA7 is £661,913, which is 49% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in HA7 cost 130.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HA7 have fallen 1.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 44.8 recorded crimes per 1,000 residents, HA7 has a crime rate well 45% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HA7 has 9 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HA7 are 309.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HA7 (STANMORE) offers above-average property prices (£661,913, 131% above national average), low crime (45% below national average), 9 nearby schools, and excellent broadband (309 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 309
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 309
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "N18",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "N17",
+    "N19",
+    "N20"
+  ],
+  "property": {
+    "avgPrice": 494161,
+    "medianPrice": 392000,
+    "priceChange1y": -6.4,
+    "priceChange5y": 0,
+    "transactions12m": 596,
+    "byType": {
+      "detached": {
+        "avg": 525000,
+        "count": 1
+      },
+      "semi": {
+        "avg": 482560,
+        "count": 53
+      },
+      "terraced": {
+        "avg": 418066,
+        "count": 348
+      },
+      "flat": {
+        "avg": 248627,
+        "count": 158
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 663093
+      },
+      {
+        "year": 2024,
+        "avg": 424811
+      },
+      {
+        "year": 2025,
+        "avg": 397743
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 219,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 169.4,
+    "byType": {
+      "violentCrime": 65.1,
+      "burglary": 8.4,
+      "vehicleCrime": 17.5,
+      "antisocialBehaviour": 51.3,
+      "otherTheft": 31.5,
+      "other": 45.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St John and St James CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lift Aylward",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Meridian Angel Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Raynham Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wilbury Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 327434,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 17,
+    "privateRent": 27,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 349,
+    "avgUpload": 63,
+    "superfastPct": 93,
+    "ultrafastPct": 86,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Enfield",
+    "bandD": 1952,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.8,
+    "imdRank": 20418,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "N18 covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in N18 is £494,161, which is 62% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in N18 cost 72.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in N18 have fallen 6.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 219.0 recorded crimes per 1,000 residents, N18 has a crime rate significantly 169% above the national average of 81.3 per 1,000.",
+    "schoolContext": "N18 has 7 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in N18 are 349.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "N18 (LONDON) offers above-average property prices (£494,161, 72% above national average), higher-than-average crime (169% above national average), 7 nearby schools, and excellent broadband (349 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 349
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 349
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

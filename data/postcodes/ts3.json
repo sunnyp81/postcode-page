@@ -1,0 +1,198 @@
+{
+  "code": "TS3",
+  "name": "MIDDLESBROUGH",
+  "county": "teesside",
+  "region": "north-east",
+  "city": "middlesbrough",
+  "adjacent": [
+    "TS2",
+    "TS4",
+    "TS5"
+  ],
+  "property": {
+    "avgPrice": 91589,
+    "medianPrice": 78000,
+    "priceChange1y": -14.2,
+    "priceChange5y": 0,
+    "transactions12m": 1177,
+    "byType": {
+      "detached": {
+        "avg": 162627,
+        "count": 31
+      },
+      "semi": {
+        "avg": 96992,
+        "count": 429
+      },
+      "terraced": {
+        "avg": 67237,
+        "count": 648
+      },
+      "flat": {
+        "avg": 67240,
+        "count": 27
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 89210
+      },
+      {
+        "year": 2024,
+        "avg": 99001
+      },
+      {
+        "year": 2025,
+        "avg": 84992
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 205.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 152.3,
+    "byType": {
+      "violentCrime": 76.2,
+      "burglary": 8.1,
+      "vehicleCrime": 5.8,
+      "antisocialBehaviour": 26.1,
+      "otherTheft": 34,
+      "other": 55
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Berwick Hills Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Park End Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Priory Woods School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lift Unity City",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Tees Valley College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 139228,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 19,
+    "privateRent": 14,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 385,
+    "avgUpload": 69,
+    "superfastPct": 98,
+    "ultrafastPct": 96,
+    "gigabitPct": 96,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Middlesbrough Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 29.8,
+    "imdRank": 20348,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TS3 encompasses MIDDLESBROUGH and its surrounding areas in Teesside, North East.",
+    "priceVsCounty": "The average property price in TS3 is £91,589, which is 52% below the Teesside average of £189,841.",
+    "priceVsNational": "Properties in TS3 cost 68.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TS3 have fallen 14.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 205.1 recorded crimes per 1,000 residents, TS3 has a crime rate significantly 152% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TS3 has 20 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TS3 are 385.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TS3 (MIDDLESBROUGH) offers affordable property prices (£91,589, 68% below national average), higher-than-average crime (152% above national average), 20 nearby schools, and excellent broadband (385 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 189841,
+      "crime": 75,
+      "broadband": 385
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 385
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "BS32",
+  "name": "BRISTOL",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS31",
+    "BS34"
+  ],
+  "property": {
+    "avgPrice": 405341,
+    "medianPrice": 340000,
+    "priceChange1y": -1,
+    "priceChange5y": 0,
+    "transactions12m": 978,
+    "byType": {
+      "detached": {
+        "avg": 574456,
+        "count": 345
+      },
+      "semi": {
+        "avg": 329044,
+        "count": 175
+      },
+      "terraced": {
+        "avg": 294083,
+        "count": 327
+      },
+      "flat": {
+        "avg": 196383,
+        "count": 111
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 416812
+      },
+      {
+        "year": 2024,
+        "avg": 401808
+      },
+      {
+        "year": 2025,
+        "avg": 397711
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 28.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -64.7,
+    "byType": {
+      "violentCrime": 11.8,
+      "burglary": 1.3,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 4,
+      "otherTheft": 5.3,
+      "other": 5.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Almondsbury Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holy Trinity Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Tockington Manor School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bailey's Court Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 306332,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 11,
+    "privateRent": 14,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 284,
+    "avgUpload": 51,
+    "superfastPct": 94,
+    "ultrafastPct": 67,
+    "gigabitPct": 67,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9595,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS32 is the postcode district for BRISTOL, located in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS32 is £405,341, which is 10% below the Bristol average of £449,132.",
+    "priceVsNational": "Properties in BS32 cost 41.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BS32 have fallen 1.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 28.7 recorded crimes per 1,000 residents, BS32 has a crime rate well 65% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BS32 has 11 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS32 are 284.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS32 (BRISTOL) offers above-average property prices (£405,341, 41% above national average), low crime (65% below national average), 11 nearby schools, and excellent broadband (284 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 284
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 284
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "PE27",
+  "name": "ST IVES",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "peterborough",
+  "adjacent": [
+    "PE26",
+    "PE28",
+    "PE29"
+  ],
+  "property": {
+    "avgPrice": 361047,
+    "medianPrice": 310000,
+    "priceChange1y": -14.7,
+    "priceChange5y": 0,
+    "transactions12m": 936,
+    "byType": {
+      "detached": {
+        "avg": 455121,
+        "count": 271
+      },
+      "semi": {
+        "avg": 315224,
+        "count": 235
+      },
+      "terraced": {
+        "avg": 256401,
+        "count": 266
+      },
+      "flat": {
+        "avg": 192417,
+        "count": 118
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 360246
+      },
+      {
+        "year": 2024,
+        "avg": 387313
+      },
+      {
+        "year": 2025,
+        "avg": 330272
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 32.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -59.5,
+    "byType": {
+      "violentCrime": 11.6,
+      "burglary": 0.8,
+      "vehicleCrime": 1.4,
+      "antisocialBehaviour": 5.9,
+      "otherTheft": 7.1,
+      "other": 6.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Westfield Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eastfield Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Holywell CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wheatfields Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Thorndown Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 190619,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 366,
+    "avgUpload": 66,
+    "superfastPct": 98,
+    "ultrafastPct": 91,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Huntingdonshire",
+    "bandD": 2192,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.6,
+    "imdRank": 10465,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PE27 encompasses ST IVES and its surrounding areas in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in PE27 is £361,047, which is 6% below the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in PE27 cost 25.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PE27 have fallen 14.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 32.9 recorded crimes per 1,000 residents, PE27 has a crime rate well 60% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PE27 has 7 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PE27 are 366.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PE27 (ST IVES) offers above-average property prices (£361,047, 26% above national average), low crime (60% below national average), 7 nearby schools, and excellent broadband (366 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 366
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 366
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

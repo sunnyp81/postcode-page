@@ -1,0 +1,170 @@
+{
+  "code": "EC2M",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 6667904,
+    "medianPrice": 2000000,
+    "priceChange1y": 1386.8,
+    "priceChange5y": 0,
+    "transactions12m": 17,
+    "byType": {
+      "detached": {
+        "avg": 12669018,
+        "count": 0
+      },
+      "semi": {
+        "avg": 8001485,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 6667904,
+        "count": 0
+      },
+      "flat": {
+        "avg": 1668000,
+        "count": 3
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 610000
+      },
+      {
+        "year": 2024,
+        "avg": 9069198
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 114.3,
+      "burglary": 26.2,
+      "vehicleCrime": 14.5,
+      "antisocialBehaviour": 77.1,
+      "otherTheft": 263.4,
+      "other": 82.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Fashion Retail Academy",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 266758,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 15,
+    "socialRent": 41,
+    "privateRent": 30,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 48,
+    "avgUpload": 9,
+    "superfastPct": 11,
+    "ultrafastPct": 9,
+    "gigabitPct": 9,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hackney",
+    "bandD": 1773,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 32.5,
+    "imdRank": 25312,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EC2M encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in EC2M is £6,667,904, which is 410% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in EC2M cost 2223.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EC2M have risen 1386.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, EC2M has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "EC2M has 1 school within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EC2M are 48.0 Mbps, with 77% of premises having access to superfast broadband and 28% with full fibre (FTTP) connectivity.",
+    "synthesis": "EC2M (LONDON) offers above-average property prices (£6,667,904, 2223% above national average), higher-than-average crime (269% above national average), and 1 nearby school."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 48
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 48
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

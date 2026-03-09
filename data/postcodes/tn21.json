@@ -1,0 +1,198 @@
+{
+  "code": "TN21",
+  "name": "HEATHFIELD",
+  "county": "kent",
+  "region": "south-east",
+  "city": "tunbridge-wells",
+  "adjacent": [
+    "TN20",
+    "TN22",
+    "TN23"
+  ],
+  "property": {
+    "avgPrice": 441525,
+    "medianPrice": 380000,
+    "priceChange1y": -5.4,
+    "priceChange5y": 0,
+    "transactions12m": 792,
+    "byType": {
+      "detached": {
+        "avg": 592488,
+        "count": 310
+      },
+      "semi": {
+        "avg": 374795,
+        "count": 224
+      },
+      "terraced": {
+        "avg": 318809,
+        "count": 93
+      },
+      "flat": {
+        "avg": 178247,
+        "count": 123
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 431936
+      },
+      {
+        "year": 2024,
+        "avg": 456664
+      },
+      {
+        "year": 2025,
+        "avg": 432225
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.4,
+    "byType": {
+      "violentCrime": 2.4,
+      "burglary": 0.3,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 1,
+      "otherTheft": 0.4,
+      "other": 1.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Maynards Green Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Punnetts Town Community Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Parkside Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cross-in-Hand Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Dallington Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 166908,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 8,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 249,
+    "avgUpload": 45,
+    "superfastPct": 95,
+    "ultrafastPct": 57,
+    "gigabitPct": 57,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wealden",
+    "bandD": 2363,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.3,
+    "imdRank": 10272,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TN21 covers HEATHFIELD in Kent, South East.",
+    "priceVsCounty": "The average property price in TN21 is £441,525, broadly in line with the Kent average of £450,882.",
+    "priceVsNational": "Properties in TN21 cost 53.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TN21 have fallen 5.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.4 recorded crimes per 1,000 residents, TN21 has a crime rate well 93% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TN21 has 8 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TN21 are 249.0 Mbps, with 99% of premises having access to superfast broadband and 83% with full fibre (FTTP) connectivity.",
+    "synthesis": "TN21 (HEATHFIELD) offers above-average property prices (£441,525, 54% above national average), low crime (93% below national average), 8 nearby schools, and excellent broadband (249 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 249
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 249
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

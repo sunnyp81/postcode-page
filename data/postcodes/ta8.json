@@ -1,0 +1,192 @@
+{
+  "code": "TA8",
+  "name": "BURNHAM-ON-SEA",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "taunton",
+  "adjacent": [
+    "TA7",
+    "TA9",
+    "TA10"
+  ],
+  "property": {
+    "avgPrice": 306236,
+    "medianPrice": 270500,
+    "priceChange1y": -1.2,
+    "priceChange5y": 0,
+    "transactions12m": 970,
+    "byType": {
+      "detached": {
+        "avg": 381987,
+        "count": 322
+      },
+      "semi": {
+        "avg": 282152,
+        "count": 292
+      },
+      "terraced": {
+        "avg": 223615,
+        "count": 189
+      },
+      "flat": {
+        "avg": 141994,
+        "count": 140
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 336423
+      },
+      {
+        "year": 2024,
+        "avg": 294189
+      },
+      {
+        "year": 2025,
+        "avg": 290661
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 21.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -73.1,
+    "byType": {
+      "violentCrime": 8.4,
+      "burglary": 0.6,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 4.1,
+      "otherTheft": 3.7,
+      "other": 4.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "St Joseph's Catholic Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Berrow Primary Church Academy",
+        "type": "Primary",
+        "ofsted": "Inadequate"
+      },
+      {
+        "name": "Burnham-On-Sea Infant School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "St Andrew's Church Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 26693,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 328,
+    "avgUpload": 59,
+    "superfastPct": 97,
+    "ultrafastPct": 81,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Taunton Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TA8 is the postcode district for BURNHAM-ON-SEA, located in Somerset, South West.",
+    "priceVsCounty": "The average property price in TA8 is £306,236, which is 18% below the Somerset average of £373,759.",
+    "priceVsNational": "Properties in TA8 cost 6.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TA8 have fallen 1.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 21.9 recorded crimes per 1,000 residents, TA8 has a crime rate well 73% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TA8 has 4 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TA8 are 328.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TA8 (BURNHAM-ON-SEA) offers property prices near the national average (£306,236), low crime (73% below national average), 4 nearby schools, and excellent broadband (328 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 328
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 328
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

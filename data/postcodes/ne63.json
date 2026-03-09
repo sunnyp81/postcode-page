@@ -1,0 +1,198 @@
+{
+  "code": "NE63",
+  "name": "ASHINGTON",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "newcastle-upon-tyne",
+  "adjacent": [
+    "NE62",
+    "NE64",
+    "NE65"
+  ],
+  "property": {
+    "avgPrice": 163236,
+    "medianPrice": 123000,
+    "priceChange1y": 7.8,
+    "priceChange5y": 0,
+    "transactions12m": 1641,
+    "byType": {
+      "detached": {
+        "avg": 253584,
+        "count": 347
+      },
+      "semi": {
+        "avg": 153989,
+        "count": 293
+      },
+      "terraced": {
+        "avg": 90446,
+        "count": 834
+      },
+      "flat": {
+        "avg": 73798,
+        "count": 93
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 215196
+      },
+      {
+        "year": 2024,
+        "avg": 133949
+      },
+      {
+        "year": 2025,
+        "avg": 144363
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 96.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 18.6,
+    "byType": {
+      "violentCrime": 35.2,
+      "burglary": 3.7,
+      "vehicleCrime": 4,
+      "antisocialBehaviour": 14.8,
+      "otherTheft": 14.2,
+      "other": 24.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "NCEA Duke's Secondary School",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Gust Independent School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ashington Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "NCEA Bishop's Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "NCEA Castle School",
+        "type": "Other",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 331420,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 18,
+    "privateRent": 14,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 382,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 95,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newcastle Upon Tyne Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.1,
+    "imdRank": 16778,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NE63 covers ASHINGTON in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in NE63 is £163,236, which is 38% below the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in NE63 cost 43.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NE63 have risen 7.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 96.4 recorded crimes per 1,000 residents, NE63 has a crime rate 19% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NE63 has 10 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NE63 are 382.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NE63 (ASHINGTON) offers affordable property prices (£163,236, 43% below national average), higher-than-average crime (19% above national average), 10 nearby schools, and excellent broadband (382 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 382
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 382
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

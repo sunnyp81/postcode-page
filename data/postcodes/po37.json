@@ -1,0 +1,183 @@
+{
+  "code": "PO37",
+  "name": "SHANKLIN",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "portsmouth",
+  "adjacent": [
+    "PO36",
+    "PO38",
+    "PO39"
+  ],
+  "property": {
+    "avgPrice": 292638,
+    "medianPrice": 250000,
+    "priceChange1y": -7.2,
+    "priceChange5y": 0,
+    "transactions12m": 492,
+    "byType": {
+      "detached": {
+        "avg": 399126,
+        "count": 143
+      },
+      "semi": {
+        "avg": 301114,
+        "count": 101
+      },
+      "terraced": {
+        "avg": 227371,
+        "count": 31
+      },
+      "flat": {
+        "avg": 165823,
+        "count": 144
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 279377
+      },
+      {
+        "year": 2024,
+        "avg": 308172
+      },
+      {
+        "year": 2025,
+        "avg": 286063
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 21.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -73.3,
+    "byType": {
+      "violentCrime": 10.8,
+      "burglary": 0.6,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 1.9,
+      "otherTheft": 2.4,
+      "other": 5.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Gatten and Lake Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Blasius Shanklin CofE Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 141660,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 23,
+    "socialRent": 11,
+    "privateRent": 18,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 322,
+    "avgUpload": 58,
+    "superfastPct": 95,
+    "ultrafastPct": 78,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Portsmouth Council",
+    "bandD": 2372,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.3,
+    "imdRank": 19454,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PO37 is the postcode district for SHANKLIN, located in Hampshire, South East.",
+    "priceVsCounty": "The average property price in PO37 is £292,638, which is 32% below the Hampshire average of £431,529.",
+    "priceVsNational": "Property values in PO37 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in PO37 have fallen 7.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 21.7 recorded crimes per 1,000 residents, PO37 has a crime rate well 73% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PO37 has 2 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PO37 are 322.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PO37 (SHANKLIN) offers property prices near the national average (£292,638), low crime (73% below national average), 2 nearby schools, and excellent broadband (322 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 322
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 322
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

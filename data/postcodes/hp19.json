@@ -1,0 +1,197 @@
+{
+  "code": "HP19",
+  "name": "AYLESBURY",
+  "county": "hertfordshire",
+  "region": "south-east",
+  "city": "hemel-hempstead",
+  "adjacent": [
+    "HP18",
+    "HP20",
+    "HP21"
+  ],
+  "property": {
+    "avgPrice": 336291,
+    "medianPrice": 300000,
+    "priceChange1y": -17,
+    "priceChange5y": 0,
+    "transactions12m": 1179,
+    "byType": {
+      "detached": {
+        "avg": 471858,
+        "count": 126
+      },
+      "semi": {
+        "avg": 333487,
+        "count": 288
+      },
+      "terraced": {
+        "avg": 304559,
+        "count": 445
+      },
+      "flat": {
+        "avg": 180219,
+        "count": 284
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 309990
+      },
+      {
+        "year": 2024,
+        "avg": 379912
+      },
+      {
+        "year": 2025,
+        "avg": 315263
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 110.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 36.3,
+    "byType": {
+      "violentCrime": 43.4,
+      "burglary": 1.8,
+      "vehicleCrime": 4.7,
+      "antisocialBehaviour": 10.6,
+      "otherTheft": 24.8,
+      "other": 25.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Haydon Abbey School and Pre-School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Thomas Hickman School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Pace Centre",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Buckinghamshire Primary Pupil Referral Unit",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Buckingham Park Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 40,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 65,
+    "socialRent": 13,
+    "privateRent": 22,
+    "economicallyActive": 76,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 359,
+    "avgUpload": 65,
+    "superfastPct": 99,
+    "ultrafastPct": 91,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hemel Hempstead Council",
+    "bandD": 2236,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "HP19 covers AYLESBURY in Hertfordshire, South East.",
+    "priceVsCounty": "The average property price in HP19 is £336,291, which is 41% below the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in HP19 cost 17.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HP19 have fallen 17.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 110.8 recorded crimes per 1,000 residents, HP19 has a crime rate significantly 36% above the national average of 81.3 per 1,000.",
+    "schoolContext": "HP19 has 7 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HP19 are 359.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HP19 (AYLESBURY) offers property prices near the national average (£336,291), higher-than-average crime (36% above national average), 7 nearby schools, and excellent broadband (359 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 359
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 359
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

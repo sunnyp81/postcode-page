@@ -1,0 +1,187 @@
+{
+  "code": "S1",
+  "name": "SHEFFIELD",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "sheffield",
+  "adjacent": [
+    "S2",
+    "S3"
+  ],
+  "property": {
+    "avgPrice": 353198,
+    "medianPrice": 152995,
+    "priceChange1y": -54.3,
+    "priceChange5y": 0,
+    "transactions12m": 616,
+    "byType": {
+      "detached": {
+        "avg": 671076,
+        "count": 0
+      },
+      "semi": {
+        "avg": 663000,
+        "count": 1
+      },
+      "terraced": {
+        "avg": 299563,
+        "count": 16
+      },
+      "flat": {
+        "avg": 143996,
+        "count": 519
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 268940
+      },
+      {
+        "year": 2024,
+        "avg": 453002
+      },
+      {
+        "year": 2025,
+        "avg": 206990
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 116.5,
+      "burglary": 11.5,
+      "vehicleCrime": 22,
+      "antisocialBehaviour": 61.5,
+      "otherTheft": 89.6,
+      "other": 89
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Freeman College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sheffield Hallam University",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "UTC Sheffield City Centre",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 582493,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 23,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 250,
+    "avgUpload": 45,
+    "superfastPct": 63,
+    "ultrafastPct": 62,
+    "gigabitPct": 61,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Sheffield",
+    "bandD": 2166,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.1,
+    "imdRank": 18742,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "S1 covers SHEFFIELD in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in S1 is £353,198, which is 53% above the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in S1 cost 23.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in S1 have fallen 54.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, S1 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "S1 has 3 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in S1 are 250.0 Mbps, with 99% of premises having access to superfast broadband and 84% with full fibre (FTTP) connectivity.",
+    "synthesis": "S1 (SHEFFIELD) offers above-average property prices (£353,198, 23% above national average), higher-than-average crime (269% above national average), 3 nearby schools, and excellent broadband (250 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 250
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 250
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

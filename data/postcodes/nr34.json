@@ -1,0 +1,197 @@
+{
+  "code": "NR34",
+  "name": "BECCLES",
+  "county": "norfolk",
+  "region": "east-of-england",
+  "city": "norwich",
+  "adjacent": [
+    "NR33",
+    "NR35"
+  ],
+  "property": {
+    "avgPrice": 318934,
+    "medianPrice": 275950,
+    "priceChange1y": -1,
+    "priceChange5y": 0,
+    "transactions12m": 1047,
+    "byType": {
+      "detached": {
+        "avg": 405875,
+        "count": 397
+      },
+      "semi": {
+        "avg": 273504,
+        "count": 275
+      },
+      "terraced": {
+        "avg": 220185,
+        "count": 257
+      },
+      "flat": {
+        "avg": 220661,
+        "count": 65
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 326058
+      },
+      {
+        "year": 2024,
+        "avg": 316920
+      },
+      {
+        "year": 2025,
+        "avg": 313736
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 6.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -92.1,
+    "byType": {
+      "violentCrime": 3.5,
+      "burglary": 0.4,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.5,
+      "otherTheft": 0.8,
+      "other": 1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Worlingham Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Old School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sir John Leman High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beccles High School",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Gillingham St Michael's Church of England Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 20486,
+    "medianAge": 41,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 13,
+    "privateRent": 21,
+    "economicallyActive": 76,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 185,
+    "avgUpload": 33,
+    "superfastPct": 89,
+    "ultrafastPct": 39,
+    "gigabitPct": 39,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Suffolk",
+    "bandD": 2019,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.6,
+    "imdRank": 15274,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NR34 encompasses BECCLES and its surrounding areas in Norfolk, East Of England.",
+    "priceVsCounty": "The average property price in NR34 is £318,934, which is 10% below the Norfolk average of £352,657.",
+    "priceVsNational": "Properties in NR34 cost 11.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NR34 have fallen 1.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 6.4 recorded crimes per 1,000 residents, NR34 has a crime rate well 92% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NR34 has 14 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NR34 are 185.0 Mbps, with 98% of premises having access to superfast broadband and 66% with full fibre (FTTP) connectivity.",
+    "synthesis": "NR34 (BECCLES) offers property prices near the national average (£318,934), low crime (92% below national average), 14 nearby schools, and excellent broadband (185 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 352657,
+      "crime": 75,
+      "broadband": 185
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 185
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "TF2",
+  "name": "TELFORD",
+  "county": "shropshire",
+  "region": "west-midlands",
+  "city": "telford",
+  "adjacent": [
+    "TF1",
+    "TF3",
+    "TF4"
+  ],
+  "property": {
+    "avgPrice": 246982,
+    "medianPrice": 221000,
+    "priceChange1y": -5.6,
+    "priceChange5y": 0,
+    "transactions12m": 1981,
+    "byType": {
+      "detached": {
+        "avg": 345367,
+        "count": 711
+      },
+      "semi": {
+        "avg": 197857,
+        "count": 794
+      },
+      "terraced": {
+        "avg": 171200,
+        "count": 362
+      },
+      "flat": {
+        "avg": 118143,
+        "count": 51
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 246976
+      },
+      {
+        "year": 2024,
+        "avg": 252758
+      },
+      {
+        "year": 2025,
+        "avg": 238723
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 54.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -33.5,
+    "byType": {
+      "violentCrime": 21.4,
+      "burglary": 1.4,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 9.8,
+      "otherTheft": 9.3,
+      "other": 11.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 4,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Oakengates Nursery School",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Donnington Wood Infant School and Nursery Centre",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wombridge Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wrockwardine Wood Infant School and Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Teagues Bridge Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 332455,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 337,
+    "avgUpload": 61,
+    "superfastPct": 98,
+    "ultrafastPct": 85,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Telford Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.2,
+    "imdRank": 14862,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TF2 covers TELFORD in Shropshire, West Midlands.",
+    "priceVsCounty": "The average property price in TF2 is £246,982, which is 17% below the Shropshire average of £296,045.",
+    "priceVsNational": "Properties in TF2 cost 13.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TF2 have fallen 5.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 54.1 recorded crimes per 1,000 residents, TF2 has a crime rate well 33% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TF2 has 19 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TF2 are 337.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TF2 (TELFORD) offers property prices near the national average (£246,982), low crime (33% below national average), 19 nearby schools, and excellent broadband (337 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 296045,
+      "crime": 75,
+      "broadband": 337
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 337
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

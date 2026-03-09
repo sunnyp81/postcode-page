@@ -1,0 +1,198 @@
+{
+  "code": "LE2",
+  "name": "LEICESTER",
+  "county": "leicestershire",
+  "region": "east-midlands",
+  "city": "leicester",
+  "adjacent": [
+    "LE1",
+    "LE3",
+    "LE4"
+  ],
+  "property": {
+    "avgPrice": 324990,
+    "medianPrice": 250000,
+    "priceChange1y": 2.1,
+    "priceChange5y": 0,
+    "transactions12m": 3708,
+    "byType": {
+      "detached": {
+        "avg": 489495,
+        "count": 759
+      },
+      "semi": {
+        "avg": 282978,
+        "count": 1233
+      },
+      "terraced": {
+        "avg": 227757,
+        "count": 1182
+      },
+      "flat": {
+        "avg": 147024,
+        "count": 397
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 366217
+      },
+      {
+        "year": 2024,
+        "avg": 299748
+      },
+      {
+        "year": 2025,
+        "avg": 306052
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 100.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 23.1,
+    "byType": {
+      "violentCrime": 36.9,
+      "burglary": 3.9,
+      "vehicleCrime": 4.9,
+      "antisocialBehaviour": 10.9,
+      "otherTheft": 14.2,
+      "other": 29.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 43,
+    "outstanding": 2,
+    "good": 13,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Granby Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Montrose School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eyres Monsell Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hazel Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Marriott Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 388348,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 22,
+    "socialRent": 23,
+    "privateRent": 27,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 386,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 96,
+    "gigabitPct": 96,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Leicester Council",
+    "bandD": 2251,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 30.9,
+    "imdRank": 22857,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LE2 covers LEICESTER in Leicestershire, East Midlands.",
+    "priceVsCounty": "The average property price in LE2 is £324,990, which is 7% below the Leicestershire average of £348,118.",
+    "priceVsNational": "Properties in LE2 cost 13.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LE2 have risen 2.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 100.1 recorded crimes per 1,000 residents, LE2 has a crime rate significantly 23% above the national average of 81.3 per 1,000.",
+    "schoolContext": "LE2 has 43 schools within or near its boundaries, including 2 rated Outstanding and 13 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LE2 are 386.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LE2 (LEICESTER) offers property prices near the national average (£324,990), higher-than-average crime (23% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (386 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 348118,
+      "crime": 75,
+      "broadband": 386
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 386
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

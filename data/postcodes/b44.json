@@ -1,0 +1,198 @@
+{
+  "code": "B44",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B43",
+    "B45",
+    "B46"
+  ],
+  "property": {
+    "avgPrice": 204556,
+    "medianPrice": 195000,
+    "priceChange1y": 6,
+    "priceChange5y": 0,
+    "transactions12m": 1384,
+    "byType": {
+      "detached": {
+        "avg": 237020,
+        "count": 25
+      },
+      "semi": {
+        "avg": 209467,
+        "count": 734
+      },
+      "terraced": {
+        "avg": 188398,
+        "count": 532
+      },
+      "flat": {
+        "avg": 109461,
+        "count": 52
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 207237
+      },
+      {
+        "year": 2024,
+        "avg": 197819
+      },
+      {
+        "year": 2025,
+        "avg": 209664
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 107.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 32.3,
+    "byType": {
+      "violentCrime": 55.2,
+      "burglary": 4.5,
+      "vehicleCrime": 7.5,
+      "antisocialBehaviour": 6.9,
+      "otherTheft": 11.2,
+      "other": 22.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 1,
+    "good": 8,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Goodway Nursery School",
+        "type": "Nursery",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Hawthorn Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Kingsland Primary School (NC)",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Sundridge Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Glenmead Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 390,
+    "avgUpload": 70,
+    "superfastPct": 99,
+    "ultrafastPct": 98,
+    "gigabitPct": 97,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B44 encompasses BIRMINGHAM and its surrounding areas in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B44 is £204,556, which is 39% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B44 cost 28.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B44 have risen 6.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 107.6 recorded crimes per 1,000 residents, B44 has a crime rate significantly 32% above the national average of 81.3 per 1,000.",
+    "schoolContext": "B44 has 16 schools within or near its boundaries, including 1 rated Outstanding and 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B44 are 390.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B44 (BIRMINGHAM) offers affordable property prices (£204,556, 29% below national average), higher-than-average crime (32% above national average), 16 nearby schools, and excellent broadband (390 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 390
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 390
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

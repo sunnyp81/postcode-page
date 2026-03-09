@@ -1,0 +1,198 @@
+{
+  "code": "DE13",
+  "name": "BURTON-ON-TRENT",
+  "county": "derbyshire",
+  "region": "east-midlands",
+  "city": "derby",
+  "adjacent": [
+    "DE12",
+    "DE14",
+    "DE15"
+  ],
+  "property": {
+    "avgPrice": 330581,
+    "medianPrice": 280000,
+    "priceChange1y": 7.4,
+    "priceChange5y": 0,
+    "transactions12m": 2282,
+    "byType": {
+      "detached": {
+        "avg": 433377,
+        "count": 1005
+      },
+      "semi": {
+        "avg": 246257,
+        "count": 725
+      },
+      "terraced": {
+        "avg": 202158,
+        "count": 420
+      },
+      "flat": {
+        "avg": 141526,
+        "count": 56
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 312574
+      },
+      {
+        "year": 2024,
+        "avg": 329473
+      },
+      {
+        "year": 2025,
+        "avg": 353766
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.9,
+      "burglary": 0.1,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.4,
+      "otherTheft": 0.1,
+      "other": 0.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 23,
+    "outstanding": 0,
+    "good": 9,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Thomas Russell Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Modwen's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Options Trent Acres School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "John Taylor High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The de Ferrers Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 111932,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 13,
+    "privateRent": 11,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 178,
+    "avgUpload": 32,
+    "superfastPct": 91,
+    "ultrafastPct": 39,
+    "gigabitPct": 36,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lichfield",
+    "bandD": 2058,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.6,
+    "imdRank": 10387,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DE13 covers BURTON-ON-TRENT in Derbyshire, East Midlands.",
+    "priceVsCounty": "The average property price in DE13 is £330,581, which is 14% above the Derbyshire average of £289,862.",
+    "priceVsNational": "Properties in DE13 cost 15.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DE13 have risen 7.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, DE13 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DE13 has 23 schools within or near its boundaries, including 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DE13 are 178.0 Mbps, with 97% of premises having access to superfast broadband and 64% with full fibre (FTTP) connectivity.",
+    "synthesis": "DE13 (BURTON-ON-TRENT) offers property prices near the national average (£330,581), low crime (94% below national average), 23 nearby schools, and excellent broadband (178 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 289862,
+      "crime": 75,
+      "broadband": 178
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 178
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

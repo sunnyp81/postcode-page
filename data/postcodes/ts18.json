@@ -1,0 +1,198 @@
+{
+  "code": "TS18",
+  "name": "STOCKTON-ON-TEES",
+  "county": "teesside",
+  "region": "north-east",
+  "city": "middlesbrough",
+  "adjacent": [
+    "TS17",
+    "TS19",
+    "TS20"
+  ],
+  "property": {
+    "avgPrice": 173692,
+    "medianPrice": 147750,
+    "priceChange1y": -9.7,
+    "priceChange5y": 0,
+    "transactions12m": 1330,
+    "byType": {
+      "detached": {
+        "avg": 273702,
+        "count": 187
+      },
+      "semi": {
+        "avg": 180710,
+        "count": 454
+      },
+      "terraced": {
+        "avg": 98997,
+        "count": 526
+      },
+      "flat": {
+        "avg": 83242,
+        "count": 54
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 167804
+      },
+      {
+        "year": 2024,
+        "avg": 185219
+      },
+      {
+        "year": 2025,
+        "avg": 167251
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 190.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 133.8,
+    "byType": {
+      "violentCrime": 66.6,
+      "burglary": 7.8,
+      "vehicleCrime": 9.3,
+      "antisocialBehaviour": 33.3,
+      "otherTheft": 26.1,
+      "other": 47.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Mill Lane Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bowesfield Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Grangefield Academy",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Hartburn Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hartwell School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 206800,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 16,
+    "privateRent": 15,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 337,
+    "avgUpload": 61,
+    "superfastPct": 89,
+    "ultrafastPct": 83,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Middlesbrough Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.8,
+    "imdRank": 17541,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TS18 encompasses STOCKTON-ON-TEES and its surrounding areas in Teesside, North East.",
+    "priceVsCounty": "The average property price in TS18 is £173,692, which is 9% below the Teesside average of £189,841.",
+    "priceVsNational": "Properties in TS18 cost 39.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TS18 have fallen 9.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 190.1 recorded crimes per 1,000 residents, TS18 has a crime rate significantly 134% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TS18 has 8 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TS18 are 337.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TS18 (STOCKTON-ON-TEES) offers affordable property prices (£173,692, 39% below national average), higher-than-average crime (134% above national average), 8 nearby schools, and excellent broadband (337 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 189841,
+      "crime": 75,
+      "broadband": 337
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 337
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

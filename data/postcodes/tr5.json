@@ -1,0 +1,183 @@
+{
+  "code": "TR5",
+  "name": "ST AGNES",
+  "county": "cornwall",
+  "region": "south-west",
+  "city": "truro",
+  "adjacent": [
+    "TR4",
+    "TR6",
+    "TR7"
+  ],
+  "property": {
+    "avgPrice": 534158,
+    "medianPrice": 450000,
+    "priceChange1y": -11.4,
+    "priceChange5y": 0,
+    "transactions12m": 207,
+    "byType": {
+      "detached": {
+        "avg": 670159,
+        "count": 107
+      },
+      "semi": {
+        "avg": 430956,
+        "count": 27
+      },
+      "terraced": {
+        "avg": 313826,
+        "count": 47
+      },
+      "flat": {
+        "avg": 327500,
+        "count": 2
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 547555
+      },
+      {
+        "year": 2024,
+        "avg": 559515
+      },
+      {
+        "year": 2025,
+        "avg": 495807
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.7,
+      "burglary": 0,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.4,
+      "other": 0.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 1,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Agnes Academy",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Mithian School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 583289,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 254,
+    "avgUpload": 46,
+    "superfastPct": 90,
+    "ultrafastPct": 59,
+    "gigabitPct": 59,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Truro Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.1,
+    "imdRank": 19382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TR5 covers ST AGNES in Cornwall, South West.",
+    "priceVsCounty": "The average property price in TR5 is £534,158, which is 33% above the Cornwall average of £402,222.",
+    "priceVsNational": "Properties in TR5 cost 86.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TR5 have fallen 11.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TR5 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TR5 has 2 schools within or near its boundaries, including 1 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TR5 are 254.0 Mbps, with 99% of premises having access to superfast broadband and 85% with full fibre (FTTP) connectivity.",
+    "synthesis": "TR5 (ST AGNES) offers above-average property prices (£534,158, 86% above national average), low crime (94% below national average), 2 nearby schools, and excellent broadband (254 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 402222,
+      "crime": 75,
+      "broadband": 254
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 254
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

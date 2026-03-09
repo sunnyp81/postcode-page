@@ -1,0 +1,197 @@
+{
+  "code": "LL29",
+  "name": "COLWYN BAY",
+  "county": "north-wales",
+  "region": "wales",
+  "city": "north-wales",
+  "adjacent": [
+    "LL28",
+    "LL30",
+    "LL31"
+  ],
+  "property": {
+    "avgPrice": 236800,
+    "medianPrice": 190000,
+    "priceChange1y": 5.4,
+    "priceChange5y": 0,
+    "transactions12m": 1010,
+    "byType": {
+      "detached": {
+        "avg": 348595,
+        "count": 268
+      },
+      "semi": {
+        "avg": 209356,
+        "count": 309
+      },
+      "terraced": {
+        "avg": 155029,
+        "count": 194
+      },
+      "flat": {
+        "avg": 100414,
+        "count": 174
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 214710
+      },
+      {
+        "year": 2024,
+        "avg": 242484
+      },
+      {
+        "year": 2025,
+        "avg": 255513
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 58.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -28.5,
+    "byType": {
+      "violentCrime": 24.2,
+      "burglary": 1.3,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 12,
+      "otherTheft": 8,
+      "other": 12.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ysgol T. Gwynn Jones",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Bod Alaw",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Gynradd Cynfran",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Old Colwyn Junior C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Joseph's R.C. Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 114891,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 365,
+    "avgUpload": 66,
+    "superfastPct": 98,
+    "ultrafastPct": 90,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Wales Council",
+    "bandD": 2304,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LL29 is the postcode district for COLWYN BAY, located in North Wales, Wales.",
+    "priceVsCounty": "The average property price in LL29 is £236,800, which is 13% below the North Wales average of £271,879.",
+    "priceVsNational": "Properties in LL29 cost 17.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LL29 have risen 5.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 58.1 recorded crimes per 1,000 residents, LL29 has a crime rate well 29% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LL29 has 13 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LL29 are 365.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LL29 (COLWYN BAY) offers affordable property prices (£236,800, 17% below national average), low crime (29% below national average), 13 nearby schools, and excellent broadband (365 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 271879,
+      "crime": 75,
+      "broadband": 365
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 365
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

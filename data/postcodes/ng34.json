@@ -1,0 +1,196 @@
+{
+  "code": "NG34",
+  "name": "SLEAFORD",
+  "county": "nottinghamshire",
+  "region": "east-midlands",
+  "city": "nottingham",
+  "adjacent": [
+    "NG33"
+  ],
+  "property": {
+    "avgPrice": 262817,
+    "medianPrice": 220000,
+    "priceChange1y": -7.7,
+    "priceChange5y": 0,
+    "transactions12m": 2157,
+    "byType": {
+      "detached": {
+        "avg": 321200,
+        "count": 967
+      },
+      "semi": {
+        "avg": 199471,
+        "count": 701
+      },
+      "terraced": {
+        "avg": 159049,
+        "count": 349
+      },
+      "flat": {
+        "avg": 101544,
+        "count": 57
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 258291
+      },
+      {
+        "year": 2024,
+        "avg": 275046
+      },
+      {
+        "year": 2025,
+        "avg": 253913
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 15.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -80.8,
+    "byType": {
+      "violentCrime": 5.9,
+      "burglary": 0.4,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 3.5,
+      "otherTheft": 2.8,
+      "other": 2.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 23,
+    "outstanding": 0,
+    "good": 10,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Church Lane Primary School & Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Winchelsea Primary School Ruskington",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Heckington St Andrew's Church of England School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Leasingham St Andrew's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The St Gilbert of Sempringham Church of England Primary School, Pointon",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 147151,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 300,
+    "avgUpload": 54,
+    "superfastPct": 91,
+    "ultrafastPct": 73,
+    "gigabitPct": 72,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Kesteven",
+    "bandD": 2015,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.5,
+    "imdRank": 11133,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NG34 covers SLEAFORD in Nottinghamshire, East Midlands.",
+    "priceVsCounty": "The average property price in NG34 is £262,817, which is 61% below the Nottinghamshire average of £678,596.",
+    "priceVsNational": "Properties in NG34 cost 8.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NG34 have fallen 7.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 15.6 recorded crimes per 1,000 residents, NG34 has a crime rate well 81% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NG34 has 23 schools within or near its boundaries, including 10 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NG34 are 300.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NG34 (SLEAFORD) offers property prices near the national average (£262,817), low crime (81% below national average), 23 nearby schools, and excellent broadband (300 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 678596,
+      "crime": 75,
+      "broadband": 300
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 300
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

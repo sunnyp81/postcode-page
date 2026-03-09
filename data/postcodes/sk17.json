@@ -1,0 +1,196 @@
+{
+  "code": "SK17",
+  "name": "BUXTON",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "stockport",
+  "adjacent": [
+    "SK16"
+  ],
+  "property": {
+    "avgPrice": 291589,
+    "medianPrice": 255000,
+    "priceChange1y": -3.2,
+    "priceChange5y": 0,
+    "transactions12m": 1697,
+    "byType": {
+      "detached": {
+        "avg": 437386,
+        "count": 364
+      },
+      "semi": {
+        "avg": 269969,
+        "count": 514
+      },
+      "terraced": {
+        "avg": 228992,
+        "count": 410
+      },
+      "flat": {
+        "avg": 190140,
+        "count": 316
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 289826
+      },
+      {
+        "year": 2024,
+        "avg": 296731
+      },
+      {
+        "year": 2025,
+        "avg": 287161
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 8.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -89.7,
+    "byType": {
+      "violentCrime": 3.9,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 1.2,
+      "otherTheft": 1.2,
+      "other": 1.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 27,
+    "outstanding": 0,
+    "good": 9,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Flagg Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Buxton Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Buxton Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Harpur Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Peak Dale Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 91959,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 12,
+    "privateRent": 14,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 201,
+    "avgUpload": 36,
+    "superfastPct": 82,
+    "ultrafastPct": 49,
+    "gigabitPct": 43,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "High Peak",
+    "bandD": 2067,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.6,
+    "imdRank": 12758,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SK17 is the postcode district for BUXTON, located in Cheshire, North West.",
+    "priceVsCounty": "The average property price in SK17 is £291,589, which is 6% below the Cheshire average of £311,410.",
+    "priceVsNational": "Property values in SK17 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in SK17 have fallen 3.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 8.4 recorded crimes per 1,000 residents, SK17 has a crime rate well 90% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SK17 has 27 schools within or near its boundaries, including 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SK17 are 201.0 Mbps, with 99% of premises having access to superfast broadband and 70% with full fibre (FTTP) connectivity.",
+    "synthesis": "SK17 (BUXTON) offers property prices near the national average (£291,589), low crime (90% below national average), 27 nearby schools, and excellent broadband (201 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 201
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 201
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

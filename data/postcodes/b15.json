@@ -1,0 +1,198 @@
+{
+  "code": "B15",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B14",
+    "B16",
+    "B17"
+  ],
+  "property": {
+    "avgPrice": 424060,
+    "medianPrice": 250000,
+    "priceChange1y": 3.2,
+    "priceChange5y": 0,
+    "transactions12m": 522,
+    "byType": {
+      "detached": {
+        "avg": 1064146,
+        "count": 79
+      },
+      "semi": {
+        "avg": 703088,
+        "count": 34
+      },
+      "terraced": {
+        "avg": 427261,
+        "count": 52
+      },
+      "flat": {
+        "avg": 228964,
+        "count": 337
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 439697
+      },
+      {
+        "year": 2024,
+        "avg": 408857
+      },
+      {
+        "year": 2025,
+        "avg": 421987
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 178.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 119.2,
+    "byType": {
+      "violentCrime": 68.5,
+      "burglary": 9.4,
+      "vehicleCrime": 22.2,
+      "antisocialBehaviour": 10.9,
+      "otherTheft": 35.6,
+      "other": 31.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Thomas Centre Nursery School",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Chad Vale Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Catherine of Siena Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St George's School Edgbaston",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Priory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 288,
+    "avgUpload": 52,
+    "superfastPct": 85,
+    "ultrafastPct": 70,
+    "gigabitPct": 69,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B15 covers BIRMINGHAM in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B15 is £424,060, which is 27% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B15 cost 47.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B15 have risen 3.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 178.2 recorded crimes per 1,000 residents, B15 has a crime rate significantly 119% above the national average of 81.3 per 1,000.",
+    "schoolContext": "B15 has 19 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B15 are 288.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B15 (BIRMINGHAM) offers above-average property prices (£424,060, 48% above national average), higher-than-average crime (119% above national average), 19 nearby schools, and excellent broadband (288 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 288
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 288
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

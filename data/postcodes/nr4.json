@@ -1,0 +1,198 @@
+{
+  "code": "NR4",
+  "name": "NORWICH",
+  "county": "norfolk",
+  "region": "east-of-england",
+  "city": "norwich",
+  "adjacent": [
+    "NR3",
+    "NR5",
+    "NR6"
+  ],
+  "property": {
+    "avgPrice": 377125,
+    "medianPrice": 330000,
+    "priceChange1y": -6.6,
+    "priceChange5y": 0,
+    "transactions12m": 1140,
+    "byType": {
+      "detached": {
+        "avg": 502524,
+        "count": 449
+      },
+      "semi": {
+        "avg": 340768,
+        "count": 290
+      },
+      "terraced": {
+        "avg": 266164,
+        "count": 217
+      },
+      "flat": {
+        "avg": 193360,
+        "count": 138
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 378848
+      },
+      {
+        "year": 2024,
+        "avg": 387717
+      },
+      {
+        "year": 2025,
+        "avg": 362285
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 24.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -70.1,
+    "byType": {
+      "violentCrime": 9.2,
+      "burglary": 1.3,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 2.9,
+      "otherTheft": 5.2,
+      "other": 5.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Cringleford CE VA Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Clare School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Visiting Teacher Service Central",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "University of East Anglia",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "City Academy Norwich",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 138157,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 10,
+    "privateRent": 10,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 318,
+    "avgUpload": 57,
+    "superfastPct": 93,
+    "ultrafastPct": 77,
+    "gigabitPct": 77,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Broadland",
+    "bandD": 2121,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.8,
+    "imdRank": 10039,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NR4 encompasses NORWICH and its surrounding areas in Norfolk, East Of England.",
+    "priceVsCounty": "The average property price in NR4 is £377,125, which is 7% above the Norfolk average of £352,657.",
+    "priceVsNational": "Properties in NR4 cost 31.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NR4 have fallen 6.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 24.3 recorded crimes per 1,000 residents, NR4 has a crime rate well 70% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NR4 has 14 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NR4 are 318.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NR4 (NORWICH) offers above-average property prices (£377,125, 31% above national average), low crime (70% below national average), 14 nearby schools, and excellent broadband (318 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 352657,
+      "crime": 75,
+      "broadband": 318
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 318
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "SO18",
+  "name": "SOUTHAMPTON",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "southampton",
+  "adjacent": [
+    "SO17",
+    "SO19",
+    "SO20"
+  ],
+  "property": {
+    "avgPrice": 270221,
+    "medianPrice": 263000,
+    "priceChange1y": 1.9,
+    "priceChange5y": 0,
+    "transactions12m": 1557,
+    "byType": {
+      "detached": {
+        "avg": 365646,
+        "count": 375
+      },
+      "semi": {
+        "avg": 307218,
+        "count": 402
+      },
+      "terraced": {
+        "avg": 260923,
+        "count": 293
+      },
+      "flat": {
+        "avg": 151492,
+        "count": 453
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 260177
+      },
+      {
+        "year": 2024,
+        "avg": 272932
+      },
+      {
+        "year": 2025,
+        "avg": 278166
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 90.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 10.8,
+    "byType": {
+      "violentCrime": 38.6,
+      "burglary": 4.4,
+      "vehicleCrime": 8.9,
+      "antisocialBehaviour": 7.5,
+      "otherTheft": 13.4,
+      "other": 17.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bitterne Manor Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bitterne Park Primary & Nursery School - Part of the Learning Federation Partnership of Schools",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mansbridge Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Moorlands Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Townhill Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 259424,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 22,
+    "privateRent": 27,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 381,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 96,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Southampton Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.9,
+    "imdRank": 20786,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SO18 covers SOUTHAMPTON in Hampshire, South East.",
+    "priceVsCounty": "The average property price in SO18 is £270,221, which is 37% below the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in SO18 cost 5.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SO18 have risen 1.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 90.1 recorded crimes per 1,000 residents, SO18 has a crime rate 11% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SO18 has 14 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SO18 are 381.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SO18 (SOUTHAMPTON) offers property prices near the national average (£270,221), 14 nearby schools, and excellent broadband (381 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 381
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 381
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

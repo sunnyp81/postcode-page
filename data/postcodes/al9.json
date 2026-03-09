@@ -1,0 +1,197 @@
+{
+  "code": "AL9",
+  "name": "HATFIELD",
+  "county": "hertfordshire",
+  "region": "south-east",
+  "city": "st-albans",
+  "adjacent": [
+    "AL8",
+    "AL10"
+  ],
+  "property": {
+    "avgPrice": 831185,
+    "medianPrice": 565000,
+    "priceChange1y": -20.7,
+    "priceChange5y": 0,
+    "transactions12m": 397,
+    "byType": {
+      "detached": {
+        "avg": 1289905,
+        "count": 116
+      },
+      "semi": {
+        "avg": 645586,
+        "count": 88
+      },
+      "terraced": {
+        "avg": 496657,
+        "count": 78
+      },
+      "flat": {
+        "avg": 310903,
+        "count": 86
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 908712
+      },
+      {
+        "year": 2024,
+        "avg": 861099
+      },
+      {
+        "year": 2025,
+        "avg": 682472
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.5,
+      "burglary": 0.1,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.4,
+      "otherTheft": 0.3,
+      "other": 0.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Ryde School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Essendon CofE (VC) Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's Church of England VA Primary School, Welham Green",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brookmans Park Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Queenswood School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 156875,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 13,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 259,
+    "avgUpload": 47,
+    "superfastPct": 87,
+    "ultrafastPct": 63,
+    "gigabitPct": 60,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Hertfordshire",
+    "bandD": 2117,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.2,
+    "imdRank": 6091,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "AL9 covers HATFIELD in Hertfordshire, South East.",
+    "priceVsCounty": "The average property price in AL9 is £831,185, which is 45% above the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in AL9 cost 189.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in AL9 have fallen 20.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, AL9 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "AL9 has 7 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in AL9 are 259.0 Mbps, with 99% of premises having access to superfast broadband and 86% with full fibre (FTTP) connectivity.",
+    "synthesis": "AL9 (HATFIELD) offers above-average property prices (£831,185, 190% above national average), low crime (94% below national average), 7 nearby schools, and excellent broadband (259 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 259
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 259
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

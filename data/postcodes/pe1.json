@@ -1,0 +1,197 @@
+{
+  "code": "PE1",
+  "name": "PETERBOROUGH",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "peterborough",
+  "adjacent": [
+    "PE2",
+    "PE3"
+  ],
+  "property": {
+    "avgPrice": 257438,
+    "medianPrice": 200000,
+    "priceChange1y": -14.3,
+    "priceChange5y": 0,
+    "transactions12m": 1446,
+    "byType": {
+      "detached": {
+        "avg": 311842,
+        "count": 189
+      },
+      "semi": {
+        "avg": 222359,
+        "count": 487
+      },
+      "terraced": {
+        "avg": 181250,
+        "count": 438
+      },
+      "flat": {
+        "avg": 126203,
+        "count": 228
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 281816
+      },
+      {
+        "year": 2024,
+        "avg": 260384
+      },
+      {
+        "year": 2025,
+        "avg": 223159
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 231,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 184.1,
+    "byType": {
+      "violentCrime": 91.3,
+      "burglary": 6.1,
+      "vehicleCrime": 11.4,
+      "antisocialBehaviour": 38.1,
+      "otherTheft": 29.9,
+      "other": 54.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 23,
+    "outstanding": 2,
+    "good": 11,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Queen's Drive Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Beeches Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "All Saints' CofE (Aided) Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Marshfields School",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Inspire Education Group",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 223655,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 19,
+    "privateRent": 22,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 351,
+    "avgUpload": 63,
+    "superfastPct": 98,
+    "ultrafastPct": 86,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Peterborough Council",
+    "bandD": 2319,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.8,
+    "imdRank": 20858,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PE1 covers PETERBOROUGH in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in PE1 is £257,438, which is 33% below the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in PE1 cost 10.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PE1 have fallen 14.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 231.0 recorded crimes per 1,000 residents, PE1 has a crime rate significantly 184% above the national average of 81.3 per 1,000.",
+    "schoolContext": "PE1 has 23 schools within or near its boundaries, including 2 rated Outstanding and 11 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PE1 are 351.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PE1 (PETERBOROUGH) offers property prices near the national average (£257,438), higher-than-average crime (184% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (351 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 351
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 351
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

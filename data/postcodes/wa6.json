@@ -1,0 +1,198 @@
+{
+  "code": "WA6",
+  "name": "FRODSHAM",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "warrington",
+  "adjacent": [
+    "WA5",
+    "WA7",
+    "WA8"
+  ],
+  "property": {
+    "avgPrice": 344585,
+    "medianPrice": 285000,
+    "priceChange1y": -1.9,
+    "priceChange5y": 0,
+    "transactions12m": 881,
+    "byType": {
+      "detached": {
+        "avg": 478977,
+        "count": 333
+      },
+      "semi": {
+        "avg": 300719,
+        "count": 256
+      },
+      "terraced": {
+        "avg": 220815,
+        "count": 146
+      },
+      "flat": {
+        "avg": 146518,
+        "count": 104
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 343728
+      },
+      {
+        "year": 2024,
+        "avg": 347973
+      },
+      {
+        "year": 2025,
+        "avg": 341233
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.4,
+      "otherTheft": 0,
+      "other": 0.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Kingsley Community Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Alvanley and Manley Village School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Helsby Hillside Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Horn's Mill Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Frodsham Manor House Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 371652,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 15,
+    "privateRent": 14,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 312,
+    "avgUpload": 56,
+    "superfastPct": 88,
+    "ultrafastPct": 76,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Warrington Council",
+    "bandD": 1638,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.1,
+    "imdRank": 13862,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WA6 encompasses FRODSHAM and its surrounding areas in Cheshire, North West.",
+    "priceVsCounty": "The average property price in WA6 is £344,585, which is 11% above the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in WA6 cost 20.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WA6 have fallen 1.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, WA6 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WA6 has 12 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WA6 are 312.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WA6 (FRODSHAM) offers above-average property prices (£344,585, 20% above national average), low crime (94% below national average), 12 nearby schools, and excellent broadband (312 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 312
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 312
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "code": "LL31",
+  "name": "LLANDUDNO JUNCTION",
+  "county": "north-wales",
+  "region": "wales",
+  "city": "north-wales",
+  "adjacent": [
+    "LL30",
+    "LL32",
+    "LL33"
+  ],
+  "property": {
+    "avgPrice": 262077,
+    "medianPrice": 225000,
+    "priceChange1y": -4.1,
+    "priceChange5y": 0,
+    "transactions12m": 516,
+    "byType": {
+      "detached": {
+        "avg": 365808,
+        "count": 150
+      },
+      "semi": {
+        "avg": 214309,
+        "count": 205
+      },
+      "terraced": {
+        "avg": 221321,
+        "count": 84
+      },
+      "flat": {
+        "avg": 233446,
+        "count": 56
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 266849
+      },
+      {
+        "year": 2024,
+        "avg": 264915
+      },
+      {
+        "year": 2025,
+        "avg": 254107
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 19.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -75.8,
+    "byType": {
+      "violentCrime": 7.7,
+      "burglary": 0.5,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 4.4,
+      "otherTheft": 2.8,
+      "other": 3.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ysgol Deganwy",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Awel y Mynydd",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 114891,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 362,
+    "avgUpload": 65,
+    "superfastPct": 99,
+    "ultrafastPct": 89,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Wales Council",
+    "bandD": 2304,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LL31 covers LLANDUDNO JUNCTION in North Wales, Wales.",
+    "priceVsCounty": "The average property price in LL31 is £262,077, broadly in line with the North Wales average of £271,879.",
+    "priceVsNational": "Properties in LL31 cost 8.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LL31 have fallen 4.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 19.7 recorded crimes per 1,000 residents, LL31 has a crime rate well 76% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LL31 has 2 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LL31 are 362.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LL31 (LLANDUDNO JUNCTION) offers property prices near the national average (£262,077), low crime (76% below national average), 2 nearby schools, and excellent broadband (362 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 271879,
+      "crime": 75,
+      "broadband": 362
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 362
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

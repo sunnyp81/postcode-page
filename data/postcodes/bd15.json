@@ -1,0 +1,198 @@
+{
+  "code": "BD15",
+  "name": "BRADFORD",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "bradford",
+  "adjacent": [
+    "BD14",
+    "BD16",
+    "BD17"
+  ],
+  "property": {
+    "avgPrice": 199504,
+    "medianPrice": 177500,
+    "priceChange1y": 10.5,
+    "priceChange5y": 0,
+    "transactions12m": 727,
+    "byType": {
+      "detached": {
+        "avg": 324126,
+        "count": 146
+      },
+      "semi": {
+        "avg": 190672,
+        "count": 296
+      },
+      "terraced": {
+        "avg": 147601,
+        "count": 218
+      },
+      "flat": {
+        "avg": 95675,
+        "count": 53
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 196979
+      },
+      {
+        "year": 2024,
+        "avg": 191629
+      },
+      {
+        "year": 2025,
+        "avg": 211671
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 34.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -57.9,
+    "byType": {
+      "violentCrime": 15.8,
+      "burglary": 1.9,
+      "vehicleCrime": 1.6,
+      "antisocialBehaviour": 2.7,
+      "otherTheft": 4.4,
+      "other": 7.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Sandy Lane Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ley Top Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Beckfoot Allerton Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Academy At St. James",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wilsden Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 563605,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 303,
+    "avgUpload": 55,
+    "superfastPct": 96,
+    "ultrafastPct": 81,
+    "gigabitPct": 69,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bradford",
+    "bandD": 1956,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 34.7,
+    "imdRank": 23086,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BD15 encompasses BRADFORD and its surrounding areas in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in BD15 is £199,504, which is 28% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in BD15 cost 30.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BD15 have risen 10.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 34.2 recorded crimes per 1,000 residents, BD15 has a crime rate well 58% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BD15 has 6 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BD15 are 303.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BD15 (BRADFORD) offers affordable property prices (£199,504, 30% below national average), low crime (58% below national average), 6 nearby schools, and excellent broadband (303 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 303
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 303
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

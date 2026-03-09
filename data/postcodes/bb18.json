@@ -1,0 +1,193 @@
+{
+  "code": "BB18",
+  "name": "BARNOLDSWICK",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "blackburn",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 182331,
+    "medianPrice": 150000,
+    "priceChange1y": 0.9,
+    "priceChange5y": 0,
+    "transactions12m": 1000,
+    "byType": {
+      "detached": {
+        "avg": 347916,
+        "count": 116
+      },
+      "semi": {
+        "avg": 224375,
+        "count": 163
+      },
+      "terraced": {
+        "avg": 139590,
+        "count": 662
+      },
+      "flat": {
+        "avg": 98537,
+        "count": 15
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 190799
+      },
+      {
+        "year": 2024,
+        "avg": 177724
+      },
+      {
+        "year": 2025,
+        "avg": 179316
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 19.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -75.8,
+    "byType": {
+      "violentCrime": 6.7,
+      "burglary": 0.7,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 6.5,
+      "otherTheft": 1.8,
+      "other": 3.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Kelbrook Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Earby Springfield Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Gisburn Road Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Salterforth Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Coates Lane Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 357,
+    "avgUpload": 64,
+    "superfastPct": 96,
+    "ultrafastPct": 88,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Blackburn Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BB18 covers BARNOLDSWICK in Lancashire, North West.",
+    "priceVsCounty": "The average property price in BB18 is £182,331, which is 28% below the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in BB18 cost 36.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BB18 have risen 0.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 19.7 recorded crimes per 1,000 residents, BB18 has a crime rate well 76% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BB18 has 8 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BB18 are 357.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BB18 (BARNOLDSWICK) offers affordable property prices (£182,331, 36% below national average), low crime (76% below national average), 8 nearby schools, and excellent broadband (357 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 357
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 357
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

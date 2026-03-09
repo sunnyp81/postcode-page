@@ -1,0 +1,197 @@
+{
+  "code": "PO21",
+  "name": "BOGNOR REGIS",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "portsmouth",
+  "adjacent": [
+    "PO20",
+    "PO22"
+  ],
+  "property": {
+    "avgPrice": 332650,
+    "medianPrice": 307000,
+    "priceChange1y": 4.8,
+    "priceChange5y": 0,
+    "transactions12m": 2061,
+    "byType": {
+      "detached": {
+        "avg": 509201,
+        "count": 576
+      },
+      "semi": {
+        "avg": 345659,
+        "count": 422
+      },
+      "terraced": {
+        "avg": 291883,
+        "count": 374
+      },
+      "flat": {
+        "avg": 165616,
+        "count": 608
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 337657
+      },
+      {
+        "year": 2024,
+        "avg": 322916
+      },
+      {
+        "year": 2025,
+        "avg": 338492
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 52.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -35.3,
+    "byType": {
+      "violentCrime": 18.5,
+      "burglary": 3.1,
+      "vehicleCrime": 2.7,
+      "antisocialBehaviour": 8.7,
+      "otherTheft": 8.3,
+      "other": 11.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bognor Regis Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bartons Primary School, Bognor Regis",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Rose Green Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Nyewood CofE Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Regis School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 170064,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 9,
+    "privateRent": 16,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 244,
+    "avgUpload": 44,
+    "superfastPct": 99,
+    "ultrafastPct": 55,
+    "gigabitPct": 55,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Arun",
+    "bandD": 2158,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.6,
+    "imdRank": 15557,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PO21 covers BOGNOR REGIS in Hampshire, South East.",
+    "priceVsCounty": "The average property price in PO21 is £332,650, which is 23% below the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in PO21 cost 15.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PO21 have risen 4.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 52.6 recorded crimes per 1,000 residents, PO21 has a crime rate well 35% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PO21 has 10 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PO21 are 244.0 Mbps, with 99% of premises having access to superfast broadband and 82% with full fibre (FTTP) connectivity.",
+    "synthesis": "PO21 (BOGNOR REGIS) offers property prices near the national average (£332,650), low crime (35% below national average), 10 nearby schools, and excellent broadband (244 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 244
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 244
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

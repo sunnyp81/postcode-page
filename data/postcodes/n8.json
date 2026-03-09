@@ -1,0 +1,198 @@
+{
+  "code": "N8",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "N7",
+    "N9",
+    "N10"
+  ],
+  "property": {
+    "avgPrice": 704559,
+    "medianPrice": 570400,
+    "priceChange1y": 8.4,
+    "priceChange5y": 0,
+    "transactions12m": 1816,
+    "byType": {
+      "detached": {
+        "avg": 1688778,
+        "count": 18
+      },
+      "semi": {
+        "avg": 1301999,
+        "count": 49
+      },
+      "terraced": {
+        "avg": 1152121,
+        "count": 424
+      },
+      "flat": {
+        "avg": 517115,
+        "count": 1271
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 668114
+      },
+      {
+        "year": 2024,
+        "avg": 699266
+      },
+      {
+        "year": 2025,
+        "avg": 757818
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 191.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 136,
+    "byType": {
+      "violentCrime": 44.2,
+      "burglary": 8.2,
+      "vehicleCrime": 17.9,
+      "antisocialBehaviour": 46,
+      "otherTheft": 47.3,
+      "other": 28.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ashmount Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Campsbourne Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Campsbourne Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rokesly Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rokesly Infant & Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 223024,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 15,
+    "socialRent": 40,
+    "privateRent": 29,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 309,
+    "avgUpload": 56,
+    "superfastPct": 98,
+    "ultrafastPct": 74,
+    "gigabitPct": 74,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Islington",
+    "bandD": 1815,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.5,
+    "imdRank": 22490,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "N8 encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in N8 is £704,559, which is 46% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in N8 cost 145.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in N8 have risen 8.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 191.9 recorded crimes per 1,000 residents, N8 has a crime rate significantly 136% above the national average of 81.3 per 1,000.",
+    "schoolContext": "N8 has 13 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in N8 are 309.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "N8 (LONDON) offers above-average property prices (£704,559, 145% above national average), higher-than-average crime (136% above national average), 13 nearby schools, and excellent broadband (309 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 309
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 309
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

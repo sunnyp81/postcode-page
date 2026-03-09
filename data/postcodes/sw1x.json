@@ -1,0 +1,197 @@
+{
+  "code": "SW1X",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SW2",
+    "SW3"
+  ],
+  "property": {
+    "avgPrice": 4815033,
+    "medianPrice": 2660000,
+    "priceChange1y": -36.4,
+    "priceChange5y": 0,
+    "transactions12m": 413,
+    "byType": {
+      "detached": {
+        "avg": 9148563,
+        "count": 0
+      },
+      "semi": {
+        "avg": 4275000,
+        "count": 2
+      },
+      "terraced": {
+        "avg": 5811108,
+        "count": 61
+      },
+      "flat": {
+        "avg": 4591486,
+        "count": 287
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 5435930
+      },
+      {
+        "year": 2024,
+        "avg": 4941703
+      },
+      {
+        "year": 2025,
+        "avg": 3143150
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 61.5,
+      "burglary": 10.9,
+      "vehicleCrime": 27,
+      "antisocialBehaviour": 66.6,
+      "otherTheft": 153.7,
+      "other": 39.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Holy Trinity CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sussex House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hill House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "More House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Knightsbridge School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 209996,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 11,
+    "socialRent": 28,
+    "privateRent": 39,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 322,
+    "avgUpload": 58,
+    "superfastPct": 86,
+    "ultrafastPct": 80,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Westminster",
+    "bandD": 914,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.3,
+    "imdRank": 16573,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SW1X is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in SW1X is £4,815,033, which is 268% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SW1X cost 1577.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SW1X have fallen 36.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, SW1X has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SW1X has 5 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SW1X are 322.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SW1X (LONDON) offers above-average property prices (£4,815,033, 1578% above national average), higher-than-average crime (269% above national average), 5 nearby schools, and excellent broadband (322 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 322
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 322
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

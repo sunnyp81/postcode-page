@@ -1,0 +1,198 @@
+{
+  "code": "KT13",
+  "name": "WEYBRIDGE",
+  "county": "greater-london",
+  "region": "london",
+  "city": "kingston-upon-thames",
+  "adjacent": [
+    "KT12",
+    "KT14",
+    "KT15"
+  ],
+  "property": {
+    "avgPrice": 977400,
+    "medianPrice": 563750,
+    "priceChange1y": -34.1,
+    "priceChange5y": 0,
+    "transactions12m": 1272,
+    "byType": {
+      "detached": {
+        "avg": 1844181,
+        "count": 291
+      },
+      "semi": {
+        "avg": 841330,
+        "count": 134
+      },
+      "terraced": {
+        "avg": 652106,
+        "count": 235
+      },
+      "flat": {
+        "avg": 404070,
+        "count": 553
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 978342
+      },
+      {
+        "year": 2024,
+        "avg": 1149431
+      },
+      {
+        "year": 2025,
+        "avg": 757257
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 21.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -73.6,
+    "byType": {
+      "violentCrime": 8,
+      "burglary": 1.1,
+      "vehicleCrime": 1.2,
+      "antisocialBehaviour": 2.9,
+      "otherTheft": 3,
+      "other": 5.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 1,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Oatlands School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Manby Lodge Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St James CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St George's Junior School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brooklands College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 141926,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 10,
+    "privateRent": 16,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 298,
+    "avgUpload": 54,
+    "superfastPct": 99,
+    "ultrafastPct": 75,
+    "gigabitPct": 69,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Elmbridge",
+    "bandD": 2230,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 7.9,
+    "imdRank": 5634,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "KT13 is the postcode district for WEYBRIDGE, located in Greater London, London.",
+    "priceVsCounty": "The average property price in KT13 is £977,400, which is 25% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in KT13 cost 240.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in KT13 have fallen 34.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 21.5 recorded crimes per 1,000 residents, KT13 has a crime rate well 74% below the national average of 81.3 per 1,000.",
+    "schoolContext": "KT13 has 8 schools within or near its boundaries, including 1 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in KT13 are 298.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "KT13 (WEYBRIDGE) offers above-average property prices (£977,400, 241% above national average), low crime (74% below national average), 8 nearby schools, and excellent broadband (298 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 298
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 298
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

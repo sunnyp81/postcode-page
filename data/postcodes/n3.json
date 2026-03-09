@@ -1,0 +1,198 @@
+{
+  "code": "N3",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "N2",
+    "N4",
+    "N5"
+  ],
+  "property": {
+    "avgPrice": 764713,
+    "medianPrice": 605000,
+    "priceChange1y": 0.5,
+    "priceChange5y": 0,
+    "transactions12m": 788,
+    "byType": {
+      "detached": {
+        "avg": 1724800,
+        "count": 60
+      },
+      "semi": {
+        "avg": 1017874,
+        "count": 187
+      },
+      "terraced": {
+        "avg": 813103,
+        "count": 105
+      },
+      "flat": {
+        "avg": 476364,
+        "count": 389
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 769392
+      },
+      {
+        "year": 2024,
+        "avg": 760273
+      },
+      {
+        "year": 2025,
+        "avg": 764189
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 78.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -3.4,
+    "byType": {
+      "violentCrime": 17.1,
+      "burglary": 5.3,
+      "vehicleCrime": 10.1,
+      "antisocialBehaviour": 17.2,
+      "otherTheft": 10.9,
+      "other": 17.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Moss Hall Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Manorside Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Moss Hall Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Tudor Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chalgrove Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 405050,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 13,
+    "privateRent": 30,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 319,
+    "avgUpload": 57,
+    "superfastPct": 97,
+    "ultrafastPct": 85,
+    "gigabitPct": 74,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Barnet",
+    "bandD": 1836,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.1,
+    "imdRank": 13803,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "N3 covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in N3 is £764,713, which is 42% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in N3 cost 166.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in N3 have risen 0.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "N3 has a crime rate of 78.5 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "N3 has 11 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in N3 are 319.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "N3 (LONDON) offers above-average property prices (£764,713, 166% above national average), 11 nearby schools, and excellent broadband (319 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 319
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 319
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

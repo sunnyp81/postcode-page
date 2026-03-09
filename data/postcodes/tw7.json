@@ -1,0 +1,197 @@
+{
+  "code": "TW7",
+  "name": "ISLEWORTH",
+  "county": "greater-london",
+  "region": "london",
+  "city": "twickenham",
+  "adjacent": [
+    "TW8",
+    "TW9"
+  ],
+  "property": {
+    "avgPrice": 578641,
+    "medianPrice": 494075,
+    "priceChange1y": -15.9,
+    "priceChange5y": 0,
+    "transactions12m": 1152,
+    "byType": {
+      "detached": {
+        "avg": 1185181,
+        "count": 30
+      },
+      "semi": {
+        "avg": 671244,
+        "count": 254
+      },
+      "terraced": {
+        "avg": 621374,
+        "count": 347
+      },
+      "flat": {
+        "avg": 341486,
+        "count": 491
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 541479
+      },
+      {
+        "year": 2024,
+        "avg": 643232
+      },
+      {
+        "year": 2025,
+        "avg": 540836
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 89.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 10.5,
+    "byType": {
+      "violentCrime": 30.3,
+      "burglary": 3.5,
+      "vehicleCrime": 7.7,
+      "antisocialBehaviour": 19.7,
+      "otherTheft": 11.4,
+      "other": 17.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 1,
+    "good": 9,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Isleworth Town Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Marlborough Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Spring Grove Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Worple Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ivybridge Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 299424,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 21,
+    "privateRent": 29,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 347,
+    "avgUpload": 62,
+    "superfastPct": 98,
+    "ultrafastPct": 85,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hounslow",
+    "bandD": 1882,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.5,
+    "imdRank": 18652,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TW7 is the postcode district for ISLEWORTH, located in Greater London, London.",
+    "priceVsCounty": "The average property price in TW7 is £578,641, which is 56% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in TW7 cost 101.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TW7 have fallen 15.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 89.8 recorded crimes per 1,000 residents, TW7 has a crime rate 10% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TW7 has 17 schools within or near its boundaries, including 1 rated Outstanding and 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TW7 are 347.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TW7 (ISLEWORTH) offers above-average property prices (£578,641, 102% above national average), 17 nearby schools, and excellent broadband (347 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 347
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 347
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

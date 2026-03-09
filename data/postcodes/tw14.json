@@ -1,0 +1,198 @@
+{
+  "code": "TW14",
+  "name": "FELTHAM",
+  "county": "greater-london",
+  "region": "london",
+  "city": "twickenham",
+  "adjacent": [
+    "TW13",
+    "TW15",
+    "TW16"
+  ],
+  "property": {
+    "avgPrice": 440503,
+    "medianPrice": 424000,
+    "priceChange1y": 4.4,
+    "priceChange5y": 0,
+    "transactions12m": 628,
+    "byType": {
+      "detached": {
+        "avg": 535421,
+        "count": 21
+      },
+      "semi": {
+        "avg": 465560,
+        "count": 255
+      },
+      "terraced": {
+        "avg": 427734,
+        "count": 168
+      },
+      "flat": {
+        "avg": 269435,
+        "count": 164
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 485445
+      },
+      {
+        "year": 2024,
+        "avg": 408722
+      },
+      {
+        "year": 2025,
+        "avg": 426545
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 97.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 20.2,
+    "byType": {
+      "violentCrime": 32.3,
+      "burglary": 3.2,
+      "vehicleCrime": 4.6,
+      "antisocialBehaviour": 24.3,
+      "otherTheft": 14.4,
+      "other": 18.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Marjory Kinnon School",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Fairholme Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bedfont Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Rivers Academy West London",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Space Studio West London",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 299424,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 21,
+    "privateRent": 29,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 371,
+    "avgUpload": 67,
+    "superfastPct": 96,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hounslow",
+    "bandD": 1882,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.5,
+    "imdRank": 18652,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TW14 encompasses FELTHAM and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in TW14 is £440,503, which is 66% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in TW14 cost 53.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TW14 have risen 4.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 97.7 recorded crimes per 1,000 residents, TW14 has a crime rate significantly 20% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TW14 has 7 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TW14 are 371.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TW14 (FELTHAM) offers above-average property prices (£440,503, 53% above national average), higher-than-average crime (20% above national average), 7 nearby schools, and excellent broadband (371 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 371
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 371
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

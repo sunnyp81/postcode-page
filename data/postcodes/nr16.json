@@ -1,0 +1,198 @@
+{
+  "code": "NR16",
+  "name": "NORWICH",
+  "county": "norfolk",
+  "region": "east-of-england",
+  "city": "norwich",
+  "adjacent": [
+    "NR15",
+    "NR17",
+    "NR18"
+  ],
+  "property": {
+    "avgPrice": 404852,
+    "medianPrice": 350000,
+    "priceChange1y": 6.4,
+    "priceChange5y": 0,
+    "transactions12m": 580,
+    "byType": {
+      "detached": {
+        "avg": 448426,
+        "count": 332
+      },
+      "semi": {
+        "avg": 300370,
+        "count": 142
+      },
+      "terraced": {
+        "avg": 271721,
+        "count": 49
+      },
+      "flat": {
+        "avg": 184770,
+        "count": 0
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 418934
+      },
+      {
+        "year": 2024,
+        "avg": 386424
+      },
+      {
+        "year": 2025,
+        "avg": 411050
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.8,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.1,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "East Harling Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wreningham VC Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Carleton Rode Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Forncett St Peter Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Aurora Eccles School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 146620,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 253,
+    "avgUpload": 46,
+    "superfastPct": 86,
+    "ultrafastPct": 59,
+    "gigabitPct": 59,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Breckland",
+    "bandD": 2114,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.6,
+    "imdRank": 16834,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NR16 encompasses NORWICH and its surrounding areas in Norfolk, East Of England.",
+    "priceVsCounty": "The average property price in NR16 is £404,852, which is 15% above the Norfolk average of £352,657.",
+    "priceVsNational": "Properties in NR16 cost 41.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NR16 have risen 6.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, NR16 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NR16 has 11 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NR16 are 253.0 Mbps, with 99% of premises having access to superfast broadband and 85% with full fibre (FTTP) connectivity.",
+    "synthesis": "NR16 (NORWICH) offers above-average property prices (£404,852, 41% above national average), low crime (94% below national average), 11 nearby schools, and excellent broadband (253 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 352657,
+      "crime": 75,
+      "broadband": 253
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 253
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

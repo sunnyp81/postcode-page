@@ -1,0 +1,197 @@
+{
+  "code": "DT4",
+  "name": "WEYMOUTH",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "dorchester",
+  "adjacent": [
+    "DT3",
+    "DT5",
+    "DT6"
+  ],
+  "property": {
+    "avgPrice": 284571,
+    "medianPrice": 255000,
+    "priceChange1y": -3.9,
+    "priceChange5y": 0,
+    "transactions12m": 2130,
+    "byType": {
+      "detached": {
+        "avg": 433077,
+        "count": 365
+      },
+      "semi": {
+        "avg": 295702,
+        "count": 402
+      },
+      "terraced": {
+        "avg": 264324,
+        "count": 651
+      },
+      "flat": {
+        "avg": 184786,
+        "count": 606
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 294987
+      },
+      {
+        "year": 2024,
+        "avg": 284130
+      },
+      {
+        "year": 2025,
+        "avg": 273167
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 94.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 16.1,
+    "byType": {
+      "violentCrime": 34.6,
+      "burglary": 2.4,
+      "vehicleCrime": 1.4,
+      "antisocialBehaviour": 29.2,
+      "otherTheft": 11.1,
+      "other": 15.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 3,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Wyke Regis Infant School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Southill Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wyke Regis Church of England Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Holy Trinity Church of England VC Primary School & Community Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Coastland College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 23666,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 296,
+    "avgUpload": 53,
+    "superfastPct": 99,
+    "ultrafastPct": 70,
+    "gigabitPct": 70,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Dorchester Council",
+    "bandD": 2115,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.7,
+    "imdRank": 13227,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DT4 covers WEYMOUTH in Dorset, South West.",
+    "priceVsCounty": "The average property price in DT4 is £284,571, which is 33% below the Dorset average of £425,376.",
+    "priceVsNational": "Property values in DT4 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in DT4 have fallen 3.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 94.4 recorded crimes per 1,000 residents, DT4 has a crime rate 16% above the national average of 81.3 per 1,000.",
+    "schoolContext": "DT4 has 14 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DT4 are 296.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DT4 (WEYMOUTH) offers property prices near the national average (£284,571), higher-than-average crime (16% above national average), 14 nearby schools, and excellent broadband (296 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 296
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 296
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

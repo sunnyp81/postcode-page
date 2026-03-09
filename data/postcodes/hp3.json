@@ -1,0 +1,198 @@
+{
+  "code": "HP3",
+  "name": "HEMEL HEMPSTEAD",
+  "county": "hertfordshire",
+  "region": "south-east",
+  "city": "hemel-hempstead",
+  "adjacent": [
+    "HP2",
+    "HP4",
+    "HP5"
+  ],
+  "property": {
+    "avgPrice": 495990,
+    "medianPrice": 425000,
+    "priceChange1y": 1.6,
+    "priceChange5y": 0,
+    "transactions12m": 1255,
+    "byType": {
+      "detached": {
+        "avg": 873651,
+        "count": 220
+      },
+      "semi": {
+        "avg": 520671,
+        "count": 314
+      },
+      "terraced": {
+        "avg": 414004,
+        "count": 346
+      },
+      "flat": {
+        "avg": 274946,
+        "count": 342
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 446867
+      },
+      {
+        "year": 2024,
+        "avg": 513377
+      },
+      {
+        "year": 2025,
+        "avg": 521599
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 70.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -12.8,
+    "byType": {
+      "violentCrime": 20.2,
+      "burglary": 2.3,
+      "vehicleCrime": 3.7,
+      "antisocialBehaviour": 15.7,
+      "otherTheft": 18.8,
+      "other": 10.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Two Waters Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tudor Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chambersbury Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Reddings Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lime Walk Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 95807,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 15,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 338,
+    "avgUpload": 61,
+    "superfastPct": 96,
+    "ultrafastPct": 84,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Three Rivers",
+    "bandD": 2099,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 9.9,
+    "imdRank": 7742,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HP3 encompasses HEMEL HEMPSTEAD and its surrounding areas in Hertfordshire, South East.",
+    "priceVsCounty": "The average property price in HP3 is £495,990, which is 13% below the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in HP3 cost 72.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HP3 have risen 1.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 70.9 recorded crimes per 1,000 residents, HP3 has a crime rate 13% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HP3 has 14 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HP3 are 338.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HP3 (HEMEL HEMPSTEAD) offers above-average property prices (£495,990, 73% above national average), 14 nearby schools, and excellent broadband (338 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 338
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 338
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

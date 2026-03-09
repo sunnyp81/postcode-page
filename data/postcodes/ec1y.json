@@ -1,0 +1,179 @@
+{
+  "code": "EC1Y",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 1186798,
+    "medianPrice": 657500,
+    "priceChange1y": 162.1,
+    "priceChange5y": 0,
+    "transactions12m": 92,
+    "byType": {
+      "detached": {
+        "avg": 4800618,
+        "count": 1
+      },
+      "semi": {
+        "avg": 1424158,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 1963333,
+        "count": 3
+      },
+      "flat": {
+        "avg": 724208,
+        "count": 76
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1325980
+      },
+      {
+        "year": 2024,
+        "avg": 713463
+      },
+      {
+        "year": 2025,
+        "avg": 1870058
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 109,
+      "burglary": 26,
+      "vehicleCrime": 14.6,
+      "antisocialBehaviour": 71.6,
+      "otherTheft": 247.1,
+      "other": 80.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Prior Weston Primary School and Children's Centre",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "City of London Primary Academy, Islington",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 223024,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 15,
+    "socialRent": 40,
+    "privateRent": 29,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 350,
+    "avgUpload": 63,
+    "superfastPct": 89,
+    "ultrafastPct": 87,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Islington",
+    "bandD": 1815,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.5,
+    "imdRank": 22490,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EC1Y is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in EC1Y is £1,186,798, which is 9% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in EC1Y cost 313.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EC1Y have risen 162.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, EC1Y has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "EC1Y has 2 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EC1Y are 350.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "EC1Y (LONDON) offers above-average property prices (£1,186,798, 314% above national average), higher-than-average crime (269% above national average), 2 nearby schools, and excellent broadband (350 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 350
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 350
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

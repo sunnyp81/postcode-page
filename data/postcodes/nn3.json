@@ -1,0 +1,198 @@
+{
+  "code": "NN3",
+  "name": "NORTHAMPTON",
+  "county": "northamptonshire",
+  "region": "east-midlands",
+  "city": "northampton",
+  "adjacent": [
+    "NN2",
+    "NN4",
+    "NN5"
+  ],
+  "property": {
+    "avgPrice": 320416,
+    "medianPrice": 259000,
+    "priceChange1y": -11.1,
+    "priceChange5y": 0,
+    "transactions12m": 2855,
+    "byType": {
+      "detached": {
+        "avg": 416555,
+        "count": 748
+      },
+      "semi": {
+        "avg": 279754,
+        "count": 1042
+      },
+      "terraced": {
+        "avg": 218843,
+        "count": 840
+      },
+      "flat": {
+        "avg": 144980,
+        "count": 156
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 342162
+      },
+      {
+        "year": 2024,
+        "avg": 327092
+      },
+      {
+        "year": 2025,
+        "avg": 290787
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 80.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -0.9,
+    "byType": {
+      "violentCrime": 33.5,
+      "burglary": 3.3,
+      "vehicleCrime": 4.1,
+      "antisocialBehaviour": 16.3,
+      "otherTheft": 8.4,
+      "other": 14.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 34,
+    "outstanding": 2,
+    "good": 17,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Parklands Nursery School",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Boothville Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Andrew's Ceva Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bridgewater Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Moulton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 20486,
+    "medianAge": 42,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 382,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 95,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Northamptonshire",
+    "bandD": 2089,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.4,
+    "imdRank": 18085,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NN3 covers NORTHAMPTON in Northamptonshire, East Midlands.",
+    "priceVsCounty": "The average property price in NN3 is £320,416, broadly in line with the Northamptonshire average of £323,962.",
+    "priceVsNational": "Properties in NN3 cost 11.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NN3 have fallen 11.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "NN3 has a crime rate of 80.6 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "NN3 has 34 schools within or near its boundaries, including 2 rated Outstanding and 17 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NN3 are 382.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NN3 (NORTHAMPTON) offers property prices near the national average (£320,416), strong school provision (2 Outstanding-rated schools), and excellent broadband (382 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 323962,
+      "crime": 75,
+      "broadband": 382
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 382
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

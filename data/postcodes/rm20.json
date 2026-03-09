@@ -1,0 +1,176 @@
+{
+  "code": "RM20",
+  "name": "GRAYS",
+  "county": "greater-london",
+  "region": "london",
+  "city": "romford",
+  "adjacent": [
+    "RM19"
+  ],
+  "property": {
+    "avgPrice": 596813,
+    "medianPrice": 289998,
+    "priceChange1y": -50.4,
+    "priceChange5y": 0,
+    "transactions12m": 322,
+    "byType": {
+      "detached": {
+        "avg": 464750,
+        "count": 6
+      },
+      "semi": {
+        "avg": 374702,
+        "count": 44
+      },
+      "terraced": {
+        "avg": 335582,
+        "count": 118
+      },
+      "flat": {
+        "avg": 222334,
+        "count": 137
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 570107
+      },
+      {
+        "year": 2024,
+        "avg": 837863
+      },
+      {
+        "year": 2025,
+        "avg": 415535
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 53.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -34.7,
+    "byType": {
+      "violentCrime": 12.3,
+      "burglary": 0.8,
+      "vehicleCrime": 5.9,
+      "antisocialBehaviour": 5,
+      "otherTheft": 19.4,
+      "other": 9.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "West Thurrock Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 180989,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 18,
+    "privateRent": 17,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 277,
+    "avgUpload": 50,
+    "superfastPct": 77,
+    "ultrafastPct": 68,
+    "gigabitPct": 67,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Romford Council",
+    "bandD": 1114,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.9,
+    "imdRank": 17375,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RM20 encompasses GRAYS and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in RM20 is £596,813, which is 54% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in RM20 cost 107.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RM20 have fallen 50.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 53.1 recorded crimes per 1,000 residents, RM20 has a crime rate well 35% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RM20 has 1 school within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RM20 are 277.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RM20 (GRAYS) offers above-average property prices (£596,813, 108% above national average), low crime (35% below national average), 1 nearby school, and excellent broadband (277 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 277
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 277
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

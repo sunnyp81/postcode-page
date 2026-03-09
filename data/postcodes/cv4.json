@@ -1,0 +1,198 @@
+{
+  "code": "CV4",
+  "name": "COVENTRY",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "coventry",
+  "adjacent": [
+    "CV3",
+    "CV5",
+    "CV6"
+  ],
+  "property": {
+    "avgPrice": 307887,
+    "medianPrice": 240000,
+    "priceChange1y": 1.6,
+    "priceChange5y": 0,
+    "transactions12m": 1131,
+    "byType": {
+      "detached": {
+        "avg": 505567,
+        "count": 255
+      },
+      "semi": {
+        "avg": 265764,
+        "count": 334
+      },
+      "terraced": {
+        "avg": 213171,
+        "count": 340
+      },
+      "flat": {
+        "avg": 135014,
+        "count": 160
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 352620
+      },
+      {
+        "year": 2024,
+        "avg": 285344
+      },
+      {
+        "year": 2025,
+        "avg": 289913
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 58.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -28.2,
+    "byType": {
+      "violentCrime": 27.1,
+      "burglary": 3.2,
+      "vehicleCrime": 3.8,
+      "antisocialBehaviour": 3.4,
+      "otherTheft": 9.8,
+      "other": 11.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Cannon Park Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Templars Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Our Lady of the Assumption Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hereward College of Further Education",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Woodfield",
+        "type": "Other",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 369026,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 17,
+    "privateRent": 23,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 385,
+    "avgUpload": 69,
+    "superfastPct": 98,
+    "ultrafastPct": 96,
+    "gigabitPct": 96,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Coventry",
+    "bandD": 2186,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.6,
+    "imdRank": 19432,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CV4 is the postcode district for COVENTRY, located in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in CV4 is £307,887, which is 8% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in CV4 cost 7.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CV4 have risen 1.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 58.4 recorded crimes per 1,000 residents, CV4 has a crime rate well 28% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CV4 has 14 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CV4 are 385.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CV4 (COVENTRY) offers property prices near the national average (£307,887), low crime (28% below national average), 14 nearby schools, and excellent broadband (385 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 385
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 385
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

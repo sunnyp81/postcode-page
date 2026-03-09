@@ -1,0 +1,198 @@
+{
+  "code": "GL14",
+  "name": "CINDERFORD",
+  "county": "gloucestershire",
+  "region": "south-west",
+  "city": "gloucester",
+  "adjacent": [
+    "GL13",
+    "GL15",
+    "GL16"
+  ],
+  "property": {
+    "avgPrice": 280942,
+    "medianPrice": 241500,
+    "priceChange1y": -4.7,
+    "priceChange5y": 0,
+    "transactions12m": 614,
+    "byType": {
+      "detached": {
+        "avg": 365302,
+        "count": 178
+      },
+      "semi": {
+        "avg": 249527,
+        "count": 195
+      },
+      "terraced": {
+        "avg": 206424,
+        "count": 158
+      },
+      "flat": {
+        "avg": 173671,
+        "count": 41
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 288767
+      },
+      {
+        "year": 2024,
+        "avg": 283403
+      },
+      {
+        "year": 2025,
+        "avg": 269960
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 16.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -80.2,
+    "byType": {
+      "violentCrime": 6.8,
+      "burglary": 0.3,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 4,
+      "otherTheft": 1.2,
+      "other": 3.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 3,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St White's Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Soudley School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Steam Mills Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Littledean Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Westbury-on-Severn Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 89753,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 13,
+    "privateRent": 11,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 297,
+    "avgUpload": 53,
+    "superfastPct": 92,
+    "ultrafastPct": 71,
+    "gigabitPct": 71,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Forest of Dean",
+    "bandD": 2116,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 15969,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GL14 encompasses CINDERFORD and its surrounding areas in Gloucestershire, South West.",
+    "priceVsCounty": "The average property price in GL14 is £280,942, which is 36% below the Gloucestershire average of £441,384.",
+    "priceVsNational": "Property values in GL14 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in GL14 have fallen 4.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 16.1 recorded crimes per 1,000 residents, GL14 has a crime rate well 80% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GL14 has 8 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GL14 are 297.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GL14 (CINDERFORD) offers property prices near the national average (£280,942), low crime (80% below national average), 8 nearby schools, and excellent broadband (297 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 441384,
+      "crime": 75,
+      "broadband": 297
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 297
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "SL4",
+  "name": "WINDSOR",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "slough",
+  "adjacent": [
+    "SL3",
+    "SL5",
+    "SL6"
+  ],
+  "property": {
+    "avgPrice": 705074,
+    "medianPrice": 495000,
+    "priceChange1y": -23.1,
+    "priceChange5y": 0,
+    "transactions12m": 1808,
+    "byType": {
+      "detached": {
+        "avg": 983706,
+        "count": 258
+      },
+      "semi": {
+        "avg": 600853,
+        "count": 391
+      },
+      "terraced": {
+        "avg": 580132,
+        "count": 549
+      },
+      "flat": {
+        "avg": 368687,
+        "count": 493
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 734239
+      },
+      {
+        "year": 2024,
+        "avg": 769661
+      },
+      {
+        "year": 2025,
+        "avg": 592114
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 66.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -18.1,
+    "byType": {
+      "violentCrime": 22.6,
+      "burglary": 2.4,
+      "vehicleCrime": 4.2,
+      "antisocialBehaviour": 7.7,
+      "otherTheft": 15.4,
+      "other": 14.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 30,
+    "outstanding": 0,
+    "good": 9,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Lawns Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "King's Court First School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hilltop First School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cranbourne Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Homer First School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 167359,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 29,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 314,
+    "avgUpload": 57,
+    "superfastPct": 93,
+    "ultrafastPct": 78,
+    "gigabitPct": 75,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Slough Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23,
+    "imdRank": 19788,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SL4 is the postcode district for WINDSOR, located in Berkshire, South East.",
+    "priceVsCounty": "The average property price in SL4 is £705,074, which is 20% above the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in SL4 cost 145.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SL4 have fallen 23.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 66.6 recorded crimes per 1,000 residents, SL4 has a crime rate 18% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SL4 has 30 schools within or near its boundaries, including 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SL4 are 314.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SL4 (WINDSOR) offers above-average property prices (£705,074, 146% above national average), low crime (18% below national average), 30 nearby schools, and excellent broadband (314 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 314
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 314
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

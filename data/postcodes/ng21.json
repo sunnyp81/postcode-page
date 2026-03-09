@@ -1,0 +1,198 @@
+{
+  "code": "NG21",
+  "name": "MANSFIELD",
+  "county": "nottinghamshire",
+  "region": "east-midlands",
+  "city": "nottingham",
+  "adjacent": [
+    "NG20",
+    "NG22",
+    "NG23"
+  ],
+  "property": {
+    "avgPrice": 225332,
+    "medianPrice": 199398,
+    "priceChange1y": -6.3,
+    "priceChange5y": 0,
+    "transactions12m": 1368,
+    "byType": {
+      "detached": {
+        "avg": 307434,
+        "count": 484
+      },
+      "semi": {
+        "avg": 185409,
+        "count": 531
+      },
+      "terraced": {
+        "avg": 152324,
+        "count": 306
+      },
+      "flat": {
+        "avg": 102854,
+        "count": 14
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 220490
+      },
+      {
+        "year": 2024,
+        "avg": 235043
+      },
+      {
+        "year": 2025,
+        "avg": 220185
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 83.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 2.7,
+    "byType": {
+      "violentCrime": 22.5,
+      "burglary": 5.4,
+      "vehicleCrime": 8.3,
+      "antisocialBehaviour": 18.4,
+      "otherTheft": 13.4,
+      "other": 15.4
+    },
+    "source": "synthetic-estimate",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "King Edwin Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dawn House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Joseph Whitaker School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Samuel Barlow Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary's Church of England Primary School, Edwinstowe",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 120179,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 10,
+    "privateRent": 14,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 329,
+    "avgUpload": 59,
+    "superfastPct": 94,
+    "ultrafastPct": 81,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Gedling",
+    "bandD": 2288,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.9,
+    "imdRank": 12438,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NG21 encompasses MANSFIELD and its surrounding areas in Nottinghamshire, East Midlands.",
+    "priceVsCounty": "The average property price in NG21 is £225,332, which is 67% below the Nottinghamshire average of £678,596.",
+    "priceVsNational": "Properties in NG21 cost 21.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NG21 have fallen 6.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "NG21 has a crime rate of 83.5 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "NG21 has 10 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NG21 are 329.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NG21 (MANSFIELD) offers affordable property prices (£225,332, 21% below national average), 10 nearby schools, and excellent broadband (329 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 678596,
+      "crime": 75,
+      "broadband": 329
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 329
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

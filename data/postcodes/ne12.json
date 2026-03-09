@@ -1,0 +1,197 @@
+{
+  "code": "NE12",
+  "name": "NEWCASTLE UPON TYNE",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "newcastle-upon-tyne",
+  "adjacent": [
+    "NE11",
+    "NE13"
+  ],
+  "property": {
+    "avgPrice": 229027,
+    "medianPrice": 182000,
+    "priceChange1y": 0.9,
+    "priceChange5y": 0,
+    "transactions12m": 1717,
+    "byType": {
+      "detached": {
+        "avg": 343584,
+        "count": 308
+      },
+      "semi": {
+        "avg": 207667,
+        "count": 554
+      },
+      "terraced": {
+        "avg": 175344,
+        "count": 531
+      },
+      "flat": {
+        "avg": 107712,
+        "count": 262
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 252191
+      },
+      {
+        "year": 2024,
+        "avg": 215002
+      },
+      {
+        "year": 2025,
+        "avg": 216889
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 47.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -42.1,
+    "byType": {
+      "violentCrime": 15.5,
+      "burglary": 1.7,
+      "vehicleCrime": 2.9,
+      "antisocialBehaviour": 7.4,
+      "otherTheft": 8,
+      "other": 11.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 2,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 2,
+    "nearest": [
+      {
+        "name": "Westmoor Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Amberley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bailey Green Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Balliol Primary School",
+        "type": "Primary",
+        "ofsted": "Inadequate"
+      },
+      {
+        "name": "Benton Dene Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 215025,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 21,
+    "privateRent": 13,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 365,
+    "avgUpload": 66,
+    "superfastPct": 99,
+    "ultrafastPct": 90,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Tyneside",
+    "bandD": 2112,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.3,
+    "imdRank": 16825,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NE12 covers NEWCASTLE UPON TYNE in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in NE12 is £229,027, which is 14% below the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in NE12 cost 20.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NE12 have risen 0.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 47.1 recorded crimes per 1,000 residents, NE12 has a crime rate well 42% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NE12 has 17 schools within or near its boundaries, including 2 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NE12 are 365.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NE12 (NEWCASTLE UPON TYNE) offers affordable property prices (£229,027, 20% below national average), low crime (42% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (365 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 365
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 365
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

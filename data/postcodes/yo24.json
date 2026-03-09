@@ -1,0 +1,198 @@
+{
+  "code": "YO24",
+  "name": "YORK",
+  "county": "north-yorkshire",
+  "region": "yorkshire",
+  "city": "york",
+  "adjacent": [
+    "YO23",
+    "YO25",
+    "YO26"
+  ],
+  "property": {
+    "avgPrice": 342490,
+    "medianPrice": 280000,
+    "priceChange1y": -7.3,
+    "priceChange5y": 0,
+    "transactions12m": 1355,
+    "byType": {
+      "detached": {
+        "avg": 498681,
+        "count": 218
+      },
+      "semi": {
+        "avg": 319326,
+        "count": 492
+      },
+      "terraced": {
+        "avg": 325472,
+        "count": 424
+      },
+      "flat": {
+        "avg": 202996,
+        "count": 196
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 340404
+      },
+      {
+        "year": 2024,
+        "avg": 354399
+      },
+      {
+        "year": 2025,
+        "avg": 328608
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 72.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -11.1,
+    "byType": {
+      "violentCrime": 23.5,
+      "burglary": 2.9,
+      "vehicleCrime": 1.9,
+      "antisocialBehaviour": 20,
+      "otherTheft": 9.9,
+      "other": 14
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 3,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Dringhouses Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Paul's Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Mount School (York)",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Westfield Primary Community School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Acomb Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 209301,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 14,
+    "privateRent": 18,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 373,
+    "avgUpload": 67,
+    "superfastPct": 97,
+    "ultrafastPct": 94,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "York Council",
+    "bandD": 1725,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "YO24 covers YORK in North Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in YO24 is £342,490, broadly in line with the North Yorkshire average of £354,925.",
+    "priceVsNational": "Properties in YO24 cost 19.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in YO24 have fallen 7.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 72.3 recorded crimes per 1,000 residents, YO24 has a crime rate 11% below the national average of 81.3 per 1,000.",
+    "schoolContext": "YO24 has 12 schools within or near its boundaries, including 3 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in YO24 are 373.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "YO24 (YORK) offers property prices near the national average (£342,490), strong school provision (3 Outstanding-rated schools), and excellent broadband (373 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 354925,
+      "crime": 75,
+      "broadband": 373
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 373
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

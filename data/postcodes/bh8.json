@@ -1,0 +1,197 @@
+{
+  "code": "BH8",
+  "name": "BOURNEMOUTH",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "bournemouth",
+  "adjacent": [
+    "BH7",
+    "BH9",
+    "BH10"
+  ],
+  "property": {
+    "avgPrice": 341306,
+    "medianPrice": 300000,
+    "priceChange1y": -5.6,
+    "priceChange5y": 0,
+    "transactions12m": 1145,
+    "byType": {
+      "detached": {
+        "avg": 523251,
+        "count": 342
+      },
+      "semi": {
+        "avg": 340899,
+        "count": 173
+      },
+      "terraced": {
+        "avg": 295424,
+        "count": 138
+      },
+      "flat": {
+        "avg": 193519,
+        "count": 434
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 342649
+      },
+      {
+        "year": 2024,
+        "avg": 348839
+      },
+      {
+        "year": 2025,
+        "avg": 329213
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 101.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 24.5,
+    "byType": {
+      "violentCrime": 29.9,
+      "burglary": 3.6,
+      "vehicleCrime": 9.3,
+      "antisocialBehaviour": 18.3,
+      "otherTheft": 26.9,
+      "other": 13.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 2,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Park School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cambian Wing College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Bishop of Winchester Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bournemouth School for Girls",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Bournemouth School",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 386,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 96,
+    "gigabitPct": 96,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bournemouth Council",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.2,
+    "imdRank": 14820,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BH8 encompasses BOURNEMOUTH and its surrounding areas in Dorset, South West.",
+    "priceVsCounty": "The average property price in BH8 is £341,306, which is 20% below the Dorset average of £425,376.",
+    "priceVsNational": "Properties in BH8 cost 18.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BH8 have fallen 5.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 101.2 recorded crimes per 1,000 residents, BH8 has a crime rate significantly 24% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BH8 has 10 schools within or near its boundaries, including 2 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BH8 are 386.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BH8 (BOURNEMOUTH) offers property prices near the national average (£341,306), higher-than-average crime (24% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (386 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 386
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 386
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

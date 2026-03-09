@@ -1,0 +1,198 @@
+{
+  "code": "N9",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "N8",
+    "N10",
+    "N11"
+  ],
+  "property": {
+    "avgPrice": 383653,
+    "medianPrice": 387000,
+    "priceChange1y": -4.2,
+    "priceChange5y": 0,
+    "transactions12m": 1053,
+    "byType": {
+      "detached": {
+        "avg": 747326,
+        "count": 15
+      },
+      "semi": {
+        "avg": 477012,
+        "count": 141
+      },
+      "terraced": {
+        "avg": 407982,
+        "count": 592
+      },
+      "flat": {
+        "avg": 237294,
+        "count": 269
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 390284
+      },
+      {
+        "year": 2024,
+        "avg": 388382
+      },
+      {
+        "year": 2025,
+        "avg": 371881
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 150.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 85.5,
+    "byType": {
+      "violentCrime": 46.3,
+      "burglary": 7.5,
+      "vehicleCrime": 12.7,
+      "antisocialBehaviour": 33,
+      "otherTheft": 19.8,
+      "other": 31.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 1,
+    "good": 8,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Edmund's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Latymer All Saints CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Latymer School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "West Lea School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Starks Field Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 327434,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 17,
+    "privateRent": 27,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 372,
+    "avgUpload": 67,
+    "superfastPct": 98,
+    "ultrafastPct": 93,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Enfield",
+    "bandD": 1952,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.8,
+    "imdRank": 20418,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "N9 covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in N9 is £383,653, which is 71% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in N9 cost 33.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in N9 have fallen 4.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 150.8 recorded crimes per 1,000 residents, N9 has a crime rate significantly 85% above the national average of 81.3 per 1,000.",
+    "schoolContext": "N9 has 15 schools within or near its boundaries, including 1 rated Outstanding and 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in N9 are 372.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "N9 (LONDON) offers above-average property prices (£383,653, 34% above national average), higher-than-average crime (85% above national average), 15 nearby schools, and excellent broadband (372 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 372
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 372
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

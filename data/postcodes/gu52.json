@@ -1,0 +1,196 @@
+{
+  "code": "GU52",
+  "name": "FLEET",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU51"
+  ],
+  "property": {
+    "avgPrice": 503757,
+    "medianPrice": 485000,
+    "priceChange1y": 1.2,
+    "priceChange5y": 0,
+    "transactions12m": 770,
+    "byType": {
+      "detached": {
+        "avg": 666196,
+        "count": 302
+      },
+      "semi": {
+        "avg": 471479,
+        "count": 225
+      },
+      "terraced": {
+        "avg": 361141,
+        "count": 140
+      },
+      "flat": {
+        "avg": 257191,
+        "count": 98
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 491428
+      },
+      {
+        "year": 2024,
+        "avg": 507260
+      },
+      {
+        "year": 2025,
+        "avg": 513149
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 18.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -77,
+    "byType": {
+      "violentCrime": 9.5,
+      "burglary": 0.5,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 2.3,
+      "otherTheft": 1.9,
+      "other": 3.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Church Crookham Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Heatherside Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fleet Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Heatherside Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tweseldown Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 103162,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 9,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 344,
+    "avgUpload": 62,
+    "superfastPct": 99,
+    "ultrafastPct": 84,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hart",
+    "bandD": 2079,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 5.5,
+    "imdRank": 3284,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU52 is the postcode district for FLEET, located in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU52 is £503,757, which is 18% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU52 cost 75.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU52 have risen 1.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 18.7 recorded crimes per 1,000 residents, GU52 has a crime rate well 77% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU52 has 9 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU52 are 344.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU52 (FLEET) offers above-average property prices (£503,757, 76% above national average), low crime (77% below national average), 9 nearby schools, and excellent broadband (344 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 344
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 344
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

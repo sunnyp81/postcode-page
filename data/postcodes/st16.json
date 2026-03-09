@@ -1,0 +1,198 @@
+{
+  "code": "ST16",
+  "name": "STAFFORD",
+  "county": "staffordshire",
+  "region": "west-midlands",
+  "city": "stoke-on-trent",
+  "adjacent": [
+    "ST15",
+    "ST17",
+    "ST18"
+  ],
+  "property": {
+    "avgPrice": 324555,
+    "medianPrice": 220000,
+    "priceChange1y": 6.4,
+    "priceChange5y": 0,
+    "transactions12m": 1937,
+    "byType": {
+      "detached": {
+        "avg": 340106,
+        "count": 516
+      },
+      "semi": {
+        "avg": 221789,
+        "count": 607
+      },
+      "terraced": {
+        "avg": 177688,
+        "count": 514
+      },
+      "flat": {
+        "avg": 128711,
+        "count": 213
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 296304
+      },
+      {
+        "year": 2024,
+        "avg": 331786
+      },
+      {
+        "year": 2025,
+        "avg": 353094
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 99.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 22.8,
+    "byType": {
+      "violentCrime": 38.9,
+      "burglary": 2.4,
+      "vehicleCrime": 1.9,
+      "antisocialBehaviour": 14.6,
+      "otherTheft": 17.5,
+      "other": 24.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Leonard's Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Marshlands School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "John Wheeldon Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Patrick's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Sir Graham Balfour High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 141556,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 14,
+    "privateRent": 13,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 350,
+    "avgUpload": 63,
+    "superfastPct": 96,
+    "ultrafastPct": 86,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stafford",
+    "bandD": 2012,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.7,
+    "imdRank": 11220,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ST16 covers STAFFORD in Staffordshire, West Midlands.",
+    "priceVsCounty": "The average property price in ST16 is £324,555, which is 21% above the Staffordshire average of £267,729.",
+    "priceVsNational": "Properties in ST16 cost 13.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ST16 have risen 6.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 99.8 recorded crimes per 1,000 residents, ST16 has a crime rate significantly 23% above the national average of 81.3 per 1,000.",
+    "schoolContext": "ST16 has 12 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ST16 are 350.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "ST16 (STAFFORD) offers property prices near the national average (£324,555), higher-than-average crime (23% above national average), 12 nearby schools, and excellent broadband (350 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 267729,
+      "crime": 75,
+      "broadband": 350
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 350
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

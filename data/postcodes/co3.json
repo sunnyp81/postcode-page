@@ -1,0 +1,198 @@
+{
+  "code": "CO3",
+  "name": "COLCHESTER",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "colchester",
+  "adjacent": [
+    "CO2",
+    "CO4",
+    "CO5"
+  ],
+  "property": {
+    "avgPrice": 388117,
+    "medianPrice": 355000,
+    "priceChange1y": 1.3,
+    "priceChange5y": 0,
+    "transactions12m": 1697,
+    "byType": {
+      "detached": {
+        "avg": 500745,
+        "count": 661
+      },
+      "semi": {
+        "avg": 361137,
+        "count": 535
+      },
+      "terraced": {
+        "avg": 299829,
+        "count": 237
+      },
+      "flat": {
+        "avg": 187999,
+        "count": 223
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 398167
+      },
+      {
+        "year": 2024,
+        "avg": 380603
+      },
+      {
+        "year": 2025,
+        "avg": 385563
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 35.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -56.6,
+    "byType": {
+      "violentCrime": 16.6,
+      "burglary": 1.5,
+      "vehicleCrime": 2.9,
+      "antisocialBehaviour": 2.9,
+      "otherTheft": 4.8,
+      "other": 6.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 22,
+    "outstanding": 2,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 2,
+    "nearest": [
+      {
+        "name": "Hamilton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lexden Primary School with Unit for Hearing Impaired Pupils",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stanway Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Prettygate Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Prettygate Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 200222,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 13,
+    "privateRent": 19,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 330,
+    "avgUpload": 59,
+    "superfastPct": 98,
+    "ultrafastPct": 80,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Colchester",
+    "bandD": 2011,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.8,
+    "imdRank": 13956,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CO3 encompasses COLCHESTER and its surrounding areas in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CO3 is £388,117, which is 10% below the Essex average of £429,754.",
+    "priceVsNational": "Properties in CO3 cost 35.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CO3 have risen 1.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 35.3 recorded crimes per 1,000 residents, CO3 has a crime rate well 57% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CO3 has 22 schools within or near its boundaries, including 2 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CO3 are 330.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CO3 (COLCHESTER) offers above-average property prices (£388,117, 35% above national average), low crime (57% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (330 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 330
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 330
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

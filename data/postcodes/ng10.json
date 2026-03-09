@@ -1,0 +1,198 @@
+{
+  "code": "NG10",
+  "name": "NOTTINGHAM",
+  "county": "nottinghamshire",
+  "region": "east-midlands",
+  "city": "nottingham",
+  "adjacent": [
+    "NG9",
+    "NG11",
+    "NG12"
+  ],
+  "property": {
+    "avgPrice": 232457,
+    "medianPrice": 211000,
+    "priceChange1y": -0.7,
+    "priceChange5y": 0,
+    "transactions12m": 2128,
+    "byType": {
+      "detached": {
+        "avg": 325621,
+        "count": 502
+      },
+      "semi": {
+        "avg": 213983,
+        "count": 1024
+      },
+      "terraced": {
+        "avg": 170275,
+        "count": 415
+      },
+      "flat": {
+        "avg": 123419,
+        "count": 102
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 236461
+      },
+      {
+        "year": 2024,
+        "avg": 231518
+      },
+      {
+        "year": 2025,
+        "avg": 229920
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 78.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -3.6,
+    "byType": {
+      "violentCrime": 28.8,
+      "burglary": 1.8,
+      "vehicleCrime": 1.5,
+      "antisocialBehaviour": 11.2,
+      "otherTheft": 18.1,
+      "other": 16.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Harrington Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Parklands Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Grange Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Longmoor Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ladycross Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 114253,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 375,
+    "avgUpload": 68,
+    "superfastPct": 99,
+    "ultrafastPct": 93,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Erewash",
+    "bandD": 2054,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.8,
+    "imdRank": 14693,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NG10 covers NOTTINGHAM in Nottinghamshire, East Midlands.",
+    "priceVsCounty": "The average property price in NG10 is £232,457, which is 66% below the Nottinghamshire average of £678,596.",
+    "priceVsNational": "Properties in NG10 cost 19.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NG10 have fallen 0.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "NG10 has a crime rate of 78.4 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "NG10 has 19 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NG10 are 375.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NG10 (NOTTINGHAM) offers affordable property prices (£232,457, 19% below national average), 19 nearby schools, and excellent broadband (375 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 678596,
+      "crime": 75,
+      "broadband": 375
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 375
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

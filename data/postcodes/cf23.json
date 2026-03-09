@@ -1,0 +1,195 @@
+{
+  "code": "CF23",
+  "name": "CARDIFF",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF24"
+  ],
+  "property": {
+    "avgPrice": 366798,
+    "medianPrice": 280000,
+    "priceChange1y": -6.2,
+    "priceChange5y": 0,
+    "transactions12m": 1675,
+    "byType": {
+      "detached": {
+        "avg": 543543,
+        "count": 325
+      },
+      "semi": {
+        "avg": 369383,
+        "count": 436
+      },
+      "terraced": {
+        "avg": 290933,
+        "count": 523
+      },
+      "flat": {
+        "avg": 196069,
+        "count": 350
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 373406
+      },
+      {
+        "year": 2024,
+        "avg": 374207
+      },
+      {
+        "year": 2025,
+        "avg": 351123
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 45.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -44,
+    "byType": {
+      "violentCrime": 17.2,
+      "burglary": 2,
+      "vehicleCrime": 2.5,
+      "antisocialBehaviour": 5.7,
+      "otherTheft": 6.5,
+      "other": 11.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Lakeside Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Llanedeyrn Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Springwood Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bryn Celyn Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Y Berllan Deg",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 383919,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 341,
+    "avgUpload": 61,
+    "superfastPct": 98,
+    "ultrafastPct": 86,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF23 is the postcode district for CARDIFF, located in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF23 is £366,798, which is 33% above the Cardiff average of £275,506.",
+    "priceVsNational": "Properties in CF23 cost 27.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CF23 have fallen 6.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 45.5 recorded crimes per 1,000 residents, CF23 has a crime rate well 44% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CF23 has 20 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF23 are 341.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF23 (CARDIFF) offers above-average property prices (£366,798, 28% above national average), low crime (44% below national average), 20 nearby schools, and excellent broadband (341 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 341
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 341
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

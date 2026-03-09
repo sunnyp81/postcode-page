@@ -1,0 +1,191 @@
+{
+  "code": "TR26",
+  "name": "ST IVES",
+  "county": "cornwall",
+  "region": "south-west",
+  "city": "truro",
+  "adjacent": [
+    "TR27"
+  ],
+  "property": {
+    "avgPrice": 488574,
+    "medianPrice": 392500,
+    "priceChange1y": -10.6,
+    "priceChange5y": 0,
+    "transactions12m": 715,
+    "byType": {
+      "detached": {
+        "avg": 671883,
+        "count": 201
+      },
+      "semi": {
+        "avg": 437293,
+        "count": 82
+      },
+      "terraced": {
+        "avg": 415138,
+        "count": 185
+      },
+      "flat": {
+        "avg": 322374,
+        "count": 168
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 499935
+      },
+      {
+        "year": 2024,
+        "avg": 505740
+      },
+      {
+        "year": 2025,
+        "avg": 452113
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 19,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -76.6,
+    "byType": {
+      "violentCrime": 8.5,
+      "burglary": 0.3,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 4.1,
+      "otherTheft": 1.9,
+      "other": 3.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Ives Junior School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "St Ives Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Ives School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Uny CofE Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 583289,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 97,
+    "avgUpload": 17,
+    "superfastPct": 93,
+    "ultrafastPct": 13,
+    "gigabitPct": 13,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Truro Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.1,
+    "imdRank": 19382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TR26 covers ST IVES in Cornwall, South West.",
+    "priceVsCounty": "The average property price in TR26 is £488,574, which is 21% above the Cornwall average of £402,222.",
+    "priceVsNational": "Properties in TR26 cost 70.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TR26 have fallen 10.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 19.0 recorded crimes per 1,000 residents, TR26 has a crime rate well 77% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TR26 has 4 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TR26 are 97.0 Mbps, with 85% of premises having access to superfast broadband and 42% with full fibre (FTTP) connectivity.",
+    "synthesis": "TR26 (ST IVES) offers above-average property prices (£488,574, 70% above national average), low crime (77% below national average), 4 nearby schools, and good broadband connectivity (97 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 402222,
+      "crime": 75,
+      "broadband": 97
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 97
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

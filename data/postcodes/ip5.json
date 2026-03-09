@@ -1,0 +1,198 @@
+{
+  "code": "IP5",
+  "name": "IPSWICH",
+  "county": "suffolk",
+  "region": "east-of-england",
+  "city": "ipswich",
+  "adjacent": [
+    "IP4",
+    "IP6",
+    "IP7"
+  ],
+  "property": {
+    "avgPrice": 345893,
+    "medianPrice": 320000,
+    "priceChange1y": 6.6,
+    "priceChange5y": 0,
+    "transactions12m": 921,
+    "byType": {
+      "detached": {
+        "avg": 433255,
+        "count": 396
+      },
+      "semi": {
+        "avg": 305328,
+        "count": 224
+      },
+      "terraced": {
+        "avg": 260946,
+        "count": 161
+      },
+      "flat": {
+        "avg": 220286,
+        "count": 124
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 349377
+      },
+      {
+        "year": 2024,
+        "avg": 334903
+      },
+      {
+        "year": 2025,
+        "avg": 357056
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -90.2,
+    "byType": {
+      "violentCrime": 3.9,
+      "burglary": 0.2,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 1.2,
+      "otherTheft": 0.9,
+      "other": 1.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Heath Primary School, Kesgrave",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Gorseland Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Birchwood Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cedarwood Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kesgrave High School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 140274,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 21,
+    "privateRent": 21,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 326,
+    "avgUpload": 59,
+    "superfastPct": 97,
+    "ultrafastPct": 79,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Ipswich",
+    "bandD": 2155,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.9,
+    "imdRank": 19866,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IP5 encompasses IPSWICH and its surrounding areas in Suffolk, East Of England.",
+    "priceVsCounty": "The average property price in IP5 is £345,893, which is 9% below the Suffolk average of £379,904.",
+    "priceVsNational": "Properties in IP5 cost 20.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IP5 have risen 6.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 8.0 recorded crimes per 1,000 residents, IP5 has a crime rate well 90% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IP5 has 5 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IP5 are 326.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "IP5 (IPSWICH) offers above-average property prices (£345,893, 21% above national average), low crime (90% below national average), 5 nearby schools, and excellent broadband (326 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 379904,
+      "crime": 75,
+      "broadband": 326
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 326
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

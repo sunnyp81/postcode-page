@@ -1,0 +1,198 @@
+{
+  "code": "TS26",
+  "name": "HARTLEPOOL",
+  "county": "teesside",
+  "region": "north-east",
+  "city": "middlesbrough",
+  "adjacent": [
+    "TS25",
+    "TS27",
+    "TS28"
+  ],
+  "property": {
+    "avgPrice": 166523,
+    "medianPrice": 128750,
+    "priceChange1y": -1.1,
+    "priceChange5y": 0,
+    "transactions12m": 1818,
+    "byType": {
+      "detached": {
+        "avg": 306283,
+        "count": 514
+      },
+      "semi": {
+        "avg": 166393,
+        "count": 381
+      },
+      "terraced": {
+        "avg": 74326,
+        "count": 843
+      },
+      "flat": {
+        "avg": 103458,
+        "count": 50
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 165294
+      },
+      {
+        "year": 2024,
+        "avg": 167992
+      },
+      {
+        "year": 2025,
+        "avg": 166181
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 189.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 132.6,
+    "byType": {
+      "violentCrime": 65.2,
+      "burglary": 6.5,
+      "vehicleCrime": 5.4,
+      "antisocialBehaviour": 30.7,
+      "otherTheft": 39,
+      "other": 42.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Throston Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "High Tunstall College of Science",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eldon Grove Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "West Park Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sacred Heart Catholic Primary School, Hartlepool",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 98180,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 23,
+    "privateRent": 16,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 390,
+    "avgUpload": 70,
+    "superfastPct": 100,
+    "ultrafastPct": 97,
+    "gigabitPct": 97,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Middlesbrough Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 35,
+    "imdRank": 22581,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TS26 is the postcode district for HARTLEPOOL, located in Teesside, North East.",
+    "priceVsCounty": "The average property price in TS26 is £166,523, which is 12% below the Teesside average of £189,841.",
+    "priceVsNational": "Properties in TS26 cost 42.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TS26 have fallen 1.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 189.1 recorded crimes per 1,000 residents, TS26 has a crime rate significantly 133% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TS26 has 7 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TS26 are 390.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TS26 (HARTLEPOOL) offers affordable property prices (£166,523, 42% below national average), higher-than-average crime (133% above national average), 7 nearby schools, and excellent broadband (390 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 189841,
+      "crime": 75,
+      "broadband": 390
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 390
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

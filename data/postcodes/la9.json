@@ -1,0 +1,197 @@
+{
+  "code": "LA9",
+  "name": "KENDAL",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "lancaster",
+  "adjacent": [
+    "LA8",
+    "LA10",
+    "LA11"
+  ],
+  "property": {
+    "avgPrice": 300551,
+    "medianPrice": 255000,
+    "priceChange1y": -8.2,
+    "priceChange5y": 0,
+    "transactions12m": 1738,
+    "byType": {
+      "detached": {
+        "avg": 462376,
+        "count": 385
+      },
+      "semi": {
+        "avg": 273112,
+        "count": 483
+      },
+      "terraced": {
+        "avg": 245289,
+        "count": 487
+      },
+      "flat": {
+        "avg": 177280,
+        "count": 315
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 311198
+      },
+      {
+        "year": 2024,
+        "avg": 306127
+      },
+      {
+        "year": 2025,
+        "avg": 280889
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 48.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -39.9,
+    "byType": {
+      "violentCrime": 22.5,
+      "burglary": 1.2,
+      "vehicleCrime": 1,
+      "antisocialBehaviour": 3.9,
+      "otherTheft": 6.8,
+      "other": 13.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Kendal Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Heron Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Vicarage Park CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Oswald's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Thomas's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 369,
+    "avgUpload": 66,
+    "superfastPct": 99,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lancaster Council",
+    "bandD": 2251,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LA9 covers KENDAL in Lancashire, North West.",
+    "priceVsCounty": "The average property price in LA9 is £300,551, which is 18% above the Lancashire average of £254,476.",
+    "priceVsNational": "Property values in LA9 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in LA9 have fallen 8.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 48.9 recorded crimes per 1,000 residents, LA9 has a crime rate well 40% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LA9 has 17 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LA9 are 369.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LA9 (KENDAL) offers property prices near the national average (£300,551), low crime (40% below national average), 17 nearby schools, and excellent broadband (369 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 369
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 369
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

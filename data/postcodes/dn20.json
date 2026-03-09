@@ -1,0 +1,198 @@
+{
+  "code": "DN20",
+  "name": "BRIGG",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "doncaster",
+  "adjacent": [
+    "DN19",
+    "DN21",
+    "DN22"
+  ],
+  "property": {
+    "avgPrice": 234893,
+    "medianPrice": 200000,
+    "priceChange1y": 0.5,
+    "priceChange5y": 0,
+    "transactions12m": 977,
+    "byType": {
+      "detached": {
+        "avg": 299370,
+        "count": 464
+      },
+      "semi": {
+        "avg": 169207,
+        "count": 325
+      },
+      "terraced": {
+        "avg": 141441,
+        "count": 123
+      },
+      "flat": {
+        "avg": 87855,
+        "count": 28
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 235966
+      },
+      {
+        "year": 2024,
+        "avg": 233831
+      },
+      {
+        "year": 2025,
+        "avg": 235100
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 16.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -80,
+    "byType": {
+      "violentCrime": 7.8,
+      "burglary": 0.7,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 1.5,
+      "otherTheft": 2.3,
+      "other": 3.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Brigg Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sir John Nelthorpe School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hestia School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Vale Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's Catholic Primary Voluntary Academy (Brigg)",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 171336,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 15,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 314,
+    "avgUpload": 57,
+    "superfastPct": 92,
+    "ultrafastPct": 76,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Doncaster Council",
+    "bandD": 2168,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.1,
+    "imdRank": 17200,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DN20 is the postcode district for BRIGG, located in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in DN20 is £234,893, broadly in line with the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in DN20 cost 18.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DN20 have risen 0.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 16.3 recorded crimes per 1,000 residents, DN20 has a crime rate well 80% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DN20 has 11 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DN20 are 314.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DN20 (BRIGG) offers affordable property prices (£234,893, 18% below national average), low crime (80% below national average), 11 nearby schools, and excellent broadband (314 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 314
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 314
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "SS15",
+  "name": "BASILDON",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "southend-on-sea",
+  "adjacent": [
+    "SS14",
+    "SS16",
+    "SS17"
+  ],
+  "property": {
+    "avgPrice": 330089,
+    "medianPrice": 325000,
+    "priceChange1y": 2.7,
+    "priceChange5y": 0,
+    "transactions12m": 1203,
+    "byType": {
+      "detached": {
+        "avg": 501178,
+        "count": 170
+      },
+      "semi": {
+        "avg": 390396,
+        "count": 176
+      },
+      "terraced": {
+        "avg": 328957,
+        "count": 527
+      },
+      "flat": {
+        "avg": 201383,
+        "count": 302
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 324872
+      },
+      {
+        "year": 2024,
+        "avg": 328047
+      },
+      {
+        "year": 2025,
+        "avg": 336908
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 75.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -7.5,
+    "byType": {
+      "violentCrime": 33.2,
+      "burglary": 2.5,
+      "vehicleCrime": 7.3,
+      "antisocialBehaviour": 6.4,
+      "otherTheft": 7.6,
+      "other": 18.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Millhouse Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Anne Line Catholic Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The James Hornsby School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Phoenix Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Merrylands Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 193632,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 21,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 354,
+    "avgUpload": 64,
+    "superfastPct": 98,
+    "ultrafastPct": 89,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Basildon",
+    "bandD": 2063,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.2,
+    "imdRank": 17744,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SS15 is the postcode district for BASILDON, located in Essex, East Of England.",
+    "priceVsCounty": "The average property price in SS15 is £330,089, which is 23% below the Essex average of £429,754.",
+    "priceVsNational": "Properties in SS15 cost 15.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SS15 have risen 2.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 75.2 recorded crimes per 1,000 residents, SS15 has a crime rate 8% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SS15 has 9 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SS15 are 354.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SS15 (BASILDON) offers property prices near the national average (£330,089), 9 nearby schools, and excellent broadband (354 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 354
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 354
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

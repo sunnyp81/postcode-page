@@ -1,0 +1,198 @@
+{
+  "code": "NN10",
+  "name": "RUSHDEN",
+  "county": "northamptonshire",
+  "region": "east-midlands",
+  "city": "northampton",
+  "adjacent": [
+    "NN9",
+    "NN11",
+    "NN12"
+  ],
+  "property": {
+    "avgPrice": 261330,
+    "medianPrice": 240000,
+    "priceChange1y": 2.7,
+    "priceChange5y": 0,
+    "transactions12m": 1840,
+    "byType": {
+      "detached": {
+        "avg": 375919,
+        "count": 469
+      },
+      "semi": {
+        "avg": 251748,
+        "count": 566
+      },
+      "terraced": {
+        "avg": 211087,
+        "count": 558
+      },
+      "flat": {
+        "avg": 128647,
+        "count": 185
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 258021
+      },
+      {
+        "year": 2024,
+        "avg": 259317
+      },
+      {
+        "year": 2025,
+        "avg": 266420
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 89.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 10.5,
+    "byType": {
+      "violentCrime": 28.1,
+      "burglary": 2.3,
+      "vehicleCrime": 4.7,
+      "antisocialBehaviour": 17.5,
+      "otherTheft": 22.3,
+      "other": 14.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Lawrence Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Alfred Lord Tennyson School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "South End Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "South End Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Denfield Park Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 194976,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 16,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 389,
+    "avgUpload": 70,
+    "superfastPct": 99,
+    "ultrafastPct": 97,
+    "gigabitPct": 97,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Northampton Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.9,
+    "imdRank": 15291,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NN10 is the postcode district for RUSHDEN, located in Northamptonshire, East Midlands.",
+    "priceVsCounty": "The average property price in NN10 is £261,330, which is 19% below the Northamptonshire average of £323,962.",
+    "priceVsNational": "Properties in NN10 cost 8.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NN10 have risen 2.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 89.8 recorded crimes per 1,000 residents, NN10 has a crime rate 10% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NN10 has 14 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NN10 are 389.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NN10 (RUSHDEN) offers property prices near the national average (£261,330), 14 nearby schools, and excellent broadband (389 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 323962,
+      "crime": 75,
+      "broadband": 389
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 389
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

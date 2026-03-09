@@ -1,0 +1,198 @@
+{
+  "code": "B17",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B16",
+    "B18",
+    "B19"
+  ],
+  "property": {
+    "avgPrice": 358733,
+    "medianPrice": 303000,
+    "priceChange1y": 9.8,
+    "priceChange5y": 0,
+    "transactions12m": 1055,
+    "byType": {
+      "detached": {
+        "avg": 730333,
+        "count": 104
+      },
+      "semi": {
+        "avg": 436623,
+        "count": 245
+      },
+      "terraced": {
+        "avg": 324440,
+        "count": 419
+      },
+      "flat": {
+        "avg": 174923,
+        "count": 249
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 359188
+      },
+      {
+        "year": 2024,
+        "avg": 344473
+      },
+      {
+        "year": 2025,
+        "avg": 378155
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 105.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 29.3,
+    "byType": {
+      "violentCrime": 43.4,
+      "burglary": 7.4,
+      "vehicleCrime": 11.6,
+      "antisocialBehaviour": 6.6,
+      "otherTheft": 16.7,
+      "other": 19.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "George Dixon Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "St Mary's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Blue Coat School Birmingham",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Baskerville School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Queen Alexandra College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 386,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 96,
+    "gigabitPct": 96,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B17 encompasses BIRMINGHAM and its surrounding areas in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B17 is £358,733, which is 7% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B17 cost 25.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B17 have risen 9.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 105.1 recorded crimes per 1,000 residents, B17 has a crime rate significantly 29% above the national average of 81.3 per 1,000.",
+    "schoolContext": "B17 has 10 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B17 are 386.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B17 (BIRMINGHAM) offers above-average property prices (£358,733, 25% above national average), higher-than-average crime (29% above national average), 10 nearby schools, and excellent broadband (386 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 386
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 386
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "DL5",
+  "name": "NEWTON AYCLIFFE",
+  "county": "county-durham",
+  "region": "north-east",
+  "city": "darlington",
+  "adjacent": [
+    "DL4",
+    "DL6",
+    "DL7"
+  ],
+  "property": {
+    "avgPrice": 157923,
+    "medianPrice": 138000,
+    "priceChange1y": 1.7,
+    "priceChange5y": 0,
+    "transactions12m": 1397,
+    "byType": {
+      "detached": {
+        "avg": 248808,
+        "count": 423
+      },
+      "semi": {
+        "avg": 142487,
+        "count": 349
+      },
+      "terraced": {
+        "avg": 96161,
+        "count": 570
+      },
+      "flat": {
+        "avg": 70609,
+        "count": 23
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 147332
+      },
+      {
+        "year": 2024,
+        "avg": 162561
+      },
+      {
+        "year": 2025,
+        "avg": 165386
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 76.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -5.7,
+    "byType": {
+      "violentCrime": 27.7,
+      "burglary": 2.5,
+      "vehicleCrime": 2,
+      "antisocialBehaviour": 17.6,
+      "otherTheft": 9.7,
+      "other": 17.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Byerley Park Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Sugar Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Francis Horndale CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Walworth School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Thornbeck College - North East Autism Society",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 112489,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 16,
+    "privateRent": 19,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 96,
+    "avgUpload": 17,
+    "superfastPct": 95,
+    "ultrafastPct": 27,
+    "gigabitPct": 7,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Darlington Council",
+    "bandD": 2115,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.7,
+    "imdRank": 18284,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DL5 encompasses NEWTON AYCLIFFE and its surrounding areas in County Durham, North East.",
+    "priceVsCounty": "The average property price in DL5 is £157,923, which is 24% below the County Durham average of £207,512.",
+    "priceVsNational": "Properties in DL5 cost 45.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DL5 have risen 1.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 76.7 recorded crimes per 1,000 residents, DL5 has a crime rate 6% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DL5 has 17 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DL5 are 96.0 Mbps, with 84% of premises having access to superfast broadband and 41% with full fibre (FTTP) connectivity.",
+    "synthesis": "DL5 (NEWTON AYCLIFFE) offers affordable property prices (£157,923, 45% below national average), 17 nearby schools, and good broadband connectivity (96 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 207512,
+      "crime": 75,
+      "broadband": 96
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 96
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

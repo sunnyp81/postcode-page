@@ -1,0 +1,198 @@
+{
+  "code": "CA4",
+  "name": "CARLISLE",
+  "county": "cumbria",
+  "region": "north-west",
+  "city": "carlisle",
+  "adjacent": [
+    "CA3",
+    "CA5",
+    "CA6"
+  ],
+  "property": {
+    "avgPrice": 308695,
+    "medianPrice": 266750,
+    "priceChange1y": 1.5,
+    "priceChange5y": 0,
+    "transactions12m": 480,
+    "byType": {
+      "detached": {
+        "avg": 407953,
+        "count": 198
+      },
+      "semi": {
+        "avg": 259861,
+        "count": 149
+      },
+      "terraced": {
+        "avg": 202818,
+        "count": 77
+      },
+      "flat": {
+        "avg": 168125,
+        "count": 36
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 309280
+      },
+      {
+        "year": 2024,
+        "avg": 306010
+      },
+      {
+        "year": 2025,
+        "avg": 310712
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Armathwaite School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cumwhinton School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "High Hesket CofE School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ivegill CofE School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Scotby CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 117,
+    "avgUpload": 21,
+    "superfastPct": 76,
+    "ultrafastPct": 21,
+    "gigabitPct": 21,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cumberland",
+    "bandD": 2175,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CA4 is the postcode district for CARLISLE, located in Cumbria, North West.",
+    "priceVsCounty": "The average property price in CA4 is £308,695, which is 26% above the Cumbria average of £244,524.",
+    "priceVsNational": "Properties in CA4 cost 7.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CA4 have risen 1.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, CA4 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CA4 has 8 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CA4 are 117.0 Mbps, with 88% of premises having access to superfast broadband and 47% with full fibre (FTTP) connectivity.",
+    "synthesis": "CA4 (CARLISLE) offers property prices near the national average (£308,695), low crime (94% below national average), 8 nearby schools, and excellent broadband (117 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 244524,
+      "crime": 75,
+      "broadband": 117
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 117
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

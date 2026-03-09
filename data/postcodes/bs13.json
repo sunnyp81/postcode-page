@@ -1,0 +1,197 @@
+{
+  "code": "BS13",
+  "name": "BRISTOL",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS14",
+    "BS15"
+  ],
+  "property": {
+    "avgPrice": 297659,
+    "medianPrice": 275000,
+    "priceChange1y": -2.3,
+    "priceChange5y": 0,
+    "transactions12m": 1097,
+    "byType": {
+      "detached": {
+        "avg": 399603,
+        "count": 42
+      },
+      "semi": {
+        "avg": 324600,
+        "count": 379
+      },
+      "terraced": {
+        "avg": 286527,
+        "count": 437
+      },
+      "flat": {
+        "avg": 185518,
+        "count": 207
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 287715
+      },
+      {
+        "year": 2024,
+        "avg": 307211
+      },
+      {
+        "year": 2025,
+        "avg": 300025
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 147.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 81.9,
+    "byType": {
+      "violentCrime": 63.1,
+      "burglary": 3.4,
+      "vehicleCrime": 4.4,
+      "antisocialBehaviour": 24.5,
+      "otherTheft": 21,
+      "other": 31.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Hartcliffe Nursery School and Children's Centre",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fair Furlong Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Belgrave School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "New Fosseway School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Peter's Church of England Primary School (VC)",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 224578,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 9,
+    "privateRent": 16,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 393,
+    "avgUpload": 71,
+    "superfastPct": 99,
+    "ultrafastPct": 98,
+    "gigabitPct": 98,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.8,
+    "imdRank": 11811,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS13 covers BRISTOL in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS13 is £297,659, which is 34% below the Bristol average of £449,132.",
+    "priceVsNational": "Property values in BS13 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in BS13 have fallen 2.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 147.9 recorded crimes per 1,000 residents, BS13 has a crime rate significantly 82% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BS13 has 14 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS13 are 393.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS13 (BRISTOL) offers property prices near the national average (£297,659), higher-than-average crime (82% above national average), 14 nearby schools, and excellent broadband (393 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 393
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 393
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

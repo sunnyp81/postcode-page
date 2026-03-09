@@ -1,0 +1,197 @@
+{
+  "code": "HU11",
+  "name": "HULL",
+  "county": "east-yorkshire",
+  "region": "yorkshire",
+  "city": "hull",
+  "adjacent": [
+    "HU10",
+    "HU12",
+    "HU13"
+  ],
+  "property": {
+    "avgPrice": 230055,
+    "medianPrice": 190000,
+    "priceChange1y": 13.4,
+    "priceChange5y": 0,
+    "transactions12m": 495,
+    "byType": {
+      "detached": {
+        "avg": 325459,
+        "count": 147
+      },
+      "semi": {
+        "avg": 192929,
+        "count": 238
+      },
+      "terraced": {
+        "avg": 154168,
+        "count": 83
+      },
+      "flat": {
+        "avg": 87550,
+        "count": 10
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 225918
+      },
+      {
+        "year": 2024,
+        "avg": 218929
+      },
+      {
+        "year": 2025,
+        "avg": 248338
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Aldbrough Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Skirlaugh Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sigglesthorne Church of England Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Sproatley Endowed Church of England Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Riston Church of England Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 39,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 258,
+    "avgUpload": 46,
+    "superfastPct": 90,
+    "ultrafastPct": 60,
+    "gigabitPct": 60,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hull Council",
+    "bandD": 2236,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 40.6,
+    "imdRank": 25222,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HU11 covers HULL in East Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HU11 is £230,055, which is 9% above the East Yorkshire average of £211,309.",
+    "priceVsNational": "Properties in HU11 cost 19.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HU11 have risen 13.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, HU11 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HU11 has 6 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HU11 are 258.0 Mbps, with 99% of premises having access to superfast broadband and 86% with full fibre (FTTP) connectivity.",
+    "synthesis": "HU11 (HULL) offers affordable property prices (£230,055, 20% below national average), low crime (94% below national average), 6 nearby schools, and excellent broadband (258 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 211309,
+      "crime": 75,
+      "broadband": 258
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 258
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

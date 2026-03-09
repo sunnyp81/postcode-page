@@ -1,0 +1,198 @@
+{
+  "code": "GU8",
+  "name": "GODALMING",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU7",
+    "GU9",
+    "GU10"
+  ],
+  "property": {
+    "avgPrice": 943745,
+    "medianPrice": 630000,
+    "priceChange1y": -24.5,
+    "priceChange5y": 0,
+    "transactions12m": 644,
+    "byType": {
+      "detached": {
+        "avg": 1148988,
+        "count": 269
+      },
+      "semi": {
+        "avg": 579474,
+        "count": 180
+      },
+      "terraced": {
+        "avg": 479804,
+        "count": 90
+      },
+      "flat": {
+        "avg": 407003,
+        "count": 59
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 854149
+      },
+      {
+        "year": 2024,
+        "avg": 1114463
+      },
+      {
+        "year": 2025,
+        "avg": 841739
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.1,
+      "burglary": 0.5,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.3,
+      "otherTheft": 0.4,
+      "other": 0.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Milford School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Witley CofE Controlled Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St James CofE Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Chandler CofE Aided Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "King Edward's School Witley",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 134284,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 12,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 258,
+    "avgUpload": 46,
+    "superfastPct": 91,
+    "ultrafastPct": 60,
+    "gigabitPct": 60,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Waverley",
+    "bandD": 2263,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 7.5,
+    "imdRank": 5343,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU8 encompasses GODALMING and its surrounding areas in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU8 is £943,745, which is 54% above the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU8 cost 228.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU8 have fallen 24.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, GU8 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU8 has 10 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU8 are 258.0 Mbps, with 99% of premises having access to superfast broadband and 86% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU8 (GODALMING) offers above-average property prices (£943,745, 229% above national average), low crime (94% below national average), 10 nearby schools, and excellent broadband (258 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 258
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 258
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

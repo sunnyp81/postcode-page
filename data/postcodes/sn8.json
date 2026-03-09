@@ -1,0 +1,198 @@
+{
+  "code": "SN8",
+  "name": "MARLBOROUGH",
+  "county": "wiltshire",
+  "region": "south-west",
+  "city": "swindon",
+  "adjacent": [
+    "SN7",
+    "SN9",
+    "SN10"
+  ],
+  "property": {
+    "avgPrice": 567428,
+    "medianPrice": 450000,
+    "priceChange1y": -8.1,
+    "priceChange5y": 0,
+    "transactions12m": 901,
+    "byType": {
+      "detached": {
+        "avg": 762134,
+        "count": 356
+      },
+      "semi": {
+        "avg": 425463,
+        "count": 190
+      },
+      "terraced": {
+        "avg": 373093,
+        "count": 200
+      },
+      "flat": {
+        "avg": 228660,
+        "count": 89
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 583034
+      },
+      {
+        "year": 2024,
+        "avg": 581005
+      },
+      {
+        "year": 2025,
+        "avg": 534177
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 2,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ramsbury Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Collingbourne Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Preshute Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Michael's CofE Aided Primary",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Baydon St Nicholas Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 523700,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 158,
+    "avgUpload": 28,
+    "superfastPct": 83,
+    "ultrafastPct": 32,
+    "gigabitPct": 32,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swindon Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.4,
+    "imdRank": 11265,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SN8 is the postcode district for MARLBOROUGH, located in Wiltshire, South West.",
+    "priceVsCounty": "The average property price in SN8 is £567,428, which is 43% above the Wiltshire average of £397,459.",
+    "priceVsNational": "Properties in SN8 cost 97.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SN8 have fallen 8.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SN8 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SN8 has 14 schools within or near its boundaries, including 2 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SN8 are 158.0 Mbps, with 94% of premises having access to superfast broadband and 58% with full fibre (FTTP) connectivity.",
+    "synthesis": "SN8 (MARLBOROUGH) offers above-average property prices (£567,428, 98% above national average), low crime (94% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (158 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 397459,
+      "crime": 75,
+      "broadband": 158
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 158
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

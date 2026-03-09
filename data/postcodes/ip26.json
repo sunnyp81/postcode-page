@@ -1,0 +1,198 @@
+{
+  "code": "IP26",
+  "name": "THETFORD",
+  "county": "suffolk",
+  "region": "east-of-england",
+  "city": "ipswich",
+  "adjacent": [
+    "IP25",
+    "IP27",
+    "IP28"
+  ],
+  "property": {
+    "avgPrice": 344437,
+    "medianPrice": 265000,
+    "priceChange1y": -7.7,
+    "priceChange5y": 0,
+    "transactions12m": 435,
+    "byType": {
+      "detached": {
+        "avg": 345845,
+        "count": 233
+      },
+      "semi": {
+        "avg": 250891,
+        "count": 125
+      },
+      "terraced": {
+        "avg": 208105,
+        "count": 43
+      },
+      "flat": {
+        "avg": 119875,
+        "count": 8
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 325188
+      },
+      {
+        "year": 2024,
+        "avg": 366679
+      },
+      {
+        "year": 2025,
+        "avg": 338583
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Edmund de Moundeford VC Primary School, Feltwell",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Sheridan House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Iceni Secondary Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Duchy of Lancaster Methwold CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Norman Church of England Primary School, Northwold",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 146620,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 157,
+    "avgUpload": 28,
+    "superfastPct": 80,
+    "ultrafastPct": 32,
+    "gigabitPct": 32,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Breckland",
+    "bandD": 2114,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.6,
+    "imdRank": 16834,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IP26 encompasses THETFORD and its surrounding areas in Suffolk, East Of England.",
+    "priceVsCounty": "The average property price in IP26 is £344,437, which is 9% below the Suffolk average of £379,904.",
+    "priceVsNational": "Properties in IP26 cost 20.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IP26 have fallen 7.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, IP26 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IP26 has 7 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IP26 are 157.0 Mbps, with 94% of premises having access to superfast broadband and 58% with full fibre (FTTP) connectivity.",
+    "synthesis": "IP26 (THETFORD) offers above-average property prices (£344,437, 20% above national average), low crime (94% below national average), 7 nearby schools, and excellent broadband (157 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 379904,
+      "crime": 75,
+      "broadband": 157
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 157
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

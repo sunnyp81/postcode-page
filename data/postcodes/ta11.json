@@ -1,0 +1,192 @@
+{
+  "code": "TA11",
+  "name": "SOMERTON",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "taunton",
+  "adjacent": [
+    "TA10",
+    "TA12",
+    "TA13"
+  ],
+  "property": {
+    "avgPrice": 403280,
+    "medianPrice": 333000,
+    "priceChange1y": 14.7,
+    "priceChange5y": 0,
+    "transactions12m": 493,
+    "byType": {
+      "detached": {
+        "avg": 525079,
+        "count": 194
+      },
+      "semi": {
+        "avg": 315070,
+        "count": 136
+      },
+      "terraced": {
+        "avg": 270740,
+        "count": 87
+      },
+      "flat": {
+        "avg": 161433,
+        "count": 20
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 404280
+      },
+      {
+        "year": 2024,
+        "avg": 379802
+      },
+      {
+        "year": 2025,
+        "avg": 435563
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Keinton Mandeville Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Charlton Mackrell CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "King Ina Church of England Academy",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Compton Dundon School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 26693,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 194,
+    "avgUpload": 35,
+    "superfastPct": 96,
+    "ultrafastPct": 46,
+    "gigabitPct": 39,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Taunton Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TA11 is the postcode district for SOMERTON, located in Somerset, South West.",
+    "priceVsCounty": "The average property price in TA11 is £403,280, which is 8% above the Somerset average of £373,759.",
+    "priceVsNational": "Properties in TA11 cost 40.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TA11 have risen 14.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TA11 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TA11 has 4 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TA11 are 194.0 Mbps, with 99% of premises having access to superfast broadband and 68% with full fibre (FTTP) connectivity.",
+    "synthesis": "TA11 (SOMERTON) offers above-average property prices (£403,280, 41% above national average), low crime (94% below national average), 4 nearby schools, and excellent broadband (194 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 194
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 194
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

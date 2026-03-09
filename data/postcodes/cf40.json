@@ -1,0 +1,197 @@
+{
+  "code": "CF40",
+  "name": "TONYPANDY",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF39",
+    "CF41",
+    "CF42"
+  ],
+  "property": {
+    "avgPrice": 120063,
+    "medianPrice": 105000,
+    "priceChange1y": -3.8,
+    "priceChange5y": 0,
+    "transactions12m": 899,
+    "byType": {
+      "detached": {
+        "avg": 251631,
+        "count": 26
+      },
+      "semi": {
+        "avg": 160745,
+        "count": 78
+      },
+      "terraced": {
+        "avg": 105591,
+        "count": 738
+      },
+      "flat": {
+        "avg": 67063,
+        "count": 8
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 112653
+      },
+      {
+        "year": 2024,
+        "avg": 125888
+      },
+      {
+        "year": 2025,
+        "avg": 121092
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 36.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -55,
+    "byType": {
+      "violentCrime": 17.2,
+      "burglary": 0.5,
+      "vehicleCrime": 1.5,
+      "antisocialBehaviour": 4.3,
+      "otherTheft": 3.3,
+      "other": 9.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Alaw Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Llwynypia Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pontrhondda Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Trealaw Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Williamstown Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 285,
+    "avgUpload": 51,
+    "superfastPct": 98,
+    "ultrafastPct": 67,
+    "gigabitPct": 67,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF40 covers TONYPANDY in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF40 is £120,063, which is 56% below the Cardiff average of £275,506.",
+    "priceVsNational": "Properties in CF40 cost 58.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CF40 have fallen 3.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 36.6 recorded crimes per 1,000 residents, CF40 has a crime rate well 55% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CF40 has 9 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF40 are 285.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF40 (TONYPANDY) offers affordable property prices (£120,063, 58% below national average), low crime (55% below national average), 9 nearby schools, and excellent broadband (285 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 285
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 285
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

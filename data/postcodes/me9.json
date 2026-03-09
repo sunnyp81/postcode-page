@@ -1,0 +1,198 @@
+{
+  "code": "ME9",
+  "name": "SITTINGBOURNE",
+  "county": "kent",
+  "region": "south-east",
+  "city": "medway",
+  "adjacent": [
+    "ME8",
+    "ME10",
+    "ME11"
+  ],
+  "property": {
+    "avgPrice": 425716,
+    "medianPrice": 350000,
+    "priceChange1y": -1.4,
+    "priceChange5y": 0,
+    "transactions12m": 933,
+    "byType": {
+      "detached": {
+        "avg": 584708,
+        "count": 284
+      },
+      "semi": {
+        "avg": 341455,
+        "count": 318
+      },
+      "terraced": {
+        "avg": 282295,
+        "count": 233
+      },
+      "flat": {
+        "avg": 180741,
+        "count": 49
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 454919
+      },
+      {
+        "year": 2024,
+        "avg": 417573
+      },
+      {
+        "year": 2025,
+        "avg": 411742
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 80.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -0.9,
+    "byType": {
+      "violentCrime": 26.8,
+      "burglary": 1.5,
+      "vehicleCrime": 2.4,
+      "antisocialBehaviour": 18.9,
+      "otherTheft": 15.9,
+      "other": 15
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Lower Halstow Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rodmersham School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Newington Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Teynham Parochial Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bapchild and Tonge Church of England Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 158379,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 185,
+    "avgUpload": 33,
+    "superfastPct": 76,
+    "ultrafastPct": 42,
+    "gigabitPct": 40,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swale",
+    "bandD": 2094,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.1,
+    "imdRank": 19995,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ME9 encompasses SITTINGBOURNE and its surrounding areas in Kent, South East.",
+    "priceVsCounty": "The average property price in ME9 is £425,716, which is 6% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in ME9 cost 48.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ME9 have fallen 1.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "ME9 has a crime rate of 80.6 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "ME9 has 17 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ME9 are 185.0 Mbps, with 98% of premises having access to superfast broadband and 66% with full fibre (FTTP) connectivity.",
+    "synthesis": "ME9 (SITTINGBOURNE) offers above-average property prices (£425,716, 48% above national average), 17 nearby schools, and excellent broadband (185 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 185
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 185
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

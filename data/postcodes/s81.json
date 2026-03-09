@@ -1,0 +1,196 @@
+{
+  "code": "S81",
+  "name": "WORKSOP",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "sheffield",
+  "adjacent": [
+    "S80"
+  ],
+  "property": {
+    "avgPrice": 250570,
+    "medianPrice": 215000,
+    "priceChange1y": -5.5,
+    "priceChange5y": 0,
+    "transactions12m": 2214,
+    "byType": {
+      "detached": {
+        "avg": 309600,
+        "count": 896
+      },
+      "semi": {
+        "avg": 183886,
+        "count": 988
+      },
+      "terraced": {
+        "avg": 148633,
+        "count": 227
+      },
+      "flat": {
+        "avg": 182661,
+        "count": 41
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 259745
+      },
+      {
+        "year": 2024,
+        "avg": 252187
+      },
+      {
+        "year": 2025,
+        "avg": 238388
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 6.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -91.5,
+    "byType": {
+      "violentCrime": 2.8,
+      "burglary": 0.2,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 1.5,
+      "otherTheft": 0.3,
+      "other": 1.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ramsden Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Prospect Hill Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Prospect Hill Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Luke's CofE (Aided) Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Primary School of St Mary and St Martin",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 276595,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 21,
+    "privateRent": 13,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 324,
+    "avgUpload": 58,
+    "superfastPct": 96,
+    "ultrafastPct": 80,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Rotherham",
+    "bandD": 2126,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 29.6,
+    "imdRank": 21030,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "S81 encompasses WORKSOP and its surrounding areas in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in S81 is £250,570, which is 9% above the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in S81 cost 12.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in S81 have fallen 5.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 6.9 recorded crimes per 1,000 residents, S81 has a crime rate well 92% below the national average of 81.3 per 1,000.",
+    "schoolContext": "S81 has 15 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in S81 are 324.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "S81 (WORKSOP) offers property prices near the national average (£250,570), low crime (92% below national average), 15 nearby schools, and excellent broadband (324 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 324
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 324
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

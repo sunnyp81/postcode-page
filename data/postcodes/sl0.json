@@ -1,0 +1,192 @@
+{
+  "code": "SL0",
+  "name": "IVER",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "slough",
+  "adjacent": [
+    "SL1",
+    "SL2"
+  ],
+  "property": {
+    "avgPrice": 658008,
+    "medianPrice": 540000,
+    "priceChange1y": -16.4,
+    "priceChange5y": 0,
+    "transactions12m": 440,
+    "byType": {
+      "detached": {
+        "avg": 906908,
+        "count": 110
+      },
+      "semi": {
+        "avg": 622204,
+        "count": 143
+      },
+      "terraced": {
+        "avg": 433876,
+        "count": 75
+      },
+      "flat": {
+        "avg": 358859,
+        "count": 93
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 621532
+      },
+      {
+        "year": 2024,
+        "avg": 732941
+      },
+      {
+        "year": 2025,
+        "avg": 612578
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 13.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -82.9,
+    "byType": {
+      "violentCrime": 6,
+      "burglary": 0.3,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 1.7,
+      "otherTheft": 1.6,
+      "other": 3.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "The Iver Village Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Iver Heath Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Iver Heath Infant School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Iver Village Infant Academy",
+        "type": "Primary",
+        "ofsted": "Inadequate"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 167359,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 29,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 248,
+    "avgUpload": 45,
+    "superfastPct": 91,
+    "ultrafastPct": 57,
+    "gigabitPct": 57,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Slough Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23,
+    "imdRank": 19788,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SL0 covers IVER in Berkshire, South East.",
+    "priceVsCounty": "The average property price in SL0 is £658,008, which is 12% above the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in SL0 cost 129.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SL0 have fallen 16.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 13.9 recorded crimes per 1,000 residents, SL0 has a crime rate well 83% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SL0 has 4 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SL0 are 248.0 Mbps, with 99% of premises having access to superfast broadband and 83% with full fibre (FTTP) connectivity.",
+    "synthesis": "SL0 (IVER) offers above-average property prices (£658,008, 129% above national average), low crime (83% below national average), 4 nearby schools, and excellent broadband (248 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 248
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 248
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

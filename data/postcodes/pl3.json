@@ -1,0 +1,198 @@
+{
+  "code": "PL3",
+  "name": "PLYMOUTH",
+  "county": "devon",
+  "region": "south-west",
+  "city": "plymouth",
+  "adjacent": [
+    "PL2",
+    "PL4",
+    "PL5"
+  ],
+  "property": {
+    "avgPrice": 280501,
+    "medianPrice": 240000,
+    "priceChange1y": -1.1,
+    "priceChange5y": 0,
+    "transactions12m": 1485,
+    "byType": {
+      "detached": {
+        "avg": 413256,
+        "count": 135
+      },
+      "semi": {
+        "avg": 296238,
+        "count": 395
+      },
+      "terraced": {
+        "avg": 251284,
+        "count": 719
+      },
+      "flat": {
+        "avg": 147692,
+        "count": 197
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 299930
+      },
+      {
+        "year": 2024,
+        "avg": 272737
+      },
+      {
+        "year": 2025,
+        "avg": 269716
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 123.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 52.4,
+    "byType": {
+      "violentCrime": 54.3,
+      "burglary": 3.6,
+      "vehicleCrime": 5.1,
+      "antisocialBehaviour": 15.9,
+      "otherTheft": 17.5,
+      "other": 27.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Laira Green Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Compton CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "King's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stoke Damerel Community College",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Scott Medical and Healthcare College",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 272067,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 18,
+    "privateRent": 20,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 386,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 96,
+    "gigabitPct": 96,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Plymouth Council",
+    "bandD": 2319,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.6,
+    "imdRank": 19859,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PL3 covers PLYMOUTH in Devon, South West.",
+    "priceVsCounty": "The average property price in PL3 is £280,501, which is 27% below the Devon average of £385,452.",
+    "priceVsNational": "Property values in PL3 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in PL3 have fallen 1.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 123.9 recorded crimes per 1,000 residents, PL3 has a crime rate significantly 52% above the national average of 81.3 per 1,000.",
+    "schoolContext": "PL3 has 8 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PL3 are 386.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PL3 (PLYMOUTH) offers property prices near the national average (£280,501), higher-than-average crime (52% above national average), 8 nearby schools, and excellent broadband (386 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 386
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 386
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

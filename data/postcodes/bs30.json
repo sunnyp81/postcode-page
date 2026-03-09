@@ -1,0 +1,198 @@
+{
+  "code": "BS30",
+  "name": "BRISTOL",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS29",
+    "BS31",
+    "BS32"
+  ],
+  "property": {
+    "avgPrice": 358468,
+    "medianPrice": 324999,
+    "priceChange1y": -1.4,
+    "priceChange5y": 0,
+    "transactions12m": 1137,
+    "byType": {
+      "detached": {
+        "avg": 506475,
+        "count": 266
+      },
+      "semi": {
+        "avg": 349308,
+        "count": 378
+      },
+      "terraced": {
+        "avg": 295262,
+        "count": 352
+      },
+      "flat": {
+        "avg": 173036,
+        "count": 102
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 340629
+      },
+      {
+        "year": 2024,
+        "avg": 368730
+      },
+      {
+        "year": 2025,
+        "avg": 363435
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 28,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -65.6,
+    "byType": {
+      "violentCrime": 13.5,
+      "burglary": 1.4,
+      "vehicleCrime": 1,
+      "antisocialBehaviour": 3.9,
+      "otherTheft": 1.8,
+      "other": 6.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Longwell Green Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Anne's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wick Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Warmley Park School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sir Bernard Lovell Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 306332,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 11,
+    "privateRent": 14,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 295,
+    "avgUpload": 53,
+    "superfastPct": 97,
+    "ultrafastPct": 70,
+    "gigabitPct": 70,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9595,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS30 encompasses BRISTOL and its surrounding areas in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS30 is £358,468, which is 20% below the Bristol average of £449,132.",
+    "priceVsNational": "Properties in BS30 cost 24.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BS30 have fallen 1.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 28.0 recorded crimes per 1,000 residents, BS30 has a crime rate well 66% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BS30 has 14 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS30 are 295.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS30 (BRISTOL) offers above-average property prices (£358,468, 25% above national average), low crime (66% below national average), 14 nearby schools, and excellent broadband (295 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 295
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 295
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

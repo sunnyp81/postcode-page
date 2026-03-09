@@ -1,0 +1,198 @@
+{
+  "code": "AL2",
+  "name": "ST ALBANS",
+  "county": "hertfordshire",
+  "region": "south-east",
+  "city": "st-albans",
+  "adjacent": [
+    "AL1",
+    "AL3",
+    "AL4"
+  ],
+  "property": {
+    "avgPrice": 593124,
+    "medianPrice": 545000,
+    "priceChange1y": -0.4,
+    "priceChange5y": 0,
+    "transactions12m": 897,
+    "byType": {
+      "detached": {
+        "avg": 812043,
+        "count": 262
+      },
+      "semi": {
+        "avg": 606547,
+        "count": 231
+      },
+      "terraced": {
+        "avg": 498535,
+        "count": 197
+      },
+      "flat": {
+        "avg": 300047,
+        "count": 180
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 666439
+      },
+      {
+        "year": 2024,
+        "avg": 561340
+      },
+      {
+        "year": 2025,
+        "avg": 558950
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 12.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -85.1,
+    "byType": {
+      "violentCrime": 4,
+      "burglary": 0.5,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 2.3,
+      "otherTheft": 2.7,
+      "other": 1.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "London Colney Primary & Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bowmansgreen Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "How Wood Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Park Street Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Killigrew Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 110212,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 17,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 358,
+    "avgUpload": 64,
+    "superfastPct": 97,
+    "ultrafastPct": 89,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hertsmere",
+    "bandD": 2076,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.9,
+    "imdRank": 11669,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "AL2 encompasses ST ALBANS and its surrounding areas in Hertfordshire, South East.",
+    "priceVsCounty": "The average property price in AL2 is £593,124, broadly in line with the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in AL2 cost 106.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in AL2 have fallen 0.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 12.1 recorded crimes per 1,000 residents, AL2 has a crime rate well 85% below the national average of 81.3 per 1,000.",
+    "schoolContext": "AL2 has 7 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in AL2 are 358.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "AL2 (ST ALBANS) offers above-average property prices (£593,124, 107% above national average), low crime (85% below national average), 7 nearby schools, and excellent broadband (358 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 358
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 358
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

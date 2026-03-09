@@ -1,0 +1,198 @@
+{
+  "code": "HX2",
+  "name": "HALIFAX",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "halifax",
+  "adjacent": [
+    "HX1",
+    "HX3",
+    "HX4"
+  ],
+  "property": {
+    "avgPrice": 195303,
+    "medianPrice": 167000,
+    "priceChange1y": -2.4,
+    "priceChange5y": 0,
+    "transactions12m": 1598,
+    "byType": {
+      "detached": {
+        "avg": 372272,
+        "count": 153
+      },
+      "semi": {
+        "avg": 192121,
+        "count": 638
+      },
+      "terraced": {
+        "avg": 143588,
+        "count": 677
+      },
+      "flat": {
+        "avg": 145122,
+        "count": 82
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 185499
+      },
+      {
+        "year": 2024,
+        "avg": 202453
+      },
+      {
+        "year": 2025,
+        "avg": 197629
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 70.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -13.8,
+    "byType": {
+      "violentCrime": 32.7,
+      "burglary": 2.5,
+      "vehicleCrime": 3.2,
+      "antisocialBehaviour": 7.8,
+      "otherTheft": 7.7,
+      "other": 16.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 2,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Warley Town School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ling Bob Junior, Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ash Green Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Christ Church Pellon CofE VC Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wood Bank School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 210929,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 18,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 242,
+    "avgUpload": 44,
+    "superfastPct": 94,
+    "ultrafastPct": 55,
+    "gigabitPct": 55,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Calderdale",
+    "bandD": 2086,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.4,
+    "imdRank": 19705,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HX2 covers HALIFAX in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HX2 is £195,303, which is 30% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in HX2 cost 32.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HX2 have fallen 2.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 70.1 recorded crimes per 1,000 residents, HX2 has a crime rate 14% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HX2 has 21 schools within or near its boundaries, including 2 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HX2 are 242.0 Mbps, with 99% of premises having access to superfast broadband and 82% with full fibre (FTTP) connectivity.",
+    "synthesis": "HX2 (HALIFAX) offers affordable property prices (£195,303, 32% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (242 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 242
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 242
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

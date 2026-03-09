@@ -1,0 +1,198 @@
+{
+  "code": "RG26",
+  "name": "TADLEY",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [
+    "RG25",
+    "RG27",
+    "RG28"
+  ],
+  "property": {
+    "avgPrice": 450197,
+    "medianPrice": 381000,
+    "priceChange1y": -2,
+    "priceChange5y": 0,
+    "transactions12m": 1002,
+    "byType": {
+      "detached": {
+        "avg": 619682,
+        "count": 333
+      },
+      "semi": {
+        "avg": 391962,
+        "count": 275
+      },
+      "terraced": {
+        "avg": 315171,
+        "count": 259
+      },
+      "flat": {
+        "avg": 227806,
+        "count": 86
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 454142
+      },
+      {
+        "year": 2024,
+        "avg": 453038
+      },
+      {
+        "year": 2025,
+        "avg": 444040
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 6.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -92.4,
+    "byType": {
+      "violentCrime": 2.9,
+      "burglary": 0,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 0.8,
+      "otherTheft": 0.6,
+      "other": 1.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Tadley Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bishopswood Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bishopswood Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bramley Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Hurst School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 165112,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 217,
+    "avgUpload": 39,
+    "superfastPct": 92,
+    "ultrafastPct": 50,
+    "gigabitPct": 47,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Reading Council",
+    "bandD": 1606,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10,
+    "imdRank": 7974,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG26 encompasses TADLEY and its surrounding areas in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG26 is £450,197, which is 23% below the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG26 cost 56.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG26 have fallen 2.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 6.2 recorded crimes per 1,000 residents, RG26 has a crime rate well 92% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RG26 has 9 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG26 are 217.0 Mbps, with 99% of premises having access to superfast broadband and 75% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG26 (TADLEY) offers above-average property prices (£450,197, 57% above national average), low crime (92% below national average), 9 nearby schools, and excellent broadband (217 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 217
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 217
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

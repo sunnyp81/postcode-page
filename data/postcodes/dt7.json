@@ -1,0 +1,187 @@
+{
+  "code": "DT7",
+  "name": "LYME REGIS",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "dorchester",
+  "adjacent": [
+    "DT6",
+    "DT8",
+    "DT9"
+  ],
+  "property": {
+    "avgPrice": 518938,
+    "medianPrice": 450000,
+    "priceChange1y": -14.7,
+    "priceChange5y": 0,
+    "transactions12m": 357,
+    "byType": {
+      "detached": {
+        "avg": 717754,
+        "count": 144
+      },
+      "semi": {
+        "avg": 402116,
+        "count": 37
+      },
+      "terraced": {
+        "avg": 401259,
+        "count": 56
+      },
+      "flat": {
+        "avg": 296262,
+        "count": 73
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 512880
+      },
+      {
+        "year": 2024,
+        "avg": 553037
+      },
+      {
+        "year": 2025,
+        "avg": 471699
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -92.7,
+    "byType": {
+      "violentCrime": 2.3,
+      "burglary": 0.5,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1.4,
+      "otherTheft": 0.6,
+      "other": 0.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Woodroffe School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Mrs Ethelston's CofE Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Michael's CofE Primary School, Lyme Regis",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 23666,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 303,
+    "avgUpload": 55,
+    "superfastPct": 91,
+    "ultrafastPct": 73,
+    "gigabitPct": 73,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Dorchester Council",
+    "bandD": 2115,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.7,
+    "imdRank": 13227,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DT7 covers LYME REGIS in Dorset, South West.",
+    "priceVsCounty": "The average property price in DT7 is £518,938, which is 22% above the Dorset average of £425,376.",
+    "priceVsNational": "Properties in DT7 cost 80.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DT7 have fallen 14.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.9 recorded crimes per 1,000 residents, DT7 has a crime rate well 93% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DT7 has 3 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DT7 are 303.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DT7 (LYME REGIS) offers above-average property prices (£518,938, 81% above national average), low crime (93% below national average), 3 nearby schools, and excellent broadband (303 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 303
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 303
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

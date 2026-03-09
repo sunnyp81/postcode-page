@@ -1,0 +1,198 @@
+{
+  "code": "DN4",
+  "name": "DONCASTER",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "doncaster",
+  "adjacent": [
+    "DN3",
+    "DN5",
+    "DN6"
+  ],
+  "property": {
+    "avgPrice": 205965,
+    "medianPrice": 160000,
+    "priceChange1y": -8.4,
+    "priceChange5y": 0,
+    "transactions12m": 2780,
+    "byType": {
+      "detached": {
+        "avg": 305040,
+        "count": 618
+      },
+      "semi": {
+        "avg": 172017,
+        "count": 935
+      },
+      "terraced": {
+        "avg": 113997,
+        "count": 902
+      },
+      "flat": {
+        "avg": 127187,
+        "count": 233
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 227321
+      },
+      {
+        "year": 2024,
+        "avg": 203719
+      },
+      {
+        "year": 2025,
+        "avg": 186708
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 62.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -22.9,
+    "byType": {
+      "violentCrime": 19.7,
+      "burglary": 2.7,
+      "vehicleCrime": 8.7,
+      "antisocialBehaviour": 9.5,
+      "otherTheft": 7.9,
+      "other": 14.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 24,
+    "outstanding": 0,
+    "good": 11,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Warmsworth Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Francis Xavier Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sycamore Hall Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Maple Medical PRU",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Carr Lodge Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 319765,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 17,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 393,
+    "avgUpload": 71,
+    "superfastPct": 99,
+    "ultrafastPct": 98,
+    "gigabitPct": 98,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Doncaster",
+    "bandD": 1926,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 30.3,
+    "imdRank": 21613,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DN4 covers DONCASTER in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in DN4 is £205,965, which is 11% below the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in DN4 cost 28.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DN4 have fallen 8.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 62.7 recorded crimes per 1,000 residents, DN4 has a crime rate well 23% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DN4 has 24 schools within or near its boundaries, including 11 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DN4 are 393.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DN4 (DONCASTER) offers affordable property prices (£205,965, 28% below national average), low crime (23% below national average), 24 nearby schools, and excellent broadband (393 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 393
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 393
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

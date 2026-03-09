@@ -1,0 +1,197 @@
+{
+  "code": "CF62",
+  "name": "BARRY",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF61",
+    "CF63",
+    "CF64"
+  ],
+  "property": {
+    "avgPrice": 272105,
+    "medianPrice": 244000,
+    "priceChange1y": 1.6,
+    "priceChange5y": 0,
+    "transactions12m": 1872,
+    "byType": {
+      "detached": {
+        "avg": 388155,
+        "count": 382
+      },
+      "semi": {
+        "avg": 267823,
+        "count": 586
+      },
+      "terraced": {
+        "avg": 226202,
+        "count": 677
+      },
+      "flat": {
+        "avg": 159123,
+        "count": 165
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 266315
+      },
+      {
+        "year": 2024,
+        "avg": 272766
+      },
+      {
+        "year": 2025,
+        "avg": 277210
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 6.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -91.8,
+    "byType": {
+      "violentCrime": 2.5,
+      "burglary": 0.1,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 1.2,
+      "otherTheft": 0.9,
+      "other": 1.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Barry Island Primary",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Colcot Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gladstone Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "High Street Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "South Point Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 135743,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 371,
+    "avgUpload": 67,
+    "superfastPct": 97,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF62 is the postcode district for BARRY, located in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF62 is £272,105, broadly in line with the Cardiff average of £275,506.",
+    "priceVsNational": "Properties in CF62 cost 5.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CF62 have risen 1.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 6.7 recorded crimes per 1,000 residents, CF62 has a crime rate well 92% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CF62 has 17 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF62 are 371.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF62 (BARRY) offers property prices near the national average (£272,105), low crime (92% below national average), 17 nearby schools, and excellent broadband (371 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 371
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 371
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

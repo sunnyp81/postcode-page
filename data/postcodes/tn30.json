@@ -1,0 +1,198 @@
+{
+  "code": "TN30",
+  "name": "TENTERDEN",
+  "county": "kent",
+  "region": "south-east",
+  "city": "tunbridge-wells",
+  "adjacent": [
+    "TN29",
+    "TN31",
+    "TN32"
+  ],
+  "property": {
+    "avgPrice": 524111,
+    "medianPrice": 449998,
+    "priceChange1y": 7.4,
+    "priceChange5y": 0,
+    "transactions12m": 548,
+    "byType": {
+      "detached": {
+        "avg": 670717,
+        "count": 246
+      },
+      "semi": {
+        "avg": 434537,
+        "count": 130
+      },
+      "terraced": {
+        "avg": 337686,
+        "count": 83
+      },
+      "flat": {
+        "avg": 295432,
+        "count": 61
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 548932
+      },
+      {
+        "year": 2024,
+        "avg": 493798
+      },
+      {
+        "year": 2025,
+        "avg": 530541
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 11.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -85.7,
+    "byType": {
+      "violentCrime": 4.2,
+      "burglary": 0.3,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 2.3,
+      "otherTheft": 1.9,
+      "other": 2.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Wittersham Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Little Acorns School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Homewood School and Sixth Form Centre",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Tenterden Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Michael's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 140936,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 250,
+    "avgUpload": 45,
+    "superfastPct": 87,
+    "ultrafastPct": 58,
+    "gigabitPct": 58,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Ashford",
+    "bandD": 2101,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.5,
+    "imdRank": 15484,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TN30 covers TENTERDEN in Kent, South East.",
+    "priceVsCounty": "The average property price in TN30 is £524,111, which is 16% above the Kent average of £450,882.",
+    "priceVsNational": "Properties in TN30 cost 82.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TN30 have risen 7.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 11.6 recorded crimes per 1,000 residents, TN30 has a crime rate well 86% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TN30 has 6 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TN30 are 250.0 Mbps, with 99% of premises having access to superfast broadband and 84% with full fibre (FTTP) connectivity.",
+    "synthesis": "TN30 (TENTERDEN) offers above-average property prices (£524,111, 83% above national average), low crime (86% below national average), 6 nearby schools, and excellent broadband (250 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 250
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 250
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

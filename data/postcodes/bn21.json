@@ -1,0 +1,198 @@
+{
+  "code": "BN21",
+  "name": "EASTBOURNE",
+  "county": "east-sussex",
+  "region": "south-east",
+  "city": "brighton",
+  "adjacent": [
+    "BN20",
+    "BN22",
+    "BN23"
+  ],
+  "property": {
+    "avgPrice": 309282,
+    "medianPrice": 232250,
+    "priceChange1y": -8.6,
+    "priceChange5y": 0,
+    "transactions12m": 1646,
+    "byType": {
+      "detached": {
+        "avg": 539670,
+        "count": 190
+      },
+      "semi": {
+        "avg": 455556,
+        "count": 88
+      },
+      "terraced": {
+        "avg": 342509,
+        "count": 231
+      },
+      "flat": {
+        "avg": 196782,
+        "count": 1014
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 336517
+      },
+      {
+        "year": 2024,
+        "avg": 306446
+      },
+      {
+        "year": 2025,
+        "avg": 280059
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 186,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 128.8,
+    "byType": {
+      "violentCrime": 59.2,
+      "burglary": 3.8,
+      "vehicleCrime": 4.1,
+      "antisocialBehaviour": 30.6,
+      "otherTheft": 51.2,
+      "other": 37.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Motcombe Infants' School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eastbourne College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "East Sussex College Group",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ratton School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Cavendish School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 104259,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 24,
+    "socialRent": 13,
+    "privateRent": 24,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 337,
+    "avgUpload": 61,
+    "superfastPct": 98,
+    "ultrafastPct": 82,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Eastbourne",
+    "bandD": 2308,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.1,
+    "imdRank": 17988,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BN21 covers EASTBOURNE in East Sussex, South East.",
+    "priceVsCounty": "The average property price in BN21 is £309,282, which is 32% below the East Sussex average of £455,819.",
+    "priceVsNational": "Properties in BN21 cost 7.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BN21 have fallen 8.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 186.0 recorded crimes per 1,000 residents, BN21 has a crime rate significantly 129% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BN21 has 5 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BN21 are 337.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BN21 (EASTBOURNE) offers property prices near the national average (£309,282), higher-than-average crime (129% above national average), 5 nearby schools, and excellent broadband (337 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 455819,
+      "crime": 75,
+      "broadband": 337
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 337
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

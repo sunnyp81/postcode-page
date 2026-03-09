@@ -1,0 +1,198 @@
+{
+  "code": "CT2",
+  "name": "CANTERBURY",
+  "county": "kent",
+  "region": "south-east",
+  "city": "canterbury",
+  "adjacent": [
+    "CT1",
+    "CT3",
+    "CT4"
+  ],
+  "property": {
+    "avgPrice": 439681,
+    "medianPrice": 319500,
+    "priceChange1y": -5,
+    "priceChange5y": 0,
+    "transactions12m": 1122,
+    "byType": {
+      "detached": {
+        "avg": 561713,
+        "count": 224
+      },
+      "semi": {
+        "avg": 350430,
+        "count": 382
+      },
+      "terraced": {
+        "avg": 331337,
+        "count": 290
+      },
+      "flat": {
+        "avg": 195377,
+        "count": 184
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 395749
+      },
+      {
+        "year": 2024,
+        "avg": 474419
+      },
+      {
+        "year": 2025,
+        "avg": 450577
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 97.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 20.3,
+    "byType": {
+      "violentCrime": 34,
+      "burglary": 2.6,
+      "vehicleCrime": 4.1,
+      "antisocialBehaviour": 16.1,
+      "otherTheft": 21.1,
+      "other": 19.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Blean Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Archbishop's School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Edmund's School Canterbury",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kent College (Canterbury)",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Junior King's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 158379,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 174,
+    "avgUpload": 31,
+    "superfastPct": 89,
+    "ultrafastPct": 36,
+    "gigabitPct": 36,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swale",
+    "bandD": 2094,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.1,
+    "imdRank": 19995,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CT2 covers CANTERBURY in Kent, South East.",
+    "priceVsCounty": "The average property price in CT2 is £439,681, broadly in line with the Kent average of £450,882.",
+    "priceVsNational": "Properties in CT2 cost 53.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CT2 have fallen 5.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 97.8 recorded crimes per 1,000 residents, CT2 has a crime rate significantly 20% above the national average of 81.3 per 1,000.",
+    "schoolContext": "CT2 has 15 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CT2 are 174.0 Mbps, with 96% of premises having access to superfast broadband and 63% with full fibre (FTTP) connectivity.",
+    "synthesis": "CT2 (CANTERBURY) offers above-average property prices (£439,681, 53% above national average), higher-than-average crime (20% above national average), 15 nearby schools, and excellent broadband (174 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 174
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 174
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "ME7",
+  "name": "GILLINGHAM",
+  "county": "kent",
+  "region": "south-east",
+  "city": "medway",
+  "adjacent": [
+    "ME6",
+    "ME8",
+    "ME9"
+  ],
+  "property": {
+    "avgPrice": 283730,
+    "medianPrice": 250000,
+    "priceChange1y": 6.3,
+    "priceChange5y": 0,
+    "transactions12m": 2016,
+    "byType": {
+      "detached": {
+        "avg": 510217,
+        "count": 171
+      },
+      "semi": {
+        "avg": 345313,
+        "count": 260
+      },
+      "terraced": {
+        "avg": 254155,
+        "count": 1290
+      },
+      "flat": {
+        "avg": 165400,
+        "count": 237
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 289272
+      },
+      {
+        "year": 2024,
+        "avg": 272904
+      },
+      {
+        "year": 2025,
+        "avg": 290206
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 215.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 164.7,
+    "byType": {
+      "violentCrime": 89.5,
+      "burglary": 4.6,
+      "vehicleCrime": 10.5,
+      "antisocialBehaviour": 35.9,
+      "otherTheft": 27.8,
+      "other": 46.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hempstead Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hempstead Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bredhurst Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "MidKent College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 292655,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 14,
+    "privateRent": 18,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 352,
+    "avgUpload": 63,
+    "superfastPct": 97,
+    "ultrafastPct": 88,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Medway Council",
+    "bandD": 2268,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.9,
+    "imdRank": 18587,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ME7 covers GILLINGHAM in Kent, South East.",
+    "priceVsCounty": "The average property price in ME7 is £283,730, which is 37% below the Kent average of £450,882.",
+    "priceVsNational": "Property values in ME7 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in ME7 have risen 6.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 215.2 recorded crimes per 1,000 residents, ME7 has a crime rate significantly 165% above the national average of 81.3 per 1,000.",
+    "schoolContext": "ME7 has 19 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ME7 are 352.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "ME7 (GILLINGHAM) offers property prices near the national average (£283,730), higher-than-average crime (165% above national average), 19 nearby schools, and excellent broadband (352 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 352
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 352
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "HU16",
+  "name": "COTTINGHAM",
+  "county": "east-yorkshire",
+  "region": "yorkshire",
+  "city": "hull",
+  "adjacent": [
+    "HU15",
+    "HU17",
+    "HU18"
+  ],
+  "property": {
+    "avgPrice": 267732,
+    "medianPrice": 240000,
+    "priceChange1y": -0.4,
+    "priceChange5y": 0,
+    "transactions12m": 991,
+    "byType": {
+      "detached": {
+        "avg": 378975,
+        "count": 287
+      },
+      "semi": {
+        "avg": 240429,
+        "count": 401
+      },
+      "terraced": {
+        "avg": 173666,
+        "count": 162
+      },
+      "flat": {
+        "avg": 136571,
+        "count": 128
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 281526
+      },
+      {
+        "year": 2024,
+        "avg": 258961
+      },
+      {
+        "year": 2025,
+        "avg": 257991
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 23.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -71.5,
+    "byType": {
+      "violentCrime": 8.5,
+      "burglary": 1.4,
+      "vehicleCrime": 1.5,
+      "antisocialBehaviour": 2.6,
+      "otherTheft": 4.2,
+      "other": 5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bacon Garth Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Westfield Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Skidby Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hallgate Primary School Cottingham",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cottingham High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 355884,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 9,
+    "privateRent": 15,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 392,
+    "avgUpload": 71,
+    "superfastPct": 98,
+    "ultrafastPct": 98,
+    "gigabitPct": 98,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hull Council",
+    "bandD": 2236,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.6,
+    "imdRank": 12095,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HU16 encompasses COTTINGHAM and its surrounding areas in East Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HU16 is £267,732, which is 27% above the East Yorkshire average of £211,309.",
+    "priceVsNational": "Properties in HU16 cost 6.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HU16 have fallen 0.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 23.2 recorded crimes per 1,000 residents, HU16 has a crime rate well 71% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HU16 has 5 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HU16 are 392.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HU16 (COTTINGHAM) offers property prices near the national average (£267,732), low crime (71% below national average), 5 nearby schools, and excellent broadband (392 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 211309,
+      "crime": 75,
+      "broadband": 392
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 392
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

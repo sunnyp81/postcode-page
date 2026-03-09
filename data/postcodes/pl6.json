@@ -1,0 +1,198 @@
+{
+  "code": "PL6",
+  "name": "PLYMOUTH",
+  "county": "devon",
+  "region": "south-west",
+  "city": "plymouth",
+  "adjacent": [
+    "PL5",
+    "PL7",
+    "PL8"
+  ],
+  "property": {
+    "avgPrice": 299496,
+    "medianPrice": 235000,
+    "priceChange1y": -6.3,
+    "priceChange5y": 0,
+    "transactions12m": 1739,
+    "byType": {
+      "detached": {
+        "avg": 438346,
+        "count": 363
+      },
+      "semi": {
+        "avg": 271988,
+        "count": 414
+      },
+      "terraced": {
+        "avg": 203925,
+        "count": 773
+      },
+      "flat": {
+        "avg": 141166,
+        "count": 126
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 330557
+      },
+      {
+        "year": 2024,
+        "avg": 294618
+      },
+      {
+        "year": 2025,
+        "avg": 276024
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 35.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -56.2,
+    "byType": {
+      "violentCrime": 17,
+      "burglary": 0.3,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 5.4,
+      "otherTheft": 5.2,
+      "other": 7.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Plym Bridge Nursery School and Day Care",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bickleigh Down Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Woodlands School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cann Bridge School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "University of St Mark & St John",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 92148,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 12,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 367,
+    "avgUpload": 66,
+    "superfastPct": 96,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Hams",
+    "bandD": 2261,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.7,
+    "imdRank": 12057,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PL6 covers PLYMOUTH in Devon, South West.",
+    "priceVsCounty": "The average property price in PL6 is £299,496, which is 22% below the Devon average of £385,452.",
+    "priceVsNational": "Property values in PL6 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in PL6 have fallen 6.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 35.6 recorded crimes per 1,000 residents, PL6 has a crime rate well 56% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PL6 has 20 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PL6 are 367.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PL6 (PLYMOUTH) offers property prices near the national average (£299,496), low crime (56% below national average), 20 nearby schools, and excellent broadband (367 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 367
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 367
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

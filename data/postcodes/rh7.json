@@ -1,0 +1,198 @@
+{
+  "code": "RH7",
+  "name": "LINGFIELD",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "redhill",
+  "adjacent": [
+    "RH6",
+    "RH8",
+    "RH9"
+  ],
+  "property": {
+    "avgPrice": 603827,
+    "medianPrice": 499950,
+    "priceChange1y": -12.8,
+    "priceChange5y": 0,
+    "transactions12m": 323,
+    "byType": {
+      "detached": {
+        "avg": 764522,
+        "count": 125
+      },
+      "semi": {
+        "avg": 477133,
+        "count": 87
+      },
+      "terraced": {
+        "avg": 424799,
+        "count": 49
+      },
+      "flat": {
+        "avg": 245121,
+        "count": 29
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 587610
+      },
+      {
+        "year": 2024,
+        "avg": 648396
+      },
+      {
+        "year": 2025,
+        "avg": 565681
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 10.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -87.3,
+    "byType": {
+      "violentCrime": 2.9,
+      "burglary": 0.2,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 3.2,
+      "otherTheft": 0.7,
+      "other": 2.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Dormansland Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lingfield Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lingfield College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Piers School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Piers College (Young Epilepsy)",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 90586,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 37,
+    "socialRent": 11,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 269,
+    "avgUpload": 48,
+    "superfastPct": 92,
+    "ultrafastPct": 63,
+    "gigabitPct": 63,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Tandridge",
+    "bandD": 2252,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.9,
+    "imdRank": 10027,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RH7 encompasses LINGFIELD and its surrounding areas in Surrey, South East.",
+    "priceVsCounty": "The average property price in RH7 is £603,827, broadly in line with the Surrey average of £612,978.",
+    "priceVsNational": "Properties in RH7 cost 110.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RH7 have fallen 12.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 10.3 recorded crimes per 1,000 residents, RH7 has a crime rate well 87% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RH7 has 5 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RH7 are 269.0 Mbps, with 99% of premises having access to superfast broadband and 89% with full fibre (FTTP) connectivity.",
+    "synthesis": "RH7 (LINGFIELD) offers above-average property prices (£603,827, 110% above national average), low crime (87% below national average), 5 nearby schools, and excellent broadband (269 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 269
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 269
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "MK10",
+  "name": "MILTON KEYNES",
+  "county": "buckinghamshire",
+  "region": "south-east",
+  "city": "milton-keynes",
+  "adjacent": [
+    "MK9",
+    "MK11",
+    "MK12"
+  ],
+  "property": {
+    "avgPrice": 396252,
+    "medianPrice": 375000,
+    "priceChange1y": 0.4,
+    "priceChange5y": 0,
+    "transactions12m": 1014,
+    "byType": {
+      "detached": {
+        "avg": 552970,
+        "count": 340
+      },
+      "semi": {
+        "avg": 376793,
+        "count": 250
+      },
+      "terraced": {
+        "avg": 315327,
+        "count": 136
+      },
+      "flat": {
+        "avg": 175089,
+        "count": 276
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 411376
+      },
+      {
+        "year": 2024,
+        "avg": 385844
+      },
+      {
+        "year": 2025,
+        "avg": 387416
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 53.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -34.1,
+    "byType": {
+      "violentCrime": 19.2,
+      "burglary": 1.1,
+      "vehicleCrime": 5.6,
+      "antisocialBehaviour": 5.5,
+      "otherTheft": 11.3,
+      "other": 10.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Broughton Fields Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Bernadette's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Broughton Manor Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oakgrove School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Middleton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 305884,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 18,
+    "privateRent": 19,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 382,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 95,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Milton Keynes Council",
+    "bandD": 2321,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 14351,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "MK10 covers MILTON KEYNES in Buckinghamshire, South East.",
+    "priceVsCounty": "The average property price in MK10 is £396,252, which is 16% below the Buckinghamshire average of £472,988.",
+    "priceVsNational": "Properties in MK10 cost 38.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in MK10 have risen 0.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 53.6 recorded crimes per 1,000 residents, MK10 has a crime rate well 34% below the national average of 81.3 per 1,000.",
+    "schoolContext": "MK10 has 7 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in MK10 are 382.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "MK10 (MILTON KEYNES) offers above-average property prices (£396,252, 38% above national average), low crime (34% below national average), 7 nearby schools, and excellent broadband (382 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 472988,
+      "crime": 75,
+      "broadband": 382
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 382
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

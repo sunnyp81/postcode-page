@@ -1,0 +1,197 @@
+{
+  "code": "NP11",
+  "name": "NEWPORT",
+  "county": "gwent",
+  "region": "wales",
+  "city": "newport",
+  "adjacent": [
+    "NP10",
+    "NP12",
+    "NP13"
+  ],
+  "property": {
+    "avgPrice": 205835,
+    "medianPrice": 160000,
+    "priceChange1y": -26.2,
+    "priceChange5y": 0,
+    "transactions12m": 1441,
+    "byType": {
+      "detached": {
+        "avg": 312241,
+        "count": 113
+      },
+      "semi": {
+        "avg": 184156,
+        "count": 473
+      },
+      "terraced": {
+        "avg": 148042,
+        "count": 742
+      },
+      "flat": {
+        "avg": 110976,
+        "count": 41
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 167595
+      },
+      {
+        "year": 2024,
+        "avg": 254635
+      },
+      {
+        "year": 2025,
+        "avg": 187915
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 8.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -89.4,
+    "byType": {
+      "violentCrime": 3.6,
+      "burglary": 0.3,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 1.9,
+      "otherTheft": 0.5,
+      "other": 2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Crumlin High Level Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pentwynmawr Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tynewydd Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cwmcarn Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Waunfawr Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 94119,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 333,
+    "avgUpload": 60,
+    "superfastPct": 97,
+    "ultrafastPct": 81,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newport Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "NP11 is the postcode district for NEWPORT, located in Gwent, Wales.",
+    "priceVsCounty": "The average property price in NP11 is £205,835, which is 25% below the Gwent average of £273,109.",
+    "priceVsNational": "Properties in NP11 cost 28.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NP11 have fallen 26.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 8.6 recorded crimes per 1,000 residents, NP11 has a crime rate well 89% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NP11 has 17 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NP11 are 333.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NP11 (NEWPORT) offers affordable property prices (£205,835, 28% below national average), low crime (89% below national average), 17 nearby schools, and excellent broadband (333 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 273109,
+      "crime": 75,
+      "broadband": 333
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 333
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

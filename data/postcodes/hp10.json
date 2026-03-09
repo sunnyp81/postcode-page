@@ -1,0 +1,197 @@
+{
+  "code": "HP10",
+  "name": "HIGH WYCOMBE",
+  "county": "hertfordshire",
+  "region": "south-east",
+  "city": "hemel-hempstead",
+  "adjacent": [
+    "HP9",
+    "HP11",
+    "HP12"
+  ],
+  "property": {
+    "avgPrice": 633854,
+    "medianPrice": 536825,
+    "priceChange1y": -4.7,
+    "priceChange5y": 0,
+    "transactions12m": 911,
+    "byType": {
+      "detached": {
+        "avg": 909048,
+        "count": 315
+      },
+      "semi": {
+        "avg": 545153,
+        "count": 226
+      },
+      "terraced": {
+        "avg": 455466,
+        "count": 145
+      },
+      "flat": {
+        "avg": 296852,
+        "count": 188
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 588074
+      },
+      {
+        "year": 2024,
+        "avg": 667337
+      },
+      {
+        "year": 2025,
+        "avg": 635728
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 19,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -76.6,
+    "byType": {
+      "violentCrime": 6.7,
+      "burglary": 0.4,
+      "vehicleCrime": 1.3,
+      "antisocialBehaviour": 2.6,
+      "otherTheft": 3,
+      "other": 5.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Tylers Green First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Carrington Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Carrington Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Juniper Hill School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tylers Green Middle School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 40,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 65,
+    "socialRent": 13,
+    "privateRent": 22,
+    "economicallyActive": 76,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 309,
+    "avgUpload": 56,
+    "superfastPct": 95,
+    "ultrafastPct": 77,
+    "gigabitPct": 73,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hemel Hempstead Council",
+    "bandD": 2236,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "HP10 covers HIGH WYCOMBE in Hertfordshire, South East.",
+    "priceVsCounty": "The average property price in HP10 is £633,854, which is 11% above the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in HP10 cost 120.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HP10 have fallen 4.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 19.0 recorded crimes per 1,000 residents, HP10 has a crime rate well 77% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HP10 has 7 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HP10 are 309.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HP10 (HIGH WYCOMBE) offers above-average property prices (£633,854, 121% above national average), low crime (77% below national average), 7 nearby schools, and excellent broadband (309 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 309
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 309
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

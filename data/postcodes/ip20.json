@@ -1,0 +1,188 @@
+{
+  "code": "IP20",
+  "name": "HARLESTON",
+  "county": "suffolk",
+  "region": "east-of-england",
+  "city": "ipswich",
+  "adjacent": [
+    "IP19",
+    "IP21",
+    "IP22"
+  ],
+  "property": {
+    "avgPrice": 361275,
+    "medianPrice": 290000,
+    "priceChange1y": -9,
+    "priceChange5y": 0,
+    "transactions12m": 415,
+    "byType": {
+      "detached": {
+        "avg": 424132,
+        "count": 173
+      },
+      "semi": {
+        "avg": 278228,
+        "count": 111
+      },
+      "terraced": {
+        "avg": 239642,
+        "count": 60
+      },
+      "flat": {
+        "avg": 202841,
+        "count": 44
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 399692
+      },
+      {
+        "year": 2024,
+        "avg": 358323
+      },
+      {
+        "year": 2025,
+        "avg": 325906
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 2.2,
+      "burglary": 0.2,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.6,
+      "otherTheft": 0.2,
+      "other": 1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Mendham Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Alburgh With Denton Church of England Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Harleston Sancroft Academy (a 3-16 Church of England School)",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 110775,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 11,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 118,
+    "avgUpload": 21,
+    "superfastPct": 86,
+    "ultrafastPct": 20,
+    "gigabitPct": 20,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Mid Suffolk",
+    "bandD": 2017,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.2,
+    "imdRank": 11380,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IP20 encompasses HARLESTON and its surrounding areas in Suffolk, East Of England.",
+    "priceVsCounty": "The average property price in IP20 is £361,275, broadly in line with the Suffolk average of £379,904.",
+    "priceVsNational": "Properties in IP20 cost 25.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IP20 have fallen 9.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, IP20 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IP20 has 3 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IP20 are 118.0 Mbps, with 88% of premises having access to superfast broadband and 47% with full fibre (FTTP) connectivity.",
+    "synthesis": "IP20 (HARLESTON) offers above-average property prices (£361,275, 26% above national average), low crime (94% below national average), 3 nearby schools, and excellent broadband (118 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 379904,
+      "crime": 75,
+      "broadband": 118
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 118
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

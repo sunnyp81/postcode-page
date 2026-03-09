@@ -1,0 +1,198 @@
+{
+  "code": "EX6",
+  "name": "EXETER",
+  "county": "devon",
+  "region": "south-west",
+  "city": "exeter",
+  "adjacent": [
+    "EX5",
+    "EX7",
+    "EX8"
+  ],
+  "property": {
+    "avgPrice": 401832,
+    "medianPrice": 345000,
+    "priceChange1y": -2.7,
+    "priceChange5y": 0,
+    "transactions12m": 503,
+    "byType": {
+      "detached": {
+        "avg": 521881,
+        "count": 195
+      },
+      "semi": {
+        "avg": 336106,
+        "count": 112
+      },
+      "terraced": {
+        "avg": 283910,
+        "count": 132
+      },
+      "flat": {
+        "avg": 213071,
+        "count": 28
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 460069
+      },
+      {
+        "year": 2024,
+        "avg": 376456
+      },
+      {
+        "year": 2025,
+        "avg": 366285
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Doddiscombsleigh Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Exminster Community Primary",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Exeter Pre-Prep School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Christow Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tedburn St Mary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 138548,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 10,
+    "privateRent": 16,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 159,
+    "avgUpload": 29,
+    "superfastPct": 62,
+    "ultrafastPct": 35,
+    "gigabitPct": 35,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Teignbridge",
+    "bandD": 2279,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.9,
+    "imdRank": 13686,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EX6 is the postcode district for EXETER, located in Devon, South West.",
+    "priceVsCounty": "The average property price in EX6 is £401,832, broadly in line with the Devon average of £385,452.",
+    "priceVsNational": "Properties in EX6 cost 40.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EX6 have fallen 2.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, EX6 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "EX6 has 11 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EX6 are 159.0 Mbps, with 94% of premises having access to superfast broadband and 59% with full fibre (FTTP) connectivity.",
+    "synthesis": "EX6 (EXETER) offers above-average property prices (£401,832, 40% above national average), low crime (94% below national average), 11 nearby schools, and excellent broadband (159 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 159
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 159
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

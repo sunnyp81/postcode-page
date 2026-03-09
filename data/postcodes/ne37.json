@@ -1,0 +1,198 @@
+{
+  "code": "NE37",
+  "name": "WASHINGTON",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "newcastle-upon-tyne",
+  "adjacent": [
+    "NE36",
+    "NE38",
+    "NE39"
+  ],
+  "property": {
+    "avgPrice": 139026,
+    "medianPrice": 118750,
+    "priceChange1y": 30.3,
+    "priceChange5y": 0,
+    "transactions12m": 812,
+    "byType": {
+      "detached": {
+        "avg": 315755,
+        "count": 69
+      },
+      "semi": {
+        "avg": 148350,
+        "count": 222
+      },
+      "terraced": {
+        "avg": 109624,
+        "count": 267
+      },
+      "flat": {
+        "avg": 60466,
+        "count": 217
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 140092
+      },
+      {
+        "year": 2024,
+        "avg": 121747
+      },
+      {
+        "year": 2025,
+        "avg": 158582
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 75.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -7.6,
+    "byType": {
+      "violentCrime": 23.5,
+      "burglary": 3.7,
+      "vehicleCrime": 2.4,
+      "antisocialBehaviour": 11.3,
+      "otherTheft": 17.7,
+      "other": 16.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Usworth Colliery Nursery School",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Usworth Colliery Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Marlborough Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Blackfell Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Albany Village Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 288606,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 27,
+    "privateRent": 13,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 349,
+    "avgUpload": 63,
+    "superfastPct": 96,
+    "ultrafastPct": 88,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Sunderland",
+    "bandD": 1899,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 30.6,
+    "imdRank": 21993,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NE37 is the postcode district for WASHINGTON, located in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in NE37 is £139,026, which is 48% below the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in NE37 cost 51.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NE37 have risen 30.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 75.1 recorded crimes per 1,000 residents, NE37 has a crime rate 8% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NE37 has 8 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NE37 are 349.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NE37 (WASHINGTON) offers affordable property prices (£139,026, 52% below national average), 8 nearby schools, and excellent broadband (349 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 349
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 349
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

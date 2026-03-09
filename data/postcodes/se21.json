@@ -1,0 +1,198 @@
+{
+  "code": "SE21",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SE20",
+    "SE22",
+    "SE23"
+  ],
+  "property": {
+    "avgPrice": 1015447,
+    "medianPrice": 680000,
+    "priceChange1y": -16,
+    "priceChange5y": 0,
+    "transactions12m": 513,
+    "byType": {
+      "detached": {
+        "avg": 2280883,
+        "count": 35
+      },
+      "semi": {
+        "avg": 1896792,
+        "count": 106
+      },
+      "terraced": {
+        "avg": 1003928,
+        "count": 118
+      },
+      "flat": {
+        "avg": 478359,
+        "count": 250
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1104835
+      },
+      {
+        "year": 2024,
+        "avg": 1041371
+      },
+      {
+        "year": 2025,
+        "avg": 874255
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 81.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 0.7,
+    "byType": {
+      "violentCrime": 22,
+      "burglary": 4.5,
+      "vehicleCrime": 9.8,
+      "antisocialBehaviour": 16.3,
+      "otherTheft": 16.6,
+      "other": 12.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 4,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Turney Primary and Secondary Special School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Alleyn's Oakfield",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rosemead Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dulwich Wood Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dulwich Wood Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 314786,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 18,
+    "socialRent": 40,
+    "privateRent": 26,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 341,
+    "avgUpload": 61,
+    "superfastPct": 98,
+    "ultrafastPct": 84,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Southwark",
+    "bandD": 1693,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.8,
+    "imdRank": 21247,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SE21 encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in SE21 is £1,015,447, which is 22% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SE21 cost 253.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SE21 have fallen 16.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "SE21 has a crime rate of 81.9 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "SE21 has 11 schools within or near its boundaries, including 4 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SE21 are 341.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SE21 (LONDON) offers above-average property prices (£1,015,447, 254% above national average), strong school provision (4 Outstanding-rated schools), and excellent broadband (341 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 341
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 341
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

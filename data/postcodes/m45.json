@@ -1,0 +1,197 @@
+{
+  "code": "M45",
+  "name": "MANCHESTER",
+  "county": "greater-manchester",
+  "region": "north-west",
+  "city": "manchester",
+  "adjacent": [
+    "M44",
+    "M46"
+  ],
+  "property": {
+    "avgPrice": 303267,
+    "medianPrice": 250000,
+    "priceChange1y": -2.9,
+    "priceChange5y": 0,
+    "transactions12m": 911,
+    "byType": {
+      "detached": {
+        "avg": 540328,
+        "count": 139
+      },
+      "semi": {
+        "avg": 280238,
+        "count": 370
+      },
+      "terraced": {
+        "avg": 214016,
+        "count": 290
+      },
+      "flat": {
+        "avg": 171021,
+        "count": 87
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 271542
+      },
+      {
+        "year": 2024,
+        "avg": 323094
+      },
+      {
+        "year": 2025,
+        "avg": 313653
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Mersey Drive Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "All Saints Church of England Primary School, Stand",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Higher Lane Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Elms Bank",
+        "type": "Other",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "St Michael's Roman Catholic Primary School, A Voluntary Academy",
+        "type": "Primary",
+        "ofsted": "Inadequate"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 198921,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 15,
+    "privateRent": 16,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 389,
+    "avgUpload": 70,
+    "superfastPct": 99,
+    "ultrafastPct": 97,
+    "gigabitPct": 97,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bury",
+    "bandD": 2180,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.7,
+    "imdRank": 17812,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "M45 encompasses MANCHESTER and its surrounding areas in Greater Manchester, North West.",
+    "priceVsCounty": "The average property price in M45 is £303,267, which is 21% below the Greater Manchester average of £381,941.",
+    "priceVsNational": "Properties in M45 cost 5.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in M45 have fallen 2.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, M45 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "M45 has 10 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in M45 are 389.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "M45 (MANCHESTER) offers property prices near the national average (£303,267), low crime (94% below national average), 10 nearby schools, and excellent broadband (389 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 381941,
+      "crime": 75,
+      "broadband": 389
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 389
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

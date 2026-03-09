@@ -1,0 +1,196 @@
+{
+  "code": "BS31",
+  "name": "BRISTOL",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS30",
+    "BS32"
+  ],
+  "property": {
+    "avgPrice": 439908,
+    "medianPrice": 389995,
+    "priceChange1y": 14.9,
+    "priceChange5y": 0,
+    "transactions12m": 1137,
+    "byType": {
+      "detached": {
+        "avg": 633671,
+        "count": 273
+      },
+      "semi": {
+        "avg": 427414,
+        "count": 335
+      },
+      "terraced": {
+        "avg": 337209,
+        "count": 262
+      },
+      "flat": {
+        "avg": 245037,
+        "count": 230
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 391246
+      },
+      {
+        "year": 2024,
+        "avg": 437054
+      },
+      {
+        "year": 2025,
+        "avg": 502162
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 42.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -47.8,
+    "byType": {
+      "violentCrime": 18.3,
+      "burglary": 1.1,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 6.8,
+      "otherTheft": 5.2,
+      "other": 10.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 2,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Keyna Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wellsway School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lift Broadlands",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "IKB Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St John's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 359,
+    "avgUpload": 65,
+    "superfastPct": 94,
+    "ultrafastPct": 89,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.4,
+    "imdRank": 19421,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS31 covers BRISTOL in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS31 is £439,908, broadly in line with the Bristol average of £449,132.",
+    "priceVsNational": "Properties in BS31 cost 53.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BS31 have risen 14.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 42.4 recorded crimes per 1,000 residents, BS31 has a crime rate well 48% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BS31 has 10 schools within or near its boundaries, including 2 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS31 are 359.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS31 (BRISTOL) offers above-average property prices (£439,908, 53% above national average), low crime (48% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (359 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 359
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 359
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

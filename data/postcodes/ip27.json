@@ -1,0 +1,198 @@
+{
+  "code": "IP27",
+  "name": "BRANDON",
+  "county": "suffolk",
+  "region": "east-of-england",
+  "city": "ipswich",
+  "adjacent": [
+    "IP26",
+    "IP28",
+    "IP29"
+  ],
+  "property": {
+    "avgPrice": 249172,
+    "medianPrice": 230000,
+    "priceChange1y": -2.3,
+    "priceChange5y": 0,
+    "transactions12m": 886,
+    "byType": {
+      "detached": {
+        "avg": 282020,
+        "count": 388
+      },
+      "semi": {
+        "avg": 211350,
+        "count": 233
+      },
+      "terraced": {
+        "avg": 199821,
+        "count": 210
+      },
+      "flat": {
+        "avg": 125024,
+        "count": 21
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 243660
+      },
+      {
+        "year": 2024,
+        "avg": 254683
+      },
+      {
+        "year": 2025,
+        "avg": 248843
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Lakenheath Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Forest Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Breckland School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Weeting Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Glade Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 146620,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 248,
+    "avgUpload": 45,
+    "superfastPct": 93,
+    "ultrafastPct": 59,
+    "gigabitPct": 56,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Breckland",
+    "bandD": 2114,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.6,
+    "imdRank": 16834,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IP27 covers BRANDON in Suffolk, East Of England.",
+    "priceVsCounty": "The average property price in IP27 is £249,172, which is 34% below the Suffolk average of £379,904.",
+    "priceVsNational": "Properties in IP27 cost 13.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IP27 have fallen 2.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, IP27 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IP27 has 5 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IP27 are 248.0 Mbps, with 99% of premises having access to superfast broadband and 83% with full fibre (FTTP) connectivity.",
+    "synthesis": "IP27 (BRANDON) offers property prices near the national average (£249,172), low crime (94% below national average), 5 nearby schools, and excellent broadband (248 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 379904,
+      "crime": 75,
+      "broadband": 248
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 248
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

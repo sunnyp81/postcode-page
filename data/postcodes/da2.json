@@ -1,0 +1,198 @@
+{
+  "code": "DA2",
+  "name": "DARTFORD",
+  "county": "greater-london",
+  "region": "london",
+  "city": "dartford",
+  "adjacent": [
+    "DA1",
+    "DA3",
+    "DA4"
+  ],
+  "property": {
+    "avgPrice": 462912,
+    "medianPrice": 385000,
+    "priceChange1y": -6.3,
+    "priceChange5y": 0,
+    "transactions12m": 878,
+    "byType": {
+      "detached": {
+        "avg": 724560,
+        "count": 116
+      },
+      "semi": {
+        "avg": 426080,
+        "count": 301
+      },
+      "terraced": {
+        "avg": 379403,
+        "count": 251
+      },
+      "flat": {
+        "avg": 239953,
+        "count": 188
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 450968
+      },
+      {
+        "year": 2024,
+        "avg": 482198
+      },
+      {
+        "year": 2025,
+        "avg": 451722
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 41.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -48.6,
+    "byType": {
+      "violentCrime": 17.4,
+      "burglary": 1.2,
+      "vehicleCrime": 2.6,
+      "antisocialBehaviour": 6.2,
+      "otherTheft": 4.5,
+      "other": 9.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bean Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Leigh Academy Wilmington",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Wilmington Grammar School for Boys",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wilmington Grammar School for Girls",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Joydens Wood Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 122748,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 11,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 271,
+    "avgUpload": 49,
+    "superfastPct": 95,
+    "ultrafastPct": 64,
+    "gigabitPct": 63,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Sevenoaks",
+    "bandD": 2202,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.4,
+    "imdRank": 10325,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DA2 covers DARTFORD in Greater London, London.",
+    "priceVsCounty": "The average property price in DA2 is £462,912, which is 65% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in DA2 cost 61.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DA2 have fallen 6.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 41.8 recorded crimes per 1,000 residents, DA2 has a crime rate well 49% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DA2 has 12 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DA2 are 271.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DA2 (DARTFORD) offers above-average property prices (£462,912, 61% above national average), low crime (49% below national average), 12 nearby schools, and excellent broadband (271 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 271
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 271
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "LS8",
+  "name": "LEEDS",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "leeds",
+  "adjacent": [
+    "LS7",
+    "LS9",
+    "LS10"
+  ],
+  "property": {
+    "avgPrice": 309698,
+    "medianPrice": 235000,
+    "priceChange1y": -10.5,
+    "priceChange5y": 0,
+    "transactions12m": 1587,
+    "byType": {
+      "detached": {
+        "avg": 616977,
+        "count": 135
+      },
+      "semi": {
+        "avg": 355659,
+        "count": 622
+      },
+      "terraced": {
+        "avg": 181139,
+        "count": 520
+      },
+      "flat": {
+        "avg": 183878,
+        "count": 263
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 305936
+      },
+      {
+        "year": 2024,
+        "avg": 326729
+      },
+      {
+        "year": 2025,
+        "avg": 292371
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 152,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 87,
+    "byType": {
+      "violentCrime": 64.7,
+      "burglary": 8,
+      "vehicleCrime": 11.9,
+      "antisocialBehaviour": 12.8,
+      "otherTheft": 20.1,
+      "other": 34.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 2,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bankside Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gledhow Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Kerr Mackie Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Harehills Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Roundhay School",
+        "type": "Other",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 845189,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 389,
+    "avgUpload": 70,
+    "superfastPct": 99,
+    "ultrafastPct": 97,
+    "gigabitPct": 97,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Leeds",
+    "bandD": 1968,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.3,
+    "imdRank": 18909,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LS8 encompasses LEEDS and its surrounding areas in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in LS8 is £309,698, which is 11% above the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in LS8 cost 7.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LS8 have fallen 10.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 152.0 recorded crimes per 1,000 residents, LS8 has a crime rate significantly 87% above the national average of 81.3 per 1,000.",
+    "schoolContext": "LS8 has 11 schools within or near its boundaries, including 2 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LS8 are 389.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LS8 (LEEDS) offers property prices near the national average (£309,698), higher-than-average crime (87% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (389 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 389
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 389
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

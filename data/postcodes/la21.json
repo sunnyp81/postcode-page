@@ -1,0 +1,182 @@
+{
+  "code": "LA21",
+  "name": "CONISTON",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "lancaster",
+  "adjacent": [
+    "LA20",
+    "LA22",
+    "LA23"
+  ],
+  "property": {
+    "avgPrice": 470632,
+    "medianPrice": 400000,
+    "priceChange1y": 4.4,
+    "priceChange5y": 0,
+    "transactions12m": 53,
+    "byType": {
+      "detached": {
+        "avg": 672136,
+        "count": 22
+      },
+      "semi": {
+        "avg": 398955,
+        "count": 11
+      },
+      "terraced": {
+        "avg": 312864,
+        "count": 11
+      },
+      "flat": {
+        "avg": 155500,
+        "count": 5
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 406833
+      },
+      {
+        "year": 2024,
+        "avg": 493579
+      },
+      {
+        "year": 2025,
+        "avg": 515156
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.8,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.2,
+      "other": 0.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Coniston CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "John Ruskin School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 83,
+    "avgUpload": 15,
+    "superfastPct": 77,
+    "ultrafastPct": 11,
+    "gigabitPct": 11,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lancaster Council",
+    "bandD": 2304,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LA21 covers CONISTON in Lancashire, North West.",
+    "priceVsCounty": "The average property price in LA21 is £470,632, which is 85% above the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in LA21 cost 64.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LA21 have risen 4.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, LA21 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LA21 has 2 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LA21 are 83.0 Mbps, with 82% of premises having access to superfast broadband and 38% with full fibre (FTTP) connectivity.",
+    "synthesis": "LA21 (CONISTON) offers above-average property prices (£470,632, 64% above national average), low crime (94% below national average), 2 nearby schools, and good broadband connectivity (83 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 83
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 83
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

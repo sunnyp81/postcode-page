@@ -1,0 +1,198 @@
+{
+  "code": "CM6",
+  "name": "DUNMOW",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "chelmsford",
+  "adjacent": [
+    "CM5",
+    "CM7",
+    "CM8"
+  ],
+  "property": {
+    "avgPrice": 541077,
+    "medianPrice": 447995,
+    "priceChange1y": -4,
+    "priceChange5y": 0,
+    "transactions12m": 1641,
+    "byType": {
+      "detached": {
+        "avg": 647823,
+        "count": 768
+      },
+      "semi": {
+        "avg": 430759,
+        "count": 356
+      },
+      "terraced": {
+        "avg": 350936,
+        "count": 250
+      },
+      "flat": {
+        "avg": 239764,
+        "count": 144
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 552764
+      },
+      {
+        "year": 2024,
+        "avg": 545229
+      },
+      {
+        "year": 2025,
+        "avg": 523175
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 17.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -79,
+    "byType": {
+      "violentCrime": 7,
+      "burglary": 0.7,
+      "vehicleCrime": 1.2,
+      "antisocialBehaviour": 2,
+      "otherTheft": 1.7,
+      "other": 4.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Felsted Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Stebbing Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Great Easton Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Rodings Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Thaxted Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 164304,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 16,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 325,
+    "avgUpload": 59,
+    "superfastPct": 95,
+    "ultrafastPct": 79,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Braintree",
+    "bandD": 2010,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.7,
+    "imdRank": 12716,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CM6 covers DUNMOW in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CM6 is £541,077, which is 26% above the Essex average of £429,754.",
+    "priceVsNational": "Properties in CM6 cost 88.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CM6 have fallen 4.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 17.1 recorded crimes per 1,000 residents, CM6 has a crime rate well 79% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CM6 has 12 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CM6 are 325.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CM6 (DUNMOW) offers above-average property prices (£541,077, 89% above national average), low crime (79% below national average), 12 nearby schools, and excellent broadband (325 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 325
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 325
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

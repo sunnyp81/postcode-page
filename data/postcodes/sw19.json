@@ -1,0 +1,197 @@
+{
+  "code": "SW19",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SW18",
+    "SW20"
+  ],
+  "property": {
+    "avgPrice": 911669,
+    "medianPrice": 590000,
+    "priceChange1y": 6.2,
+    "priceChange5y": 0,
+    "transactions12m": 3447,
+    "byType": {
+      "detached": {
+        "avg": 3607951,
+        "count": 150
+      },
+      "semi": {
+        "avg": 1497912,
+        "count": 300
+      },
+      "terraced": {
+        "avg": 959085,
+        "count": 1023
+      },
+      "flat": {
+        "avg": 473246,
+        "count": 1817
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 919176
+      },
+      {
+        "year": 2024,
+        "avg": 884027
+      },
+      {
+        "year": 2025,
+        "avg": 938958
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 79.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -1.8,
+    "byType": {
+      "violentCrime": 20,
+      "burglary": 3.1,
+      "vehicleCrime": 5.9,
+      "antisocialBehaviour": 17.3,
+      "otherTheft": 21.1,
+      "other": 12.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 34,
+    "outstanding": 7,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Southmead Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ronald Ross Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Albemarle Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Our Lady Queen of Heaven RC School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Willington School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 337655,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 19,
+    "privateRent": 34,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 334,
+    "avgUpload": 60,
+    "superfastPct": 98,
+    "ultrafastPct": 84,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wandsworth",
+    "bandD": 921,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.6,
+    "imdRank": 14312,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SW19 covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in SW19 is £911,669, which is 30% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SW19 cost 217.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SW19 have risen 6.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "SW19 has a crime rate of 79.8 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "SW19 has 34 schools within or near its boundaries, including 7 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SW19 are 334.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SW19 (LONDON) offers above-average property prices (£911,669, 218% above national average), strong school provision (7 Outstanding-rated schools), and excellent broadband (334 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 334
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 334
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

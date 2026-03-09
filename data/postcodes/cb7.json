@@ -1,0 +1,198 @@
+{
+  "code": "CB7",
+  "name": "ELY",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "cambridge",
+  "adjacent": [
+    "CB6",
+    "CB8",
+    "CB9"
+  ],
+  "property": {
+    "avgPrice": 357558,
+    "medianPrice": 317500,
+    "priceChange1y": -10.1,
+    "priceChange5y": 0,
+    "transactions12m": 1371,
+    "byType": {
+      "detached": {
+        "avg": 460070,
+        "count": 447
+      },
+      "semi": {
+        "avg": 313691,
+        "count": 344
+      },
+      "terraced": {
+        "avg": 274789,
+        "count": 356
+      },
+      "flat": {
+        "avg": 200789,
+        "count": 123
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 356267
+      },
+      {
+        "year": 2024,
+        "avg": 375635
+      },
+      {
+        "year": 2025,
+        "avg": 337572
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.3,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.3,
+      "otherTheft": 0.2,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Spring Meadow Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Fordham CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Isleham Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "King's Ely",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Soham Village College",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 92906,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 14,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 316,
+    "avgUpload": 57,
+    "superfastPct": 92,
+    "ultrafastPct": 78,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Cambridgeshire",
+    "bandD": 2143,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.5,
+    "imdRank": 9710,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CB7 encompasses ELY and its surrounding areas in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in CB7 is £357,558, which is 7% below the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in CB7 cost 24.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CB7 have fallen 10.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, CB7 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CB7 has 9 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CB7 are 316.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CB7 (ELY) offers above-average property prices (£357,558, 25% above national average), low crime (94% below national average), 9 nearby schools, and excellent broadband (316 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 316
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 316
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

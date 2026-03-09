@@ -1,0 +1,198 @@
+{
+  "code": "W10",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "W9",
+    "W11",
+    "W12"
+  ],
+  "property": {
+    "avgPrice": 992374,
+    "medianPrice": 705000,
+    "priceChange1y": -17.4,
+    "priceChange5y": 0,
+    "transactions12m": 615,
+    "byType": {
+      "detached": {
+        "avg": 5157167,
+        "count": 6
+      },
+      "semi": {
+        "avg": 3348864,
+        "count": 11
+      },
+      "terraced": {
+        "avg": 1309809,
+        "count": 163
+      },
+      "flat": {
+        "avg": 684384,
+        "count": 393
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1017220
+      },
+      {
+        "year": 2024,
+        "avg": 1072318
+      },
+      {
+        "year": 2025,
+        "avg": 885328
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 79.9,
+      "burglary": 12.4,
+      "vehicleCrime": 17.2,
+      "antisocialBehaviour": 66.2,
+      "otherTheft": 81.2,
+      "other": 56
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 23,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Golborne & Maxilla Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Barlby Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bevington Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Oxford Gardens Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Thomas' CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 209996,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 11,
+    "socialRent": 28,
+    "privateRent": 39,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 348,
+    "avgUpload": 63,
+    "superfastPct": 99,
+    "ultrafastPct": 85,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Westminster",
+    "bandD": 914,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.3,
+    "imdRank": 16573,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "W10 is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in W10 is £992,374, which is 24% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in W10 cost 245.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in W10 have fallen 17.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, W10 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "W10 has 23 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in W10 are 348.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "W10 (LONDON) offers above-average property prices (£992,374, 246% above national average), higher-than-average crime (269% above national average), 23 nearby schools, and excellent broadband (348 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 348
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 348
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

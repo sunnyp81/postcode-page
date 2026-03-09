@@ -1,0 +1,187 @@
+{
+  "code": "E1W",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "E2",
+    "E3"
+  ],
+  "property": {
+    "avgPrice": 851858,
+    "medianPrice": 702175,
+    "priceChange1y": -1.4,
+    "priceChange5y": 0,
+    "transactions12m": 640,
+    "byType": {
+      "detached": {
+        "avg": 1198333,
+        "count": 3
+      },
+      "semi": {
+        "avg": 1022230,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 875708,
+        "count": 31
+      },
+      "flat": {
+        "avg": 822245,
+        "count": 597
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 819962
+      },
+      {
+        "year": 2024,
+        "avg": 869802
+      },
+      {
+        "year": 2025,
+        "avg": 857360
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 90.9,
+      "burglary": 19.3,
+      "vehicleCrime": 14.1,
+      "antisocialBehaviour": 78.5,
+      "otherTheft": 112.9,
+      "other": 57.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Peter's London Docks CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mulberry Academy London Dock",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hermitage Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 331886,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 15,
+    "socialRent": 36,
+    "privateRent": 36,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 319,
+    "avgUpload": 57,
+    "superfastPct": 88,
+    "ultrafastPct": 78,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Tower Hamlets",
+    "bandD": 1581,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.9,
+    "imdRank": 22507,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "E1W is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in E1W is £851,858, which is 35% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in E1W cost 196.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in E1W have fallen 1.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, E1W has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "E1W has 3 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in E1W are 319.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "E1W (LONDON) offers above-average property prices (£851,858, 197% above national average), higher-than-average crime (269% above national average), 3 nearby schools, and excellent broadband (319 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 319
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 319
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

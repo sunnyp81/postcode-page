@@ -1,0 +1,198 @@
+{
+  "code": "BN15",
+  "name": "LANCING",
+  "county": "east-sussex",
+  "region": "south-east",
+  "city": "brighton",
+  "adjacent": [
+    "BN14",
+    "BN16",
+    "BN17"
+  ],
+  "property": {
+    "avgPrice": 351200,
+    "medianPrice": 345000,
+    "priceChange1y": 1,
+    "priceChange5y": 0,
+    "transactions12m": 1288,
+    "byType": {
+      "detached": {
+        "avg": 467585,
+        "count": 220
+      },
+      "semi": {
+        "avg": 381856,
+        "count": 474
+      },
+      "terraced": {
+        "avg": 330043,
+        "count": 310
+      },
+      "flat": {
+        "avg": 207458,
+        "count": 233
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 348382
+      },
+      {
+        "year": 2024,
+        "avg": 350989
+      },
+      {
+        "year": 2025,
+        "avg": 354542
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 46.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -43.1,
+    "byType": {
+      "violentCrime": 15.2,
+      "burglary": 0.9,
+      "vehicleCrime": 1.1,
+      "antisocialBehaviour": 8.3,
+      "otherTheft": 10.9,
+      "other": 9.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Boundstone Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "North Lancing Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lancing College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sompting Abbotts School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sompting Village Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 64889,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 12,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 379,
+    "avgUpload": 68,
+    "superfastPct": 99,
+    "ultrafastPct": 94,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Adur",
+    "bandD": 2217,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.6,
+    "imdRank": 14995,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BN15 covers LANCING in East Sussex, South East.",
+    "priceVsCounty": "The average property price in BN15 is £351,200, which is 23% below the East Sussex average of £455,819.",
+    "priceVsNational": "Properties in BN15 cost 22.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BN15 have risen 1.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 46.3 recorded crimes per 1,000 residents, BN15 has a crime rate well 43% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BN15 has 9 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BN15 are 379.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BN15 (LANCING) offers above-average property prices (£351,200, 22% above national average), low crime (43% below national average), 9 nearby schools, and excellent broadband (379 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 455819,
+      "crime": 75,
+      "broadband": 379
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 379
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

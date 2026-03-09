@@ -1,0 +1,198 @@
+{
+  "code": "B34",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B33",
+    "B35",
+    "B36"
+  ],
+  "property": {
+    "avgPrice": 208999,
+    "medianPrice": 210000,
+    "priceChange1y": 2,
+    "priceChange5y": 0,
+    "transactions12m": 567,
+    "byType": {
+      "detached": {
+        "avg": 276543,
+        "count": 23
+      },
+      "semi": {
+        "avg": 230194,
+        "count": 197
+      },
+      "terraced": {
+        "avg": 200237,
+        "count": 294
+      },
+      "flat": {
+        "avg": 119006,
+        "count": 42
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 201767
+      },
+      {
+        "year": 2024,
+        "avg": 210529
+      },
+      {
+        "year": 2025,
+        "avg": 214771
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 113.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 40,
+    "byType": {
+      "violentCrime": 52,
+      "burglary": 4.6,
+      "vehicleCrime": 10.9,
+      "antisocialBehaviour": 5.9,
+      "otherTheft": 20.2,
+      "other": 20.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Colebourne Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beaufort School",
+        "type": "Other",
+        "ofsted": "Inadequate"
+      },
+      {
+        "name": "Timberley Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "SILVER BIRCH SCHOOL",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Heathlands Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 397,
+    "avgUpload": 71,
+    "superfastPct": 100,
+    "ultrafastPct": 99,
+    "gigabitPct": 99,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B34 is the postcode district for BIRMINGHAM, located in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B34 is £208,999, which is 37% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B34 cost 27.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B34 have risen 2.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 113.8 recorded crimes per 1,000 residents, B34 has a crime rate significantly 40% above the national average of 81.3 per 1,000.",
+    "schoolContext": "B34 has 8 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B34 are 397.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B34 (BIRMINGHAM) offers affordable property prices (£208,999, 27% below national average), higher-than-average crime (40% above national average), 8 nearby schools, and excellent broadband (397 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 397
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 397
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

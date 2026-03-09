@@ -1,0 +1,198 @@
+{
+  "code": "OX16",
+  "name": "BANBURY",
+  "county": "oxfordshire",
+  "region": "south-east",
+  "city": "oxford",
+  "adjacent": [
+    "OX15",
+    "OX17",
+    "OX18"
+  ],
+  "property": {
+    "avgPrice": 382315,
+    "medianPrice": 286000,
+    "priceChange1y": -16,
+    "priceChange5y": 0,
+    "transactions12m": 2455,
+    "byType": {
+      "detached": {
+        "avg": 436057,
+        "count": 540
+      },
+      "semi": {
+        "avg": 302232,
+        "count": 812
+      },
+      "terraced": {
+        "avg": 264487,
+        "count": 616
+      },
+      "flat": {
+        "avg": 152950,
+        "count": 375
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 399293
+      },
+      {
+        "year": 2024,
+        "avg": 404216
+      },
+      {
+        "year": 2025,
+        "avg": 339723
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 109.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 34.8,
+    "byType": {
+      "violentCrime": 48.4,
+      "burglary": 2.6,
+      "vehicleCrime": 3.4,
+      "antisocialBehaviour": 10.1,
+      "otherTheft": 17.3,
+      "other": 27.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 22,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Orchard Fields Community School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Queensway School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Grange Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Leonard's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Tudor Hall School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 170426,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 325,
+    "avgUpload": 59,
+    "superfastPct": 98,
+    "ultrafastPct": 83,
+    "gigabitPct": 77,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cherwell",
+    "bandD": 2243,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.4,
+    "imdRank": 11879,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "OX16 covers BANBURY in Oxfordshire, South East.",
+    "priceVsCounty": "The average property price in OX16 is £382,315, which is 35% below the Oxfordshire average of £588,175.",
+    "priceVsNational": "Properties in OX16 cost 33.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in OX16 have fallen 16.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 109.6 recorded crimes per 1,000 residents, OX16 has a crime rate significantly 35% above the national average of 81.3 per 1,000.",
+    "schoolContext": "OX16 has 22 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in OX16 are 325.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "OX16 (BANBURY) offers above-average property prices (£382,315, 33% above national average), higher-than-average crime (35% above national average), 22 nearby schools, and excellent broadband (325 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 588175,
+      "crime": 75,
+      "broadband": 325
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 325
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

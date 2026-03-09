@@ -1,0 +1,198 @@
+{
+  "code": "NR32",
+  "name": "LOWESTOFT",
+  "county": "norfolk",
+  "region": "east-of-england",
+  "city": "norwich",
+  "adjacent": [
+    "NR31",
+    "NR33",
+    "NR34"
+  ],
+  "property": {
+    "avgPrice": 241073,
+    "medianPrice": 210000,
+    "priceChange1y": 3.8,
+    "priceChange5y": 0,
+    "transactions12m": 1773,
+    "byType": {
+      "detached": {
+        "avg": 339251,
+        "count": 552
+      },
+      "semi": {
+        "avg": 235842,
+        "count": 365
+      },
+      "terraced": {
+        "avg": 160710,
+        "count": 699
+      },
+      "flat": {
+        "avg": 115723,
+        "count": 74
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 250403
+      },
+      {
+        "year": 2024,
+        "avg": 231830
+      },
+      {
+        "year": 2025,
+        "avg": 240563
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 55.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -32,
+    "byType": {
+      "violentCrime": 25.5,
+      "burglary": 2.4,
+      "vehicleCrime": 3.1,
+      "antisocialBehaviour": 6.9,
+      "otherTheft": 6.3,
+      "other": 11
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Oulton Broad Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Corton Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Blundeston Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "East Coast College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Learning Support, Northern Area Education Office",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 20486,
+    "medianAge": 41,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 13,
+    "privateRent": 21,
+    "economicallyActive": 76,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 375,
+    "avgUpload": 68,
+    "superfastPct": 99,
+    "ultrafastPct": 93,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Suffolk",
+    "bandD": 2019,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.6,
+    "imdRank": 15274,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NR32 covers LOWESTOFT in Norfolk, East Of England.",
+    "priceVsCounty": "The average property price in NR32 is £241,073, which is 32% below the Norfolk average of £352,657.",
+    "priceVsNational": "Properties in NR32 cost 16.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NR32 have risen 3.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 55.3 recorded crimes per 1,000 residents, NR32 has a crime rate well 32% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NR32 has 19 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NR32 are 375.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NR32 (LOWESTOFT) offers affordable property prices (£241,073, 16% below national average), low crime (32% below national average), 19 nearby schools, and excellent broadband (375 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 352657,
+      "crime": 75,
+      "broadband": 375
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 375
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "code": "BN45",
+  "name": "BRIGHTON",
+  "county": "east-sussex",
+  "region": "south-east",
+  "city": "brighton",
+  "adjacent": [
+    "BN44"
+  ],
+  "property": {
+    "avgPrice": 798069,
+    "medianPrice": 642250,
+    "priceChange1y": -39.2,
+    "priceChange5y": 0,
+    "transactions12m": 24,
+    "byType": {
+      "detached": {
+        "avg": 818929,
+        "count": 7
+      },
+      "semi": {
+        "avg": 443286,
+        "count": 7
+      },
+      "terraced": {
+        "avg": 378718,
+        "count": 3
+      },
+      "flat": {
+        "avg": 240000,
+        "count": 1
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 640500
+      },
+      {
+        "year": 2024,
+        "avg": 1027966
+      },
+      {
+        "year": 2025,
+        "avg": 625000
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.4,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.1,
+      "other": 0.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 0,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": []
+  },
+  "demographics": {
+    "population": 161755,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 11,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 286,
+    "avgUpload": 51,
+    "superfastPct": 92,
+    "ultrafastPct": 68,
+    "gigabitPct": 68,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Mid Sussex",
+    "bandD": 2139,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 7.7,
+    "imdRank": 5566,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BN45 covers BRIGHTON in East Sussex, South East.",
+    "priceVsCounty": "The average property price in BN45 is £798,069, which is 75% above the East Sussex average of £455,819.",
+    "priceVsNational": "Properties in BN45 cost 178.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BN45 have fallen 39.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, BN45 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "School data for BN45 is not currently available.",
+    "broadbandContext": "Average broadband download speeds in BN45 are 286.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BN45 (BRIGHTON) offers above-average property prices (£798,069, 178% above national average), low crime (94% below national average), and excellent broadband (286 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 455819,
+      "crime": 75,
+      "broadband": 286
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 286
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

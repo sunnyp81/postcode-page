@@ -1,0 +1,198 @@
+{
+  "code": "RM11",
+  "name": "HORNCHURCH",
+  "county": "greater-london",
+  "region": "london",
+  "city": "romford",
+  "adjacent": [
+    "RM10",
+    "RM12",
+    "RM13"
+  ],
+  "property": {
+    "avgPrice": 549125,
+    "medianPrice": 485000,
+    "priceChange1y": 1,
+    "priceChange5y": 0,
+    "transactions12m": 1319,
+    "byType": {
+      "detached": {
+        "avg": 934945,
+        "count": 264
+      },
+      "semi": {
+        "avg": 535418,
+        "count": 469
+      },
+      "terraced": {
+        "avg": 475182,
+        "count": 314
+      },
+      "flat": {
+        "avg": 263077,
+        "count": 243
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 569873
+      },
+      {
+        "year": 2024,
+        "avg": 537116
+      },
+      {
+        "year": 2025,
+        "avg": 542428
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 44.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -45.4,
+    "byType": {
+      "violentCrime": 12.5,
+      "burglary": 1.6,
+      "vehicleCrime": 5.1,
+      "antisocialBehaviour": 9.6,
+      "otherTheft": 8.2,
+      "other": 7.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 2,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Langtons Infant School & Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Towers Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Towers Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Nelmes Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Campion School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 276274,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 14,
+    "privateRent": 14,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 357,
+    "avgUpload": 64,
+    "superfastPct": 98,
+    "ultrafastPct": 90,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Havering",
+    "bandD": 2088,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.8,
+    "imdRank": 14036,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RM11 encompasses HORNCHURCH and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in RM11 is £549,125, which is 58% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in RM11 cost 91.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RM11 have risen 1.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 44.4 recorded crimes per 1,000 residents, RM11 has a crime rate well 45% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RM11 has 11 schools within or near its boundaries, including 2 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RM11 are 357.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RM11 (HORNCHURCH) offers above-average property prices (£549,125, 91% above national average), low crime (45% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (357 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 357
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 357
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

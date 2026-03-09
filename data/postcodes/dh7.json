@@ -1,0 +1,198 @@
+{
+  "code": "DH7",
+  "name": "DURHAM",
+  "county": "county-durham",
+  "region": "north-east",
+  "city": "durham",
+  "adjacent": [
+    "DH6",
+    "DH8",
+    "DH9"
+  ],
+  "property": {
+    "avgPrice": 161943,
+    "medianPrice": 129998,
+    "priceChange1y": -3.4,
+    "priceChange5y": 0,
+    "transactions12m": 2000,
+    "byType": {
+      "detached": {
+        "avg": 268872,
+        "count": 474
+      },
+      "semi": {
+        "avg": 135218,
+        "count": 648
+      },
+      "terraced": {
+        "avg": 108416,
+        "count": 763
+      },
+      "flat": {
+        "avg": 94184,
+        "count": 50
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 156101
+      },
+      {
+        "year": 2024,
+        "avg": 167362
+      },
+      {
+        "year": 2025,
+        "avg": 161676
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 11,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -86.5,
+    "byType": {
+      "violentCrime": 3.8,
+      "burglary": 0.3,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 3.3,
+      "otherTheft": 1.1,
+      "other": 2.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 24,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 4,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Langley Moor Nursery School",
+        "type": "Nursery",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Langley Moor Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Witton Gilbert Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bearpark Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Silver Tree Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 538011,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 20,
+    "privateRent": 15,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 133,
+    "avgUpload": 24,
+    "superfastPct": 88,
+    "ultrafastPct": 24,
+    "gigabitPct": 24,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Durham Council",
+    "bandD": 2115,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.8,
+    "imdRank": 20206,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DH7 covers DURHAM in County Durham, North East.",
+    "priceVsCounty": "The average property price in DH7 is £161,943, which is 22% below the County Durham average of £207,512.",
+    "priceVsNational": "Properties in DH7 cost 43.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DH7 have fallen 3.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 11.0 recorded crimes per 1,000 residents, DH7 has a crime rate well 86% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DH7 has 24 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DH7 are 133.0 Mbps, with 90% of premises having access to superfast broadband and 52% with full fibre (FTTP) connectivity.",
+    "synthesis": "DH7 (DURHAM) offers affordable property prices (£161,943, 44% below national average), low crime (86% below national average), 24 nearby schools, and excellent broadband (133 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 207512,
+      "crime": 75,
+      "broadband": 133
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 133
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

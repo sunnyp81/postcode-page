@@ -1,0 +1,198 @@
+{
+  "code": "RM14",
+  "name": "UPMINSTER",
+  "county": "greater-london",
+  "region": "london",
+  "city": "romford",
+  "adjacent": [
+    "RM13",
+    "RM15",
+    "RM16"
+  ],
+  "property": {
+    "avgPrice": 614916,
+    "medianPrice": 550000,
+    "priceChange1y": 4.7,
+    "priceChange5y": 0,
+    "transactions12m": 1102,
+    "byType": {
+      "detached": {
+        "avg": 887912,
+        "count": 164
+      },
+      "semi": {
+        "avg": 621193,
+        "count": 568
+      },
+      "terraced": {
+        "avg": 518620,
+        "count": 167
+      },
+      "flat": {
+        "avg": 326390,
+        "count": 167
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 647856
+      },
+      {
+        "year": 2024,
+        "avg": 587707
+      },
+      {
+        "year": 2025,
+        "avg": 615570
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 19,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -76.6,
+    "byType": {
+      "violentCrime": 4.3,
+      "burglary": 0.9,
+      "vehicleCrime": 2.8,
+      "antisocialBehaviour": 4.1,
+      "otherTheft": 4.5,
+      "other": 2.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The James Oglethorpe Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Joseph's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Oakfields Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Corbets Tey School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Engayne Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 276274,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 14,
+    "privateRent": 14,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 331,
+    "avgUpload": 60,
+    "superfastPct": 91,
+    "ultrafastPct": 81,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Havering",
+    "bandD": 2088,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.8,
+    "imdRank": 14036,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RM14 encompasses UPMINSTER and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in RM14 is £614,916, which is 53% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in RM14 cost 114.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RM14 have risen 4.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 19.0 recorded crimes per 1,000 residents, RM14 has a crime rate well 77% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RM14 has 13 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RM14 are 331.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RM14 (UPMINSTER) offers above-average property prices (£614,916, 114% above national average), low crime (77% below national average), 13 nearby schools, and excellent broadband (331 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 331
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 331
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

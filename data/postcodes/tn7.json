@@ -1,0 +1,183 @@
+{
+  "code": "TN7",
+  "name": "HARTFIELD",
+  "county": "kent",
+  "region": "south-east",
+  "city": "tunbridge-wells",
+  "adjacent": [
+    "TN6",
+    "TN8",
+    "TN9"
+  ],
+  "property": {
+    "avgPrice": 889728,
+    "medianPrice": 747500,
+    "priceChange1y": 10.9,
+    "priceChange5y": 0,
+    "transactions12m": 76,
+    "byType": {
+      "detached": {
+        "avg": 1074275,
+        "count": 32
+      },
+      "semi": {
+        "avg": 609605,
+        "count": 19
+      },
+      "terraced": {
+        "avg": 615833,
+        "count": 6
+      },
+      "flat": {
+        "avg": 274000,
+        "count": 5
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 912400
+      },
+      {
+        "year": 2024,
+        "avg": 828295
+      },
+      {
+        "year": 2025,
+        "avg": 918182
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.3,
+      "otherTheft": 0.1,
+      "other": 0.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Michael's Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "St Mary the Virgin Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 166908,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 8,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 172,
+    "avgUpload": 31,
+    "superfastPct": 83,
+    "ultrafastPct": 36,
+    "gigabitPct": 36,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wealden",
+    "bandD": 2363,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.3,
+    "imdRank": 10272,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TN7 is the postcode district for HARTFIELD, located in Kent, South East.",
+    "priceVsCounty": "The average property price in TN7 is £889,728, which is 97% above the Kent average of £450,882.",
+    "priceVsNational": "Properties in TN7 cost 210.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TN7 have risen 10.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TN7 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TN7 has 2 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TN7 are 172.0 Mbps, with 96% of premises having access to superfast broadband and 62% with full fibre (FTTP) connectivity.",
+    "synthesis": "TN7 (HARTFIELD) offers above-average property prices (£889,728, 210% above national average), low crime (94% below national average), 2 nearby schools, and excellent broadband (172 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 172
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 172
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

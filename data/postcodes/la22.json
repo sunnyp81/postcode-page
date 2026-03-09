@@ -1,0 +1,191 @@
+{
+  "code": "LA22",
+  "name": "AMBLESIDE",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "lancaster",
+  "adjacent": [
+    "LA21",
+    "LA23"
+  ],
+  "property": {
+    "avgPrice": 560593,
+    "medianPrice": 459000,
+    "priceChange1y": -14.8,
+    "priceChange5y": 0,
+    "transactions12m": 271,
+    "byType": {
+      "detached": {
+        "avg": 804034,
+        "count": 78
+      },
+      "semi": {
+        "avg": 562139,
+        "count": 34
+      },
+      "terraced": {
+        "avg": 408286,
+        "count": 66
+      },
+      "flat": {
+        "avg": 355135,
+        "count": 44
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 568870
+      },
+      {
+        "year": 2024,
+        "avg": 594791
+      },
+      {
+        "year": 2025,
+        "avg": 506954
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.3,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hawkshead Esthwaite Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Grasmere CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Langdale CofE School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ambleside CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 136,
+    "avgUpload": 24,
+    "superfastPct": 80,
+    "ultrafastPct": 26,
+    "gigabitPct": 26,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lancaster Council",
+    "bandD": 2304,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LA22 is the postcode district for AMBLESIDE, located in Lancashire, North West.",
+    "priceVsCounty": "The average property price in LA22 is £560,593, which is 120% above the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in LA22 cost 95.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LA22 have fallen 14.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, LA22 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LA22 has 4 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LA22 are 136.0 Mbps, with 90% of premises having access to superfast broadband and 52% with full fibre (FTTP) connectivity.",
+    "synthesis": "LA22 (AMBLESIDE) offers above-average property prices (£560,593, 95% above national average), low crime (94% below national average), 4 nearby schools, and excellent broadband (136 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 136
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 136
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

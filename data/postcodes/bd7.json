@@ -1,0 +1,198 @@
+{
+  "code": "BD7",
+  "name": "BRADFORD",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "bradford",
+  "adjacent": [
+    "BD6",
+    "BD8",
+    "BD9"
+  ],
+  "property": {
+    "avgPrice": 147587,
+    "medianPrice": 130000,
+    "priceChange1y": -0.2,
+    "priceChange5y": 0,
+    "transactions12m": 990,
+    "byType": {
+      "detached": {
+        "avg": 226036,
+        "count": 68
+      },
+      "semi": {
+        "avg": 162447,
+        "count": 347
+      },
+      "terraced": {
+        "avg": 104776,
+        "count": 497
+      },
+      "flat": {
+        "avg": 91847,
+        "count": 17
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 161217
+      },
+      {
+        "year": 2024,
+        "avg": 140377
+      },
+      {
+        "year": 2025,
+        "avg": 140050
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 183.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 125.8,
+    "byType": {
+      "violentCrime": 84.1,
+      "burglary": 8.4,
+      "vehicleCrime": 12.5,
+      "antisocialBehaviour": 14.1,
+      "otherTheft": 22.6,
+      "other": 41.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Brackenhill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bradford College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "University of Bradford",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dixons Kings Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Oswald's Church of England Primary Academy",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 563605,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 351,
+    "avgUpload": 63,
+    "superfastPct": 96,
+    "ultrafastPct": 87,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bradford",
+    "bandD": 1956,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 34.7,
+    "imdRank": 23086,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BD7 covers BRADFORD in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in BD7 is £147,587, which is 47% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in BD7 cost 48.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BD7 have fallen 0.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 183.6 recorded crimes per 1,000 residents, BD7 has a crime rate significantly 126% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BD7 has 12 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BD7 are 351.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BD7 (BRADFORD) offers affordable property prices (£147,587, 49% below national average), higher-than-average crime (126% above national average), 12 nearby schools, and excellent broadband (351 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 351
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 351
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

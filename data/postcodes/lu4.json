@@ -1,0 +1,198 @@
+{
+  "code": "LU4",
+  "name": "LUTON",
+  "county": "bedfordshire",
+  "region": "east-of-england",
+  "city": "luton",
+  "adjacent": [
+    "LU3",
+    "LU5",
+    "LU6"
+  ],
+  "property": {
+    "avgPrice": 328269,
+    "medianPrice": 305000,
+    "priceChange1y": -16.8,
+    "priceChange5y": 0,
+    "transactions12m": 1177,
+    "byType": {
+      "detached": {
+        "avg": 430980,
+        "count": 140
+      },
+      "semi": {
+        "avg": 319032,
+        "count": 563
+      },
+      "terraced": {
+        "avg": 273949,
+        "count": 330
+      },
+      "flat": {
+        "avg": 142545,
+        "count": 110
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 318435
+      },
+      {
+        "year": 2024,
+        "avg": 361270
+      },
+      {
+        "year": 2025,
+        "avg": 300565
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 93.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 14.8,
+    "byType": {
+      "violentCrime": 39.7,
+      "burglary": 2.1,
+      "vehicleCrime": 7,
+      "antisocialBehaviour": 13.2,
+      "otherTheft": 9.3,
+      "other": 21.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 2,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Pastures Way Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chalton Lower School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Maidenhall Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Downside Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pirton Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 315877,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 380,
+    "avgUpload": 68,
+    "superfastPct": 99,
+    "ultrafastPct": 95,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Luton Council",
+    "bandD": 2251,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.2,
+    "imdRank": 9823,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LU4 covers LUTON in Bedfordshire, East Of England.",
+    "priceVsCounty": "The average property price in LU4 is £328,269, which is 11% below the Bedfordshire average of £368,807.",
+    "priceVsNational": "Properties in LU4 cost 14.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LU4 have fallen 16.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 93.3 recorded crimes per 1,000 residents, LU4 has a crime rate 15% above the national average of 81.3 per 1,000.",
+    "schoolContext": "LU4 has 20 schools within or near its boundaries, including 2 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LU4 are 380.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LU4 (LUTON) offers property prices near the national average (£328,269), strong school provision (2 Outstanding-rated schools), and excellent broadband (380 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 368807,
+      "crime": 75,
+      "broadband": 380
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 380
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

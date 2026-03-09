@@ -1,0 +1,198 @@
+{
+  "code": "BB3",
+  "name": "DARWEN",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "blackburn",
+  "adjacent": [
+    "BB2",
+    "BB4",
+    "BB5"
+  ],
+  "property": {
+    "avgPrice": 185751,
+    "medianPrice": 145000,
+    "priceChange1y": -3.4,
+    "priceChange5y": 0,
+    "transactions12m": 2215,
+    "byType": {
+      "detached": {
+        "avg": 298099,
+        "count": 436
+      },
+      "semi": {
+        "avg": 187817,
+        "count": 426
+      },
+      "terraced": {
+        "avg": 114711,
+        "count": 1191
+      },
+      "flat": {
+        "avg": 97245,
+        "count": 57
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 195084
+      },
+      {
+        "year": 2024,
+        "avg": 183666
+      },
+      {
+        "year": 2025,
+        "avg": 177482
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 73.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -9.8,
+    "byType": {
+      "violentCrime": 28.5,
+      "burglary": 1.9,
+      "vehicleCrime": 4.3,
+      "antisocialBehaviour": 19.9,
+      "otherTheft": 6.5,
+      "other": 12.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Turncroft Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lower Darwen Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ashleigh Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Avondale Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holy Trinity VC School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 162540,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 19,
+    "privateRent": 18,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 315,
+    "avgUpload": 57,
+    "superfastPct": 94,
+    "ultrafastPct": 76,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Blackburn Council",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 36,
+    "imdRank": 23819,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BB3 covers DARWEN in Lancashire, North West.",
+    "priceVsCounty": "The average property price in BB3 is £185,751, which is 27% below the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in BB3 cost 35.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BB3 have fallen 3.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 73.3 recorded crimes per 1,000 residents, BB3 has a crime rate 10% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BB3 has 21 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BB3 are 315.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BB3 (DARWEN) offers affordable property prices (£185,751, 35% below national average), 21 nearby schools, and excellent broadband (315 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 315
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 315
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

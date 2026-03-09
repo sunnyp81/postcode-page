@@ -1,0 +1,197 @@
+{
+  "code": "E18",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "E17",
+    "E20"
+  ],
+  "property": {
+    "avgPrice": 620457,
+    "medianPrice": 500000,
+    "priceChange1y": -6.9,
+    "priceChange5y": 0,
+    "transactions12m": 810,
+    "byType": {
+      "detached": {
+        "avg": 1190309,
+        "count": 27
+      },
+      "semi": {
+        "avg": 905932,
+        "count": 134
+      },
+      "terraced": {
+        "avg": 736358,
+        "count": 218
+      },
+      "flat": {
+        "avg": 368079,
+        "count": 398
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 554700
+      },
+      {
+        "year": 2024,
+        "avg": 671484
+      },
+      {
+        "year": 2025,
+        "avg": 625016
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 61.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -23.9,
+    "byType": {
+      "violentCrime": 15.2,
+      "burglary": 3.3,
+      "vehicleCrime": 8.1,
+      "antisocialBehaviour": 11.2,
+      "otherTheft": 14.7,
+      "other": 9.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Snaresbrook Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Nightingale Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Snaresbrook Prep School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oakdale Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oakdale Infants' School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 321231,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 11,
+    "privateRent": 28,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 340,
+    "avgUpload": 61,
+    "superfastPct": 99,
+    "ultrafastPct": 87,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Redbridge",
+    "bandD": 1976,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.2,
+    "imdRank": 15082,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "E18 covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in E18 is £620,457, which is 53% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in E18 cost 116.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in E18 have fallen 6.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 61.9 recorded crimes per 1,000 residents, E18 has a crime rate well 24% below the national average of 81.3 per 1,000.",
+    "schoolContext": "E18 has 7 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in E18 are 340.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "E18 (LONDON) offers above-average property prices (£620,457, 116% above national average), low crime (24% below national average), 7 nearby schools, and excellent broadband (340 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 340
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 340
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "TS10",
+  "name": "REDCAR",
+  "county": "teesside",
+  "region": "north-east",
+  "city": "middlesbrough",
+  "adjacent": [
+    "TS9",
+    "TS11",
+    "TS12"
+  ],
+  "property": {
+    "avgPrice": 164026,
+    "medianPrice": 149975,
+    "priceChange1y": 0.7,
+    "priceChange5y": 0,
+    "transactions12m": 1834,
+    "byType": {
+      "detached": {
+        "avg": 264198,
+        "count": 298
+      },
+      "semi": {
+        "avg": 159535,
+        "count": 865
+      },
+      "terraced": {
+        "avg": 108096,
+        "count": 539
+      },
+      "flat": {
+        "avg": 77500,
+        "count": 71
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 163758
+      },
+      {
+        "year": 2024,
+        "avg": 163662
+      },
+      {
+        "year": 2025,
+        "avg": 164864
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 115.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 41.9,
+    "byType": {
+      "violentCrime": 41.1,
+      "burglary": 4.9,
+      "vehicleCrime": 2,
+      "antisocialBehaviour": 24.9,
+      "otherTheft": 17.2,
+      "other": 25.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Newcomen Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kirkleatham Hall School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dormanstown Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Benedict's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sacred Heart Catholic Secondary",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 139228,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 19,
+    "privateRent": 14,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 383,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 96,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Middlesbrough Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 29.8,
+    "imdRank": 20348,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TS10 covers REDCAR in Teesside, North East.",
+    "priceVsCounty": "The average property price in TS10 is £164,026, which is 14% below the Teesside average of £189,841.",
+    "priceVsNational": "Properties in TS10 cost 42.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TS10 have risen 0.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 115.4 recorded crimes per 1,000 residents, TS10 has a crime rate significantly 42% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TS10 has 16 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TS10 are 383.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TS10 (REDCAR) offers affordable property prices (£164,026, 43% below national average), higher-than-average crime (42% above national average), 16 nearby schools, and excellent broadband (383 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 189841,
+      "crime": 75,
+      "broadband": 383
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 383
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

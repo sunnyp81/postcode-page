@@ -1,0 +1,198 @@
+{
+  "code": "RM2",
+  "name": "ROMFORD",
+  "county": "greater-london",
+  "region": "london",
+  "city": "romford",
+  "adjacent": [
+    "RM1",
+    "RM3",
+    "RM4"
+  ],
+  "property": {
+    "avgPrice": 525232,
+    "medianPrice": 500000,
+    "priceChange1y": 3,
+    "priceChange5y": 0,
+    "transactions12m": 639,
+    "byType": {
+      "detached": {
+        "avg": 882230,
+        "count": 94
+      },
+      "semi": {
+        "avg": 588907,
+        "count": 205
+      },
+      "terraced": {
+        "avg": 535923,
+        "count": 128
+      },
+      "flat": {
+        "avg": 289702,
+        "count": 200
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 501890
+      },
+      {
+        "year": 2024,
+        "avg": 528792
+      },
+      {
+        "year": 2025,
+        "avg": 544805
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 59.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -26.8,
+    "byType": {
+      "violentCrime": 18.1,
+      "burglary": 1.7,
+      "vehicleCrime": 5.1,
+      "antisocialBehaviour": 13,
+      "otherTheft": 11.1,
+      "other": 10.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Squirrels Heath Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gidea Park Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gidea Park Preparatory School and Nursery",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's Hare Park School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Royal Liberty School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 276274,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 14,
+    "privateRent": 14,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 353,
+    "avgUpload": 64,
+    "superfastPct": 98,
+    "ultrafastPct": 88,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Havering",
+    "bandD": 2088,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.8,
+    "imdRank": 14036,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RM2 encompasses ROMFORD and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in RM2 is £525,232, which is 60% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in RM2 cost 83.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RM2 have risen 3.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 59.5 recorded crimes per 1,000 residents, RM2 has a crime rate well 27% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RM2 has 5 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RM2 are 353.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RM2 (ROMFORD) offers above-average property prices (£525,232, 83% above national average), low crime (27% below national average), 5 nearby schools, and excellent broadband (353 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 353
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 353
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

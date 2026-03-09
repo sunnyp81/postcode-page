@@ -1,0 +1,197 @@
+{
+  "code": "WS14",
+  "name": "LICHFIELD",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "walsall",
+  "adjacent": [
+    "WS13",
+    "WS15"
+  ],
+  "property": {
+    "avgPrice": 413888,
+    "medianPrice": 360000,
+    "priceChange1y": 6.7,
+    "priceChange5y": 0,
+    "transactions12m": 1052,
+    "byType": {
+      "detached": {
+        "avg": 566996,
+        "count": 435
+      },
+      "semi": {
+        "avg": 317778,
+        "count": 322
+      },
+      "terraced": {
+        "avg": 280803,
+        "count": 155
+      },
+      "flat": {
+        "avg": 176339,
+        "count": 91
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 372252
+      },
+      {
+        "year": 2024,
+        "avg": 427233
+      },
+      {
+        "year": 2025,
+        "avg": 455826
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 10.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -87.1,
+    "byType": {
+      "violentCrime": 4.5,
+      "burglary": 0.5,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 2,
+      "otherTheft": 0.6,
+      "other": 2.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Joseph's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "King Edward VI School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Five Spires Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Saxon Hill Academy",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Shenstone Lodge School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 111932,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 13,
+    "privateRent": 11,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 264,
+    "avgUpload": 48,
+    "superfastPct": 87,
+    "ultrafastPct": 63,
+    "gigabitPct": 62,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lichfield",
+    "bandD": 2058,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.6,
+    "imdRank": 10387,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WS14 is the postcode district for LICHFIELD, located in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in WS14 is £413,888, which is 24% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in WS14 cost 44.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WS14 have risen 6.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 10.5 recorded crimes per 1,000 residents, WS14 has a crime rate well 87% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WS14 has 9 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WS14 are 264.0 Mbps, with 99% of premises having access to superfast broadband and 88% with full fibre (FTTP) connectivity.",
+    "synthesis": "WS14 (LICHFIELD) offers above-average property prices (£413,888, 44% above national average), low crime (87% below national average), 9 nearby schools, and excellent broadband (264 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 264
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 264
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "WS3",
+  "name": "WALSALL",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "walsall",
+  "adjacent": [
+    "WS2",
+    "WS4",
+    "WS5"
+  ],
+  "property": {
+    "avgPrice": 217360,
+    "medianPrice": 200000,
+    "priceChange1y": 2.3,
+    "priceChange5y": 0,
+    "transactions12m": 1898,
+    "byType": {
+      "detached": {
+        "avg": 306866,
+        "count": 414
+      },
+      "semi": {
+        "avg": 207154,
+        "count": 761
+      },
+      "terraced": {
+        "avg": 172012,
+        "count": 587
+      },
+      "flat": {
+        "avg": 97443,
+        "count": 90
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 219558
+      },
+      {
+        "year": 2024,
+        "avg": 214032
+      },
+      {
+        "year": 2025,
+        "avg": 219000
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 91.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 13,
+    "byType": {
+      "violentCrime": 39.7,
+      "burglary": 4,
+      "vehicleCrime": 6.9,
+      "antisocialBehaviour": 6.2,
+      "otherTheft": 13.1,
+      "other": 22
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 25,
+    "outstanding": 0,
+    "good": 13,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Sandbank Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Valley Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Millfields Nursery School",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Elmore Green Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Leamore Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 104088,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 16,
+    "privateRent": 14,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 357,
+    "avgUpload": 64,
+    "superfastPct": 98,
+    "ultrafastPct": 90,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cannock Chase",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.4,
+    "imdRank": 16898,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WS3 encompasses WALSALL and its surrounding areas in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in WS3 is £217,360, which is 35% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in WS3 cost 24.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WS3 have risen 2.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 91.9 recorded crimes per 1,000 residents, WS3 has a crime rate 13% above the national average of 81.3 per 1,000.",
+    "schoolContext": "WS3 has 25 schools within or near its boundaries, including 13 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WS3 are 357.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WS3 (WALSALL) offers affordable property prices (£217,360, 24% below national average), 25 nearby schools, and excellent broadband (357 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 357
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 357
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

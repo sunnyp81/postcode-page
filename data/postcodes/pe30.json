@@ -1,0 +1,198 @@
+{
+  "code": "PE30",
+  "name": "KING'S LYNN",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "peterborough",
+  "adjacent": [
+    "PE29",
+    "PE31",
+    "PE32"
+  ],
+  "property": {
+    "avgPrice": 246426,
+    "medianPrice": 210000,
+    "priceChange1y": -6.1,
+    "priceChange5y": 0,
+    "transactions12m": 1907,
+    "byType": {
+      "detached": {
+        "avg": 347942,
+        "count": 394
+      },
+      "semi": {
+        "avg": 232609,
+        "count": 560
+      },
+      "terraced": {
+        "avg": 177628,
+        "count": 648
+      },
+      "flat": {
+        "avg": 102858,
+        "count": 174
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 262918
+      },
+      {
+        "year": 2024,
+        "avg": 245787
+      },
+      {
+        "year": 2025,
+        "avg": 230891
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 96.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 19.1,
+    "byType": {
+      "violentCrime": 40.9,
+      "burglary": 1.6,
+      "vehicleCrime": 1.6,
+      "antisocialBehaviour": 9.7,
+      "otherTheft": 19.3,
+      "other": 23.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 23,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 2,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "King's Lynn Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "South Wootton Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fairstead Community Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "South Wootton Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The College of West Anglia",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 156206,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 14,
+    "privateRent": 16,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 328,
+    "avgUpload": 59,
+    "superfastPct": 97,
+    "ultrafastPct": 83,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Peterborough Council",
+    "bandD": 2372,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.7,
+    "imdRank": 19493,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PE30 encompasses KING'S LYNN and its surrounding areas in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in PE30 is £246,426, which is 36% below the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in PE30 cost 14.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PE30 have fallen 6.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 96.8 recorded crimes per 1,000 residents, PE30 has a crime rate 19% above the national average of 81.3 per 1,000.",
+    "schoolContext": "PE30 has 23 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PE30 are 328.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PE30 (KING'S LYNN) offers property prices near the national average (£246,426), higher-than-average crime (19% above national average), 23 nearby schools, and excellent broadband (328 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 328
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 328
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

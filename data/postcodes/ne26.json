@@ -1,0 +1,198 @@
+{
+  "code": "NE26",
+  "name": "WHITLEY BAY",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "newcastle-upon-tyne",
+  "adjacent": [
+    "NE25",
+    "NE27",
+    "NE28"
+  ],
+  "property": {
+    "avgPrice": 375132,
+    "medianPrice": 317900,
+    "priceChange1y": 5.4,
+    "priceChange5y": 0,
+    "transactions12m": 1022,
+    "byType": {
+      "detached": {
+        "avg": 543450,
+        "count": 44
+      },
+      "semi": {
+        "avg": 430850,
+        "count": 267
+      },
+      "terraced": {
+        "avg": 362513,
+        "count": 384
+      },
+      "flat": {
+        "avg": 187467,
+        "count": 274
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 422286
+      },
+      {
+        "year": 2024,
+        "avg": 341082
+      },
+      {
+        "year": 2025,
+        "avg": 359616
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 43.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -46.6,
+    "byType": {
+      "violentCrime": 12.6,
+      "burglary": 1.7,
+      "vehicleCrime": 2,
+      "antisocialBehaviour": 7.7,
+      "otherTheft": 12,
+      "other": 7.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Rockcliffe First School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Marine Park First School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Coquet Park First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Whitley Lodge First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Seaton Sluice First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 215025,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 21,
+    "privateRent": 13,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 327,
+    "avgUpload": 59,
+    "superfastPct": 98,
+    "ultrafastPct": 79,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Tyneside",
+    "bandD": 2112,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.3,
+    "imdRank": 16825,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NE26 encompasses WHITLEY BAY and its surrounding areas in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in NE26 is £375,132, which is 42% above the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in NE26 cost 30.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NE26 have risen 5.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 43.4 recorded crimes per 1,000 residents, NE26 has a crime rate well 47% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NE26 has 6 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NE26 are 327.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NE26 (WHITLEY BAY) offers above-average property prices (£375,132, 31% above national average), low crime (47% below national average), 6 nearby schools, and excellent broadband (327 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 327
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 327
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

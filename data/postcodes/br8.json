@@ -1,0 +1,196 @@
+{
+  "code": "BR8",
+  "name": "SWANLEY",
+  "county": "greater-london",
+  "region": "london",
+  "city": "bromley",
+  "adjacent": [
+    "BR7"
+  ],
+  "property": {
+    "avgPrice": 402730,
+    "medianPrice": 400000,
+    "priceChange1y": 2.8,
+    "priceChange5y": 0,
+    "transactions12m": 927,
+    "byType": {
+      "detached": {
+        "avg": 599348,
+        "count": 117
+      },
+      "semi": {
+        "avg": 434714,
+        "count": 358
+      },
+      "terraced": {
+        "avg": 362464,
+        "count": 265
+      },
+      "flat": {
+        "avg": 248610,
+        "count": 164
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 390748
+      },
+      {
+        "year": 2024,
+        "avg": 403560
+      },
+      {
+        "year": 2025,
+        "avg": 414758
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 29.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -63.2,
+    "byType": {
+      "violentCrime": 10.9,
+      "burglary": 0.7,
+      "vehicleCrime": 1.7,
+      "antisocialBehaviour": 5.6,
+      "otherTheft": 4.1,
+      "other": 7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Crockenhill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "High Firs Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Pauls' Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Downsview Community Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 335319,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 278,
+    "avgUpload": 50,
+    "superfastPct": 97,
+    "ultrafastPct": 65,
+    "gigabitPct": 65,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bromley",
+    "bandD": 1842,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.2,
+    "imdRank": 11297,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BR8 covers SWANLEY in Greater London, London.",
+    "priceVsCounty": "The average property price in BR8 is £402,730, which is 69% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in BR8 cost 40.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BR8 have risen 2.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 29.9 recorded crimes per 1,000 residents, BR8 has a crime rate well 63% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BR8 has 12 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BR8 are 278.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BR8 (SWANLEY) offers above-average property prices (£402,730, 40% above national average), low crime (63% below national average), 12 nearby schools, and excellent broadband (278 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 278
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 278
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

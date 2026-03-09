@@ -1,0 +1,198 @@
+{
+  "code": "TN9",
+  "name": "TONBRIDGE",
+  "county": "kent",
+  "region": "south-east",
+  "city": "tunbridge-wells",
+  "adjacent": [
+    "TN8",
+    "TN10",
+    "TN11"
+  ],
+  "property": {
+    "avgPrice": 419593,
+    "medianPrice": 364000,
+    "priceChange1y": -3.3,
+    "priceChange5y": 0,
+    "transactions12m": 938,
+    "byType": {
+      "detached": {
+        "avg": 782627,
+        "count": 82
+      },
+      "semi": {
+        "avg": 509172,
+        "count": 240
+      },
+      "terraced": {
+        "avg": 387079,
+        "count": 275
+      },
+      "flat": {
+        "avg": 239606,
+        "count": 300
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 412597
+      },
+      {
+        "year": 2024,
+        "avg": 429441
+      },
+      {
+        "year": 2025,
+        "avg": 415246
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 56.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -30.6,
+    "byType": {
+      "violentCrime": 17.3,
+      "burglary": 1.1,
+      "vehicleCrime": 2.5,
+      "antisocialBehaviour": 9.8,
+      "otherTheft": 14.3,
+      "other": 11.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Slade Primary School and Attached Unit for Children with Hearing Impairment",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Sussex Road Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Judd School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tonbridge School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Leigh Academy Tonbridge",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 136853,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 15,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 355,
+    "avgUpload": 64,
+    "superfastPct": 98,
+    "ultrafastPct": 88,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Tunbridge Wells Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.3,
+    "imdRank": 11005,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TN9 covers TONBRIDGE in Kent, South East.",
+    "priceVsCounty": "The average property price in TN9 is £419,593, which is 7% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in TN9 cost 46.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TN9 have fallen 3.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 56.4 recorded crimes per 1,000 residents, TN9 has a crime rate well 31% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TN9 has 9 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TN9 are 355.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TN9 (TONBRIDGE) offers above-average property prices (£419,593, 46% above national average), low crime (31% below national average), 9 nearby schools, and excellent broadband (355 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 355
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 355
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

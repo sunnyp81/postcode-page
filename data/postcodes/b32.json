@@ -1,0 +1,198 @@
+{
+  "code": "B32",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B31",
+    "B33",
+    "B34"
+  ],
+  "property": {
+    "avgPrice": 231447,
+    "medianPrice": 210500,
+    "priceChange1y": -2.5,
+    "priceChange5y": 0,
+    "transactions12m": 1127,
+    "byType": {
+      "detached": {
+        "avg": 346205,
+        "count": 71
+      },
+      "semi": {
+        "avg": 252677,
+        "count": 422
+      },
+      "terraced": {
+        "avg": 203965,
+        "count": 502
+      },
+      "flat": {
+        "avg": 120550,
+        "count": 100
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 223908
+      },
+      {
+        "year": 2024,
+        "avg": 238327
+      },
+      {
+        "year": 2025,
+        "avg": 232309
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 89,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 9.5,
+    "byType": {
+      "violentCrime": 42.1,
+      "burglary": 4.8,
+      "vehicleCrime": 7.4,
+      "antisocialBehaviour": 5.8,
+      "otherTheft": 10.9,
+      "other": 18
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 0,
+    "good": 9,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "World's End Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Welsh House Farm Community School and Special Needs Resources Base",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Woodgate Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "World's End Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Kitwell Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 386,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 96,
+    "gigabitPct": 96,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B32 encompasses BIRMINGHAM and its surrounding areas in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B32 is £231,447, which is 31% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B32 cost 19.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B32 have fallen 2.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 89.0 recorded crimes per 1,000 residents, B32 has a crime rate 9% above the national average of 81.3 per 1,000.",
+    "schoolContext": "B32 has 16 schools within or near its boundaries, including 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B32 are 386.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B32 (BIRMINGHAM) offers affordable property prices (£231,447, 19% below national average), 16 nearby schools, and excellent broadband (386 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 386
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 386
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

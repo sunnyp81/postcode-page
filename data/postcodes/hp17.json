@@ -1,0 +1,197 @@
+{
+  "code": "HP17",
+  "name": "AYLESBURY",
+  "county": "hertfordshire",
+  "region": "south-east",
+  "city": "hemel-hempstead",
+  "adjacent": [
+    "HP16",
+    "HP18",
+    "HP19"
+  ],
+  "property": {
+    "avgPrice": 586193,
+    "medianPrice": 540000,
+    "priceChange1y": 2.6,
+    "priceChange5y": 0,
+    "transactions12m": 581,
+    "byType": {
+      "detached": {
+        "avg": 708373,
+        "count": 293
+      },
+      "semi": {
+        "avg": 468778,
+        "count": 162
+      },
+      "terraced": {
+        "avg": 410500,
+        "count": 82
+      },
+      "flat": {
+        "avg": 236932,
+        "count": 22
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 591256
+      },
+      {
+        "year": 2024,
+        "avg": 575774
+      },
+      {
+        "year": 2025,
+        "avg": 591009
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Haddenham Community Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Haddenham Community Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stone Church of England Combined School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Haddenham St Mary's Church of England School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Griffin House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 40,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 65,
+    "socialRent": 13,
+    "privateRent": 22,
+    "economicallyActive": 76,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 297,
+    "avgUpload": 53,
+    "superfastPct": 91,
+    "ultrafastPct": 72,
+    "gigabitPct": 71,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hemel Hempstead Council",
+    "bandD": 2236,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "HP17 is the postcode district for AYLESBURY, located in Hertfordshire, South East.",
+    "priceVsCounty": "The average property price in HP17 is £586,193, broadly in line with the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in HP17 cost 104.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HP17 have risen 2.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, HP17 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HP17 has 6 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HP17 are 297.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HP17 (AYLESBURY) offers above-average property prices (£586,193, 104% above national average), low crime (94% below national average), 6 nearby schools, and excellent broadband (297 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 297
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 297
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

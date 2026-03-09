@@ -1,0 +1,183 @@
+{
+  "code": "GU20",
+  "name": "WINDLESHAM",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU19",
+    "GU21",
+    "GU22"
+  ],
+  "property": {
+    "avgPrice": 771951,
+    "medianPrice": 657500,
+    "priceChange1y": 4.2,
+    "priceChange5y": 0,
+    "transactions12m": 174,
+    "byType": {
+      "detached": {
+        "avg": 876777,
+        "count": 91
+      },
+      "semi": {
+        "avg": 608968,
+        "count": 39
+      },
+      "terraced": {
+        "avg": 474967,
+        "count": 15
+      },
+      "flat": {
+        "avg": 316118,
+        "count": 17
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 810257
+      },
+      {
+        "year": 2024,
+        "avg": 736729
+      },
+      {
+        "year": 2025,
+        "avg": 767945
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.8,
+      "burglary": 0.1,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 0.8,
+      "otherTheft": 0.1,
+      "other": 0.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Windlesham Village Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Fernways School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 94492,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 10,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 322,
+    "avgUpload": 58,
+    "superfastPct": 96,
+    "ultrafastPct": 78,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Surrey Heath",
+    "bandD": 2248,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.1,
+    "imdRank": 5859,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU20 encompasses WINDLESHAM and its surrounding areas in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU20 is £771,951, which is 26% above the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU20 cost 169.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU20 have risen 4.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, GU20 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU20 has 2 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU20 are 322.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU20 (WINDLESHAM) offers above-average property prices (£771,951, 169% above national average), low crime (94% below national average), 2 nearby schools, and excellent broadband (322 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 322
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 322
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

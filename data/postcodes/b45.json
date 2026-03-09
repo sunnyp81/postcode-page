@@ -1,0 +1,198 @@
+{
+  "code": "B45",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B44",
+    "B46",
+    "B47"
+  ],
+  "property": {
+    "avgPrice": 326526,
+    "medianPrice": 245000,
+    "priceChange1y": -4.1,
+    "priceChange5y": 0,
+    "transactions12m": 1338,
+    "byType": {
+      "detached": {
+        "avg": 618995,
+        "count": 252
+      },
+      "semi": {
+        "avg": 276542,
+        "count": 554
+      },
+      "terraced": {
+        "avg": 216901,
+        "count": 377
+      },
+      "flat": {
+        "avg": 129043,
+        "count": 117
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 335188
+      },
+      {
+        "year": 2024,
+        "avg": 327426
+      },
+      {
+        "year": 2025,
+        "avg": 314046
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 61.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -24.1,
+    "byType": {
+      "violentCrime": 24.6,
+      "burglary": 2.7,
+      "vehicleCrime": 3.9,
+      "antisocialBehaviour": 8.2,
+      "otherTheft": 11.8,
+      "other": 10.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Rubery Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rednal Hill Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Rednal Hill Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holly Hill Methodist CofE Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Colmers School and Sixth Form College",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 368,
+    "avgUpload": 66,
+    "superfastPct": 97,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B45 covers BIRMINGHAM in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B45 is £326,526, broadly in line with the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B45 cost 13.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B45 have fallen 4.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 61.7 recorded crimes per 1,000 residents, B45 has a crime rate well 24% below the national average of 81.3 per 1,000.",
+    "schoolContext": "B45 has 16 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B45 are 368.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B45 (BIRMINGHAM) offers property prices near the national average (£326,526), low crime (24% below national average), 16 nearby schools, and excellent broadband (368 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 368
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 368
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

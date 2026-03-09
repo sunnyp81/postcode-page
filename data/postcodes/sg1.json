@@ -1,0 +1,197 @@
+{
+  "code": "SG1",
+  "name": "STEVENAGE",
+  "county": "hertfordshire",
+  "region": "east-of-england",
+  "city": "stevenage",
+  "adjacent": [
+    "SG2",
+    "SG3"
+  ],
+  "property": {
+    "avgPrice": 401424,
+    "medianPrice": 335000,
+    "priceChange1y": -9.7,
+    "priceChange5y": 0,
+    "transactions12m": 1920,
+    "byType": {
+      "detached": {
+        "avg": 604859,
+        "count": 233
+      },
+      "semi": {
+        "avg": 422111,
+        "count": 361
+      },
+      "terraced": {
+        "avg": 340338,
+        "count": 794
+      },
+      "flat": {
+        "avg": 183112,
+        "count": 454
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 418276
+      },
+      {
+        "year": 2024,
+        "avg": 410770
+      },
+      {
+        "year": 2025,
+        "avg": 371009
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 122,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 50.1,
+    "byType": {
+      "violentCrime": 46.7,
+      "burglary": 2.7,
+      "vehicleCrime": 6,
+      "antisocialBehaviour": 23.4,
+      "otherTheft": 20,
+      "other": 23.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 1,
+    "good": 8,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Letchmore Infants' and Nursery School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Broom Barns Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bedwell Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Almond Hill Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Moss Bury Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 91774,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 26,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 340,
+    "avgUpload": 61,
+    "superfastPct": 98,
+    "ultrafastPct": 83,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stevenage",
+    "bandD": 2076,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.7,
+    "imdRank": 17354,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SG1 encompasses STEVENAGE and its surrounding areas in Hertfordshire, East Of England.",
+    "priceVsCounty": "The average property price in SG1 is £401,424, which is 30% below the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in SG1 cost 39.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SG1 have fallen 9.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 122.0 recorded crimes per 1,000 residents, SG1 has a crime rate significantly 50% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SG1 has 20 schools within or near its boundaries, including 1 rated Outstanding and 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SG1 are 340.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SG1 (STEVENAGE) offers above-average property prices (£401,424, 40% above national average), higher-than-average crime (50% above national average), 20 nearby schools, and excellent broadband (340 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 340
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 340
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

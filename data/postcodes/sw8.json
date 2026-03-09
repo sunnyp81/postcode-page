@@ -1,0 +1,198 @@
+{
+  "code": "SW8",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SW7",
+    "SW9",
+    "SW10"
+  ],
+  "property": {
+    "avgPrice": 1029792,
+    "medianPrice": 625000,
+    "priceChange1y": -14.1,
+    "priceChange5y": 0,
+    "transactions12m": 1679,
+    "byType": {
+      "detached": {
+        "avg": 6356250,
+        "count": 4
+      },
+      "semi": {
+        "avg": 1956509,
+        "count": 10
+      },
+      "terraced": {
+        "avg": 996203,
+        "count": 164
+      },
+      "flat": {
+        "avg": 939235,
+        "count": 1435
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1135238
+      },
+      {
+        "year": 2024,
+        "avg": 1017346
+      },
+      {
+        "year": 2025,
+        "avg": 873605
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 80.1,
+      "burglary": 13.7,
+      "vehicleCrime": 13.1,
+      "antisocialBehaviour": 64.6,
+      "otherTheft": 94.2,
+      "other": 40.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ashmole Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Heathbrook Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wyvil Primary School and Resource Bases for Speech, Language and Communication Needs, and Autism",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Herbert Morrison Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Stephen's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 337655,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 19,
+    "privateRent": 34,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 335,
+    "avgUpload": 60,
+    "superfastPct": 95,
+    "ultrafastPct": 86,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wandsworth",
+    "bandD": 921,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.6,
+    "imdRank": 14312,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SW8 is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in SW8 is £1,029,792, which is 21% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SW8 cost 258.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SW8 have fallen 14.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, SW8 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SW8 has 9 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SW8 are 335.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SW8 (LONDON) offers above-average property prices (£1,029,792, 259% above national average), higher-than-average crime (269% above national average), 9 nearby schools, and excellent broadband (335 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 335
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 335
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

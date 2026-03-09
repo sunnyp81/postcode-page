@@ -1,0 +1,197 @@
+{
+  "code": "DE11",
+  "name": "SWADLINCOTE",
+  "county": "derbyshire",
+  "region": "east-midlands",
+  "city": "derby",
+  "adjacent": [
+    "DE12",
+    "DE13"
+  ],
+  "property": {
+    "avgPrice": 236401,
+    "medianPrice": 217000,
+    "priceChange1y": -8.9,
+    "priceChange5y": 0,
+    "transactions12m": 2610,
+    "byType": {
+      "detached": {
+        "avg": 307118,
+        "count": 892
+      },
+      "semi": {
+        "avg": 200218,
+        "count": 1012
+      },
+      "terraced": {
+        "avg": 158021,
+        "count": 565
+      },
+      "flat": {
+        "avg": 114841,
+        "count": 61
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 230156
+      },
+      {
+        "year": 2024,
+        "avg": 250358
+      },
+      {
+        "year": 2025,
+        "avg": 228133
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 67.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -16.6,
+    "byType": {
+      "violentCrime": 29.4,
+      "burglary": 1.6,
+      "vehicleCrime": 2.9,
+      "antisocialBehaviour": 8.3,
+      "otherTheft": 11.3,
+      "other": 14.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 0,
+    "good": 9,
+    "requiresImprovement": 1,
+    "inadequate": 2,
+    "nearest": [
+      {
+        "name": "Newhall Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eureka Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hartshorne CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Belmont Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Fairmeadows Foundation Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 117493,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 10,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 372,
+    "avgUpload": 67,
+    "superfastPct": 98,
+    "ultrafastPct": 93,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Derbyshire",
+    "bandD": 2033,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.5,
+    "imdRank": 12057,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DE11 is the postcode district for SWADLINCOTE, located in Derbyshire, East Midlands.",
+    "priceVsCounty": "The average property price in DE11 is £236,401, which is 18% below the Derbyshire average of £289,862.",
+    "priceVsNational": "Properties in DE11 cost 17.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DE11 have fallen 8.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 67.8 recorded crimes per 1,000 residents, DE11 has a crime rate 17% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DE11 has 20 schools within or near its boundaries, including 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DE11 are 372.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DE11 (SWADLINCOTE) offers affordable property prices (£236,401, 18% below national average), low crime (17% below national average), 20 nearby schools, and excellent broadband (372 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 289862,
+      "crime": 75,
+      "broadband": 372
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 372
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

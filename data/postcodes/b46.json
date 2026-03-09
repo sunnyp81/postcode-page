@@ -1,0 +1,198 @@
+{
+  "code": "B46",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B45",
+    "B47",
+    "B48"
+  ],
+  "property": {
+    "avgPrice": 494200,
+    "medianPrice": 275000,
+    "priceChange1y": 109.5,
+    "priceChange5y": 0,
+    "transactions12m": 561,
+    "byType": {
+      "detached": {
+        "avg": 504553,
+        "count": 107
+      },
+      "semi": {
+        "avg": 314668,
+        "count": 176
+      },
+      "terraced": {
+        "avg": 244901,
+        "count": 139
+      },
+      "flat": {
+        "avg": 155336,
+        "count": 100
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 440881
+      },
+      {
+        "year": 2024,
+        "avg": 330784
+      },
+      {
+        "year": 2025,
+        "avg": 693062
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 10.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -87.3,
+    "byType": {
+      "violentCrime": 2.3,
+      "burglary": 0.8,
+      "vehicleCrime": 1.5,
+      "antisocialBehaviour": 2.6,
+      "otherTheft": 1.2,
+      "other": 2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "High Meadow Community School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Water Orton Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Shustoke CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Coleshill School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Woodlands",
+        "type": "Other",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 67117,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 14,
+    "privateRent": 13,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 263,
+    "avgUpload": 47,
+    "superfastPct": 92,
+    "ultrafastPct": 62,
+    "gigabitPct": 61,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Warwickshire",
+    "bandD": 2214,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.9,
+    "imdRank": 15374,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B46 is the postcode district for BIRMINGHAM, located in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B46 is £494,200, which is 48% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B46 cost 72.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B46 have risen 109.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 10.3 recorded crimes per 1,000 residents, B46 has a crime rate well 87% below the national average of 81.3 per 1,000.",
+    "schoolContext": "B46 has 8 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B46 are 263.0 Mbps, with 99% of premises having access to superfast broadband and 87% with full fibre (FTTP) connectivity.",
+    "synthesis": "B46 (BIRMINGHAM) offers above-average property prices (£494,200, 72% above national average), low crime (87% below national average), 8 nearby schools, and excellent broadband (263 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 263
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 263
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

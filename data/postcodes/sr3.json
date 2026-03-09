@@ -1,0 +1,198 @@
+{
+  "code": "SR3",
+  "name": "SUNDERLAND",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "sunderland",
+  "adjacent": [
+    "SR2",
+    "SR4",
+    "SR5"
+  ],
+  "property": {
+    "avgPrice": 189109,
+    "medianPrice": 171000,
+    "priceChange1y": -6.2,
+    "priceChange5y": 0,
+    "transactions12m": 1669,
+    "byType": {
+      "detached": {
+        "avg": 306805,
+        "count": 487
+      },
+      "semi": {
+        "avg": 163492,
+        "count": 739
+      },
+      "terraced": {
+        "avg": 106656,
+        "count": 347
+      },
+      "flat": {
+        "avg": 61982,
+        "count": 72
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 192334
+      },
+      {
+        "year": 2024,
+        "avg": 192332
+      },
+      {
+        "year": 2025,
+        "avg": 180321
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 72,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -11.4,
+    "byType": {
+      "violentCrime": 25.5,
+      "burglary": 2.3,
+      "vehicleCrime": 1.6,
+      "antisocialBehaviour": 14.1,
+      "otherTheft": 10.6,
+      "other": 18
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 1,
+    "good": 7,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Mill Hill Nursery School",
+        "type": "Nursery",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Mill Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Thorney Close Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Thornhill Park School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sunningdale School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 288606,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 27,
+    "privateRent": 13,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 361,
+    "avgUpload": 65,
+    "superfastPct": 97,
+    "ultrafastPct": 89,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Sunderland",
+    "bandD": 1899,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 30.6,
+    "imdRank": 21993,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SR3 covers SUNDERLAND in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in SR3 is £189,109, which is 29% below the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in SR3 cost 34.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SR3 have fallen 6.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 72.0 recorded crimes per 1,000 residents, SR3 has a crime rate 11% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SR3 has 18 schools within or near its boundaries, including 1 rated Outstanding and 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SR3 are 361.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SR3 (SUNDERLAND) offers affordable property prices (£189,109, 34% below national average), 18 nearby schools, and excellent broadband (361 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 361
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 361
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

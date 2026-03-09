@@ -1,0 +1,197 @@
+{
+  "code": "DN40",
+  "name": "IMMINGHAM",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "doncaster",
+  "adjacent": [
+    "DN39",
+    "DN41"
+  ],
+  "property": {
+    "avgPrice": 175429,
+    "medianPrice": 150000,
+    "priceChange1y": 0.8,
+    "priceChange5y": 0,
+    "transactions12m": 575,
+    "byType": {
+      "detached": {
+        "avg": 227288,
+        "count": 181
+      },
+      "semi": {
+        "avg": 140362,
+        "count": 281
+      },
+      "terraced": {
+        "avg": 98797,
+        "count": 86
+      },
+      "flat": {
+        "avg": 54680,
+        "count": 3
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 170601
+      },
+      {
+        "year": 2024,
+        "avg": 177398
+      },
+      {
+        "year": 2025,
+        "avg": 178790
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 15.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -80.4,
+    "byType": {
+      "violentCrime": 6,
+      "burglary": 0.4,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 2.5,
+      "otherTheft": 2.8,
+      "other": 3.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "East Halton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Killingholme Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oasis Academy Immingham",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eastfield Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Canon Peter Hall CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 171336,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 15,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 343,
+    "avgUpload": 62,
+    "superfastPct": 88,
+    "ultrafastPct": 85,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Doncaster Council",
+    "bandD": 2168,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.1,
+    "imdRank": 17200,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DN40 covers IMMINGHAM in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in DN40 is £175,429, which is 24% below the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in DN40 cost 38.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DN40 have risen 0.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 15.9 recorded crimes per 1,000 residents, DN40 has a crime rate well 80% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DN40 has 7 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DN40 are 343.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DN40 (IMMINGHAM) offers affordable property prices (£175,429, 39% below national average), low crime (80% below national average), 7 nearby schools, and excellent broadband (343 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 343
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 343
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

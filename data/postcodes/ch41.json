@@ -1,0 +1,197 @@
+{
+  "code": "CH41",
+  "name": "BIRKENHEAD",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "chester",
+  "adjacent": [
+    "CH42",
+    "CH43"
+  ],
+  "property": {
+    "avgPrice": 155899,
+    "medianPrice": 111000,
+    "priceChange1y": -14.6,
+    "priceChange5y": 0,
+    "transactions12m": 914,
+    "byType": {
+      "detached": {
+        "avg": 255424,
+        "count": 20
+      },
+      "semi": {
+        "avg": 152329,
+        "count": 165
+      },
+      "terraced": {
+        "avg": 106672,
+        "count": 491
+      },
+      "flat": {
+        "avg": 98491,
+        "count": 118
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 168386
+      },
+      {
+        "year": 2024,
+        "avg": 158919
+      },
+      {
+        "year": 2025,
+        "avg": 135666
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 172.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 112.5,
+    "byType": {
+      "violentCrime": 66.4,
+      "burglary": 3.7,
+      "vehicleCrime": 4.6,
+      "antisocialBehaviour": 17.3,
+      "otherTheft": 23.5,
+      "other": 57.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Woodlands Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cathcart Street Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Birkenhead Christ Church CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Priory Parish CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Our Lady and St Edward's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 328873,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 15,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 348,
+    "avgUpload": 63,
+    "superfastPct": 99,
+    "ultrafastPct": 85,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wirral",
+    "bandD": 2158,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 29.6,
+    "imdRank": 19585,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CH41 covers BIRKENHEAD in Cheshire, North West.",
+    "priceVsCounty": "The average property price in CH41 is £155,899, which is 50% below the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in CH41 cost 45.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CH41 have fallen 14.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 172.8 recorded crimes per 1,000 residents, CH41 has a crime rate significantly 113% above the national average of 81.3 per 1,000.",
+    "schoolContext": "CH41 has 15 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CH41 are 348.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CH41 (BIRKENHEAD) offers affordable property prices (£155,899, 46% below national average), higher-than-average crime (113% above national average), 15 nearby schools, and excellent broadband (348 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 348
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 348
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

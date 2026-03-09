@@ -1,0 +1,198 @@
+{
+  "code": "NR28",
+  "name": "NORTH WALSHAM",
+  "county": "norfolk",
+  "region": "east-of-england",
+  "city": "norwich",
+  "adjacent": [
+    "NR27",
+    "NR29",
+    "NR30"
+  ],
+  "property": {
+    "avgPrice": 305984,
+    "medianPrice": 265000,
+    "priceChange1y": -4.7,
+    "priceChange5y": 0,
+    "transactions12m": 833,
+    "byType": {
+      "detached": {
+        "avg": 378169,
+        "count": 345
+      },
+      "semi": {
+        "avg": 251567,
+        "count": 212
+      },
+      "terraced": {
+        "avg": 224513,
+        "count": 160
+      },
+      "flat": {
+        "avg": 155976,
+        "count": 67
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 339095
+      },
+      {
+        "year": 2024,
+        "avg": 294112
+      },
+      {
+        "year": 2025,
+        "avg": 280225
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 19.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -75.6,
+    "byType": {
+      "violentCrime": 9.9,
+      "burglary": 0.6,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 2.5,
+      "otherTheft": 2.8,
+      "other": 3.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Worstead Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Visiting Teacher Service North",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "North Walsham Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "North Walsham Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "North Walsham High School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 103217,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 20,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 219,
+    "avgUpload": 39,
+    "superfastPct": 89,
+    "ultrafastPct": 49,
+    "gigabitPct": 49,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Norfolk",
+    "bandD": 2129,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.1,
+    "imdRank": 18681,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NR28 encompasses NORTH WALSHAM and its surrounding areas in Norfolk, East Of England.",
+    "priceVsCounty": "The average property price in NR28 is £305,984, which is 13% below the Norfolk average of £352,657.",
+    "priceVsNational": "Properties in NR28 cost 6.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NR28 have fallen 4.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 19.8 recorded crimes per 1,000 residents, NR28 has a crime rate well 76% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NR28 has 6 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NR28 are 219.0 Mbps, with 99% of premises having access to superfast broadband and 75% with full fibre (FTTP) connectivity.",
+    "synthesis": "NR28 (NORTH WALSHAM) offers property prices near the national average (£305,984), low crime (76% below national average), 6 nearby schools, and excellent broadband (219 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 352657,
+      "crime": 75,
+      "broadband": 219
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 219
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

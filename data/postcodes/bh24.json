@@ -1,0 +1,197 @@
+{
+  "code": "BH24",
+  "name": "RINGWOOD",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "bournemouth",
+  "adjacent": [
+    "BH23",
+    "BH25"
+  ],
+  "property": {
+    "avgPrice": 562278,
+    "medianPrice": 460000,
+    "priceChange1y": 6.1,
+    "priceChange5y": 0,
+    "transactions12m": 991,
+    "byType": {
+      "detached": {
+        "avg": 718824,
+        "count": 512
+      },
+      "semi": {
+        "avg": 405686,
+        "count": 171
+      },
+      "terraced": {
+        "avg": 344382,
+        "count": 117
+      },
+      "flat": {
+        "avg": 195355,
+        "count": 131
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 567211
+      },
+      {
+        "year": 2024,
+        "avg": 543871
+      },
+      {
+        "year": 2025,
+        "avg": 577285
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 20.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -74.9,
+    "byType": {
+      "violentCrime": 7.8,
+      "burglary": 1.2,
+      "vehicleCrime": 1.1,
+      "antisocialBehaviour": 2.2,
+      "otherTheft": 3.8,
+      "other": 4.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ringwood Waldorf School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sheiling School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Burley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ringwood Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Poulner Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 176116,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 11,
+    "privateRent": 12,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 198,
+    "avgUpload": 36,
+    "superfastPct": 87,
+    "ultrafastPct": 43,
+    "gigabitPct": 43,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "New Forest",
+    "bandD": 2091,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13,
+    "imdRank": 10782,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BH24 covers RINGWOOD in Dorset, South West.",
+    "priceVsCounty": "The average property price in BH24 is £562,278, which is 32% above the Dorset average of £425,376.",
+    "priceVsNational": "Properties in BH24 cost 95.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BH24 have risen 6.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 20.4 recorded crimes per 1,000 residents, BH24 has a crime rate well 75% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BH24 has 11 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BH24 are 198.0 Mbps, with 99% of premises having access to superfast broadband and 69% with full fibre (FTTP) connectivity.",
+    "synthesis": "BH24 (RINGWOOD) offers above-average property prices (£562,278, 96% above national average), low crime (75% below national average), 11 nearby schools, and excellent broadband (198 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 198
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 198
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

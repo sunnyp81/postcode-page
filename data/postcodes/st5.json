@@ -1,0 +1,198 @@
+{
+  "code": "ST5",
+  "name": "NEWCASTLE",
+  "county": "staffordshire",
+  "region": "west-midlands",
+  "city": "stoke-on-trent",
+  "adjacent": [
+    "ST4",
+    "ST6",
+    "ST7"
+  ],
+  "property": {
+    "avgPrice": 219376,
+    "medianPrice": 175000,
+    "priceChange1y": -2.6,
+    "priceChange5y": 0,
+    "transactions12m": 3886,
+    "byType": {
+      "detached": {
+        "avg": 328944,
+        "count": 815
+      },
+      "semi": {
+        "avg": 196859,
+        "count": 1501
+      },
+      "terraced": {
+        "avg": 137258,
+        "count": 1052
+      },
+      "flat": {
+        "avg": 104472,
+        "count": 348
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 210011
+      },
+      {
+        "year": 2024,
+        "avg": 227122
+      },
+      {
+        "year": 2025,
+        "avg": 221234
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 100.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 23.2,
+    "byType": {
+      "violentCrime": 37.5,
+      "burglary": 2.9,
+      "vehicleCrime": 3.2,
+      "antisocialBehaviour": 18,
+      "otherTheft": 17.7,
+      "other": 21
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 41,
+    "outstanding": 0,
+    "good": 13,
+    "requiresImprovement": 3,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Oaklands Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hassell Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "May Bank Infants' School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Chad's CofE (C) Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Luke's CofE (C) Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 141556,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 14,
+    "privateRent": 13,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 344,
+    "avgUpload": 62,
+    "superfastPct": 97,
+    "ultrafastPct": 84,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stafford",
+    "bandD": 2012,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.7,
+    "imdRank": 11220,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ST5 is the postcode district for NEWCASTLE, located in Staffordshire, West Midlands.",
+    "priceVsCounty": "The average property price in ST5 is £219,376, which is 18% below the Staffordshire average of £267,729.",
+    "priceVsNational": "Properties in ST5 cost 23.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ST5 have fallen 2.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 100.2 recorded crimes per 1,000 residents, ST5 has a crime rate significantly 23% above the national average of 81.3 per 1,000.",
+    "schoolContext": "ST5 has 41 schools within or near its boundaries, including 13 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ST5 are 344.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "ST5 (NEWCASTLE) offers affordable property prices (£219,376, 24% below national average), higher-than-average crime (23% above national average), 41 nearby schools, and excellent broadband (344 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 267729,
+      "crime": 75,
+      "broadband": 344
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 344
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

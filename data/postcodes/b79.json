@@ -1,0 +1,197 @@
+{
+  "code": "B79",
+  "name": "TAMWORTH",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B78",
+    "B80"
+  ],
+  "property": {
+    "avgPrice": 319261,
+    "medianPrice": 257085,
+    "priceChange1y": -10,
+    "priceChange5y": 0,
+    "transactions12m": 1180,
+    "byType": {
+      "detached": {
+        "avg": 433500,
+        "count": 380
+      },
+      "semi": {
+        "avg": 262898,
+        "count": 337
+      },
+      "terraced": {
+        "avg": 200749,
+        "count": 237
+      },
+      "flat": {
+        "avg": 130051,
+        "count": 157
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 333678
+      },
+      {
+        "year": 2024,
+        "avg": 325105
+      },
+      {
+        "year": 2025,
+        "avg": 292672
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 13.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -83.8,
+    "byType": {
+      "violentCrime": 6.5,
+      "burglary": 0.5,
+      "vehicleCrime": 1.3,
+      "antisocialBehaviour": 1.5,
+      "otherTheft": 0.6,
+      "other": 2.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ashcroft Infants' School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Leonard's CofE (A) Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Elizabeth's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Mortimer House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Landau Forte Academy, QEMS",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 111932,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 13,
+    "privateRent": 11,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 285,
+    "avgUpload": 51,
+    "superfastPct": 93,
+    "ultrafastPct": 69,
+    "gigabitPct": 67,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lichfield",
+    "bandD": 2058,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.6,
+    "imdRank": 10387,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B79 is the postcode district for TAMWORTH, located in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B79 is £319,261, broadly in line with the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B79 cost 11.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B79 have fallen 10.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 13.2 recorded crimes per 1,000 residents, B79 has a crime rate well 84% below the national average of 81.3 per 1,000.",
+    "schoolContext": "B79 has 17 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B79 are 285.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B79 (TAMWORTH) offers property prices near the national average (£319,261), low crime (84% below national average), 17 nearby schools, and excellent broadband (285 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 285
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 285
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

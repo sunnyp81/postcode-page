@@ -1,0 +1,198 @@
+{
+  "code": "M22",
+  "name": "MANCHESTER",
+  "county": "greater-manchester",
+  "region": "north-west",
+  "city": "manchester",
+  "adjacent": [
+    "M21",
+    "M23",
+    "M24"
+  ],
+  "property": {
+    "avgPrice": 289656,
+    "medianPrice": 228250,
+    "priceChange1y": -0.7,
+    "priceChange5y": 0,
+    "transactions12m": 1186,
+    "byType": {
+      "detached": {
+        "avg": 421914,
+        "count": 65
+      },
+      "semi": {
+        "avg": 263914,
+        "count": 454
+      },
+      "terraced": {
+        "avg": 230515,
+        "count": 416
+      },
+      "flat": {
+        "avg": 154720,
+        "count": 216
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 230214
+      },
+      {
+        "year": 2024,
+        "avg": 315953
+      },
+      {
+        "year": 2025,
+        "avg": 313871
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Ashgate Specialist Support Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ringway Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Benchill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Manchester Enterprise Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Haveley Hey Community School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 303929,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 13,
+    "privateRent": 13,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 385,
+    "avgUpload": 69,
+    "superfastPct": 98,
+    "ultrafastPct": 96,
+    "gigabitPct": 96,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stockport",
+    "bandD": 2235,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.8,
+    "imdRank": 15400,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "M22 covers MANCHESTER in Greater Manchester, North West.",
+    "priceVsCounty": "The average property price in M22 is £289,656, which is 24% below the Greater Manchester average of £381,941.",
+    "priceVsNational": "Property values in M22 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in M22 have fallen 0.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, M22 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "M22 has 14 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in M22 are 385.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "M22 (MANCHESTER) offers property prices near the national average (£289,656), low crime (94% below national average), 14 nearby schools, and excellent broadband (385 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 381941,
+      "crime": 75,
+      "broadband": 385
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 385
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "CF45",
+  "name": "MOUNTAIN ASH",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF44",
+    "CF46",
+    "CF47"
+  ],
+  "property": {
+    "avgPrice": 121124,
+    "medianPrice": 108000,
+    "priceChange1y": 0.4,
+    "priceChange5y": 0,
+    "transactions12m": 792,
+    "byType": {
+      "detached": {
+        "avg": 289715,
+        "count": 45
+      },
+      "semi": {
+        "avg": 144262,
+        "count": 101
+      },
+      "terraced": {
+        "avg": 104828,
+        "count": 594
+      },
+      "flat": {
+        "avg": 87857,
+        "count": 14
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 111006
+      },
+      {
+        "year": 2024,
+        "avg": 125459
+      },
+      {
+        "year": 2025,
+        "avg": 126011
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 20.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -75.2,
+    "byType": {
+      "violentCrime": 10.2,
+      "burglary": 0.4,
+      "vehicleCrime": 1.1,
+      "antisocialBehaviour": 2.6,
+      "otherTheft": 1.6,
+      "other": 4.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Caegarw Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Darrenlas Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pengeulan Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Perthcelyn Community Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Glenboi Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 265,
+    "avgUpload": 48,
+    "superfastPct": 98,
+    "ultrafastPct": 61,
+    "gigabitPct": 61,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF45 encompasses MOUNTAIN ASH and its surrounding areas in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF45 is £121,124, which is 56% below the Cardiff average of £275,506.",
+    "priceVsNational": "Properties in CF45 cost 57.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CF45 have risen 0.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 20.2 recorded crimes per 1,000 residents, CF45 has a crime rate well 75% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CF45 has 12 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF45 are 265.0 Mbps, with 99% of premises having access to superfast broadband and 88% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF45 (MOUNTAIN ASH) offers affordable property prices (£121,124, 58% below national average), low crime (75% below national average), 12 nearby schools, and excellent broadband (265 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 265
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 265
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

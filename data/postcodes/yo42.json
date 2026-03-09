@@ -1,0 +1,197 @@
+{
+  "code": "YO42",
+  "name": "YORK",
+  "county": "north-yorkshire",
+  "region": "yorkshire",
+  "city": "york",
+  "adjacent": [
+    "YO41",
+    "YO43"
+  ],
+  "property": {
+    "avgPrice": 321840,
+    "medianPrice": 295000,
+    "priceChange1y": 3.8,
+    "priceChange5y": 0,
+    "transactions12m": 1120,
+    "byType": {
+      "detached": {
+        "avg": 402514,
+        "count": 527
+      },
+      "semi": {
+        "avg": 264234,
+        "count": 296
+      },
+      "terraced": {
+        "avg": 215614,
+        "count": 207
+      },
+      "flat": {
+        "avg": 147000,
+        "count": 53
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 318624
+      },
+      {
+        "year": 2024,
+        "avg": 317654
+      },
+      {
+        "year": 2025,
+        "avg": 329777
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 10.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -87,
+    "byType": {
+      "violentCrime": 5.5,
+      "burglary": 0.2,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.9,
+      "otherTheft": 1.2,
+      "other": 2.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bishop Wilton Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Pocklington Church of England Voluntary Controlled Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Warter Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Barmby Moor Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pocklington School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 355884,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 9,
+    "privateRent": 15,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 287,
+    "avgUpload": 52,
+    "superfastPct": 85,
+    "ultrafastPct": 69,
+    "gigabitPct": 69,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "York Council",
+    "bandD": 1725,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.6,
+    "imdRank": 12095,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "YO42 covers YORK in North Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in YO42 is £321,840, which is 9% below the North Yorkshire average of £354,925.",
+    "priceVsNational": "Properties in YO42 cost 12.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in YO42 have risen 3.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 10.6 recorded crimes per 1,000 residents, YO42 has a crime rate well 87% below the national average of 81.3 per 1,000.",
+    "schoolContext": "YO42 has 10 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in YO42 are 287.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "YO42 (YORK) offers property prices near the national average (£321,840), low crime (87% below national average), 10 nearby schools, and excellent broadband (287 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 354925,
+      "crime": 75,
+      "broadband": 287
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 287
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

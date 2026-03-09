@@ -1,0 +1,197 @@
+{
+  "code": "WF11",
+  "name": "KNOTTINGLEY",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "wakefield",
+  "adjacent": [
+    "WF10",
+    "WF12",
+    "WF13"
+  ],
+  "property": {
+    "avgPrice": 205652,
+    "medianPrice": 175000,
+    "priceChange1y": -9.5,
+    "priceChange5y": 0,
+    "transactions12m": 841,
+    "byType": {
+      "detached": {
+        "avg": 272449,
+        "count": 158
+      },
+      "semi": {
+        "avg": 194154,
+        "count": 420
+      },
+      "terraced": {
+        "avg": 136459,
+        "count": 209
+      },
+      "flat": {
+        "avg": 77552,
+        "count": 21
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 207623
+      },
+      {
+        "year": 2024,
+        "avg": 213416
+      },
+      {
+        "year": 2025,
+        "avg": 193242
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 55,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -32.3,
+    "byType": {
+      "violentCrime": 23.9,
+      "burglary": 1.6,
+      "vehicleCrime": 3.4,
+      "antisocialBehaviour": 7.6,
+      "otherTheft": 7.2,
+      "other": 11.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 2,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "De Lacy Academy",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "The Vale Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Willow Green Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Simpson's Lane Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "England Lane Academy",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 31674,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 343,
+    "avgUpload": 62,
+    "superfastPct": 95,
+    "ultrafastPct": 84,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wakefield Council",
+    "bandD": 1691,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WF11 covers KNOTTINGLEY in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in WF11 is £205,652, which is 26% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in WF11 cost 28.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WF11 have fallen 9.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 55.0 recorded crimes per 1,000 residents, WF11 has a crime rate well 32% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WF11 has 9 schools within or near its boundaries, including 2 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WF11 are 343.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WF11 (KNOTTINGLEY) offers affordable property prices (£205,652, 28% below national average), low crime (32% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (343 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 343
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 343
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

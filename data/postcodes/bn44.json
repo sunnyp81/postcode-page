@@ -1,0 +1,192 @@
+{
+  "code": "BN44",
+  "name": "STEYNING",
+  "county": "east-sussex",
+  "region": "south-east",
+  "city": "brighton",
+  "adjacent": [
+    "BN43",
+    "BN45"
+  ],
+  "property": {
+    "avgPrice": 489245,
+    "medianPrice": 425000,
+    "priceChange1y": -7.2,
+    "priceChange5y": 0,
+    "transactions12m": 407,
+    "byType": {
+      "detached": {
+        "avg": 700469,
+        "count": 126
+      },
+      "semi": {
+        "avg": 471823,
+        "count": 102
+      },
+      "terraced": {
+        "avg": 388934,
+        "count": 101
+      },
+      "flat": {
+        "avg": 233458,
+        "count": 66
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 492048
+      },
+      {
+        "year": 2024,
+        "avg": 505559
+      },
+      {
+        "year": 2025,
+        "avg": 469322
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 9.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -88.7,
+    "byType": {
+      "violentCrime": 1.8,
+      "burglary": 0.2,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 1,
+      "otherTheft": 3.9,
+      "other": 1.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Upper Beeding Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Steyning CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ashurst CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Steyning Grammar School",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 151521,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 11,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 324,
+    "avgUpload": 58,
+    "superfastPct": 92,
+    "ultrafastPct": 79,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Horsham",
+    "bandD": 2109,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 9.9,
+    "imdRank": 7973,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BN44 encompasses STEYNING and its surrounding areas in East Sussex, South East.",
+    "priceVsCounty": "The average property price in BN44 is £489,245, which is 7% above the East Sussex average of £455,819.",
+    "priceVsNational": "Properties in BN44 cost 70.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BN44 have fallen 7.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 9.2 recorded crimes per 1,000 residents, BN44 has a crime rate well 89% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BN44 has 4 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BN44 are 324.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BN44 (STEYNING) offers above-average property prices (£489,245, 70% above national average), low crime (89% below national average), 4 nearby schools, and excellent broadband (324 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 455819,
+      "crime": 75,
+      "broadband": 324
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 324
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

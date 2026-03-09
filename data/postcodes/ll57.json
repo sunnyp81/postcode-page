@@ -1,0 +1,197 @@
+{
+  "code": "LL57",
+  "name": "BANGOR",
+  "county": "north-wales",
+  "region": "wales",
+  "city": "north-wales",
+  "adjacent": [
+    "LL56",
+    "LL58",
+    "LL59"
+  ],
+  "property": {
+    "avgPrice": 214520,
+    "medianPrice": 175000,
+    "priceChange1y": 1.1,
+    "priceChange5y": 0,
+    "transactions12m": 902,
+    "byType": {
+      "detached": {
+        "avg": 336129,
+        "count": 141
+      },
+      "semi": {
+        "avg": 220754,
+        "count": 229
+      },
+      "terraced": {
+        "avg": 152949,
+        "count": 408
+      },
+      "flat": {
+        "avg": 104594,
+        "count": 50
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 211356
+      },
+      {
+        "year": 2024,
+        "avg": 215265
+      },
+      {
+        "year": 2025,
+        "avg": 217705
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.3,
+      "burglary": 0,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.6,
+      "otherTheft": 0.4,
+      "other": 0.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ysgol Bodfeurig",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Pen-y-bryn",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Gynradd Llanllechid",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Gynradd Rhiwlas",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Glancegin",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 120813,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 182,
+    "avgUpload": 33,
+    "superfastPct": 93,
+    "ultrafastPct": 45,
+    "gigabitPct": 35,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Wales Council",
+    "bandD": 2304,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LL57 encompasses BANGOR and its surrounding areas in North Wales, Wales.",
+    "priceVsCounty": "The average property price in LL57 is £214,520, which is 21% below the North Wales average of £271,879.",
+    "priceVsNational": "Properties in LL57 cost 25.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LL57 have risen 1.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, LL57 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LL57 has 18 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LL57 are 182.0 Mbps, with 97% of premises having access to superfast broadband and 65% with full fibre (FTTP) connectivity.",
+    "synthesis": "LL57 (BANGOR) offers affordable property prices (£214,520, 25% below national average), low crime (94% below national average), 18 nearby schools, and excellent broadband (182 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 271879,
+      "crime": 75,
+      "broadband": 182
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 182
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "W2",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "W3",
+    "W4"
+  ],
+  "property": {
+    "avgPrice": 1851844,
+    "medianPrice": 886000,
+    "priceChange1y": -20.7,
+    "priceChange5y": 0,
+    "transactions12m": 1735,
+    "byType": {
+      "detached": {
+        "avg": 16078980,
+        "count": 8
+      },
+      "semi": {
+        "avg": 6525000,
+        "count": 21
+      },
+      "terraced": {
+        "avg": 3135915,
+        "count": 170
+      },
+      "flat": {
+        "avg": 1369732,
+        "count": 1412
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 2202280
+      },
+      {
+        "year": 2024,
+        "avg": 1781785
+      },
+      {
+        "year": 2025,
+        "avg": 1413675
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 85.9,
+      "burglary": 23.3,
+      "vehicleCrime": 22.9,
+      "antisocialBehaviour": 90.3,
+      "otherTheft": 117.1,
+      "other": 64.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Wetherby School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pembridge Hall School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kensington Park School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Edward Wilson Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hallfield Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 209996,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 11,
+    "socialRent": 28,
+    "privateRent": 39,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 323,
+    "avgUpload": 58,
+    "superfastPct": 94,
+    "ultrafastPct": 80,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Westminster",
+    "bandD": 914,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.3,
+    "imdRank": 16573,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "W2 encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in W2 is £1,851,844, which is 42% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in W2 cost 545.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in W2 have fallen 20.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, W2 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "W2 has 15 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in W2 are 323.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "W2 (LONDON) offers above-average property prices (£1,851,844, 545% above national average), higher-than-average crime (269% above national average), 15 nearby schools, and excellent broadband (323 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 323
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 323
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

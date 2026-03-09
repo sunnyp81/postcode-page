@@ -1,0 +1,198 @@
+{
+  "code": "SE9",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SE8",
+    "SE10",
+    "SE11"
+  ],
+  "property": {
+    "avgPrice": 487959,
+    "medianPrice": 450000,
+    "priceChange1y": 2.1,
+    "priceChange5y": 0,
+    "transactions12m": 1979,
+    "byType": {
+      "detached": {
+        "avg": 839089,
+        "count": 78
+      },
+      "semi": {
+        "avg": 589808,
+        "count": 617
+      },
+      "terraced": {
+        "avg": 497214,
+        "count": 708
+      },
+      "flat": {
+        "avg": 305478,
+        "count": 526
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 473146
+      },
+      {
+        "year": 2024,
+        "avg": 490318
+      },
+      {
+        "year": 2025,
+        "avg": 500375
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 66.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -17.7,
+    "byType": {
+      "violentCrime": 19.1,
+      "burglary": 2.1,
+      "vehicleCrime": 5.2,
+      "antisocialBehaviour": 12.7,
+      "otherTheft": 14.4,
+      "other": 13.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 29,
+    "outstanding": 2,
+    "good": 9,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Newhaven Pupil Referral Unit",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ealdham Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gordon Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Haimo Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Henwick Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 299528,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 31,
+    "privateRent": 24,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 381,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 96,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Greenwich",
+    "bandD": 1814,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 24.5,
+    "imdRank": 20383,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SE9 encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in SE9 is £487,959, which is 63% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SE9 cost 70.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SE9 have risen 2.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 66.9 recorded crimes per 1,000 residents, SE9 has a crime rate 18% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SE9 has 29 schools within or near its boundaries, including 2 rated Outstanding and 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SE9 are 381.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SE9 (LONDON) offers above-average property prices (£487,959, 70% above national average), low crime (18% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (381 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 381
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 381
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

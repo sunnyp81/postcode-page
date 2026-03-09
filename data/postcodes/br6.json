@@ -1,0 +1,198 @@
+{
+  "code": "BR6",
+  "name": "ORPINGTON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "bromley",
+  "adjacent": [
+    "BR5",
+    "BR7",
+    "BR8"
+  ],
+  "property": {
+    "avgPrice": 622193,
+    "medianPrice": 560000,
+    "priceChange1y": -3.3,
+    "priceChange5y": 0,
+    "transactions12m": 1878,
+    "byType": {
+      "detached": {
+        "avg": 915557,
+        "count": 517
+      },
+      "semi": {
+        "avg": 610281,
+        "count": 649
+      },
+      "terraced": {
+        "avg": 470516,
+        "count": 379
+      },
+      "flat": {
+        "avg": 299591,
+        "count": 279
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 630465
+      },
+      {
+        "year": 2024,
+        "avg": 627474
+      },
+      {
+        "year": 2025,
+        "avg": 606934
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 36,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -55.7,
+    "byType": {
+      "violentCrime": 9.5,
+      "burglary": 1.8,
+      "vehicleCrime": 3.6,
+      "antisocialBehaviour": 6.6,
+      "otherTheft": 7.7,
+      "other": 6.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 4,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Olave's and St Saviour's Grammar School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Browns School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dorton College of Further Education",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Darrick Wood School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Newstead Wood School",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 335319,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 367,
+    "avgUpload": 66,
+    "superfastPct": 96,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bromley",
+    "bandD": 1842,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.2,
+    "imdRank": 11297,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BR6 is the postcode district for ORPINGTON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in BR6 is £622,193, which is 52% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in BR6 cost 116.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BR6 have fallen 3.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 36.0 recorded crimes per 1,000 residents, BR6 has a crime rate well 56% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BR6 has 20 schools within or near its boundaries, including 4 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BR6 are 367.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BR6 (ORPINGTON) offers above-average property prices (£622,193, 117% above national average), low crime (56% below national average), strong school provision (4 Outstanding-rated schools), and excellent broadband (367 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 367
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 367
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

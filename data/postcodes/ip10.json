@@ -1,0 +1,188 @@
+{
+  "code": "IP10",
+  "name": "IPSWICH",
+  "county": "suffolk",
+  "region": "east-of-england",
+  "city": "ipswich",
+  "adjacent": [
+    "IP9",
+    "IP11",
+    "IP12"
+  ],
+  "property": {
+    "avgPrice": 493903,
+    "medianPrice": 420000,
+    "priceChange1y": 10.8,
+    "priceChange5y": 0,
+    "transactions12m": 131,
+    "byType": {
+      "detached": {
+        "avg": 593081,
+        "count": 77
+      },
+      "semi": {
+        "avg": 334945,
+        "count": 42
+      },
+      "terraced": {
+        "avg": 346667,
+        "count": 3
+      },
+      "flat": {
+        "avg": 235734,
+        "count": 0
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 504125
+      },
+      {
+        "year": 2024,
+        "avg": 466878
+      },
+      {
+        "year": 2025,
+        "avg": 517159
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.1,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bucklesham Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Orwell Park School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Nacton Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 140274,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 21,
+    "privateRent": 21,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 162,
+    "avgUpload": 29,
+    "superfastPct": 85,
+    "ultrafastPct": 33,
+    "gigabitPct": 33,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Ipswich",
+    "bandD": 2155,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.9,
+    "imdRank": 19866,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IP10 is the postcode district for IPSWICH, located in Suffolk, East Of England.",
+    "priceVsCounty": "The average property price in IP10 is £493,903, which is 30% above the Suffolk average of £379,904.",
+    "priceVsNational": "Properties in IP10 cost 72.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IP10 have risen 10.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, IP10 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IP10 has 3 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IP10 are 162.0 Mbps, with 94% of premises having access to superfast broadband and 60% with full fibre (FTTP) connectivity.",
+    "synthesis": "IP10 (IPSWICH) offers above-average property prices (£493,903, 72% above national average), low crime (94% below national average), 3 nearby schools, and excellent broadband (162 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 379904,
+      "crime": 75,
+      "broadband": 162
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 162
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

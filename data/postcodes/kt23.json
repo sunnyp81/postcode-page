@@ -1,0 +1,197 @@
+{
+  "code": "KT23",
+  "name": "LEATHERHEAD",
+  "county": "greater-london",
+  "region": "london",
+  "city": "kingston-upon-thames",
+  "adjacent": [
+    "KT22",
+    "KT24"
+  ],
+  "property": {
+    "avgPrice": 715448,
+    "medianPrice": 680000,
+    "priceChange1y": 5.3,
+    "priceChange5y": 0,
+    "transactions12m": 456,
+    "byType": {
+      "detached": {
+        "avg": 893366,
+        "count": 253
+      },
+      "semi": {
+        "avg": 587562,
+        "count": 87
+      },
+      "terraced": {
+        "avg": 491166,
+        "count": 47
+      },
+      "flat": {
+        "avg": 307199,
+        "count": 50
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 736972
+      },
+      {
+        "year": 2024,
+        "avg": 689330
+      },
+      {
+        "year": 2025,
+        "avg": 726086
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 11.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -85.9,
+    "byType": {
+      "violentCrime": 4.8,
+      "burglary": 0.5,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 1.7,
+      "otherTheft": 1.4,
+      "other": 2.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Manor House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eastwick Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eastwick Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Great Bookham School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Polesden Lacey Infant Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 151359,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 227,
+    "avgUpload": 41,
+    "superfastPct": 97,
+    "ultrafastPct": 53,
+    "gigabitPct": 49,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Guildford",
+    "bandD": 2215,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 9.4,
+    "imdRank": 7197,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "KT23 encompasses LEATHERHEAD and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in KT23 is £715,448, which is 45% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in KT23 cost 149.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in KT23 have risen 5.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 11.5 recorded crimes per 1,000 residents, KT23 has a crime rate well 86% below the national average of 81.3 per 1,000.",
+    "schoolContext": "KT23 has 5 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in KT23 are 227.0 Mbps, with 99% of premises having access to superfast broadband and 77% with full fibre (FTTP) connectivity.",
+    "synthesis": "KT23 (LEATHERHEAD) offers above-average property prices (£715,448, 149% above national average), low crime (86% below national average), 5 nearby schools, and excellent broadband (227 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 227
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 227
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

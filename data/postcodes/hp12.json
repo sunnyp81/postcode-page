@@ -1,0 +1,197 @@
+{
+  "code": "HP12",
+  "name": "HIGH WYCOMBE",
+  "county": "hertfordshire",
+  "region": "south-east",
+  "city": "hemel-hempstead",
+  "adjacent": [
+    "HP11",
+    "HP13",
+    "HP14"
+  ],
+  "property": {
+    "avgPrice": 397225,
+    "medianPrice": 359000,
+    "priceChange1y": -15.3,
+    "priceChange5y": 0,
+    "transactions12m": 742,
+    "byType": {
+      "detached": {
+        "avg": 537327,
+        "count": 133
+      },
+      "semi": {
+        "avg": 400326,
+        "count": 233
+      },
+      "terraced": {
+        "avg": 343289,
+        "count": 96
+      },
+      "flat": {
+        "avg": 217005,
+        "count": 242
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 366802
+      },
+      {
+        "year": 2024,
+        "avg": 438940
+      },
+      {
+        "year": 2025,
+        "avg": 371633
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 84.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 3.7,
+    "byType": {
+      "violentCrime": 30.3,
+      "burglary": 2.1,
+      "vehicleCrime": 5,
+      "antisocialBehaviour": 11.8,
+      "otherTheft": 16.8,
+      "other": 18.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 1,
+    "good": 0,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Booker Hill Primary School & Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cressex Community School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Castlefield School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chiltern Wood School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Millbrook Combined School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 40,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 65,
+    "socialRent": 13,
+    "privateRent": 22,
+    "economicallyActive": 76,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 323,
+    "avgUpload": 58,
+    "superfastPct": 98,
+    "ultrafastPct": 83,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hemel Hempstead Council",
+    "bandD": 2236,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "HP12 encompasses HIGH WYCOMBE and its surrounding areas in Hertfordshire, South East.",
+    "priceVsCounty": "The average property price in HP12 is £397,225, which is 31% below the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in HP12 cost 38.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HP12 have fallen 15.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "HP12 has a crime rate of 84.3 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "HP12 has 9 schools within or near its boundaries, including 1 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HP12 are 323.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HP12 (HIGH WYCOMBE) offers above-average property prices (£397,225, 38% above national average), 9 nearby schools, and excellent broadband (323 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 323
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 323
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

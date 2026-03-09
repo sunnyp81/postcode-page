@@ -1,0 +1,197 @@
+{
+  "code": "CB24",
+  "name": "CAMBRIDGE",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "cambridge",
+  "adjacent": [
+    "CB23",
+    "CB25"
+  ],
+  "property": {
+    "avgPrice": 462599,
+    "medianPrice": 400000,
+    "priceChange1y": 7.5,
+    "priceChange5y": 0,
+    "transactions12m": 1837,
+    "byType": {
+      "detached": {
+        "avg": 548239,
+        "count": 772
+      },
+      "semi": {
+        "avg": 384005,
+        "count": 543
+      },
+      "terraced": {
+        "avg": 316405,
+        "count": 336
+      },
+      "flat": {
+        "avg": 219654,
+        "count": 113
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 491445
+      },
+      {
+        "year": 2024,
+        "avg": 431435
+      },
+      {
+        "year": 2025,
+        "avg": 463772
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.6,
+      "burglary": 0.1,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.6,
+      "otherTheft": 0.2,
+      "other": 0.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 3,
+    "good": 9,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Histon Early Years Centre",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cottenham Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Fen Drayton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Over Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Swavesey Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 149352,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 20,
+    "socialRent": 23,
+    "privateRent": 28,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 302,
+    "avgUpload": 54,
+    "superfastPct": 95,
+    "ultrafastPct": 75,
+    "gigabitPct": 71,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cambridge",
+    "bandD": 2126,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.9,
+    "imdRank": 12582,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CB24 is the postcode district for CAMBRIDGE, located in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in CB24 is £462,599, which is 21% above the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in CB24 cost 61.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CB24 have risen 7.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, CB24 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CB24 has 21 schools within or near its boundaries, including 3 rated Outstanding and 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CB24 are 302.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CB24 (CAMBRIDGE) offers above-average property prices (£462,599, 61% above national average), low crime (94% below national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (302 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 302
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 302
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

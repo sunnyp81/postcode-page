@@ -1,0 +1,198 @@
+{
+  "code": "PL5",
+  "name": "PLYMOUTH",
+  "county": "devon",
+  "region": "south-west",
+  "city": "plymouth",
+  "adjacent": [
+    "PL4",
+    "PL6",
+    "PL7"
+  ],
+  "property": {
+    "avgPrice": 203334,
+    "medianPrice": 190000,
+    "priceChange1y": -0.8,
+    "priceChange5y": 0,
+    "transactions12m": 1616,
+    "byType": {
+      "detached": {
+        "avg": 363856,
+        "count": 95
+      },
+      "semi": {
+        "avg": 215929,
+        "count": 602
+      },
+      "terraced": {
+        "avg": 186563,
+        "count": 704
+      },
+      "flat": {
+        "avg": 105280,
+        "count": 185
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 201989
+      },
+      {
+        "year": 2024,
+        "avg": 204794
+      },
+      {
+        "year": 2025,
+        "avg": 203207
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 81.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 0.1,
+    "byType": {
+      "violentCrime": 39.7,
+      "burglary": 1.5,
+      "vehicleCrime": 2.1,
+      "antisocialBehaviour": 12.2,
+      "otherTheft": 7.1,
+      "other": 18.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 22,
+    "outstanding": 3,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Sir John Hunt Community Sports College",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Brook Green Centre for Learning",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mill Ford School",
+        "type": "Other",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Whitleigh Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Riverside Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 92148,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 12,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 357,
+    "avgUpload": 64,
+    "superfastPct": 97,
+    "ultrafastPct": 88,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Hams",
+    "bandD": 2261,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.7,
+    "imdRank": 12057,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PL5 encompasses PLYMOUTH and its surrounding areas in Devon, South West.",
+    "priceVsCounty": "The average property price in PL5 is £203,334, which is 47% below the Devon average of £385,452.",
+    "priceVsNational": "Properties in PL5 cost 29.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PL5 have fallen 0.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "PL5 has a crime rate of 81.4 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "PL5 has 22 schools within or near its boundaries, including 3 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PL5 are 357.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PL5 (PLYMOUTH) offers affordable property prices (£203,334, 29% below national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (357 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 357
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 357
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

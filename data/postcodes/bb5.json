@@ -1,0 +1,198 @@
+{
+  "code": "BB5",
+  "name": "ACCRINGTON",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "blackburn",
+  "adjacent": [
+    "BB4",
+    "BB6",
+    "BB7"
+  ],
+  "property": {
+    "avgPrice": 148899,
+    "medianPrice": 122000,
+    "priceChange1y": -8.8,
+    "priceChange5y": 0,
+    "transactions12m": 2847,
+    "byType": {
+      "detached": {
+        "avg": 257093,
+        "count": 312
+      },
+      "semi": {
+        "avg": 178755,
+        "count": 627
+      },
+      "terraced": {
+        "avg": 101946,
+        "count": 1724
+      },
+      "flat": {
+        "avg": 90742,
+        "count": 43
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 146432
+      },
+      {
+        "year": 2024,
+        "avg": 156651
+      },
+      {
+        "year": 2025,
+        "avg": 142811
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 168,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 106.6,
+    "byType": {
+      "violentCrime": 57.4,
+      "burglary": 5.7,
+      "vehicleCrime": 9,
+      "antisocialBehaviour": 48.6,
+      "otherTheft": 18.6,
+      "other": 28.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 37,
+    "outstanding": 0,
+    "good": 9,
+    "requiresImprovement": 1,
+    "inadequate": 2,
+    "nearest": [
+      {
+        "name": "Lee Royd Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fairfield Nursery School",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Accrington Hyndburn Park Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Accrington Peel Park Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Accrington Spring Hill Community Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 73045,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 15,
+    "privateRent": 15,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 349,
+    "avgUpload": 63,
+    "superfastPct": 97,
+    "ultrafastPct": 87,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Rossendale",
+    "bandD": 2211,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 24.1,
+    "imdRank": 18936,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BB5 encompasses ACCRINGTON and its surrounding areas in Lancashire, North West.",
+    "priceVsCounty": "The average property price in BB5 is £148,899, which is 41% below the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in BB5 cost 48.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BB5 have fallen 8.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 168.0 recorded crimes per 1,000 residents, BB5 has a crime rate significantly 107% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BB5 has 37 schools within or near its boundaries, including 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BB5 are 349.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BB5 (ACCRINGTON) offers affordable property prices (£148,899, 48% below national average), higher-than-average crime (107% above national average), 37 nearby schools, and excellent broadband (349 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 349
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 349
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

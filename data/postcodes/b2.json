@@ -1,0 +1,172 @@
+{
+  "code": "B2",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B1",
+    "B3",
+    "B4"
+  ],
+  "property": {
+    "avgPrice": 2209935,
+    "medianPrice": 172500,
+    "priceChange1y": -20.7,
+    "priceChange5y": 0,
+    "transactions12m": 31,
+    "byType": {
+      "detached": {
+        "avg": 4198877,
+        "count": 0
+      },
+      "semi": {
+        "avg": 2651922,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 2209935,
+        "count": 0
+      },
+      "flat": {
+        "avg": 389295,
+        "count": 22
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 2088273
+      },
+      {
+        "year": 2024,
+        "avg": 2454500
+      },
+      {
+        "year": 2025,
+        "avg": 1946929
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 175.9,
+      "burglary": 13.5,
+      "vehicleCrime": 27.2,
+      "antisocialBehaviour": 34.4,
+      "otherTheft": 131,
+      "other": 93.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 0,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": []
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 207,
+    "avgUpload": 37,
+    "superfastPct": 60,
+    "ultrafastPct": 49,
+    "gigabitPct": 49,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B2 encompasses BIRMINGHAM and its surrounding areas in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B2 is £2,209,935, which is 561% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B2 cost 670.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B2 have fallen 20.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, B2 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "School data for B2 is not currently available.",
+    "broadbandContext": "Average broadband download speeds in B2 are 207.0 Mbps, with 99% of premises having access to superfast broadband and 72% with full fibre (FTTP) connectivity.",
+    "synthesis": "B2 (BIRMINGHAM) offers above-average property prices (£2,209,935, 670% above national average), higher-than-average crime (269% above national average), and excellent broadband (207 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 207
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 207
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

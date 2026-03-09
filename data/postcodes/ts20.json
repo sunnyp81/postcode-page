@@ -1,0 +1,198 @@
+{
+  "code": "TS20",
+  "name": "STOCKTON-ON-TEES",
+  "county": "teesside",
+  "region": "north-east",
+  "city": "middlesbrough",
+  "adjacent": [
+    "TS19",
+    "TS21",
+    "TS22"
+  ],
+  "property": {
+    "avgPrice": 147324,
+    "medianPrice": 130000,
+    "priceChange1y": 14.3,
+    "priceChange5y": 0,
+    "transactions12m": 987,
+    "byType": {
+      "detached": {
+        "avg": 265529,
+        "count": 100
+      },
+      "semi": {
+        "avg": 147464,
+        "count": 497
+      },
+      "terraced": {
+        "avg": 120626,
+        "count": 297
+      },
+      "flat": {
+        "avg": 81753,
+        "count": 78
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 144698
+      },
+      {
+        "year": 2024,
+        "avg": 139128
+      },
+      {
+        "year": 2025,
+        "avg": 158972
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 93.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 15.1,
+    "byType": {
+      "violentCrime": 34.9,
+      "burglary": 3.4,
+      "vehicleCrime": 4.2,
+      "antisocialBehaviour": 18.8,
+      "otherTheft": 7.5,
+      "other": 24.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 1,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Glebe Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Red House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "North Shore Academy",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Frederick Nattrass Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "King Edwin School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 206800,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 16,
+    "privateRent": 15,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 381,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 96,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Middlesbrough Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.8,
+    "imdRank": 17541,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TS20 is the postcode district for STOCKTON-ON-TEES, located in Teesside, North East.",
+    "priceVsCounty": "The average property price in TS20 is £147,324, which is 22% below the Teesside average of £189,841.",
+    "priceVsNational": "Properties in TS20 cost 48.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TS20 have risen 14.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 93.6 recorded crimes per 1,000 residents, TS20 has a crime rate 15% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TS20 has 9 schools within or near its boundaries, including 1 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TS20 are 381.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TS20 (STOCKTON-ON-TEES) offers affordable property prices (£147,324, 49% below national average), higher-than-average crime (15% above national average), 9 nearby schools, and excellent broadband (381 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 189841,
+      "crime": 75,
+      "broadband": 381
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 381
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

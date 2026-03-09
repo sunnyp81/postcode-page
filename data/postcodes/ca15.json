@@ -1,0 +1,198 @@
+{
+  "code": "CA15",
+  "name": "MARYPORT",
+  "county": "cumbria",
+  "region": "north-west",
+  "city": "carlisle",
+  "adjacent": [
+    "CA14",
+    "CA16",
+    "CA17"
+  ],
+  "property": {
+    "avgPrice": 160574,
+    "medianPrice": 140000,
+    "priceChange1y": 16.7,
+    "priceChange5y": 0,
+    "transactions12m": 748,
+    "byType": {
+      "detached": {
+        "avg": 251052,
+        "count": 177
+      },
+      "semi": {
+        "avg": 155242,
+        "count": 177
+      },
+      "terraced": {
+        "avg": 111426,
+        "count": 340
+      },
+      "flat": {
+        "avg": 89517,
+        "count": 15
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 152617
+      },
+      {
+        "year": 2024,
+        "avg": 153313
+      },
+      {
+        "year": 2025,
+        "avg": 178989
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 24.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -70.4,
+    "byType": {
+      "violentCrime": 11.8,
+      "burglary": 0.8,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 1.2,
+      "otherTheft": 3,
+      "other": 6.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Allonby Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Holme St Cuthbert School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Grasslot Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ewanrigg Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Netherton Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 112,
+    "avgUpload": 20,
+    "superfastPct": 95,
+    "ultrafastPct": 17,
+    "gigabitPct": 17,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cumberland",
+    "bandD": 2175,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CA15 covers MARYPORT in Cumbria, North West.",
+    "priceVsCounty": "The average property price in CA15 is £160,574, which is 34% below the Cumbria average of £244,524.",
+    "priceVsNational": "Properties in CA15 cost 44.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CA15 have risen 16.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 24.1 recorded crimes per 1,000 residents, CA15 has a crime rate well 70% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CA15 has 13 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CA15 are 112.0 Mbps, with 87% of premises having access to superfast broadband and 46% with full fibre (FTTP) connectivity.",
+    "synthesis": "CA15 (MARYPORT) offers affordable property prices (£160,574, 44% below national average), low crime (70% below national average), 13 nearby schools, and excellent broadband (112 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 244524,
+      "crime": 75,
+      "broadband": 112
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 112
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "code": "SA1",
+  "name": "SWANSEA",
+  "county": "west-wales",
+  "region": "wales",
+  "city": "swansea",
+  "adjacent": [
+    "SA2",
+    "SA3"
+  ],
+  "property": {
+    "avgPrice": 170360,
+    "medianPrice": 139998,
+    "priceChange1y": 2,
+    "priceChange5y": 0,
+    "transactions12m": 2092,
+    "byType": {
+      "detached": {
+        "avg": 224810,
+        "count": 75
+      },
+      "semi": {
+        "avg": 155040,
+        "count": 311
+      },
+      "terraced": {
+        "avg": 151307,
+        "count": 1153
+      },
+      "flat": {
+        "avg": 139756,
+        "count": 423
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 176854
+      },
+      {
+        "year": 2024,
+        "avg": 165316
+      },
+      {
+        "year": 2025,
+        "avg": 168693
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 196,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 141.1,
+    "byType": {
+      "violentCrime": 69.3,
+      "burglary": 2.9,
+      "vehicleCrime": 5.7,
+      "antisocialBehaviour": 27.4,
+      "otherTheft": 40.6,
+      "other": 50.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Danygraig Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hafod Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pentrechwyth Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Helen's Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Terrace Road Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 251304,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 367,
+    "avgUpload": 66,
+    "superfastPct": 98,
+    "ultrafastPct": 92,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swansea Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "SA1 encompasses SWANSEA and its surrounding areas in West Wales, Wales.",
+    "priceVsCounty": "The average property price in SA1 is £170,360, which is 35% below the West Wales average of £261,315.",
+    "priceVsNational": "Properties in SA1 cost 40.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SA1 have risen 2.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 196.0 recorded crimes per 1,000 residents, SA1 has a crime rate significantly 141% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SA1 has 19 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SA1 are 367.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SA1 (SWANSEA) offers affordable property prices (£170,360, 41% below national average), higher-than-average crime (141% above national average), 19 nearby schools, and excellent broadband (367 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 261315,
+      "crime": 75,
+      "broadband": 367
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 367
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

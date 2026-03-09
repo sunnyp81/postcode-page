@@ -1,0 +1,197 @@
+{
+  "code": "LL18",
+  "name": "RHYL",
+  "county": "north-wales",
+  "region": "wales",
+  "city": "north-wales",
+  "adjacent": [
+    "LL17",
+    "LL19",
+    "LL20"
+  ],
+  "property": {
+    "avgPrice": 203925,
+    "medianPrice": 175000,
+    "priceChange1y": 6.1,
+    "priceChange5y": 0,
+    "transactions12m": 1935,
+    "byType": {
+      "detached": {
+        "avg": 223790,
+        "count": 864
+      },
+      "semi": {
+        "avg": 175667,
+        "count": 617
+      },
+      "terraced": {
+        "avg": 138870,
+        "count": 262
+      },
+      "flat": {
+        "avg": 103772,
+        "count": 89
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 188688
+      },
+      {
+        "year": 2024,
+        "avg": 206334
+      },
+      {
+        "year": 2025,
+        "avg": 218994
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 98,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 20.5,
+    "byType": {
+      "violentCrime": 42,
+      "burglary": 2.5,
+      "vehicleCrime": 1.2,
+      "antisocialBehaviour": 17.7,
+      "otherTheft": 13.1,
+      "other": 21.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ysgol Maes Owen",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Y Foryd",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Hiraddug",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Y Castell",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Christchurch C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 114891,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 347,
+    "avgUpload": 62,
+    "superfastPct": 98,
+    "ultrafastPct": 85,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Wales Council",
+    "bandD": 2304,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LL18 encompasses RHYL and its surrounding areas in North Wales, Wales.",
+    "priceVsCounty": "The average property price in LL18 is £203,925, which is 25% below the North Wales average of £271,879.",
+    "priceVsNational": "Properties in LL18 cost 28.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LL18 have risen 6.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 98.0 recorded crimes per 1,000 residents, LL18 has a crime rate significantly 21% above the national average of 81.3 per 1,000.",
+    "schoolContext": "LL18 has 16 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LL18 are 347.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LL18 (RHYL) offers affordable property prices (£203,925, 29% below national average), higher-than-average crime (21% above national average), 16 nearby schools, and excellent broadband (347 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 271879,
+      "crime": 75,
+      "broadband": 347
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 347
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

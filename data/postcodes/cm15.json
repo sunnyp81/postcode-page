@@ -1,0 +1,198 @@
+{
+  "code": "CM15",
+  "name": "BRENTWOOD",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "chelmsford",
+  "adjacent": [
+    "CM14",
+    "CM16",
+    "CM17"
+  ],
+  "property": {
+    "avgPrice": 627829,
+    "medianPrice": 520000,
+    "priceChange1y": 1,
+    "priceChange5y": 0,
+    "transactions12m": 1048,
+    "byType": {
+      "detached": {
+        "avg": 866317,
+        "count": 335
+      },
+      "semi": {
+        "avg": 561055,
+        "count": 288
+      },
+      "terraced": {
+        "avg": 426252,
+        "count": 116
+      },
+      "flat": {
+        "avg": 337784,
+        "count": 262
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 559579
+      },
+      {
+        "year": 2024,
+        "avg": 659789
+      },
+      {
+        "year": 2025,
+        "avg": 666541
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 9.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -88.3,
+    "byType": {
+      "violentCrime": 4,
+      "burglary": 0.3,
+      "vehicleCrime": 1.3,
+      "antisocialBehaviour": 0.8,
+      "otherTheft": 0.6,
+      "other": 2.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Doddinghurst Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Thomas of Canterbury Church of England Aided Primary School, Brentwood",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Helen's Catholic Infant & Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Brentwood School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Helen's Catholic Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 137451,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 15,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 316,
+    "avgUpload": 57,
+    "superfastPct": 97,
+    "ultrafastPct": 76,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Epping Forest",
+    "bandD": 2002,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.1,
+    "imdRank": 12930,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CM15 covers BRENTWOOD in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CM15 is £627,829, which is 46% above the Essex average of £429,754.",
+    "priceVsNational": "Properties in CM15 cost 118.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CM15 have risen 1.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 9.5 recorded crimes per 1,000 residents, CM15 has a crime rate well 88% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CM15 has 16 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CM15 are 316.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CM15 (BRENTWOOD) offers above-average property prices (£627,829, 119% above national average), low crime (88% below national average), 16 nearby schools, and excellent broadband (316 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 316
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 316
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

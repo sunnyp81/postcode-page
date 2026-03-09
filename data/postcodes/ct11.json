@@ -1,0 +1,198 @@
+{
+  "code": "CT11",
+  "name": "RAMSGATE",
+  "county": "kent",
+  "region": "south-east",
+  "city": "canterbury",
+  "adjacent": [
+    "CT10",
+    "CT12",
+    "CT13"
+  ],
+  "property": {
+    "avgPrice": 285079,
+    "medianPrice": 255000,
+    "priceChange1y": -5.1,
+    "priceChange5y": 0,
+    "transactions12m": 1429,
+    "byType": {
+      "detached": {
+        "avg": 445008,
+        "count": 123
+      },
+      "semi": {
+        "avg": 321857,
+        "count": 295
+      },
+      "terraced": {
+        "avg": 276641,
+        "count": 561
+      },
+      "flat": {
+        "avg": 197012,
+        "count": 376
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 322142
+      },
+      {
+        "year": 2024,
+        "avg": 272827
+      },
+      {
+        "year": 2025,
+        "avg": 259026
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 114.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 41.2,
+    "byType": {
+      "violentCrime": 49.6,
+      "burglary": 2.6,
+      "vehicleCrime": 3.5,
+      "antisocialBehaviour": 19.8,
+      "otherTheft": 15.9,
+      "other": 23.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ellington Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Priory Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Ethelbert's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Lawrence College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Lawrence College Junior School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 142691,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 12,
+    "privateRent": 24,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 313,
+    "avgUpload": 56,
+    "superfastPct": 99,
+    "ultrafastPct": 75,
+    "gigabitPct": 75,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Thanet",
+    "bandD": 2173,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 31.3,
+    "imdRank": 21985,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CT11 covers RAMSGATE in Kent, South East.",
+    "priceVsCounty": "The average property price in CT11 is £285,079, which is 37% below the Kent average of £450,882.",
+    "priceVsNational": "Property values in CT11 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in CT11 have fallen 5.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 114.8 recorded crimes per 1,000 residents, CT11 has a crime rate significantly 41% above the national average of 81.3 per 1,000.",
+    "schoolContext": "CT11 has 11 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CT11 are 313.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CT11 (RAMSGATE) offers property prices near the national average (£285,079), higher-than-average crime (41% above national average), 11 nearby schools, and excellent broadband (313 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 313
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 313
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "code": "OX33",
+  "name": "OXFORD",
+  "county": "oxfordshire",
+  "region": "south-east",
+  "city": "oxford",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 941851,
+    "medianPrice": 475000,
+    "priceChange1y": 6.1,
+    "priceChange5y": 0,
+    "transactions12m": 255,
+    "byType": {
+      "detached": {
+        "avg": 730735,
+        "count": 113
+      },
+      "semi": {
+        "avg": 465543,
+        "count": 66
+      },
+      "terraced": {
+        "avg": 376555,
+        "count": 33
+      },
+      "flat": {
+        "avg": 244074,
+        "count": 27
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1745811
+      },
+      {
+        "year": 2024,
+        "avg": 519585
+      },
+      {
+        "year": 2025,
+        "avg": 551333
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.8,
+      "burglary": 0.2,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.4,
+      "otherTheft": 0.4,
+      "other": 0.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Wheatley Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "John Watson School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chilworth House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chilworth House Upper School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wheatley Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 156470,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 12,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 246,
+    "avgUpload": 44,
+    "superfastPct": 91,
+    "ultrafastPct": 60,
+    "gigabitPct": 55,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Oxfordshire",
+    "bandD": 2240,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.5,
+    "imdRank": 6409,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "OX33 encompasses OXFORD and its surrounding areas in Oxfordshire, South East.",
+    "priceVsCounty": "The average property price in OX33 is £941,851, which is 60% above the Oxfordshire average of £588,175.",
+    "priceVsNational": "Properties in OX33 cost 228.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in OX33 have risen 6.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, OX33 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "OX33 has 7 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in OX33 are 246.0 Mbps, with 99% of premises having access to superfast broadband and 83% with full fibre (FTTP) connectivity.",
+    "synthesis": "OX33 (OXFORD) offers above-average property prices (£941,851, 228% above national average), low crime (94% below national average), 7 nearby schools, and excellent broadband (246 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 588175,
+      "crime": 75,
+      "broadband": 246
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 246
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

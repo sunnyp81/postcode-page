@@ -1,0 +1,198 @@
+{
+  "code": "SP4",
+  "name": "SALISBURY",
+  "county": "wiltshire",
+  "region": "south-west",
+  "city": "salisbury",
+  "adjacent": [
+    "SP3",
+    "SP5",
+    "SP6"
+  ],
+  "property": {
+    "avgPrice": 357314,
+    "medianPrice": 325000,
+    "priceChange1y": 2.2,
+    "priceChange5y": 0,
+    "transactions12m": 1353,
+    "byType": {
+      "detached": {
+        "avg": 458474,
+        "count": 529
+      },
+      "semi": {
+        "avg": 304208,
+        "count": 396
+      },
+      "terraced": {
+        "avg": 260774,
+        "count": 258
+      },
+      "flat": {
+        "avg": 155981,
+        "count": 102
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 360447
+      },
+      {
+        "year": 2024,
+        "avg": 352333
+      },
+      {
+        "year": 2025,
+        "avg": 360042
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 24,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -70.5,
+    "byType": {
+      "violentCrime": 10.3,
+      "burglary": 0.4,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 4.9,
+      "otherTheft": 2.9,
+      "other": 4.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 2,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Kiwi Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Durrington Church of England Controlled Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Newton Tony Church of England Voluntary Controlled School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Stonehenge School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Avondale Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 523700,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 276,
+    "avgUpload": 50,
+    "superfastPct": 93,
+    "ultrafastPct": 65,
+    "gigabitPct": 65,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Salisbury Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.4,
+    "imdRank": 11265,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SP4 encompasses SALISBURY and its surrounding areas in Wiltshire, South West.",
+    "priceVsCounty": "The average property price in SP4 is £357,314, which is 10% below the Wiltshire average of £397,459.",
+    "priceVsNational": "Properties in SP4 cost 24.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SP4 have risen 2.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 24.0 recorded crimes per 1,000 residents, SP4 has a crime rate well 70% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SP4 has 21 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SP4 are 276.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SP4 (SALISBURY) offers above-average property prices (£357,314, 24% above national average), low crime (70% below national average), 21 nearby schools, and excellent broadband (276 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 397459,
+      "crime": 75,
+      "broadband": 276
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 276
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

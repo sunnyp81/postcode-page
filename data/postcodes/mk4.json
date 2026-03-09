@@ -1,0 +1,198 @@
+{
+  "code": "MK4",
+  "name": "MILTON KEYNES",
+  "county": "buckinghamshire",
+  "region": "south-east",
+  "city": "milton-keynes",
+  "adjacent": [
+    "MK3",
+    "MK5",
+    "MK6"
+  ],
+  "property": {
+    "avgPrice": 381178,
+    "medianPrice": 375000,
+    "priceChange1y": -9.6,
+    "priceChange5y": 0,
+    "transactions12m": 1105,
+    "byType": {
+      "detached": {
+        "avg": 508396,
+        "count": 376
+      },
+      "semi": {
+        "avg": 342745,
+        "count": 298
+      },
+      "terraced": {
+        "avg": 305571,
+        "count": 248
+      },
+      "flat": {
+        "avg": 204280,
+        "count": 166
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 362779
+      },
+      {
+        "year": 2024,
+        "avg": 407903
+      },
+      {
+        "year": 2025,
+        "avg": 368862
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 43.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -46.1,
+    "byType": {
+      "violentCrime": 18.6,
+      "burglary": 1.5,
+      "vehicleCrime": 1.9,
+      "antisocialBehaviour": 5.4,
+      "otherTheft": 7.8,
+      "other": 8.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Howe Park School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Giles Brook Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Oxley Park Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Priory Rise School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Emerson Valley School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 305884,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 18,
+    "privateRent": 19,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 394,
+    "avgUpload": 71,
+    "superfastPct": 99,
+    "ultrafastPct": 99,
+    "gigabitPct": 98,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Milton Keynes Council",
+    "bandD": 2268,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 14351,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "MK4 covers MILTON KEYNES in Buckinghamshire, South East.",
+    "priceVsCounty": "The average property price in MK4 is £381,178, which is 19% below the Buckinghamshire average of £472,988.",
+    "priceVsNational": "Properties in MK4 cost 32.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in MK4 have fallen 9.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 43.8 recorded crimes per 1,000 residents, MK4 has a crime rate well 46% below the national average of 81.3 per 1,000.",
+    "schoolContext": "MK4 has 6 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in MK4 are 394.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "MK4 (MILTON KEYNES) offers above-average property prices (£381,178, 33% above national average), low crime (46% below national average), 6 nearby schools, and excellent broadband (394 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 472988,
+      "crime": 75,
+      "broadband": 394
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 394
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

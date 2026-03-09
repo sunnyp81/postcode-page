@@ -1,0 +1,198 @@
+{
+  "code": "CT4",
+  "name": "CANTERBURY",
+  "county": "kent",
+  "region": "south-east",
+  "city": "canterbury",
+  "adjacent": [
+    "CT3",
+    "CT5",
+    "CT6"
+  ],
+  "property": {
+    "avgPrice": 529116,
+    "medianPrice": 426000,
+    "priceChange1y": -12.9,
+    "priceChange5y": 0,
+    "transactions12m": 626,
+    "byType": {
+      "detached": {
+        "avg": 681563,
+        "count": 233
+      },
+      "semi": {
+        "avg": 431822,
+        "count": 164
+      },
+      "terraced": {
+        "avg": 316777,
+        "count": 138
+      },
+      "flat": {
+        "avg": 190481,
+        "count": 27
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 545691
+      },
+      {
+        "year": 2024,
+        "avg": 553408
+      },
+      {
+        "year": 2025,
+        "avg": 482085
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.4,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Barham Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bridge and Patrixbourne Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chilham, St Mary's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stelling Minnis Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Elham Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 119768,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 14,
+    "privateRent": 17,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 141,
+    "avgUpload": 25,
+    "superfastPct": 68,
+    "ultrafastPct": 29,
+    "gigabitPct": 29,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Dover",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.2,
+    "imdRank": 17915,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CT4 encompasses CANTERBURY and its surrounding areas in Kent, South East.",
+    "priceVsCounty": "The average property price in CT4 is £529,116, which is 17% above the Kent average of £450,882.",
+    "priceVsNational": "Properties in CT4 cost 84.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CT4 have fallen 12.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, CT4 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CT4 has 10 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CT4 are 141.0 Mbps, with 91% of premises having access to superfast broadband and 54% with full fibre (FTTP) connectivity.",
+    "synthesis": "CT4 (CANTERBURY) offers above-average property prices (£529,116, 84% above national average), low crime (94% below national average), 10 nearby schools, and excellent broadband (141 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 141
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 141
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

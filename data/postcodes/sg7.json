@@ -1,0 +1,198 @@
+{
+  "code": "SG7",
+  "name": "BALDOCK",
+  "county": "hertfordshire",
+  "region": "east-of-england",
+  "city": "stevenage",
+  "adjacent": [
+    "SG6",
+    "SG8",
+    "SG9"
+  ],
+  "property": {
+    "avgPrice": 431589,
+    "medianPrice": 375000,
+    "priceChange1y": -2.7,
+    "priceChange5y": 0,
+    "transactions12m": 585,
+    "byType": {
+      "detached": {
+        "avg": 714805,
+        "count": 88
+      },
+      "semi": {
+        "avg": 463234,
+        "count": 136
+      },
+      "terraced": {
+        "avg": 356118,
+        "count": 163
+      },
+      "flat": {
+        "avg": 250696,
+        "count": 163
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 457671
+      },
+      {
+        "year": 2024,
+        "avg": 424318
+      },
+      {
+        "year": 2025,
+        "avg": 412954
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.6,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.4,
+      "otherTheft": 0.2,
+      "other": 0.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Weston Way Nursery School",
+        "type": "Nursery",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Ashwell Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hartsfield Junior Mixed and Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's Infants' School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary's Junior Mixed School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 315877,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 320,
+    "avgUpload": 58,
+    "superfastPct": 90,
+    "ultrafastPct": 78,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stevenage Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.2,
+    "imdRank": 9823,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SG7 encompasses BALDOCK and its surrounding areas in Hertfordshire, East Of England.",
+    "priceVsCounty": "The average property price in SG7 is £431,589, which is 25% below the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in SG7 cost 50.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SG7 have fallen 2.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SG7 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SG7 has 8 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SG7 are 320.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SG7 (BALDOCK) offers above-average property prices (£431,589, 50% above national average), low crime (94% below national average), 8 nearby schools, and excellent broadband (320 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 320
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 320
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

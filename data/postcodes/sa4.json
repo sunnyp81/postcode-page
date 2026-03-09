@@ -1,0 +1,197 @@
+{
+  "code": "SA4",
+  "name": "SWANSEA",
+  "county": "west-wales",
+  "region": "wales",
+  "city": "swansea",
+  "adjacent": [
+    "SA3",
+    "SA5",
+    "SA6"
+  ],
+  "property": {
+    "avgPrice": 234307,
+    "medianPrice": 206000,
+    "priceChange1y": 7.9,
+    "priceChange5y": 0,
+    "transactions12m": 2151,
+    "byType": {
+      "detached": {
+        "avg": 323107,
+        "count": 673
+      },
+      "semi": {
+        "avg": 202326,
+        "count": 863
+      },
+      "terraced": {
+        "avg": 160956,
+        "count": 431
+      },
+      "flat": {
+        "avg": 101878,
+        "count": 97
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 231781
+      },
+      {
+        "year": 2024,
+        "avg": 227507
+      },
+      {
+        "year": 2025,
+        "avg": 245429
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 25.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -68.6,
+    "byType": {
+      "violentCrime": 10.9,
+      "burglary": 0.6,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 3.9,
+      "otherTheft": 2.1,
+      "other": 7.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ysgol Gynradd Llanedy",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hendy C.P. Mixed School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Casllwchwr Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Crwys Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Penclawdd Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 251304,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 315,
+    "avgUpload": 57,
+    "superfastPct": 93,
+    "ultrafastPct": 77,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swansea Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "SA4 encompasses SWANSEA and its surrounding areas in West Wales, Wales.",
+    "priceVsCounty": "The average property price in SA4 is £234,307, which is 10% below the West Wales average of £261,315.",
+    "priceVsNational": "Properties in SA4 cost 18.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SA4 have risen 7.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 25.5 recorded crimes per 1,000 residents, SA4 has a crime rate well 69% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SA4 has 20 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SA4 are 315.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SA4 (SWANSEA) offers affordable property prices (£234,307, 18% below national average), low crime (69% below national average), 20 nearby schools, and excellent broadband (315 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 261315,
+      "crime": 75,
+      "broadband": 315
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 315
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

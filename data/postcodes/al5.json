@@ -1,0 +1,198 @@
+{
+  "code": "AL5",
+  "name": "HARPENDEN",
+  "county": "hertfordshire",
+  "region": "south-east",
+  "city": "st-albans",
+  "adjacent": [
+    "AL4",
+    "AL6",
+    "AL7"
+  ],
+  "property": {
+    "avgPrice": 957553,
+    "medianPrice": 770000,
+    "priceChange1y": 3.7,
+    "priceChange5y": 0,
+    "transactions12m": 1387,
+    "byType": {
+      "detached": {
+        "avg": 1473096,
+        "count": 445
+      },
+      "semi": {
+        "avg": 877900,
+        "count": 367
+      },
+      "terraced": {
+        "avg": 660189,
+        "count": 208
+      },
+      "flat": {
+        "avg": 414574,
+        "count": 331
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 963682
+      },
+      {
+        "year": 2024,
+        "avg": 938307
+      },
+      {
+        "year": 2025,
+        "avg": 972697
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 36.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -55,
+    "byType": {
+      "violentCrime": 8.1,
+      "burglary": 2.5,
+      "vehicleCrime": 3.4,
+      "antisocialBehaviour": 6.9,
+      "otherTheft": 9.9,
+      "other": 5.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 7,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Batford Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sauncey Wood Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Manland Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Roundwood Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Grove Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 315877,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 353,
+    "avgUpload": 64,
+    "superfastPct": 97,
+    "ultrafastPct": 89,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "St Albans Council",
+    "bandD": 2064,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.2,
+    "imdRank": 9823,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "AL5 encompasses HARPENDEN and its surrounding areas in Hertfordshire, South East.",
+    "priceVsCounty": "The average property price in AL5 is £957,553, which is 67% above the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in AL5 cost 233.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in AL5 have risen 3.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 36.6 recorded crimes per 1,000 residents, AL5 has a crime rate well 55% below the national average of 81.3 per 1,000.",
+    "schoolContext": "AL5 has 21 schools within or near its boundaries, including 7 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in AL5 are 353.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "AL5 (HARPENDEN) offers above-average property prices (£957,553, 234% above national average), low crime (55% below national average), strong school provision (7 Outstanding-rated schools), and excellent broadband (353 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 353
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 353
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "TR20",
+  "name": "PENZANCE",
+  "county": "cornwall",
+  "region": "south-west",
+  "city": "truro",
+  "adjacent": [
+    "TR19",
+    "TR21"
+  ],
+  "property": {
+    "avgPrice": 414974,
+    "medianPrice": 330000,
+    "priceChange1y": 1.7,
+    "priceChange5y": 0,
+    "transactions12m": 385,
+    "byType": {
+      "detached": {
+        "avg": 520205,
+        "count": 155
+      },
+      "semi": {
+        "avg": 330361,
+        "count": 78
+      },
+      "terraced": {
+        "avg": 243256,
+        "count": 85
+      },
+      "flat": {
+        "avg": 168707,
+        "count": 15
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 443858
+      },
+      {
+        "year": 2024,
+        "avg": 397524
+      },
+      {
+        "year": 2025,
+        "avg": 404254
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.8,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.7,
+      "otherTheft": 0.6,
+      "other": 0.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Trythall Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Germoe Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Madron Daniel CofE (VA) School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Hilary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ludgvan School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 583289,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 147,
+    "avgUpload": 26,
+    "superfastPct": 81,
+    "ultrafastPct": 29,
+    "gigabitPct": 29,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Truro Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.1,
+    "imdRank": 19382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TR20 covers PENZANCE in Cornwall, South West.",
+    "priceVsCounty": "The average property price in TR20 is £414,974, broadly in line with the Cornwall average of £402,222.",
+    "priceVsNational": "Properties in TR20 cost 44.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TR20 have risen 1.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TR20 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TR20 has 8 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TR20 are 147.0 Mbps, with 92% of premises having access to superfast broadband and 55% with full fibre (FTTP) connectivity.",
+    "synthesis": "TR20 (PENZANCE) offers above-average property prices (£414,974, 45% above national average), low crime (94% below national average), 8 nearby schools, and excellent broadband (147 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 402222,
+      "crime": 75,
+      "broadband": 147
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 147
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

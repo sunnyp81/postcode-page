@@ -1,0 +1,197 @@
+{
+  "code": "DT2",
+  "name": "DORCHESTER",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "dorchester",
+  "adjacent": [
+    "DT1",
+    "DT3",
+    "DT4"
+  ],
+  "property": {
+    "avgPrice": 451765,
+    "medianPrice": 385000,
+    "priceChange1y": 4.9,
+    "priceChange5y": 0,
+    "transactions12m": 1184,
+    "byType": {
+      "detached": {
+        "avg": 536425,
+        "count": 503
+      },
+      "semi": {
+        "avg": 369590,
+        "count": 294
+      },
+      "terraced": {
+        "avg": 311663,
+        "count": 234
+      },
+      "flat": {
+        "avg": 206076,
+        "count": 61
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 476681
+      },
+      {
+        "year": 2024,
+        "avg": 428779
+      },
+      {
+        "year": 2025,
+        "avg": 449892
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.6,
+      "burglary": 0,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.1,
+      "other": 0.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Broadmayne First School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cheselbourne Village School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cerne Abbas CofE VC First School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Maiden Newton, Greenford Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Sticklands Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 23666,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 208,
+    "avgUpload": 37,
+    "superfastPct": 86,
+    "ultrafastPct": 46,
+    "gigabitPct": 46,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Dorchester Council",
+    "bandD": 2115,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.7,
+    "imdRank": 13227,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DT2 is the postcode district for DORCHESTER, located in Dorset, South West.",
+    "priceVsCounty": "The average property price in DT2 is £451,765, which is 6% above the Dorset average of £425,376.",
+    "priceVsNational": "Properties in DT2 cost 57.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DT2 have risen 4.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, DT2 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DT2 has 16 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DT2 are 208.0 Mbps, with 99% of premises having access to superfast broadband and 72% with full fibre (FTTP) connectivity.",
+    "synthesis": "DT2 (DORCHESTER) offers above-average property prices (£451,765, 57% above national average), low crime (94% below national average), 16 nearby schools, and excellent broadband (208 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 208
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 208
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

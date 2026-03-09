@@ -1,0 +1,196 @@
+{
+  "code": "WF17",
+  "name": "BATLEY",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "wakefield",
+  "adjacent": [
+    "WF16"
+  ],
+  "property": {
+    "avgPrice": 216707,
+    "medianPrice": 170000,
+    "priceChange1y": -19.2,
+    "priceChange5y": 0,
+    "transactions12m": 1520,
+    "byType": {
+      "detached": {
+        "avg": 315576,
+        "count": 236
+      },
+      "semi": {
+        "avg": 208311,
+        "count": 530
+      },
+      "terraced": {
+        "avg": 135298,
+        "count": 606
+      },
+      "flat": {
+        "avg": 93465,
+        "count": 70
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 216394
+      },
+      {
+        "year": 2024,
+        "avg": 239074
+      },
+      {
+        "year": 2025,
+        "avg": 193291
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 90.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 10.9,
+    "byType": {
+      "violentCrime": 38.2,
+      "burglary": 3.3,
+      "vehicleCrime": 4.8,
+      "antisocialBehaviour": 10.2,
+      "otherTheft": 13.2,
+      "other": 20.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 27,
+    "outstanding": 0,
+    "good": 9,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Mill Lane Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Park Road Junior Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Warwick Road Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lydgate Junior and Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hanging Heaton Church of England Voluntary Controlled Junior and Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 845189,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 372,
+    "avgUpload": 67,
+    "superfastPct": 99,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Leeds",
+    "bandD": 1968,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.3,
+    "imdRank": 18909,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WF17 covers BATLEY in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in WF17 is £216,707, which is 22% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in WF17 cost 24.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WF17 have fallen 19.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 90.2 recorded crimes per 1,000 residents, WF17 has a crime rate 11% above the national average of 81.3 per 1,000.",
+    "schoolContext": "WF17 has 27 schools within or near its boundaries, including 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WF17 are 372.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WF17 (BATLEY) offers affordable property prices (£216,707, 24% below national average), 27 nearby schools, and excellent broadband (372 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 372
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 372
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

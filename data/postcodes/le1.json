@@ -1,0 +1,197 @@
+{
+  "code": "LE1",
+  "name": "LEICESTER",
+  "county": "leicestershire",
+  "region": "east-midlands",
+  "city": "leicester",
+  "adjacent": [
+    "LE2",
+    "LE3"
+  ],
+  "property": {
+    "avgPrice": 644297,
+    "medianPrice": 150000,
+    "priceChange1y": 31.2,
+    "priceChange5y": 0,
+    "transactions12m": 407,
+    "byType": {
+      "detached": {
+        "avg": 330000,
+        "count": 1
+      },
+      "semi": {
+        "avg": 254500,
+        "count": 5
+      },
+      "terraced": {
+        "avg": 339684,
+        "count": 22
+      },
+      "flat": {
+        "avg": 130975,
+        "count": 248
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 710081
+      },
+      {
+        "year": 2024,
+        "avg": 532023
+      },
+      {
+        "year": 2025,
+        "avg": 698261
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 154.7,
+      "burglary": 16.6,
+      "vehicleCrime": 27.2,
+      "antisocialBehaviour": 66.4,
+      "otherTheft": 110.6,
+      "other": 123.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Children's Hospital School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "WQE and Regent College Group",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "University of Leicester",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "De Montfort University",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beauchamp City Sixth Form",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 388348,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 22,
+    "socialRent": 23,
+    "privateRent": 27,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 302,
+    "avgUpload": 54,
+    "superfastPct": 95,
+    "ultrafastPct": 73,
+    "gigabitPct": 72,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Leicester Council",
+    "bandD": 2251,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 30.9,
+    "imdRank": 22857,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LE1 encompasses LEICESTER and its surrounding areas in Leicestershire, East Midlands.",
+    "priceVsCounty": "The average property price in LE1 is £644,297, which is 85% above the Leicestershire average of £348,118.",
+    "priceVsNational": "Properties in LE1 cost 124.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LE1 have risen 31.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, LE1 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "LE1 has 8 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LE1 are 302.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LE1 (LEICESTER) offers above-average property prices (£644,297, 124% above national average), higher-than-average crime (269% above national average), 8 nearby schools, and excellent broadband (302 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 348118,
+      "crime": 75,
+      "broadband": 302
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 302
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "SO22",
+  "name": "WINCHESTER",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "southampton",
+  "adjacent": [
+    "SO21",
+    "SO23",
+    "SO24"
+  ],
+  "property": {
+    "avgPrice": 666905,
+    "medianPrice": 549500,
+    "priceChange1y": -2.4,
+    "priceChange5y": 0,
+    "transactions12m": 1394,
+    "byType": {
+      "detached": {
+        "avg": 922588,
+        "count": 446
+      },
+      "semi": {
+        "avg": 579413,
+        "count": 321
+      },
+      "terraced": {
+        "avg": 550421,
+        "count": 336
+      },
+      "flat": {
+        "avg": 397292,
+        "count": 271
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 657469
+      },
+      {
+        "year": 2024,
+        "avg": 678412
+      },
+      {
+        "year": 2025,
+        "avg": 662233
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 59.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -26.9,
+    "byType": {
+      "violentCrime": 26,
+      "burglary": 1.2,
+      "vehicleCrime": 1,
+      "antisocialBehaviour": 4.6,
+      "otherTheft": 12.7,
+      "other": 13.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 2,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Stanmore Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oliver's Battery Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Harestock Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Weeke Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Western Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 135632,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 334,
+    "avgUpload": 60,
+    "superfastPct": 99,
+    "ultrafastPct": 81,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Winchester",
+    "bandD": 2047,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 9.6,
+    "imdRank": 7586,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SO22 is the postcode district for WINCHESTER, located in Hampshire, South East.",
+    "priceVsCounty": "The average property price in SO22 is £666,905, which is 55% above the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in SO22 cost 132.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SO22 have fallen 2.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 59.4 recorded crimes per 1,000 residents, SO22 has a crime rate well 27% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SO22 has 13 schools within or near its boundaries, including 2 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SO22 are 334.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SO22 (WINCHESTER) offers above-average property prices (£666,905, 132% above national average), low crime (27% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (334 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 334
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 334
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

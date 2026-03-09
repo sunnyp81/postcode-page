@@ -1,0 +1,198 @@
+{
+  "code": "S41",
+  "name": "CHESTERFIELD",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "sheffield",
+  "adjacent": [
+    "S40",
+    "S42",
+    "S43"
+  ],
+  "property": {
+    "avgPrice": 237904,
+    "medianPrice": 190000,
+    "priceChange1y": 1.8,
+    "priceChange5y": 0,
+    "transactions12m": 1810,
+    "byType": {
+      "detached": {
+        "avg": 340791,
+        "count": 470
+      },
+      "semi": {
+        "avg": 189663,
+        "count": 724
+      },
+      "terraced": {
+        "avg": 148289,
+        "count": 425
+      },
+      "flat": {
+        "avg": 132618,
+        "count": 108
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 228724
+      },
+      {
+        "year": 2024,
+        "avg": 241403
+      },
+      {
+        "year": 2025,
+        "avg": 245690
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 125.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 54,
+    "byType": {
+      "violentCrime": 44.9,
+      "burglary": 2.9,
+      "vehicleCrime": 4.2,
+      "antisocialBehaviour": 25.5,
+      "otherTheft": 21.4,
+      "other": 26.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Cavendish Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hasland Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hasland Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Highfield Hall Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Abercrombie Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 106646,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 19,
+    "privateRent": 8,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 327,
+    "avgUpload": 59,
+    "superfastPct": 98,
+    "ultrafastPct": 79,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North East Derbyshire",
+    "bandD": 2144,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.4,
+    "imdRank": 14111,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "S41 is the postcode district for CHESTERFIELD, located in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in S41 is £237,904, broadly in line with the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in S41 cost 17.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in S41 have risen 1.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 125.2 recorded crimes per 1,000 residents, S41 has a crime rate significantly 54% above the national average of 81.3 per 1,000.",
+    "schoolContext": "S41 has 20 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in S41 are 327.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "S41 (CHESTERFIELD) offers affordable property prices (£237,904, 17% below national average), higher-than-average crime (54% above national average), 20 nearby schools, and excellent broadband (327 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 327
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 327
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

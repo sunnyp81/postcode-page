@@ -1,0 +1,198 @@
+{
+  "code": "NE9",
+  "name": "GATESHEAD",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "newcastle-upon-tyne",
+  "adjacent": [
+    "NE8",
+    "NE10",
+    "NE11"
+  ],
+  "property": {
+    "avgPrice": 200790,
+    "medianPrice": 170000,
+    "priceChange1y": 7.8,
+    "priceChange5y": 0,
+    "transactions12m": 1492,
+    "byType": {
+      "detached": {
+        "avg": 347420,
+        "count": 156
+      },
+      "semi": {
+        "avg": 217472,
+        "count": 544
+      },
+      "terraced": {
+        "avg": 173940,
+        "count": 467
+      },
+      "flat": {
+        "avg": 111629,
+        "count": 269
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 201821
+      },
+      {
+        "year": 2024,
+        "avg": 193805
+      },
+      {
+        "year": 2025,
+        "avg": 208830
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 92.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 13.7,
+    "byType": {
+      "violentCrime": 31.1,
+      "burglary": 3.3,
+      "vehicleCrime": 2.7,
+      "antisocialBehaviour": 15.1,
+      "otherTheft": 18.9,
+      "other": 21.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 1,
+    "good": 8,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Carr Hill Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Larkspur Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Glynwood Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fell Dyke Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Harlow Green Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 202760,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 25,
+    "privateRent": 15,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 356,
+    "avgUpload": 64,
+    "superfastPct": 98,
+    "ultrafastPct": 89,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Gateshead",
+    "bandD": 2332,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 28.2,
+    "imdRank": 20831,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NE9 covers GATESHEAD in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in NE9 is £200,790, which is 24% below the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in NE9 cost 30.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NE9 have risen 7.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 92.4 recorded crimes per 1,000 residents, NE9 has a crime rate 14% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NE9 has 17 schools within or near its boundaries, including 1 rated Outstanding and 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NE9 are 356.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NE9 (GATESHEAD) offers affordable property prices (£200,790, 30% below national average), 17 nearby schools, and excellent broadband (356 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 356
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 356
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "NR13",
+  "name": "NORWICH",
+  "county": "norfolk",
+  "region": "east-of-england",
+  "city": "norwich",
+  "adjacent": [
+    "NR12",
+    "NR14",
+    "NR15"
+  ],
+  "property": {
+    "avgPrice": 360144,
+    "medianPrice": 317354,
+    "priceChange1y": -4.5,
+    "priceChange5y": 0,
+    "transactions12m": 2039,
+    "byType": {
+      "detached": {
+        "avg": 416159,
+        "count": 1017
+      },
+      "semi": {
+        "avg": 282342,
+        "count": 663
+      },
+      "terraced": {
+        "avg": 252690,
+        "count": 217
+      },
+      "flat": {
+        "avg": 172467,
+        "count": 36
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 368236
+      },
+      {
+        "year": 2024,
+        "avg": 362903
+      },
+      {
+        "year": 2025,
+        "avg": 346693
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.2,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.4,
+      "otherTheft": 0.2,
+      "other": 0.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 1,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Blofield Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Freethorpe Community Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rackheath Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Brundall Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Salhouse CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 100529,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 24,
+    "socialRent": 16,
+    "privateRent": 19,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 159,
+    "avgUpload": 29,
+    "superfastPct": 90,
+    "ultrafastPct": 32,
+    "gigabitPct": 31,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Great Yarmouth",
+    "bandD": 2100,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 33.1,
+    "imdRank": 22767,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NR13 encompasses NORWICH and its surrounding areas in Norfolk, East Of England.",
+    "priceVsCounty": "The average property price in NR13 is £360,144, broadly in line with the Norfolk average of £352,657.",
+    "priceVsNational": "Properties in NR13 cost 25.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NR13 have fallen 4.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, NR13 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NR13 has 12 schools within or near its boundaries, including 1 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NR13 are 159.0 Mbps, with 94% of premises having access to superfast broadband and 59% with full fibre (FTTP) connectivity.",
+    "synthesis": "NR13 (NORWICH) offers above-average property prices (£360,144, 25% above national average), low crime (94% below national average), 12 nearby schools, and excellent broadband (159 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 352657,
+      "crime": 75,
+      "broadband": 159
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 159
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "LA14",
+  "name": "BARROW-IN-FURNESS",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "lancaster",
+  "adjacent": [
+    "LA13",
+    "LA15",
+    "LA16"
+  ],
+  "property": {
+    "avgPrice": 147574,
+    "medianPrice": 120000,
+    "priceChange1y": 2.7,
+    "priceChange5y": 0,
+    "transactions12m": 2199,
+    "byType": {
+      "detached": {
+        "avg": 362600,
+        "count": 146
+      },
+      "semi": {
+        "avg": 204822,
+        "count": 455
+      },
+      "terraced": {
+        "avg": 104946,
+        "count": 1448
+      },
+      "flat": {
+        "avg": 77536,
+        "count": 52
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 141221
+      },
+      {
+        "year": 2024,
+        "avg": 149426
+      },
+      {
+        "year": 2025,
+        "avg": 153452
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 109.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 34.7,
+    "byType": {
+      "violentCrime": 48.7,
+      "burglary": 2.8,
+      "vehicleCrime": 1.1,
+      "antisocialBehaviour": 8.8,
+      "otherTheft": 16.8,
+      "other": 31.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hindpool Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brisbane Park Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Greengate Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ramsden Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Victoria Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 240,
+    "avgUpload": 43,
+    "superfastPct": 98,
+    "ultrafastPct": 54,
+    "gigabitPct": 54,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lancaster Council",
+    "bandD": 2304,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LA14 encompasses BARROW-IN-FURNESS and its surrounding areas in Lancashire, North West.",
+    "priceVsCounty": "The average property price in LA14 is £147,574, which is 42% below the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in LA14 cost 48.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LA14 have risen 2.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 109.5 recorded crimes per 1,000 residents, LA14 has a crime rate significantly 35% above the national average of 81.3 per 1,000.",
+    "schoolContext": "LA14 has 21 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LA14 are 240.0 Mbps, with 99% of premises having access to superfast broadband and 81% with full fibre (FTTP) connectivity.",
+    "synthesis": "LA14 (BARROW-IN-FURNESS) offers affordable property prices (£147,574, 49% below national average), higher-than-average crime (35% above national average), 21 nearby schools, and excellent broadband (240 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 240
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 240
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

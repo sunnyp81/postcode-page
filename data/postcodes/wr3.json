@@ -1,0 +1,198 @@
+{
+  "code": "WR3",
+  "name": "WORCESTER",
+  "county": "worcestershire",
+  "region": "west-midlands",
+  "city": "worcester",
+  "adjacent": [
+    "WR2",
+    "WR4",
+    "WR5"
+  ],
+  "property": {
+    "avgPrice": 327302,
+    "medianPrice": 280000,
+    "priceChange1y": -5.5,
+    "priceChange5y": 0,
+    "transactions12m": 963,
+    "byType": {
+      "detached": {
+        "avg": 473503,
+        "count": 263
+      },
+      "semi": {
+        "avg": 293401,
+        "count": 330
+      },
+      "terraced": {
+        "avg": 249220,
+        "count": 222
+      },
+      "flat": {
+        "avg": 157335,
+        "count": 117
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 330189
+      },
+      {
+        "year": 2024,
+        "avg": 334879
+      },
+      {
+        "year": 2025,
+        "avg": 316405
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 39.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -50.9,
+    "byType": {
+      "violentCrime": 13.5,
+      "burglary": 1.7,
+      "vehicleCrime": 2.3,
+      "antisocialBehaviour": 7.2,
+      "otherTheft": 7.6,
+      "other": 7.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 2,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Claines CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hindlip CofE First School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "St Barnabas CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The River School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tudor Grange Academy Worcester",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 138017,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 16,
+    "privateRent": 11,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 323,
+    "avgUpload": 58,
+    "superfastPct": 97,
+    "ultrafastPct": 78,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wychavon",
+    "bandD": 2002,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.8,
+    "imdRank": 13500,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WR3 is the postcode district for WORCESTER, located in Worcestershire, West Midlands.",
+    "priceVsCounty": "The average property price in WR3 is £327,302, which is 22% below the Worcestershire average of £417,033.",
+    "priceVsNational": "Properties in WR3 cost 14.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WR3 have fallen 5.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 39.9 recorded crimes per 1,000 residents, WR3 has a crime rate well 51% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WR3 has 9 schools within or near its boundaries, including 2 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WR3 are 323.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WR3 (WORCESTER) offers property prices near the national average (£327,302), low crime (51% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (323 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 417033,
+      "crime": 75,
+      "broadband": 323
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 323
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

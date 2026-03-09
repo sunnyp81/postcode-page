@@ -1,0 +1,197 @@
+{
+  "code": "WV1",
+  "name": "WOLVERHAMPTON",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "wolverhampton",
+  "adjacent": [
+    "WV2",
+    "WV3"
+  ],
+  "property": {
+    "avgPrice": 267781,
+    "medianPrice": 165000,
+    "priceChange1y": -41,
+    "priceChange5y": 0,
+    "transactions12m": 416,
+    "byType": {
+      "detached": {
+        "avg": 302630,
+        "count": 23
+      },
+      "semi": {
+        "avg": 189674,
+        "count": 123
+      },
+      "terraced": {
+        "avg": 160954,
+        "count": 109
+      },
+      "flat": {
+        "avg": 95351,
+        "count": 99
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 188908
+      },
+      {
+        "year": 2024,
+        "avg": 387598
+      },
+      {
+        "year": 2025,
+        "avg": 228547
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 181.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 122.9,
+    "byType": {
+      "violentCrime": 74.4,
+      "burglary": 5.2,
+      "vehicleCrime": 11.5,
+      "antisocialBehaviour": 14,
+      "otherTheft": 38.9,
+      "other": 37.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Eastfield Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eastfield Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Matthias School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "West Park Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "University of Wolverhampton",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 281251,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 25,
+    "privateRent": 17,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 325,
+    "avgUpload": 59,
+    "superfastPct": 84,
+    "ultrafastPct": 81,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wolverhampton",
+    "bandD": 2185,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 32.1,
+    "imdRank": 23274,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WV1 covers WOLVERHAMPTON in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in WV1 is £267,781, which is 20% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in WV1 cost 6.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WV1 have fallen 41.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 181.2 recorded crimes per 1,000 residents, WV1 has a crime rate significantly 123% above the national average of 81.3 per 1,000.",
+    "schoolContext": "WV1 has 9 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WV1 are 325.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WV1 (WOLVERHAMPTON) offers property prices near the national average (£267,781), higher-than-average crime (123% above national average), 9 nearby schools, and excellent broadband (325 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 325
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 325
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "NG31",
+  "name": "GRANTHAM",
+  "county": "nottinghamshire",
+  "region": "east-midlands",
+  "city": "nottingham",
+  "adjacent": [
+    "NG32",
+    "NG33"
+  ],
+  "property": {
+    "avgPrice": 234941,
+    "medianPrice": 199950,
+    "priceChange1y": -1.9,
+    "priceChange5y": 0,
+    "transactions12m": 2295,
+    "byType": {
+      "detached": {
+        "avg": 319979,
+        "count": 689
+      },
+      "semi": {
+        "avg": 212303,
+        "count": 655
+      },
+      "terraced": {
+        "avg": 158467,
+        "count": 694
+      },
+      "flat": {
+        "avg": 109639,
+        "count": 164
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 243379
+      },
+      {
+        "year": 2024,
+        "avg": 232934
+      },
+      {
+        "year": 2025,
+        "avg": 228528
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 93.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 14.5,
+    "byType": {
+      "violentCrime": 29.7,
+      "burglary": 1.8,
+      "vehicleCrime": 2.1,
+      "antisocialBehaviour": 23,
+      "otherTheft": 18.8,
+      "other": 17.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 26,
+    "outstanding": 1,
+    "good": 10,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Wyndham Park Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Belton Lane Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cliffedale Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Belmont Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Anne's Church of England Primary School, Grantham",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 147151,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 347,
+    "avgUpload": 62,
+    "superfastPct": 97,
+    "ultrafastPct": 88,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Kesteven",
+    "bandD": 2015,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.5,
+    "imdRank": 11133,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NG31 covers GRANTHAM in Nottinghamshire, East Midlands.",
+    "priceVsCounty": "The average property price in NG31 is £234,941, which is 65% below the Nottinghamshire average of £678,596.",
+    "priceVsNational": "Properties in NG31 cost 18.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NG31 have fallen 1.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 93.1 recorded crimes per 1,000 residents, NG31 has a crime rate 15% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NG31 has 26 schools within or near its boundaries, including 1 rated Outstanding and 10 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NG31 are 347.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NG31 (GRANTHAM) offers affordable property prices (£234,941, 18% below national average), 26 nearby schools, and excellent broadband (347 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 678596,
+      "crime": 75,
+      "broadband": 347
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 347
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

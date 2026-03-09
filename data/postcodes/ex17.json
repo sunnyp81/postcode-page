@@ -1,0 +1,198 @@
+{
+  "code": "EX17",
+  "name": "CREDITON",
+  "county": "devon",
+  "region": "south-west",
+  "city": "exeter",
+  "adjacent": [
+    "EX16",
+    "EX18",
+    "EX19"
+  ],
+  "property": {
+    "avgPrice": 368360,
+    "medianPrice": 300000,
+    "priceChange1y": -1,
+    "priceChange5y": 0,
+    "transactions12m": 840,
+    "byType": {
+      "detached": {
+        "avg": 479588,
+        "count": 297
+      },
+      "semi": {
+        "avg": 293531,
+        "count": 164
+      },
+      "terraced": {
+        "avg": 243766,
+        "count": 242
+      },
+      "flat": {
+        "avg": 137335,
+        "count": 61
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 395128
+      },
+      {
+        "year": 2024,
+        "avg": 355505
+      },
+      {
+        "year": 2025,
+        "avg": 352086
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.2,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bow Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cheriton Fitzpaine Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Copplestone Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hayward's Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sandford School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 101222,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 11,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 181,
+    "avgUpload": 33,
+    "superfastPct": 72,
+    "ultrafastPct": 40,
+    "gigabitPct": 40,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Devon",
+    "bandD": 2279,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.6,
+    "imdRank": 17090,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EX17 covers CREDITON in Devon, South West.",
+    "priceVsCounty": "The average property price in EX17 is £368,360, broadly in line with the Devon average of £385,452.",
+    "priceVsNational": "Properties in EX17 cost 28.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EX17 have fallen 1.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, EX17 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "EX17 has 12 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EX17 are 181.0 Mbps, with 97% of premises having access to superfast broadband and 65% with full fibre (FTTP) connectivity.",
+    "synthesis": "EX17 (CREDITON) offers above-average property prices (£368,360, 28% above national average), low crime (94% below national average), 12 nearby schools, and excellent broadband (181 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 181
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 181
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

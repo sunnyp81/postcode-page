@@ -1,0 +1,198 @@
+{
+  "code": "TR18",
+  "name": "PENZANCE",
+  "county": "cornwall",
+  "region": "south-west",
+  "city": "truro",
+  "adjacent": [
+    "TR17",
+    "TR19",
+    "TR20"
+  ],
+  "property": {
+    "avgPrice": 307565,
+    "medianPrice": 260000,
+    "priceChange1y": 4.7,
+    "priceChange5y": 0,
+    "transactions12m": 946,
+    "byType": {
+      "detached": {
+        "avg": 490549,
+        "count": 133
+      },
+      "semi": {
+        "avg": 317480,
+        "count": 126
+      },
+      "terraced": {
+        "avg": 279201,
+        "count": 436
+      },
+      "flat": {
+        "avg": 190935,
+        "count": 178
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 308648
+      },
+      {
+        "year": 2024,
+        "avg": 300843
+      },
+      {
+        "year": 2025,
+        "avg": 315076
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 54.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -32.5,
+    "byType": {
+      "violentCrime": 21.3,
+      "burglary": 1.1,
+      "vehicleCrime": 1,
+      "antisocialBehaviour": 12.1,
+      "otherTheft": 7.5,
+      "other": 12
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Heamoor Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's CofE Primary School, Penzance",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Humphry Davy School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Mounts Bay Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Penwith Alternative Provision Academy",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 583289,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 294,
+    "avgUpload": 53,
+    "superfastPct": 86,
+    "ultrafastPct": 71,
+    "gigabitPct": 71,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Truro Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.1,
+    "imdRank": 19382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TR18 is the postcode district for PENZANCE, located in Cornwall, South West.",
+    "priceVsCounty": "The average property price in TR18 is £307,565, which is 24% below the Cornwall average of £402,222.",
+    "priceVsNational": "Properties in TR18 cost 7.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TR18 have risen 4.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 54.9 recorded crimes per 1,000 residents, TR18 has a crime rate well 32% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TR18 has 9 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TR18 are 294.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TR18 (PENZANCE) offers property prices near the national average (£307,565), low crime (32% below national average), 9 nearby schools, and excellent broadband (294 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 402222,
+      "crime": 75,
+      "broadband": 294
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 294
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "DE74",
+  "name": "DERBY",
+  "county": "derbyshire",
+  "region": "east-midlands",
+  "city": "derby",
+  "adjacent": [
+    "DE73",
+    "DE75"
+  ],
+  "property": {
+    "avgPrice": 319915,
+    "medianPrice": 285000,
+    "priceChange1y": -8.6,
+    "priceChange5y": 0,
+    "transactions12m": 840,
+    "byType": {
+      "detached": {
+        "avg": 377089,
+        "count": 395
+      },
+      "semi": {
+        "avg": 247800,
+        "count": 252
+      },
+      "terraced": {
+        "avg": 214214,
+        "count": 128
+      },
+      "flat": {
+        "avg": 141185,
+        "count": 21
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 345313
+      },
+      {
+        "year": 2024,
+        "avg": 318237
+      },
+      {
+        "year": 2025,
+        "avg": 290942
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 11.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -85.6,
+    "byType": {
+      "violentCrime": 3.8,
+      "burglary": 0.3,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 1.6,
+      "otherTheft": 2.7,
+      "other": 2.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Kegworth Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hemington Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Edward's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Diseworth Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Castle Donington College",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 126736,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 9,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 254,
+    "avgUpload": 46,
+    "superfastPct": 90,
+    "ultrafastPct": 59,
+    "gigabitPct": 59,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Rushcliffe",
+    "bandD": 2311,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 7.2,
+    "imdRank": 5089,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DE74 is the postcode district for DERBY, located in Derbyshire, East Midlands.",
+    "priceVsCounty": "The average property price in DE74 is £319,915, which is 10% above the Derbyshire average of £289,862.",
+    "priceVsNational": "Properties in DE74 cost 11.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DE74 have fallen 8.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 11.7 recorded crimes per 1,000 residents, DE74 has a crime rate well 86% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DE74 has 7 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DE74 are 254.0 Mbps, with 99% of premises having access to superfast broadband and 85% with full fibre (FTTP) connectivity.",
+    "synthesis": "DE74 (DERBY) offers property prices near the national average (£319,915), low crime (86% below national average), 7 nearby schools, and excellent broadband (254 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 289862,
+      "crime": 75,
+      "broadband": 254
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 254
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

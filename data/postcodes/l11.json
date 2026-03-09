@@ -1,0 +1,198 @@
+{
+  "code": "L11",
+  "name": "LIVERPOOL",
+  "county": "merseyside",
+  "region": "north-west",
+  "city": "liverpool",
+  "adjacent": [
+    "L10",
+    "L12",
+    "L13"
+  ],
+  "property": {
+    "avgPrice": 151982,
+    "medianPrice": 135000,
+    "priceChange1y": 12.8,
+    "priceChange5y": 0,
+    "transactions12m": 617,
+    "byType": {
+      "detached": {
+        "avg": 237399,
+        "count": 42
+      },
+      "semi": {
+        "avg": 152984,
+        "count": 223
+      },
+      "terraced": {
+        "avg": 126090,
+        "count": 298
+      },
+      "flat": {
+        "avg": 82395,
+        "count": 28
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 136037
+      },
+      {
+        "year": 2024,
+        "avg": 151813
+      },
+      {
+        "year": 2025,
+        "avg": 171224
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 93.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 15,
+    "byType": {
+      "violentCrime": 42,
+      "burglary": 2,
+      "vehicleCrime": 3.2,
+      "antisocialBehaviour": 8.1,
+      "otherTheft": 10,
+      "other": 28.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Ellergreen Nursery School and Childcare Centre",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ranworth Square Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Our Lady and St Swithin's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John Bosco Arts College",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wellesbourne Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 508961,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 23,
+    "socialRent": 26,
+    "privateRent": 24,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 386,
+    "avgUpload": 69,
+    "superfastPct": 100,
+    "ultrafastPct": 96,
+    "gigabitPct": 96,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Liverpool",
+    "bandD": 2308,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 42.4,
+    "imdRank": 25833,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "L11 covers LIVERPOOL in Merseyside, North West.",
+    "priceVsCounty": "The average property price in L11 is £151,982, which is 40% below the Merseyside average of £252,845.",
+    "priceVsNational": "Properties in L11 cost 47.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in L11 have risen 12.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 93.5 recorded crimes per 1,000 residents, L11 has a crime rate 15% above the national average of 81.3 per 1,000.",
+    "schoolContext": "L11 has 11 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in L11 are 386.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "L11 (LIVERPOOL) offers affordable property prices (£151,982, 47% below national average), higher-than-average crime (15% above national average), 11 nearby schools, and excellent broadband (386 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 252845,
+      "crime": 75,
+      "broadband": 386
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 386
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

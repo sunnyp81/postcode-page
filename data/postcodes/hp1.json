@@ -1,0 +1,197 @@
+{
+  "code": "HP1",
+  "name": "HEMEL HEMPSTEAD",
+  "county": "hertfordshire",
+  "region": "south-east",
+  "city": "hemel-hempstead",
+  "adjacent": [
+    "HP2",
+    "HP3"
+  ],
+  "property": {
+    "avgPrice": 478601,
+    "medianPrice": 415000,
+    "priceChange1y": -1.5,
+    "priceChange5y": 0,
+    "transactions12m": 1029,
+    "byType": {
+      "detached": {
+        "avg": 735634,
+        "count": 152
+      },
+      "semi": {
+        "avg": 531389,
+        "count": 188
+      },
+      "terraced": {
+        "avg": 411780,
+        "count": 433
+      },
+      "flat": {
+        "avg": 249147,
+        "count": 223
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 525815
+      },
+      {
+        "year": 2024,
+        "avg": 457593
+      },
+      {
+        "year": 2025,
+        "avg": 450844
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 109.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 34.7,
+    "byType": {
+      "violentCrime": 36.4,
+      "burglary": 3.8,
+      "vehicleCrime": 4.9,
+      "antisocialBehaviour": 26.7,
+      "otherTheft": 19,
+      "other": 18.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Heath Lane Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Boxmoor Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "South Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Micklem Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gade Valley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 161420,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 21,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 362,
+    "avgUpload": 65,
+    "superfastPct": 96,
+    "ultrafastPct": 91,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Dacorum",
+    "bandD": 2087,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13,
+    "imdRank": 10835,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HP1 covers HEMEL HEMPSTEAD in Hertfordshire, South East.",
+    "priceVsCounty": "The average property price in HP1 is £478,601, which is 16% below the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in HP1 cost 66.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HP1 have fallen 1.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 109.5 recorded crimes per 1,000 residents, HP1 has a crime rate significantly 35% above the national average of 81.3 per 1,000.",
+    "schoolContext": "HP1 has 17 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HP1 are 362.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HP1 (HEMEL HEMPSTEAD) offers above-average property prices (£478,601, 67% above national average), higher-than-average crime (35% above national average), 17 nearby schools, and excellent broadband (362 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 362
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 362
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

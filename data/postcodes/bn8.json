@@ -1,0 +1,198 @@
+{
+  "code": "BN8",
+  "name": "LEWES",
+  "county": "east-sussex",
+  "region": "south-east",
+  "city": "brighton",
+  "adjacent": [
+    "BN7",
+    "BN9",
+    "BN10"
+  ],
+  "property": {
+    "avgPrice": 612813,
+    "medianPrice": 487000,
+    "priceChange1y": -5.6,
+    "priceChange5y": 0,
+    "transactions12m": 636,
+    "byType": {
+      "detached": {
+        "avg": 776412,
+        "count": 251
+      },
+      "semi": {
+        "avg": 475685,
+        "count": 180
+      },
+      "terraced": {
+        "avg": 388648,
+        "count": 99
+      },
+      "flat": {
+        "avg": 292198,
+        "count": 56
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 621229
+      },
+      {
+        "year": 2024,
+        "avg": 623047
+      },
+      {
+        "year": 2025,
+        "avg": 588433
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.2,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Chiddingly Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hamsey Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Laughton Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Barcombe Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chailey St Peter's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 166908,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 8,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 180,
+    "avgUpload": 32,
+    "superfastPct": 86,
+    "ultrafastPct": 38,
+    "gigabitPct": 38,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wealden",
+    "bandD": 2363,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.3,
+    "imdRank": 10272,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BN8 encompasses LEWES and its surrounding areas in East Sussex, South East.",
+    "priceVsCounty": "The average property price in BN8 is £612,813, which is 34% above the East Sussex average of £455,819.",
+    "priceVsNational": "Properties in BN8 cost 113.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BN8 have fallen 5.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, BN8 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BN8 has 12 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BN8 are 180.0 Mbps, with 97% of premises having access to superfast broadband and 65% with full fibre (FTTP) connectivity.",
+    "synthesis": "BN8 (LEWES) offers above-average property prices (£612,813, 114% above national average), low crime (94% below national average), 12 nearby schools, and excellent broadband (180 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 455819,
+      "crime": 75,
+      "broadband": 180
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 180
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

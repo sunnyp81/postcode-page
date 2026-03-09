@@ -1,0 +1,178 @@
+{
+  "code": "NE41",
+  "name": "WYLAM",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "newcastle-upon-tyne",
+  "adjacent": [
+    "NE40",
+    "NE42",
+    "NE43"
+  ],
+  "property": {
+    "avgPrice": 372733,
+    "medianPrice": 315000,
+    "priceChange1y": 11.9,
+    "priceChange5y": 0,
+    "transactions12m": 90,
+    "byType": {
+      "detached": {
+        "avg": 486500,
+        "count": 18
+      },
+      "semi": {
+        "avg": 469335,
+        "count": 17
+      },
+      "terraced": {
+        "avg": 315335,
+        "count": 41
+      },
+      "flat": {
+        "avg": 228773,
+        "count": 11
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 374455
+      },
+      {
+        "year": 2024,
+        "avg": 353367
+      },
+      {
+        "year": 2025,
+        "avg": 395248
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.7,
+      "burglary": 0.2,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 1.6,
+      "otherTheft": 0.8,
+      "other": 0.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Wylam First School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 331420,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 18,
+    "privateRent": 14,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 282,
+    "avgUpload": 51,
+    "superfastPct": 82,
+    "ultrafastPct": 68,
+    "gigabitPct": 68,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newcastle Upon Tyne Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.1,
+    "imdRank": 16778,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NE41 encompasses WYLAM and its surrounding areas in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in NE41 is £372,733, which is 41% above the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in NE41 cost 29.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NE41 have risen 11.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, NE41 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NE41 has 1 school within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NE41 are 282.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NE41 (WYLAM) offers above-average property prices (£372,733, 30% above national average), low crime (94% below national average), 1 nearby school, and excellent broadband (282 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 282
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 282
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

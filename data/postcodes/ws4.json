@@ -1,0 +1,198 @@
+{
+  "code": "WS4",
+  "name": "WALSALL",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "walsall",
+  "adjacent": [
+    "WS3",
+    "WS5",
+    "WS6"
+  ],
+  "property": {
+    "avgPrice": 233949,
+    "medianPrice": 210000,
+    "priceChange1y": 4,
+    "priceChange5y": 0,
+    "transactions12m": 621,
+    "byType": {
+      "detached": {
+        "avg": 371917,
+        "count": 116
+      },
+      "semi": {
+        "avg": 224566,
+        "count": 255
+      },
+      "terraced": {
+        "avg": 192669,
+        "count": 158
+      },
+      "flat": {
+        "avg": 106103,
+        "count": 73
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 239902
+      },
+      {
+        "year": 2024,
+        "avg": 226841
+      },
+      {
+        "year": 2025,
+        "avg": 235928
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 41.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -49.2,
+    "byType": {
+      "violentCrime": 18.1,
+      "burglary": 1.8,
+      "vehicleCrime": 4.2,
+      "antisocialBehaviour": 3.8,
+      "otherTheft": 4,
+      "other": 9.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Butts Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Radleys Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Francis Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ormiston Shelfield Community Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Queen Mary's High School",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 295678,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 24,
+    "privateRent": 15,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 366,
+    "avgUpload": 66,
+    "superfastPct": 99,
+    "ultrafastPct": 91,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Walsall",
+    "bandD": 2261,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 31.6,
+    "imdRank": 22152,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WS4 covers WALSALL in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in WS4 is £233,949, which is 30% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in WS4 cost 18.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WS4 have risen 4.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 41.3 recorded crimes per 1,000 residents, WS4 has a crime rate well 49% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WS4 has 8 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WS4 are 366.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WS4 (WALSALL) offers affordable property prices (£233,949, 18% below national average), low crime (49% below national average), 8 nearby schools, and excellent broadband (366 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 366
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 366
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

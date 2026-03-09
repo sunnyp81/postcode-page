@@ -1,0 +1,197 @@
+{
+  "code": "CF37",
+  "name": "PONTYPRIDD",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF36",
+    "CF38",
+    "CF39"
+  ],
+  "property": {
+    "avgPrice": 165605,
+    "medianPrice": 140000,
+    "priceChange1y": 4.1,
+    "priceChange5y": 0,
+    "transactions12m": 1665,
+    "byType": {
+      "detached": {
+        "avg": 300151,
+        "count": 108
+      },
+      "semi": {
+        "avg": 184823,
+        "count": 361
+      },
+      "terraced": {
+        "avg": 137480,
+        "count": 1068
+      },
+      "flat": {
+        "avg": 95221,
+        "count": 62
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 168219
+      },
+      {
+        "year": 2024,
+        "avg": 161125
+      },
+      {
+        "year": 2025,
+        "avg": 167768
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 52.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -35.7,
+    "byType": {
+      "violentCrime": 19.8,
+      "burglary": 1.4,
+      "vehicleCrime": 1.8,
+      "antisocialBehaviour": 6.2,
+      "otherTheft": 9.6,
+      "other": 13.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Coedpenmaen County Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Coedylan Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hafod Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Maes-Y-Coed Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Parclewis Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 227,
+    "avgUpload": 41,
+    "superfastPct": 93,
+    "ultrafastPct": 58,
+    "gigabitPct": 48,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF37 covers PONTYPRIDD in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF37 is £165,605, which is 40% below the Cardiff average of £275,506.",
+    "priceVsNational": "Properties in CF37 cost 42.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CF37 have risen 4.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 52.3 recorded crimes per 1,000 residents, CF37 has a crime rate well 36% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CF37 has 16 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF37 are 227.0 Mbps, with 99% of premises having access to superfast broadband and 77% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF37 (PONTYPRIDD) offers affordable property prices (£165,605, 42% below national average), low crime (36% below national average), 16 nearby schools, and excellent broadband (227 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 227
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 227
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

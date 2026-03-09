@@ -1,0 +1,198 @@
+{
+  "code": "ME14",
+  "name": "MAIDSTONE",
+  "county": "kent",
+  "region": "south-east",
+  "city": "medway",
+  "adjacent": [
+    "ME13",
+    "ME15",
+    "ME16"
+  ],
+  "property": {
+    "avgPrice": 378493,
+    "medianPrice": 290000,
+    "priceChange1y": -4.8,
+    "priceChange5y": 0,
+    "transactions12m": 1841,
+    "byType": {
+      "detached": {
+        "avg": 633083,
+        "count": 307
+      },
+      "semi": {
+        "avg": 420881,
+        "count": 381
+      },
+      "terraced": {
+        "avg": 293106,
+        "count": 406
+      },
+      "flat": {
+        "avg": 215263,
+        "count": 665
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 333841
+      },
+      {
+        "year": 2024,
+        "avg": 413803
+      },
+      {
+        "year": 2025,
+        "avg": 394015
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 83.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 2.5,
+    "byType": {
+      "violentCrime": 30.1,
+      "burglary": 1.3,
+      "vehicleCrime": 2.4,
+      "antisocialBehaviour": 14,
+      "otherTheft": 18.2,
+      "other": 17.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 4,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "North Borough Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Paul's Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sandling Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Thurnham Church of England Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Roseacre Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 187767,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 289,
+    "avgUpload": 52,
+    "superfastPct": 90,
+    "ultrafastPct": 75,
+    "gigabitPct": 67,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Maidstone",
+    "bandD": 2190,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.5,
+    "imdRank": 13639,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ME14 is the postcode district for MAIDSTONE, located in Kent, South East.",
+    "priceVsCounty": "The average property price in ME14 is £378,493, which is 16% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in ME14 cost 31.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ME14 have fallen 4.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "ME14 has a crime rate of 83.3 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "ME14 has 14 schools within or near its boundaries, including 4 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ME14 are 289.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "ME14 (MAIDSTONE) offers above-average property prices (£378,493, 32% above national average), strong school provision (4 Outstanding-rated schools), and excellent broadband (289 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 289
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 289
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "NG24",
+  "name": "NEWARK",
+  "county": "nottinghamshire",
+  "region": "east-midlands",
+  "city": "nottingham",
+  "adjacent": [
+    "NG23",
+    "NG25"
+  ],
+  "property": {
+    "avgPrice": 253025,
+    "medianPrice": 215000,
+    "priceChange1y": -4.7,
+    "priceChange5y": 0,
+    "transactions12m": 2828,
+    "byType": {
+      "detached": {
+        "avg": 332684,
+        "count": 923
+      },
+      "semi": {
+        "avg": 209776,
+        "count": 835
+      },
+      "terraced": {
+        "avg": 167843,
+        "count": 678
+      },
+      "flat": {
+        "avg": 128579,
+        "count": 241
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 260648
+      },
+      {
+        "year": 2024,
+        "avg": 254778
+      },
+      {
+        "year": 2025,
+        "avg": 242780
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 112.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 38,
+    "byType": {
+      "violentCrime": 29,
+      "burglary": 3.5,
+      "vehicleCrime": 3.3,
+      "antisocialBehaviour": 23.7,
+      "otherTheft": 29.4,
+      "other": 23.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Chuter Ede Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Christ Church C of E Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Highfields School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hope House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Barnby Road Academy Primary and Nursery school",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 127886,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 14,
+    "privateRent": 14,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 354,
+    "avgUpload": 64,
+    "superfastPct": 97,
+    "ultrafastPct": 87,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Nottingham Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.2,
+    "imdRank": 15577,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NG24 encompasses NEWARK and its surrounding areas in Nottinghamshire, East Midlands.",
+    "priceVsCounty": "The average property price in NG24 is £253,025, which is 63% below the Nottinghamshire average of £678,596.",
+    "priceVsNational": "Properties in NG24 cost 11.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NG24 have fallen 4.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 112.2 recorded crimes per 1,000 residents, NG24 has a crime rate significantly 38% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NG24 has 19 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NG24 are 354.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NG24 (NEWARK) offers property prices near the national average (£253,025), higher-than-average crime (38% above national average), 19 nearby schools, and excellent broadband (354 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 678596,
+      "crime": 75,
+      "broadband": 354
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 354
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

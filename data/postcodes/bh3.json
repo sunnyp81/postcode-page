@@ -1,0 +1,177 @@
+{
+  "code": "BH3",
+  "name": "BOURNEMOUTH",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "bournemouth",
+  "adjacent": [
+    "BH2",
+    "BH4",
+    "BH5"
+  ],
+  "property": {
+    "avgPrice": 603979,
+    "medianPrice": 538750,
+    "priceChange1y": 13.1,
+    "priceChange5y": 0,
+    "transactions12m": 240,
+    "byType": {
+      "detached": {
+        "avg": 878028,
+        "count": 125
+      },
+      "semi": {
+        "avg": 403333,
+        "count": 3
+      },
+      "terraced": {
+        "avg": 506550,
+        "count": 5
+      },
+      "flat": {
+        "avg": 248278,
+        "count": 89
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 697913
+      },
+      {
+        "year": 2024,
+        "avg": 524012
+      },
+      {
+        "year": 2025,
+        "avg": 592515
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 84.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 4.3,
+    "byType": {
+      "violentCrime": 23.3,
+      "burglary": 2.9,
+      "vehicleCrime": 7.8,
+      "antisocialBehaviour": 17.6,
+      "otherTheft": 20.1,
+      "other": 13
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Martin's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 386,
+    "avgUpload": 69,
+    "superfastPct": 100,
+    "ultrafastPct": 96,
+    "gigabitPct": 96,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bournemouth Council",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.2,
+    "imdRank": 14820,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BH3 covers BOURNEMOUTH in Dorset, South West.",
+    "priceVsCounty": "The average property price in BH3 is £603,979, which is 42% above the Dorset average of £425,376.",
+    "priceVsNational": "Properties in BH3 cost 110.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BH3 have risen 13.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "BH3 has a crime rate of 84.8 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "BH3 has 1 school within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BH3 are 386.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BH3 (BOURNEMOUTH) offers above-average property prices (£603,979, 110% above national average), 1 nearby school, and excellent broadband (386 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 386
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 386
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

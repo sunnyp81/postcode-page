@@ -1,0 +1,197 @@
+{
+  "code": "BD22",
+  "name": "KEIGHLEY",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "bradford",
+  "adjacent": [
+    "BD21",
+    "BD23",
+    "BD24"
+  ],
+  "property": {
+    "avgPrice": 204202,
+    "medianPrice": 175000,
+    "priceChange1y": 9.1,
+    "priceChange5y": 0,
+    "transactions12m": 1434,
+    "byType": {
+      "detached": {
+        "avg": 335067,
+        "count": 181
+      },
+      "semi": {
+        "avg": 201109,
+        "count": 431
+      },
+      "terraced": {
+        "avg": 163233,
+        "count": 703
+      },
+      "flat": {
+        "avg": 144259,
+        "count": 58
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 199880
+      },
+      {
+        "year": 2024,
+        "avg": 197657
+      },
+      {
+        "year": 2025,
+        "avg": 215691
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 14.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -82.4,
+    "byType": {
+      "violentCrime": 6.3,
+      "burglary": 1.9,
+      "vehicleCrime": 1.3,
+      "antisocialBehaviour": 1.4,
+      "otherTheft": 0.9,
+      "other": 2.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Stanbury Village School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cowling Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Merlin Top Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Our Lady of Victories Catholic School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Oxenhope CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 283,
+    "avgUpload": 51,
+    "superfastPct": 91,
+    "ultrafastPct": 70,
+    "gigabitPct": 66,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bradford Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BD22 covers KEIGHLEY in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in BD22 is £204,202, which is 27% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in BD22 cost 28.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BD22 have risen 9.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 14.3 recorded crimes per 1,000 residents, BD22 has a crime rate well 82% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BD22 has 14 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BD22 are 283.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BD22 (KEIGHLEY) offers affordable property prices (£204,202, 29% below national average), low crime (82% below national average), 14 nearby schools, and excellent broadband (283 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 283
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 283
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

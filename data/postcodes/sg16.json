@@ -1,0 +1,193 @@
+{
+  "code": "SG16",
+  "name": "HENLOW",
+  "county": "hertfordshire",
+  "region": "east-of-england",
+  "city": "stevenage",
+  "adjacent": [
+    "SG15",
+    "SG17",
+    "SG18"
+  ],
+  "property": {
+    "avgPrice": 442138,
+    "medianPrice": 380000,
+    "priceChange1y": -13,
+    "priceChange5y": 0,
+    "transactions12m": 419,
+    "byType": {
+      "detached": {
+        "avg": 590623,
+        "count": 137
+      },
+      "semi": {
+        "avg": 379512,
+        "count": 118
+      },
+      "terraced": {
+        "avg": 319465,
+        "count": 139
+      },
+      "flat": {
+        "avg": 225395,
+        "count": 19
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 445108
+      },
+      {
+        "year": 2024,
+        "avg": 466635
+      },
+      {
+        "year": 2025,
+        "avg": 405903
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.7,
+      "burglary": 0.2,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 0.7,
+      "otherTheft": 0.3,
+      "other": 1.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Derwent Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stondon Lower School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Henlow Church of England Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Raynsford Church of England Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 315877,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 312,
+    "avgUpload": 56,
+    "superfastPct": 95,
+    "ultrafastPct": 75,
+    "gigabitPct": 75,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stevenage Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.2,
+    "imdRank": 9823,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SG16 encompasses HENLOW and its surrounding areas in Hertfordshire, East Of England.",
+    "priceVsCounty": "The average property price in SG16 is £442,138, which is 23% below the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in SG16 cost 54.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SG16 have fallen 13.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SG16 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SG16 has 4 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SG16 are 312.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SG16 (HENLOW) offers above-average property prices (£442,138, 54% above national average), low crime (94% below national average), 4 nearby schools, and excellent broadband (312 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 312
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 312
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

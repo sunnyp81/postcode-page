@@ -1,0 +1,196 @@
+{
+  "code": "LU7",
+  "name": "LEIGHTON BUZZARD",
+  "county": "bedfordshire",
+  "region": "east-of-england",
+  "city": "luton",
+  "adjacent": [
+    "LU6"
+  ],
+  "property": {
+    "avgPrice": 411299,
+    "medianPrice": 360000,
+    "priceChange1y": 6.4,
+    "priceChange5y": 0,
+    "transactions12m": 3312,
+    "byType": {
+      "detached": {
+        "avg": 564082,
+        "count": 879
+      },
+      "semi": {
+        "avg": 383344,
+        "count": 986
+      },
+      "terraced": {
+        "avg": 318499,
+        "count": 886
+      },
+      "flat": {
+        "avg": 184615,
+        "count": 444
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 396958
+      },
+      {
+        "year": 2024,
+        "avg": 405840
+      },
+      {
+        "year": 2025,
+        "avg": 431854
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 54.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -33.5,
+    "byType": {
+      "violentCrime": 17.8,
+      "burglary": 2.4,
+      "vehicleCrime": 3.2,
+      "antisocialBehaviour": 10.7,
+      "otherTheft": 9.6,
+      "other": 10.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 27,
+    "outstanding": 0,
+    "good": 9,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Beaudesert Lower School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stanbridge Lower School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Mary Bassett Lower School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Leedon Lower School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Heathwood Lower School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 315877,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 271,
+    "avgUpload": 49,
+    "superfastPct": 93,
+    "ultrafastPct": 65,
+    "gigabitPct": 63,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Luton Council",
+    "bandD": 2251,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.2,
+    "imdRank": 9823,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LU7 covers LEIGHTON BUZZARD in Bedfordshire, East Of England.",
+    "priceVsCounty": "The average property price in LU7 is £411,299, which is 12% above the Bedfordshire average of £368,807.",
+    "priceVsNational": "Properties in LU7 cost 43.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LU7 have risen 6.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 54.1 recorded crimes per 1,000 residents, LU7 has a crime rate well 33% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LU7 has 27 schools within or near its boundaries, including 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LU7 are 271.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LU7 (LEIGHTON BUZZARD) offers above-average property prices (£411,299, 43% above national average), low crime (33% below national average), 27 nearby schools, and excellent broadband (271 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 368807,
+      "crime": 75,
+      "broadband": 271
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 271
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "RG4",
+  "name": "READING",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [
+    "RG5",
+    "RG6"
+  ],
+  "property": {
+    "avgPrice": 567873,
+    "medianPrice": 485000,
+    "priceChange1y": -2.6,
+    "priceChange5y": 0,
+    "transactions12m": 1709,
+    "byType": {
+      "detached": {
+        "avg": 804376,
+        "count": 569
+      },
+      "semi": {
+        "avg": 554967,
+        "count": 460
+      },
+      "terraced": {
+        "avg": 414202,
+        "count": 341
+      },
+      "flat": {
+        "avg": 276712,
+        "count": 293
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 599695
+      },
+      {
+        "year": 2024,
+        "avg": 557217
+      },
+      {
+        "year": 2025,
+        "avg": 542646
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 15.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -81.3,
+    "byType": {
+      "violentCrime": 6.5,
+      "burglary": 0.7,
+      "vehicleCrime": 1.2,
+      "antisocialBehaviour": 1.7,
+      "otherTheft": 2.2,
+      "other": 2.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 22,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Caversham Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "New Bridge Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Caversham Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Emmer Green Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 156470,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 12,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 347,
+    "avgUpload": 62,
+    "superfastPct": 98,
+    "ultrafastPct": 85,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Oxfordshire",
+    "bandD": 2240,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.5,
+    "imdRank": 6409,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG4 is the postcode district for READING, located in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG4 is £567,873, broadly in line with the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG4 cost 97.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG4 have fallen 2.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 15.2 recorded crimes per 1,000 residents, RG4 has a crime rate well 81% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RG4 has 22 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG4 are 347.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG4 (READING) offers above-average property prices (£567,873, 98% above national average), low crime (81% below national average), 22 nearby schools, and excellent broadband (347 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 347
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 347
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

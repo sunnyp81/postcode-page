@@ -1,0 +1,183 @@
+{
+  "code": "SG15",
+  "name": "ARLESEY",
+  "county": "hertfordshire",
+  "region": "east-of-england",
+  "city": "stevenage",
+  "adjacent": [
+    "SG14",
+    "SG16",
+    "SG17"
+  ],
+  "property": {
+    "avgPrice": 348792,
+    "medianPrice": 325000,
+    "priceChange1y": 9.2,
+    "priceChange5y": 0,
+    "transactions12m": 254,
+    "byType": {
+      "detached": {
+        "avg": 510346,
+        "count": 39
+      },
+      "semi": {
+        "avg": 354349,
+        "count": 66
+      },
+      "terraced": {
+        "avg": 305865,
+        "count": 121
+      },
+      "flat": {
+        "avg": 167043,
+        "count": 22
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 346112
+      },
+      {
+        "year": 2024,
+        "avg": 335774
+      },
+      {
+        "year": 2025,
+        "avg": 366646
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 9.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -88.6,
+    "byType": {
+      "violentCrime": 2.5,
+      "burglary": 0.4,
+      "vehicleCrime": 1.2,
+      "antisocialBehaviour": 2.7,
+      "otherTheft": 1,
+      "other": 1.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Etonbury Academy",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Gothic Mede Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 315877,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 364,
+    "avgUpload": 66,
+    "superfastPct": 97,
+    "ultrafastPct": 90,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stevenage Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.2,
+    "imdRank": 9823,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SG15 is the postcode district for ARLESEY, located in Hertfordshire, East Of England.",
+    "priceVsCounty": "The average property price in SG15 is £348,792, which is 39% below the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in SG15 cost 21.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SG15 have risen 9.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 9.3 recorded crimes per 1,000 residents, SG15 has a crime rate well 89% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SG15 has 2 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SG15 are 364.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SG15 (ARLESEY) offers above-average property prices (£348,792, 22% above national average), low crime (89% below national average), 2 nearby schools, and excellent broadband (364 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 364
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 364
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

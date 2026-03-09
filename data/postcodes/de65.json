@@ -1,0 +1,194 @@
+{
+  "code": "DE65",
+  "name": "DERBY",
+  "county": "derbyshire",
+  "region": "east-midlands",
+  "city": "derby",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 320463,
+    "medianPrice": 265000,
+    "priceChange1y": -0.3,
+    "priceChange5y": 0,
+    "transactions12m": 1306,
+    "byType": {
+      "detached": {
+        "avg": 404890,
+        "count": 586
+      },
+      "semi": {
+        "avg": 246966,
+        "count": 364
+      },
+      "terraced": {
+        "avg": 214365,
+        "count": 223
+      },
+      "flat": {
+        "avg": 118725,
+        "count": 89
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 326513
+      },
+      {
+        "year": 2024,
+        "avg": 317959
+      },
+      {
+        "year": 2025,
+        "avg": 316877
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 7.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -91,
+    "byType": {
+      "violentCrime": 3.8,
+      "burglary": 0.2,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 1,
+      "otherTheft": 0.8,
+      "other": 1.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Egginton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Etwall Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Findern Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Heath Fields Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Willington Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 117493,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 10,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 227,
+    "avgUpload": 41,
+    "superfastPct": 91,
+    "ultrafastPct": 51,
+    "gigabitPct": 51,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Derbyshire",
+    "bandD": 2033,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.5,
+    "imdRank": 12057,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DE65 is the postcode district for DERBY, located in Derbyshire, East Midlands.",
+    "priceVsCounty": "The average property price in DE65 is £320,463, which is 11% above the Derbyshire average of £289,862.",
+    "priceVsNational": "Properties in DE65 cost 11.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DE65 have fallen 0.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 7.3 recorded crimes per 1,000 residents, DE65 has a crime rate well 91% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DE65 has 16 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DE65 are 227.0 Mbps, with 99% of premises having access to superfast broadband and 77% with full fibre (FTTP) connectivity.",
+    "synthesis": "DE65 (DERBY) offers property prices near the national average (£320,463), low crime (91% below national average), 16 nearby schools, and excellent broadband (227 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 289862,
+      "crime": 75,
+      "broadband": 227
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 227
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

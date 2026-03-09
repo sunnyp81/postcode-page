@@ -1,0 +1,194 @@
+{
+  "code": "RG45",
+  "name": "CROWTHORNE",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 570856,
+    "medianPrice": 500000,
+    "priceChange1y": 9.1,
+    "priceChange5y": 0,
+    "transactions12m": 791,
+    "byType": {
+      "detached": {
+        "avg": 756402,
+        "count": 313
+      },
+      "semi": {
+        "avg": 495021,
+        "count": 163
+      },
+      "terraced": {
+        "avg": 422515,
+        "count": 72
+      },
+      "flat": {
+        "avg": 262211,
+        "count": 220
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 601932
+      },
+      {
+        "year": 2024,
+        "avg": 526331
+      },
+      {
+        "year": 2025,
+        "avg": 574144
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 16.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -79.2,
+    "byType": {
+      "violentCrime": 7.2,
+      "burglary": 0.4,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 2.4,
+      "otherTheft": 2.9,
+      "other": 3.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Crowthorne Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wellington College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Our Lady's Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Edgbarrow School",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Oaklands Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 187200,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 40,
+    "socialRent": 8,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 361,
+    "avgUpload": 65,
+    "superfastPct": 97,
+    "ultrafastPct": 89,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Reading Council",
+    "bandD": 1606,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 5.8,
+    "imdRank": 3651,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG45 covers CROWTHORNE in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG45 is £570,856, broadly in line with the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG45 cost 98.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG45 have risen 9.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 16.9 recorded crimes per 1,000 residents, RG45 has a crime rate well 79% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RG45 has 8 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG45 are 361.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG45 (CROWTHORNE) offers above-average property prices (£570,856, 99% above national average), low crime (79% below national average), 8 nearby schools, and excellent broadband (361 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 361
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 361
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

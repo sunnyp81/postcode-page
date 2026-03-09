@@ -1,0 +1,198 @@
+{
+  "code": "LA18",
+  "name": "MILLOM",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "lancaster",
+  "adjacent": [
+    "LA17",
+    "LA19",
+    "LA20"
+  ],
+  "property": {
+    "avgPrice": 138672,
+    "medianPrice": 114000,
+    "priceChange1y": 7.6,
+    "priceChange5y": 0,
+    "transactions12m": 445,
+    "byType": {
+      "detached": {
+        "avg": 281262,
+        "count": 57
+      },
+      "semi": {
+        "avg": 162065,
+        "count": 87
+      },
+      "terraced": {
+        "avg": 98784,
+        "count": 261
+      },
+      "flat": {
+        "avg": 57467,
+        "count": 15
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 133800
+      },
+      {
+        "year": 2024,
+        "avg": 136408
+      },
+      {
+        "year": 2025,
+        "avg": 146750
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 7.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -91,
+    "byType": {
+      "violentCrime": 3.7,
+      "burglary": 0.2,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.3,
+      "otherTheft": 0.5,
+      "other": 2.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Parkview Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Haverigg Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Millom Infant School",
+        "type": "Primary",
+        "ofsted": "Inadequate"
+      },
+      {
+        "name": "Black Combe Junior School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Thwaites School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 58,
+    "avgUpload": 10,
+    "superfastPct": 92,
+    "ultrafastPct": 2,
+    "gigabitPct": 2,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cumberland",
+    "bandD": 2175,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LA18 covers MILLOM in Lancashire, North West.",
+    "priceVsCounty": "The average property price in LA18 is £138,672, which is 46% below the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in LA18 cost 51.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LA18 have risen 7.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 7.3 recorded crimes per 1,000 residents, LA18 has a crime rate well 91% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LA18 has 7 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LA18 are 58.0 Mbps, with 79% of premises having access to superfast broadband and 31% with full fibre (FTTP) connectivity.",
+    "synthesis": "LA18 (MILLOM) offers affordable property prices (£138,672, 52% below national average), low crime (91% below national average), 7 nearby schools, and good broadband connectivity (58 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 58
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 58
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

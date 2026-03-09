@@ -1,0 +1,198 @@
+{
+  "code": "DA6",
+  "name": "BEXLEYHEATH",
+  "county": "greater-london",
+  "region": "london",
+  "city": "dartford",
+  "adjacent": [
+    "DA5",
+    "DA7",
+    "DA8"
+  ],
+  "property": {
+    "avgPrice": 450411,
+    "medianPrice": 390000,
+    "priceChange1y": 31.1,
+    "priceChange5y": 0,
+    "transactions12m": 587,
+    "byType": {
+      "detached": {
+        "avg": 953430,
+        "count": 40
+      },
+      "semi": {
+        "avg": 542471,
+        "count": 141
+      },
+      "terraced": {
+        "avg": 455217,
+        "count": 96
+      },
+      "flat": {
+        "avg": 304236,
+        "count": 290
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 414220
+      },
+      {
+        "year": 2024,
+        "avg": 414195
+      },
+      {
+        "year": 2025,
+        "avg": 542999
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 67.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -17.2,
+    "byType": {
+      "violentCrime": 19,
+      "burglary": 2.3,
+      "vehicleCrime": 4.2,
+      "antisocialBehaviour": 12.6,
+      "otherTheft": 14.4,
+      "other": 14.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 1,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Crook Log Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lift Bexleyheath",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Catherine's Catholic School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Townley Grammar School",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "St Columba's Catholic Boys' School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 256434,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 15,
+    "privateRent": 14,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 353,
+    "avgUpload": 64,
+    "superfastPct": 95,
+    "ultrafastPct": 87,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bexley",
+    "bandD": 2038,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.3,
+    "imdRank": 13529,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DA6 is the postcode district for BEXLEYHEATH, located in Greater London, London.",
+    "priceVsCounty": "The average property price in DA6 is £450,411, which is 66% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in DA6 cost 56.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DA6 have risen 31.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 67.3 recorded crimes per 1,000 residents, DA6 has a crime rate 17% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DA6 has 6 schools within or near its boundaries, including 1 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DA6 are 353.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DA6 (BEXLEYHEATH) offers above-average property prices (£450,411, 57% above national average), low crime (17% below national average), 6 nearby schools, and excellent broadband (353 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 353
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 353
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "code": "DE45",
+  "name": "BAKEWELL",
+  "county": "derbyshire",
+  "region": "east-midlands",
+  "city": "derby",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 461205,
+    "medianPrice": 375000,
+    "priceChange1y": -6.4,
+    "priceChange5y": 0,
+    "transactions12m": 405,
+    "byType": {
+      "detached": {
+        "avg": 641667,
+        "count": 147
+      },
+      "semi": {
+        "avg": 369261,
+        "count": 113
+      },
+      "terraced": {
+        "avg": 319940,
+        "count": 80
+      },
+      "flat": {
+        "avg": 227896,
+        "count": 24
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 474449
+      },
+      {
+        "year": 2024,
+        "avg": 467112
+      },
+      {
+        "year": 2025,
+        "avg": 437376
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 6.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -91.5,
+    "byType": {
+      "violentCrime": 2.6,
+      "burglary": 0.5,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.9,
+      "otherTheft": 1.2,
+      "other": 1.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Anne's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Monyash CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Longstone CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pilsley CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Youlgrave, All Saints' CofE (VA) Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 71757,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 24,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 137,
+    "avgUpload": 25,
+    "superfastPct": 81,
+    "ultrafastPct": 26,
+    "gigabitPct": 26,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Derbyshire Dales",
+    "bandD": 2125,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.9,
+    "imdRank": 9811,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DE45 encompasses BAKEWELL and its surrounding areas in Derbyshire, East Midlands.",
+    "priceVsCounty": "The average property price in DE45 is £461,205, which is 59% above the Derbyshire average of £289,862.",
+    "priceVsNational": "Properties in DE45 cost 60.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DE45 have fallen 6.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 6.9 recorded crimes per 1,000 residents, DE45 has a crime rate well 92% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DE45 has 9 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DE45 are 137.0 Mbps, with 91% of premises having access to superfast broadband and 53% with full fibre (FTTP) connectivity.",
+    "synthesis": "DE45 (BAKEWELL) offers above-average property prices (£461,205, 61% above national average), low crime (92% below national average), 9 nearby schools, and excellent broadband (137 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 289862,
+      "crime": 75,
+      "broadband": 137
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 137
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

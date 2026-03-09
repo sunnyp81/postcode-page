@@ -1,0 +1,198 @@
+{
+  "code": "RM8",
+  "name": "DAGENHAM",
+  "county": "greater-london",
+  "region": "london",
+  "city": "romford",
+  "adjacent": [
+    "RM7",
+    "RM9",
+    "RM10"
+  ],
+  "property": {
+    "avgPrice": 361435,
+    "medianPrice": 370000,
+    "priceChange1y": 1.6,
+    "priceChange5y": 0,
+    "transactions12m": 978,
+    "byType": {
+      "detached": {
+        "avg": 475000,
+        "count": 3
+      },
+      "semi": {
+        "avg": 392131,
+        "count": 112
+      },
+      "terraced": {
+        "avg": 379080,
+        "count": 686
+      },
+      "flat": {
+        "avg": 231755,
+        "count": 141
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 355398
+      },
+      {
+        "year": 2024,
+        "avg": 361753
+      },
+      {
+        "year": 2025,
+        "avg": 367514
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 126.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 55.1,
+    "byType": {
+      "violentCrime": 44.9,
+      "burglary": 5.1,
+      "vehicleCrime": 11.5,
+      "antisocialBehaviour": 22.1,
+      "otherTheft": 20.7,
+      "other": 21.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Dorothy Barley Infants' School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Manor Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Grafton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Valence Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Henry Green Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 232747,
+    "medianAge": 52,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 32,
+    "privateRent": 22,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 378,
+    "avgUpload": 68,
+    "superfastPct": 98,
+    "ultrafastPct": 94,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Romford Council",
+    "bandD": 1077,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 32.8,
+    "imdRank": 25551,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RM8 encompasses DAGENHAM and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in RM8 is £361,435, which is 72% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in RM8 cost 25.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RM8 have risen 1.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 126.1 recorded crimes per 1,000 residents, RM8 has a crime rate significantly 55% above the national average of 81.3 per 1,000.",
+    "schoolContext": "RM8 has 14 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RM8 are 378.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RM8 (DAGENHAM) offers above-average property prices (£361,435, 26% above national average), higher-than-average crime (55% above national average), 14 nearby schools, and excellent broadband (378 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 378
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 378
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

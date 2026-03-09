@@ -1,0 +1,198 @@
+{
+  "code": "HA3",
+  "name": "HARROW",
+  "county": "greater-london",
+  "region": "london",
+  "city": "harrow",
+  "adjacent": [
+    "HA2",
+    "HA4",
+    "HA5"
+  ],
+  "property": {
+    "avgPrice": 531158,
+    "medianPrice": 511750,
+    "priceChange1y": 1.7,
+    "priceChange5y": 0,
+    "transactions12m": 1360,
+    "byType": {
+      "detached": {
+        "avg": 805610,
+        "count": 86
+      },
+      "semi": {
+        "avg": 617560,
+        "count": 492
+      },
+      "terraced": {
+        "avg": 535217,
+        "count": 362
+      },
+      "flat": {
+        "avg": 281181,
+        "count": 367
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 546488
+      },
+      {
+        "year": 2024,
+        "avg": 520682
+      },
+      {
+        "year": 2025,
+        "avg": 529581
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 101.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 25.2,
+    "byType": {
+      "violentCrime": 27.9,
+      "burglary": 4.9,
+      "vehicleCrime": 9.5,
+      "antisocialBehaviour": 24.1,
+      "otherTheft": 18.6,
+      "other": 16.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 28,
+    "outstanding": 1,
+    "good": 8,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Mount Stewart Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Mount Stewart Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Uxendon Manor Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sinai Jewish Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Helix Education Centre",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 352976,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 18,
+    "socialRent": 24,
+    "privateRent": 34,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 365,
+    "avgUpload": 66,
+    "superfastPct": 99,
+    "ultrafastPct": 90,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Brent",
+    "bandD": 1924,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.6,
+    "imdRank": 21083,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HA3 encompasses HARROW and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in HA3 is £531,158, which is 59% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in HA3 cost 85.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HA3 have risen 1.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 101.8 recorded crimes per 1,000 residents, HA3 has a crime rate significantly 25% above the national average of 81.3 per 1,000.",
+    "schoolContext": "HA3 has 28 schools within or near its boundaries, including 1 rated Outstanding and 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HA3 are 365.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HA3 (HARROW) offers above-average property prices (£531,158, 85% above national average), higher-than-average crime (25% above national average), 28 nearby schools, and excellent broadband (365 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 365
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 365
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

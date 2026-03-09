@@ -1,0 +1,196 @@
+{
+  "code": "SE28",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SE27"
+  ],
+  "property": {
+    "avgPrice": 348143,
+    "medianPrice": 340000,
+    "priceChange1y": -0.2,
+    "priceChange5y": 0,
+    "transactions12m": 771,
+    "byType": {
+      "detached": {
+        "avg": 475469,
+        "count": 16
+      },
+      "semi": {
+        "avg": 378676,
+        "count": 48
+      },
+      "terraced": {
+        "avg": 360573,
+        "count": 278
+      },
+      "flat": {
+        "avg": 310173,
+        "count": 414
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 347171
+      },
+      {
+        "year": 2024,
+        "avg": 348822
+      },
+      {
+        "year": 2025,
+        "avg": 348265
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 75.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -6.8,
+    "byType": {
+      "violentCrime": 27.3,
+      "burglary": 2.1,
+      "vehicleCrime": 6.7,
+      "antisocialBehaviour": 14.4,
+      "otherTheft": 9.1,
+      "other": 16.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 2,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Heronsgate Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Linton Mead Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Margaret Clitherow Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bishop John Robinson Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Discovery Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 299528,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 31,
+    "privateRent": 24,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 300,
+    "avgUpload": 54,
+    "superfastPct": 96,
+    "ultrafastPct": 75,
+    "gigabitPct": 70,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Greenwich",
+    "bandD": 1814,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 24.5,
+    "imdRank": 20383,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SE28 covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in SE28 is £348,143, which is 73% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SE28 cost 21.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SE28 have fallen 0.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 75.8 recorded crimes per 1,000 residents, SE28 has a crime rate 7% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SE28 has 11 schools within or near its boundaries, including 2 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SE28 are 300.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SE28 (LONDON) offers above-average property prices (£348,143, 21% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (300 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 300
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 300
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

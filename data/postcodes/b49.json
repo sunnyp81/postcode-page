@@ -1,0 +1,197 @@
+{
+  "code": "B49",
+  "name": "ALCESTER",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B48",
+    "B50"
+  ],
+  "property": {
+    "avgPrice": 407719,
+    "medianPrice": 328000,
+    "priceChange1y": 2.2,
+    "priceChange5y": 0,
+    "transactions12m": 592,
+    "byType": {
+      "detached": {
+        "avg": 582165,
+        "count": 171
+      },
+      "semi": {
+        "avg": 336607,
+        "count": 171
+      },
+      "terraced": {
+        "avg": 287816,
+        "count": 129
+      },
+      "flat": {
+        "avg": 202605,
+        "count": 62
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 394145
+      },
+      {
+        "year": 2024,
+        "avg": 410804
+      },
+      {
+        "year": 2025,
+        "avg": 419992
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 14.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -81.9,
+    "byType": {
+      "violentCrime": 5.8,
+      "burglary": 0.6,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 2.7,
+      "otherTheft": 1.8,
+      "other": 3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Great Alne Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dunnington CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Alcester Grammar School",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Alcester Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Nicholas CofE Primary",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 138017,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 16,
+    "privateRent": 11,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 279,
+    "avgUpload": 50,
+    "superfastPct": 92,
+    "ultrafastPct": 66,
+    "gigabitPct": 66,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wychavon",
+    "bandD": 2002,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.8,
+    "imdRank": 13500,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B49 is the postcode district for ALCESTER, located in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B49 is £407,719, which is 22% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B49 cost 42.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B49 have risen 2.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 14.7 recorded crimes per 1,000 residents, B49 has a crime rate well 82% below the national average of 81.3 per 1,000.",
+    "schoolContext": "B49 has 11 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B49 are 279.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B49 (ALCESTER) offers above-average property prices (£407,719, 42% above national average), low crime (82% below national average), 11 nearby schools, and excellent broadband (279 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 279
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 279
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "N13",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "N12",
+    "N14",
+    "N15"
+  ],
+  "property": {
+    "avgPrice": 553455,
+    "medianPrice": 520000,
+    "priceChange1y": 1.8,
+    "priceChange5y": 0,
+    "transactions12m": 901,
+    "byType": {
+      "detached": {
+        "avg": 771050,
+        "count": 10
+      },
+      "semi": {
+        "avg": 770936,
+        "count": 117
+      },
+      "terraced": {
+        "avg": 630561,
+        "count": 356
+      },
+      "flat": {
+        "avg": 363492,
+        "count": 370
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 543399
+      },
+      {
+        "year": 2024,
+        "avg": 553962
+      },
+      {
+        "year": 2025,
+        "avg": 564166
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 90.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 11.6,
+    "byType": {
+      "violentCrime": 23.9,
+      "burglary": 5.3,
+      "vehicleCrime": 13.7,
+      "antisocialBehaviour": 19.2,
+      "otherTheft": 13.7,
+      "other": 14.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Firs Farm Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hazelwood Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hazelwood Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tottenhall Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Michael at Bowes CofE Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 327434,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 17,
+    "privateRent": 27,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 335,
+    "avgUpload": 60,
+    "superfastPct": 98,
+    "ultrafastPct": 83,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Enfield",
+    "bandD": 1952,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.8,
+    "imdRank": 20418,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "N13 is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in N13 is £553,455, which is 58% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in N13 cost 92.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in N13 have risen 1.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 90.7 recorded crimes per 1,000 residents, N13 has a crime rate 12% above the national average of 81.3 per 1,000.",
+    "schoolContext": "N13 has 7 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in N13 are 335.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "N13 (LONDON) offers above-average property prices (£553,455, 93% above national average), 7 nearby schools, and excellent broadband (335 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 335
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 335
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

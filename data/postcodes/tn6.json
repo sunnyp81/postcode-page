@@ -1,0 +1,198 @@
+{
+  "code": "TN6",
+  "name": "CROWBOROUGH",
+  "county": "kent",
+  "region": "south-east",
+  "city": "tunbridge-wells",
+  "adjacent": [
+    "TN5",
+    "TN7",
+    "TN8"
+  ],
+  "property": {
+    "avgPrice": 510863,
+    "medianPrice": 440000,
+    "priceChange1y": 0.6,
+    "priceChange5y": 0,
+    "transactions12m": 1298,
+    "byType": {
+      "detached": {
+        "avg": 647616,
+        "count": 570
+      },
+      "semi": {
+        "avg": 411520,
+        "count": 330
+      },
+      "terraced": {
+        "avg": 326516,
+        "count": 173
+      },
+      "flat": {
+        "avg": 222912,
+        "count": 154
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 553899
+      },
+      {
+        "year": 2024,
+        "avg": 490724
+      },
+      {
+        "year": 2025,
+        "avg": 493510
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 22.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -72.4,
+    "byType": {
+      "violentCrime": 8.9,
+      "burglary": 0.6,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 4.4,
+      "otherTheft": 3.2,
+      "other": 4.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 1,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ashdown Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rotherfield Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mark Cross Church of England Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Marys Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 166908,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 8,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 368,
+    "avgUpload": 66,
+    "superfastPct": 98,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wealden",
+    "bandD": 2363,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.3,
+    "imdRank": 10272,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TN6 covers CROWBOROUGH in Kent, South East.",
+    "priceVsCounty": "The average property price in TN6 is £510,863, which is 13% above the Kent average of £450,882.",
+    "priceVsNational": "Properties in TN6 cost 78.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TN6 have risen 0.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 22.4 recorded crimes per 1,000 residents, TN6 has a crime rate well 72% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TN6 has 9 schools within or near its boundaries, including 1 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TN6 are 368.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TN6 (CROWBOROUGH) offers above-average property prices (£510,863, 78% above national average), low crime (72% below national average), 9 nearby schools, and excellent broadband (368 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 368
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 368
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "CV9",
+  "name": "ATHERSTONE",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "coventry",
+  "adjacent": [
+    "CV8",
+    "CV10",
+    "CV11"
+  ],
+  "property": {
+    "avgPrice": 307451,
+    "medianPrice": 250000,
+    "priceChange1y": -6.7,
+    "priceChange5y": 0,
+    "transactions12m": 831,
+    "byType": {
+      "detached": {
+        "avg": 438447,
+        "count": 271
+      },
+      "semi": {
+        "avg": 256539,
+        "count": 209
+      },
+      "terraced": {
+        "avg": 196715,
+        "count": 255
+      },
+      "flat": {
+        "avg": 127449,
+        "count": 50
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 305559
+      },
+      {
+        "year": 2024,
+        "avg": 318763
+      },
+      {
+        "year": 2025,
+        "avg": 297347
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 13.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -83.9,
+    "byType": {
+      "violentCrime": 4.9,
+      "burglary": 0.2,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 2.2,
+      "otherTheft": 2.3,
+      "other": 3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Sheepy Magna Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Witherley Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Twycross House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Twycross House Pre-Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Atherstone Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 116682,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 10,
+    "privateRent": 13,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 215,
+    "avgUpload": 39,
+    "superfastPct": 93,
+    "ultrafastPct": 48,
+    "gigabitPct": 47,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Coventry Council",
+    "bandD": 2098,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.5,
+    "imdRank": 11242,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CV9 covers ATHERSTONE in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in CV9 is £307,451, which is 8% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in CV9 cost 7.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CV9 have fallen 6.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 13.1 recorded crimes per 1,000 residents, CV9 has a crime rate well 84% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CV9 has 14 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CV9 are 215.0 Mbps, with 99% of premises having access to superfast broadband and 74% with full fibre (FTTP) connectivity.",
+    "synthesis": "CV9 (ATHERSTONE) offers property prices near the national average (£307,451), low crime (84% below national average), 14 nearby schools, and excellent broadband (215 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 215
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 215
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

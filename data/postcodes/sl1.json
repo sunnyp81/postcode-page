@@ -1,0 +1,197 @@
+{
+  "code": "SL1",
+  "name": "SLOUGH",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "slough",
+  "adjacent": [
+    "SL2",
+    "SL3"
+  ],
+  "property": {
+    "avgPrice": 476532,
+    "medianPrice": 370000,
+    "priceChange1y": 18.4,
+    "priceChange5y": 0,
+    "transactions12m": 2242,
+    "byType": {
+      "detached": {
+        "avg": 707502,
+        "count": 243
+      },
+      "semi": {
+        "avg": 454778,
+        "count": 502
+      },
+      "terraced": {
+        "avg": 385327,
+        "count": 471
+      },
+      "flat": {
+        "avg": 258449,
+        "count": 928
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 553074
+      },
+      {
+        "year": 2024,
+        "avg": 407719
+      },
+      {
+        "year": 2025,
+        "avg": 482756
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 126.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 55.7,
+    "byType": {
+      "violentCrime": 51.8,
+      "burglary": 3.2,
+      "vehicleCrime": 13.5,
+      "antisocialBehaviour": 11.7,
+      "otherTheft": 22.1,
+      "other": 24.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 29,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Slough Centre Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Baylis Court Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cippenham Nursery School",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Chalvey Nursery School & Early Years Centre",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 167359,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 29,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 363,
+    "avgUpload": 65,
+    "superfastPct": 96,
+    "ultrafastPct": 92,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Slough Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23,
+    "imdRank": 19788,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SL1 is the postcode district for SLOUGH, located in Berkshire, South East.",
+    "priceVsCounty": "The average property price in SL1 is £476,532, which is 19% below the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in SL1 cost 66.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SL1 have risen 18.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 126.6 recorded crimes per 1,000 residents, SL1 has a crime rate significantly 56% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SL1 has 29 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SL1 are 363.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SL1 (SLOUGH) offers above-average property prices (£476,532, 66% above national average), higher-than-average crime (56% above national average), 29 nearby schools, and excellent broadband (363 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 363
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 363
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

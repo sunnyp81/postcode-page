@@ -1,0 +1,198 @@
+{
+  "code": "CT5",
+  "name": "WHITSTABLE",
+  "county": "kent",
+  "region": "south-east",
+  "city": "canterbury",
+  "adjacent": [
+    "CT4",
+    "CT6",
+    "CT7"
+  ],
+  "property": {
+    "avgPrice": 470921,
+    "medianPrice": 395000,
+    "priceChange1y": -7,
+    "priceChange5y": 0,
+    "transactions12m": 1546,
+    "byType": {
+      "detached": {
+        "avg": 602129,
+        "count": 536
+      },
+      "semi": {
+        "avg": 396025,
+        "count": 460
+      },
+      "terraced": {
+        "avg": 407948,
+        "count": 248
+      },
+      "flat": {
+        "avg": 246330,
+        "count": 224
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 507855
+      },
+      {
+        "year": 2024,
+        "avg": 469260
+      },
+      {
+        "year": 2025,
+        "avg": 436401
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 54.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -33.2,
+    "byType": {
+      "violentCrime": 15.3,
+      "burglary": 1.5,
+      "vehicleCrime": 2.3,
+      "antisocialBehaviour": 8.4,
+      "otherTheft": 18.6,
+      "other": 8.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Westmeads Community Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Whitstable Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Swalecliffe Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Alphege Church of England Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Whitstable and Seasalter Endowed Church of England Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 162100,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 12,
+    "privateRent": 20,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 316,
+    "avgUpload": 57,
+    "superfastPct": 98,
+    "ultrafastPct": 76,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Canterbury",
+    "bandD": 2115,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.8,
+    "imdRank": 13753,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CT5 covers WHITSTABLE in Kent, South East.",
+    "priceVsCounty": "The average property price in CT5 is £470,921, broadly in line with the Kent average of £450,882.",
+    "priceVsNational": "Properties in CT5 cost 64.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CT5 have fallen 7.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 54.3 recorded crimes per 1,000 residents, CT5 has a crime rate well 33% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CT5 has 11 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CT5 are 316.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CT5 (WHITSTABLE) offers above-average property prices (£470,921, 64% above national average), low crime (33% below national average), 11 nearby schools, and excellent broadband (316 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 316
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 316
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

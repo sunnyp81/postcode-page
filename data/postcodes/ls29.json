@@ -1,0 +1,196 @@
+{
+  "code": "LS29",
+  "name": "ILKLEY",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "leeds",
+  "adjacent": [
+    "LS28"
+  ],
+  "property": {
+    "avgPrice": 481709,
+    "medianPrice": 395000,
+    "priceChange1y": -5.6,
+    "priceChange5y": 0,
+    "transactions12m": 1836,
+    "byType": {
+      "detached": {
+        "avg": 721375,
+        "count": 494
+      },
+      "semi": {
+        "avg": 453675,
+        "count": 419
+      },
+      "terraced": {
+        "avg": 385414,
+        "count": 425
+      },
+      "flat": {
+        "avg": 276431,
+        "count": 437
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 526268
+      },
+      {
+        "year": 2024,
+        "avg": 472951
+      },
+      {
+        "year": 2025,
+        "avg": 446347
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 11.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -85.9,
+    "byType": {
+      "violentCrime": 4.6,
+      "burglary": 1,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 0.8,
+      "otherTheft": 2.5,
+      "other": 1.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 3,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ben Rhydding Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Addingham Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "All Saints' CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Burley and Woodhead CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Ghyll Royd School and Pre-School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 845189,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 288,
+    "avgUpload": 52,
+    "superfastPct": 92,
+    "ultrafastPct": 73,
+    "gigabitPct": 67,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Leeds",
+    "bandD": 1968,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.3,
+    "imdRank": 18909,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LS29 encompasses ILKLEY and its surrounding areas in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in LS29 is £481,709, which is 73% above the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in LS29 cost 67.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LS29 have fallen 5.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 11.5 recorded crimes per 1,000 residents, LS29 has a crime rate well 86% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LS29 has 13 schools within or near its boundaries, including 3 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LS29 are 288.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LS29 (ILKLEY) offers above-average property prices (£481,709, 68% above national average), low crime (86% below national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (288 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 288
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 288
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

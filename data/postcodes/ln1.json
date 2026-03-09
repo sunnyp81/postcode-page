@@ -1,0 +1,197 @@
+{
+  "code": "LN1",
+  "name": "LINCOLN",
+  "county": "lincolnshire",
+  "region": "east-midlands",
+  "city": "lincoln",
+  "adjacent": [
+    "LN2",
+    "LN3"
+  ],
+  "property": {
+    "avgPrice": 259454,
+    "medianPrice": 210000,
+    "priceChange1y": -6.1,
+    "priceChange5y": 0,
+    "transactions12m": 1432,
+    "byType": {
+      "detached": {
+        "avg": 356130,
+        "count": 384
+      },
+      "semi": {
+        "avg": 213881,
+        "count": 299
+      },
+      "terraced": {
+        "avg": 202465,
+        "count": 569
+      },
+      "flat": {
+        "avg": 183106,
+        "count": 91
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 266765
+      },
+      {
+        "year": 2024,
+        "avg": 263261
+      },
+      {
+        "year": 2025,
+        "avg": 247284
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.3,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.1,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Ingham Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Sturton by Stow Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The St Faith and St Martin Church of England Junior School, Lincoln",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The St Faith's Church of England Infant and Nursery School, Lincoln",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Newton-on-Trent CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 99208,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 11,
+    "privateRent": 15,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 273,
+    "avgUpload": 49,
+    "superfastPct": 93,
+    "ultrafastPct": 64,
+    "gigabitPct": 64,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "West Lindsey",
+    "bandD": 2111,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.4,
+    "imdRank": 15724,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LN1 encompasses LINCOLN and its surrounding areas in Lincolnshire, East Midlands.",
+    "priceVsCounty": "The average property price in LN1 is £259,454, broadly in line with the Lincolnshire average of £265,006.",
+    "priceVsNational": "Properties in LN1 cost 9.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LN1 have fallen 6.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, LN1 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LN1 has 15 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LN1 are 273.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LN1 (LINCOLN) offers property prices near the national average (£259,454), low crime (94% below national average), 15 nearby schools, and excellent broadband (273 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 265006,
+      "crime": 75,
+      "broadband": 273
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 273
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

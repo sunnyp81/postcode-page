@@ -1,0 +1,198 @@
+{
+  "code": "LS11",
+  "name": "LEEDS",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "leeds",
+  "adjacent": [
+    "LS10",
+    "LS12",
+    "LS13"
+  ],
+  "property": {
+    "avgPrice": 213708,
+    "medianPrice": 137000,
+    "priceChange1y": -19.7,
+    "priceChange5y": 0,
+    "transactions12m": 1340,
+    "byType": {
+      "detached": {
+        "avg": 306097,
+        "count": 44
+      },
+      "semi": {
+        "avg": 182270,
+        "count": 281
+      },
+      "terraced": {
+        "avg": 123393,
+        "count": 809
+      },
+      "flat": {
+        "avg": 174095,
+        "count": 124
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 200538
+      },
+      {
+        "year": 2024,
+        "avg": 242176
+      },
+      {
+        "year": 2025,
+        "avg": 194510
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 184.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 127.4,
+    "byType": {
+      "violentCrime": 80,
+      "burglary": 6.6,
+      "vehicleCrime": 11.3,
+      "antisocialBehaviour": 14.8,
+      "otherTheft": 20.8,
+      "other": 51.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 2,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Beeston Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Greenmount Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hunslet Moor Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hugh Gaitskell Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Anthony's Catholic Primary School, Beeston",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 845189,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 367,
+    "avgUpload": 66,
+    "superfastPct": 96,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Leeds",
+    "bandD": 1968,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.3,
+    "imdRank": 18909,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LS11 encompasses LEEDS and its surrounding areas in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in LS11 is £213,708, which is 23% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in LS11 cost 25.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LS11 have fallen 19.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 184.9 recorded crimes per 1,000 residents, LS11 has a crime rate significantly 127% above the national average of 81.3 per 1,000.",
+    "schoolContext": "LS11 has 17 schools within or near its boundaries, including 2 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LS11 are 367.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LS11 (LEEDS) offers affordable property prices (£213,708, 26% below national average), higher-than-average crime (127% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (367 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 367
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 367
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

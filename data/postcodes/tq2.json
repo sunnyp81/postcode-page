@@ -1,0 +1,198 @@
+{
+  "code": "TQ2",
+  "name": "TORQUAY",
+  "county": "devon",
+  "region": "south-west",
+  "city": "torquay",
+  "adjacent": [
+    "TQ1",
+    "TQ3",
+    "TQ4"
+  ],
+  "property": {
+    "avgPrice": 291424,
+    "medianPrice": 245000,
+    "priceChange1y": -10.2,
+    "priceChange5y": 0,
+    "transactions12m": 1444,
+    "byType": {
+      "detached": {
+        "avg": 441576,
+        "count": 270
+      },
+      "semi": {
+        "avg": 287048,
+        "count": 374
+      },
+      "terraced": {
+        "avg": 223935,
+        "count": 454
+      },
+      "flat": {
+        "avg": 173690,
+        "count": 277
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 292394
+      },
+      {
+        "year": 2024,
+        "avg": 305701
+      },
+      {
+        "year": 2025,
+        "avg": 274558
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 136.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 68,
+    "byType": {
+      "violentCrime": 57.2,
+      "burglary": 3.2,
+      "vehicleCrime": 3.4,
+      "antisocialBehaviour": 21.8,
+      "otherTheft": 21.8,
+      "other": 29.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Watcombe Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Sherwell Valley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mayfield School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Torquay Boys' Grammar School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Torquay Girls' Grammar School",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 138548,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 10,
+    "privateRent": 16,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 356,
+    "avgUpload": 64,
+    "superfastPct": 96,
+    "ultrafastPct": 90,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Teignbridge",
+    "bandD": 2279,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.9,
+    "imdRank": 13686,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TQ2 encompasses TORQUAY and its surrounding areas in Devon, South West.",
+    "priceVsCounty": "The average property price in TQ2 is £291,424, which is 24% below the Devon average of £385,452.",
+    "priceVsNational": "Property values in TQ2 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in TQ2 have fallen 10.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 136.6 recorded crimes per 1,000 residents, TQ2 has a crime rate significantly 68% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TQ2 has 13 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TQ2 are 356.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TQ2 (TORQUAY) offers property prices near the national average (£291,424), higher-than-average crime (68% above national average), 13 nearby schools, and excellent broadband (356 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 356
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 356
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

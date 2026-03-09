@@ -1,0 +1,198 @@
+{
+  "code": "SS12",
+  "name": "WICKFORD",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "southend-on-sea",
+  "adjacent": [
+    "SS11",
+    "SS13",
+    "SS14"
+  ],
+  "property": {
+    "avgPrice": 383653,
+    "medianPrice": 362500,
+    "priceChange1y": 1.4,
+    "priceChange5y": 0,
+    "transactions12m": 801,
+    "byType": {
+      "detached": {
+        "avg": 510496,
+        "count": 180
+      },
+      "semi": {
+        "avg": 379926,
+        "count": 312
+      },
+      "terraced": {
+        "avg": 323606,
+        "count": 210
+      },
+      "flat": {
+        "avg": 210242,
+        "count": 75
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 368201
+      },
+      {
+        "year": 2024,
+        "avg": 388113
+      },
+      {
+        "year": 2025,
+        "avg": 393520
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 46.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -42.4,
+    "byType": {
+      "violentCrime": 15.3,
+      "burglary": 1.4,
+      "vehicleCrime": 2.9,
+      "antisocialBehaviour": 10.8,
+      "otherTheft": 5.8,
+      "other": 10.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Wickford Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Grange Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Oakfield Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Abacus Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Bromfords School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 193632,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 21,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 351,
+    "avgUpload": 63,
+    "superfastPct": 99,
+    "ultrafastPct": 86,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Basildon",
+    "bandD": 2063,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.2,
+    "imdRank": 17744,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SS12 is the postcode district for WICKFORD, located in Essex, East Of England.",
+    "priceVsCounty": "The average property price in SS12 is £383,653, which is 11% below the Essex average of £429,754.",
+    "priceVsNational": "Properties in SS12 cost 33.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SS12 have risen 1.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 46.8 recorded crimes per 1,000 residents, SS12 has a crime rate well 42% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SS12 has 7 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SS12 are 351.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SS12 (WICKFORD) offers above-average property prices (£383,653, 34% above national average), low crime (42% below national average), 7 nearby schools, and excellent broadband (351 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 351
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 351
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

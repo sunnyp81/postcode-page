@@ -1,0 +1,197 @@
+{
+  "code": "M43",
+  "name": "MANCHESTER",
+  "county": "greater-manchester",
+  "region": "north-west",
+  "city": "manchester",
+  "adjacent": [
+    "M44",
+    "M45"
+  ],
+  "property": {
+    "avgPrice": 222555,
+    "medianPrice": 204995,
+    "priceChange1y": -3.9,
+    "priceChange5y": 0,
+    "transactions12m": 1119,
+    "byType": {
+      "detached": {
+        "avg": 352462,
+        "count": 108
+      },
+      "semi": {
+        "avg": 233604,
+        "count": 528
+      },
+      "terraced": {
+        "avg": 185595,
+        "count": 360
+      },
+      "flat": {
+        "avg": 169308,
+        "count": 101
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 228325
+      },
+      {
+        "year": 2024,
+        "avg": 222141
+      },
+      {
+        "year": 2025,
+        "avg": 213397
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Fairfield Road Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Droylsden Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fairfield High School for Girls",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Manchester Road Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 239643,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 21,
+    "privateRent": 16,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 365,
+    "avgUpload": 66,
+    "superfastPct": 98,
+    "ultrafastPct": 93,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Tameside",
+    "bandD": 2086,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 31.4,
+    "imdRank": 22774,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "M43 covers MANCHESTER in Greater Manchester, North West.",
+    "priceVsCounty": "The average property price in M43 is £222,555, which is 42% below the Greater Manchester average of £381,941.",
+    "priceVsNational": "Properties in M43 cost 22.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in M43 have fallen 3.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, M43 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "M43 has 9 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in M43 are 365.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "M43 (MANCHESTER) offers affordable property prices (£222,555, 22% below national average), low crime (94% below national average), 9 nearby schools, and excellent broadband (365 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 381941,
+      "crime": 75,
+      "broadband": 365
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 365
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

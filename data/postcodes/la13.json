@@ -1,0 +1,197 @@
+{
+  "code": "LA13",
+  "name": "BARROW-IN-FURNESS",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "lancaster",
+  "adjacent": [
+    "LA12",
+    "LA14",
+    "LA15"
+  ],
+  "property": {
+    "avgPrice": 203760,
+    "medianPrice": 180000,
+    "priceChange1y": 5.8,
+    "priceChange5y": 0,
+    "transactions12m": 903,
+    "byType": {
+      "detached": {
+        "avg": 331801,
+        "count": 175
+      },
+      "semi": {
+        "avg": 217907,
+        "count": 348
+      },
+      "terraced": {
+        "avg": 128960,
+        "count": 349
+      },
+      "flat": {
+        "avg": 120109,
+        "count": 17
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 183722
+      },
+      {
+        "year": 2024,
+        "avg": 208164
+      },
+      {
+        "year": 2025,
+        "avg": 220231
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 46.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -42.3,
+    "byType": {
+      "violentCrime": 23.6,
+      "burglary": 0.7,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 2.9,
+      "otherTheft": 5,
+      "other": 13.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "South Cumbria Pupil Referral Service",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Roose School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Holy Family Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Furness Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Chetwynde School",
+        "type": "Other",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 340,
+    "avgUpload": 61,
+    "superfastPct": 97,
+    "ultrafastPct": 83,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lancaster Council",
+    "bandD": 2304,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LA13 is the postcode district for BARROW-IN-FURNESS, located in Lancashire, North West.",
+    "priceVsCounty": "The average property price in LA13 is £203,760, which is 20% below the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in LA13 cost 29.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LA13 have risen 5.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 46.9 recorded crimes per 1,000 residents, LA13 has a crime rate well 42% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LA13 has 12 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LA13 are 340.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LA13 (BARROW-IN-FURNESS) offers affordable property prices (£203,760, 29% below national average), low crime (42% below national average), 12 nearby schools, and excellent broadband (340 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 340
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 340
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

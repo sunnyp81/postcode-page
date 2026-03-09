@@ -1,0 +1,195 @@
+{
+  "code": "BD23",
+  "name": "SKIPTON",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "bradford",
+  "adjacent": [
+    "BD22",
+    "BD24"
+  ],
+  "property": {
+    "avgPrice": 347055,
+    "medianPrice": 275000,
+    "priceChange1y": -0.8,
+    "priceChange5y": 0,
+    "transactions12m": 1871,
+    "byType": {
+      "detached": {
+        "avg": 527848,
+        "count": 405
+      },
+      "semi": {
+        "avg": 323714,
+        "count": 501
+      },
+      "terraced": {
+        "avg": 227440,
+        "count": 689
+      },
+      "flat": {
+        "avg": 187432,
+        "count": 192
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 394600
+      },
+      {
+        "year": 2024,
+        "avg": 324721
+      },
+      {
+        "year": 2025,
+        "avg": 322018
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 83.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 2.3,
+    "byType": {
+      "violentCrime": 22.5,
+      "burglary": 5.4,
+      "vehicleCrime": 8.3,
+      "antisocialBehaviour": 18.3,
+      "otherTheft": 13.3,
+      "other": 15.4
+    },
+    "source": "synthetic-estimate",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 28,
+    "outstanding": 0,
+    "good": 10,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Brougham Street Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Otley Street Community Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hellifield Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kettlewell Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Skipton, Water Street Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 258,
+    "avgUpload": 46,
+    "superfastPct": 88,
+    "ultrafastPct": 61,
+    "gigabitPct": 60,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bradford Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BD23 is the postcode district for SKIPTON, located in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in BD23 is £347,055, which is 25% above the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in BD23 cost 20.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BD23 have fallen 0.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "BD23 has a crime rate of 83.2 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "BD23 has 28 schools within or near its boundaries, including 10 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BD23 are 258.0 Mbps, with 99% of premises having access to superfast broadband and 86% with full fibre (FTTP) connectivity.",
+    "synthesis": "BD23 (SKIPTON) offers above-average property prices (£347,055, 21% above national average), 28 nearby schools, and excellent broadband (258 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 258
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 258
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

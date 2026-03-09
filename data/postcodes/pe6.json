@@ -1,0 +1,198 @@
+{
+  "code": "PE6",
+  "name": "PETERBOROUGH",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "peterborough",
+  "adjacent": [
+    "PE5",
+    "PE7",
+    "PE8"
+  ],
+  "property": {
+    "avgPrice": 327631,
+    "medianPrice": 276000,
+    "priceChange1y": -7.1,
+    "priceChange5y": 0,
+    "transactions12m": 1811,
+    "byType": {
+      "detached": {
+        "avg": 395381,
+        "count": 904
+      },
+      "semi": {
+        "avg": 246948,
+        "count": 538
+      },
+      "terraced": {
+        "avg": 206668,
+        "count": 277
+      },
+      "flat": {
+        "avg": 149602,
+        "count": 27
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 324236
+      },
+      {
+        "year": 2024,
+        "avg": 340397
+      },
+      {
+        "year": 2025,
+        "avg": 316153
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.1,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Duke of Bedford Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eye CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Langtoft Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Deeping St James Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Market Deeping Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 147151,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 268,
+    "avgUpload": 48,
+    "superfastPct": 89,
+    "ultrafastPct": 63,
+    "gigabitPct": 63,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Kesteven",
+    "bandD": 2015,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.5,
+    "imdRank": 11133,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PE6 encompasses PETERBOROUGH and its surrounding areas in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in PE6 is £327,631, which is 15% below the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in PE6 cost 14.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PE6 have fallen 7.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, PE6 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PE6 has 18 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PE6 are 268.0 Mbps, with 99% of premises having access to superfast broadband and 89% with full fibre (FTTP) connectivity.",
+    "synthesis": "PE6 (PETERBOROUGH) offers property prices near the national average (£327,631), low crime (94% below national average), 18 nearby schools, and excellent broadband (268 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 268
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 268
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "CB23",
+  "name": "CAMBRIDGE",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "cambridge",
+  "adjacent": [
+    "CB22",
+    "CB24",
+    "CB25"
+  ],
+  "property": {
+    "avgPrice": 486794,
+    "medianPrice": 400000,
+    "priceChange1y": -1.8,
+    "priceChange5y": 0,
+    "transactions12m": 1724,
+    "byType": {
+      "detached": {
+        "avg": 611175,
+        "count": 706
+      },
+      "semi": {
+        "avg": 389093,
+        "count": 425
+      },
+      "terraced": {
+        "avg": 303806,
+        "count": 377
+      },
+      "flat": {
+        "avg": 215443,
+        "count": 149
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 551204
+      },
+      {
+        "year": 2024,
+        "avg": 454381
+      },
+      {
+        "year": 2025,
+        "avg": 446342
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 6.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -92,
+    "byType": {
+      "violentCrime": 2.9,
+      "burglary": 0.2,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 1.2,
+      "otherTheft": 0.4,
+      "other": 1.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Caldecote Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pendragon Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Meridian Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hardwick and Cambourne Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Coton Church of England (Voluntary Controlled) Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 149352,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 20,
+    "socialRent": 23,
+    "privateRent": 28,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 326,
+    "avgUpload": 59,
+    "superfastPct": 93,
+    "ultrafastPct": 81,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cambridge",
+    "bandD": 2126,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.9,
+    "imdRank": 12582,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CB23 covers CAMBRIDGE in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in CB23 is £486,794, which is 27% above the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in CB23 cost 69.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CB23 have fallen 1.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 6.5 recorded crimes per 1,000 residents, CB23 has a crime rate well 92% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CB23 has 17 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CB23 are 326.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CB23 (CAMBRIDGE) offers above-average property prices (£486,794, 70% above national average), low crime (92% below national average), 17 nearby schools, and excellent broadband (326 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 326
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 326
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

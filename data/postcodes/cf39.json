@@ -1,0 +1,197 @@
+{
+  "code": "CF39",
+  "name": "PORTH",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF38",
+    "CF40",
+    "CF41"
+  ],
+  "property": {
+    "avgPrice": 164179,
+    "medianPrice": 132000,
+    "priceChange1y": -2.2,
+    "priceChange5y": 0,
+    "transactions12m": 1182,
+    "byType": {
+      "detached": {
+        "avg": 289863,
+        "count": 173
+      },
+      "semi": {
+        "avg": 161290,
+        "count": 305
+      },
+      "terraced": {
+        "avg": 113751,
+        "count": 638
+      },
+      "flat": {
+        "avg": 62085,
+        "count": 13
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 177652
+      },
+      {
+        "year": 2024,
+        "avg": 157963
+      },
+      {
+        "year": 2025,
+        "avg": 154524
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 21.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -73.3,
+    "byType": {
+      "violentCrime": 10.5,
+      "burglary": 0.4,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 2.9,
+      "otherTheft": 1.6,
+      "other": 5.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Abercerdin Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cwmlai Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tref-Y-Rhyg Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol G.G. Tonyrefail",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol G. G. Llwyncelyn",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 175,
+    "avgUpload": 32,
+    "superfastPct": 98,
+    "ultrafastPct": 35,
+    "gigabitPct": 35,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF39 encompasses PORTH and its surrounding areas in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF39 is £164,179, which is 40% below the Cardiff average of £275,506.",
+    "priceVsNational": "Properties in CF39 cost 42.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CF39 have fallen 2.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 21.7 recorded crimes per 1,000 residents, CF39 has a crime rate well 73% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CF39 has 11 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF39 are 175.0 Mbps, with 96% of premises having access to superfast broadband and 63% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF39 (PORTH) offers affordable property prices (£164,179, 43% below national average), low crime (73% below national average), 11 nearby schools, and excellent broadband (175 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 175
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 175
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

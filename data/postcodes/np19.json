@@ -1,0 +1,196 @@
+{
+  "code": "NP19",
+  "name": "NEWPORT",
+  "county": "gwent",
+  "region": "wales",
+  "city": "newport",
+  "adjacent": [
+    "NP18",
+    "NP20"
+  ],
+  "property": {
+    "avgPrice": 217211,
+    "medianPrice": 190250,
+    "priceChange1y": -11.8,
+    "priceChange5y": 0,
+    "transactions12m": 2747,
+    "byType": {
+      "detached": {
+        "avg": 319641,
+        "count": 344
+      },
+      "semi": {
+        "avg": 233969,
+        "count": 790
+      },
+      "terraced": {
+        "avg": 175681,
+        "count": 1264
+      },
+      "flat": {
+        "avg": 125418,
+        "count": 248
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 205917
+      },
+      {
+        "year": 2024,
+        "avg": 235647
+      },
+      {
+        "year": 2025,
+        "avg": 207937
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 72.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -10.5,
+    "byType": {
+      "violentCrime": 26.1,
+      "burglary": 2.1,
+      "vehicleCrime": 3.7,
+      "antisocialBehaviour": 12.5,
+      "otherTheft": 8.6,
+      "other": 19.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Eveswell Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Maindee C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Somerton Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Joseph's R.C. Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Patrick's R.C. Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 167899,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 369,
+    "avgUpload": 66,
+    "superfastPct": 98,
+    "ultrafastPct": 92,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newport Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "NP19 covers NEWPORT in Gwent, Wales.",
+    "priceVsCounty": "The average property price in NP19 is £217,211, which is 20% below the Gwent average of £273,109.",
+    "priceVsNational": "Properties in NP19 cost 24.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NP19 have fallen 11.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 72.8 recorded crimes per 1,000 residents, NP19 has a crime rate 10% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NP19 has 15 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NP19 are 369.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NP19 (NEWPORT) offers affordable property prices (£217,211, 24% below national average), 15 nearby schools, and excellent broadband (369 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 273109,
+      "crime": 75,
+      "broadband": 369
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 369
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

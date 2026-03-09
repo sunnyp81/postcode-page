@@ -1,0 +1,196 @@
+{
+  "code": "SP11",
+  "name": "ANDOVER",
+  "county": "wiltshire",
+  "region": "south-west",
+  "city": "salisbury",
+  "adjacent": [
+    "SP10"
+  ],
+  "property": {
+    "avgPrice": 468583,
+    "medianPrice": 347000,
+    "priceChange1y": -13.2,
+    "priceChange5y": 0,
+    "transactions12m": 1563,
+    "byType": {
+      "detached": {
+        "avg": 638942,
+        "count": 501
+      },
+      "semi": {
+        "avg": 351110,
+        "count": 483
+      },
+      "terraced": {
+        "avg": 299172,
+        "count": 313
+      },
+      "flat": {
+        "avg": 183273,
+        "count": 178
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 506706
+      },
+      {
+        "year": 2024,
+        "avg": 480679
+      },
+      {
+        "year": 2025,
+        "avg": 417414
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.2,
+      "burglary": 0.1,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.3,
+      "otherTheft": 0.5,
+      "other": 0.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 3,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Smannell Field School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Grateley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary Bourne Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wherwell Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Abbotts Ann Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 523700,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 210,
+    "avgUpload": 38,
+    "superfastPct": 83,
+    "ultrafastPct": 47,
+    "gigabitPct": 47,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Salisbury Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.4,
+    "imdRank": 11265,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SP11 covers ANDOVER in Wiltshire, South West.",
+    "priceVsCounty": "The average property price in SP11 is £468,583, which is 18% above the Wiltshire average of £397,459.",
+    "priceVsNational": "Properties in SP11 cost 63.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SP11 have fallen 13.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SP11 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SP11 has 21 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SP11 are 210.0 Mbps, with 99% of premises having access to superfast broadband and 73% with full fibre (FTTP) connectivity.",
+    "synthesis": "SP11 (ANDOVER) offers above-average property prices (£468,583, 63% above national average), low crime (94% below national average), 21 nearby schools, and excellent broadband (210 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 397459,
+      "crime": 75,
+      "broadband": 210
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 210
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

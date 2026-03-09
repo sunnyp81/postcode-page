@@ -1,0 +1,192 @@
+{
+  "code": "BH6",
+  "name": "BOURNEMOUTH",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "bournemouth",
+  "adjacent": [
+    "BH5",
+    "BH7",
+    "BH8"
+  ],
+  "property": {
+    "avgPrice": 455956,
+    "medianPrice": 395000,
+    "priceChange1y": 2,
+    "priceChange5y": 0,
+    "transactions12m": 1105,
+    "byType": {
+      "detached": {
+        "avg": 645652,
+        "count": 454
+      },
+      "semi": {
+        "avg": 430352,
+        "count": 120
+      },
+      "terraced": {
+        "avg": 382708,
+        "count": 40
+      },
+      "flat": {
+        "avg": 273755,
+        "count": 466
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 465321
+      },
+      {
+        "year": 2024,
+        "avg": 447289
+      },
+      {
+        "year": 2025,
+        "avg": 456098
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 46.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -42.7,
+    "byType": {
+      "violentCrime": 14.2,
+      "burglary": 2.9,
+      "vehicleCrime": 3.7,
+      "antisocialBehaviour": 11.4,
+      "otherTheft": 7.3,
+      "other": 7.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 1,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Katharine's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "St Peter's Catholic Comprehensive School",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Stourfield Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Stourfield Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 381,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 96,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bournemouth Council",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.2,
+    "imdRank": 14820,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BH6 covers BOURNEMOUTH in Dorset, South West.",
+    "priceVsCounty": "The average property price in BH6 is £455,956, which is 7% above the Dorset average of £425,376.",
+    "priceVsNational": "Properties in BH6 cost 58.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BH6 have risen 2.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 46.6 recorded crimes per 1,000 residents, BH6 has a crime rate well 43% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BH6 has 4 schools within or near its boundaries, including 1 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BH6 are 381.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BH6 (BOURNEMOUTH) offers above-average property prices (£455,956, 59% above national average), low crime (43% below national average), 4 nearby schools, and excellent broadband (381 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 381
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 381
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

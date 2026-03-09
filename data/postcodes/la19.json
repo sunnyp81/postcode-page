@@ -1,0 +1,183 @@
+{
+  "code": "LA19",
+  "name": "MILLOM",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "lancaster",
+  "adjacent": [
+    "LA18",
+    "LA20",
+    "LA21"
+  ],
+  "property": {
+    "avgPrice": 209977,
+    "medianPrice": 150000,
+    "priceChange1y": 0.9,
+    "priceChange5y": 0,
+    "transactions12m": 39,
+    "byType": {
+      "detached": {
+        "avg": 341333,
+        "count": 9
+      },
+      "semi": {
+        "avg": 188929,
+        "count": 7
+      },
+      "terraced": {
+        "avg": 123969,
+        "count": 13
+      },
+      "flat": {
+        "avg": 84299,
+        "count": 0
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 237385
+      },
+      {
+        "year": 2024,
+        "avg": 195471
+      },
+      {
+        "year": 2025,
+        "avg": 197208
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Captain Shaw's CofE School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Waberthwaite CofE School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 80,
+    "avgUpload": 14,
+    "superfastPct": 62,
+    "ultrafastPct": 12,
+    "gigabitPct": 12,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cumberland",
+    "bandD": 2175,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LA19 is the postcode district for MILLOM, located in Lancashire, North West.",
+    "priceVsCounty": "The average property price in LA19 is £209,977, which is 17% below the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in LA19 cost 26.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LA19 have risen 0.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, LA19 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LA19 has 2 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LA19 are 80.0 Mbps, with 82% of premises having access to superfast broadband and 37% with full fibre (FTTP) connectivity.",
+    "synthesis": "LA19 (MILLOM) offers affordable property prices (£209,977, 27% below national average), low crime (94% below national average), 2 nearby schools, and good broadband connectivity (80 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 80
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 80
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

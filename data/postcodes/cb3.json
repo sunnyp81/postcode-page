@@ -1,0 +1,198 @@
+{
+  "code": "CB3",
+  "name": "CAMBRIDGE",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "cambridge",
+  "adjacent": [
+    "CB2",
+    "CB4",
+    "CB5"
+  ],
+  "property": {
+    "avgPrice": 943088,
+    "medianPrice": 597793,
+    "priceChange1y": -25.6,
+    "priceChange5y": 0,
+    "transactions12m": 606,
+    "byType": {
+      "detached": {
+        "avg": 1149618,
+        "count": 139
+      },
+      "semi": {
+        "avg": 731326,
+        "count": 94
+      },
+      "terraced": {
+        "avg": 897155,
+        "count": 117
+      },
+      "flat": {
+        "avg": 426024,
+        "count": 229
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 808431
+      },
+      {
+        "year": 2024,
+        "avg": 1198737
+      },
+      {
+        "year": 2025,
+        "avg": 892268
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 35.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -56,
+    "byType": {
+      "violentCrime": 10.4,
+      "burglary": 1.4,
+      "vehicleCrime": 1.6,
+      "antisocialBehaviour": 6.5,
+      "otherTheft": 10.3,
+      "other": 5.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Newnham Croft Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "King's College School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John's College School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gretton School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "University of Cambridge Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 149352,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 20,
+    "socialRent": 23,
+    "privateRent": 28,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 351,
+    "avgUpload": 63,
+    "superfastPct": 97,
+    "ultrafastPct": 87,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cambridge",
+    "bandD": 2126,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.9,
+    "imdRank": 12582,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CB3 is the postcode district for CAMBRIDGE, located in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in CB3 is £943,088, which is 146% above the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in CB3 cost 228.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CB3 have fallen 25.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 35.8 recorded crimes per 1,000 residents, CB3 has a crime rate well 56% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CB3 has 6 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CB3 are 351.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CB3 (CAMBRIDGE) offers above-average property prices (£943,088, 229% above national average), low crime (56% below national average), 6 nearby schools, and excellent broadband (351 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 351
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 351
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

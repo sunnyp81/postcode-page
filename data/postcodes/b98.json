@@ -1,0 +1,196 @@
+{
+  "code": "B98",
+  "name": "REDDITCH",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B97"
+  ],
+  "property": {
+    "avgPrice": 319020,
+    "medianPrice": 228000,
+    "priceChange1y": -30.2,
+    "priceChange5y": 0,
+    "transactions12m": 1700,
+    "byType": {
+      "detached": {
+        "avg": 385473,
+        "count": 369
+      },
+      "semi": {
+        "avg": 249067,
+        "count": 484
+      },
+      "terraced": {
+        "avg": 196946,
+        "count": 632
+      },
+      "flat": {
+        "avg": 128912,
+        "count": 139
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 280247
+      },
+      {
+        "year": 2024,
+        "avg": 389613
+      },
+      {
+        "year": 2025,
+        "avg": 272116
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 66.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -18.6,
+    "byType": {
+      "violentCrime": 25.1,
+      "burglary": 2.4,
+      "vehicleCrime": 3.4,
+      "antisocialBehaviour": 10.1,
+      "otherTheft": 11.7,
+      "other": 13.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 23,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Tenacres First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Woodrow First School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Moons Moat First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Heart of Worcestershire College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Beacon Primary Pupil Referral Unit",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 87847,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 20,
+    "privateRent": 13,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 312,
+    "avgUpload": 56,
+    "superfastPct": 97,
+    "ultrafastPct": 75,
+    "gigabitPct": 75,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Redditch",
+    "bandD": 2087,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.5,
+    "imdRank": 17343,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B98 encompasses REDDITCH and its surrounding areas in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B98 is £319,020, broadly in line with the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B98 cost 11.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B98 have fallen 30.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 66.2 recorded crimes per 1,000 residents, B98 has a crime rate 19% below the national average of 81.3 per 1,000.",
+    "schoolContext": "B98 has 23 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B98 are 312.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B98 (REDDITCH) offers property prices near the national average (£319,020), low crime (19% below national average), 23 nearby schools, and excellent broadband (312 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 312
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 312
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

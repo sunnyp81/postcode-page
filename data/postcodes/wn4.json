@@ -1,0 +1,198 @@
+{
+  "code": "WN4",
+  "name": "WIGAN",
+  "county": "greater-manchester",
+  "region": "north-west",
+  "city": "wigan",
+  "adjacent": [
+    "WN3",
+    "WN5",
+    "WN6"
+  ],
+  "property": {
+    "avgPrice": 215615,
+    "medianPrice": 180000,
+    "priceChange1y": -7.4,
+    "priceChange5y": 0,
+    "transactions12m": 1190,
+    "byType": {
+      "detached": {
+        "avg": 296000,
+        "count": 260
+      },
+      "semi": {
+        "avg": 188622,
+        "count": 519
+      },
+      "terraced": {
+        "avg": 132862,
+        "count": 324
+      },
+      "flat": {
+        "avg": 84171,
+        "count": 35
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 203928
+      },
+      {
+        "year": 2024,
+        "avg": 228982
+      },
+      {
+        "year": 2025,
+        "avg": 212100
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.9,
+      "burglary": 0.2,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.3,
+      "otherTheft": 0.1,
+      "other": 0.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Garswood Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rectory CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "R L Hughes Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Nicol Mere School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Bryn St Peter's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 188861,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 20,
+    "privateRent": 13,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 333,
+    "avgUpload": 60,
+    "superfastPct": 97,
+    "ultrafastPct": 81,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wigan Council",
+    "bandD": 1638,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 31.5,
+    "imdRank": 21635,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WN4 is the postcode district for WIGAN, located in Greater Manchester, North West.",
+    "priceVsCounty": "The average property price in WN4 is £215,615, which is 44% below the Greater Manchester average of £381,941.",
+    "priceVsNational": "Properties in WN4 cost 24.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WN4 have fallen 7.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, WN4 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WN4 has 15 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WN4 are 333.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WN4 (WIGAN) offers affordable property prices (£215,615, 25% below national average), low crime (94% below national average), 15 nearby schools, and excellent broadband (333 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 381941,
+      "crime": 75,
+      "broadband": 333
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 333
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

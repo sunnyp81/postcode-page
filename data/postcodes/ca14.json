@@ -1,0 +1,198 @@
+{
+  "code": "CA14",
+  "name": "WORKINGTON",
+  "county": "cumbria",
+  "region": "north-west",
+  "city": "carlisle",
+  "adjacent": [
+    "CA13",
+    "CA15",
+    "CA16"
+  ],
+  "property": {
+    "avgPrice": 191437,
+    "medianPrice": 145000,
+    "priceChange1y": -24,
+    "priceChange5y": 0,
+    "transactions12m": 1926,
+    "byType": {
+      "detached": {
+        "avg": 290166,
+        "count": 464
+      },
+      "semi": {
+        "avg": 170709,
+        "count": 543
+      },
+      "terraced": {
+        "avg": 103541,
+        "count": 802
+      },
+      "flat": {
+        "avg": 77315,
+        "count": 33
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 173247
+      },
+      {
+        "year": 2024,
+        "avg": 225635
+      },
+      {
+        "year": 2025,
+        "avg": 171397
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 61.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -24.6,
+    "byType": {
+      "violentCrime": 27,
+      "burglary": 1.7,
+      "vehicleCrime": 1.2,
+      "antisocialBehaviour": 4.6,
+      "otherTheft": 8.3,
+      "other": 18.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 22,
+    "outstanding": 0,
+    "good": 8,
+    "requiresImprovement": 4,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "West Cumbria Learning Centre",
+        "type": "Other",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "St Michael's Nursery and Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Victoria Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Victoria Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ashfield Infant & Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 257,
+    "avgUpload": 46,
+    "superfastPct": 96,
+    "ultrafastPct": 59,
+    "gigabitPct": 59,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cumberland",
+    "bandD": 2175,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CA14 encompasses WORKINGTON and its surrounding areas in Cumbria, North West.",
+    "priceVsCounty": "The average property price in CA14 is £191,437, which is 22% below the Cumbria average of £244,524.",
+    "priceVsNational": "Properties in CA14 cost 33.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CA14 have fallen 24.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 61.3 recorded crimes per 1,000 residents, CA14 has a crime rate well 25% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CA14 has 22 schools within or near its boundaries, including 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CA14 are 257.0 Mbps, with 99% of premises having access to superfast broadband and 86% with full fibre (FTTP) connectivity.",
+    "synthesis": "CA14 (WORKINGTON) offers affordable property prices (£191,437, 33% below national average), low crime (25% below national average), 22 nearby schools, and excellent broadband (257 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 244524,
+      "crime": 75,
+      "broadband": 257
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 257
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

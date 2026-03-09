@@ -1,0 +1,198 @@
+{
+  "code": "L34",
+  "name": "PRESCOT",
+  "county": "merseyside",
+  "region": "north-west",
+  "city": "liverpool",
+  "adjacent": [
+    "L33",
+    "L35",
+    "L36"
+  ],
+  "property": {
+    "avgPrice": 311818,
+    "medianPrice": 234995,
+    "priceChange1y": -27.6,
+    "priceChange5y": 0,
+    "transactions12m": 857,
+    "byType": {
+      "detached": {
+        "avg": 354255,
+        "count": 255
+      },
+      "semi": {
+        "avg": 236927,
+        "count": 287
+      },
+      "terraced": {
+        "avg": 138709,
+        "count": 154
+      },
+      "flat": {
+        "avg": 96823,
+        "count": 94
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 301094
+      },
+      {
+        "year": 2024,
+        "avg": 357973
+      },
+      {
+        "year": 2025,
+        "avg": 259290
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 39.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -51.5,
+    "byType": {
+      "violentCrime": 12.6,
+      "burglary": 0.6,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 3.7,
+      "otherTheft": 8.9,
+      "other": 12.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Knowsley Village School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Evelyn Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Our Lady's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John Fisher Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eccleston Lane Ends Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 188861,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 20,
+    "privateRent": 13,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 328,
+    "avgUpload": 59,
+    "superfastPct": 94,
+    "ultrafastPct": 80,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Liverpool Council",
+    "bandD": 2251,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 31.5,
+    "imdRank": 21635,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "L34 encompasses PRESCOT and its surrounding areas in Merseyside, North West.",
+    "priceVsCounty": "The average property price in L34 is £311,818, which is 23% above the Merseyside average of £252,845.",
+    "priceVsNational": "Properties in L34 cost 8.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in L34 have fallen 27.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 39.4 recorded crimes per 1,000 residents, L34 has a crime rate well 52% below the national average of 81.3 per 1,000.",
+    "schoolContext": "L34 has 7 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in L34 are 328.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "L34 (PRESCOT) offers property prices near the national average (£311,818), low crime (52% below national average), 7 nearby schools, and excellent broadband (328 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 252845,
+      "crime": 75,
+      "broadband": 328
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 328
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

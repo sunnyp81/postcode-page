@@ -1,0 +1,198 @@
+{
+  "code": "LS18",
+  "name": "LEEDS",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "leeds",
+  "adjacent": [
+    "LS17",
+    "LS19",
+    "LS20"
+  ],
+  "property": {
+    "avgPrice": 347511,
+    "medianPrice": 300000,
+    "priceChange1y": -1.6,
+    "priceChange5y": 0,
+    "transactions12m": 1113,
+    "byType": {
+      "detached": {
+        "avg": 570539,
+        "count": 200
+      },
+      "semi": {
+        "avg": 357287,
+        "count": 408
+      },
+      "terraced": {
+        "avg": 274796,
+        "count": 329
+      },
+      "flat": {
+        "avg": 169129,
+        "count": 146
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 348597
+      },
+      {
+        "year": 2024,
+        "avg": 349646
+      },
+      {
+        "year": 2025,
+        "avg": 344118
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 45.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -43.9,
+    "byType": {
+      "violentCrime": 17.6,
+      "burglary": 3.7,
+      "vehicleCrime": 4.7,
+      "antisocialBehaviour": 4.8,
+      "otherTheft": 6.2,
+      "other": 8.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 2,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Horsforth Featherbank Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "West End Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Horsforth Newlaithes Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Westbrook Lane Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Broadgate Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 845189,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 372,
+    "avgUpload": 67,
+    "superfastPct": 98,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Leeds",
+    "bandD": 1968,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.3,
+    "imdRank": 18909,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LS18 covers LEEDS in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in LS18 is £347,511, which is 25% above the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in LS18 cost 21.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LS18 have fallen 1.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 45.6 recorded crimes per 1,000 residents, LS18 has a crime rate well 44% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LS18 has 10 schools within or near its boundaries, including 2 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LS18 are 372.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LS18 (LEEDS) offers above-average property prices (£347,511, 21% above national average), low crime (44% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (372 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 372
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 372
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

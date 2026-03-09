@@ -1,0 +1,197 @@
+{
+  "code": "WD17",
+  "name": "WATFORD",
+  "county": "greater-london",
+  "region": "london",
+  "city": "watford",
+  "adjacent": [
+    "WD18",
+    "WD19"
+  ],
+  "property": {
+    "avgPrice": 593038,
+    "medianPrice": 395300,
+    "priceChange1y": -17.8,
+    "priceChange5y": 0,
+    "transactions12m": 785,
+    "byType": {
+      "detached": {
+        "avg": 1031473,
+        "count": 150
+      },
+      "semi": {
+        "avg": 755436,
+        "count": 83
+      },
+      "terraced": {
+        "avg": 463691,
+        "count": 126
+      },
+      "flat": {
+        "avg": 287133,
+        "count": 383
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 595000
+      },
+      {
+        "year": 2024,
+        "avg": 643384
+      },
+      {
+        "year": 2025,
+        "avg": 528869
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 111,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 36.5,
+    "byType": {
+      "violentCrime": 38.3,
+      "burglary": 2.9,
+      "vehicleCrime": 5,
+      "antisocialBehaviour": 22.7,
+      "otherTheft": 21.7,
+      "other": 20.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 2,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Central Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Cassiobury Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cassiobury Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Nascot Wood Junior School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Nascot Wood Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 107171,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 16,
+    "privateRent": 27,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 356,
+    "avgUpload": 64,
+    "superfastPct": 98,
+    "ultrafastPct": 91,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Watford",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.4,
+    "imdRank": 13265,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WD17 is the postcode district for WATFORD, located in Greater London, London.",
+    "priceVsCounty": "The average property price in WD17 is £593,038, which is 55% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in WD17 cost 106.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WD17 have fallen 17.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 111.0 recorded crimes per 1,000 residents, WD17 has a crime rate significantly 37% above the national average of 81.3 per 1,000.",
+    "schoolContext": "WD17 has 10 schools within or near its boundaries, including 2 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WD17 are 356.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WD17 (WATFORD) offers above-average property prices (£593,038, 107% above national average), higher-than-average crime (37% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (356 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 356
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 356
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

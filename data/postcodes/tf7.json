@@ -1,0 +1,198 @@
+{
+  "code": "TF7",
+  "name": "TELFORD",
+  "county": "shropshire",
+  "region": "west-midlands",
+  "city": "telford",
+  "adjacent": [
+    "TF6",
+    "TF8",
+    "TF9"
+  ],
+  "property": {
+    "avgPrice": 219843,
+    "medianPrice": 131000,
+    "priceChange1y": -38,
+    "priceChange5y": 0,
+    "transactions12m": 745,
+    "byType": {
+      "detached": {
+        "avg": 310335,
+        "count": 103
+      },
+      "semi": {
+        "avg": 166686,
+        "count": 155
+      },
+      "terraced": {
+        "avg": 121939,
+        "count": 391
+      },
+      "flat": {
+        "avg": 82296,
+        "count": 49
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 196629
+      },
+      {
+        "year": 2024,
+        "avg": 273258
+      },
+      {
+        "year": 2025,
+        "avg": 169334
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 82,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 0.9,
+    "byType": {
+      "violentCrime": 37.7,
+      "burglary": 2.4,
+      "vehicleCrime": 1.3,
+      "antisocialBehaviour": 14.7,
+      "otherTheft": 8.2,
+      "other": 17.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Madeley Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "John Randall Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "John Fletcher of Madeley Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Haughton School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 195952,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 18,
+    "privateRent": 19,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 303,
+    "avgUpload": 55,
+    "superfastPct": 98,
+    "ultrafastPct": 73,
+    "gigabitPct": 72,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Telford Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25,
+    "imdRank": 18583,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TF7 encompasses TELFORD and its surrounding areas in Shropshire, West Midlands.",
+    "priceVsCounty": "The average property price in TF7 is £219,843, which is 26% below the Shropshire average of £296,045.",
+    "priceVsNational": "Properties in TF7 cost 23.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TF7 have fallen 38.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "TF7 has a crime rate of 82.0 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "TF7 has 10 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TF7 are 303.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TF7 (TELFORD) offers affordable property prices (£219,843, 23% below national average), 10 nearby schools, and excellent broadband (303 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 296045,
+      "crime": 75,
+      "broadband": 303
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 303
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

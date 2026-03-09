@@ -1,0 +1,196 @@
+{
+  "code": "LN13",
+  "name": "ALFORD",
+  "county": "lincolnshire",
+  "region": "east-midlands",
+  "city": "lincoln",
+  "adjacent": [
+    "LN12"
+  ],
+  "property": {
+    "avgPrice": 249504,
+    "medianPrice": 220000,
+    "priceChange1y": 0.4,
+    "priceChange5y": 0,
+    "transactions12m": 275,
+    "byType": {
+      "detached": {
+        "avg": 300288,
+        "count": 143
+      },
+      "semi": {
+        "avg": 185352,
+        "count": 61
+      },
+      "terraced": {
+        "avg": 145040,
+        "count": 45
+      },
+      "flat": {
+        "avg": 40000,
+        "count": 1
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 262285
+      },
+      {
+        "year": 2024,
+        "avg": 243025
+      },
+      {
+        "year": 2025,
+        "avg": 244060
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 7.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -90.3,
+    "byType": {
+      "violentCrime": 2.5,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 2.9,
+      "otherTheft": 0.6,
+      "other": 1.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Alford Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The St Margaret's Church of England School, Withern",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Queen Elizabeth's Grammar Alford - A Selective Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "John Spendluffe Foundation Technology College",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Huttoft Primary & Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 145183,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 21,
+    "socialRent": 11,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 215,
+    "avgUpload": 39,
+    "superfastPct": 78,
+    "ultrafastPct": 49,
+    "gigabitPct": 49,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Lindsey",
+    "bandD": 2031,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 29.9,
+    "imdRank": 22178,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LN13 encompasses ALFORD and its surrounding areas in Lincolnshire, East Midlands.",
+    "priceVsCounty": "The average property price in LN13 is £249,504, which is 6% below the Lincolnshire average of £265,006.",
+    "priceVsNational": "Properties in LN13 cost 13.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LN13 have risen 0.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 7.9 recorded crimes per 1,000 residents, LN13 has a crime rate well 90% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LN13 has 6 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LN13 are 215.0 Mbps, with 99% of premises having access to superfast broadband and 74% with full fibre (FTTP) connectivity.",
+    "synthesis": "LN13 (ALFORD) offers property prices near the national average (£249,504), low crime (90% below national average), 6 nearby schools, and excellent broadband (215 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 265006,
+      "crime": 75,
+      "broadband": 215
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 215
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

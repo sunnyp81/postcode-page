@@ -1,0 +1,183 @@
+{
+  "code": "TR9",
+  "name": "ST COLUMB",
+  "county": "cornwall",
+  "region": "south-west",
+  "city": "truro",
+  "adjacent": [
+    "TR8",
+    "TR10",
+    "TR11"
+  ],
+  "property": {
+    "avgPrice": 277769,
+    "medianPrice": 260000,
+    "priceChange1y": 3.4,
+    "priceChange5y": 0,
+    "transactions12m": 357,
+    "byType": {
+      "detached": {
+        "avg": 378855,
+        "count": 117
+      },
+      "semi": {
+        "avg": 244480,
+        "count": 93
+      },
+      "terraced": {
+        "avg": 207048,
+        "count": 88
+      },
+      "flat": {
+        "avg": 128885,
+        "count": 13
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 279929
+      },
+      {
+        "year": 2024,
+        "avg": 271802
+      },
+      {
+        "year": 2025,
+        "avg": 280910
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.6,
+      "burglary": 0,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.1,
+      "other": 0.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Columb Major Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Indian Queens Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 583289,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 171,
+    "avgUpload": 31,
+    "superfastPct": 91,
+    "ultrafastPct": 42,
+    "gigabitPct": 32,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Truro Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.1,
+    "imdRank": 19382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TR9 is the postcode district for ST COLUMB, located in Cornwall, South West.",
+    "priceVsCounty": "The average property price in TR9 is £277,769, which is 31% below the Cornwall average of £402,222.",
+    "priceVsNational": "Property values in TR9 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in TR9 have risen 3.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TR9 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TR9 has 2 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TR9 are 171.0 Mbps, with 96% of premises having access to superfast broadband and 62% with full fibre (FTTP) connectivity.",
+    "synthesis": "TR9 (ST COLUMB) offers property prices near the national average (£277,769), low crime (94% below national average), 2 nearby schools, and excellent broadband (171 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 402222,
+      "crime": 75,
+      "broadband": 171
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 171
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "code": "CH47",
+  "name": "WIRRAL",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "chester",
+  "adjacent": [
+    "CH46",
+    "CH48",
+    "CH49"
+  ],
+  "property": {
+    "avgPrice": 360247,
+    "medianPrice": 310000,
+    "priceChange1y": 5.1,
+    "priceChange5y": 0,
+    "transactions12m": 543,
+    "byType": {
+      "detached": {
+        "avg": 596048,
+        "count": 91
+      },
+      "semi": {
+        "avg": 396701,
+        "count": 180
+      },
+      "terraced": {
+        "avg": 275099,
+        "count": 123
+      },
+      "flat": {
+        "avg": 229511,
+        "count": 125
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 347442
+      },
+      {
+        "year": 2024,
+        "avg": 356935
+      },
+      {
+        "year": 2025,
+        "avg": 375284
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 11.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -85.6,
+    "byType": {
+      "violentCrime": 4,
+      "burglary": 0.2,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 1.4,
+      "otherTheft": 2.3,
+      "other": 3.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Great Meols Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hoylake Holy Trinity CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 328873,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 15,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 372,
+    "avgUpload": 67,
+    "superfastPct": 99,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wirral",
+    "bandD": 2158,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 29.6,
+    "imdRank": 19585,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CH47 covers WIRRAL in Cheshire, North West.",
+    "priceVsCounty": "The average property price in CH47 is £360,247, which is 16% above the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in CH47 cost 25.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CH47 have risen 5.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 11.7 recorded crimes per 1,000 residents, CH47 has a crime rate well 86% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CH47 has 2 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CH47 are 372.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CH47 (WIRRAL) offers above-average property prices (£360,247, 26% above national average), low crime (86% below national average), 2 nearby schools, and excellent broadband (372 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 372
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 372
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

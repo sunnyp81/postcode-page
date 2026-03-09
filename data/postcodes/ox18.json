@@ -1,0 +1,197 @@
+{
+  "code": "OX18",
+  "name": "CARTERTON",
+  "county": "oxfordshire",
+  "region": "south-east",
+  "city": "oxford",
+  "adjacent": [
+    "OX17",
+    "OX20"
+  ],
+  "property": {
+    "avgPrice": 503667,
+    "medianPrice": 360000,
+    "priceChange1y": -10.9,
+    "priceChange5y": 0,
+    "transactions12m": 1454,
+    "byType": {
+      "detached": {
+        "avg": 622617,
+        "count": 513
+      },
+      "semi": {
+        "avg": 372528,
+        "count": 421
+      },
+      "terraced": {
+        "avg": 338526,
+        "count": 312
+      },
+      "flat": {
+        "avg": 257970,
+        "count": 139
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 495234
+      },
+      {
+        "year": 2024,
+        "avg": 533803
+      },
+      {
+        "year": 2025,
+        "avg": 475847
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 22.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -72.8,
+    "byType": {
+      "violentCrime": 11.1,
+      "burglary": 0.3,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 3,
+      "otherTheft": 2.9,
+      "other": 4.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 1,
+    "good": 7,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Gateway Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Clanfield CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Aston and Cote Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Carterton Community College",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St John the Evangelist CofE VA Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 91661,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 15,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 350,
+    "avgUpload": 63,
+    "superfastPct": 98,
+    "ultrafastPct": 90,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cotswold",
+    "bandD": 2064,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.1,
+    "imdRank": 9348,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "OX18 encompasses CARTERTON and its surrounding areas in Oxfordshire, South East.",
+    "priceVsCounty": "The average property price in OX18 is £503,667, which is 14% below the Oxfordshire average of £588,175.",
+    "priceVsNational": "Properties in OX18 cost 75.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in OX18 have fallen 10.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 22.1 recorded crimes per 1,000 residents, OX18 has a crime rate well 73% below the national average of 81.3 per 1,000.",
+    "schoolContext": "OX18 has 14 schools within or near its boundaries, including 1 rated Outstanding and 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in OX18 are 350.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "OX18 (CARTERTON) offers above-average property prices (£503,667, 75% above national average), low crime (73% below national average), 14 nearby schools, and excellent broadband (350 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 588175,
+      "crime": 75,
+      "broadband": 350
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 350
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

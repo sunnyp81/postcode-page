@@ -1,0 +1,197 @@
+{
+  "code": "HU8",
+  "name": "HULL",
+  "county": "east-yorkshire",
+  "region": "yorkshire",
+  "city": "hull",
+  "adjacent": [
+    "HU7",
+    "HU9",
+    "HU10"
+  ],
+  "property": {
+    "avgPrice": 145156,
+    "medianPrice": 130000,
+    "priceChange1y": -3.8,
+    "priceChange5y": 0,
+    "transactions12m": 1443,
+    "byType": {
+      "detached": {
+        "avg": 246179,
+        "count": 110
+      },
+      "semi": {
+        "avg": 171606,
+        "count": 463
+      },
+      "terraced": {
+        "avg": 112225,
+        "count": 776
+      },
+      "flat": {
+        "avg": 82886,
+        "count": 56
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 137494
+      },
+      {
+        "year": 2024,
+        "avg": 151676
+      },
+      {
+        "year": 2025,
+        "avg": 145969
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 87.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 8,
+    "byType": {
+      "violentCrime": 38.1,
+      "burglary": 3.9,
+      "vehicleCrime": 3,
+      "antisocialBehaviour": 6.1,
+      "otherTheft": 19.7,
+      "other": 16.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Wilberforce College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wansbeck Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bellfield Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Mersey Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Longhill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 39,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 396,
+    "avgUpload": 71,
+    "superfastPct": 99,
+    "ultrafastPct": 99,
+    "gigabitPct": 99,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hull Council",
+    "bandD": 2183,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 40.6,
+    "imdRank": 25222,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HU8 covers HULL in East Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HU8 is £145,156, which is 31% below the East Yorkshire average of £211,309.",
+    "priceVsNational": "Properties in HU8 cost 49.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HU8 have fallen 3.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 87.8 recorded crimes per 1,000 residents, HU8 has a crime rate 8% above the national average of 81.3 per 1,000.",
+    "schoolContext": "HU8 has 13 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HU8 are 396.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HU8 (HULL) offers affordable property prices (£145,156, 49% below national average), 13 nearby schools, and excellent broadband (396 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 211309,
+      "crime": 75,
+      "broadband": 396
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 396
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

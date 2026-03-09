@@ -1,0 +1,198 @@
+{
+  "code": "SY13",
+  "name": "WHITCHURCH",
+  "county": "mid-wales",
+  "region": "wales",
+  "city": "shrewsbury",
+  "adjacent": [
+    "SY12",
+    "SY14",
+    "SY15"
+  ],
+  "property": {
+    "avgPrice": 309554,
+    "medianPrice": 260000,
+    "priceChange1y": -2.7,
+    "priceChange5y": 0,
+    "transactions12m": 1058,
+    "byType": {
+      "detached": {
+        "avg": 376361,
+        "count": 435
+      },
+      "semi": {
+        "avg": 240913,
+        "count": 277
+      },
+      "terraced": {
+        "avg": 195863,
+        "count": 203
+      },
+      "flat": {
+        "avg": 112304,
+        "count": 45
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 313499
+      },
+      {
+        "year": 2024,
+        "avg": 311224
+      },
+      {
+        "year": 2025,
+        "avg": 302757
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.8,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.3,
+      "otherTheft": 0.2,
+      "other": 0.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Tushingham With Grindley CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Physis Academy",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sir John Talbot's School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Prees CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Whixall CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 421298,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 12,
+    "privateRent": 14,
+    "economicallyActive": 71,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 242,
+    "avgUpload": 44,
+    "superfastPct": 85,
+    "ultrafastPct": 56,
+    "gigabitPct": 56,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Shrewsbury Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.5,
+    "imdRank": 11380,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SY13 encompasses WHITCHURCH and its surrounding areas in Mid Wales, Wales.",
+    "priceVsCounty": "The average property price in SY13 is £309,554, broadly in line with the Mid Wales average of £315,596.",
+    "priceVsNational": "Properties in SY13 cost 7.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SY13 have fallen 2.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SY13 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SY13 has 12 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SY13 are 242.0 Mbps, with 99% of premises having access to superfast broadband and 82% with full fibre (FTTP) connectivity.",
+    "synthesis": "SY13 (WHITCHURCH) offers property prices near the national average (£309,554), low crime (94% below national average), 12 nearby schools, and excellent broadband (242 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 315596,
+      "crime": 75,
+      "broadband": 242
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 242
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

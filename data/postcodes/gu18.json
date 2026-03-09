@@ -1,0 +1,183 @@
+{
+  "code": "GU18",
+  "name": "LIGHTWATER",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU17",
+    "GU19",
+    "GU20"
+  ],
+  "property": {
+    "avgPrice": 543462,
+    "medianPrice": 500000,
+    "priceChange1y": 8.1,
+    "priceChange5y": 0,
+    "transactions12m": 330,
+    "byType": {
+      "detached": {
+        "avg": 742768,
+        "count": 157
+      },
+      "semi": {
+        "avg": 486191,
+        "count": 57
+      },
+      "terraced": {
+        "avg": 373776,
+        "count": 54
+      },
+      "flat": {
+        "avg": 221685,
+        "count": 60
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 578216
+      },
+      {
+        "year": 2024,
+        "avg": 512029
+      },
+      {
+        "year": 2025,
+        "avg": 553637
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 10.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -86.7,
+    "byType": {
+      "violentCrime": 2.9,
+      "burglary": 0.4,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 1.9,
+      "otherTheft": 3,
+      "other": 1.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Lightwater Village Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lightwater Village Infant School and Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 94492,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 10,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 257,
+    "avgUpload": 46,
+    "superfastPct": 97,
+    "ultrafastPct": 59,
+    "gigabitPct": 59,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Surrey Heath",
+    "bandD": 2248,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.1,
+    "imdRank": 5859,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU18 covers LIGHTWATER in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU18 is £543,462, which is 11% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU18 cost 89.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU18 have risen 8.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 10.8 recorded crimes per 1,000 residents, GU18 has a crime rate well 87% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU18 has 2 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU18 are 257.0 Mbps, with 99% of premises having access to superfast broadband and 86% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU18 (LIGHTWATER) offers above-average property prices (£543,462, 89% above national average), low crime (87% below national average), 2 nearby schools, and excellent broadband (257 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 257
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 257
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

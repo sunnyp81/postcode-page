@@ -1,0 +1,198 @@
+{
+  "code": "BR4",
+  "name": "WEST WICKHAM",
+  "county": "greater-london",
+  "region": "london",
+  "city": "bromley",
+  "adjacent": [
+    "BR3",
+    "BR5",
+    "BR6"
+  ],
+  "property": {
+    "avgPrice": 628925,
+    "medianPrice": 640000,
+    "priceChange1y": 6.3,
+    "priceChange5y": 0,
+    "transactions12m": 634,
+    "byType": {
+      "detached": {
+        "avg": 866258,
+        "count": 93
+      },
+      "semi": {
+        "avg": 684416,
+        "count": 326
+      },
+      "terraced": {
+        "avg": 594593,
+        "count": 95
+      },
+      "flat": {
+        "avg": 265238,
+        "count": 101
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 619888
+      },
+      {
+        "year": 2024,
+        "avg": 615723
+      },
+      {
+        "year": 2025,
+        "avg": 654716
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 32.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -60.1,
+    "byType": {
+      "violentCrime": 12,
+      "burglary": 1.1,
+      "vehicleCrime": 4.1,
+      "antisocialBehaviour": 4.3,
+      "otherTheft": 4.6,
+      "other": 6.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 2,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St David's Prep",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pickhurst Infant Academy",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Pickhurst Academy",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Hawes Down Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oak Lodge Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 335319,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 365,
+    "avgUpload": 66,
+    "superfastPct": 98,
+    "ultrafastPct": 90,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bromley",
+    "bandD": 1842,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.2,
+    "imdRank": 11297,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BR4 encompasses WEST WICKHAM and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in BR4 is £628,925, which is 52% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in BR4 cost 119.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BR4 have risen 6.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 32.4 recorded crimes per 1,000 residents, BR4 has a crime rate well 60% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BR4 has 7 schools within or near its boundaries, including 2 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BR4 are 365.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BR4 (WEST WICKHAM) offers above-average property prices (£628,925, 119% above national average), low crime (60% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (365 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 365
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 365
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

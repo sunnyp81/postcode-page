@@ -1,0 +1,198 @@
+{
+  "code": "WF13",
+  "name": "DEWSBURY",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "wakefield",
+  "adjacent": [
+    "WF12",
+    "WF14",
+    "WF15"
+  ],
+  "property": {
+    "avgPrice": 156218,
+    "medianPrice": 138000,
+    "priceChange1y": 4.8,
+    "priceChange5y": 0,
+    "transactions12m": 715,
+    "byType": {
+      "detached": {
+        "avg": 268514,
+        "count": 69
+      },
+      "semi": {
+        "avg": 170481,
+        "count": 171
+      },
+      "terraced": {
+        "avg": 132316,
+        "count": 314
+      },
+      "flat": {
+        "avg": 73583,
+        "count": 95
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 143263
+      },
+      {
+        "year": 2024,
+        "avg": 159478
+      },
+      {
+        "year": 2025,
+        "avg": 167132
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 125.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 54,
+    "byType": {
+      "violentCrime": 54.6,
+      "burglary": 4.5,
+      "vehicleCrime": 4.9,
+      "antisocialBehaviour": 10,
+      "otherTheft": 17.8,
+      "other": 33.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Flatts Nursery School",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Carlton Junior and Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Westmoor Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ravensthorpe Church of England Voluntary Controlled Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Westborough High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 447847,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 15,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 357,
+    "avgUpload": 64,
+    "superfastPct": 96,
+    "ultrafastPct": 88,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Kirklees",
+    "bandD": 2102,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.2,
+    "imdRank": 19120,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WF13 encompasses DEWSBURY and its surrounding areas in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in WF13 is £156,218, which is 44% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in WF13 cost 45.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WF13 have risen 4.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 125.2 recorded crimes per 1,000 residents, WF13 has a crime rate significantly 54% above the national average of 81.3 per 1,000.",
+    "schoolContext": "WF13 has 15 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WF13 are 357.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WF13 (DEWSBURY) offers affordable property prices (£156,218, 46% below national average), higher-than-average crime (54% above national average), 15 nearby schools, and excellent broadband (357 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 357
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 357
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

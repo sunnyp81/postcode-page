@@ -1,0 +1,192 @@
+{
+  "code": "YO14",
+  "name": "FILEY",
+  "county": "north-yorkshire",
+  "region": "yorkshire",
+  "city": "york",
+  "adjacent": [
+    "YO13",
+    "YO15",
+    "YO16"
+  ],
+  "property": {
+    "avgPrice": 237488,
+    "medianPrice": 204995,
+    "priceChange1y": -8.1,
+    "priceChange5y": 0,
+    "transactions12m": 860,
+    "byType": {
+      "detached": {
+        "avg": 301405,
+        "count": 252
+      },
+      "semi": {
+        "avg": 209241,
+        "count": 258
+      },
+      "terraced": {
+        "avg": 188130,
+        "count": 152
+      },
+      "flat": {
+        "avg": 170484,
+        "count": 151
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 246902
+      },
+      {
+        "year": 2024,
+        "avg": 241887
+      },
+      {
+        "year": 2025,
+        "avg": 222214
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 10.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -87.3,
+    "byType": {
+      "violentCrime": 4.2,
+      "burglary": 0.3,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 2.7,
+      "otherTheft": 1.5,
+      "other": 1.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hunmanby Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Filey Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Filey Church of England Nursery and Infants Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Filey Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 28133,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 201,
+    "avgUpload": 36,
+    "superfastPct": 94,
+    "ultrafastPct": 43,
+    "gigabitPct": 43,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "York Council",
+    "bandD": 1725,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "YO14 encompasses FILEY and its surrounding areas in North Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in YO14 is £237,488, which is 33% below the North Yorkshire average of £354,925.",
+    "priceVsNational": "Properties in YO14 cost 17.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in YO14 have fallen 8.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 10.3 recorded crimes per 1,000 residents, YO14 has a crime rate well 87% below the national average of 81.3 per 1,000.",
+    "schoolContext": "YO14 has 4 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in YO14 are 201.0 Mbps, with 99% of premises having access to superfast broadband and 70% with full fibre (FTTP) connectivity.",
+    "synthesis": "YO14 (FILEY) offers affordable property prices (£237,488, 17% below national average), low crime (87% below national average), 4 nearby schools, and excellent broadband (201 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 354925,
+      "crime": 75,
+      "broadband": 201
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 201
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

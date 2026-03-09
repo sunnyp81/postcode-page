@@ -1,0 +1,198 @@
+{
+  "code": "BN23",
+  "name": "EASTBOURNE",
+  "county": "east-sussex",
+  "region": "south-east",
+  "city": "brighton",
+  "adjacent": [
+    "BN22",
+    "BN24",
+    "BN25"
+  ],
+  "property": {
+    "avgPrice": 403449,
+    "medianPrice": 290000,
+    "priceChange1y": -44,
+    "priceChange5y": 0,
+    "transactions12m": 1407,
+    "byType": {
+      "detached": {
+        "avg": 395197,
+        "count": 253
+      },
+      "semi": {
+        "avg": 300923,
+        "count": 300
+      },
+      "terraced": {
+        "avg": 307786,
+        "count": 421
+      },
+      "flat": {
+        "avg": 234884,
+        "count": 401
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 396812
+      },
+      {
+        "year": 2024,
+        "avg": 520587
+      },
+      {
+        "year": 2025,
+        "avg": 291305
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 49.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -39,
+    "byType": {
+      "violentCrime": 15.8,
+      "burglary": 1.2,
+      "vehicleCrime": 1.4,
+      "antisocialBehaviour": 8.5,
+      "otherTheft": 9.9,
+      "other": 12.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 1,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "West Rise Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Catherine's College",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Shinewater Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hazel Court School",
+        "type": "Other",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Langney Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 166908,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 8,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 355,
+    "avgUpload": 64,
+    "superfastPct": 100,
+    "ultrafastPct": 87,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wealden",
+    "bandD": 2363,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.3,
+    "imdRank": 10272,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BN23 encompasses EASTBOURNE and its surrounding areas in East Sussex, South East.",
+    "priceVsCounty": "The average property price in BN23 is £403,449, which is 11% below the East Sussex average of £455,819.",
+    "priceVsNational": "Properties in BN23 cost 40.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BN23 have fallen 44.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 49.6 recorded crimes per 1,000 residents, BN23 has a crime rate well 39% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BN23 has 8 schools within or near its boundaries, including 1 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BN23 are 355.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BN23 (EASTBOURNE) offers above-average property prices (£403,449, 41% above national average), low crime (39% below national average), 8 nearby schools, and excellent broadband (355 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 455819,
+      "crime": 75,
+      "broadband": 355
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 355
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

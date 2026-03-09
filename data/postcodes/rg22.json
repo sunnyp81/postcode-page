@@ -1,0 +1,198 @@
+{
+  "code": "RG22",
+  "name": "BASINGSTOKE",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [
+    "RG21",
+    "RG23",
+    "RG24"
+  ],
+  "property": {
+    "avgPrice": 372339,
+    "medianPrice": 340000,
+    "priceChange1y": 6.1,
+    "priceChange5y": 0,
+    "transactions12m": 1542,
+    "byType": {
+      "detached": {
+        "avg": 512959,
+        "count": 425
+      },
+      "semi": {
+        "avg": 370520,
+        "count": 323
+      },
+      "terraced": {
+        "avg": 304555,
+        "count": 619
+      },
+      "flat": {
+        "avg": 173262,
+        "count": 151
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 355172
+      },
+      {
+        "year": 2024,
+        "avg": 369742
+      },
+      {
+        "year": 2025,
+        "avg": 392233
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 57.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -29.3,
+    "byType": {
+      "violentCrime": 27.5,
+      "burglary": 2.3,
+      "vehicleCrime": 1.3,
+      "antisocialBehaviour": 8.6,
+      "otherTheft": 5.8,
+      "other": 12
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Manor Field Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kempshott Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Kempshott Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Manor Field Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chalk Ridge Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 193110,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 18,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 369,
+    "avgUpload": 66,
+    "superfastPct": 100,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Reading Council",
+    "bandD": 1606,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.8,
+    "imdRank": 10527,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG22 is the postcode district for BASINGSTOKE, located in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG22 is £372,339, which is 36% below the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG22 cost 29.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG22 have risen 6.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 57.5 recorded crimes per 1,000 residents, RG22 has a crime rate well 29% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RG22 has 17 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG22 are 369.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG22 (BASINGSTOKE) offers above-average property prices (£372,339, 30% above national average), low crime (29% below national average), 17 nearby schools, and excellent broadband (369 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 369
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 369
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "RG27",
+  "name": "HOOK",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [
+    "RG26",
+    "RG28",
+    "RG29"
+  ],
+  "property": {
+    "avgPrice": 567627,
+    "medianPrice": 470000,
+    "priceChange1y": 6.9,
+    "priceChange5y": 0,
+    "transactions12m": 1204,
+    "byType": {
+      "detached": {
+        "avg": 779387,
+        "count": 425
+      },
+      "semi": {
+        "avg": 486179,
+        "count": 249
+      },
+      "terraced": {
+        "avg": 409660,
+        "count": 297
+      },
+      "flat": {
+        "avg": 255769,
+        "count": 172
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 596195
+      },
+      {
+        "year": 2024,
+        "avg": 536052
+      },
+      {
+        "year": 2025,
+        "avg": 573243
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.1,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Oakwood Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hook Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Greenfields Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hook Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Whitewater Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 103162,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 9,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 259,
+    "avgUpload": 47,
+    "superfastPct": 86,
+    "ultrafastPct": 61,
+    "gigabitPct": 61,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hart",
+    "bandD": 2079,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 5.5,
+    "imdRank": 3284,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG27 covers HOOK in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG27 is £567,627, broadly in line with the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG27 cost 97.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG27 have risen 6.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, RG27 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RG27 has 12 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG27 are 259.0 Mbps, with 99% of premises having access to superfast broadband and 86% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG27 (HOOK) offers above-average property prices (£567,627, 98% above national average), low crime (94% below national average), 12 nearby schools, and excellent broadband (259 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 259
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 259
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

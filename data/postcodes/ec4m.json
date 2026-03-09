@@ -1,0 +1,174 @@
+{
+  "code": "EC4M",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 5639133,
+    "medianPrice": 680000,
+    "priceChange1y": -94.9,
+    "priceChange5y": 0,
+    "transactions12m": 12,
+    "byType": {
+      "detached": {
+        "avg": 10714353,
+        "count": 0
+      },
+      "semi": {
+        "avg": 6766960,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 5639133,
+        "count": 0
+      },
+      "flat": {
+        "avg": 628950,
+        "count": 8
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 494899
+      },
+      {
+        "year": 2024,
+        "avg": 10765000
+      },
+      {
+        "year": 2025,
+        "avg": 550000
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 98.6,
+      "burglary": 24.5,
+      "vehicleCrime": 9,
+      "antisocialBehaviour": 57.7,
+      "otherTheft": 299.4,
+      "other": 65.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Paul's Cathedral School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 223024,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 15,
+    "socialRent": 40,
+    "privateRent": 29,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 122,
+    "avgUpload": 22,
+    "superfastPct": 32,
+    "ultrafastPct": 28,
+    "gigabitPct": 28,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Islington",
+    "bandD": 1815,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.5,
+    "imdRank": 22490,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EC4M is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in EC4M is £5,639,133, which is 331% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in EC4M cost 1864.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EC4M have fallen 94.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, EC4M has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "EC4M has 1 school within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EC4M are 122.0 Mbps, with 88% of premises having access to superfast broadband and 49% with full fibre (FTTP) connectivity.",
+    "synthesis": "EC4M (LONDON) offers above-average property prices (£5,639,133, 1865% above national average), higher-than-average crime (269% above national average), 1 nearby school, and excellent broadband (122 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 122
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 122
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

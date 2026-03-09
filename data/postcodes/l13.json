@@ -1,0 +1,198 @@
+{
+  "code": "L13",
+  "name": "LIVERPOOL",
+  "county": "merseyside",
+  "region": "north-west",
+  "city": "liverpool",
+  "adjacent": [
+    "L12",
+    "L14",
+    "L15"
+  ],
+  "property": {
+    "avgPrice": 143730,
+    "medianPrice": 128250,
+    "priceChange1y": 14,
+    "priceChange5y": 0,
+    "transactions12m": 1366,
+    "byType": {
+      "detached": {
+        "avg": 233219,
+        "count": 16
+      },
+      "semi": {
+        "avg": 179390,
+        "count": 248
+      },
+      "terraced": {
+        "avg": 133900,
+        "count": 932
+      },
+      "flat": {
+        "avg": 83230,
+        "count": 113
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 135726
+      },
+      {
+        "year": 2024,
+        "avg": 139511
+      },
+      {
+        "year": 2025,
+        "avg": 159091
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 156.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 93,
+    "byType": {
+      "violentCrime": 62.1,
+      "burglary": 4.3,
+      "vehicleCrime": 7.5,
+      "antisocialBehaviour": 11.1,
+      "otherTheft": 26.3,
+      "other": 45.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Corinthian Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lister Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lister Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Broadgreen Primary",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Anne's (Stanley) Junior Mixed and Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 508961,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 23,
+    "socialRent": 26,
+    "privateRent": 24,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 382,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 95,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Liverpool",
+    "bandD": 2308,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 42.4,
+    "imdRank": 25833,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "L13 encompasses LIVERPOOL and its surrounding areas in Merseyside, North West.",
+    "priceVsCounty": "The average property price in L13 is £143,730, which is 43% below the Merseyside average of £252,845.",
+    "priceVsNational": "Properties in L13 cost 49.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in L13 have risen 14.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 156.9 recorded crimes per 1,000 residents, L13 has a crime rate significantly 93% above the national average of 81.3 per 1,000.",
+    "schoolContext": "L13 has 14 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in L13 are 382.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "L13 (LIVERPOOL) offers affordable property prices (£143,730, 50% below national average), higher-than-average crime (93% above national average), 14 nearby schools, and excellent broadband (382 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 252845,
+      "crime": 75,
+      "broadband": 382
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 382
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

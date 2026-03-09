@@ -1,0 +1,197 @@
+{
+  "code": "BH11",
+  "name": "BOURNEMOUTH",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "bournemouth",
+  "adjacent": [
+    "BH10",
+    "BH12",
+    "BH13"
+  ],
+  "property": {
+    "avgPrice": 342354,
+    "medianPrice": 310000,
+    "priceChange1y": -13.8,
+    "priceChange5y": 0,
+    "transactions12m": 803,
+    "byType": {
+      "detached": {
+        "avg": 392625,
+        "count": 309
+      },
+      "semi": {
+        "avg": 310973,
+        "count": 219
+      },
+      "terraced": {
+        "avg": 282350,
+        "count": 175
+      },
+      "flat": {
+        "avg": 181856,
+        "count": 72
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 330917
+      },
+      {
+        "year": 2024,
+        "avg": 368232
+      },
+      {
+        "year": 2025,
+        "avg": 317498
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 56.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -30.4,
+    "byType": {
+      "violentCrime": 21.1,
+      "burglary": 2.5,
+      "vehicleCrime": 2.6,
+      "antisocialBehaviour": 10.4,
+      "otherTheft": 9.2,
+      "other": 10.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "LeAF Studio",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Elm Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oak Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Christ The King Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Heathlands Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 382,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 95,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bournemouth Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.2,
+    "imdRank": 14820,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BH11 encompasses BOURNEMOUTH and its surrounding areas in Dorset, South West.",
+    "priceVsCounty": "The average property price in BH11 is £342,354, which is 20% below the Dorset average of £425,376.",
+    "priceVsNational": "Properties in BH11 cost 19.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BH11 have fallen 13.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 56.6 recorded crimes per 1,000 residents, BH11 has a crime rate well 30% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BH11 has 7 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BH11 are 382.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BH11 (BOURNEMOUTH) offers property prices near the national average (£342,354), low crime (30% below national average), 7 nearby schools, and excellent broadband (382 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 382
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 382
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

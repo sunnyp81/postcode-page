@@ -1,0 +1,198 @@
+{
+  "code": "PE8",
+  "name": "PETERBOROUGH",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "peterborough",
+  "adjacent": [
+    "PE7",
+    "PE9",
+    "PE10"
+  ],
+  "property": {
+    "avgPrice": 456005,
+    "medianPrice": 344000,
+    "priceChange1y": 0.4,
+    "priceChange5y": 0,
+    "transactions12m": 843,
+    "byType": {
+      "detached": {
+        "avg": 569982,
+        "count": 381
+      },
+      "semi": {
+        "avg": 294810,
+        "count": 206
+      },
+      "terraced": {
+        "avg": 251457,
+        "count": 193
+      },
+      "flat": {
+        "avg": 189925,
+        "count": 20
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 462045
+      },
+      {
+        "year": 2024,
+        "avg": 452168
+      },
+      {
+        "year": 2025,
+        "avg": 454066
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Elton CofE Primary School of the Foundation of Frances and Jane Proby",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Nassington Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Warmington School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Kings Cliffe Endowed Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Oundle School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 190619,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 294,
+    "avgUpload": 53,
+    "superfastPct": 94,
+    "ultrafastPct": 70,
+    "gigabitPct": 70,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Huntingdonshire",
+    "bandD": 2192,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.6,
+    "imdRank": 10465,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PE8 is the postcode district for PETERBOROUGH, located in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in PE8 is £456,005, which is 19% above the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in PE8 cost 58.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PE8 have risen 0.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, PE8 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PE8 has 11 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PE8 are 294.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PE8 (PETERBOROUGH) offers above-average property prices (£456,005, 59% above national average), low crime (94% below national average), 11 nearby schools, and excellent broadband (294 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 294
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 294
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "MK6",
+  "name": "MILTON KEYNES",
+  "county": "buckinghamshire",
+  "region": "south-east",
+  "city": "milton-keynes",
+  "adjacent": [
+    "MK5",
+    "MK7",
+    "MK8"
+  ],
+  "property": {
+    "avgPrice": 288237,
+    "medianPrice": 263000,
+    "priceChange1y": 3.3,
+    "priceChange5y": 0,
+    "transactions12m": 583,
+    "byType": {
+      "detached": {
+        "avg": 437865,
+        "count": 88
+      },
+      "semi": {
+        "avg": 266416,
+        "count": 107
+      },
+      "terraced": {
+        "avg": 256690,
+        "count": 274
+      },
+      "flat": {
+        "avg": 142723,
+        "count": 103
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 346004
+      },
+      {
+        "year": 2024,
+        "avg": 261882
+      },
+      {
+        "year": 2025,
+        "avg": 270396
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 119.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 46.7,
+    "byType": {
+      "violentCrime": 57.3,
+      "burglary": 2.8,
+      "vehicleCrime": 6.9,
+      "antisocialBehaviour": 10,
+      "otherTheft": 17.8,
+      "other": 24.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Oldbrook First School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Falconhurst School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Willows School and Early Years Centre",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Paul's Catholic School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Redway School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 305884,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 18,
+    "privateRent": 19,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 371,
+    "avgUpload": 67,
+    "superfastPct": 99,
+    "ultrafastPct": 94,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Milton Keynes Council",
+    "bandD": 2268,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 14351,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "MK6 encompasses MILTON KEYNES and its surrounding areas in Buckinghamshire, South East.",
+    "priceVsCounty": "The average property price in MK6 is £288,237, which is 39% below the Buckinghamshire average of £472,988.",
+    "priceVsNational": "Property values in MK6 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in MK6 have risen 3.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 119.3 recorded crimes per 1,000 residents, MK6 has a crime rate significantly 47% above the national average of 81.3 per 1,000.",
+    "schoolContext": "MK6 has 16 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in MK6 are 371.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "MK6 (MILTON KEYNES) offers property prices near the national average (£288,237), higher-than-average crime (47% above national average), 16 nearby schools, and excellent broadband (371 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 472988,
+      "crime": 75,
+      "broadband": 371
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 371
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "code": "PE16",
+  "name": "CHATTERIS",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "peterborough",
+  "adjacent": [
+    "PE15"
+  ],
+  "property": {
+    "avgPrice": 261067,
+    "medianPrice": 230000,
+    "priceChange1y": -1.9,
+    "priceChange5y": 0,
+    "transactions12m": 619,
+    "byType": {
+      "detached": {
+        "avg": 321231,
+        "count": 200
+      },
+      "semi": {
+        "avg": 226588,
+        "count": 208
+      },
+      "terraced": {
+        "avg": 187525,
+        "count": 155
+      },
+      "flat": {
+        "avg": 124460,
+        "count": 25
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 277114
+      },
+      {
+        "year": 2024,
+        "avg": 254619
+      },
+      {
+        "year": 2025,
+        "avg": 249859
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 20.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -74.4,
+    "byType": {
+      "violentCrime": 7.6,
+      "burglary": 0.5,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 6.2,
+      "otherTheft": 1.6,
+      "other": 4.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Cromwell Community College",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Kingsfield Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Glebelands Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 104896,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 13,
+    "privateRent": 18,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 314,
+    "avgUpload": 57,
+    "superfastPct": 93,
+    "ultrafastPct": 76,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Fenland",
+    "bandD": 2214,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.4,
+    "imdRank": 20893,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PE16 covers CHATTERIS in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in PE16 is £261,067, which is 32% below the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in PE16 cost 9.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PE16 have fallen 1.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 20.8 recorded crimes per 1,000 residents, PE16 has a crime rate well 74% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PE16 has 3 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PE16 are 314.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PE16 (CHATTERIS) offers property prices near the national average (£261,067), low crime (74% below national average), 3 nearby schools, and excellent broadband (314 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 314
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 314
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

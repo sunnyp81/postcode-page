@@ -1,0 +1,198 @@
+{
+  "code": "RH13",
+  "name": "HORSHAM",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "redhill",
+  "adjacent": [
+    "RH12",
+    "RH14",
+    "RH15"
+  ],
+  "property": {
+    "avgPrice": 529732,
+    "medianPrice": 450000,
+    "priceChange1y": -6.4,
+    "priceChange5y": 0,
+    "transactions12m": 1542,
+    "byType": {
+      "detached": {
+        "avg": 753354,
+        "count": 507
+      },
+      "semi": {
+        "avg": 476185,
+        "count": 382
+      },
+      "terraced": {
+        "avg": 389866,
+        "count": 275
+      },
+      "flat": {
+        "avg": 233826,
+        "count": 309
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 543433
+      },
+      {
+        "year": 2024,
+        "avg": 538076
+      },
+      {
+        "year": 2025,
+        "avg": 503883
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.6,
+      "burglary": 0,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 0.7,
+      "otherTheft": 0.1,
+      "other": 0.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 23,
+    "outstanding": 1,
+    "good": 7,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Horsham Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Colgate Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Barns Green Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Heron Way Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Leechpool Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 151521,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 11,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 281,
+    "avgUpload": 51,
+    "superfastPct": 92,
+    "ultrafastPct": 68,
+    "gigabitPct": 66,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Horsham",
+    "bandD": 2109,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 9.9,
+    "imdRank": 7973,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RH13 encompasses HORSHAM and its surrounding areas in Surrey, South East.",
+    "priceVsCounty": "The average property price in RH13 is £529,732, which is 14% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in RH13 cost 84.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RH13 have fallen 6.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, RH13 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RH13 has 23 schools within or near its boundaries, including 1 rated Outstanding and 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RH13 are 281.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RH13 (HORSHAM) offers above-average property prices (£529,732, 85% above national average), low crime (94% below national average), 23 nearby schools, and excellent broadband (281 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 281
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 281
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

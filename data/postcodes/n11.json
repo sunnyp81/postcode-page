@@ -1,0 +1,198 @@
+{
+  "code": "N11",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "N10",
+    "N12",
+    "N13"
+  ],
+  "property": {
+    "avgPrice": 626629,
+    "medianPrice": 525000,
+    "priceChange1y": -5.1,
+    "priceChange5y": 0,
+    "transactions12m": 856,
+    "byType": {
+      "detached": {
+        "avg": 865171,
+        "count": 24
+      },
+      "semi": {
+        "avg": 819139,
+        "count": 141
+      },
+      "terraced": {
+        "avg": 655081,
+        "count": 292
+      },
+      "flat": {
+        "avg": 362811,
+        "count": 356
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 669279
+      },
+      {
+        "year": 2024,
+        "avg": 624015
+      },
+      {
+        "year": 2025,
+        "avg": 592150
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 89.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 9.8,
+    "byType": {
+      "violentCrime": 20.7,
+      "burglary": 4.2,
+      "vehicleCrime": 13.1,
+      "antisocialBehaviour": 16.7,
+      "otherTheft": 21.2,
+      "other": 13.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 2,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Holly Park Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John's CofE Junior Mixed and Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Paul's CofE Primary School N11",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Friern Barnet School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dwight School London",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 405050,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 13,
+    "privateRent": 30,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 347,
+    "avgUpload": 62,
+    "superfastPct": 99,
+    "ultrafastPct": 87,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Barnet",
+    "bandD": 1836,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.1,
+    "imdRank": 13803,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "N11 encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in N11 is £626,629, which is 52% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in N11 cost 118.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in N11 have fallen 5.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 89.3 recorded crimes per 1,000 residents, N11 has a crime rate 10% above the national average of 81.3 per 1,000.",
+    "schoolContext": "N11 has 14 schools within or near its boundaries, including 2 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in N11 are 347.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "N11 (LONDON) offers above-average property prices (£626,629, 118% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (347 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 347
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 347
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "code": "B48",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B47",
+    "B49",
+    "B50"
+  ],
+  "property": {
+    "avgPrice": 509072,
+    "medianPrice": 380000,
+    "priceChange1y": 7.1,
+    "priceChange5y": 0,
+    "transactions12m": 227,
+    "byType": {
+      "detached": {
+        "avg": 719392,
+        "count": 51
+      },
+      "semi": {
+        "avg": 396481,
+        "count": 95
+      },
+      "terraced": {
+        "avg": 309495,
+        "count": 56
+      },
+      "flat": {
+        "avg": 209778,
+        "count": 9
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 617813
+      },
+      {
+        "year": 2024,
+        "avg": 437633
+      },
+      {
+        "year": 2025,
+        "avg": 468608
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.6,
+      "burglary": 0.3,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 0.8,
+      "otherTheft": 0.6,
+      "other": 1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Crown Meadow First School & Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Alvechurch CofE Middle School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Graduately Developing Futures",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 101685,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 11,
+    "privateRent": 9,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 331,
+    "avgUpload": 60,
+    "superfastPct": 92,
+    "ultrafastPct": 81,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bromsgrove",
+    "bandD": 2097,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9402,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B48 covers BIRMINGHAM in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B48 is £509,072, which is 52% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B48 cost 77.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B48 have risen 7.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, B48 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "B48 has 3 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B48 are 331.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B48 (BIRMINGHAM) offers above-average property prices (£509,072, 77% above national average), low crime (94% below national average), 3 nearby schools, and excellent broadband (331 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 331
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 331
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

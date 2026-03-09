@@ -1,0 +1,197 @@
+{
+  "code": "BH20",
+  "name": "WAREHAM",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "bournemouth",
+  "adjacent": [
+    "BH19",
+    "BH21",
+    "BH22"
+  ],
+  "property": {
+    "avgPrice": 435470,
+    "medianPrice": 375000,
+    "priceChange1y": -7.9,
+    "priceChange5y": 0,
+    "transactions12m": 744,
+    "byType": {
+      "detached": {
+        "avg": 564790,
+        "count": 286
+      },
+      "semi": {
+        "avg": 362294,
+        "count": 174
+      },
+      "terraced": {
+        "avg": 322929,
+        "count": 158
+      },
+      "flat": {
+        "avg": 196235,
+        "count": 72
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 435202
+      },
+      {
+        "year": 2024,
+        "avg": 452385
+      },
+      {
+        "year": 2025,
+        "avg": 416432
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.1,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Sandford St Martin's Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary & St Joseph's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Corfe Castle Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wareham St Mary Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bere Regis Primary and Preschool",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 208,
+    "avgUpload": 37,
+    "superfastPct": 86,
+    "ultrafastPct": 46,
+    "gigabitPct": 46,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bournemouth Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.7,
+    "imdRank": 13227,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BH20 encompasses WAREHAM and its surrounding areas in Dorset, South West.",
+    "priceVsCounty": "The average property price in BH20 is £435,470, broadly in line with the Dorset average of £425,376.",
+    "priceVsNational": "Properties in BH20 cost 51.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BH20 have fallen 7.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, BH20 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BH20 has 11 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BH20 are 208.0 Mbps, with 99% of premises having access to superfast broadband and 72% with full fibre (FTTP) connectivity.",
+    "synthesis": "BH20 (WAREHAM) offers above-average property prices (£435,470, 52% above national average), low crime (94% below national average), 11 nearby schools, and excellent broadband (208 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 208
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 208
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

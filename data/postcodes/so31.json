@@ -1,0 +1,197 @@
+{
+  "code": "SO31",
+  "name": "SOUTHAMPTON",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "southampton",
+  "adjacent": [
+    "SO30",
+    "SO32"
+  ],
+  "property": {
+    "avgPrice": 427220,
+    "medianPrice": 365000,
+    "priceChange1y": 0.2,
+    "priceChange5y": 0,
+    "transactions12m": 2269,
+    "byType": {
+      "detached": {
+        "avg": 606347,
+        "count": 814
+      },
+      "semi": {
+        "avg": 364645,
+        "count": 563
+      },
+      "terraced": {
+        "avg": 303078,
+        "count": 408
+      },
+      "flat": {
+        "avg": 211636,
+        "count": 380
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 435659
+      },
+      {
+        "year": 2024,
+        "avg": 423220
+      },
+      {
+        "year": 2025,
+        "avg": 424059
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 10.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -87.5,
+    "byType": {
+      "violentCrime": 4.7,
+      "burglary": 0.3,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 1,
+      "otherTheft": 1.5,
+      "other": 2.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hamble Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Locks Heath Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Locks Heath Infant & Nursery  School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Sarisbury Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bursledon Junior School(CA)",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 142933,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 318,
+    "avgUpload": 57,
+    "superfastPct": 97,
+    "ultrafastPct": 81,
+    "gigabitPct": 75,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Eastleigh",
+    "bandD": 2021,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10.2,
+    "imdRank": 8022,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SO31 is the postcode district for SOUTHAMPTON, located in Hampshire, South East.",
+    "priceVsCounty": "The average property price in SO31 is £427,220, broadly in line with the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in SO31 cost 48.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SO31 have risen 0.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 10.2 recorded crimes per 1,000 residents, SO31 has a crime rate well 87% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SO31 has 15 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SO31 are 318.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SO31 (SOUTHAMPTON) offers above-average property prices (£427,220, 49% above national average), low crime (87% below national average), 15 nearby schools, and excellent broadband (318 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 318
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 318
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

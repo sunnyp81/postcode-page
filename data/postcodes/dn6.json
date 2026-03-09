@@ -1,0 +1,197 @@
+{
+  "code": "DN6",
+  "name": "DONCASTER",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "doncaster",
+  "adjacent": [
+    "DN5",
+    "DN7",
+    "DN8"
+  ],
+  "property": {
+    "avgPrice": 177035,
+    "medianPrice": 145000,
+    "priceChange1y": -0.3,
+    "priceChange5y": 0,
+    "transactions12m": 1243,
+    "byType": {
+      "detached": {
+        "avg": 286131,
+        "count": 256
+      },
+      "semi": {
+        "avg": 151269,
+        "count": 580
+      },
+      "terraced": {
+        "avg": 107167,
+        "count": 350
+      },
+      "flat": {
+        "avg": 68104,
+        "count": 12
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 172909
+      },
+      {
+        "year": 2024,
+        "avg": 179498
+      },
+      {
+        "year": 2025,
+        "avg": 178995
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 14.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -81.7,
+    "byType": {
+      "violentCrime": 6.3,
+      "burglary": 0.7,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 2.4,
+      "otherTheft": 0.9,
+      "other": 3.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 11,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Joseph and St Teresa's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Outwood Academy Adwick",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Highfields Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Campsmount Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Ridge Employability College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 23666,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 281,
+    "avgUpload": 51,
+    "superfastPct": 97,
+    "ultrafastPct": 66,
+    "gigabitPct": 66,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Doncaster Council",
+    "bandD": 2115,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DN6 encompasses DONCASTER and its surrounding areas in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in DN6 is £177,035, which is 23% below the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in DN6 cost 38.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DN6 have fallen 0.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 14.9 recorded crimes per 1,000 residents, DN6 has a crime rate well 82% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DN6 has 15 schools within or near its boundaries, including 11 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DN6 are 281.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DN6 (DONCASTER) offers affordable property prices (£177,035, 38% below national average), low crime (82% below national average), 15 nearby schools, and excellent broadband (281 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 281
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 281
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

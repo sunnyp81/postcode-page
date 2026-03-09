@@ -1,0 +1,197 @@
+{
+  "code": "PR1",
+  "name": "PRESTON",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "preston",
+  "adjacent": [
+    "PR2",
+    "PR3"
+  ],
+  "property": {
+    "avgPrice": 201293,
+    "medianPrice": 140000,
+    "priceChange1y": -4.9,
+    "priceChange5y": 0,
+    "transactions12m": 3160,
+    "byType": {
+      "detached": {
+        "avg": 333256,
+        "count": 343
+      },
+      "semi": {
+        "avg": 205686,
+        "count": 783
+      },
+      "terraced": {
+        "avg": 122644,
+        "count": 1200
+      },
+      "flat": {
+        "avg": 112378,
+        "count": 625
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 222868
+      },
+      {
+        "year": 2024,
+        "avg": 191943
+      },
+      {
+        "year": 2025,
+        "avg": 182578
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 238.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 193.7,
+    "byType": {
+      "violentCrime": 73.8,
+      "burglary": 6.8,
+      "vehicleCrime": 7.9,
+      "antisocialBehaviour": 71.9,
+      "otherTheft": 35.3,
+      "other": 43.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 40,
+    "outstanding": 2,
+    "good": 10,
+    "requiresImprovement": 2,
+    "inadequate": 2,
+    "nearest": [
+      {
+        "name": "Stoneygate Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Larches High School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Penwortham Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Deepdale Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Eldon Primary School",
+        "type": "Primary",
+        "ofsted": "Inadequate"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 116113,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 10,
+    "privateRent": 11,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 306,
+    "avgUpload": 55,
+    "superfastPct": 97,
+    "ultrafastPct": 73,
+    "gigabitPct": 73,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Ribble",
+    "bandD": 2142,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.3,
+    "imdRank": 12410,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PR1 is the postcode district for PRESTON, located in Lancashire, North West.",
+    "priceVsCounty": "The average property price in PR1 is £201,293, which is 21% below the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in PR1 cost 29.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PR1 have fallen 4.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 238.8 recorded crimes per 1,000 residents, PR1 has a crime rate significantly 194% above the national average of 81.3 per 1,000.",
+    "schoolContext": "PR1 has 40 schools within or near its boundaries, including 2 rated Outstanding and 10 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PR1 are 306.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PR1 (PRESTON) offers affordable property prices (£201,293, 30% below national average), higher-than-average crime (194% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (306 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 306
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 306
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

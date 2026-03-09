@@ -1,0 +1,176 @@
+{
+  "code": "B50",
+  "name": "ALCESTER",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B49"
+  ],
+  "property": {
+    "avgPrice": 334906,
+    "medianPrice": 305000,
+    "priceChange1y": 5,
+    "priceChange5y": 0,
+    "transactions12m": 291,
+    "byType": {
+      "detached": {
+        "avg": 443887,
+        "count": 121
+      },
+      "semi": {
+        "avg": 289477,
+        "count": 61
+      },
+      "terraced": {
+        "avg": 237833,
+        "count": 69
+      },
+      "flat": {
+        "avg": 158685,
+        "count": 23
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 307641
+      },
+      {
+        "year": 2024,
+        "avg": 339260
+      },
+      {
+        "year": 2025,
+        "avg": 356236
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 10.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -87.3,
+    "byType": {
+      "violentCrime": 4.6,
+      "burglary": 0.5,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 1.9,
+      "otherTheft": 0.7,
+      "other": 2.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bidford-on-Avon CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 138017,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 16,
+    "privateRent": 11,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 357,
+    "avgUpload": 64,
+    "superfastPct": 96,
+    "ultrafastPct": 88,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wychavon",
+    "bandD": 2002,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.8,
+    "imdRank": 13500,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B50 encompasses ALCESTER and its surrounding areas in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B50 is £334,906, broadly in line with the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B50 cost 16.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B50 have risen 5.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 10.3 recorded crimes per 1,000 residents, B50 has a crime rate well 87% below the national average of 81.3 per 1,000.",
+    "schoolContext": "B50 has 1 school within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B50 are 357.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B50 (ALCESTER) offers property prices near the national average (£334,906), low crime (87% below national average), 1 nearby school, and excellent broadband (357 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 357
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 357
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

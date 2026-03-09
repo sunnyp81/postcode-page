@@ -1,0 +1,197 @@
+{
+  "code": "WS1",
+  "name": "WALSALL",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "walsall",
+  "adjacent": [
+    "WS2",
+    "WS3"
+  ],
+  "property": {
+    "avgPrice": 229385,
+    "medianPrice": 165000,
+    "priceChange1y": -10.1,
+    "priceChange5y": 0,
+    "transactions12m": 650,
+    "byType": {
+      "detached": {
+        "avg": 447070,
+        "count": 79
+      },
+      "semi": {
+        "avg": 250245,
+        "count": 102
+      },
+      "terraced": {
+        "avg": 164927,
+        "count": 234
+      },
+      "flat": {
+        "avg": 105497,
+        "count": 147
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 222881
+      },
+      {
+        "year": 2024,
+        "avg": 244802
+      },
+      {
+        "year": 2025,
+        "avg": 220063
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 188.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 131.7,
+    "byType": {
+      "violentCrime": 69.9,
+      "burglary": 7.5,
+      "vehicleCrime": 13.2,
+      "antisocialBehaviour": 12.4,
+      "otherTheft": 45.4,
+      "other": 40
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Palfrey Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Whitehall Junior Community School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Blue Coat Church of England Aided Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Blue Coat Church of England Aided Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's The Mount Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 295678,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 24,
+    "privateRent": 15,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 285,
+    "avgUpload": 51,
+    "superfastPct": 97,
+    "ultrafastPct": 67,
+    "gigabitPct": 67,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Walsall",
+    "bandD": 2261,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 31.6,
+    "imdRank": 22152,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WS1 covers WALSALL in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in WS1 is £229,385, which is 31% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in WS1 cost 20.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WS1 have fallen 10.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 188.4 recorded crimes per 1,000 residents, WS1 has a crime rate significantly 132% above the national average of 81.3 per 1,000.",
+    "schoolContext": "WS1 has 18 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WS1 are 285.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WS1 (WALSALL) offers affordable property prices (£229,385, 20% below national average), higher-than-average crime (132% above national average), 18 nearby schools, and excellent broadband (285 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 285
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 285
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

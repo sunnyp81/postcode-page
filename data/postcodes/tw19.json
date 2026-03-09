@@ -1,0 +1,192 @@
+{
+  "code": "TW19",
+  "name": "STAINES-UPON-THAMES",
+  "county": "greater-london",
+  "region": "london",
+  "city": "twickenham",
+  "adjacent": [
+    "TW18",
+    "TW20"
+  ],
+  "property": {
+    "avgPrice": 468386,
+    "medianPrice": 425000,
+    "priceChange1y": -12.5,
+    "priceChange5y": 0,
+    "transactions12m": 510,
+    "byType": {
+      "detached": {
+        "avg": 761328,
+        "count": 89
+      },
+      "semi": {
+        "avg": 477342,
+        "count": 138
+      },
+      "terraced": {
+        "avg": 411834,
+        "count": 143
+      },
+      "flat": {
+        "avg": 244389,
+        "count": 128
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 456785
+      },
+      {
+        "year": 2024,
+        "avg": 500301
+      },
+      {
+        "year": 2025,
+        "avg": 437662
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 11.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -85.5,
+    "byType": {
+      "violentCrime": 4,
+      "burglary": 0.4,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 2.4,
+      "otherTheft": 0.7,
+      "other": 3.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Wraysbury Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Town Farm Primary School & Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stanwell Fields CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Green Corridor",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 299424,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 21,
+    "privateRent": 29,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 350,
+    "avgUpload": 63,
+    "superfastPct": 93,
+    "ultrafastPct": 87,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hounslow",
+    "bandD": 1882,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.5,
+    "imdRank": 18652,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TW19 is the postcode district for STAINES-UPON-THAMES, located in Greater London, London.",
+    "priceVsCounty": "The average property price in TW19 is £468,386, which is 64% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in TW19 cost 63.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TW19 have fallen 12.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 11.8 recorded crimes per 1,000 residents, TW19 has a crime rate well 85% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TW19 has 4 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TW19 are 350.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TW19 (STAINES-UPON-THAMES) offers above-average property prices (£468,386, 63% above national average), low crime (85% below national average), 4 nearby schools, and excellent broadband (350 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 350
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 350
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

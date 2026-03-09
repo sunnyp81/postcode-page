@@ -1,0 +1,198 @@
+{
+  "code": "RH12",
+  "name": "HORSHAM",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "redhill",
+  "adjacent": [
+    "RH11",
+    "RH13",
+    "RH14"
+  ],
+  "property": {
+    "avgPrice": 477759,
+    "medianPrice": 415000,
+    "priceChange1y": -3.5,
+    "priceChange5y": 0,
+    "transactions12m": 2623,
+    "byType": {
+      "detached": {
+        "avg": 738270,
+        "count": 565
+      },
+      "semi": {
+        "avg": 472118,
+        "count": 673
+      },
+      "terraced": {
+        "avg": 395080,
+        "count": 658
+      },
+      "flat": {
+        "avg": 244667,
+        "count": 624
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 478078
+      },
+      {
+        "year": 2024,
+        "avg": 485448
+      },
+      {
+        "year": 2025,
+        "avg": 468521
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 25.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -68.4,
+    "byType": {
+      "violentCrime": 7.8,
+      "burglary": 1.2,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 5.3,
+      "otherTheft": 5.3,
+      "other": 5.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 23,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Shelley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Trafalgar Community Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oakfields Primary School, Horsham",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Rudgwick Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Arunside School, Horsham",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 134284,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 12,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 313,
+    "avgUpload": 56,
+    "superfastPct": 96,
+    "ultrafastPct": 79,
+    "gigabitPct": 74,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Waverley",
+    "bandD": 2263,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 7.5,
+    "imdRank": 5343,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RH12 is the postcode district for HORSHAM, located in Surrey, South East.",
+    "priceVsCounty": "The average property price in RH12 is £477,759, which is 22% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in RH12 cost 66.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RH12 have fallen 3.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 25.7 recorded crimes per 1,000 residents, RH12 has a crime rate well 68% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RH12 has 23 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RH12 are 313.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RH12 (HORSHAM) offers above-average property prices (£477,759, 66% above national average), low crime (68% below national average), 23 nearby schools, and excellent broadband (313 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 313
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 313
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

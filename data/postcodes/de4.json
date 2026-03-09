@@ -1,0 +1,198 @@
+{
+  "code": "DE4",
+  "name": "MATLOCK",
+  "county": "derbyshire",
+  "region": "east-midlands",
+  "city": "derby",
+  "adjacent": [
+    "DE3",
+    "DE5",
+    "DE6"
+  ],
+  "property": {
+    "avgPrice": 348341,
+    "medianPrice": 288000,
+    "priceChange1y": -12.8,
+    "priceChange5y": 0,
+    "transactions12m": 1711,
+    "byType": {
+      "detached": {
+        "avg": 456144,
+        "count": 610
+      },
+      "semi": {
+        "avg": 270824,
+        "count": 480
+      },
+      "terraced": {
+        "avg": 225844,
+        "count": 394
+      },
+      "flat": {
+        "avg": 229775,
+        "count": 116
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 328143
+      },
+      {
+        "year": 2024,
+        "avg": 380842
+      },
+      {
+        "year": 2025,
+        "avg": 332025
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 15,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -81.5,
+    "byType": {
+      "violentCrime": 3.7,
+      "burglary": 0.3,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 3.3,
+      "otherTheft": 3.5,
+      "other": 4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 27,
+    "outstanding": 2,
+    "good": 9,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Brassington Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Crich Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lea Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Darley Dale Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Tansley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 130451,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 13,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 230,
+    "avgUpload": 41,
+    "superfastPct": 89,
+    "ultrafastPct": 52,
+    "gigabitPct": 52,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Amber Valley",
+    "bandD": 2086,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 14755,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DE4 covers MATLOCK in Derbyshire, East Midlands.",
+    "priceVsCounty": "The average property price in DE4 is £348,341, which is 20% above the Derbyshire average of £289,862.",
+    "priceVsNational": "Properties in DE4 cost 21.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DE4 have fallen 12.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 15.0 recorded crimes per 1,000 residents, DE4 has a crime rate well 82% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DE4 has 27 schools within or near its boundaries, including 2 rated Outstanding and 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DE4 are 230.0 Mbps, with 99% of premises having access to superfast broadband and 78% with full fibre (FTTP) connectivity.",
+    "synthesis": "DE4 (MATLOCK) offers above-average property prices (£348,341, 21% above national average), low crime (82% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (230 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 289862,
+      "crime": 75,
+      "broadband": 230
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 230
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

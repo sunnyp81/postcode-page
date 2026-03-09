@@ -1,0 +1,198 @@
+{
+  "code": "GL53",
+  "name": "CHELTENHAM",
+  "county": "gloucestershire",
+  "region": "south-west",
+  "city": "gloucester",
+  "adjacent": [
+    "GL52",
+    "GL54",
+    "GL55"
+  ],
+  "property": {
+    "avgPrice": 617124,
+    "medianPrice": 510000,
+    "priceChange1y": -12.3,
+    "priceChange5y": 0,
+    "transactions12m": 1058,
+    "byType": {
+      "detached": {
+        "avg": 906005,
+        "count": 325
+      },
+      "semi": {
+        "avg": 571329,
+        "count": 302
+      },
+      "terraced": {
+        "avg": 420392,
+        "count": 228
+      },
+      "flat": {
+        "avg": 244606,
+        "count": 154
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 649450
+      },
+      {
+        "year": 2024,
+        "avg": 637685
+      },
+      {
+        "year": 2025,
+        "avg": 559466
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 25.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -68.3,
+    "byType": {
+      "violentCrime": 6.4,
+      "burglary": 2.4,
+      "vehicleCrime": 2.9,
+      "antisocialBehaviour": 6,
+      "otherTheft": 3.7,
+      "other": 4.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Naunton Park Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Coberley Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Leckhampton Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Edward's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cheltenham College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 101949,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 343,
+    "avgUpload": 62,
+    "superfastPct": 98,
+    "ultrafastPct": 86,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Tewkesbury",
+    "bandD": 2029,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.1,
+    "imdRank": 9967,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GL53 encompasses CHELTENHAM and its surrounding areas in Gloucestershire, South West.",
+    "priceVsCounty": "The average property price in GL53 is £617,124, which is 40% above the Gloucestershire average of £441,384.",
+    "priceVsNational": "Properties in GL53 cost 115.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GL53 have fallen 12.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 25.8 recorded crimes per 1,000 residents, GL53 has a crime rate well 68% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GL53 has 10 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GL53 are 343.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GL53 (CHELTENHAM) offers above-average property prices (£617,124, 115% above national average), low crime (68% below national average), 10 nearby schools, and excellent broadband (343 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 441384,
+      "crime": 75,
+      "broadband": 343
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 343
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "code": "YO30",
+  "name": "YORK",
+  "county": "north-yorkshire",
+  "region": "yorkshire",
+  "city": "york",
+  "adjacent": [
+    "YO31",
+    "YO32"
+  ],
+  "property": {
+    "avgPrice": 366589,
+    "medianPrice": 290000,
+    "priceChange1y": -13.4,
+    "priceChange5y": 0,
+    "transactions12m": 1201,
+    "byType": {
+      "detached": {
+        "avg": 494898,
+        "count": 216
+      },
+      "semi": {
+        "avg": 321356,
+        "count": 405
+      },
+      "terraced": {
+        "avg": 334305,
+        "count": 421
+      },
+      "flat": {
+        "avg": 225150,
+        "count": 121
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 366420
+      },
+      {
+        "year": 2024,
+        "avg": 392400
+      },
+      {
+        "year": 2025,
+        "avg": 339822
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 19.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -75.9,
+    "byType": {
+      "violentCrime": 5.6,
+      "burglary": 0.8,
+      "vehicleCrime": 1.1,
+      "antisocialBehaviour": 4,
+      "otherTheft": 5.3,
+      "other": 2.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Paul's Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Clifton Green Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Linton-on-Ouse Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bootham School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Peter's School 2-18",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 28133,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 317,
+    "avgUpload": 57,
+    "superfastPct": 95,
+    "ultrafastPct": 78,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "York Council",
+    "bandD": 1725,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "YO30 covers YORK in North Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in YO30 is £366,589, broadly in line with the North Yorkshire average of £354,925.",
+    "priceVsNational": "Properties in YO30 cost 27.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in YO30 have fallen 13.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 19.6 recorded crimes per 1,000 residents, YO30 has a crime rate well 76% below the national average of 81.3 per 1,000.",
+    "schoolContext": "YO30 has 11 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in YO30 are 317.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "YO30 (YORK) offers above-average property prices (£366,589, 28% above national average), low crime (76% below national average), 11 nearby schools, and excellent broadband (317 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 354925,
+      "crime": 75,
+      "broadband": 317
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 317
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

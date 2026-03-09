@@ -1,0 +1,198 @@
+{
+  "code": "MK12",
+  "name": "MILTON KEYNES",
+  "county": "buckinghamshire",
+  "region": "south-east",
+  "city": "milton-keynes",
+  "adjacent": [
+    "MK11",
+    "MK13",
+    "MK14"
+  ],
+  "property": {
+    "avgPrice": 404495,
+    "medianPrice": 291500,
+    "priceChange1y": -38.8,
+    "priceChange5y": 0,
+    "transactions12m": 534,
+    "byType": {
+      "detached": {
+        "avg": 401343,
+        "count": 38
+      },
+      "semi": {
+        "avg": 327499,
+        "count": 116
+      },
+      "terraced": {
+        "avg": 283437,
+        "count": 290
+      },
+      "flat": {
+        "avg": 162700,
+        "count": 66
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 413115
+      },
+      {
+        "year": 2024,
+        "avg": 487422
+      },
+      {
+        "year": 2025,
+        "avg": 298345
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 55.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -32,
+    "byType": {
+      "violentCrime": 23.6,
+      "burglary": 1.8,
+      "vehicleCrime": 3.7,
+      "antisocialBehaviour": 7,
+      "otherTheft": 6.6,
+      "other": 12.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bushfield School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wyvern School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Greenleys First School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Greenleys Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary Magdalene Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 305884,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 18,
+    "privateRent": 19,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 366,
+    "avgUpload": 66,
+    "superfastPct": 99,
+    "ultrafastPct": 91,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Milton Keynes Council",
+    "bandD": 2321,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 14351,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "MK12 encompasses MILTON KEYNES and its surrounding areas in Buckinghamshire, South East.",
+    "priceVsCounty": "The average property price in MK12 is £404,495, which is 14% below the Buckinghamshire average of £472,988.",
+    "priceVsNational": "Properties in MK12 cost 40.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in MK12 have fallen 38.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 55.3 recorded crimes per 1,000 residents, MK12 has a crime rate well 32% below the national average of 81.3 per 1,000.",
+    "schoolContext": "MK12 has 7 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in MK12 are 366.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "MK12 (MILTON KEYNES) offers above-average property prices (£404,495, 41% above national average), low crime (32% below national average), 7 nearby schools, and excellent broadband (366 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 472988,
+      "crime": 75,
+      "broadband": 366
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 366
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

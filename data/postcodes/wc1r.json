@@ -1,0 +1,174 @@
+{
+  "code": "WC1R",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 4931784,
+    "medianPrice": 995000,
+    "priceChange1y": 88.8,
+    "priceChange5y": 0,
+    "transactions12m": 22,
+    "byType": {
+      "detached": {
+        "avg": 9370390,
+        "count": 0
+      },
+      "semi": {
+        "avg": 5918141,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 700000,
+        "count": 1
+      },
+      "flat": {
+        "avg": 1020019,
+        "count": 13
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 7331286
+      },
+      {
+        "year": 2024,
+        "avg": 2941700
+      },
+      {
+        "year": 2025,
+        "avg": 5552650
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 169.3,
+      "burglary": 28,
+      "vehicleCrime": 20.4,
+      "antisocialBehaviour": 118,
+      "otherTheft": 593.1,
+      "other": 105.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "City Junior School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 216943,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 14,
+    "socialRent": 34,
+    "privateRent": 33,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 350,
+    "avgUpload": 63,
+    "superfastPct": 88,
+    "ultrafastPct": 87,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Camden",
+    "bandD": 1900,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.1,
+    "imdRank": 16763,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WC1R covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in WC1R is £4,931,784, which is 277% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in WC1R cost 1618.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WC1R have risen 88.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, WC1R has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "WC1R has 1 school within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WC1R are 350.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WC1R (LONDON) offers above-average property prices (£4,931,784, 1618% above national average), higher-than-average crime (269% above national average), 1 nearby school, and excellent broadband (350 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 350
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 350
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

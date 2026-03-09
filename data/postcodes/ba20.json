@@ -1,0 +1,186 @@
+{
+  "code": "BA20",
+  "name": "YEOVIL",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "bath",
+  "adjacent": [
+    "BA21",
+    "BA22"
+  ],
+  "property": {
+    "avgPrice": 269090,
+    "medianPrice": 240000,
+    "priceChange1y": -1,
+    "priceChange5y": 0,
+    "transactions12m": 553,
+    "byType": {
+      "detached": {
+        "avg": 390927,
+        "count": 113
+      },
+      "semi": {
+        "avg": 266687,
+        "count": 154
+      },
+      "terraced": {
+        "avg": 203113,
+        "count": 152
+      },
+      "flat": {
+        "avg": 119416,
+        "count": 84
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 266905
+      },
+      {
+        "year": 2024,
+        "avg": 271587
+      },
+      {
+        "year": 2025,
+        "avg": 268927
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 94.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 16.4,
+    "byType": {
+      "violentCrime": 34.6,
+      "burglary": 2.2,
+      "vehicleCrime": 1.7,
+      "antisocialBehaviour": 15.9,
+      "otherTheft": 18.2,
+      "other": 22.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Oaklands Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Huish Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Holy Trinity Church School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 389,
+    "avgUpload": 70,
+    "superfastPct": 99,
+    "ultrafastPct": 97,
+    "gigabitPct": 97,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bath Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BA20 is the postcode district for YEOVIL, located in Somerset, South West.",
+    "priceVsCounty": "The average property price in BA20 is £269,090, which is 28% below the Somerset average of £373,759.",
+    "priceVsNational": "Properties in BA20 cost 6.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BA20 have fallen 1.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 94.6 recorded crimes per 1,000 residents, BA20 has a crime rate 16% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BA20 has 3 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BA20 are 389.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BA20 (YEOVIL) offers property prices near the national average (£269,090), higher-than-average crime (16% above national average), 3 nearby schools, and excellent broadband (389 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 389
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 389
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

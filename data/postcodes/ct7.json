@@ -1,0 +1,198 @@
+{
+  "code": "CT7",
+  "name": "BIRCHINGTON",
+  "county": "kent",
+  "region": "south-east",
+  "city": "canterbury",
+  "adjacent": [
+    "CT6",
+    "CT8",
+    "CT9"
+  ],
+  "property": {
+    "avgPrice": 343307,
+    "medianPrice": 315000,
+    "priceChange1y": 1.5,
+    "priceChange5y": 0,
+    "transactions12m": 614,
+    "byType": {
+      "detached": {
+        "avg": 466259,
+        "count": 203
+      },
+      "semi": {
+        "avg": 335864,
+        "count": 179
+      },
+      "terraced": {
+        "avg": 289456,
+        "count": 75
+      },
+      "flat": {
+        "avg": 179105,
+        "count": 135
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 345356
+      },
+      {
+        "year": 2024,
+        "avg": 339736
+      },
+      {
+        "year": 2025,
+        "avg": 344704
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 15.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -81.3,
+    "byType": {
+      "violentCrime": 6.8,
+      "burglary": 0.5,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 2.1,
+      "otherTheft": 2.4,
+      "other": 2.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Birchington Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Nicholas At Wade Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "King Ethelbert School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Llewellyn School and Nursery",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Maple Haven Ltd",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 142691,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 12,
+    "privateRent": 24,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 311,
+    "avgUpload": 56,
+    "superfastPct": 93,
+    "ultrafastPct": 75,
+    "gigabitPct": 75,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Thanet",
+    "bandD": 2173,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 31.3,
+    "imdRank": 21985,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CT7 encompasses BIRCHINGTON and its surrounding areas in Kent, South East.",
+    "priceVsCounty": "The average property price in CT7 is £343,307, which is 24% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in CT7 cost 19.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CT7 have risen 1.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 15.2 recorded crimes per 1,000 residents, CT7 has a crime rate well 81% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CT7 has 5 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CT7 are 311.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CT7 (BIRCHINGTON) offers property prices near the national average (£343,307), low crime (81% below national average), 5 nearby schools, and excellent broadband (311 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 311
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 311
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

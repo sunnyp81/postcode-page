@@ -1,0 +1,197 @@
+{
+  "code": "HR4",
+  "name": "HEREFORD",
+  "county": "herefordshire",
+  "region": "west-midlands",
+  "city": "hereford",
+  "adjacent": [
+    "HR3",
+    "HR5",
+    "HR6"
+  ],
+  "property": {
+    "avgPrice": 314481,
+    "medianPrice": 271500,
+    "priceChange1y": -9.4,
+    "priceChange5y": 0,
+    "transactions12m": 1550,
+    "byType": {
+      "detached": {
+        "avg": 433471,
+        "count": 461
+      },
+      "semi": {
+        "avg": 277795,
+        "count": 462
+      },
+      "terraced": {
+        "avg": 222874,
+        "count": 380
+      },
+      "flat": {
+        "avg": 140401,
+        "count": 151
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 319018
+      },
+      {
+        "year": 2024,
+        "avg": 326323
+      },
+      {
+        "year": 2025,
+        "avg": 295654
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.6,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Trinity Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Weobley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Staunton-on-Wye Endowed Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Weobley High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 39,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 63,
+    "socialRent": 16,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 329,
+    "avgUpload": 59,
+    "superfastPct": 96,
+    "ultrafastPct": 80,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hereford Council",
+    "bandD": 2183,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.9,
+    "imdRank": 16384,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HR4 encompasses HEREFORD and its surrounding areas in Herefordshire, West Midlands.",
+    "priceVsCounty": "The average property price in HR4 is £314,481, which is 16% below the Herefordshire average of £372,356.",
+    "priceVsNational": "Properties in HR4 cost 9.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HR4 have fallen 9.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, HR4 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HR4 has 15 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HR4 are 329.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HR4 (HEREFORD) offers property prices near the national average (£314,481), low crime (94% below national average), 15 nearby schools, and excellent broadband (329 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 372356,
+      "crime": 75,
+      "broadband": 329
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 329
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

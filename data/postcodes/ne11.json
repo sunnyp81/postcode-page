@@ -1,0 +1,198 @@
+{
+  "code": "NE11",
+  "name": "GATESHEAD",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "newcastle-upon-tyne",
+  "adjacent": [
+    "NE10",
+    "NE12",
+    "NE13"
+  ],
+  "property": {
+    "avgPrice": 218635,
+    "medianPrice": 158250,
+    "priceChange1y": 2.8,
+    "priceChange5y": 0,
+    "transactions12m": 760,
+    "byType": {
+      "detached": {
+        "avg": 364469,
+        "count": 92
+      },
+      "semi": {
+        "avg": 168784,
+        "count": 296
+      },
+      "terraced": {
+        "avg": 154271,
+        "count": 213
+      },
+      "flat": {
+        "avg": 91395,
+        "count": 86
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 270588
+      },
+      {
+        "year": 2024,
+        "avg": 185749
+      },
+      {
+        "year": 2025,
+        "avg": 190878
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 30.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -62.4,
+    "byType": {
+      "violentCrime": 12.1,
+      "burglary": 1.3,
+      "vehicleCrime": 1.7,
+      "antisocialBehaviour": 3.4,
+      "otherTheft": 3.7,
+      "other": 8.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Dunston Hill Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lobley Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kingsmeadow Community School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Emmanuel College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kibblesworth Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 202760,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 25,
+    "privateRent": 15,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 225,
+    "avgUpload": 41,
+    "superfastPct": 84,
+    "ultrafastPct": 52,
+    "gigabitPct": 51,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Gateshead",
+    "bandD": 2332,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 28.2,
+    "imdRank": 20831,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NE11 encompasses GATESHEAD and its surrounding areas in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in NE11 is £218,635, which is 17% below the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in NE11 cost 23.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NE11 have risen 2.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 30.6 recorded crimes per 1,000 residents, NE11 has a crime rate well 62% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NE11 has 6 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NE11 are 225.0 Mbps, with 99% of premises having access to superfast broadband and 77% with full fibre (FTTP) connectivity.",
+    "synthesis": "NE11 (GATESHEAD) offers affordable property prices (£218,635, 24% below national average), low crime (62% below national average), 6 nearby schools, and excellent broadband (225 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 225
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 225
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "code": "LD8",
+  "name": "PRESTEIGNE",
+  "county": "powys",
+  "region": "wales",
+  "city": "llandrindod-wells",
+  "adjacent": [
+    "LD7"
+  ],
+  "property": {
+    "avgPrice": 330903,
+    "medianPrice": 290000,
+    "priceChange1y": 29.6,
+    "priceChange5y": 0,
+    "transactions12m": 204,
+    "byType": {
+      "detached": {
+        "avg": 379177,
+        "count": 93
+      },
+      "semi": {
+        "avg": 268390,
+        "count": 46
+      },
+      "terraced": {
+        "avg": 203830,
+        "count": 30
+      },
+      "flat": {
+        "avg": 92500,
+        "count": 1
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 347245
+      },
+      {
+        "year": 2024,
+        "avg": 286808
+      },
+      {
+        "year": 2025,
+        "avg": 371712
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 79.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -2.1,
+    "byType": {
+      "violentCrime": 21.5,
+      "burglary": 5.2,
+      "vehicleCrime": 8,
+      "antisocialBehaviour": 17.5,
+      "otherTheft": 12.7,
+      "other": 14.7
+    },
+    "source": "synthetic-estimate",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Presteigne C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Radnor Valley C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Summergil House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 43,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 144,
+    "avgUpload": 26,
+    "superfastPct": 83,
+    "ultrafastPct": 28,
+    "gigabitPct": 28,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Llandrindod Wells Council",
+    "bandD": 2251,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.9,
+    "imdRank": 16384,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LD8 encompasses PRESTEIGNE and its surrounding areas in Powys, Wales.",
+    "priceVsCounty": "The average property price in LD8 is £330,903, which is 12% above the Powys average of £296,316.",
+    "priceVsNational": "Properties in LD8 cost 15.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LD8 have risen 29.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "LD8 has a crime rate of 79.6 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "LD8 has 3 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LD8 are 144.0 Mbps, with 92% of premises having access to superfast broadband and 55% with full fibre (FTTP) connectivity.",
+    "synthesis": "LD8 (PRESTEIGNE) offers property prices near the national average (£330,903), 3 nearby schools, and excellent broadband (144 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 296316,
+      "crime": 75,
+      "broadband": 144
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 144
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "PE34",
+  "name": "KING'S LYNN",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "peterborough",
+  "adjacent": [
+    "PE33",
+    "PE36"
+  ],
+  "property": {
+    "avgPrice": 288228,
+    "medianPrice": 250000,
+    "priceChange1y": -0.4,
+    "priceChange5y": 0,
+    "transactions12m": 544,
+    "byType": {
+      "detached": {
+        "avg": 332848,
+        "count": 292
+      },
+      "semi": {
+        "avg": 248487,
+        "count": 163
+      },
+      "terraced": {
+        "avg": 168758,
+        "count": 56
+      },
+      "flat": {
+        "avg": 121000,
+        "count": 1
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 303333
+      },
+      {
+        "year": 2024,
+        "avg": 281390
+      },
+      {
+        "year": 2025,
+        "avg": 280271
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Tilney St Lawrence Community Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Terrington St Clement Community School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Westfield House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Clement's High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "West Lynn Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 156206,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 14,
+    "privateRent": 16,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 234,
+    "avgUpload": 42,
+    "superfastPct": 83,
+    "ultrafastPct": 54,
+    "gigabitPct": 54,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Peterborough Council",
+    "bandD": 2372,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.7,
+    "imdRank": 19493,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PE34 covers KING'S LYNN in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in PE34 is £288,228, which is 25% below the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Property values in PE34 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in PE34 have fallen 0.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, PE34 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PE34 has 12 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PE34 are 234.0 Mbps, with 99% of premises having access to superfast broadband and 79% with full fibre (FTTP) connectivity.",
+    "synthesis": "PE34 (KING'S LYNN) offers property prices near the national average (£288,228), low crime (94% below national average), 12 nearby schools, and excellent broadband (234 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 234
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 234
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

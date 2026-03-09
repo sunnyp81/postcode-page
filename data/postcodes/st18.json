@@ -1,0 +1,198 @@
+{
+  "code": "ST18",
+  "name": "STAFFORD",
+  "county": "staffordshire",
+  "region": "west-midlands",
+  "city": "stoke-on-trent",
+  "adjacent": [
+    "ST17",
+    "ST19",
+    "ST20"
+  ],
+  "property": {
+    "avgPrice": 368380,
+    "medianPrice": 320000,
+    "priceChange1y": 7.3,
+    "priceChange5y": 0,
+    "transactions12m": 722,
+    "byType": {
+      "detached": {
+        "avg": 423272,
+        "count": 406
+      },
+      "semi": {
+        "avg": 259767,
+        "count": 168
+      },
+      "terraced": {
+        "avg": 269209,
+        "count": 75
+      },
+      "flat": {
+        "avg": 133333,
+        "count": 6
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 368850
+      },
+      {
+        "year": 2024,
+        "avg": 355057
+      },
+      {
+        "year": 2025,
+        "avg": 381050
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 13.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -82.9,
+    "byType": {
+      "violentCrime": 7,
+      "burglary": 0.3,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1.8,
+      "otherTheft": 1.3,
+      "other": 3.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Cooper Perry Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Yarlet School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stafford Grammar School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Weston Road Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Veritas Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 129659,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 240,
+    "avgUpload": 43,
+    "superfastPct": 82,
+    "ultrafastPct": 56,
+    "gigabitPct": 56,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Staffordshire",
+    "bandD": 2054,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19,
+    "imdRank": 15288,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ST18 encompasses STAFFORD and its surrounding areas in Staffordshire, West Midlands.",
+    "priceVsCounty": "The average property price in ST18 is £368,380, which is 38% above the Staffordshire average of £267,729.",
+    "priceVsNational": "Properties in ST18 cost 28.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ST18 have risen 7.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 13.9 recorded crimes per 1,000 residents, ST18 has a crime rate well 83% below the national average of 81.3 per 1,000.",
+    "schoolContext": "ST18 has 15 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ST18 are 240.0 Mbps, with 99% of premises having access to superfast broadband and 81% with full fibre (FTTP) connectivity.",
+    "synthesis": "ST18 (STAFFORD) offers above-average property prices (£368,380, 28% above national average), low crime (83% below national average), 15 nearby schools, and excellent broadband (240 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 267729,
+      "crime": 75,
+      "broadband": 240
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 240
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

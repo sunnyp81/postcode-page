@@ -1,0 +1,198 @@
+{
+  "code": "PO5",
+  "name": "SOUTHSEA",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "portsmouth",
+  "adjacent": [
+    "PO4",
+    "PO6",
+    "PO7"
+  ],
+  "property": {
+    "avgPrice": 306234,
+    "medianPrice": 217499,
+    "priceChange1y": -20.6,
+    "priceChange5y": 0,
+    "transactions12m": 1099,
+    "byType": {
+      "detached": {
+        "avg": 778932,
+        "count": 22
+      },
+      "semi": {
+        "avg": 573251,
+        "count": 73
+      },
+      "terraced": {
+        "avg": 347135,
+        "count": 323
+      },
+      "flat": {
+        "avg": 175734,
+        "count": 630
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 288697
+      },
+      {
+        "year": 2024,
+        "avg": 348121
+      },
+      {
+        "year": 2025,
+        "avg": 276377
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 289.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 255.8,
+    "byType": {
+      "violentCrime": 111.1,
+      "burglary": 7.4,
+      "vehicleCrime": 10.8,
+      "antisocialBehaviour": 34.8,
+      "otherTheft": 62.8,
+      "other": 62.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Southsea Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Swithun's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mayville High School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Portsmouth High School GDST",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ark Charter Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 214321,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 18,
+    "privateRent": 26,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 368,
+    "avgUpload": 66,
+    "superfastPct": 98,
+    "ultrafastPct": 94,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Portsmouth Council",
+    "bandD": 2319,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.9,
+    "imdRank": 20660,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PO5 encompasses SOUTHSEA and its surrounding areas in Hampshire, South East.",
+    "priceVsCounty": "The average property price in PO5 is £306,234, which is 29% below the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in PO5 cost 6.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PO5 have fallen 20.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 289.3 recorded crimes per 1,000 residents, PO5 has a crime rate significantly 256% above the national average of 81.3 per 1,000.",
+    "schoolContext": "PO5 has 7 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PO5 are 368.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PO5 (SOUTHSEA) offers property prices near the national average (£306,234), higher-than-average crime (256% above national average), 7 nearby schools, and excellent broadband (368 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 368
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 368
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

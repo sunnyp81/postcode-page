@@ -1,0 +1,198 @@
+{
+  "code": "CR4",
+  "name": "MITCHAM",
+  "county": "greater-london",
+  "region": "london",
+  "city": "croydon",
+  "adjacent": [
+    "CR3",
+    "CR5",
+    "CR6"
+  ],
+  "property": {
+    "avgPrice": 420705,
+    "medianPrice": 410000,
+    "priceChange1y": 3.4,
+    "priceChange5y": 0,
+    "transactions12m": 1507,
+    "byType": {
+      "detached": {
+        "avg": 525214,
+        "count": 14
+      },
+      "semi": {
+        "avg": 497598,
+        "count": 132
+      },
+      "terraced": {
+        "avg": 473608,
+        "count": 727
+      },
+      "flat": {
+        "avg": 296514,
+        "count": 579
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 422213
+      },
+      {
+        "year": 2024,
+        "avg": 413542
+      },
+      {
+        "year": 2025,
+        "avg": 427728
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 98.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 20.7,
+    "byType": {
+      "violentCrime": 36,
+      "burglary": 3.9,
+      "vehicleCrime": 7,
+      "antisocialBehaviour": 21,
+      "otherTheft": 11.2,
+      "other": 19.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 24,
+    "outstanding": 2,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bond Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lonesome Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Haslemere Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mark's Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Sherwood School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 214525,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 14,
+    "privateRent": 19,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 372,
+    "avgUpload": 67,
+    "superfastPct": 99,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Sutton",
+    "bandD": 2048,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14,
+    "imdRank": 11415,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CR4 covers MITCHAM in Greater London, London.",
+    "priceVsCounty": "The average property price in CR4 is £420,705, which is 68% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in CR4 cost 46.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CR4 have risen 3.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 98.1 recorded crimes per 1,000 residents, CR4 has a crime rate significantly 21% above the national average of 81.3 per 1,000.",
+    "schoolContext": "CR4 has 24 schools within or near its boundaries, including 2 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CR4 are 372.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CR4 (MITCHAM) offers above-average property prices (£420,705, 47% above national average), higher-than-average crime (21% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (372 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 372
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 372
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

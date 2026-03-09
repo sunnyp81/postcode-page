@@ -1,0 +1,198 @@
+{
+  "code": "NW8",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "NW7",
+    "NW9",
+    "NW10"
+  ],
+  "property": {
+    "avgPrice": 1943505,
+    "medianPrice": 867500,
+    "priceChange1y": 30.2,
+    "priceChange5y": 0,
+    "transactions12m": 1082,
+    "byType": {
+      "detached": {
+        "avg": 12052733,
+        "count": 37
+      },
+      "semi": {
+        "avg": 6599729,
+        "count": 41
+      },
+      "terraced": {
+        "avg": 3364349,
+        "count": 86
+      },
+      "flat": {
+        "avg": 1125903,
+        "count": 860
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1942589
+      },
+      {
+        "year": 2024,
+        "avg": 1758320
+      },
+      {
+        "year": 2025,
+        "avg": 2288684
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 281.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 245.8,
+    "byType": {
+      "violentCrime": 60.3,
+      "burglary": 15.4,
+      "vehicleCrime": 19.5,
+      "antisocialBehaviour": 67.8,
+      "otherTheft": 80.1,
+      "other": 38
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Swiss Cottage School - Development & Research Centre",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John's Wood Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Arnold House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The American School in London",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Saint Christina's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 209996,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 11,
+    "socialRent": 28,
+    "privateRent": 39,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 320,
+    "avgUpload": 58,
+    "superfastPct": 99,
+    "ultrafastPct": 77,
+    "gigabitPct": 77,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Westminster",
+    "bandD": 914,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.3,
+    "imdRank": 16573,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NW8 encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in NW8 is £1,943,505, which is 49% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in NW8 cost 577.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NW8 have risen 30.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 281.1 recorded crimes per 1,000 residents, NW8 has a crime rate significantly 246% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NW8 has 10 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NW8 are 320.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NW8 (LONDON) offers above-average property prices (£1,943,505, 577% above national average), higher-than-average crime (246% above national average), 10 nearby schools, and excellent broadband (320 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 320
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 320
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

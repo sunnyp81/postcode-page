@@ -1,0 +1,198 @@
+{
+  "code": "RG24",
+  "name": "BASINGSTOKE",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [
+    "RG23",
+    "RG25",
+    "RG26"
+  ],
+  "property": {
+    "avgPrice": 405219,
+    "medianPrice": 340000,
+    "priceChange1y": 15.2,
+    "priceChange5y": 0,
+    "transactions12m": 1730,
+    "byType": {
+      "detached": {
+        "avg": 575251,
+        "count": 448
+      },
+      "semi": {
+        "avg": 398101,
+        "count": 273
+      },
+      "terraced": {
+        "avg": 313472,
+        "count": 636
+      },
+      "flat": {
+        "avg": 193890,
+        "count": 341
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 398678
+      },
+      {
+        "year": 2024,
+        "avg": 381106
+      },
+      {
+        "year": 2025,
+        "avg": 438879
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 70.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -12.9,
+    "byType": {
+      "violentCrime": 35.4,
+      "burglary": 2.2,
+      "vehicleCrime": 1.7,
+      "antisocialBehaviour": 7.6,
+      "otherTheft": 9.6,
+      "other": 14.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 3,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Merton Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Merton Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Marnel Community Infant School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Old Basing Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Four Lanes Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 193110,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 18,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 337,
+    "avgUpload": 61,
+    "superfastPct": 98,
+    "ultrafastPct": 82,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Reading Council",
+    "bandD": 1606,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.8,
+    "imdRank": 10527,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG24 covers BASINGSTOKE in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG24 is £405,219, which is 31% below the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG24 cost 41.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG24 have risen 15.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 70.8 recorded crimes per 1,000 residents, RG24 has a crime rate 13% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RG24 has 14 schools within or near its boundaries, including 3 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG24 are 337.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG24 (BASINGSTOKE) offers above-average property prices (£405,219, 41% above national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (337 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 337
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 337
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

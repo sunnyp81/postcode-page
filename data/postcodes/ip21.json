@@ -1,0 +1,198 @@
+{
+  "code": "IP21",
+  "name": "DISS",
+  "county": "suffolk",
+  "region": "east-of-england",
+  "city": "ipswich",
+  "adjacent": [
+    "IP20",
+    "IP22",
+    "IP23"
+  ],
+  "property": {
+    "avgPrice": 393206,
+    "medianPrice": 333000,
+    "priceChange1y": 11.3,
+    "priceChange5y": 0,
+    "transactions12m": 469,
+    "byType": {
+      "detached": {
+        "avg": 472104,
+        "count": 229
+      },
+      "semi": {
+        "avg": 274289,
+        "count": 134
+      },
+      "terraced": {
+        "avg": 255921,
+        "count": 54
+      },
+      "flat": {
+        "avg": 148250,
+        "count": 10
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 424833
+      },
+      {
+        "year": 2024,
+        "avg": 358820
+      },
+      {
+        "year": 2025,
+        "avg": 399318
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.3,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Stradbroke High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Edmund's Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fressingfield Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stradbroke Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Dickleburgh Church of England Primary Academy (With Pre-School)",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 110775,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 11,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 198,
+    "avgUpload": 36,
+    "superfastPct": 87,
+    "ultrafastPct": 43,
+    "gigabitPct": 43,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Mid Suffolk",
+    "bandD": 2017,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.2,
+    "imdRank": 11380,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IP21 covers DISS in Suffolk, East Of England.",
+    "priceVsCounty": "The average property price in IP21 is £393,206, broadly in line with the Suffolk average of £379,904.",
+    "priceVsNational": "Properties in IP21 cost 37.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IP21 have risen 11.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, IP21 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IP21 has 8 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IP21 are 198.0 Mbps, with 99% of premises having access to superfast broadband and 69% with full fibre (FTTP) connectivity.",
+    "synthesis": "IP21 (DISS) offers above-average property prices (£393,206, 37% above national average), low crime (94% below national average), 8 nearby schools, and excellent broadband (198 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 379904,
+      "crime": 75,
+      "broadband": 198
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 198
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

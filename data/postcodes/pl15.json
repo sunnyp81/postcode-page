@@ -1,0 +1,198 @@
+{
+  "code": "PL15",
+  "name": "LAUNCESTON",
+  "county": "devon",
+  "region": "south-west",
+  "city": "plymouth",
+  "adjacent": [
+    "PL14",
+    "PL16",
+    "PL17"
+  ],
+  "property": {
+    "avgPrice": 310358,
+    "medianPrice": 255000,
+    "priceChange1y": 12.9,
+    "priceChange5y": 0,
+    "transactions12m": 878,
+    "byType": {
+      "detached": {
+        "avg": 399021,
+        "count": 330
+      },
+      "semi": {
+        "avg": 243257,
+        "count": 198
+      },
+      "terraced": {
+        "avg": 210189,
+        "count": 188
+      },
+      "flat": {
+        "avg": 115547,
+        "count": 78
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 325928
+      },
+      {
+        "year": 2024,
+        "avg": 285628
+      },
+      {
+        "year": 2025,
+        "avg": 322464
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.4,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0,
+      "other": 0.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 0,
+    "good": 9,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Trekenner Community Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "South Petherwin Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Tregadillett Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Josephs School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Giles-on-the-Heath Community School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 69841,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 24,
+    "socialRent": 9,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 272,
+    "avgUpload": 49,
+    "superfastPct": 82,
+    "ultrafastPct": 65,
+    "gigabitPct": 65,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Torridge",
+    "bandD": 2255,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.3,
+    "imdRank": 20086,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PL15 covers LAUNCESTON in Devon, South West.",
+    "priceVsCounty": "The average property price in PL15 is £310,358, which is 19% below the Devon average of £385,452.",
+    "priceVsNational": "Properties in PL15 cost 8.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PL15 have risen 12.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, PL15 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PL15 has 18 schools within or near its boundaries, including 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PL15 are 272.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PL15 (LAUNCESTON) offers property prices near the national average (£310,358), low crime (94% below national average), 18 nearby schools, and excellent broadband (272 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 272
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 272
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

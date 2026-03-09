@@ -1,0 +1,198 @@
+{
+  "code": "GU6",
+  "name": "CRANLEIGH",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU5",
+    "GU7",
+    "GU8"
+  ],
+  "property": {
+    "avgPrice": 644251,
+    "medianPrice": 580000,
+    "priceChange1y": 5.8,
+    "priceChange5y": 0,
+    "transactions12m": 861,
+    "byType": {
+      "detached": {
+        "avg": 845606,
+        "count": 370
+      },
+      "semi": {
+        "avg": 547550,
+        "count": 227
+      },
+      "terraced": {
+        "avg": 424662,
+        "count": 105
+      },
+      "flat": {
+        "avg": 300383,
+        "count": 121
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 653779
+      },
+      {
+        "year": 2024,
+        "avg": 623676
+      },
+      {
+        "year": 2025,
+        "avg": 659832
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 13.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -83.4,
+    "byType": {
+      "violentCrime": 4.9,
+      "burglary": 0.7,
+      "vehicleCrime": 1,
+      "antisocialBehaviour": 1.8,
+      "otherTheft": 2.1,
+      "other": 2.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Ewhurst CofE Aided Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Park Mead Primary",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cranleigh School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Duke of Kent School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Joseph's Specialist Trust",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 134284,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 12,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 286,
+    "avgUpload": 51,
+    "superfastPct": 92,
+    "ultrafastPct": 68,
+    "gigabitPct": 68,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Waverley",
+    "bandD": 2263,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 7.5,
+    "imdRank": 5343,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU6 covers CRANLEIGH in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU6 is £644,251, which is 5% above the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU6 cost 124.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU6 have risen 5.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 13.5 recorded crimes per 1,000 residents, GU6 has a crime rate well 83% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU6 has 9 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU6 are 286.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU6 (CRANLEIGH) offers above-average property prices (£644,251, 124% above national average), low crime (83% below national average), 9 nearby schools, and excellent broadband (286 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 286
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 286
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

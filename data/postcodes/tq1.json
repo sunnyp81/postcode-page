@@ -1,0 +1,197 @@
+{
+  "code": "TQ1",
+  "name": "TORQUAY",
+  "county": "devon",
+  "region": "south-west",
+  "city": "torquay",
+  "adjacent": [
+    "TQ2",
+    "TQ3"
+  ],
+  "property": {
+    "avgPrice": 277588,
+    "medianPrice": 215000,
+    "priceChange1y": -14.1,
+    "priceChange5y": 0,
+    "transactions12m": 1710,
+    "byType": {
+      "detached": {
+        "avg": 650140,
+        "count": 188
+      },
+      "semi": {
+        "avg": 335721,
+        "count": 131
+      },
+      "terraced": {
+        "avg": 241921,
+        "count": 578
+      },
+      "flat": {
+        "avg": 173744,
+        "count": 724
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 294199
+      },
+      {
+        "year": 2024,
+        "avg": 286887
+      },
+      {
+        "year": 2025,
+        "avg": 246406
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 154.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 89.9,
+    "byType": {
+      "violentCrime": 63.5,
+      "burglary": 4.1,
+      "vehicleCrime": 3.2,
+      "antisocialBehaviour": 27.6,
+      "otherTheft": 22.9,
+      "other": 32.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Homelands Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Spires College",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Cuthbert Mayne School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Abbey School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Margaret's Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 138548,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 10,
+    "privateRent": 16,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 337,
+    "avgUpload": 61,
+    "superfastPct": 96,
+    "ultrafastPct": 86,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Teignbridge",
+    "bandD": 2279,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.9,
+    "imdRank": 13686,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TQ1 is the postcode district for TORQUAY, located in Devon, South West.",
+    "priceVsCounty": "The average property price in TQ1 is £277,588, which is 28% below the Devon average of £385,452.",
+    "priceVsNational": "Property values in TQ1 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in TQ1 have fallen 14.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 154.4 recorded crimes per 1,000 residents, TQ1 has a crime rate significantly 90% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TQ1 has 14 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TQ1 are 337.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TQ1 (TORQUAY) offers property prices near the national average (£277,588), higher-than-average crime (90% above national average), 14 nearby schools, and excellent broadband (337 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 337
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 337
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

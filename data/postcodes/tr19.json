@@ -1,0 +1,198 @@
+{
+  "code": "TR19",
+  "name": "PENZANCE",
+  "county": "cornwall",
+  "region": "south-west",
+  "city": "truro",
+  "adjacent": [
+    "TR18",
+    "TR20",
+    "TR21"
+  ],
+  "property": {
+    "avgPrice": 417110,
+    "medianPrice": 320000,
+    "priceChange1y": -27.8,
+    "priceChange5y": 0,
+    "transactions12m": 431,
+    "byType": {
+      "detached": {
+        "avg": 539377,
+        "count": 129
+      },
+      "semi": {
+        "avg": 332004,
+        "count": 61
+      },
+      "terraced": {
+        "avg": 300944,
+        "count": 173
+      },
+      "flat": {
+        "avg": 216595,
+        "count": 21
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 380714
+      },
+      {
+        "year": 2024,
+        "avg": 490040
+      },
+      {
+        "year": 2025,
+        "avg": 353891
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Levan Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Buryan Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pendeen School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Just Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mousehole School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 583289,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 176,
+    "avgUpload": 32,
+    "superfastPct": 84,
+    "ultrafastPct": 37,
+    "gigabitPct": 37,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Truro Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.1,
+    "imdRank": 19382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TR19 encompasses PENZANCE and its surrounding areas in Cornwall, South West.",
+    "priceVsCounty": "The average property price in TR19 is £417,110, broadly in line with the Cornwall average of £402,222.",
+    "priceVsNational": "Properties in TR19 cost 45.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TR19 have fallen 27.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TR19 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TR19 has 7 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TR19 are 176.0 Mbps, with 96% of premises having access to superfast broadband and 63% with full fibre (FTTP) connectivity.",
+    "synthesis": "TR19 (PENZANCE) offers above-average property prices (£417,110, 45% above national average), low crime (94% below national average), 7 nearby schools, and excellent broadband (176 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 402222,
+      "crime": 75,
+      "broadband": 176
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 176
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

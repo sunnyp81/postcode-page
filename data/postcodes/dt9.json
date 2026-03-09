@@ -1,0 +1,197 @@
+{
+  "code": "DT9",
+  "name": "SHERBORNE",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "dorchester",
+  "adjacent": [
+    "DT8",
+    "DT10",
+    "DT11"
+  ],
+  "property": {
+    "avgPrice": 413902,
+    "medianPrice": 330000,
+    "priceChange1y": 1.2,
+    "priceChange5y": 0,
+    "transactions12m": 1045,
+    "byType": {
+      "detached": {
+        "avg": 570911,
+        "count": 357
+      },
+      "semi": {
+        "avg": 329838,
+        "count": 253
+      },
+      "terraced": {
+        "avg": 292808,
+        "count": 291
+      },
+      "flat": {
+        "avg": 183443,
+        "count": 91
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 461195
+      },
+      {
+        "year": 2024,
+        "avg": 389725
+      },
+      {
+        "year": 2025,
+        "avg": 394588
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 16.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -80,
+    "byType": {
+      "violentCrime": 4.8,
+      "burglary": 0.5,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 5.6,
+      "otherTheft": 2.8,
+      "other": 2.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Sherborne Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sherborne School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sherborne School for Girls",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Leweston School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Gryphon School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 23666,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 269,
+    "avgUpload": 48,
+    "superfastPct": 93,
+    "ultrafastPct": 63,
+    "gigabitPct": 63,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Dorchester Council",
+    "bandD": 2115,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DT9 encompasses SHERBORNE and its surrounding areas in Dorset, South West.",
+    "priceVsCounty": "The average property price in DT9 is £413,902, broadly in line with the Dorset average of £425,376.",
+    "priceVsNational": "Properties in DT9 cost 44.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DT9 have risen 1.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 16.3 recorded crimes per 1,000 residents, DT9 has a crime rate well 80% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DT9 has 15 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DT9 are 269.0 Mbps, with 99% of premises having access to superfast broadband and 89% with full fibre (FTTP) connectivity.",
+    "synthesis": "DT9 (SHERBORNE) offers above-average property prices (£413,902, 44% above national average), low crime (80% below national average), 15 nearby schools, and excellent broadband (269 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 269
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 269
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

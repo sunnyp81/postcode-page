@@ -1,0 +1,197 @@
+{
+  "code": "LA11",
+  "name": "GRANGE-OVER-SANDS",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "lancaster",
+  "adjacent": [
+    "LA10",
+    "LA12",
+    "LA13"
+  ],
+  "property": {
+    "avgPrice": 326794,
+    "medianPrice": 285500,
+    "priceChange1y": -7.8,
+    "priceChange5y": 0,
+    "transactions12m": 634,
+    "byType": {
+      "detached": {
+        "avg": 422235,
+        "count": 235
+      },
+      "semi": {
+        "avg": 309092,
+        "count": 120
+      },
+      "terraced": {
+        "avg": 227778,
+        "count": 96
+      },
+      "flat": {
+        "avg": 189317,
+        "count": 130
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 332145
+      },
+      {
+        "year": 2024,
+        "avg": 335325
+      },
+      {
+        "year": 2025,
+        "avg": 309152
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.3,
+      "burglary": 0.2,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.3,
+      "other": 0.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Grange CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Allithwaite CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cartmel CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lindale CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Dean Barwick Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 96,
+    "avgUpload": 17,
+    "superfastPct": 91,
+    "ultrafastPct": 13,
+    "gigabitPct": 13,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lancaster Council",
+    "bandD": 2304,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LA11 encompasses GRANGE-OVER-SANDS and its surrounding areas in Lancashire, North West.",
+    "priceVsCounty": "The average property price in LA11 is £326,794, which is 28% above the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in LA11 cost 13.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LA11 have fallen 7.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, LA11 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LA11 has 10 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LA11 are 96.0 Mbps, with 84% of premises having access to superfast broadband and 41% with full fibre (FTTP) connectivity.",
+    "synthesis": "LA11 (GRANGE-OVER-SANDS) offers property prices near the national average (£326,794), low crime (94% below national average), 10 nearby schools, and good broadband connectivity (96 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 96
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 96
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

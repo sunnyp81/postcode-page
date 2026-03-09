@@ -1,0 +1,198 @@
+{
+  "code": "NR12",
+  "name": "NORWICH",
+  "county": "norfolk",
+  "region": "east-of-england",
+  "city": "norwich",
+  "adjacent": [
+    "NR11",
+    "NR13",
+    "NR14"
+  ],
+  "property": {
+    "avgPrice": 347448,
+    "medianPrice": 285000,
+    "priceChange1y": 8,
+    "priceChange5y": 0,
+    "transactions12m": 1069,
+    "byType": {
+      "detached": {
+        "avg": 425883,
+        "count": 520
+      },
+      "semi": {
+        "avg": 263734,
+        "count": 241
+      },
+      "terraced": {
+        "avg": 248500,
+        "count": 152
+      },
+      "flat": {
+        "avg": 152834,
+        "count": 57
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 349603
+      },
+      {
+        "year": 2024,
+        "avg": 334283
+      },
+      {
+        "year": 2025,
+        "avg": 360941
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.1,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bacton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Frettenham Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Horning Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Tunstead Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John's Community Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 103217,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 20,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 115,
+    "avgUpload": 21,
+    "superfastPct": 86,
+    "ultrafastPct": 19,
+    "gigabitPct": 19,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Norfolk",
+    "bandD": 2129,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.1,
+    "imdRank": 18681,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NR12 is the postcode district for NORWICH, located in Norfolk, East Of England.",
+    "priceVsCounty": "The average property price in NR12 is £347,448, broadly in line with the Norfolk average of £352,657.",
+    "priceVsNational": "Properties in NR12 cost 21.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NR12 have risen 8.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, NR12 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NR12 has 17 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NR12 are 115.0 Mbps, with 87% of premises having access to superfast broadband and 47% with full fibre (FTTP) connectivity.",
+    "synthesis": "NR12 (NORWICH) offers above-average property prices (£347,448, 21% above national average), low crime (94% below national average), 17 nearby schools, and excellent broadband (115 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 352657,
+      "crime": 75,
+      "broadband": 115
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 115
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

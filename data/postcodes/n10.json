@@ -1,0 +1,198 @@
+{
+  "code": "N10",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "N9",
+    "N11",
+    "N12"
+  ],
+  "property": {
+    "avgPrice": 933902,
+    "medianPrice": 697500,
+    "priceChange1y": 0.7,
+    "priceChange5y": 0,
+    "transactions12m": 944,
+    "byType": {
+      "detached": {
+        "avg": 1655417,
+        "count": 24
+      },
+      "semi": {
+        "avg": 1502939,
+        "count": 122
+      },
+      "terraced": {
+        "avg": 1362392,
+        "count": 253
+      },
+      "flat": {
+        "avg": 518096,
+        "count": 508
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 937677
+      },
+      {
+        "year": 2024,
+        "avg": 928962
+      },
+      {
+        "year": 2025,
+        "avg": 935058
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 69.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -14.4,
+    "byType": {
+      "violentCrime": 14.8,
+      "burglary": 4.4,
+      "vehicleCrime": 12.2,
+      "antisocialBehaviour": 13.1,
+      "otherTheft": 15.5,
+      "other": 9.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Coppetts Wood Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Hollickwood Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Coldfall Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tetherdown Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St James Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 405050,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 13,
+    "privateRent": 30,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 336,
+    "avgUpload": 60,
+    "superfastPct": 99,
+    "ultrafastPct": 86,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Barnet",
+    "bandD": 1836,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.1,
+    "imdRank": 13803,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "N10 is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in N10 is £933,902, which is 29% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in N10 cost 225.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in N10 have risen 0.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 69.6 recorded crimes per 1,000 residents, N10 has a crime rate 14% below the national average of 81.3 per 1,000.",
+    "schoolContext": "N10 has 13 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in N10 are 336.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "N10 (LONDON) offers above-average property prices (£933,902, 225% above national average), 13 nearby schools, and excellent broadband (336 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 336
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 336
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

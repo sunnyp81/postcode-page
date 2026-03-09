@@ -1,0 +1,198 @@
+{
+  "code": "SE20",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SE19",
+    "SE21",
+    "SE22"
+  ],
+  "property": {
+    "avgPrice": 443739,
+    "medianPrice": 391750,
+    "priceChange1y": 2.8,
+    "priceChange5y": 0,
+    "transactions12m": 954,
+    "byType": {
+      "detached": {
+        "avg": 790208,
+        "count": 12
+      },
+      "semi": {
+        "avg": 678101,
+        "count": 69
+      },
+      "terraced": {
+        "avg": 575579,
+        "count": 219
+      },
+      "flat": {
+        "avg": 335878,
+        "count": 594
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 438811
+      },
+      {
+        "year": 2024,
+        "avg": 440910
+      },
+      {
+        "year": 2025,
+        "avg": 453050
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 106.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 31.4,
+    "byType": {
+      "violentCrime": 29,
+      "burglary": 4.5,
+      "vehicleCrime": 11.3,
+      "antisocialBehaviour": 22,
+      "otherTheft": 20.5,
+      "other": 19.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Stewart Fleming Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Harris Primary Academy Kent House",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Harris Primary Academy Crystal Palace",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "James Dixon Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 335319,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 344,
+    "avgUpload": 62,
+    "superfastPct": 98,
+    "ultrafastPct": 84,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bromley",
+    "bandD": 1842,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.2,
+    "imdRank": 11297,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SE20 is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in SE20 is £443,739, which is 66% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SE20 cost 54.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SE20 have risen 2.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 106.8 recorded crimes per 1,000 residents, SE20 has a crime rate significantly 31% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SE20 has 7 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SE20 are 344.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SE20 (LONDON) offers above-average property prices (£443,739, 55% above national average), higher-than-average crime (31% above national average), 7 nearby schools, and excellent broadband (344 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 344
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 344
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

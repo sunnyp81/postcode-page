@@ -1,0 +1,198 @@
+{
+  "code": "WF3",
+  "name": "WAKEFIELD",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "wakefield",
+  "adjacent": [
+    "WF2",
+    "WF4",
+    "WF5"
+  ],
+  "property": {
+    "avgPrice": 260537,
+    "medianPrice": 240000,
+    "priceChange1y": -2.2,
+    "priceChange5y": 0,
+    "transactions12m": 2041,
+    "byType": {
+      "detached": {
+        "avg": 364209,
+        "count": 716
+      },
+      "semi": {
+        "avg": 219606,
+        "count": 747
+      },
+      "terraced": {
+        "avg": 171469,
+        "count": 442
+      },
+      "flat": {
+        "avg": 125374,
+        "count": 90
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 246689
+      },
+      {
+        "year": 2024,
+        "avg": 269721
+      },
+      {
+        "year": 2025,
+        "avg": 263726
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 17.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -78.5,
+    "byType": {
+      "violentCrime": 7.5,
+      "burglary": 0.9,
+      "vehicleCrime": 1.3,
+      "antisocialBehaviour": 2.4,
+      "otherTheft": 1.7,
+      "other": 3.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Carlton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Robin Hood Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Thorpe Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Stanley St Peters Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Kingsland Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 845189,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 379,
+    "avgUpload": 68,
+    "superfastPct": 98,
+    "ultrafastPct": 95,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Leeds",
+    "bandD": 1968,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.3,
+    "imdRank": 18909,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WF3 is the postcode district for WAKEFIELD, located in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in WF3 is £260,537, which is 6% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in WF3 cost 9.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WF3 have fallen 2.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 17.5 recorded crimes per 1,000 residents, WF3 has a crime rate well 78% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WF3 has 13 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WF3 are 379.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WF3 (WAKEFIELD) offers property prices near the national average (£260,537), low crime (78% below national average), 13 nearby schools, and excellent broadband (379 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 379
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 379
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

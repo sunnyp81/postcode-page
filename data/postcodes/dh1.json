@@ -1,0 +1,197 @@
+{
+  "code": "DH1",
+  "name": "DURHAM",
+  "county": "county-durham",
+  "region": "north-east",
+  "city": "durham",
+  "adjacent": [
+    "DH2",
+    "DH3"
+  ],
+  "property": {
+    "avgPrice": 316366,
+    "medianPrice": 210000,
+    "priceChange1y": 3.5,
+    "priceChange5y": 0,
+    "transactions12m": 2055,
+    "byType": {
+      "detached": {
+        "avg": 410302,
+        "count": 372
+      },
+      "semi": {
+        "avg": 217956,
+        "count": 856
+      },
+      "terraced": {
+        "avg": 233843,
+        "count": 451
+      },
+      "flat": {
+        "avg": 152330,
+        "count": 276
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 411671
+      },
+      {
+        "year": 2024,
+        "avg": 260564
+      },
+      {
+        "year": 2025,
+        "avg": 269637
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 98,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 20.5,
+    "byType": {
+      "violentCrime": 33.5,
+      "burglary": 2.7,
+      "vehicleCrime": 1.5,
+      "antisocialBehaviour": 18.8,
+      "otherTheft": 20.3,
+      "other": 21.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 26,
+    "outstanding": 1,
+    "good": 9,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Neville's Cross Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Durham Newton Hall Infants' School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Belmont Cheveley Park Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Laurel Avenue Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Durham Gilesgate Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 538011,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 20,
+    "privateRent": 15,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 274,
+    "avgUpload": 49,
+    "superfastPct": 95,
+    "ultrafastPct": 64,
+    "gigabitPct": 64,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Durham Council",
+    "bandD": 2115,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.8,
+    "imdRank": 20206,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DH1 covers DURHAM in County Durham, North East.",
+    "priceVsCounty": "The average property price in DH1 is £316,366, which is 52% above the County Durham average of £207,512.",
+    "priceVsNational": "Properties in DH1 cost 10.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DH1 have risen 3.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 98.0 recorded crimes per 1,000 residents, DH1 has a crime rate significantly 21% above the national average of 81.3 per 1,000.",
+    "schoolContext": "DH1 has 26 schools within or near its boundaries, including 1 rated Outstanding and 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DH1 are 274.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DH1 (DURHAM) offers property prices near the national average (£316,366), higher-than-average crime (21% above national average), 26 nearby schools, and excellent broadband (274 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 207512,
+      "crime": 75,
+      "broadband": 274
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 274
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

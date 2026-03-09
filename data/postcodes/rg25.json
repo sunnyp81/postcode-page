@@ -1,0 +1,193 @@
+{
+  "code": "RG25",
+  "name": "BASINGSTOKE",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [
+    "RG24",
+    "RG26",
+    "RG27"
+  ],
+  "property": {
+    "avgPrice": 737288,
+    "medianPrice": 511250,
+    "priceChange1y": -25.3,
+    "priceChange5y": 0,
+    "transactions12m": 326,
+    "byType": {
+      "detached": {
+        "avg": 961891,
+        "count": 151
+      },
+      "semi": {
+        "avg": 449605,
+        "count": 67
+      },
+      "terraced": {
+        "avg": 347772,
+        "count": 72
+      },
+      "flat": {
+        "avg": 198938,
+        "count": 16
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 685603
+      },
+      {
+        "year": 2024,
+        "avg": 844853
+      },
+      {
+        "year": 2025,
+        "avg": 630844
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 10.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -87.6,
+    "byType": {
+      "violentCrime": 5.4,
+      "burglary": 0.5,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1.4,
+      "otherTheft": 0.7,
+      "other": 1.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Cliddesden Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Overton Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Preston Candover Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "North Waltham Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 103162,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 9,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 148,
+    "avgUpload": 27,
+    "superfastPct": 83,
+    "ultrafastPct": 29,
+    "gigabitPct": 29,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hart",
+    "bandD": 2079,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 5.5,
+    "imdRank": 3284,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG25 is the postcode district for BASINGSTOKE, located in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG25 is £737,288, which is 26% above the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG25 cost 156.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG25 have fallen 25.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 10.1 recorded crimes per 1,000 residents, RG25 has a crime rate well 88% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RG25 has 4 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG25 are 148.0 Mbps, with 92% of premises having access to superfast broadband and 56% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG25 (BASINGSTOKE) offers above-average property prices (£737,288, 157% above national average), low crime (88% below national average), 4 nearby schools, and excellent broadband (148 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 148
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 148
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

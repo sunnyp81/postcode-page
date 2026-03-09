@@ -1,0 +1,182 @@
+{
+  "code": "TA13",
+  "name": "SOUTH PETHERTON",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "taunton",
+  "adjacent": [
+    "TA12",
+    "TA14",
+    "TA15"
+  ],
+  "property": {
+    "avgPrice": 411551,
+    "medianPrice": 372500,
+    "priceChange1y": 9,
+    "priceChange5y": 0,
+    "transactions12m": 211,
+    "byType": {
+      "detached": {
+        "avg": 546772,
+        "count": 84
+      },
+      "semi": {
+        "avg": 305141,
+        "count": 43
+      },
+      "terraced": {
+        "avg": 315171,
+        "count": 62
+      },
+      "flat": {
+        "avg": 156125,
+        "count": 8
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 418476
+      },
+      {
+        "year": 2024,
+        "avg": 392046
+      },
+      {
+        "year": 2025,
+        "avg": 427305
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 7.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -91.1,
+    "byType": {
+      "violentCrime": 3.8,
+      "burglary": 0.4,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1.1,
+      "otherTheft": 0.3,
+      "other": 1.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "South Petherton Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "South Petherton Church of England Infants and Pre School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 26693,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 353,
+    "avgUpload": 64,
+    "superfastPct": 95,
+    "ultrafastPct": 87,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Taunton Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TA13 covers SOUTH PETHERTON in Somerset, South West.",
+    "priceVsCounty": "The average property price in TA13 is £411,551, which is 10% above the Somerset average of £373,759.",
+    "priceVsNational": "Properties in TA13 cost 43.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TA13 have risen 9.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 7.2 recorded crimes per 1,000 residents, TA13 has a crime rate well 91% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TA13 has 2 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TA13 are 353.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TA13 (SOUTH PETHERTON) offers above-average property prices (£411,551, 43% above national average), low crime (91% below national average), 2 nearby schools, and excellent broadband (353 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 353
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 353
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "GL11",
+  "name": "DURSLEY",
+  "county": "gloucestershire",
+  "region": "south-west",
+  "city": "gloucester",
+  "adjacent": [
+    "GL10",
+    "GL12",
+    "GL13"
+  ],
+  "property": {
+    "avgPrice": 367333,
+    "medianPrice": 315405,
+    "priceChange1y": 5.3,
+    "priceChange5y": 0,
+    "transactions12m": 1001,
+    "byType": {
+      "detached": {
+        "avg": 492706,
+        "count": 358
+      },
+      "semi": {
+        "avg": 308378,
+        "count": 328
+      },
+      "terraced": {
+        "avg": 262358,
+        "count": 177
+      },
+      "flat": {
+        "avg": 146011,
+        "count": 87
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 403194
+      },
+      {
+        "year": 2024,
+        "avg": 337768
+      },
+      {
+        "year": 2025,
+        "avg": 355701
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 22.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -72.8,
+    "byType": {
+      "violentCrime": 9.2,
+      "burglary": 0.3,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 4.6,
+      "otherTheft": 2.5,
+      "other": 4.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Cam Woodfield Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cam Everlands Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Uley Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cam Hopton Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "North Nibley CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 125680,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 12,
+    "privateRent": 12,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 212,
+    "avgUpload": 38,
+    "superfastPct": 95,
+    "ultrafastPct": 46,
+    "gigabitPct": 46,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stroud",
+    "bandD": 2155,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10.8,
+    "imdRank": 8821,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GL11 encompasses DURSLEY and its surrounding areas in Gloucestershire, South West.",
+    "priceVsCounty": "The average property price in GL11 is £367,333, which is 17% below the Gloucestershire average of £441,384.",
+    "priceVsNational": "Properties in GL11 cost 28.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GL11 have risen 5.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 22.1 recorded crimes per 1,000 residents, GL11 has a crime rate well 73% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GL11 has 10 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GL11 are 212.0 Mbps, with 99% of premises having access to superfast broadband and 73% with full fibre (FTTP) connectivity.",
+    "synthesis": "GL11 (DURSLEY) offers above-average property prices (£367,333, 28% above national average), low crime (73% below national average), 10 nearby schools, and excellent broadband (212 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 441384,
+      "crime": 75,
+      "broadband": 212
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 212
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

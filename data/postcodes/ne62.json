@@ -1,0 +1,198 @@
+{
+  "code": "NE62",
+  "name": "CHOPPINGTON",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "newcastle-upon-tyne",
+  "adjacent": [
+    "NE61",
+    "NE63",
+    "NE64"
+  ],
+  "property": {
+    "avgPrice": 143644,
+    "medianPrice": 135000,
+    "priceChange1y": -1.4,
+    "priceChange5y": 0,
+    "transactions12m": 536,
+    "byType": {
+      "detached": {
+        "avg": 243404,
+        "count": 100
+      },
+      "semi": {
+        "avg": 139823,
+        "count": 268
+      },
+      "terraced": {
+        "avg": 101833,
+        "count": 119
+      },
+      "flat": {
+        "avg": 49713,
+        "count": 40
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 144736
+      },
+      {
+        "year": 2024,
+        "avg": 143950
+      },
+      {
+        "year": 2025,
+        "avg": 141975
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 24.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -69.5,
+    "byType": {
+      "violentCrime": 8.4,
+      "burglary": 0.8,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 5.5,
+      "otherTheft": 3.8,
+      "other": 5.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Stakeford Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Choppington Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mowbray Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ringway Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cleaswell Hill School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 331420,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 18,
+    "privateRent": 14,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 363,
+    "avgUpload": 65,
+    "superfastPct": 97,
+    "ultrafastPct": 91,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newcastle Upon Tyne Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.1,
+    "imdRank": 16778,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NE62 encompasses CHOPPINGTON and its surrounding areas in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in NE62 is £143,644, which is 46% below the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in NE62 cost 49.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NE62 have fallen 1.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 24.8 recorded crimes per 1,000 residents, NE62 has a crime rate well 69% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NE62 has 5 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NE62 are 363.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NE62 (CHOPPINGTON) offers affordable property prices (£143,644, 50% below national average), low crime (69% below national average), 5 nearby schools, and excellent broadband (363 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 363
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 363
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

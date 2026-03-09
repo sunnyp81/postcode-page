@@ -1,0 +1,198 @@
+{
+  "code": "BS35",
+  "name": "BRISTOL",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS34",
+    "BS36",
+    "BS37"
+  ],
+  "property": {
+    "avgPrice": 541719,
+    "medianPrice": 363000,
+    "priceChange1y": -17.7,
+    "priceChange5y": 0,
+    "transactions12m": 1176,
+    "byType": {
+      "detached": {
+        "avg": 538699,
+        "count": 443
+      },
+      "semi": {
+        "avg": 338553,
+        "count": 303
+      },
+      "terraced": {
+        "avg": 301437,
+        "count": 248
+      },
+      "flat": {
+        "avg": 208358,
+        "count": 110
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 554272
+      },
+      {
+        "year": 2024,
+        "avg": 577208
+      },
+      {
+        "year": 2025,
+        "avg": 475167
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.8,
+      "burglary": 0.2,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.5,
+      "otherTheft": 0.2,
+      "other": 0.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 2,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Helen's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Oldbury on Severn Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Olveston Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary's Church of England Primary School, Thornbury",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Christ The King Catholic Primary School, Thornbury",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 306332,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 11,
+    "privateRent": 14,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 291,
+    "avgUpload": 52,
+    "superfastPct": 95,
+    "ultrafastPct": 69,
+    "gigabitPct": 69,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9595,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS35 is the postcode district for BRISTOL, located in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS35 is £541,719, which is 21% above the Bristol average of £449,132.",
+    "priceVsNational": "Properties in BS35 cost 88.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BS35 have fallen 17.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, BS35 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BS35 has 17 schools within or near its boundaries, including 2 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS35 are 291.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS35 (BRISTOL) offers above-average property prices (£541,719, 89% above national average), low crime (94% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (291 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 291
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 291
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

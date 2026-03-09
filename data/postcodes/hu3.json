@@ -1,0 +1,197 @@
+{
+  "code": "HU3",
+  "name": "HULL",
+  "county": "east-yorkshire",
+  "region": "yorkshire",
+  "city": "hull",
+  "adjacent": [
+    "HU2",
+    "HU4",
+    "HU5"
+  ],
+  "property": {
+    "avgPrice": 131861,
+    "medianPrice": 107000,
+    "priceChange1y": 1.6,
+    "priceChange5y": 0,
+    "transactions12m": 1231,
+    "byType": {
+      "detached": {
+        "avg": 192673,
+        "count": 28
+      },
+      "semi": {
+        "avg": 152547,
+        "count": 170
+      },
+      "terraced": {
+        "avg": 106849,
+        "count": 844
+      },
+      "flat": {
+        "avg": 53148,
+        "count": 83
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 149376
+      },
+      {
+        "year": 2024,
+        "avg": 120541
+      },
+      {
+        "year": 2025,
+        "avg": 122458
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 218.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 169.2,
+    "byType": {
+      "violentCrime": 85,
+      "burglary": 10.2,
+      "vehicleCrime": 10,
+      "antisocialBehaviour": 15.9,
+      "otherTheft": 42.7,
+      "other": 55.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 2,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hymers College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hull Trinity House Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lift Newington",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "The Boulevard Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wheeler Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 39,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 392,
+    "avgUpload": 71,
+    "superfastPct": 98,
+    "ultrafastPct": 98,
+    "gigabitPct": 98,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hull Council",
+    "bandD": 2183,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 40.6,
+    "imdRank": 25222,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HU3 is the postcode district for HULL, located in East Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HU3 is £131,861, which is 38% below the East Yorkshire average of £211,309.",
+    "priceVsNational": "Properties in HU3 cost 54.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HU3 have risen 1.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 218.9 recorded crimes per 1,000 residents, HU3 has a crime rate significantly 169% above the national average of 81.3 per 1,000.",
+    "schoolContext": "HU3 has 14 schools within or near its boundaries, including 2 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HU3 are 392.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HU3 (HULL) offers affordable property prices (£131,861, 54% below national average), higher-than-average crime (169% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (392 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 211309,
+      "crime": 75,
+      "broadband": 392
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 392
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

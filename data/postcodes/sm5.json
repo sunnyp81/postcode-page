@@ -1,0 +1,198 @@
+{
+  "code": "SM5",
+  "name": "CARSHALTON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "sutton",
+  "adjacent": [
+    "SM4",
+    "SM6",
+    "SM7"
+  ],
+  "property": {
+    "avgPrice": 485940,
+    "medianPrice": 440000,
+    "priceChange1y": 0.2,
+    "priceChange5y": 0,
+    "transactions12m": 1257,
+    "byType": {
+      "detached": {
+        "avg": 853778,
+        "count": 109
+      },
+      "semi": {
+        "avg": 631465,
+        "count": 269
+      },
+      "terraced": {
+        "avg": 454099,
+        "count": 525
+      },
+      "flat": {
+        "avg": 282009,
+        "count": 328
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 475255
+      },
+      {
+        "year": 2024,
+        "avg": 490843
+      },
+      {
+        "year": 2025,
+        "avg": 491779
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 76.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -5.8,
+    "byType": {
+      "violentCrime": 25.3,
+      "burglary": 4.2,
+      "vehicleCrime": 6.1,
+      "antisocialBehaviour": 14.2,
+      "otherTheft": 13.1,
+      "other": 13.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 2,
+    "good": 9,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Mary's RC Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary's RC Infants School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Stanley Park Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Philomena's Catholic High School for Girls",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Muschamp Primary School and Language Opportunity Base",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 159134,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 37,
+    "socialRent": 12,
+    "privateRent": 14,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 372,
+    "avgUpload": 67,
+    "superfastPct": 98,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Sutton Council",
+    "bandD": 1090,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.3,
+    "imdRank": 9065,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SM5 covers CARSHALTON in Greater London, London.",
+    "priceVsCounty": "The average property price in SM5 is £485,940, which is 63% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SM5 cost 69.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SM5 have risen 0.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 76.6 recorded crimes per 1,000 residents, SM5 has a crime rate 6% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SM5 has 19 schools within or near its boundaries, including 2 rated Outstanding and 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SM5 are 372.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SM5 (CARSHALTON) offers above-average property prices (£485,940, 69% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (372 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 372
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 372
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

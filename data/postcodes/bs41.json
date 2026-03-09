@@ -1,0 +1,186 @@
+{
+  "code": "BS41",
+  "name": "BRISTOL",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS40"
+  ],
+  "property": {
+    "avgPrice": 612245,
+    "medianPrice": 522500,
+    "priceChange1y": -13.2,
+    "priceChange5y": 0,
+    "transactions12m": 244,
+    "byType": {
+      "detached": {
+        "avg": 772586,
+        "count": 98
+      },
+      "semi": {
+        "avg": 526535,
+        "count": 60
+      },
+      "terraced": {
+        "avg": 417279,
+        "count": 61
+      },
+      "flat": {
+        "avg": 223321,
+        "count": 14
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 573658
+      },
+      {
+        "year": 2024,
+        "avg": 664065
+      },
+      {
+        "year": 2025,
+        "avg": 576595
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 8.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -90,
+    "byType": {
+      "violentCrime": 3.2,
+      "burglary": 0.8,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 1.2,
+      "otherTheft": 0.8,
+      "other": 1.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Birdwell Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dundry Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Northleaze Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 224578,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 9,
+    "privateRent": 16,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 369,
+    "avgUpload": 66,
+    "superfastPct": 93,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.8,
+    "imdRank": 11811,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS41 is the postcode district for BRISTOL, located in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS41 is £612,245, which is 36% above the Bristol average of £449,132.",
+    "priceVsNational": "Properties in BS41 cost 113.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BS41 have fallen 13.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 8.1 recorded crimes per 1,000 residents, BS41 has a crime rate well 90% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BS41 has 3 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS41 are 369.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS41 (BRISTOL) offers above-average property prices (£612,245, 113% above national average), low crime (90% below national average), 3 nearby schools, and excellent broadband (369 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 369
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 369
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

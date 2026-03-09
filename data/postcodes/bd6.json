@@ -1,0 +1,198 @@
+{
+  "code": "BD6",
+  "name": "BRADFORD",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "bradford",
+  "adjacent": [
+    "BD5",
+    "BD7",
+    "BD8"
+  ],
+  "property": {
+    "avgPrice": 171994,
+    "medianPrice": 150000,
+    "priceChange1y": -0.8,
+    "priceChange5y": 0,
+    "transactions12m": 1342,
+    "byType": {
+      "detached": {
+        "avg": 254200,
+        "count": 126
+      },
+      "semi": {
+        "avg": 164155,
+        "count": 662
+      },
+      "terraced": {
+        "avg": 127556,
+        "count": 475
+      },
+      "flat": {
+        "avg": 79854,
+        "count": 48
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 166062
+      },
+      {
+        "year": 2024,
+        "avg": 175408
+      },
+      {
+        "year": 2025,
+        "avg": 173927
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 146.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 79.7,
+    "byType": {
+      "violentCrime": 67.3,
+      "burglary": 8.3,
+      "vehicleCrime": 9.3,
+      "antisocialBehaviour": 14.6,
+      "otherTheft": 9.9,
+      "other": 36.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Wibsey Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Farfield Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Paul's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Home Farm Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Broadbeck Learning Centre",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 563605,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 390,
+    "avgUpload": 70,
+    "superfastPct": 99,
+    "ultrafastPct": 98,
+    "gigabitPct": 97,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bradford",
+    "bandD": 1956,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 34.7,
+    "imdRank": 23086,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BD6 encompasses BRADFORD and its surrounding areas in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in BD6 is £171,994, which is 38% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in BD6 cost 40.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BD6 have fallen 0.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 146.1 recorded crimes per 1,000 residents, BD6 has a crime rate significantly 80% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BD6 has 10 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BD6 are 390.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BD6 (BRADFORD) offers affordable property prices (£171,994, 40% below national average), higher-than-average crime (80% above national average), 10 nearby schools, and excellent broadband (390 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 390
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 390
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

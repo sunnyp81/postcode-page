@@ -1,0 +1,197 @@
+{
+  "code": "GL19",
+  "name": "GLOUCESTER",
+  "county": "gloucestershire",
+  "region": "south-west",
+  "city": "gloucester",
+  "adjacent": [
+    "GL18",
+    "GL20"
+  ],
+  "property": {
+    "avgPrice": 533746,
+    "medianPrice": 436000,
+    "priceChange1y": 11,
+    "priceChange5y": 0,
+    "transactions12m": 357,
+    "byType": {
+      "detached": {
+        "avg": 574772,
+        "count": 201
+      },
+      "semi": {
+        "avg": 345782,
+        "count": 69
+      },
+      "terraced": {
+        "avg": 247192,
+        "count": 30
+      },
+      "flat": {
+        "avg": 192000,
+        "count": 1
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 555425
+      },
+      {
+        "year": 2024,
+        "avg": 498628
+      },
+      {
+        "year": 2025,
+        "avg": 553660
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.1,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Deerhurst and Apperley Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ashleworth Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Huntley Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hartmore School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eldersfield Lawn CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 101949,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 212,
+    "avgUpload": 38,
+    "superfastPct": 73,
+    "ultrafastPct": 49,
+    "gigabitPct": 49,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Tewkesbury",
+    "bandD": 2029,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.1,
+    "imdRank": 9967,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GL19 is the postcode district for GLOUCESTER, located in Gloucestershire, South West.",
+    "priceVsCounty": "The average property price in GL19 is £533,746, which is 21% above the Gloucestershire average of £441,384.",
+    "priceVsNational": "Properties in GL19 cost 86.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GL19 have risen 11.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, GL19 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GL19 has 11 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GL19 are 212.0 Mbps, with 99% of premises having access to superfast broadband and 73% with full fibre (FTTP) connectivity.",
+    "synthesis": "GL19 (GLOUCESTER) offers above-average property prices (£533,746, 86% above national average), low crime (94% below national average), 11 nearby schools, and excellent broadband (212 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 441384,
+      "crime": 75,
+      "broadband": 212
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 212
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

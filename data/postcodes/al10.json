@@ -1,0 +1,196 @@
+{
+  "code": "AL10",
+  "name": "HATFIELD",
+  "county": "hertfordshire",
+  "region": "south-east",
+  "city": "st-albans",
+  "adjacent": [
+    "AL9"
+  ],
+  "property": {
+    "avgPrice": 464065,
+    "medianPrice": 355000,
+    "priceChange1y": -32.1,
+    "priceChange5y": 0,
+    "transactions12m": 984,
+    "byType": {
+      "detached": {
+        "avg": 613404,
+        "count": 73
+      },
+      "semi": {
+        "avg": 487832,
+        "count": 192
+      },
+      "terraced": {
+        "avg": 376684,
+        "count": 404
+      },
+      "flat": {
+        "avg": 234697,
+        "count": 290
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 477972
+      },
+      {
+        "year": 2024,
+        "avg": 544225
+      },
+      {
+        "year": 2025,
+        "avg": 369558
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 129.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 59.4,
+    "byType": {
+      "violentCrime": 50.2,
+      "burglary": 3.8,
+      "vehicleCrime": 7.2,
+      "antisocialBehaviour": 24,
+      "otherTheft": 21.9,
+      "other": 22.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 2,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Birchwood Nursery School",
+        "type": "Nursery",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Green Lanes Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Howe Dell Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Philip Howard Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Southfield School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 122819,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 25,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 344,
+    "avgUpload": 62,
+    "superfastPct": 97,
+    "ultrafastPct": 87,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Welwyn Hatfield",
+    "bandD": 2121,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.2,
+    "imdRank": 12203,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "AL10 is the postcode district for HATFIELD, located in Hertfordshire, South East.",
+    "priceVsCounty": "The average property price in AL10 is £464,065, which is 19% below the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in AL10 cost 61.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in AL10 have fallen 32.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 129.6 recorded crimes per 1,000 residents, AL10 has a crime rate significantly 59% above the national average of 81.3 per 1,000.",
+    "schoolContext": "AL10 has 14 schools within or near its boundaries, including 2 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in AL10 are 344.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "AL10 (HATFIELD) offers above-average property prices (£464,065, 62% above national average), higher-than-average crime (59% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (344 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 344
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 344
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

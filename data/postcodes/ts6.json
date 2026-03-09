@@ -1,0 +1,198 @@
+{
+  "code": "TS6",
+  "name": "MIDDLESBROUGH",
+  "county": "teesside",
+  "region": "north-east",
+  "city": "middlesbrough",
+  "adjacent": [
+    "TS5",
+    "TS7",
+    "TS8"
+  ],
+  "property": {
+    "avgPrice": 147155,
+    "medianPrice": 130000,
+    "priceChange1y": -6.1,
+    "priceChange5y": 0,
+    "transactions12m": 1479,
+    "byType": {
+      "detached": {
+        "avg": 244069,
+        "count": 265
+      },
+      "semi": {
+        "avg": 131685,
+        "count": 734
+      },
+      "terraced": {
+        "avg": 88580,
+        "count": 412
+      },
+      "flat": {
+        "avg": 54719,
+        "count": 16
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 136937
+      },
+      {
+        "year": 2024,
+        "avg": 156985
+      },
+      {
+        "year": 2025,
+        "avg": 147452
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 136.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 68,
+    "byType": {
+      "violentCrime": 40.3,
+      "burglary": 8.7,
+      "vehicleCrime": 4.5,
+      "antisocialBehaviour": 26.3,
+      "otherTheft": 22.5,
+      "other": 34.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "South Bank Community Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "St Peter's Catholic College",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Margaret Clitherows RC Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Normanby Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 139228,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 19,
+    "privateRent": 14,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 367,
+    "avgUpload": 66,
+    "superfastPct": 96,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Middlesbrough Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 29.8,
+    "imdRank": 20348,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TS6 encompasses MIDDLESBROUGH and its surrounding areas in Teesside, North East.",
+    "priceVsCounty": "The average property price in TS6 is £147,155, which is 22% below the Teesside average of £189,841.",
+    "priceVsNational": "Properties in TS6 cost 48.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TS6 have fallen 6.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 136.6 recorded crimes per 1,000 residents, TS6 has a crime rate significantly 68% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TS6 has 16 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TS6 are 367.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TS6 (MIDDLESBROUGH) offers affordable property prices (£147,155, 49% below national average), higher-than-average crime (68% above national average), 16 nearby schools, and excellent broadband (367 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 189841,
+      "crime": 75,
+      "broadband": 367
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 367
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

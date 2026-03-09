@@ -1,0 +1,198 @@
+{
+  "code": "B33",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B32",
+    "B34",
+    "B35"
+  ],
+  "property": {
+    "avgPrice": 222280,
+    "medianPrice": 195000,
+    "priceChange1y": -8.1,
+    "priceChange5y": 0,
+    "transactions12m": 910,
+    "byType": {
+      "detached": {
+        "avg": 327924,
+        "count": 25
+      },
+      "semi": {
+        "avg": 217376,
+        "count": 364
+      },
+      "terraced": {
+        "avg": 189831,
+        "count": 415
+      },
+      "flat": {
+        "avg": 109371,
+        "count": 68
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 225462
+      },
+      {
+        "year": 2024,
+        "avg": 228432
+      },
+      {
+        "year": 2025,
+        "avg": 209890
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 134.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 65.2,
+    "byType": {
+      "violentCrime": 63.2,
+      "burglary": 5.5,
+      "vehicleCrime": 12.4,
+      "antisocialBehaviour": 9.6,
+      "otherTheft": 13.7,
+      "other": 29.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 2,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Bordesley Green East Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stechford Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Blakesley Hall Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Elms Farm Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Corpus Christi Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 385,
+    "avgUpload": 69,
+    "superfastPct": 98,
+    "ultrafastPct": 96,
+    "gigabitPct": 96,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B33 covers BIRMINGHAM in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B33 is £222,280, which is 34% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B33 cost 22.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B33 have fallen 8.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 134.3 recorded crimes per 1,000 residents, B33 has a crime rate significantly 65% above the national average of 81.3 per 1,000.",
+    "schoolContext": "B33 has 20 schools within or near its boundaries, including 2 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B33 are 385.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B33 (BIRMINGHAM) offers affordable property prices (£222,280, 23% below national average), higher-than-average crime (65% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (385 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 385
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 385
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

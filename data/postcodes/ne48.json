@@ -1,0 +1,197 @@
+{
+  "code": "NE48",
+  "name": "HEXHAM",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "newcastle-upon-tyne",
+  "adjacent": [
+    "NE47",
+    "NE49"
+  ],
+  "property": {
+    "avgPrice": 270840,
+    "medianPrice": 200000,
+    "priceChange1y": 8.3,
+    "priceChange5y": 0,
+    "transactions12m": 185,
+    "byType": {
+      "detached": {
+        "avg": 413640,
+        "count": 57
+      },
+      "semi": {
+        "avg": 206060,
+        "count": 46
+      },
+      "terraced": {
+        "avg": 160432,
+        "count": 58
+      },
+      "flat": {
+        "avg": 132125,
+        "count": 4
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 279636
+      },
+      {
+        "year": 2024,
+        "avg": 256502
+      },
+      {
+        "year": 2025,
+        "avg": 277775
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.3,
+      "burglary": 0,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0,
+      "other": 0.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bellingham Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Greenhaugh Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kielder Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chollerton Church of England Aided First School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bellingham Middle School and Sports College",
+        "type": "Other",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 331420,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 18,
+    "privateRent": 14,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 160,
+    "avgUpload": 29,
+    "superfastPct": 63,
+    "ultrafastPct": 35,
+    "gigabitPct": 35,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newcastle Upon Tyne Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.1,
+    "imdRank": 16778,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NE48 covers HEXHAM in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in NE48 is £270,840, broadly in line with the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in NE48 cost 5.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NE48 have risen 8.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, NE48 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NE48 has 6 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NE48 are 160.0 Mbps, with 94% of premises having access to superfast broadband and 59% with full fibre (FTTP) connectivity.",
+    "synthesis": "NE48 (HEXHAM) offers property prices near the national average (£270,840), low crime (94% below national average), 6 nearby schools, and excellent broadband (160 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 160
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 160
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

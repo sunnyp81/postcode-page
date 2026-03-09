@@ -1,0 +1,196 @@
+{
+  "code": "S26",
+  "name": "SHEFFIELD",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "sheffield",
+  "adjacent": [
+    "S25"
+  ],
+  "property": {
+    "avgPrice": 240641,
+    "medianPrice": 210000,
+    "priceChange1y": 0.9,
+    "priceChange5y": 0,
+    "transactions12m": 1312,
+    "byType": {
+      "detached": {
+        "avg": 341096,
+        "count": 409
+      },
+      "semi": {
+        "avg": 201126,
+        "count": 601
+      },
+      "terraced": {
+        "avg": 158619,
+        "count": 229
+      },
+      "flat": {
+        "avg": 115374,
+        "count": 34
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 237355
+      },
+      {
+        "year": 2024,
+        "avg": 241359
+      },
+      {
+        "year": 2025,
+        "avg": 243632
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 10.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -87.6,
+    "byType": {
+      "violentCrime": 3.3,
+      "burglary": 0.5,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 2.3,
+      "otherTheft": 1.5,
+      "other": 1.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Aughton Early Years Centre",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wales Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Todwick Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wales High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Aston Academy",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 276595,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 21,
+    "privateRent": 13,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 314,
+    "avgUpload": 57,
+    "superfastPct": 97,
+    "ultrafastPct": 79,
+    "gigabitPct": 74,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Rotherham",
+    "bandD": 2126,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 29.6,
+    "imdRank": 21030,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "S26 is the postcode district for SHEFFIELD, located in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in S26 is £240,641, broadly in line with the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in S26 cost 16.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in S26 have risen 0.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 10.1 recorded crimes per 1,000 residents, S26 has a crime rate well 88% below the national average of 81.3 per 1,000.",
+    "schoolContext": "S26 has 14 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in S26 are 314.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "S26 (SHEFFIELD) offers affordable property prices (£240,641, 16% below national average), low crime (88% below national average), 14 nearby schools, and excellent broadband (314 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 314
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 314
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "TQ3",
+  "name": "PAIGNTON",
+  "county": "devon",
+  "region": "south-west",
+  "city": "torquay",
+  "adjacent": [
+    "TQ2",
+    "TQ4",
+    "TQ5"
+  ],
+  "property": {
+    "avgPrice": 271323,
+    "medianPrice": 245000,
+    "priceChange1y": 0.3,
+    "priceChange5y": 0,
+    "transactions12m": 1403,
+    "byType": {
+      "detached": {
+        "avg": 386920,
+        "count": 343
+      },
+      "semi": {
+        "avg": 271932,
+        "count": 415
+      },
+      "terraced": {
+        "avg": 219390,
+        "count": 321
+      },
+      "flat": {
+        "avg": 160798,
+        "count": 291
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 265387
+      },
+      {
+        "year": 2024,
+        "avg": 273488
+      },
+      {
+        "year": 2025,
+        "avg": 274378
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 94,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 15.6,
+    "byType": {
+      "violentCrime": 41,
+      "burglary": 2.3,
+      "vehicleCrime": 2.7,
+      "antisocialBehaviour": 13.1,
+      "otherTheft": 16.9,
+      "other": 17.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Marldon Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kings Ash Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Paignton Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sacred Heart Catholic School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oldway Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 92148,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 12,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 371,
+    "avgUpload": 67,
+    "superfastPct": 98,
+    "ultrafastPct": 94,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Hams",
+    "bandD": 2261,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.7,
+    "imdRank": 12057,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TQ3 covers PAIGNTON in Devon, South West.",
+    "priceVsCounty": "The average property price in TQ3 is £271,323, which is 30% below the Devon average of £385,452.",
+    "priceVsNational": "Properties in TQ3 cost 5.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TQ3 have risen 0.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 94.0 recorded crimes per 1,000 residents, TQ3 has a crime rate 16% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TQ3 has 8 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TQ3 are 371.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TQ3 (PAIGNTON) offers property prices near the national average (£271,323), higher-than-average crime (16% above national average), 8 nearby schools, and excellent broadband (371 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 371
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 371
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

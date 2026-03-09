@@ -1,0 +1,198 @@
+{
+  "code": "GU21",
+  "name": "WOKING",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU20",
+    "GU22",
+    "GU23"
+  ],
+  "property": {
+    "avgPrice": 510399,
+    "medianPrice": 400000,
+    "priceChange1y": -0.3,
+    "priceChange5y": 0,
+    "transactions12m": 2162,
+    "byType": {
+      "detached": {
+        "avg": 808811,
+        "count": 450
+      },
+      "semi": {
+        "avg": 497867,
+        "count": 493
+      },
+      "terraced": {
+        "avg": 383208,
+        "count": 564
+      },
+      "flat": {
+        "avg": 256110,
+        "count": 584
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 493969
+      },
+      {
+        "year": 2024,
+        "avg": 518984
+      },
+      {
+        "year": 2025,
+        "avg": 517608
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 61.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -24.5,
+    "byType": {
+      "violentCrime": 19.5,
+      "burglary": 1.8,
+      "vehicleCrime": 2.4,
+      "antisocialBehaviour": 8.4,
+      "otherTheft": 14.8,
+      "other": 14.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Winston Churchill School A Specialist Sports College",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Halstead St Andrews School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "North West Surrey Short Stay School",
+        "type": "Other",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Goldsworth Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Broadmere Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 94492,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 10,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 325,
+    "avgUpload": 59,
+    "superfastPct": 98,
+    "ultrafastPct": 85,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Surrey Heath",
+    "bandD": 2248,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.1,
+    "imdRank": 5859,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU21 covers WOKING in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU21 is £510,399, which is 17% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU21 cost 77.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU21 have fallen 0.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 61.4 recorded crimes per 1,000 residents, GU21 has a crime rate well 24% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU21 has 18 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU21 are 325.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU21 (WOKING) offers above-average property prices (£510,399, 78% above national average), low crime (24% below national average), 18 nearby schools, and excellent broadband (325 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 325
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 325
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

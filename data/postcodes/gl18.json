@@ -1,0 +1,197 @@
+{
+  "code": "GL18",
+  "name": "NEWENT",
+  "county": "gloucestershire",
+  "region": "south-west",
+  "city": "gloucester",
+  "adjacent": [
+    "GL17",
+    "GL19",
+    "GL20"
+  ],
+  "property": {
+    "avgPrice": 343619,
+    "medianPrice": 295000,
+    "priceChange1y": -4.3,
+    "priceChange5y": 0,
+    "transactions12m": 460,
+    "byType": {
+      "detached": {
+        "avg": 435467,
+        "count": 204
+      },
+      "semi": {
+        "avg": 266389,
+        "count": 110
+      },
+      "terraced": {
+        "avg": 236295,
+        "count": 89
+      },
+      "flat": {
+        "avg": 144493,
+        "count": 28
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 347337
+      },
+      {
+        "year": 2024,
+        "avg": 347696
+      },
+      {
+        "year": 2025,
+        "avg": 332882
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 9.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -88.7,
+    "byType": {
+      "violentCrime": 4.1,
+      "burglary": 0.3,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1.8,
+      "otherTheft": 0.9,
+      "other": 1.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Pauntley Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Picklenash Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Glebe Infants' School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Newent Community School and Sixth Form Centre",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ann Cam Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 40000,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 254,
+    "avgUpload": 46,
+    "superfastPct": 74,
+    "ultrafastPct": 61,
+    "gigabitPct": 61,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Gloucester Council",
+    "bandD": 2219,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.9,
+    "imdRank": 16384,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GL18 covers NEWENT in Gloucestershire, South West.",
+    "priceVsCounty": "The average property price in GL18 is £343,619, which is 22% below the Gloucestershire average of £441,384.",
+    "priceVsNational": "Properties in GL18 cost 19.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GL18 have fallen 4.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 9.2 recorded crimes per 1,000 residents, GL18 has a crime rate well 89% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GL18 has 5 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GL18 are 254.0 Mbps, with 99% of premises having access to superfast broadband and 85% with full fibre (FTTP) connectivity.",
+    "synthesis": "GL18 (NEWENT) offers property prices near the national average (£343,619), low crime (89% below national average), 5 nearby schools, and excellent broadband (254 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 441384,
+      "crime": 75,
+      "broadband": 254
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 254
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

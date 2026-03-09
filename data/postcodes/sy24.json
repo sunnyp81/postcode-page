@@ -1,0 +1,186 @@
+{
+  "code": "SY24",
+  "name": "BOW STREET",
+  "county": "mid-wales",
+  "region": "wales",
+  "city": "shrewsbury",
+  "adjacent": [
+    "SY23",
+    "SY25"
+  ],
+  "property": {
+    "avgPrice": 240415,
+    "medianPrice": 220000,
+    "priceChange1y": -1.1,
+    "priceChange5y": 0,
+    "transactions12m": 175,
+    "byType": {
+      "detached": {
+        "avg": 310399,
+        "count": 67
+      },
+      "semi": {
+        "avg": 215325,
+        "count": 46
+      },
+      "terraced": {
+        "avg": 187603,
+        "count": 43
+      },
+      "flat": {
+        "avg": 122125,
+        "count": 8
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 221086
+      },
+      {
+        "year": 2024,
+        "avg": 249917
+      },
+      {
+        "year": 2025,
+        "avg": 247045
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.3,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ysgol Rhydypennau",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Tal-y-bont",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Craig Yr Wylfa",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 72599,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 211,
+    "avgUpload": 38,
+    "superfastPct": 93,
+    "ultrafastPct": 46,
+    "gigabitPct": 46,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Shrewsbury Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "SY24 is the postcode district for BOW STREET, located in Mid Wales, Wales.",
+    "priceVsCounty": "The average property price in SY24 is £240,415, which is 24% below the Mid Wales average of £315,596.",
+    "priceVsNational": "Properties in SY24 cost 16.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SY24 have fallen 1.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SY24 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SY24 has 3 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SY24 are 211.0 Mbps, with 99% of premises having access to superfast broadband and 73% with full fibre (FTTP) connectivity.",
+    "synthesis": "SY24 (BOW STREET) offers affordable property prices (£240,415, 16% below national average), low crime (94% below national average), 3 nearby schools, and excellent broadband (211 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 315596,
+      "crime": 75,
+      "broadband": 211
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 211
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

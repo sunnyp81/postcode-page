@@ -1,0 +1,197 @@
+{
+  "code": "B21",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B20",
+    "B23"
+  ],
+  "property": {
+    "avgPrice": 201107,
+    "medianPrice": 170000,
+    "priceChange1y": -5.7,
+    "priceChange5y": 0,
+    "transactions12m": 512,
+    "byType": {
+      "detached": {
+        "avg": 306538,
+        "count": 13
+      },
+      "semi": {
+        "avg": 221985,
+        "count": 99
+      },
+      "terraced": {
+        "avg": 175998,
+        "count": 363
+      },
+      "flat": {
+        "avg": 155250,
+        "count": 6
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 196598
+      },
+      {
+        "year": 2024,
+        "avg": 208912
+      },
+      {
+        "year": 2025,
+        "avg": 196952
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 190.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 133.9,
+    "byType": {
+      "violentCrime": 93.7,
+      "burglary": 9.6,
+      "vehicleCrime": 14.8,
+      "antisocialBehaviour": 11.5,
+      "otherTheft": 21.7,
+      "other": 39
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "William Murdoch Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Grove School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St James Church of England Primary School, Handsworth",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John Wall Catholic School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hamilton School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 384,
+    "avgUpload": 69,
+    "superfastPct": 98,
+    "ultrafastPct": 97,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B21 covers BIRMINGHAM in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B21 is £201,107, which is 40% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B21 cost 29.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B21 have fallen 5.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 190.2 recorded crimes per 1,000 residents, B21 has a crime rate significantly 134% above the national average of 81.3 per 1,000.",
+    "schoolContext": "B21 has 17 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B21 are 384.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B21 (BIRMINGHAM) offers affordable property prices (£201,107, 30% below national average), higher-than-average crime (134% above national average), 17 nearby schools, and excellent broadband (384 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 384
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 384
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

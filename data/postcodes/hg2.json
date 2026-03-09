@@ -1,0 +1,197 @@
+{
+  "code": "HG2",
+  "name": "HARROGATE",
+  "county": "north-yorkshire",
+  "region": "yorkshire",
+  "city": "harrogate",
+  "adjacent": [
+    "HG1",
+    "HG3",
+    "HG4"
+  ],
+  "property": {
+    "avgPrice": 454675,
+    "medianPrice": 358500,
+    "priceChange1y": -1.1,
+    "priceChange5y": 0,
+    "transactions12m": 1747,
+    "byType": {
+      "detached": {
+        "avg": 712459,
+        "count": 394
+      },
+      "semi": {
+        "avg": 429646,
+        "count": 538
+      },
+      "terraced": {
+        "avg": 327215,
+        "count": 335
+      },
+      "flat": {
+        "avg": 306992,
+        "count": 445
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 430856
+      },
+      {
+        "year": 2024,
+        "avg": 469377
+      },
+      {
+        "year": 2025,
+        "avg": 463988
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 67.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -17.5,
+    "byType": {
+      "violentCrime": 21.4,
+      "burglary": 2.9,
+      "vehicleCrime": 2,
+      "antisocialBehaviour": 16.7,
+      "otherTheft": 13.8,
+      "other": 10.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ashville College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Harrogate Grammar School",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Rossett School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Aidan's Church of England High School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Oatlands Community Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 384,
+    "avgUpload": 69,
+    "superfastPct": 100,
+    "ultrafastPct": 96,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Harrogate Council",
+    "bandD": 2183,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HG2 is the postcode district for HARROGATE, located in North Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HG2 is £454,675, which is 28% above the North Yorkshire average of £354,925.",
+    "priceVsNational": "Properties in HG2 cost 58.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HG2 have fallen 1.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 67.1 recorded crimes per 1,000 residents, HG2 has a crime rate 17% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HG2 has 13 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HG2 are 384.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HG2 (HARROGATE) offers above-average property prices (£454,675, 58% above national average), low crime (17% below national average), 13 nearby schools, and excellent broadband (384 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 354925,
+      "crime": 75,
+      "broadband": 384
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 384
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

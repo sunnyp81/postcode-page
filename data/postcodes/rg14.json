@@ -1,0 +1,194 @@
+{
+  "code": "RG14",
+  "name": "NEWBURY",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 448397,
+    "medianPrice": 360000,
+    "priceChange1y": -7.9,
+    "priceChange5y": 0,
+    "transactions12m": 2258,
+    "byType": {
+      "detached": {
+        "avg": 621341,
+        "count": 509
+      },
+      "semi": {
+        "avg": 423645,
+        "count": 463
+      },
+      "terraced": {
+        "avg": 348945,
+        "count": 504
+      },
+      "flat": {
+        "avg": 217982,
+        "count": 669
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 421975
+      },
+      {
+        "year": 2024,
+        "avg": 476915
+      },
+      {
+        "year": 2025,
+        "avg": 439177
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 87.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 7.1,
+    "byType": {
+      "violentCrime": 33.3,
+      "burglary": 1.9,
+      "vehicleCrime": 3.8,
+      "antisocialBehaviour": 10.8,
+      "otherTheft": 16.8,
+      "other": 20.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 22,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Victoria Park Nursery School & Family Hub",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Robert Sandilands Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Falkland Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Shaw-cum-Donnington C.E. Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Nicolas C.E. Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 165112,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 329,
+    "avgUpload": 59,
+    "superfastPct": 98,
+    "ultrafastPct": 84,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Reading Council",
+    "bandD": 1606,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10,
+    "imdRank": 7974,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG14 encompasses NEWBURY and its surrounding areas in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG14 is £448,397, which is 23% below the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG14 cost 56.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG14 have fallen 7.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 87.1 recorded crimes per 1,000 residents, RG14 has a crime rate 7% above the national average of 81.3 per 1,000.",
+    "schoolContext": "RG14 has 22 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG14 are 329.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG14 (NEWBURY) offers above-average property prices (£448,397, 56% above national average), 22 nearby schools, and excellent broadband (329 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 329
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 329
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

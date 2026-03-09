@@ -1,0 +1,197 @@
+{
+  "code": "L1",
+  "name": "LIVERPOOL",
+  "county": "merseyside",
+  "region": "north-west",
+  "city": "liverpool",
+  "adjacent": [
+    "L2",
+    "L3"
+  ],
+  "property": {
+    "avgPrice": 309069,
+    "medianPrice": 149216,
+    "priceChange1y": -44.9,
+    "priceChange5y": 0,
+    "transactions12m": 1332,
+    "byType": {
+      "detached": {
+        "avg": 346667,
+        "count": 3
+      },
+      "semi": {
+        "avg": 272414,
+        "count": 7
+      },
+      "terraced": {
+        "avg": 634140,
+        "count": 20
+      },
+      "flat": {
+        "avg": 152919,
+        "count": 1090
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 479155
+      },
+      {
+        "year": 2024,
+        "avg": 244221
+      },
+      {
+        "year": 2025,
+        "avg": 134587
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 164.5,
+      "burglary": 11.8,
+      "vehicleCrime": 16.3,
+      "antisocialBehaviour": 43.5,
+      "otherTheft": 109.9,
+      "other": 204.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Vincent de Paul Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cities in Schools at Unit 302",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Liverpool Institute of Performing Arts",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Liverpool Life Sciences UTC",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Studio School Liverpool",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 508961,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 23,
+    "socialRent": 26,
+    "privateRent": 24,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 273,
+    "avgUpload": 49,
+    "superfastPct": 72,
+    "ultrafastPct": 68,
+    "gigabitPct": 66,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Liverpool",
+    "bandD": 2308,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 42.4,
+    "imdRank": 25833,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "L1 encompasses LIVERPOOL and its surrounding areas in Merseyside, North West.",
+    "priceVsCounty": "The average property price in L1 is £309,069, which is 22% above the Merseyside average of £252,845.",
+    "priceVsNational": "Properties in L1 cost 7.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in L1 have fallen 44.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, L1 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "L1 has 7 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in L1 are 273.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "L1 (LIVERPOOL) offers property prices near the national average (£309,069), higher-than-average crime (269% above national average), 7 nearby schools, and excellent broadband (273 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 252845,
+      "crime": 75,
+      "broadband": 273
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 273
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "code": "CA24",
+  "name": "MOOR ROW",
+  "county": "cumbria",
+  "region": "north-west",
+  "city": "carlisle",
+  "adjacent": [
+    "CA23",
+    "CA25",
+    "CA26"
+  ],
+  "property": {
+    "avgPrice": 118074,
+    "medianPrice": 90000,
+    "priceChange1y": -1.4,
+    "priceChange5y": 0,
+    "transactions12m": 45,
+    "byType": {
+      "detached": {
+        "avg": 234583,
+        "count": 6
+      },
+      "semi": {
+        "avg": 231833,
+        "count": 3
+      },
+      "terraced": {
+        "avg": 88581,
+        "count": 35
+      },
+      "flat": {
+        "avg": 60235,
+        "count": 0
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 84346
+      },
+      {
+        "year": 2024,
+        "avg": 132618
+      },
+      {
+        "year": 2025,
+        "avg": 130823
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.6,
+      "burglary": 0,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.5,
+      "other": 1.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Moor Row Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 134,
+    "avgUpload": 24,
+    "superfastPct": 100,
+    "ultrafastPct": 23,
+    "gigabitPct": 23,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cumberland",
+    "bandD": 2175,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CA24 covers MOOR ROW in Cumbria, North West.",
+    "priceVsCounty": "The average property price in CA24 is £118,074, which is 52% below the Cumbria average of £244,524.",
+    "priceVsNational": "Properties in CA24 cost 58.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CA24 have fallen 1.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, CA24 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CA24 has 1 school within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CA24 are 134.0 Mbps, with 90% of premises having access to superfast broadband and 52% with full fibre (FTTP) connectivity.",
+    "synthesis": "CA24 (MOOR ROW) offers affordable property prices (£118,074, 59% below national average), low crime (94% below national average), 1 nearby school, and excellent broadband (134 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 244524,
+      "crime": 75,
+      "broadband": 134
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 134
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

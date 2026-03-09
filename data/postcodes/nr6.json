@@ -1,0 +1,198 @@
+{
+  "code": "NR6",
+  "name": "NORWICH",
+  "county": "norfolk",
+  "region": "east-of-england",
+  "city": "norwich",
+  "adjacent": [
+    "NR5",
+    "NR7",
+    "NR8"
+  ],
+  "property": {
+    "avgPrice": 287271,
+    "medianPrice": 271250,
+    "priceChange1y": -1.7,
+    "priceChange5y": 0,
+    "transactions12m": 1332,
+    "byType": {
+      "detached": {
+        "avg": 352027,
+        "count": 427
+      },
+      "semi": {
+        "avg": 274534,
+        "count": 547
+      },
+      "terraced": {
+        "avg": 232181,
+        "count": 237
+      },
+      "flat": {
+        "avg": 141567,
+        "count": 90
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 287940
+      },
+      {
+        "year": 2024,
+        "avg": 289316
+      },
+      {
+        "year": 2025,
+        "avg": 284317
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 48,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -41,
+    "byType": {
+      "violentCrime": 19.7,
+      "burglary": 1.1,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 6.2,
+      "otherTheft": 9.5,
+      "other": 10.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "White Woman Lane Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Old Catton CofE VC Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hall School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Include School Norfolk",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hellesdon High School",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 138157,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 10,
+    "privateRent": 10,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 369,
+    "avgUpload": 66,
+    "superfastPct": 99,
+    "ultrafastPct": 92,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Broadland",
+    "bandD": 2121,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.8,
+    "imdRank": 10039,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NR6 is the postcode district for NORWICH, located in Norfolk, East Of England.",
+    "priceVsCounty": "The average property price in NR6 is £287,271, which is 19% below the Norfolk average of £352,657.",
+    "priceVsNational": "Property values in NR6 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in NR6 have fallen 1.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 48.0 recorded crimes per 1,000 residents, NR6 has a crime rate well 41% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NR6 has 12 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NR6 are 369.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NR6 (NORWICH) offers property prices near the national average (£287,271), low crime (41% below national average), 12 nearby schools, and excellent broadband (369 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 352657,
+      "crime": 75,
+      "broadband": 369
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 369
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

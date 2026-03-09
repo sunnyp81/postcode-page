@@ -1,0 +1,198 @@
+{
+  "code": "SK5",
+  "name": "STOCKPORT",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "stockport",
+  "adjacent": [
+    "SK4",
+    "SK6",
+    "SK7"
+  ],
+  "property": {
+    "avgPrice": 227862,
+    "medianPrice": 206550,
+    "priceChange1y": 2.3,
+    "priceChange5y": 0,
+    "transactions12m": 1257,
+    "byType": {
+      "detached": {
+        "avg": 335179,
+        "count": 56
+      },
+      "semi": {
+        "avg": 239760,
+        "count": 472
+      },
+      "terraced": {
+        "avg": 193895,
+        "count": 563
+      },
+      "flat": {
+        "avg": 144918,
+        "count": 116
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 244360
+      },
+      {
+        "year": 2024,
+        "avg": 217424
+      },
+      {
+        "year": 2025,
+        "avg": 222416
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 92.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 13.5,
+    "byType": {
+      "violentCrime": 24.9,
+      "burglary": 6,
+      "vehicleCrime": 9.2,
+      "antisocialBehaviour": 20.3,
+      "otherTheft": 14.8,
+      "other": 17.1
+    },
+    "source": "synthetic-estimate",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 3,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Reddish Vale Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Abingdon Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "St Mary's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Paul's Church of England Primary School Brinnington",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "St Bernadette's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 303929,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 13,
+    "privateRent": 13,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 383,
+    "avgUpload": 69,
+    "superfastPct": 100,
+    "ultrafastPct": 95,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stockport",
+    "bandD": 2235,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.8,
+    "imdRank": 15400,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SK5 is the postcode district for STOCKPORT, located in Cheshire, North West.",
+    "priceVsCounty": "The average property price in SK5 is £227,862, which is 27% below the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in SK5 cost 20.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SK5 have risen 2.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 92.3 recorded crimes per 1,000 residents, SK5 has a crime rate 14% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SK5 has 14 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SK5 are 383.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SK5 (STOCKPORT) offers affordable property prices (£227,862, 21% below national average), 14 nearby schools, and excellent broadband (383 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 383
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 383
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

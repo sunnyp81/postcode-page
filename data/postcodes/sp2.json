@@ -1,0 +1,198 @@
+{
+  "code": "SP2",
+  "name": "SALISBURY",
+  "county": "wiltshire",
+  "region": "south-west",
+  "city": "salisbury",
+  "adjacent": [
+    "SP1",
+    "SP3",
+    "SP4"
+  ],
+  "property": {
+    "avgPrice": 334841,
+    "medianPrice": 295000,
+    "priceChange1y": -8.2,
+    "priceChange5y": 0,
+    "transactions12m": 1566,
+    "byType": {
+      "detached": {
+        "avg": 481191,
+        "count": 361
+      },
+      "semi": {
+        "avg": 324789,
+        "count": 366
+      },
+      "terraced": {
+        "avg": 277844,
+        "count": 527
+      },
+      "flat": {
+        "avg": 194695,
+        "count": 241
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 325934
+      },
+      {
+        "year": 2024,
+        "avg": 352479
+      },
+      {
+        "year": 2025,
+        "avg": 323468
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 32.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -60.3,
+    "byType": {
+      "violentCrime": 12.8,
+      "burglary": 1.7,
+      "vehicleCrime": 1.4,
+      "antisocialBehaviour": 6.1,
+      "otherTheft": 2.7,
+      "other": 7.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Harnham Infants' School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Woodlands Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Salisbury, Manor Fields Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Harnham Church of England Controlled Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sarum St Paul's CofE (VA) Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 523700,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 337,
+    "avgUpload": 61,
+    "superfastPct": 98,
+    "ultrafastPct": 82,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Salisbury Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.4,
+    "imdRank": 11265,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SP2 covers SALISBURY in Wiltshire, South West.",
+    "priceVsCounty": "The average property price in SP2 is £334,841, which is 16% below the Wiltshire average of £397,459.",
+    "priceVsNational": "Properties in SP2 cost 16.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SP2 have fallen 8.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 32.3 recorded crimes per 1,000 residents, SP2 has a crime rate well 60% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SP2 has 14 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SP2 are 337.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SP2 (SALISBURY) offers property prices near the national average (£334,841), low crime (60% below national average), 14 nearby schools, and excellent broadband (337 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 397459,
+      "crime": 75,
+      "broadband": 337
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 337
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

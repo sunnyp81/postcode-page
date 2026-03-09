@@ -1,0 +1,197 @@
+{
+  "code": "SA18",
+  "name": "AMMANFORD",
+  "county": "west-wales",
+  "region": "wales",
+  "city": "swansea",
+  "adjacent": [
+    "SA17",
+    "SA19",
+    "SA20"
+  ],
+  "property": {
+    "avgPrice": 194499,
+    "medianPrice": 169475,
+    "priceChange1y": 2.1,
+    "priceChange5y": 0,
+    "transactions12m": 1092,
+    "byType": {
+      "detached": {
+        "avg": 267666,
+        "count": 352
+      },
+      "semi": {
+        "avg": 164900,
+        "count": 450
+      },
+      "terraced": {
+        "avg": 132754,
+        "count": 210
+      },
+      "flat": {
+        "avg": 98988,
+        "count": 4
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 186154
+      },
+      {
+        "year": 2024,
+        "avg": 196827
+      },
+      {
+        "year": 2025,
+        "avg": 200965
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1,
+      "burglary": 0.2,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.2,
+      "other": 0.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ysgol Feithrin Rhydaman",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Gynradd Saron",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Betws C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Gynradd Tycroes",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Gynradd Parcyrhun",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 251304,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 191,
+    "avgUpload": 34,
+    "superfastPct": 87,
+    "ultrafastPct": 41,
+    "gigabitPct": 41,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swansea Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "SA18 is the postcode district for AMMANFORD, located in West Wales, Wales.",
+    "priceVsCounty": "The average property price in SA18 is £194,499, which is 26% below the West Wales average of £261,315.",
+    "priceVsNational": "Properties in SA18 cost 32.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SA18 have risen 2.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SA18 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SA18 has 14 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SA18 are 191.0 Mbps, with 99% of premises having access to superfast broadband and 68% with full fibre (FTTP) connectivity.",
+    "synthesis": "SA18 (AMMANFORD) offers affordable property prices (£194,499, 32% below national average), low crime (94% below national average), 14 nearby schools, and excellent broadband (191 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 261315,
+      "crime": 75,
+      "broadband": 191
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 191
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

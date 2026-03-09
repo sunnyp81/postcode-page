@@ -1,0 +1,188 @@
+{
+  "code": "PO32",
+  "name": "EAST COWES",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "portsmouth",
+  "adjacent": [
+    "PO31",
+    "PO33",
+    "PO34"
+  ],
+  "property": {
+    "avgPrice": 287273,
+    "medianPrice": 225500,
+    "priceChange1y": 3.7,
+    "priceChange5y": 0,
+    "transactions12m": 430,
+    "byType": {
+      "detached": {
+        "avg": 342407,
+        "count": 81
+      },
+      "semi": {
+        "avg": 252975,
+        "count": 139
+      },
+      "terraced": {
+        "avg": 209664,
+        "count": 119
+      },
+      "flat": {
+        "avg": 157438,
+        "count": 74
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 387267
+      },
+      {
+        "year": 2024,
+        "avg": 231373
+      },
+      {
+        "year": 2025,
+        "avg": 239995
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 23.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -71.2,
+    "byType": {
+      "violentCrime": 11.3,
+      "burglary": 0.5,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 2.7,
+      "otherTheft": 3.4,
+      "other": 5.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Holy Cross Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Priory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Queensgate Foundation Primary",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 141660,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 23,
+    "socialRent": 11,
+    "privateRent": 18,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 353,
+    "avgUpload": 64,
+    "superfastPct": 95,
+    "ultrafastPct": 87,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Portsmouth Council",
+    "bandD": 2372,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.3,
+    "imdRank": 19454,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PO32 encompasses EAST COWES and its surrounding areas in Hampshire, South East.",
+    "priceVsCounty": "The average property price in PO32 is £287,273, which is 33% below the Hampshire average of £431,529.",
+    "priceVsNational": "Property values in PO32 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in PO32 have risen 3.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 23.4 recorded crimes per 1,000 residents, PO32 has a crime rate well 71% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PO32 has 3 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PO32 are 353.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PO32 (EAST COWES) offers property prices near the national average (£287,273), low crime (71% below national average), 3 nearby schools, and excellent broadband (353 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 353
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 353
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

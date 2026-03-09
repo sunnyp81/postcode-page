@@ -1,0 +1,197 @@
+{
+  "code": "CW1",
+  "name": "CREWE",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "crewe",
+  "adjacent": [
+    "CW2",
+    "CW3"
+  ],
+  "property": {
+    "avgPrice": 218702,
+    "medianPrice": 172500,
+    "priceChange1y": -7,
+    "priceChange5y": 0,
+    "transactions12m": 2212,
+    "byType": {
+      "detached": {
+        "avg": 299755,
+        "count": 517
+      },
+      "semi": {
+        "avg": 185238,
+        "count": 852
+      },
+      "terraced": {
+        "avg": 124009,
+        "count": 608
+      },
+      "flat": {
+        "avg": 96390,
+        "count": 137
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 225725
+      },
+      {
+        "year": 2024,
+        "avg": 221719
+      },
+      {
+        "year": 2025,
+        "avg": 206228
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 121.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 49.7,
+    "byType": {
+      "violentCrime": 50.7,
+      "burglary": 3.6,
+      "vehicleCrime": 2.1,
+      "antisocialBehaviour": 10.5,
+      "otherTheft": 20.5,
+      "other": 34.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Brierley Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Dingle Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Beechwood Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Mablins Lane Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Springfield School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 421298,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 12,
+    "privateRent": 14,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 309,
+    "avgUpload": 56,
+    "superfastPct": 95,
+    "ultrafastPct": 78,
+    "gigabitPct": 73,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Crewe Council",
+    "bandD": 2098,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.5,
+    "imdRank": 11380,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CW1 encompasses CREWE and its surrounding areas in Cheshire, North West.",
+    "priceVsCounty": "The average property price in CW1 is £218,702, which is 30% below the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in CW1 cost 23.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CW1 have fallen 7.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 121.7 recorded crimes per 1,000 residents, CW1 has a crime rate significantly 50% above the national average of 81.3 per 1,000.",
+    "schoolContext": "CW1 has 19 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CW1 are 309.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CW1 (CREWE) offers affordable property prices (£218,702, 24% below national average), higher-than-average crime (50% above national average), 19 nearby schools, and excellent broadband (309 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 309
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 309
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

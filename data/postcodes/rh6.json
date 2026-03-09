@@ -1,0 +1,198 @@
+{
+  "code": "RH6",
+  "name": "HORLEY",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "redhill",
+  "adjacent": [
+    "RH5",
+    "RH7",
+    "RH8"
+  ],
+  "property": {
+    "avgPrice": 452505,
+    "medianPrice": 425000,
+    "priceChange1y": -1.6,
+    "priceChange5y": 0,
+    "transactions12m": 1699,
+    "byType": {
+      "detached": {
+        "avg": 634862,
+        "count": 447
+      },
+      "semi": {
+        "avg": 454955,
+        "count": 511
+      },
+      "terraced": {
+        "avg": 385878,
+        "count": 273
+      },
+      "flat": {
+        "avg": 222088,
+        "count": 385
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 443610
+      },
+      {
+        "year": 2024,
+        "avg": 459890
+      },
+      {
+        "year": 2025,
+        "avg": 452720
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 52.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -35.7,
+    "byType": {
+      "violentCrime": 20.9,
+      "burglary": 1.6,
+      "vehicleCrime": 2,
+      "antisocialBehaviour": 8.6,
+      "otherTheft": 7.7,
+      "other": 11.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Charlwood Village Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Meath Green Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Meath Green Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Langshott Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oakwood School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 90586,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 37,
+    "socialRent": 11,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 322,
+    "avgUpload": 58,
+    "superfastPct": 96,
+    "ultrafastPct": 78,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Tandridge",
+    "bandD": 2252,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.9,
+    "imdRank": 10027,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RH6 is the postcode district for HORLEY, located in Surrey, South East.",
+    "priceVsCounty": "The average property price in RH6 is £452,505, which is 26% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in RH6 cost 57.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RH6 have fallen 1.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 52.3 recorded crimes per 1,000 residents, RH6 has a crime rate well 36% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RH6 has 15 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RH6 are 322.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RH6 (HORLEY) offers above-average property prices (£452,505, 58% above national average), low crime (36% below national average), 15 nearby schools, and excellent broadband (322 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 322
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 322
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

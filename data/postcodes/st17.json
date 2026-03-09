@@ -1,0 +1,198 @@
+{
+  "code": "ST17",
+  "name": "STAFFORD",
+  "county": "staffordshire",
+  "region": "west-midlands",
+  "city": "stoke-on-trent",
+  "adjacent": [
+    "ST16",
+    "ST18",
+    "ST19"
+  ],
+  "property": {
+    "avgPrice": 282481,
+    "medianPrice": 239975,
+    "priceChange1y": 5.9,
+    "priceChange5y": 0,
+    "transactions12m": 1688,
+    "byType": {
+      "detached": {
+        "avg": 397900,
+        "count": 520
+      },
+      "semi": {
+        "avg": 236332,
+        "count": 665
+      },
+      "terraced": {
+        "avg": 187199,
+        "count": 355
+      },
+      "flat": {
+        "avg": 140348,
+        "count": 116
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 307612
+      },
+      {
+        "year": 2024,
+        "avg": 263229
+      },
+      {
+        "year": 2025,
+        "avg": 278793
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 39.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -51.2,
+    "byType": {
+      "violentCrime": 17.1,
+      "burglary": 0.8,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 7.2,
+      "otherTheft": 5.8,
+      "other": 8.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 3,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Oakridge Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Burton Manor Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Flash Ley Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Berkswich CofE (VC) Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stafford Manor High School",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 141556,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 14,
+    "privateRent": 13,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 351,
+    "avgUpload": 63,
+    "superfastPct": 98,
+    "ultrafastPct": 86,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stafford",
+    "bandD": 2012,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.7,
+    "imdRank": 11220,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ST17 is the postcode district for STAFFORD, located in Staffordshire, West Midlands.",
+    "priceVsCounty": "The average property price in ST17 is £282,481, which is 6% above the Staffordshire average of £267,729.",
+    "priceVsNational": "Property values in ST17 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in ST17 have risen 5.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 39.7 recorded crimes per 1,000 residents, ST17 has a crime rate well 51% below the national average of 81.3 per 1,000.",
+    "schoolContext": "ST17 has 21 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ST17 are 351.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "ST17 (STAFFORD) offers property prices near the national average (£282,481), low crime (51% below national average), 21 nearby schools, and excellent broadband (351 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 267729,
+      "crime": 75,
+      "broadband": 351
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 351
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

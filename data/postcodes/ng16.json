@@ -1,0 +1,198 @@
+{
+  "code": "NG16",
+  "name": "NOTTINGHAM",
+  "county": "nottinghamshire",
+  "region": "east-midlands",
+  "city": "nottingham",
+  "adjacent": [
+    "NG15",
+    "NG17",
+    "NG18"
+  ],
+  "property": {
+    "avgPrice": 240078,
+    "medianPrice": 205000,
+    "priceChange1y": -9.9,
+    "priceChange5y": 0,
+    "transactions12m": 2965,
+    "byType": {
+      "detached": {
+        "avg": 300243,
+        "count": 1092
+      },
+      "semi": {
+        "avg": 196640,
+        "count": 1001
+      },
+      "terraced": {
+        "avg": 152371,
+        "count": 690
+      },
+      "flat": {
+        "avg": 126746,
+        "count": 82
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 231038
+      },
+      {
+        "year": 2024,
+        "avg": 256048
+      },
+      {
+        "year": 2025,
+        "avg": 230700
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 22,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -72.9,
+    "byType": {
+      "violentCrime": 6.4,
+      "burglary": 1,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 4.2,
+      "otherTheft": 4.6,
+      "other": 5.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 34,
+    "outstanding": 2,
+    "good": 16,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Pinxton Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Langley Mill Church of England Infant School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brinsley Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lawrence View Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Larkfields Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 130451,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 13,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 372,
+    "avgUpload": 67,
+    "superfastPct": 98,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Amber Valley",
+    "bandD": 2086,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 14755,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NG16 covers NOTTINGHAM in Nottinghamshire, East Midlands.",
+    "priceVsCounty": "The average property price in NG16 is £240,078, which is 65% below the Nottinghamshire average of £678,596.",
+    "priceVsNational": "Properties in NG16 cost 16.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NG16 have fallen 9.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 22.0 recorded crimes per 1,000 residents, NG16 has a crime rate well 73% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NG16 has 34 schools within or near its boundaries, including 2 rated Outstanding and 16 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NG16 are 372.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NG16 (NOTTINGHAM) offers affordable property prices (£240,078, 16% below national average), low crime (73% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (372 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 678596,
+      "crime": 75,
+      "broadband": 372
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 372
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

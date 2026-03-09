@@ -1,0 +1,196 @@
+{
+  "code": "NP18",
+  "name": "NEWPORT",
+  "county": "gwent",
+  "region": "wales",
+  "city": "newport",
+  "adjacent": [
+    "NP19",
+    "NP20"
+  ],
+  "property": {
+    "avgPrice": 369682,
+    "medianPrice": 320500,
+    "priceChange1y": -8.9,
+    "priceChange5y": 0,
+    "transactions12m": 817,
+    "byType": {
+      "detached": {
+        "avg": 441777,
+        "count": 406
+      },
+      "semi": {
+        "avg": 265549,
+        "count": 194
+      },
+      "terraced": {
+        "avg": 225482,
+        "count": 143
+      },
+      "flat": {
+        "avg": 137093,
+        "count": 38
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 369106
+      },
+      {
+        "year": 2024,
+        "avg": 386448
+      },
+      {
+        "year": 2025,
+        "avg": 351911
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 13.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -83,
+    "byType": {
+      "violentCrime": 4.8,
+      "burglary": 0.4,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 2.9,
+      "otherTheft": 1.3,
+      "other": 4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Langstone Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Llanmartin Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Gymraeg Casnewydd",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Llanwern High School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Caerleon Comprehensive School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 167899,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 292,
+    "avgUpload": 53,
+    "superfastPct": 91,
+    "ultrafastPct": 75,
+    "gigabitPct": 68,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newport Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "NP18 encompasses NEWPORT and its surrounding areas in Gwent, Wales.",
+    "priceVsCounty": "The average property price in NP18 is £369,682, which is 35% above the Gwent average of £273,109.",
+    "priceVsNational": "Properties in NP18 cost 28.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NP18 have fallen 8.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 13.8 recorded crimes per 1,000 residents, NP18 has a crime rate well 83% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NP18 has 9 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NP18 are 292.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NP18 (NEWPORT) offers above-average property prices (£369,682, 29% above national average), low crime (83% below national average), 9 nearby schools, and excellent broadband (292 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 273109,
+      "crime": 75,
+      "broadband": 292
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 292
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

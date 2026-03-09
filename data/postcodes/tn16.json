@@ -1,0 +1,198 @@
+{
+  "code": "TN16",
+  "name": "WESTERHAM",
+  "county": "kent",
+  "region": "south-east",
+  "city": "tunbridge-wells",
+  "adjacent": [
+    "TN15",
+    "TN17",
+    "TN18"
+  ],
+  "property": {
+    "avgPrice": 572908,
+    "medianPrice": 465000,
+    "priceChange1y": 22.8,
+    "priceChange5y": 0,
+    "transactions12m": 804,
+    "byType": {
+      "detached": {
+        "avg": 744537,
+        "count": 264
+      },
+      "semi": {
+        "avg": 499042,
+        "count": 210
+      },
+      "terraced": {
+        "avg": 415056,
+        "count": 181
+      },
+      "flat": {
+        "avg": 302757,
+        "count": 111
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 564425
+      },
+      {
+        "year": 2024,
+        "avg": 522705
+      },
+      {
+        "year": 2025,
+        "avg": 641889
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.5,
+      "burglary": 0.1,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.2,
+      "other": 0.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Churchill Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Valence School",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Charles Darwin School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Biggin Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cudham Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 90586,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 37,
+    "socialRent": 11,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 293,
+    "avgUpload": 53,
+    "superfastPct": 92,
+    "ultrafastPct": 70,
+    "gigabitPct": 70,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Tandridge",
+    "bandD": 2252,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.9,
+    "imdRank": 10027,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TN16 is the postcode district for WESTERHAM, located in Kent, South East.",
+    "priceVsCounty": "The average property price in TN16 is £572,908, which is 27% above the Kent average of £450,882.",
+    "priceVsNational": "Properties in TN16 cost 99.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TN16 have risen 22.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TN16 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TN16 has 7 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TN16 are 293.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TN16 (WESTERHAM) offers above-average property prices (£572,908, 100% above national average), low crime (94% below national average), 7 nearby schools, and excellent broadband (293 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 293
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 293
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "code": "SW1Y",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SW2",
+    "SW3"
+  ],
+  "property": {
+    "avgPrice": 5706108,
+    "medianPrice": 1680000,
+    "priceChange1y": -85.8,
+    "priceChange5y": 0,
+    "transactions12m": 43,
+    "byType": {
+      "detached": {
+        "avg": 10841605,
+        "count": 0
+      },
+      "semi": {
+        "avg": 6847330,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 5850000,
+        "count": 3
+      },
+      "flat": {
+        "avg": 3154159,
+        "count": 23
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 6196654
+      },
+      {
+        "year": 2024,
+        "avg": 5956534
+      },
+      {
+        "year": 2025,
+        "avg": 846333
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 189.1,
+      "burglary": 25.3,
+      "vehicleCrime": 28.8,
+      "antisocialBehaviour": 136.5,
+      "otherTheft": 809.2,
+      "other": 103.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 0,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": []
+  },
+  "demographics": {
+    "population": 209996,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 11,
+    "socialRent": 28,
+    "privateRent": 39,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 338,
+    "avgUpload": 61,
+    "superfastPct": 84,
+    "ultrafastPct": 84,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Westminster",
+    "bandD": 914,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.3,
+    "imdRank": 16573,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SW1Y encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in SW1Y is £5,706,108, which is 336% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SW1Y cost 1888.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SW1Y have fallen 85.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, SW1Y has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "School data for SW1Y is not currently available.",
+    "broadbandContext": "Average broadband download speeds in SW1Y are 338.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SW1Y (LONDON) offers above-average property prices (£5,706,108, 1888% above national average), higher-than-average crime (269% above national average), and excellent broadband (338 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 338
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 338
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

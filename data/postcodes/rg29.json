@@ -1,0 +1,198 @@
+{
+  "code": "RG29",
+  "name": "HOOK",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [
+    "RG28",
+    "RG30",
+    "RG31"
+  ],
+  "property": {
+    "avgPrice": 686056,
+    "medianPrice": 512500,
+    "priceChange1y": -3.4,
+    "priceChange5y": 0,
+    "transactions12m": 232,
+    "byType": {
+      "detached": {
+        "avg": 997083,
+        "count": 86
+      },
+      "semi": {
+        "avg": 534462,
+        "count": 65
+      },
+      "terraced": {
+        "avg": 466862,
+        "count": 39
+      },
+      "flat": {
+        "avg": 229661,
+        "count": 31
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 765008
+      },
+      {
+        "year": 2024,
+        "avg": 662224
+      },
+      {
+        "year": 2025,
+        "avg": 639405
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.4,
+      "burglary": 0.3,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.3,
+      "otherTheft": 0.6,
+      "other": 0.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Buryfields Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mayhill Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Long Sutton Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lord Wandsworth College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Robert May's School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 103162,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 9,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 203,
+    "avgUpload": 37,
+    "superfastPct": 91,
+    "ultrafastPct": 44,
+    "gigabitPct": 44,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hart",
+    "bandD": 2079,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 5.5,
+    "imdRank": 3284,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG29 encompasses HOOK and its surrounding areas in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG29 is £686,056, which is 17% above the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG29 cost 139.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG29 have fallen 3.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, RG29 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RG29 has 5 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG29 are 203.0 Mbps, with 99% of premises having access to superfast broadband and 71% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG29 (HOOK) offers above-average property prices (£686,056, 139% above national average), low crime (94% below national average), 5 nearby schools, and excellent broadband (203 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 203
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 203
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

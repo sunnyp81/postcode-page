@@ -1,0 +1,182 @@
+{
+  "code": "BS28",
+  "name": "WEDMORE",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS27",
+    "BS29",
+    "BS30"
+  ],
+  "property": {
+    "avgPrice": 615749,
+    "medianPrice": 580000,
+    "priceChange1y": 1.1,
+    "priceChange5y": 0,
+    "transactions12m": 141,
+    "byType": {
+      "detached": {
+        "avg": 664551,
+        "count": 102
+      },
+      "semi": {
+        "avg": 406230,
+        "count": 15
+      },
+      "terraced": {
+        "avg": 451667,
+        "count": 6
+      },
+      "flat": {
+        "avg": 252286,
+        "count": 7
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 644356
+      },
+      {
+        "year": 2024,
+        "avg": 599664
+      },
+      {
+        "year": 2025,
+        "avg": 606220
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.4,
+      "burglary": 0,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.1,
+      "other": 0.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Wedmore First School Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hugh Sexey Church of England Middle School",
+        "type": "Other",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 345,
+    "avgUpload": 62,
+    "superfastPct": 92,
+    "ultrafastPct": 85,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS28 covers WEDMORE in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS28 is £615,749, which is 37% above the Bristol average of £449,132.",
+    "priceVsNational": "Properties in BS28 cost 114.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BS28 have risen 1.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, BS28 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BS28 has 2 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS28 are 345.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS28 (WEDMORE) offers above-average property prices (£615,749, 115% above national average), low crime (94% below national average), 2 nearby schools, and excellent broadband (345 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 345
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 345
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

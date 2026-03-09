@@ -1,0 +1,197 @@
+{
+  "code": "HR2",
+  "name": "HEREFORD",
+  "county": "herefordshire",
+  "region": "west-midlands",
+  "city": "hereford",
+  "adjacent": [
+    "HR1",
+    "HR3",
+    "HR4"
+  ],
+  "property": {
+    "avgPrice": 390355,
+    "medianPrice": 264950,
+    "priceChange1y": -13.1,
+    "priceChange5y": 0,
+    "transactions12m": 1495,
+    "byType": {
+      "detached": {
+        "avg": 431055,
+        "count": 562
+      },
+      "semi": {
+        "avg": 240342,
+        "count": 400
+      },
+      "terraced": {
+        "avg": 204753,
+        "count": 330
+      },
+      "flat": {
+        "avg": 144094,
+        "count": 71
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 458702
+      },
+      {
+        "year": 2024,
+        "avg": 376636
+      },
+      {
+        "year": 2025,
+        "avg": 327343
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.1,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 2,
+    "good": 4,
+    "requiresImprovement": 2,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Ewyas Harold Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Garway Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Longtown Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Madley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Michaelchurch Escley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 39,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 63,
+    "socialRent": 16,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 268,
+    "avgUpload": 48,
+    "superfastPct": 81,
+    "ultrafastPct": 64,
+    "gigabitPct": 64,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hereford Council",
+    "bandD": 2183,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.9,
+    "imdRank": 16384,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HR2 covers HEREFORD in Herefordshire, West Midlands.",
+    "priceVsCounty": "The average property price in HR2 is £390,355, broadly in line with the Herefordshire average of £372,356.",
+    "priceVsNational": "Properties in HR2 cost 36.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HR2 have fallen 13.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, HR2 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HR2 has 21 schools within or near its boundaries, including 2 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HR2 are 268.0 Mbps, with 99% of premises having access to superfast broadband and 89% with full fibre (FTTP) connectivity.",
+    "synthesis": "HR2 (HEREFORD) offers above-average property prices (£390,355, 36% above national average), low crime (94% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (268 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 372356,
+      "crime": 75,
+      "broadband": 268
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 268
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

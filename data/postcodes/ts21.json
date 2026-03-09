@@ -1,0 +1,197 @@
+{
+  "code": "TS21",
+  "name": "STOCKTON-ON-TEES",
+  "county": "teesside",
+  "region": "north-east",
+  "city": "middlesbrough",
+  "adjacent": [
+    "TS20",
+    "TS22",
+    "TS23"
+  ],
+  "property": {
+    "avgPrice": 243967,
+    "medianPrice": 205995,
+    "priceChange1y": -5.3,
+    "priceChange5y": 0,
+    "transactions12m": 921,
+    "byType": {
+      "detached": {
+        "avg": 306950,
+        "count": 387
+      },
+      "semi": {
+        "avg": 186098,
+        "count": 251
+      },
+      "terraced": {
+        "avg": 148812,
+        "count": 204
+      },
+      "flat": {
+        "avg": 79752,
+        "count": 41
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 260257
+      },
+      {
+        "year": 2024,
+        "avg": 240934
+      },
+      {
+        "year": 2025,
+        "avg": 228178
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 88,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 8.2,
+    "byType": {
+      "violentCrime": 23.8,
+      "burglary": 5.7,
+      "vehicleCrime": 8.8,
+      "antisocialBehaviour": 19.4,
+      "otherTheft": 14.1,
+      "other": 16.3
+    },
+    "source": "synthetic-estimate",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "William Cassidi Church of England Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sedgefield Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bishopton Redmarshall CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sedgefield Community College",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 112489,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 16,
+    "privateRent": 19,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 64,
+    "avgUpload": 12,
+    "superfastPct": 72,
+    "ultrafastPct": 6,
+    "gigabitPct": 6,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Middlesbrough Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.7,
+    "imdRank": 18284,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TS21 encompasses STOCKTON-ON-TEES and its surrounding areas in Teesside, North East.",
+    "priceVsCounty": "The average property price in TS21 is £243,967, which is 29% above the Teesside average of £189,841.",
+    "priceVsNational": "Properties in TS21 cost 15.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TS21 have fallen 5.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 88.0 recorded crimes per 1,000 residents, TS21 has a crime rate 8% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TS21 has 7 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TS21 are 64.0 Mbps, with 80% of premises having access to superfast broadband and 33% with full fibre (FTTP) connectivity.",
+    "synthesis": "TS21 (STOCKTON-ON-TEES) offers property prices near the national average (£243,967), 7 nearby schools, and good broadband connectivity (64 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 189841,
+      "crime": 75,
+      "broadband": 64
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 64
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

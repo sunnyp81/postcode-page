@@ -1,0 +1,197 @@
+{
+  "code": "SO40",
+  "name": "SOUTHAMPTON",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "southampton",
+  "adjacent": [
+    "SO41",
+    "SO42"
+  ],
+  "property": {
+    "avgPrice": 404216,
+    "medianPrice": 325000,
+    "priceChange1y": 7,
+    "priceChange5y": 0,
+    "transactions12m": 1767,
+    "byType": {
+      "detached": {
+        "avg": 493847,
+        "count": 593
+      },
+      "semi": {
+        "avg": 340962,
+        "count": 428
+      },
+      "terraced": {
+        "avg": 277182,
+        "count": 468
+      },
+      "flat": {
+        "avg": 176637,
+        "count": 225
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 466758
+      },
+      {
+        "year": 2024,
+        "avg": 367298
+      },
+      {
+        "year": 2025,
+        "avg": 393038
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 41.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -49.2,
+    "byType": {
+      "violentCrime": 19.3,
+      "burglary": 2.1,
+      "vehicleCrime": 1.6,
+      "antisocialBehaviour": 3.8,
+      "otherTheft": 5.6,
+      "other": 9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Lydlynch Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eling Infant School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Foxhills Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Foxhills Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Calmore Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 176116,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 11,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 317,
+    "avgUpload": 57,
+    "superfastPct": 94,
+    "ultrafastPct": 78,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "New Forest",
+    "bandD": 2091,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13,
+    "imdRank": 10782,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SO40 is the postcode district for SOUTHAMPTON, located in Hampshire, South East.",
+    "priceVsCounty": "The average property price in SO40 is £404,216, which is 6% below the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in SO40 cost 40.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SO40 have risen 7.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 41.3 recorded crimes per 1,000 residents, SO40 has a crime rate well 49% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SO40 has 19 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SO40 are 317.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SO40 (SOUTHAMPTON) offers above-average property prices (£404,216, 41% above national average), low crime (49% below national average), 19 nearby schools, and excellent broadband (317 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 317
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 317
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

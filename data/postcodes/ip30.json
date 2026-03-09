@@ -1,0 +1,198 @@
+{
+  "code": "IP30",
+  "name": "BURY ST EDMUNDS",
+  "county": "suffolk",
+  "region": "east-of-england",
+  "city": "ipswich",
+  "adjacent": [
+    "IP29",
+    "IP31",
+    "IP32"
+  ],
+  "property": {
+    "avgPrice": 439207,
+    "medianPrice": 380000,
+    "priceChange1y": -14.6,
+    "priceChange5y": 0,
+    "transactions12m": 876,
+    "byType": {
+      "detached": {
+        "avg": 481996,
+        "count": 492
+      },
+      "semi": {
+        "avg": 295356,
+        "count": 186
+      },
+      "terraced": {
+        "avg": 252102,
+        "count": 128
+      },
+      "flat": {
+        "avg": 176159,
+        "count": 11
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 444712
+      },
+      {
+        "year": 2024,
+        "avg": 464919
+      },
+      {
+        "year": 2025,
+        "avg": 396926
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.1,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Elmswell Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rattlesden Church of England Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Woolpit Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Rougham Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Great Whelnetham Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 97033,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 199,
+    "avgUpload": 36,
+    "superfastPct": 91,
+    "ultrafastPct": 43,
+    "gigabitPct": 43,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Babergh",
+    "bandD": 2035,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.3,
+    "imdRank": 12339,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IP30 covers BURY ST EDMUNDS in Suffolk, East Of England.",
+    "priceVsCounty": "The average property price in IP30 is £439,207, which is 16% above the Suffolk average of £379,904.",
+    "priceVsNational": "Properties in IP30 cost 53.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IP30 have fallen 14.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, IP30 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IP30 has 7 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IP30 are 199.0 Mbps, with 99% of premises having access to superfast broadband and 70% with full fibre (FTTP) connectivity.",
+    "synthesis": "IP30 (BURY ST EDMUNDS) offers above-average property prices (£439,207, 53% above national average), low crime (94% below national average), 7 nearby schools, and excellent broadband (199 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 379904,
+      "crime": 75,
+      "broadband": 199
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 199
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

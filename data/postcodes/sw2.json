@@ -1,0 +1,197 @@
+{
+  "code": "SW2",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SW3",
+    "SW4"
+  ],
+  "property": {
+    "avgPrice": 600218,
+    "medianPrice": 510375,
+    "priceChange1y": -9.1,
+    "priceChange5y": 0,
+    "transactions12m": 2025,
+    "byType": {
+      "detached": {
+        "avg": 1056422,
+        "count": 17
+      },
+      "semi": {
+        "avg": 1062702,
+        "count": 99
+      },
+      "terraced": {
+        "avg": 890417,
+        "count": 392
+      },
+      "flat": {
+        "avg": 463427,
+        "count": 1460
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 581375
+      },
+      {
+        "year": 2024,
+        "avg": 635819
+      },
+      {
+        "year": 2025,
+        "avg": 577853
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 222.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 173.6,
+    "byType": {
+      "violentCrime": 59.2,
+      "burglary": 8.8,
+      "vehicleCrime": 15.1,
+      "antisocialBehaviour": 50.7,
+      "otherTheft": 50.6,
+      "other": 38
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 3,
+    "good": 3,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Triangle Nursery School",
+        "type": "Nursery",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Effra Nursery School and Children's Centre",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Holmewood Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Richard Atkins Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sudbourne Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 316920,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 21,
+    "socialRent": 34,
+    "privateRent": 29,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 365,
+    "avgUpload": 66,
+    "superfastPct": 99,
+    "ultrafastPct": 93,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lambeth",
+    "bandD": 1762,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.4,
+    "imdRank": 21351,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SW2 is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in SW2 is £600,218, which is 54% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SW2 cost 109.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SW2 have fallen 9.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 222.4 recorded crimes per 1,000 residents, SW2 has a crime rate significantly 174% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SW2 has 16 schools within or near its boundaries, including 3 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SW2 are 365.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SW2 (LONDON) offers above-average property prices (£600,218, 109% above national average), higher-than-average crime (174% above national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (365 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 365
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 365
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

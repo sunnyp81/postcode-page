@@ -1,0 +1,198 @@
+{
+  "code": "SE8",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SE7",
+    "SE9",
+    "SE10"
+  ],
+  "property": {
+    "avgPrice": 585406,
+    "medianPrice": 405000,
+    "priceChange1y": -4.8,
+    "priceChange5y": 0,
+    "transactions12m": 805,
+    "byType": {
+      "detached": {
+        "avg": 663250,
+        "count": 2
+      },
+      "semi": {
+        "avg": 748143,
+        "count": 7
+      },
+      "terraced": {
+        "avg": 674749,
+        "count": 123
+      },
+      "flat": {
+        "avg": 391157,
+        "count": 629
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 504127
+      },
+      {
+        "year": 2024,
+        "avg": 633143
+      },
+      {
+        "year": 2025,
+        "avg": 602978
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 212,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 160.8,
+    "byType": {
+      "violentCrime": 59.8,
+      "burglary": 10.7,
+      "vehicleCrime": 10.4,
+      "antisocialBehaviour": 44.7,
+      "otherTheft": 47.9,
+      "other": 38.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Rachel McMillan Nursery School and Children's Centre",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Clyde Nursery School.",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Deptford Park Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Grinling Gibbons Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Oak Gardens Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 299528,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 31,
+    "privateRent": 24,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 291,
+    "avgUpload": 52,
+    "superfastPct": 95,
+    "ultrafastPct": 69,
+    "gigabitPct": 69,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Greenwich",
+    "bandD": 1814,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 24.5,
+    "imdRank": 20383,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SE8 is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in SE8 is £585,406, which is 55% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SE8 cost 104.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SE8 have fallen 4.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 212.0 recorded crimes per 1,000 residents, SE8 has a crime rate significantly 161% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SE8 has 12 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SE8 are 291.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SE8 (LONDON) offers above-average property prices (£585,406, 104% above national average), higher-than-average crime (161% above national average), 12 nearby schools, and excellent broadband (291 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 291
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 291
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

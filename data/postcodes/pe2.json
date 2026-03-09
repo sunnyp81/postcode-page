@@ -1,0 +1,198 @@
+{
+  "code": "PE2",
+  "name": "PETERBOROUGH",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "peterborough",
+  "adjacent": [
+    "PE1",
+    "PE3",
+    "PE4"
+  ],
+  "property": {
+    "avgPrice": 303392,
+    "medianPrice": 225000,
+    "priceChange1y": -6.1,
+    "priceChange5y": 0,
+    "transactions12m": 2149,
+    "byType": {
+      "detached": {
+        "avg": 345003,
+        "count": 575
+      },
+      "semi": {
+        "avg": 235626,
+        "count": 630
+      },
+      "terraced": {
+        "avg": 189962,
+        "count": 650
+      },
+      "flat": {
+        "avg": 130488,
+        "count": 220
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 320495
+      },
+      {
+        "year": 2024,
+        "avg": 303684
+      },
+      {
+        "year": 2025,
+        "avg": 285078
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 65.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -19.6,
+    "byType": {
+      "violentCrime": 25.9,
+      "burglary": 2.4,
+      "vehicleCrime": 3.1,
+      "antisocialBehaviour": 12.6,
+      "otherTheft": 7.7,
+      "other": 13.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Old Fletton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Southfields Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oakdale Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brewster Avenue Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Leighton Primary and Preschool",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 190619,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 375,
+    "avgUpload": 68,
+    "superfastPct": 99,
+    "ultrafastPct": 93,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Huntingdonshire",
+    "bandD": 2192,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.6,
+    "imdRank": 10465,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PE2 is the postcode district for PETERBOROUGH, located in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in PE2 is £303,392, which is 21% below the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in PE2 cost 5.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PE2 have fallen 6.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 65.4 recorded crimes per 1,000 residents, PE2 has a crime rate 20% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PE2 has 20 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PE2 are 375.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PE2 (PETERBOROUGH) offers property prices near the national average (£303,392), low crime (20% below national average), 20 nearby schools, and excellent broadband (375 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 375
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 375
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

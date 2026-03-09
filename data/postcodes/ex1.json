@@ -1,0 +1,197 @@
+{
+  "code": "EX1",
+  "name": "EXETER",
+  "county": "devon",
+  "region": "south-west",
+  "city": "exeter",
+  "adjacent": [
+    "EX2",
+    "EX3"
+  ],
+  "property": {
+    "avgPrice": 376757,
+    "medianPrice": 320000,
+    "priceChange1y": -4.4,
+    "priceChange5y": 0,
+    "transactions12m": 1618,
+    "byType": {
+      "detached": {
+        "avg": 455938,
+        "count": 425
+      },
+      "semi": {
+        "avg": 343152,
+        "count": 357
+      },
+      "terraced": {
+        "avg": 294126,
+        "count": 549
+      },
+      "flat": {
+        "avg": 215967,
+        "count": 222
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 423224
+      },
+      {
+        "year": 2024,
+        "avg": 356227
+      },
+      {
+        "year": 2025,
+        "avg": 340606
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 100.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 23.9,
+    "byType": {
+      "violentCrime": 44,
+      "burglary": 2.4,
+      "vehicleCrime": 2,
+      "antisocialBehaviour": 19.1,
+      "otherTheft": 12.5,
+      "other": 20.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 3,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Exeter Cathedral School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Maynard School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ellen Tinkham School",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Nicholas Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Michael's Church of England Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 138399,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 17,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 371,
+    "avgUpload": 67,
+    "superfastPct": 97,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Exeter",
+    "bandD": 2168,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.2,
+    "imdRank": 13406,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EX1 encompasses EXETER and its surrounding areas in Devon, South West.",
+    "priceVsCounty": "The average property price in EX1 is £376,757, broadly in line with the Devon average of £385,452.",
+    "priceVsNational": "Properties in EX1 cost 31.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EX1 have fallen 4.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 100.7 recorded crimes per 1,000 residents, EX1 has a crime rate significantly 24% above the national average of 81.3 per 1,000.",
+    "schoolContext": "EX1 has 13 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EX1 are 371.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "EX1 (EXETER) offers above-average property prices (£376,757, 31% above national average), higher-than-average crime (24% above national average), 13 nearby schools, and excellent broadband (371 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 371
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 371
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "NW10",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "NW9",
+    "NW11"
+  ],
+  "property": {
+    "avgPrice": 768964,
+    "medianPrice": 530000,
+    "priceChange1y": -16.7,
+    "priceChange5y": 0,
+    "transactions12m": 1926,
+    "byType": {
+      "detached": {
+        "avg": 1351238,
+        "count": 21
+      },
+      "semi": {
+        "avg": 992508,
+        "count": 198
+      },
+      "terraced": {
+        "avg": 934791,
+        "count": 557
+      },
+      "flat": {
+        "avg": 416435,
+        "count": 981
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 772603
+      },
+      {
+        "year": 2024,
+        "avg": 827238
+      },
+      {
+        "year": 2025,
+        "avg": 689194
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 203.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 150.8,
+    "byType": {
+      "violentCrime": 59,
+      "burglary": 6.4,
+      "vehicleCrime": 14.7,
+      "antisocialBehaviour": 56.8,
+      "otherTheft": 30.6,
+      "other": 36.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 31,
+    "outstanding": 1,
+    "good": 13,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Kenmont Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Curzon Nursery School & Family Wellbeing Centre",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Fawood Nursery School & Family Wellbeing Centre",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "College Green School and Services",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brentfield Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 188687,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 17,
+    "socialRent": 30,
+    "privateRent": 34,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 311,
+    "avgUpload": 56,
+    "superfastPct": 97,
+    "ultrafastPct": 79,
+    "gigabitPct": 73,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "London Council",
+    "bandD": 1062,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.3,
+    "imdRank": 18643,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NW10 is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in NW10 is £768,964, which is 41% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in NW10 cost 167.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NW10 have fallen 16.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 203.9 recorded crimes per 1,000 residents, NW10 has a crime rate significantly 151% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NW10 has 31 schools within or near its boundaries, including 1 rated Outstanding and 13 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NW10 are 311.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NW10 (LONDON) offers above-average property prices (£768,964, 168% above national average), higher-than-average crime (151% above national average), 31 nearby schools, and excellent broadband (311 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 311
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 311
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

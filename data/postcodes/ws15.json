@@ -1,0 +1,196 @@
+{
+  "code": "WS15",
+  "name": "RUGELEY",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "walsall",
+  "adjacent": [
+    "WS14"
+  ],
+  "property": {
+    "avgPrice": 276795,
+    "medianPrice": 225000,
+    "priceChange1y": 3.3,
+    "priceChange5y": 0,
+    "transactions12m": 1569,
+    "byType": {
+      "detached": {
+        "avg": 408350,
+        "count": 474
+      },
+      "semi": {
+        "avg": 216599,
+        "count": 558
+      },
+      "terraced": {
+        "avg": 198670,
+        "count": 372
+      },
+      "flat": {
+        "avg": 117844,
+        "count": 90
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 276817
+      },
+      {
+        "year": 2024,
+        "avg": 272359
+      },
+      {
+        "year": 2025,
+        "avg": 281379
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 30.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -62.2,
+    "byType": {
+      "violentCrime": 12.5,
+      "burglary": 1.1,
+      "vehicleCrime": 1.4,
+      "antisocialBehaviour": 3.2,
+      "otherTheft": 6.4,
+      "other": 6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Croft Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hayes Meadow Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chancel Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The John Bamford Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hob Hill CE/Methodist (VC) Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 111932,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 13,
+    "privateRent": 11,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 278,
+    "avgUpload": 50,
+    "superfastPct": 90,
+    "ultrafastPct": 66,
+    "gigabitPct": 66,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lichfield",
+    "bandD": 2058,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.6,
+    "imdRank": 10387,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WS15 encompasses RUGELEY and its surrounding areas in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in WS15 is £276,795, which is 17% below the West Midlands average of £334,385.",
+    "priceVsNational": "Property values in WS15 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in WS15 have risen 3.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 30.7 recorded crimes per 1,000 residents, WS15 has a crime rate well 62% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WS15 has 21 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WS15 are 278.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WS15 (RUGELEY) offers property prices near the national average (£276,795), low crime (62% below national average), 21 nearby schools, and excellent broadband (278 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 278
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 278
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

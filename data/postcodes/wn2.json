@@ -1,0 +1,198 @@
+{
+  "code": "WN2",
+  "name": "WIGAN",
+  "county": "greater-manchester",
+  "region": "north-west",
+  "city": "wigan",
+  "adjacent": [
+    "WN1",
+    "WN3",
+    "WN4"
+  ],
+  "property": {
+    "avgPrice": 189395,
+    "medianPrice": 165000,
+    "priceChange1y": 0.1,
+    "priceChange5y": 0,
+    "transactions12m": 2409,
+    "byType": {
+      "detached": {
+        "avg": 289874,
+        "count": 400
+      },
+      "semi": {
+        "avg": 183323,
+        "count": 895
+      },
+      "terraced": {
+        "avg": 131646,
+        "count": 957
+      },
+      "flat": {
+        "avg": 93542,
+        "count": 83
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 192943
+      },
+      {
+        "year": 2024,
+        "avg": 187484
+      },
+      {
+        "year": 2025,
+        "avg": 187734
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 26,
+    "outstanding": 1,
+    "good": 9,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hindley Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hindley Junior and Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bickershaw CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hindley All Saints CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 344922,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 17,
+    "privateRent": 14,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 347,
+    "avgUpload": 62,
+    "superfastPct": 96,
+    "ultrafastPct": 86,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wigan",
+    "bandD": 1832,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.7,
+    "imdRank": 18600,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WN2 encompasses WIGAN and its surrounding areas in Greater Manchester, North West.",
+    "priceVsCounty": "The average property price in WN2 is £189,395, which is 50% below the Greater Manchester average of £381,941.",
+    "priceVsNational": "Properties in WN2 cost 34.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WN2 have risen 0.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, WN2 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WN2 has 26 schools within or near its boundaries, including 1 rated Outstanding and 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WN2 are 347.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WN2 (WIGAN) offers affordable property prices (£189,395, 34% below national average), low crime (94% below national average), 26 nearby schools, and excellent broadband (347 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 381941,
+      "crime": 75,
+      "broadband": 347
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 347
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

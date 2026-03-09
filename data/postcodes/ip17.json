@@ -1,0 +1,198 @@
+{
+  "code": "IP17",
+  "name": "SAXMUNDHAM",
+  "county": "suffolk",
+  "region": "east-of-england",
+  "city": "ipswich",
+  "adjacent": [
+    "IP16",
+    "IP18",
+    "IP19"
+  ],
+  "property": {
+    "avgPrice": 400056,
+    "medianPrice": 336000,
+    "priceChange1y": 5.1,
+    "priceChange5y": 0,
+    "transactions12m": 598,
+    "byType": {
+      "detached": {
+        "avg": 503193,
+        "count": 284
+      },
+      "semi": {
+        "avg": 289718,
+        "count": 150
+      },
+      "terraced": {
+        "avg": 244323,
+        "count": 96
+      },
+      "flat": {
+        "avg": 166667,
+        "count": 15
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 435253
+      },
+      {
+        "year": 2024,
+        "avg": 375578
+      },
+      {
+        "year": 2025,
+        "avg": 394689
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.9,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.2,
+      "other": 0.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Kelsale Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Middleton Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Yoxford & Peasenhall Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Saxmundham Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Coldfair Green Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 22092,
+    "medianAge": 41,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 13,
+    "privateRent": 21,
+    "economicallyActive": 76,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 201,
+    "avgUpload": 36,
+    "superfastPct": 87,
+    "ultrafastPct": 44,
+    "gigabitPct": 44,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Suffolk",
+    "bandD": 2019,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.6,
+    "imdRank": 15274,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IP17 encompasses SAXMUNDHAM and its surrounding areas in Suffolk, East Of England.",
+    "priceVsCounty": "The average property price in IP17 is £400,056, which is 5% above the Suffolk average of £379,904.",
+    "priceVsNational": "Properties in IP17 cost 39.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IP17 have risen 5.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, IP17 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IP17 has 7 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IP17 are 201.0 Mbps, with 99% of premises having access to superfast broadband and 70% with full fibre (FTTP) connectivity.",
+    "synthesis": "IP17 (SAXMUNDHAM) offers above-average property prices (£400,056, 39% above national average), low crime (94% below national average), 7 nearby schools, and excellent broadband (201 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 379904,
+      "crime": 75,
+      "broadband": 201
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 201
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

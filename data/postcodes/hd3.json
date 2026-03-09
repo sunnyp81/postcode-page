@@ -1,0 +1,198 @@
+{
+  "code": "HD3",
+  "name": "HUDDERSFIELD",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "huddersfield",
+  "adjacent": [
+    "HD2",
+    "HD4",
+    "HD5"
+  ],
+  "property": {
+    "avgPrice": 210802,
+    "medianPrice": 185000,
+    "priceChange1y": 1.8,
+    "priceChange5y": 0,
+    "transactions12m": 1480,
+    "byType": {
+      "detached": {
+        "avg": 371895,
+        "count": 203
+      },
+      "semi": {
+        "avg": 227618,
+        "count": 468
+      },
+      "terraced": {
+        "avg": 155166,
+        "count": 581
+      },
+      "flat": {
+        "avg": 129352,
+        "count": 162
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 203358
+      },
+      {
+        "year": 2024,
+        "avg": 212735
+      },
+      {
+        "year": 2025,
+        "avg": 216582
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 65.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -19.8,
+    "byType": {
+      "violentCrime": 30.5,
+      "burglary": 3.5,
+      "vehicleCrime": 2.9,
+      "antisocialBehaviour": 4.7,
+      "otherTheft": 9.1,
+      "other": 14.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Crow Lane Primary and Foundation Stage School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Huddersfield New College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lindley Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Salendine Nook High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lindley Church of England Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 447847,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 15,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 337,
+    "avgUpload": 61,
+    "superfastPct": 97,
+    "ultrafastPct": 82,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Kirklees",
+    "bandD": 2102,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.2,
+    "imdRank": 19120,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HD3 encompasses HUDDERSFIELD and its surrounding areas in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HD3 is £210,802, which is 24% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in HD3 cost 26.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HD3 have risen 1.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 65.2 recorded crimes per 1,000 residents, HD3 has a crime rate 20% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HD3 has 10 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HD3 are 337.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HD3 (HUDDERSFIELD) offers affordable property prices (£210,802, 27% below national average), low crime (20% below national average), 10 nearby schools, and excellent broadband (337 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 337
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 337
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "ME4",
+  "name": "CHATHAM",
+  "county": "kent",
+  "region": "south-east",
+  "city": "medway",
+  "adjacent": [
+    "ME3",
+    "ME5",
+    "ME6"
+  ],
+  "property": {
+    "avgPrice": 302948,
+    "medianPrice": 245000,
+    "priceChange1y": 3.3,
+    "priceChange5y": 0,
+    "transactions12m": 1695,
+    "byType": {
+      "detached": {
+        "avg": 510351,
+        "count": 67
+      },
+      "semi": {
+        "avg": 380667,
+        "count": 130
+      },
+      "terraced": {
+        "avg": 273219,
+        "count": 894
+      },
+      "flat": {
+        "avg": 220244,
+        "count": 536
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 306370
+      },
+      {
+        "year": 2024,
+        "avg": 296279
+      },
+      {
+        "year": 2025,
+        "avg": 306068
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 278.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 242.7,
+    "byType": {
+      "violentCrime": 110,
+      "burglary": 5.7,
+      "vehicleCrime": 10.7,
+      "antisocialBehaviour": 51.6,
+      "otherTheft": 43,
+      "other": 57.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Greenvale Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "New Road Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's Island Church of England (Aided) Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Blue Skies School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Victory Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 292655,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 14,
+    "privateRent": 18,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 311,
+    "avgUpload": 56,
+    "superfastPct": 93,
+    "ultrafastPct": 81,
+    "gigabitPct": 73,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Medway Council",
+    "bandD": 2268,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.9,
+    "imdRank": 18587,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ME4 covers CHATHAM in Kent, South East.",
+    "priceVsCounty": "The average property price in ME4 is £302,948, which is 33% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in ME4 cost 5.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ME4 have risen 3.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 278.6 recorded crimes per 1,000 residents, ME4 has a crime rate significantly 243% above the national average of 81.3 per 1,000.",
+    "schoolContext": "ME4 has 15 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ME4 are 311.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "ME4 (CHATHAM) offers property prices near the national average (£302,948), higher-than-average crime (243% above national average), 15 nearby schools, and excellent broadband (311 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 311
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 311
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

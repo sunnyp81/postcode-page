@@ -1,0 +1,190 @@
+{
+  "code": "CF10",
+  "name": "CARDIFF",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF11"
+  ],
+  "property": {
+    "avgPrice": 412369,
+    "medianPrice": 179104,
+    "priceChange1y": -69.4,
+    "priceChange5y": 0,
+    "transactions12m": 958,
+    "byType": {
+      "detached": {
+        "avg": 500467,
+        "count": 9
+      },
+      "semi": {
+        "avg": 298225,
+        "count": 16
+      },
+      "terraced": {
+        "avg": 315051,
+        "count": 80
+      },
+      "flat": {
+        "avg": 180791,
+        "count": 758
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 285374
+      },
+      {
+        "year": 2024,
+        "avg": 687837
+      },
+      {
+        "year": 2025,
+        "avg": 210318
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 115.9,
+      "burglary": 10.4,
+      "vehicleCrime": 20.6,
+      "antisocialBehaviour": 47.8,
+      "otherTheft": 88.2,
+      "other": 83.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Mount Stuart Primary",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Cuthbert's R.C. Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary The Virgin C.I.W. Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Gynradd Gymraeg Hamadryad",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 383919,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 293,
+    "avgUpload": 53,
+    "superfastPct": 81,
+    "ultrafastPct": 72,
+    "gigabitPct": 71,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF10 covers CARDIFF in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF10 is £412,369, which is 50% above the Cardiff average of £275,506.",
+    "priceVsNational": "Properties in CF10 cost 43.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CF10 have fallen 69.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, CF10 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "CF10 has 4 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF10 are 293.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF10 (CARDIFF) offers above-average property prices (£412,369, 44% above national average), higher-than-average crime (269% above national average), 4 nearby schools, and excellent broadband (293 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 293
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 293
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

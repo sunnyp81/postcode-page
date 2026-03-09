@@ -1,0 +1,198 @@
+{
+  "code": "NR20",
+  "name": "DEREHAM",
+  "county": "norfolk",
+  "region": "east-of-england",
+  "city": "norwich",
+  "adjacent": [
+    "NR19",
+    "NR21",
+    "NR22"
+  ],
+  "property": {
+    "avgPrice": 377769,
+    "medianPrice": 315000,
+    "priceChange1y": 7.1,
+    "priceChange5y": 0,
+    "transactions12m": 1012,
+    "byType": {
+      "detached": {
+        "avg": 435712,
+        "count": 549
+      },
+      "semi": {
+        "avg": 265223,
+        "count": 296
+      },
+      "terraced": {
+        "avg": 220562,
+        "count": 117
+      },
+      "flat": {
+        "avg": 129750,
+        "count": 4
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 410447
+      },
+      {
+        "year": 2024,
+        "avg": 351504
+      },
+      {
+        "year": 2025,
+        "avg": 376492
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.6,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.1,
+      "other": 0.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Mary's Community Primary School, Beetley",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Swanton Morley VC Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hockering Church of England Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bawdeswell Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Dereham Neatherd High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 146620,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 153,
+    "avgUpload": 28,
+    "superfastPct": 87,
+    "ultrafastPct": 30,
+    "gigabitPct": 30,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Breckland",
+    "bandD": 2114,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.6,
+    "imdRank": 16834,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NR20 covers DEREHAM in Norfolk, East Of England.",
+    "priceVsCounty": "The average property price in NR20 is £377,769, which is 7% above the Norfolk average of £352,657.",
+    "priceVsNational": "Properties in NR20 cost 31.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NR20 have risen 7.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, NR20 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NR20 has 9 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NR20 are 153.0 Mbps, with 93% of premises having access to superfast broadband and 57% with full fibre (FTTP) connectivity.",
+    "synthesis": "NR20 (DEREHAM) offers above-average property prices (£377,769, 32% above national average), low crime (94% below national average), 9 nearby schools, and excellent broadband (153 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 352657,
+      "crime": 75,
+      "broadband": 153
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 153
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

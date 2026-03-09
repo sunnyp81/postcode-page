@@ -1,0 +1,167 @@
+{
+  "code": "LL70",
+  "name": "DULAS",
+  "county": "north-wales",
+  "region": "wales",
+  "city": "north-wales",
+  "adjacent": [
+    "LL69",
+    "LL71",
+    "LL72"
+  ],
+  "property": {
+    "avgPrice": 446021,
+    "medianPrice": 405000,
+    "priceChange1y": -23.1,
+    "priceChange5y": 0,
+    "transactions12m": 8,
+    "byType": {
+      "detached": {
+        "avg": 421667,
+        "count": 6
+      },
+      "semi": {
+        "avg": 535225,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 446021,
+        "count": 0
+      },
+      "flat": {
+        "avg": 303294,
+        "count": 0
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 513333
+      },
+      {
+        "year": 2025,
+        "avg": 394543
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 0,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": []
+  },
+  "demographics": {
+    "population": 69097,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 307,
+    "avgUpload": 55,
+    "superfastPct": 76,
+    "ultrafastPct": 76,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Wales Council",
+    "bandD": 2304,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LL70 covers DULAS in North Wales, Wales.",
+    "priceVsCounty": "The average property price in LL70 is £446,021, which is 64% above the North Wales average of £271,879.",
+    "priceVsNational": "Properties in LL70 cost 55.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LL70 have fallen 23.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, LL70 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "School data for LL70 is not currently available.",
+    "broadbandContext": "Average broadband download speeds in LL70 are 307.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LL70 (DULAS) offers above-average property prices (£446,021, 55% above national average), low crime (94% below national average), and excellent broadband (307 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 271879,
+      "crime": 75,
+      "broadband": 307
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 307
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

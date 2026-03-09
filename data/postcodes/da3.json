@@ -1,0 +1,198 @@
+{
+  "code": "DA3",
+  "name": "LONGFIELD",
+  "county": "greater-london",
+  "region": "london",
+  "city": "dartford",
+  "adjacent": [
+    "DA2",
+    "DA4",
+    "DA5"
+  ],
+  "property": {
+    "avgPrice": 566223,
+    "medianPrice": 470000,
+    "priceChange1y": -22.4,
+    "priceChange5y": 0,
+    "transactions12m": 707,
+    "byType": {
+      "detached": {
+        "avg": 712575,
+        "count": 265
+      },
+      "semi": {
+        "avg": 537255,
+        "count": 146
+      },
+      "terraced": {
+        "avg": 336302,
+        "count": 230
+      },
+      "flat": {
+        "avg": 271566,
+        "count": 49
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 543303
+      },
+      {
+        "year": 2024,
+        "avg": 647476
+      },
+      {
+        "year": 2025,
+        "avg": 502148
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 10.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -87.6,
+    "byType": {
+      "violentCrime": 3.3,
+      "burglary": 0.5,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 2.6,
+      "otherTheft": 1.1,
+      "other": 2.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 2,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Fawkham Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Langafel Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Steephill School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rowhill School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "New Ash Green Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 110671,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 17,
+    "privateRent": 17,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 234,
+    "avgUpload": 42,
+    "superfastPct": 91,
+    "ultrafastPct": 56,
+    "gigabitPct": 52,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Gravesham",
+    "bandD": 2104,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.4,
+    "imdRank": 17293,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DA3 is the postcode district for LONGFIELD, located in Greater London, London.",
+    "priceVsCounty": "The average property price in DA3 is £566,223, which is 57% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in DA3 cost 97.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DA3 have fallen 22.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 10.1 recorded crimes per 1,000 residents, DA3 has a crime rate well 88% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DA3 has 9 schools within or near its boundaries, including 2 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DA3 are 234.0 Mbps, with 99% of premises having access to superfast broadband and 79% with full fibre (FTTP) connectivity.",
+    "synthesis": "DA3 (LONGFIELD) offers above-average property prices (£566,223, 97% above national average), low crime (88% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (234 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 234
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 234
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

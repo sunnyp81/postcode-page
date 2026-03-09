@@ -1,0 +1,177 @@
+{
+  "code": "CA19",
+  "name": "HOLMROOK",
+  "county": "cumbria",
+  "region": "north-west",
+  "city": "carlisle",
+  "adjacent": [
+    "CA18",
+    "CA20",
+    "CA21"
+  ],
+  "property": {
+    "avgPrice": 385637,
+    "medianPrice": 331000,
+    "priceChange1y": -21,
+    "priceChange5y": 0,
+    "transactions12m": 42,
+    "byType": {
+      "detached": {
+        "avg": 436357,
+        "count": 21
+      },
+      "semi": {
+        "avg": 244361,
+        "count": 9
+      },
+      "terraced": {
+        "avg": 289667,
+        "count": 3
+      },
+      "flat": {
+        "avg": 400000,
+        "count": 1
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 403500
+      },
+      {
+        "year": 2024,
+        "avg": 426286
+      },
+      {
+        "year": 2025,
+        "avg": 336672
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 66.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -17.7,
+    "byType": {
+      "violentCrime": 18.1,
+      "burglary": 4.3,
+      "vehicleCrime": 6.7,
+      "antisocialBehaviour": 14.7,
+      "otherTheft": 10.7,
+      "other": 12.4
+    },
+    "source": "synthetic-estimate",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Bega's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 61,
+    "avgUpload": 11,
+    "superfastPct": 65,
+    "ultrafastPct": 6,
+    "gigabitPct": 6,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cumberland",
+    "bandD": 2175,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CA19 is the postcode district for HOLMROOK, located in Cumbria, North West.",
+    "priceVsCounty": "The average property price in CA19 is £385,637, which is 58% above the Cumbria average of £244,524.",
+    "priceVsNational": "Properties in CA19 cost 34.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CA19 have fallen 21.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 66.9 recorded crimes per 1,000 residents, CA19 has a crime rate 18% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CA19 has 1 school within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CA19 are 61.0 Mbps, with 79% of premises having access to superfast broadband and 32% with full fibre (FTTP) connectivity.",
+    "synthesis": "CA19 (HOLMROOK) offers above-average property prices (£385,637, 34% above national average), low crime (18% below national average), 1 nearby school, and good broadband connectivity (61 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 244524,
+      "crime": 75,
+      "broadband": 61
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 61
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

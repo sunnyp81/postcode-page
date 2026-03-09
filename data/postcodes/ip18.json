@@ -1,0 +1,188 @@
+{
+  "code": "IP18",
+  "name": "SOUTHWOLD",
+  "county": "suffolk",
+  "region": "east-of-england",
+  "city": "ipswich",
+  "adjacent": [
+    "IP17",
+    "IP19",
+    "IP20"
+  ],
+  "property": {
+    "avgPrice": 623177,
+    "medianPrice": 500000,
+    "priceChange1y": -4.6,
+    "priceChange5y": 0,
+    "transactions12m": 262,
+    "byType": {
+      "detached": {
+        "avg": 722906,
+        "count": 111
+      },
+      "semi": {
+        "avg": 565528,
+        "count": 47
+      },
+      "terraced": {
+        "avg": 532086,
+        "count": 78
+      },
+      "flat": {
+        "avg": 375479,
+        "count": 12
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 711398
+      },
+      {
+        "year": 2024,
+        "avg": 589538
+      },
+      {
+        "year": 2025,
+        "avg": 562271
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.4,
+      "burglary": 0.7,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.7,
+      "otherTheft": 0.5,
+      "other": 1.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Saint Felix School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Reydon Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Southwold Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 22092,
+    "medianAge": 41,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 13,
+    "privateRent": 21,
+    "economicallyActive": 76,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 208,
+    "avgUpload": 37,
+    "superfastPct": 95,
+    "ultrafastPct": 45,
+    "gigabitPct": 45,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Suffolk",
+    "bandD": 2019,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.6,
+    "imdRank": 15274,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IP18 covers SOUTHWOLD in Suffolk, East Of England.",
+    "priceVsCounty": "The average property price in IP18 is £623,177, which is 64% above the Suffolk average of £379,904.",
+    "priceVsNational": "Properties in IP18 cost 117.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IP18 have fallen 4.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, IP18 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IP18 has 3 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IP18 are 208.0 Mbps, with 99% of premises having access to superfast broadband and 72% with full fibre (FTTP) connectivity.",
+    "synthesis": "IP18 (SOUTHWOLD) offers above-average property prices (£623,177, 117% above national average), low crime (94% below national average), 3 nearby schools, and excellent broadband (208 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 379904,
+      "crime": 75,
+      "broadband": 208
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 208
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "SY14",
+  "name": "MALPAS",
+  "county": "mid-wales",
+  "region": "wales",
+  "city": "shrewsbury",
+  "adjacent": [
+    "SY13",
+    "SY15",
+    "SY16"
+  ],
+  "property": {
+    "avgPrice": 461719,
+    "medianPrice": 393750,
+    "priceChange1y": 0.6,
+    "priceChange5y": 0,
+    "transactions12m": 312,
+    "byType": {
+      "detached": {
+        "avg": 550930,
+        "count": 139
+      },
+      "semi": {
+        "avg": 302036,
+        "count": 73
+      },
+      "terraced": {
+        "avg": 292116,
+        "count": 47
+      },
+      "flat": {
+        "avg": 235951,
+        "count": 15
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 492693
+      },
+      {
+        "year": 2024,
+        "avg": 443799
+      },
+      {
+        "year": 2025,
+        "avg": 446582
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 2.3,
+      "burglary": 0.3,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.4,
+      "otherTheft": 0.4,
+      "other": 1.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bickerton Holy Trinity CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Malpas Alport Endowed Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Shocklach Oviatt CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tilston Parochial CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bishop Heber High School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 421298,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 12,
+    "privateRent": 14,
+    "economicallyActive": 71,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 282,
+    "avgUpload": 51,
+    "superfastPct": 82,
+    "ultrafastPct": 68,
+    "gigabitPct": 68,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Shrewsbury Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.5,
+    "imdRank": 11380,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SY14 covers MALPAS in Mid Wales, Wales.",
+    "priceVsCounty": "The average property price in SY14 is £461,719, which is 46% above the Mid Wales average of £315,596.",
+    "priceVsNational": "Properties in SY14 cost 60.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SY14 have risen 0.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SY14 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SY14 has 6 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SY14 are 282.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SY14 (MALPAS) offers above-average property prices (£461,719, 61% above national average), low crime (94% below national average), 6 nearby schools, and excellent broadband (282 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 315596,
+      "crime": 75,
+      "broadband": 282
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 282
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "TS16",
+  "name": "STOCKTON-ON-TEES",
+  "county": "teesside",
+  "region": "north-east",
+  "city": "middlesbrough",
+  "adjacent": [
+    "TS15",
+    "TS17",
+    "TS18"
+  ],
+  "property": {
+    "avgPrice": 277999,
+    "medianPrice": 230059,
+    "priceChange1y": -4.2,
+    "priceChange5y": 0,
+    "transactions12m": 770,
+    "byType": {
+      "detached": {
+        "avg": 337873,
+        "count": 294
+      },
+      "semi": {
+        "avg": 231572,
+        "count": 317
+      },
+      "terraced": {
+        "avg": 215414,
+        "count": 96
+      },
+      "flat": {
+        "avg": 133633,
+        "count": 47
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 306723
+      },
+      {
+        "year": 2024,
+        "avg": 267668
+      },
+      {
+        "year": 2025,
+        "avg": 256306
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 19.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -76.1,
+    "byType": {
+      "violentCrime": 6.5,
+      "burglary": 1,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 3.8,
+      "otherTheft": 3.8,
+      "other": 3.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Durham Lane Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Teesside High School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Egglescliffe School",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Junction Farm Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Links Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 206800,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 16,
+    "privateRent": 15,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 352,
+    "avgUpload": 63,
+    "superfastPct": 92,
+    "ultrafastPct": 87,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Middlesbrough Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.8,
+    "imdRank": 17541,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TS16 covers STOCKTON-ON-TEES in Teesside, North East.",
+    "priceVsCounty": "The average property price in TS16 is £277,999, which is 46% above the Teesside average of £189,841.",
+    "priceVsNational": "Property values in TS16 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in TS16 have fallen 4.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 19.4 recorded crimes per 1,000 residents, TS16 has a crime rate well 76% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TS16 has 7 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TS16 are 352.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TS16 (STOCKTON-ON-TEES) offers property prices near the national average (£277,999), low crime (76% below national average), 7 nearby schools, and excellent broadband (352 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 189841,
+      "crime": 75,
+      "broadband": 352
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 352
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

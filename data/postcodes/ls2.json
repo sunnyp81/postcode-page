@@ -1,0 +1,198 @@
+{
+  "code": "LS2",
+  "name": "LEEDS",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "leeds",
+  "adjacent": [
+    "LS1",
+    "LS3",
+    "LS4"
+  ],
+  "property": {
+    "avgPrice": 925373,
+    "medianPrice": 166000,
+    "priceChange1y": -67.8,
+    "priceChange5y": 0,
+    "transactions12m": 212,
+    "byType": {
+      "detached": {
+        "avg": 562500,
+        "count": 2
+      },
+      "semi": {
+        "avg": 330000,
+        "count": 1
+      },
+      "terraced": {
+        "avg": 401667,
+        "count": 18
+      },
+      "flat": {
+        "avg": 149026,
+        "count": 149
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1593648
+      },
+      {
+        "year": 2024,
+        "avg": 814529
+      },
+      {
+        "year": 2025,
+        "avg": 262029
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 161.9,
+      "burglary": 17.7,
+      "vehicleCrime": 16.9,
+      "antisocialBehaviour": 36.9,
+      "otherTheft": 154.7,
+      "other": 99.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 1,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Blenheim Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Leeds College of Building",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Leeds College of Music",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Leeds Arts University",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Notre Dame Catholic Sixth Form College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 845189,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 294,
+    "avgUpload": 53,
+    "superfastPct": 80,
+    "ultrafastPct": 76,
+    "gigabitPct": 70,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Leeds",
+    "bandD": 1968,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.3,
+    "imdRank": 18909,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LS2 encompasses LEEDS and its surrounding areas in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in LS2 is £925,373, which is 233% above the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in LS2 cost 222.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LS2 have fallen 67.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, LS2 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "LS2 has 6 schools within or near its boundaries, including 1 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LS2 are 294.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LS2 (LEEDS) offers above-average property prices (£925,373, 222% above national average), higher-than-average crime (269% above national average), 6 nearby schools, and excellent broadband (294 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 294
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 294
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

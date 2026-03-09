@@ -1,0 +1,198 @@
+{
+  "code": "SG17",
+  "name": "SHEFFORD",
+  "county": "hertfordshire",
+  "region": "east-of-england",
+  "city": "stevenage",
+  "adjacent": [
+    "SG16",
+    "SG18",
+    "SG19"
+  ],
+  "property": {
+    "avgPrice": 426611,
+    "medianPrice": 400000,
+    "priceChange1y": -3.7,
+    "priceChange5y": 0,
+    "transactions12m": 832,
+    "byType": {
+      "detached": {
+        "avg": 565401,
+        "count": 343
+      },
+      "semi": {
+        "avg": 381399,
+        "count": 203
+      },
+      "terraced": {
+        "avg": 312021,
+        "count": 182
+      },
+      "flat": {
+        "avg": 191032,
+        "count": 79
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 457090
+      },
+      {
+        "year": 2024,
+        "avg": 416013
+      },
+      {
+        "year": 2025,
+        "avg": 400799
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 16.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -80,
+    "byType": {
+      "violentCrime": 4.6,
+      "burglary": 0.2,
+      "vehicleCrime": 1.4,
+      "antisocialBehaviour": 2.7,
+      "otherTheft": 4.5,
+      "other": 2.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Shefford Lower School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Robert Bloomfield Academy",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Samuel Whitbread Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Clifton All Saints Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Campton Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 315877,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 360,
+    "avgUpload": 65,
+    "superfastPct": 96,
+    "ultrafastPct": 91,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stevenage Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.2,
+    "imdRank": 9823,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SG17 covers SHEFFORD in Hertfordshire, East Of England.",
+    "priceVsCounty": "The average property price in SG17 is £426,611, which is 25% below the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in SG17 cost 48.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SG17 have fallen 3.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 16.3 recorded crimes per 1,000 residents, SG17 has a crime rate well 80% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SG17 has 6 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SG17 are 360.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SG17 (SHEFFORD) offers above-average property prices (£426,611, 49% above national average), low crime (80% below national average), 6 nearby schools, and excellent broadband (360 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 360
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 360
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

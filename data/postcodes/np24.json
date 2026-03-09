@@ -1,0 +1,182 @@
+{
+  "code": "NP24",
+  "name": "NEW TREDEGAR",
+  "county": "gwent",
+  "region": "wales",
+  "city": "newport",
+  "adjacent": [
+    "NP23",
+    "NP25",
+    "NP26"
+  ],
+  "property": {
+    "avgPrice": 100512,
+    "medianPrice": 91000,
+    "priceChange1y": 10.1,
+    "priceChange5y": 0,
+    "transactions12m": 201,
+    "byType": {
+      "detached": {
+        "avg": 283083,
+        "count": 6
+      },
+      "semi": {
+        "avg": 126625,
+        "count": 8
+      },
+      "terraced": {
+        "avg": 93159,
+        "count": 181
+      },
+      "flat": {
+        "avg": 63348,
+        "count": 0
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 98178
+      },
+      {
+        "year": 2024,
+        "avg": 96692
+      },
+      {
+        "year": 2025,
+        "avg": 106410
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 7.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -90.4,
+    "byType": {
+      "violentCrime": 2.8,
+      "burglary": 0.2,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 1.7,
+      "otherTheft": 0.2,
+      "other": 2.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Phillipstown Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Whiterose Primary",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 176865,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 95,
+    "avgUpload": 17,
+    "superfastPct": 96,
+    "ultrafastPct": 12,
+    "gigabitPct": 12,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newport Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "NP24 encompasses NEW TREDEGAR and its surrounding areas in Gwent, Wales.",
+    "priceVsCounty": "The average property price in NP24 is £100,512, which is 63% below the Gwent average of £273,109.",
+    "priceVsNational": "Properties in NP24 cost 65.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NP24 have risen 10.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 7.8 recorded crimes per 1,000 residents, NP24 has a crime rate well 90% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NP24 has 2 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NP24 are 95.0 Mbps, with 84% of premises having access to superfast broadband and 41% with full fibre (FTTP) connectivity.",
+    "synthesis": "NP24 (NEW TREDEGAR) offers affordable property prices (£100,512, 65% below national average), low crime (90% below national average), 2 nearby schools, and good broadband connectivity (95 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 273109,
+      "crime": 75,
+      "broadband": 95
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 95
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

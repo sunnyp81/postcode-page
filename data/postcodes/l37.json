@@ -1,0 +1,198 @@
+{
+  "code": "L37",
+  "name": "LIVERPOOL",
+  "county": "merseyside",
+  "region": "north-west",
+  "city": "liverpool",
+  "adjacent": [
+    "L36",
+    "L38",
+    "L39"
+  ],
+  "property": {
+    "avgPrice": 401381,
+    "medianPrice": 315000,
+    "priceChange1y": -2.5,
+    "priceChange5y": 0,
+    "transactions12m": 1200,
+    "byType": {
+      "detached": {
+        "avg": 523362,
+        "count": 464
+      },
+      "semi": {
+        "avg": 294875,
+        "count": 508
+      },
+      "terraced": {
+        "avg": 242905,
+        "count": 60
+      },
+      "flat": {
+        "avg": 180918,
+        "count": 117
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 365538
+      },
+      {
+        "year": 2024,
+        "avg": 422713
+      },
+      {
+        "year": 2025,
+        "avg": 412057
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 27.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -66.4,
+    "byType": {
+      "violentCrime": 11.7,
+      "burglary": 0.8,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 3.4,
+      "otherTheft": 4.4,
+      "other": 6.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 2,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Woodlands Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Freshfield Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Redgate Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Luke's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Our Lady of Compassion Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 121995,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 14,
+    "privateRent": 12,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 364,
+    "avgUpload": 66,
+    "superfastPct": 97,
+    "ultrafastPct": 90,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "West Lancashire",
+    "bandD": 2153,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.6,
+    "imdRank": 14071,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "L37 encompasses LIVERPOOL and its surrounding areas in Merseyside, North West.",
+    "priceVsCounty": "The average property price in L37 is £401,381, which is 59% above the Merseyside average of £252,845.",
+    "priceVsNational": "Properties in L37 cost 39.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in L37 have fallen 2.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 27.3 recorded crimes per 1,000 residents, L37 has a crime rate well 66% below the national average of 81.3 per 1,000.",
+    "schoolContext": "L37 has 9 schools within or near its boundaries, including 2 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in L37 are 364.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "L37 (LIVERPOOL) offers above-average property prices (£401,381, 40% above national average), low crime (66% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (364 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 252845,
+      "crime": 75,
+      "broadband": 364
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 364
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

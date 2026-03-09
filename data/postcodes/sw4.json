@@ -1,0 +1,198 @@
+{
+  "code": "SW4",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SW3",
+    "SW5",
+    "SW6"
+  ],
+  "property": {
+    "avgPrice": 859281,
+    "medianPrice": 625000,
+    "priceChange1y": 1.7,
+    "priceChange5y": 0,
+    "transactions12m": 1528,
+    "byType": {
+      "detached": {
+        "avg": 3513018,
+        "count": 15
+      },
+      "semi": {
+        "avg": 2456137,
+        "count": 51
+      },
+      "terraced": {
+        "avg": 1441354,
+        "count": 285
+      },
+      "flat": {
+        "avg": 594587,
+        "count": 1115
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 900430
+      },
+      {
+        "year": 2024,
+        "avg": 832766
+      },
+      {
+        "year": 2025,
+        "avg": 847304
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 280.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 245.4,
+    "byType": {
+      "violentCrime": 72.1,
+      "burglary": 11.7,
+      "vehicleCrime": 18.3,
+      "antisocialBehaviour": 57.1,
+      "otherTheft": 79.3,
+      "other": 42.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 1,
+    "good": 7,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Maytree Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Clapham Manor Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Larkhall Primary Campus",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Allen Edwards Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Glenbrook Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 337655,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 19,
+    "privateRent": 34,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 359,
+    "avgUpload": 65,
+    "superfastPct": 99,
+    "ultrafastPct": 92,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wandsworth",
+    "bandD": 921,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.6,
+    "imdRank": 14312,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SW4 covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in SW4 is £859,281, which is 34% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SW4 cost 199.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SW4 have risen 1.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 280.8 recorded crimes per 1,000 residents, SW4 has a crime rate significantly 245% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SW4 has 17 schools within or near its boundaries, including 1 rated Outstanding and 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SW4 are 359.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SW4 (LONDON) offers above-average property prices (£859,281, 199% above national average), higher-than-average crime (245% above national average), 17 nearby schools, and excellent broadband (359 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 359
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 359
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

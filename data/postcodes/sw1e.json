@@ -1,0 +1,177 @@
+{
+  "code": "SW1E",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SW2",
+    "SW3"
+  ],
+  "property": {
+    "avgPrice": 3545109,
+    "medianPrice": 2012500,
+    "priceChange1y": -64.5,
+    "priceChange5y": 0,
+    "transactions12m": 66,
+    "byType": {
+      "detached": {
+        "avg": 6735707,
+        "count": 0
+      },
+      "semi": {
+        "avg": 4254131,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 3977857,
+        "count": 7
+      },
+      "flat": {
+        "avg": 2706645,
+        "count": 53
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 2902487
+      },
+      {
+        "year": 2024,
+        "avg": 5221438
+      },
+      {
+        "year": 2025,
+        "avg": 1855000
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 113.5,
+      "burglary": 13.2,
+      "vehicleCrime": 22.3,
+      "antisocialBehaviour": 98.2,
+      "otherTheft": 297.3,
+      "other": 64.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Westminster City School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 209996,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 11,
+    "socialRent": 28,
+    "privateRent": 39,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 250,
+    "avgUpload": 45,
+    "superfastPct": 64,
+    "ultrafastPct": 61,
+    "gigabitPct": 61,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Westminster",
+    "bandD": 914,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.3,
+    "imdRank": 16573,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SW1E covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in SW1E is £3,545,109, which is 171% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SW1E cost 1135.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SW1E have fallen 64.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, SW1E has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SW1E has 1 school within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SW1E are 250.0 Mbps, with 99% of premises having access to superfast broadband and 84% with full fibre (FTTP) connectivity.",
+    "synthesis": "SW1E (LONDON) offers above-average property prices (£3,545,109, 1135% above national average), higher-than-average crime (269% above national average), 1 nearby school, and excellent broadband (250 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 250
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 250
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

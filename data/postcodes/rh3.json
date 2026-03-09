@@ -1,0 +1,178 @@
+{
+  "code": "RH3",
+  "name": "BETCHWORTH",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "redhill",
+  "adjacent": [
+    "RH2",
+    "RH4",
+    "RH5"
+  ],
+  "property": {
+    "avgPrice": 791046,
+    "medianPrice": 650000,
+    "priceChange1y": 5,
+    "priceChange5y": 0,
+    "transactions12m": 177,
+    "byType": {
+      "detached": {
+        "avg": 978566,
+        "count": 80
+      },
+      "semi": {
+        "avg": 632904,
+        "count": 53
+      },
+      "terraced": {
+        "avg": 528981,
+        "count": 29
+      },
+      "flat": {
+        "avg": 454167,
+        "count": 6
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 813405
+      },
+      {
+        "year": 2024,
+        "avg": 756168
+      },
+      {
+        "year": 2025,
+        "avg": 794164
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.1,
+      "burglary": 0.2,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 0.5,
+      "otherTheft": 0.3,
+      "other": 0.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "North Downs Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 88709,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 12,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 326,
+    "avgUpload": 59,
+    "superfastPct": 97,
+    "ultrafastPct": 79,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Mole Valley",
+    "bandD": 2194,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 9.5,
+    "imdRank": 7447,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RH3 is the postcode district for BETCHWORTH, located in Surrey, South East.",
+    "priceVsCounty": "The average property price in RH3 is £791,046, which is 29% above the Surrey average of £612,978.",
+    "priceVsNational": "Properties in RH3 cost 175.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RH3 have risen 5.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, RH3 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RH3 has 1 school within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RH3 are 326.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RH3 (BETCHWORTH) offers above-average property prices (£791,046, 176% above national average), low crime (94% below national average), 1 nearby school, and excellent broadband (326 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 326
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 326
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

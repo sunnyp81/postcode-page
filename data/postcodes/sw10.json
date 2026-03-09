@@ -1,0 +1,193 @@
+{
+  "code": "SW10",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SW9",
+    "SW11",
+    "SW12"
+  ],
+  "property": {
+    "avgPrice": 1978266,
+    "medianPrice": 1043920,
+    "priceChange1y": -0.6,
+    "priceChange5y": 0,
+    "transactions12m": 788,
+    "byType": {
+      "detached": {
+        "avg": 5508667,
+        "count": 3
+      },
+      "semi": {
+        "avg": 15573734,
+        "count": 16
+      },
+      "terraced": {
+        "avg": 3324602,
+        "count": 93
+      },
+      "flat": {
+        "avg": 1236262,
+        "count": 615
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 2304196
+      },
+      {
+        "year": 2024,
+        "avg": 1787349
+      },
+      {
+        "year": 2025,
+        "avg": 1776388
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 283.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 248.6,
+    "byType": {
+      "violentCrime": 65.3,
+      "burglary": 14.2,
+      "vehicleCrime": 25.8,
+      "antisocialBehaviour": 63.3,
+      "otherTheft": 72.6,
+      "other": 42.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ashburnham Community School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Park Walk Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Servite RC Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Chelsea Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 188687,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 17,
+    "socialRent": 30,
+    "privateRent": 34,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 363,
+    "avgUpload": 65,
+    "superfastPct": 100,
+    "ultrafastPct": 90,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "London Council",
+    "bandD": 1127,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.3,
+    "imdRank": 18643,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SW10 covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in SW10 is £1,978,266, which is 51% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SW10 cost 589.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SW10 have fallen 0.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 283.4 recorded crimes per 1,000 residents, SW10 has a crime rate significantly 249% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SW10 has 4 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SW10 are 363.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SW10 (LONDON) offers above-average property prices (£1,978,266, 589% above national average), higher-than-average crime (249% above national average), 4 nearby schools, and excellent broadband (363 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 363
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 363
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

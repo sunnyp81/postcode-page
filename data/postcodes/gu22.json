@@ -1,0 +1,198 @@
+{
+  "code": "GU22",
+  "name": "WOKING",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU21",
+    "GU23",
+    "GU24"
+  ],
+  "property": {
+    "avgPrice": 615032,
+    "medianPrice": 475000,
+    "priceChange1y": -4.1,
+    "priceChange5y": 0,
+    "transactions12m": 1429,
+    "byType": {
+      "detached": {
+        "avg": 1035122,
+        "count": 433
+      },
+      "semi": {
+        "avg": 543009,
+        "count": 280
+      },
+      "terraced": {
+        "avg": 461225,
+        "count": 220
+      },
+      "flat": {
+        "avg": 288944,
+        "count": 445
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 613822
+      },
+      {
+        "year": 2024,
+        "avg": 627470
+      },
+      {
+        "year": 2025,
+        "avg": 601662
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 86.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 5.9,
+    "byType": {
+      "violentCrime": 28.3,
+      "burglary": 2.5,
+      "vehicleCrime": 2.2,
+      "antisocialBehaviour": 12.2,
+      "otherTheft": 20.3,
+      "other": 20.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 3,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Dunstan's Catholic Primary School, Woking",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Hoe Bridge School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Greenfield School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Freemantles School",
+        "type": "Other",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "New Monument Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 105679,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 12,
+    "privateRent": 19,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 323,
+    "avgUpload": 58,
+    "superfastPct": 97,
+    "ultrafastPct": 81,
+    "gigabitPct": 77,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Woking",
+    "bandD": 2249,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10.8,
+    "imdRank": 8594,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU22 is the postcode district for WOKING, located in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU22 is £615,032, broadly in line with the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU22 cost 114.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU22 have fallen 4.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 86.1 recorded crimes per 1,000 residents, GU22 has a crime rate 6% above the national average of 81.3 per 1,000.",
+    "schoolContext": "GU22 has 14 schools within or near its boundaries, including 3 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU22 are 323.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU22 (WOKING) offers above-average property prices (£615,032, 114% above national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (323 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 323
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 323
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

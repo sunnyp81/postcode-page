@@ -1,0 +1,198 @@
+{
+  "code": "OX2",
+  "name": "OXFORD",
+  "county": "oxfordshire",
+  "region": "south-east",
+  "city": "oxford",
+  "adjacent": [
+    "OX1",
+    "OX3",
+    "OX4"
+  ],
+  "property": {
+    "avgPrice": 824333,
+    "medianPrice": 590000,
+    "priceChange1y": -8.2,
+    "priceChange5y": 0,
+    "transactions12m": 1441,
+    "byType": {
+      "detached": {
+        "avg": 1208280,
+        "count": 297
+      },
+      "semi": {
+        "avg": 860068,
+        "count": 377
+      },
+      "terraced": {
+        "avg": 790287,
+        "count": 343
+      },
+      "flat": {
+        "avg": 413096,
+        "count": 380
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 882210
+      },
+      {
+        "year": 2024,
+        "avg": 830167
+      },
+      {
+        "year": 2025,
+        "avg": 762304
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 27.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -66.4,
+    "byType": {
+      "violentCrime": 6.1,
+      "burglary": 1.2,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 2,
+      "otherTheft": 11.9,
+      "other": 5.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 2,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "West Oxford Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cumnor Church of England School (Voluntary Controlled)",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Barnabas' Church of England Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Philip and James' Church of England Aided Primary School Oxford",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Aloysius' Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 156470,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 12,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 292,
+    "avgUpload": 53,
+    "superfastPct": 97,
+    "ultrafastPct": 77,
+    "gigabitPct": 66,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Oxfordshire",
+    "bandD": 2240,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.5,
+    "imdRank": 6409,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "OX2 is the postcode district for OXFORD, located in Oxfordshire, South East.",
+    "priceVsCounty": "The average property price in OX2 is £824,333, which is 40% above the Oxfordshire average of £588,175.",
+    "priceVsNational": "Properties in OX2 cost 187.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in OX2 have fallen 8.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 27.3 recorded crimes per 1,000 residents, OX2 has a crime rate well 66% below the national average of 81.3 per 1,000.",
+    "schoolContext": "OX2 has 20 schools within or near its boundaries, including 2 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in OX2 are 292.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "OX2 (OXFORD) offers above-average property prices (£824,333, 187% above national average), low crime (66% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (292 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 588175,
+      "crime": 75,
+      "broadband": 292
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 292
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

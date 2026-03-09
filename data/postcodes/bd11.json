@@ -1,0 +1,183 @@
+{
+  "code": "BD11",
+  "name": "BRADFORD",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "bradford",
+  "adjacent": [
+    "BD10",
+    "BD12",
+    "BD13"
+  ],
+  "property": {
+    "avgPrice": 265010,
+    "medianPrice": 246998,
+    "priceChange1y": 7.9,
+    "priceChange5y": 0,
+    "transactions12m": 708,
+    "byType": {
+      "detached": {
+        "avg": 390560,
+        "count": 201
+      },
+      "semi": {
+        "avg": 246481,
+        "count": 266
+      },
+      "terraced": {
+        "avg": 170864,
+        "count": 189
+      },
+      "flat": {
+        "avg": 139702,
+        "count": 32
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 255218
+      },
+      {
+        "year": 2024,
+        "avg": 259802
+      },
+      {
+        "year": 2025,
+        "avg": 280377
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 24,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -70.5,
+    "byType": {
+      "violentCrime": 9.1,
+      "burglary": 2.2,
+      "vehicleCrime": 1.2,
+      "antisocialBehaviour": 3.7,
+      "otherTheft": 2.9,
+      "other": 4.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Birkenshaw Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Drighlington Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 845189,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 393,
+    "avgUpload": 71,
+    "superfastPct": 99,
+    "ultrafastPct": 98,
+    "gigabitPct": 98,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Leeds",
+    "bandD": 1968,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.3,
+    "imdRank": 18909,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BD11 is the postcode district for BRADFORD, located in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in BD11 is £265,010, broadly in line with the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in BD11 cost 7.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BD11 have risen 7.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 24.0 recorded crimes per 1,000 residents, BD11 has a crime rate well 70% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BD11 has 2 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BD11 are 393.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BD11 (BRADFORD) offers property prices near the national average (£265,010), low crime (70% below national average), 2 nearby schools, and excellent broadband (393 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 393
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 393
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

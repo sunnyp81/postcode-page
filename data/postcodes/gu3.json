@@ -1,0 +1,193 @@
+{
+  "code": "GU3",
+  "name": "GUILDFORD",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU2",
+    "GU4",
+    "GU5"
+  ],
+  "property": {
+    "avgPrice": 683390,
+    "medianPrice": 540000,
+    "priceChange1y": -4,
+    "priceChange5y": 0,
+    "transactions12m": 421,
+    "byType": {
+      "detached": {
+        "avg": 878396,
+        "count": 156
+      },
+      "semi": {
+        "avg": 531599,
+        "count": 156
+      },
+      "terraced": {
+        "avg": 460805,
+        "count": 59
+      },
+      "flat": {
+        "avg": 286625,
+        "count": 16
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 699241
+      },
+      {
+        "year": 2024,
+        "avg": 689625
+      },
+      {
+        "year": 2025,
+        "avg": 661846
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 13.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -83.1,
+    "byType": {
+      "violentCrime": 5.9,
+      "burglary": 0.2,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 1.9,
+      "otherTheft": 1.1,
+      "other": 4.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Wood Street Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Worplesdon Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Puttenham CofE Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Normandy Village School",
+        "type": "Primary",
+        "ofsted": "Inadequate"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 151359,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 253,
+    "avgUpload": 46,
+    "superfastPct": 90,
+    "ultrafastPct": 60,
+    "gigabitPct": 58,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Guildford",
+    "bandD": 2215,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 9.4,
+    "imdRank": 7197,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU3 covers GUILDFORD in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU3 is £683,390, which is 11% above the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU3 cost 138.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU3 have fallen 4.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 13.7 recorded crimes per 1,000 residents, GU3 has a crime rate well 83% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU3 has 4 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU3 are 253.0 Mbps, with 99% of premises having access to superfast broadband and 85% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU3 (GUILDFORD) offers above-average property prices (£683,390, 138% above national average), low crime (83% below national average), 4 nearby schools, and excellent broadband (253 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 253
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 253
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

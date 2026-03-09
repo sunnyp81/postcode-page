@@ -1,0 +1,197 @@
+{
+  "code": "GL50",
+  "name": "CHELTENHAM",
+  "county": "gloucestershire",
+  "region": "south-west",
+  "city": "gloucester",
+  "adjacent": [
+    "GL51",
+    "GL52"
+  ],
+  "property": {
+    "avgPrice": 423483,
+    "medianPrice": 299850,
+    "priceChange1y": -9.2,
+    "priceChange5y": 0,
+    "transactions12m": 1546,
+    "byType": {
+      "detached": {
+        "avg": 774619,
+        "count": 111
+      },
+      "semi": {
+        "avg": 504815,
+        "count": 170
+      },
+      "terraced": {
+        "avg": 415748,
+        "count": 418
+      },
+      "flat": {
+        "avg": 288540,
+        "count": 751
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 433018
+      },
+      {
+        "year": 2024,
+        "avg": 436707
+      },
+      {
+        "year": 2025,
+        "avg": 396585
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 182.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 124,
+    "byType": {
+      "violentCrime": 52,
+      "burglary": 6.1,
+      "vehicleCrime": 11.3,
+      "antisocialBehaviour": 45.4,
+      "otherTheft": 36.1,
+      "other": 31.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Dunalley Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cheltenham Ladies' College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dean Close Airthrie",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gloucestershire Hospital Education Service",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "University of Gloucestershire",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 121739,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 12,
+    "privateRent": 22,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 350,
+    "avgUpload": 63,
+    "superfastPct": 99,
+    "ultrafastPct": 90,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cheltenham",
+    "bandD": 2059,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.3,
+    "imdRank": 11000,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GL50 encompasses CHELTENHAM and its surrounding areas in Gloucestershire, South West.",
+    "priceVsCounty": "The average property price in GL50 is £423,483, broadly in line with the Gloucestershire average of £441,384.",
+    "priceVsNational": "Properties in GL50 cost 47.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GL50 have fallen 9.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 182.1 recorded crimes per 1,000 residents, GL50 has a crime rate significantly 124% above the national average of 81.3 per 1,000.",
+    "schoolContext": "GL50 has 8 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GL50 are 350.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GL50 (CHELTENHAM) offers above-average property prices (£423,483, 48% above national average), higher-than-average crime (124% above national average), 8 nearby schools, and excellent broadband (350 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 441384,
+      "crime": 75,
+      "broadband": 350
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 350
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "DE21",
+  "name": "DERBY",
+  "county": "derbyshire",
+  "region": "east-midlands",
+  "city": "derby",
+  "adjacent": [
+    "DE22",
+    "DE23"
+  ],
+  "property": {
+    "avgPrice": 257017,
+    "medianPrice": 200000,
+    "priceChange1y": -15.6,
+    "priceChange5y": 0,
+    "transactions12m": 2234,
+    "byType": {
+      "detached": {
+        "avg": 321827,
+        "count": 577
+      },
+      "semi": {
+        "avg": 200834,
+        "count": 1100
+      },
+      "terraced": {
+        "avg": 166935,
+        "count": 414
+      },
+      "flat": {
+        "avg": 111288,
+        "count": 79
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 249221
+      },
+      {
+        "year": 2024,
+        "avg": 282960
+      },
+      {
+        "year": 2025,
+        "avg": 238938
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 59.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -27.3,
+    "byType": {
+      "violentCrime": 27.5,
+      "burglary": 2.1,
+      "vehicleCrime": 3.4,
+      "antisocialBehaviour": 6.7,
+      "otherTheft": 7.6,
+      "other": 11.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 24,
+    "outstanding": 0,
+    "good": 9,
+    "requiresImprovement": 3,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Little Eaton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cavendish Close Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Meadow Farm Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Breadsall CofE VC Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Horsley CofE (Controlled) Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 130451,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 13,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 352,
+    "avgUpload": 63,
+    "superfastPct": 97,
+    "ultrafastPct": 88,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Amber Valley",
+    "bandD": 2086,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 14755,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DE21 encompasses DERBY and its surrounding areas in Derbyshire, East Midlands.",
+    "priceVsCounty": "The average property price in DE21 is £257,017, which is 11% below the Derbyshire average of £289,862.",
+    "priceVsNational": "Properties in DE21 cost 10.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DE21 have fallen 15.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 59.1 recorded crimes per 1,000 residents, DE21 has a crime rate well 27% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DE21 has 24 schools within or near its boundaries, including 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DE21 are 352.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DE21 (DERBY) offers property prices near the national average (£257,017), low crime (27% below national average), 24 nearby schools, and excellent broadband (352 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 289862,
+      "crime": 75,
+      "broadband": 352
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 352
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

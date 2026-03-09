@@ -1,0 +1,198 @@
+{
+  "code": "BA13",
+  "name": "WESTBURY",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "bath",
+  "adjacent": [
+    "BA12",
+    "BA14",
+    "BA15"
+  ],
+  "property": {
+    "avgPrice": 312387,
+    "medianPrice": 270000,
+    "priceChange1y": 6.8,
+    "priceChange5y": 0,
+    "transactions12m": 1227,
+    "byType": {
+      "detached": {
+        "avg": 407398,
+        "count": 365
+      },
+      "semi": {
+        "avg": 276878,
+        "count": 363
+      },
+      "terraced": {
+        "avg": 233045,
+        "count": 307
+      },
+      "flat": {
+        "avg": 142622,
+        "count": 128
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 321244
+      },
+      {
+        "year": 2024,
+        "avg": 299333
+      },
+      {
+        "year": 2025,
+        "avg": 319694
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 24.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -70.1,
+    "byType": {
+      "violentCrime": 11.2,
+      "burglary": 0.8,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 4,
+      "otherTheft": 2,
+      "other": 5.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bratton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Westbury Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bitham Brook Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Westbury Church of England Junior School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Matravers School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 523700,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 259,
+    "avgUpload": 47,
+    "superfastPct": 92,
+    "ultrafastPct": 60,
+    "gigabitPct": 60,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bath Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.4,
+    "imdRank": 11265,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BA13 covers WESTBURY in Somerset, South West.",
+    "priceVsCounty": "The average property price in BA13 is £312,387, which is 16% below the Somerset average of £373,759.",
+    "priceVsNational": "Properties in BA13 cost 8.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BA13 have risen 6.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 24.3 recorded crimes per 1,000 residents, BA13 has a crime rate well 70% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BA13 has 12 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BA13 are 259.0 Mbps, with 99% of premises having access to superfast broadband and 86% with full fibre (FTTP) connectivity.",
+    "synthesis": "BA13 (WESTBURY) offers property prices near the national average (£312,387), low crime (70% below national average), 12 nearby schools, and excellent broadband (259 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 259
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 259
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

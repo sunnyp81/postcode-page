@@ -1,0 +1,198 @@
+{
+  "code": "S43",
+  "name": "CHESTERFIELD",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "sheffield",
+  "adjacent": [
+    "S42",
+    "S44",
+    "S45"
+  ],
+  "property": {
+    "avgPrice": 204805,
+    "medianPrice": 175995,
+    "priceChange1y": -6.2,
+    "priceChange5y": 0,
+    "transactions12m": 2019,
+    "byType": {
+      "detached": {
+        "avg": 298338,
+        "count": 558
+      },
+      "semi": {
+        "avg": 173133,
+        "count": 938
+      },
+      "terraced": {
+        "avg": 133431,
+        "count": 432
+      },
+      "flat": {
+        "avg": 103091,
+        "count": 33
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 201735
+      },
+      {
+        "year": 2024,
+        "avg": 211935
+      },
+      {
+        "year": 2025,
+        "avg": 198741
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 24.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -69.5,
+    "byType": {
+      "violentCrime": 10.8,
+      "burglary": 0.5,
+      "vehicleCrime": 1,
+      "antisocialBehaviour": 4,
+      "otherTheft": 3.6,
+      "other": 4.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 0,
+    "good": 9,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Barlborough Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Henry Bradley Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Clowne Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Clowne Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Staveley Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 106646,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 19,
+    "privateRent": 8,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 326,
+    "avgUpload": 59,
+    "superfastPct": 97,
+    "ultrafastPct": 79,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North East Derbyshire",
+    "bandD": 2144,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.4,
+    "imdRank": 14111,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "S43 covers CHESTERFIELD in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in S43 is £204,805, which is 11% below the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in S43 cost 28.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in S43 have fallen 6.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 24.8 recorded crimes per 1,000 residents, S43 has a crime rate well 69% below the national average of 81.3 per 1,000.",
+    "schoolContext": "S43 has 20 schools within or near its boundaries, including 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in S43 are 326.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "S43 (CHESTERFIELD) offers affordable property prices (£204,805, 29% below national average), low crime (69% below national average), 20 nearby schools, and excellent broadband (326 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 326
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 326
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "PE22",
+  "name": "BOSTON",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "peterborough",
+  "adjacent": [
+    "PE21",
+    "PE23",
+    "PE24"
+  ],
+  "property": {
+    "avgPrice": 284123,
+    "medianPrice": 235000,
+    "priceChange1y": 10.3,
+    "priceChange5y": 0,
+    "transactions12m": 779,
+    "byType": {
+      "detached": {
+        "avg": 296906,
+        "count": 538
+      },
+      "semi": {
+        "avg": 178455,
+        "count": 134
+      },
+      "terraced": {
+        "avg": 167701,
+        "count": 43
+      },
+      "flat": {
+        "avg": 65333,
+        "count": 3
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 264527
+      },
+      {
+        "year": 2024,
+        "avg": 281087
+      },
+      {
+        "year": 2025,
+        "avg": 310056
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The New Leake Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Mareham-le-Fen Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Sibsey Free Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stickney Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Butterwick Pinchbeck's Endowed CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 71080,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 20,
+    "privateRent": 18,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 106,
+    "avgUpload": 19,
+    "superfastPct": 67,
+    "ultrafastPct": 19,
+    "gigabitPct": 19,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Boston",
+    "bandD": 2068,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23,
+    "imdRank": 19256,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PE22 covers BOSTON in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in PE22 is £284,123, which is 26% below the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Property values in PE22 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in PE22 have risen 10.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, PE22 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PE22 has 13 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PE22 are 106.0 Mbps, with 86% of premises having access to superfast broadband and 44% with full fibre (FTTP) connectivity.",
+    "synthesis": "PE22 (BOSTON) offers property prices near the national average (£284,123), low crime (94% below national average), 13 nearby schools, and excellent broadband (106 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 106
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 106
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

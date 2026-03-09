@@ -1,0 +1,198 @@
+{
+  "code": "DL14",
+  "name": "BISHOP AUCKLAND",
+  "county": "county-durham",
+  "region": "north-east",
+  "city": "darlington",
+  "adjacent": [
+    "DL13",
+    "DL15",
+    "DL16"
+  ],
+  "property": {
+    "avgPrice": 125742,
+    "medianPrice": 91000,
+    "priceChange1y": 13.5,
+    "priceChange5y": 0,
+    "transactions12m": 2517,
+    "byType": {
+      "detached": {
+        "avg": 241049,
+        "count": 458
+      },
+      "semi": {
+        "avg": 131514,
+        "count": 534
+      },
+      "terraced": {
+        "avg": 73059,
+        "count": 1330
+      },
+      "flat": {
+        "avg": 61968,
+        "count": 80
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 115798
+      },
+      {
+        "year": 2024,
+        "avg": 124718
+      },
+      {
+        "year": 2025,
+        "avg": 141572
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 81.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 0.1,
+    "byType": {
+      "violentCrime": 25.4,
+      "burglary": 2.7,
+      "vehicleCrime": 2.3,
+      "antisocialBehaviour": 16.6,
+      "otherTheft": 15.6,
+      "other": 18.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 26,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 4,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Aclet Close Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Etherley Lane Nursery School",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Oakley Cross Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Etherley Lane Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ramshaw Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 538011,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 20,
+    "privateRent": 15,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 195,
+    "avgUpload": 35,
+    "superfastPct": 88,
+    "ultrafastPct": 42,
+    "gigabitPct": 42,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Darlington Council",
+    "bandD": 2168,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.8,
+    "imdRank": 20206,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DL14 encompasses BISHOP AUCKLAND and its surrounding areas in County Durham, North East.",
+    "priceVsCounty": "The average property price in DL14 is £125,742, which is 39% below the County Durham average of £207,512.",
+    "priceVsNational": "Properties in DL14 cost 56.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DL14 have risen 13.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "DL14 has a crime rate of 81.4 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "DL14 has 26 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DL14 are 195.0 Mbps, with 99% of premises having access to superfast broadband and 69% with full fibre (FTTP) connectivity.",
+    "synthesis": "DL14 (BISHOP AUCKLAND) offers affordable property prices (£125,742, 56% below national average), 26 nearby schools, and excellent broadband (195 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 207512,
+      "crime": 75,
+      "broadband": 195
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 195
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

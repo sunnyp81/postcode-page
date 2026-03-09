@@ -1,0 +1,198 @@
+{
+  "code": "B24",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B23",
+    "B25",
+    "B26"
+  ],
+  "property": {
+    "avgPrice": 274724,
+    "medianPrice": 230000,
+    "priceChange1y": -27,
+    "priceChange5y": 0,
+    "transactions12m": 1170,
+    "byType": {
+      "detached": {
+        "avg": 336672,
+        "count": 114
+      },
+      "semi": {
+        "avg": 253694,
+        "count": 520
+      },
+      "terraced": {
+        "avg": 211510,
+        "count": 335
+      },
+      "flat": {
+        "avg": 105744,
+        "count": 152
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 247768
+      },
+      {
+        "year": 2024,
+        "avg": 328387
+      },
+      {
+        "year": 2025,
+        "avg": 239850
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 134,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 64.8,
+    "byType": {
+      "violentCrime": 59.8,
+      "burglary": 6.7,
+      "vehicleCrime": 7.8,
+      "antisocialBehaviour": 8.9,
+      "otherTheft": 21.5,
+      "other": 29.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Gunter Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Erdington Hall Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Erdington Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Peter and St Paul RC Junior and Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Yenton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 349,
+    "avgUpload": 63,
+    "superfastPct": 93,
+    "ultrafastPct": 89,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B24 covers BIRMINGHAM in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B24 is £274,724, which is 18% below the West Midlands average of £334,385.",
+    "priceVsNational": "Property values in B24 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in B24 have fallen 27.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 134.0 recorded crimes per 1,000 residents, B24 has a crime rate significantly 65% above the national average of 81.3 per 1,000.",
+    "schoolContext": "B24 has 9 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B24 are 349.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B24 (BIRMINGHAM) offers property prices near the national average (£274,724), higher-than-average crime (65% above national average), 9 nearby schools, and excellent broadband (349 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 349
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 349
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

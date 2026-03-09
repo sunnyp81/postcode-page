@@ -1,0 +1,198 @@
+{
+  "code": "SP7",
+  "name": "SHAFTESBURY",
+  "county": "wiltshire",
+  "region": "south-west",
+  "city": "salisbury",
+  "adjacent": [
+    "SP6",
+    "SP8",
+    "SP9"
+  ],
+  "property": {
+    "avgPrice": 413105,
+    "medianPrice": 329975,
+    "priceChange1y": -8.3,
+    "priceChange5y": 0,
+    "transactions12m": 960,
+    "byType": {
+      "detached": {
+        "avg": 536652,
+        "count": 384
+      },
+      "semi": {
+        "avg": 316978,
+        "count": 210
+      },
+      "terraced": {
+        "avg": 247182,
+        "count": 233
+      },
+      "flat": {
+        "avg": 190669,
+        "count": 80
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 406811
+      },
+      {
+        "year": 2024,
+        "avg": 431563
+      },
+      {
+        "year": 2025,
+        "avg": 395942
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 17.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -78.5,
+    "byType": {
+      "violentCrime": 5.6,
+      "burglary": 1,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 4.3,
+      "otherTheft": 2.5,
+      "other": 3.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Abbey CofE VA Primary School, Shaftesbury",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Port Regis Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Semley Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Shaftesbury School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Motcombe CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 523700,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 306,
+    "avgUpload": 55,
+    "superfastPct": 91,
+    "ultrafastPct": 74,
+    "gigabitPct": 74,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Salisbury Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.4,
+    "imdRank": 11265,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SP7 encompasses SHAFTESBURY and its surrounding areas in Wiltshire, South West.",
+    "priceVsCounty": "The average property price in SP7 is £413,105, broadly in line with the Wiltshire average of £397,459.",
+    "priceVsNational": "Properties in SP7 cost 43.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SP7 have fallen 8.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 17.5 recorded crimes per 1,000 residents, SP7 has a crime rate well 78% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SP7 has 9 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SP7 are 306.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SP7 (SHAFTESBURY) offers above-average property prices (£413,105, 44% above national average), low crime (78% below national average), 9 nearby schools, and excellent broadband (306 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 397459,
+      "crime": 75,
+      "broadband": 306
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 306
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

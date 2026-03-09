@@ -1,0 +1,198 @@
+{
+  "code": "E7",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "E6",
+    "E8",
+    "E9"
+  ],
+  "property": {
+    "avgPrice": 568345,
+    "medianPrice": 487500,
+    "priceChange1y": 1.2,
+    "priceChange5y": 0,
+    "transactions12m": 967,
+    "byType": {
+      "detached": {
+        "avg": 1043556,
+        "count": 9
+      },
+      "semi": {
+        "avg": 740316,
+        "count": 38
+      },
+      "terraced": {
+        "avg": 589513,
+        "count": 579
+      },
+      "flat": {
+        "avg": 330219,
+        "count": 292
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 609006
+      },
+      {
+        "year": 2024,
+        "avg": 543722
+      },
+      {
+        "year": 2025,
+        "avg": 550331
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 238.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 193.7,
+    "byType": {
+      "violentCrime": 64.5,
+      "burglary": 6.7,
+      "vehicleCrime": 22.2,
+      "antisocialBehaviour": 59.1,
+      "otherTheft": 53.9,
+      "other": 32.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 4,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Kay Rowe Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Godwin Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Woodgrange Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Odessa Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "William Davies Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 279737,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 21,
+    "privateRent": 26,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 360,
+    "avgUpload": 65,
+    "superfastPct": 100,
+    "ultrafastPct": 92,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Waltham Forest",
+    "bandD": 2056,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.2,
+    "imdRank": 21186,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "E7 is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in E7 is £568,345, which is 57% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in E7 cost 98.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in E7 have risen 1.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 238.8 recorded crimes per 1,000 residents, E7 has a crime rate significantly 194% above the national average of 81.3 per 1,000.",
+    "schoolContext": "E7 has 19 schools within or near its boundaries, including 4 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in E7 are 360.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "E7 (LONDON) offers above-average property prices (£568,345, 98% above national average), higher-than-average crime (194% above national average), strong school provision (4 Outstanding-rated schools), and excellent broadband (360 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 360
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 360
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

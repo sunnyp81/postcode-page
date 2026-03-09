@@ -1,0 +1,198 @@
+{
+  "code": "TR8",
+  "name": "NEWQUAY",
+  "county": "cornwall",
+  "region": "south-west",
+  "city": "truro",
+  "adjacent": [
+    "TR7",
+    "TR9",
+    "TR10"
+  ],
+  "property": {
+    "avgPrice": 461803,
+    "medianPrice": 335000,
+    "priceChange1y": -13.8,
+    "priceChange5y": 0,
+    "transactions12m": 771,
+    "byType": {
+      "detached": {
+        "avg": 612717,
+        "count": 245
+      },
+      "semi": {
+        "avg": 327053,
+        "count": 222
+      },
+      "terraced": {
+        "avg": 283463,
+        "count": 189
+      },
+      "flat": {
+        "avg": 232660,
+        "count": 58
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 546586
+      },
+      {
+        "year": 2024,
+        "avg": 447444
+      },
+      {
+        "year": 2025,
+        "avg": 385655
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 10.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -87,
+    "byType": {
+      "violentCrime": 5,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 1.4,
+      "otherTheft": 2.6,
+      "other": 1.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Newlyn East Learning Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Summercourt Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mawgan-In-Pydar Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Nansledan School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cubert Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 583289,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 210,
+    "avgUpload": 38,
+    "superfastPct": 76,
+    "ultrafastPct": 48,
+    "gigabitPct": 48,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Truro Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.1,
+    "imdRank": 19382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TR8 covers NEWQUAY in Cornwall, South West.",
+    "priceVsCounty": "The average property price in TR8 is £461,803, which is 15% above the Cornwall average of £402,222.",
+    "priceVsNational": "Properties in TR8 cost 60.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TR8 have fallen 13.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 10.6 recorded crimes per 1,000 residents, TR8 has a crime rate well 87% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TR8 has 5 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TR8 are 210.0 Mbps, with 99% of premises having access to superfast broadband and 73% with full fibre (FTTP) connectivity.",
+    "synthesis": "TR8 (NEWQUAY) offers above-average property prices (£461,803, 61% above national average), low crime (87% below national average), 5 nearby schools, and excellent broadband (210 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 402222,
+      "crime": 75,
+      "broadband": 210
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 210
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

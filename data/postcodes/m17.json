@@ -1,0 +1,172 @@
+{
+  "code": "M17",
+  "name": "MANCHESTER",
+  "county": "greater-manchester",
+  "region": "north-west",
+  "city": "manchester",
+  "adjacent": [
+    "M16",
+    "M18",
+    "M19"
+  ],
+  "property": {
+    "avgPrice": 4588849,
+    "medianPrice": 1050000,
+    "priceChange1y": -15.5,
+    "priceChange5y": 0,
+    "transactions12m": 45,
+    "byType": {
+      "detached": {
+        "avg": 8718813,
+        "count": 0
+      },
+      "semi": {
+        "avg": 5506619,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 4588849,
+        "count": 0
+      },
+      "flat": {
+        "avg": 223890,
+        "count": 14
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 2997146
+      },
+      {
+        "year": 2024,
+        "avg": 5739935
+      },
+      {
+        "year": 2025,
+        "avg": 4851849
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 0,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": []
+  },
+  "demographics": {
+    "population": 294348,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 25,
+    "privateRent": 25,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 104,
+    "avgUpload": 19,
+    "superfastPct": 85,
+    "ultrafastPct": 16,
+    "gigabitPct": 16,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Salford",
+    "bandD": 2214,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 34.2,
+    "imdRank": 23233,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "M17 is the postcode district for MANCHESTER, located in Greater Manchester, North West.",
+    "priceVsCounty": "The average property price in M17 is £4,588,849, which is 1101% above the Greater Manchester average of £381,941.",
+    "priceVsNational": "Properties in M17 cost 1498.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in M17 have fallen 15.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, M17 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "School data for M17 is not currently available.",
+    "broadbandContext": "Average broadband download speeds in M17 are 104.0 Mbps, with 86% of premises having access to superfast broadband and 44% with full fibre (FTTP) connectivity.",
+    "synthesis": "M17 (MANCHESTER) offers above-average property prices (£4,588,849, 1499% above national average), low crime (94% below national average), and excellent broadband (104 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 381941,
+      "crime": 75,
+      "broadband": 104
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 104
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

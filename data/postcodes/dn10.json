@@ -1,0 +1,197 @@
+{
+  "code": "DN10",
+  "name": "DONCASTER",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "doncaster",
+  "adjacent": [
+    "DN9",
+    "DN11",
+    "DN12"
+  ],
+  "property": {
+    "avgPrice": 322117,
+    "medianPrice": 260000,
+    "priceChange1y": 1.3,
+    "priceChange5y": 0,
+    "transactions12m": 609,
+    "byType": {
+      "detached": {
+        "avg": 393489,
+        "count": 290
+      },
+      "semi": {
+        "avg": 216954,
+        "count": 144
+      },
+      "terraced": {
+        "avg": 183029,
+        "count": 111
+      },
+      "flat": {
+        "avg": 168146,
+        "count": 24
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 309470
+      },
+      {
+        "year": 2024,
+        "avg": 327353
+      },
+      {
+        "year": 2025,
+        "avg": 331590
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 84.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 3.7,
+    "byType": {
+      "violentCrime": 22.8,
+      "burglary": 5.5,
+      "vehicleCrime": 8.4,
+      "antisocialBehaviour": 18.5,
+      "otherTheft": 13.5,
+      "other": 15.6
+    },
+    "source": "synthetic-estimate",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bawtry Mayflower Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beckingham Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Everton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Mattersey Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Misson Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 171336,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 15,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 184,
+    "avgUpload": 33,
+    "superfastPct": 86,
+    "ultrafastPct": 39,
+    "gigabitPct": 39,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Doncaster Council",
+    "bandD": 2168,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.1,
+    "imdRank": 17200,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DN10 covers DONCASTER in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in DN10 is £322,117, which is 40% above the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in DN10 cost 12.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DN10 have risen 1.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "DN10 has a crime rate of 84.3 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "DN10 has 8 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DN10 are 184.0 Mbps, with 98% of premises having access to superfast broadband and 66% with full fibre (FTTP) connectivity.",
+    "synthesis": "DN10 (DONCASTER) offers property prices near the national average (£322,117), 8 nearby schools, and excellent broadband (184 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 184
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 184
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

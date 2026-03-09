@@ -1,0 +1,196 @@
+{
+  "code": "WR14",
+  "name": "MALVERN",
+  "county": "worcestershire",
+  "region": "west-midlands",
+  "city": "worcester",
+  "adjacent": [
+    "WR13",
+    "WR15"
+  ],
+  "property": {
+    "avgPrice": 348784,
+    "medianPrice": 295000,
+    "priceChange1y": -3.9,
+    "priceChange5y": 0,
+    "transactions12m": 1720,
+    "byType": {
+      "detached": {
+        "avg": 456845,
+        "count": 576
+      },
+      "semi": {
+        "avg": 311440,
+        "count": 542
+      },
+      "terraced": {
+        "avg": 237177,
+        "count": 223
+      },
+      "flat": {
+        "avg": 228072,
+        "count": 309
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 374190
+      },
+      {
+        "year": 2024,
+        "avg": 341087
+      },
+      {
+        "year": 2025,
+        "avg": 327690
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 43.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -46.4,
+    "byType": {
+      "violentCrime": 15.6,
+      "burglary": 1.9,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 8.1,
+      "otherTheft": 8.1,
+      "other": 9.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 9,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Malvern Wyche CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Joseph's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Malvern Wells CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St James' CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Malvern College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 31674,
+    "medianAge": 39,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 63,
+    "socialRent": 16,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 357,
+    "avgUpload": 64,
+    "superfastPct": 99,
+    "ultrafastPct": 89,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Worcester Council",
+    "bandD": 1691,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.9,
+    "imdRank": 16384,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WR14 covers MALVERN in Worcestershire, West Midlands.",
+    "priceVsCounty": "The average property price in WR14 is £348,784, which is 16% below the Worcestershire average of £417,033.",
+    "priceVsNational": "Properties in WR14 cost 21.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WR14 have fallen 3.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 43.6 recorded crimes per 1,000 residents, WR14 has a crime rate well 46% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WR14 has 15 schools within or near its boundaries, including 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WR14 are 357.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WR14 (MALVERN) offers above-average property prices (£348,784, 22% above national average), low crime (46% below national average), 15 nearby schools, and excellent broadband (357 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 417033,
+      "crime": 75,
+      "broadband": 357
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 357
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

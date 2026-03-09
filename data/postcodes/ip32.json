@@ -1,0 +1,197 @@
+{
+  "code": "IP32",
+  "name": "BURY ST EDMUNDS",
+  "county": "suffolk",
+  "region": "east-of-england",
+  "city": "ipswich",
+  "adjacent": [
+    "IP31",
+    "IP33"
+  ],
+  "property": {
+    "avgPrice": 331530,
+    "medianPrice": 305000,
+    "priceChange1y": -9.8,
+    "priceChange5y": 0,
+    "transactions12m": 951,
+    "byType": {
+      "detached": {
+        "avg": 428732,
+        "count": 325
+      },
+      "semi": {
+        "avg": 300446,
+        "count": 246
+      },
+      "terraced": {
+        "avg": 243866,
+        "count": 242
+      },
+      "flat": {
+        "avg": 171010,
+        "count": 98
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 342045
+      },
+      {
+        "year": 2024,
+        "avg": 339789
+      },
+      {
+        "year": 2025,
+        "avg": 306602
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 51.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -36.8,
+    "byType": {
+      "violentCrime": 21.2,
+      "burglary": 0.8,
+      "vehicleCrime": 1.1,
+      "antisocialBehaviour": 3.8,
+      "otherTheft": 10.1,
+      "other": 14.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Sebert Wood Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bury St Edmunds County High School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Priory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sybil Andrews Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Tollgate Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 22092,
+    "medianAge": 41,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 13,
+    "privateRent": 21,
+    "economicallyActive": 76,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 390,
+    "avgUpload": 70,
+    "superfastPct": 99,
+    "ultrafastPct": 98,
+    "gigabitPct": 97,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "West Suffolk",
+    "bandD": 2042,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.2,
+    "imdRank": 14192,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IP32 encompasses BURY ST EDMUNDS and its surrounding areas in Suffolk, East Of England.",
+    "priceVsCounty": "The average property price in IP32 is £331,530, which is 13% below the Suffolk average of £379,904.",
+    "priceVsNational": "Properties in IP32 cost 15.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IP32 have fallen 9.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 51.4 recorded crimes per 1,000 residents, IP32 has a crime rate well 37% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IP32 has 10 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IP32 are 390.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "IP32 (BURY ST EDMUNDS) offers property prices near the national average (£331,530), low crime (37% below national average), 10 nearby schools, and excellent broadband (390 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 379904,
+      "crime": 75,
+      "broadband": 390
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 390
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

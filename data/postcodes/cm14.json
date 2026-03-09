@@ -1,0 +1,198 @@
+{
+  "code": "CM14",
+  "name": "BRENTWOOD",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "chelmsford",
+  "adjacent": [
+    "CM13",
+    "CM15",
+    "CM16"
+  ],
+  "property": {
+    "avgPrice": 477654,
+    "medianPrice": 400000,
+    "priceChange1y": 11.7,
+    "priceChange5y": 0,
+    "transactions12m": 1166,
+    "byType": {
+      "detached": {
+        "avg": 871884,
+        "count": 137
+      },
+      "semi": {
+        "avg": 584038,
+        "count": 190
+      },
+      "terraced": {
+        "avg": 466136,
+        "count": 279
+      },
+      "flat": {
+        "avg": 276681,
+        "count": 503
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 445927
+      },
+      {
+        "year": 2024,
+        "avg": 468400
+      },
+      {
+        "year": 2025,
+        "avg": 523183
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 64.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -20.4,
+    "byType": {
+      "violentCrime": 20.5,
+      "burglary": 2.1,
+      "vehicleCrime": 5.8,
+      "antisocialBehaviour": 6.2,
+      "otherTheft": 16.2,
+      "other": 13.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 1,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Warley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Peter's Church of England Voluntary Aided Primary School, South Weald",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Holly Trees Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brentwood Ursuline Convent High School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Brentwood County High School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 276274,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 14,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 295,
+    "avgUpload": 53,
+    "superfastPct": 97,
+    "ultrafastPct": 70,
+    "gigabitPct": 70,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Havering",
+    "bandD": 2088,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.8,
+    "imdRank": 14036,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CM14 encompasses BRENTWOOD and its surrounding areas in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CM14 is £477,654, which is 11% above the Essex average of £429,754.",
+    "priceVsNational": "Properties in CM14 cost 66.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CM14 have risen 11.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 64.7 recorded crimes per 1,000 residents, CM14 has a crime rate well 20% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CM14 has 5 schools within or near its boundaries, including 1 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CM14 are 295.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CM14 (BRENTWOOD) offers above-average property prices (£477,654, 66% above national average), low crime (20% below national average), 5 nearby schools, and excellent broadband (295 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 295
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 295
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

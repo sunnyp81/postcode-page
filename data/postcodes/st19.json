@@ -1,0 +1,198 @@
+{
+  "code": "ST19",
+  "name": "STAFFORD",
+  "county": "staffordshire",
+  "region": "west-midlands",
+  "city": "stoke-on-trent",
+  "adjacent": [
+    "ST18",
+    "ST20",
+    "ST21"
+  ],
+  "property": {
+    "avgPrice": 334608,
+    "medianPrice": 282750,
+    "priceChange1y": -1.3,
+    "priceChange5y": 0,
+    "transactions12m": 632,
+    "byType": {
+      "detached": {
+        "avg": 410693,
+        "count": 267
+      },
+      "semi": {
+        "avg": 261447,
+        "count": 185
+      },
+      "terraced": {
+        "avg": 224715,
+        "count": 120
+      },
+      "flat": {
+        "avg": 127638,
+        "count": 29
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 305585
+      },
+      {
+        "year": 2024,
+        "avg": 356041
+      },
+      {
+        "year": 2025,
+        "avg": 351480
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.1,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "St Michael's CofE (A) First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St. Dominic's Grammar School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "South Staffordshire College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Robin's Nest School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Rural Enterprise Academy",
+        "type": "Secondary",
+        "ofsted": "Inadequate"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 332455,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 298,
+    "avgUpload": 54,
+    "superfastPct": 88,
+    "ultrafastPct": 72,
+    "gigabitPct": 72,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stoke On Trent Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.2,
+    "imdRank": 14862,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ST19 covers STAFFORD in Staffordshire, West Midlands.",
+    "priceVsCounty": "The average property price in ST19 is £334,608, which is 25% above the Staffordshire average of £267,729.",
+    "priceVsNational": "Properties in ST19 cost 16.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ST19 have fallen 1.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, ST19 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "ST19 has 16 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ST19 are 298.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "ST19 (STAFFORD) offers property prices near the national average (£334,608), low crime (94% below national average), 16 nearby schools, and excellent broadband (298 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 267729,
+      "crime": 75,
+      "broadband": 298
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 298
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

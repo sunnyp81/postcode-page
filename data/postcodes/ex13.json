@@ -1,0 +1,197 @@
+{
+  "code": "EX13",
+  "name": "AXMINSTER",
+  "county": "devon",
+  "region": "south-west",
+  "city": "exeter",
+  "adjacent": [
+    "EX12",
+    "EX14",
+    "EX15"
+  ],
+  "property": {
+    "avgPrice": 404836,
+    "medianPrice": 308000,
+    "priceChange1y": -7.3,
+    "priceChange5y": 0,
+    "transactions12m": 601,
+    "byType": {
+      "detached": {
+        "avg": 507112,
+        "count": 245
+      },
+      "semi": {
+        "avg": 303100,
+        "count": 119
+      },
+      "terraced": {
+        "avg": 245497,
+        "count": 129
+      },
+      "flat": {
+        "avg": 127808,
+        "count": 60
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 414861
+      },
+      {
+        "year": 2024,
+        "avg": 413411
+      },
+      {
+        "year": 2025,
+        "avg": 383319
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 15.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -81.3,
+    "byType": {
+      "violentCrime": 6.9,
+      "burglary": 0.3,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 2.7,
+      "otherTheft": 2.1,
+      "other": 2.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Kilmington Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Shute Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's Catholic Primary School, Axminster",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Axminster Community Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Membury Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 22091,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 209,
+    "avgUpload": 38,
+    "superfastPct": 74,
+    "ultrafastPct": 48,
+    "gigabitPct": 48,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Exeter Council",
+    "bandD": 2185,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EX13 encompasses AXMINSTER and its surrounding areas in Devon, South West.",
+    "priceVsCounty": "The average property price in EX13 is £404,836, which is 5% above the Devon average of £385,452.",
+    "priceVsNational": "Properties in EX13 cost 41.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EX13 have fallen 7.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 15.2 recorded crimes per 1,000 residents, EX13 has a crime rate well 81% below the national average of 81.3 per 1,000.",
+    "schoolContext": "EX13 has 10 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EX13 are 209.0 Mbps, with 99% of premises having access to superfast broadband and 72% with full fibre (FTTP) connectivity.",
+    "synthesis": "EX13 (AXMINSTER) offers above-average property prices (£404,836, 41% above national average), low crime (81% below national average), 10 nearby schools, and excellent broadband (209 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 209
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 209
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

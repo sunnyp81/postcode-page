@@ -1,0 +1,197 @@
+{
+  "code": "CW11",
+  "name": "SANDBACH",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "crewe",
+  "adjacent": [
+    "CW10",
+    "CW12"
+  ],
+  "property": {
+    "avgPrice": 315455,
+    "medianPrice": 262000,
+    "priceChange1y": -2,
+    "priceChange5y": 0,
+    "transactions12m": 1470,
+    "byType": {
+      "detached": {
+        "avg": 405895,
+        "count": 555
+      },
+      "semi": {
+        "avg": 244897,
+        "count": 478
+      },
+      "terraced": {
+        "avg": 205015,
+        "count": 315
+      },
+      "flat": {
+        "avg": 145692,
+        "count": 56
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 302211
+      },
+      {
+        "year": 2024,
+        "avg": 325767
+      },
+      {
+        "year": 2025,
+        "avg": 319180
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 24.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -69.5,
+    "byType": {
+      "violentCrime": 12.6,
+      "burglary": 0.4,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 2.6,
+      "otherTheft": 3.6,
+      "other": 5.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Elworth CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sandbach High School and Sixth Form College",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Sandbach School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Smallwood CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sandbach Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 421298,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 12,
+    "privateRent": 14,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 312,
+    "avgUpload": 56,
+    "superfastPct": 92,
+    "ultrafastPct": 77,
+    "gigabitPct": 75,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Crewe Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.5,
+    "imdRank": 11380,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CW11 covers SANDBACH in Cheshire, North West.",
+    "priceVsCounty": "The average property price in CW11 is £315,455, broadly in line with the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in CW11 cost 9.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CW11 have fallen 2.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 24.8 recorded crimes per 1,000 residents, CW11 has a crime rate well 69% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CW11 has 13 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CW11 are 312.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CW11 (SANDBACH) offers property prices near the national average (£315,455), low crime (69% below national average), 13 nearby schools, and excellent broadband (312 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 312
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 312
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "BL1",
+  "name": "BOLTON",
+  "county": "greater-manchester",
+  "region": "north-west",
+  "city": "bolton",
+  "adjacent": [
+    "BL2",
+    "BL3"
+  ],
+  "property": {
+    "avgPrice": 218108,
+    "medianPrice": 158000,
+    "priceChange1y": -0.6,
+    "priceChange5y": 0,
+    "transactions12m": 2751,
+    "byType": {
+      "detached": {
+        "avg": 436058,
+        "count": 325
+      },
+      "semi": {
+        "avg": 237471,
+        "count": 678
+      },
+      "terraced": {
+        "avg": 136764,
+        "count": 1196
+      },
+      "flat": {
+        "avg": 123215,
+        "count": 398
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 229672
+      },
+      {
+        "year": 2024,
+        "avg": 212328
+      },
+      {
+        "year": 2025,
+        "avg": 211104
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 34,
+    "outstanding": 2,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Brownlow Fold Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Church Road Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Devonshire Road Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Gaskell Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "High Lawn Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 310085,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 20,
+    "privateRent": 16,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 342,
+    "avgUpload": 62,
+    "superfastPct": 96,
+    "ultrafastPct": 86,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bolton",
+    "bandD": 2045,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 30.7,
+    "imdRank": 21135,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BL1 encompasses BOLTON and its surrounding areas in Greater Manchester, North West.",
+    "priceVsCounty": "The average property price in BL1 is £218,108, which is 43% below the Greater Manchester average of £381,941.",
+    "priceVsNational": "Properties in BL1 cost 24.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BL1 have fallen 0.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, BL1 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BL1 has 34 schools within or near its boundaries, including 2 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BL1 are 342.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BL1 (BOLTON) offers affordable property prices (£218,108, 24% below national average), low crime (94% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (342 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 381941,
+      "crime": 75,
+      "broadband": 342
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 342
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

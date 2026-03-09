@@ -1,0 +1,198 @@
+{
+  "code": "DA11",
+  "name": "GRAVESEND",
+  "county": "greater-london",
+  "region": "london",
+  "city": "dartford",
+  "adjacent": [
+    "DA10",
+    "DA12",
+    "DA13"
+  ],
+  "property": {
+    "avgPrice": 400325,
+    "medianPrice": 310000,
+    "priceChange1y": -18.9,
+    "priceChange5y": 0,
+    "transactions12m": 1550,
+    "byType": {
+      "detached": {
+        "avg": 522800,
+        "count": 112
+      },
+      "semi": {
+        "avg": 391516,
+        "count": 362
+      },
+      "terraced": {
+        "avg": 322258,
+        "count": 583
+      },
+      "flat": {
+        "avg": 190196,
+        "count": 429
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 348833
+      },
+      {
+        "year": 2024,
+        "avg": 468101
+      },
+      {
+        "year": 2025,
+        "avg": 379545
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 85.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 5.3,
+    "byType": {
+      "violentCrime": 31.5,
+      "burglary": 1.8,
+      "vehicleCrime": 4,
+      "antisocialBehaviour": 15.5,
+      "otherTheft": 14.1,
+      "other": 18.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 2,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Northfleet Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cecil Road Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lawn Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Shears Green Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Painters Ash Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 110671,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 17,
+    "privateRent": 17,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 324,
+    "avgUpload": 58,
+    "superfastPct": 97,
+    "ultrafastPct": 85,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Gravesham",
+    "bandD": 2104,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.4,
+    "imdRank": 17293,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DA11 covers GRAVESEND in Greater London, London.",
+    "priceVsCounty": "The average property price in DA11 is £400,325, which is 69% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in DA11 cost 39.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DA11 have fallen 18.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 85.6 recorded crimes per 1,000 residents, DA11 has a crime rate 5% above the national average of 81.3 per 1,000.",
+    "schoolContext": "DA11 has 17 schools within or near its boundaries, including 2 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DA11 are 324.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DA11 (GRAVESEND) offers above-average property prices (£400,325, 39% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (324 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 324
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 324
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

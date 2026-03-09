@@ -1,0 +1,187 @@
+{
+  "code": "HU19",
+  "name": "WITHERNSEA",
+  "county": "east-yorkshire",
+  "region": "yorkshire",
+  "city": "hull",
+  "adjacent": [
+    "HU18",
+    "HU20"
+  ],
+  "property": {
+    "avgPrice": 156211,
+    "medianPrice": 137000,
+    "priceChange1y": 4.1,
+    "priceChange5y": 0,
+    "transactions12m": 373,
+    "byType": {
+      "detached": {
+        "avg": 234064,
+        "count": 71
+      },
+      "semi": {
+        "avg": 145514,
+        "count": 105
+      },
+      "terraced": {
+        "avg": 118276,
+        "count": 180
+      },
+      "flat": {
+        "avg": 158000,
+        "count": 1
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 158036
+      },
+      {
+        "year": 2024,
+        "avg": 152204
+      },
+      {
+        "year": 2025,
+        "avg": 158423
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 14.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -81.8,
+    "byType": {
+      "violentCrime": 8,
+      "burglary": 0.7,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1.3,
+      "otherTheft": 1.2,
+      "other": 3.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Withernsea High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Withernsea Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Sycamore House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 355884,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 9,
+    "privateRent": 15,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 353,
+    "avgUpload": 64,
+    "superfastPct": 96,
+    "ultrafastPct": 87,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hull Council",
+    "bandD": 2236,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.6,
+    "imdRank": 12095,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HU19 encompasses WITHERNSEA and its surrounding areas in East Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HU19 is £156,211, which is 26% below the East Yorkshire average of £211,309.",
+    "priceVsNational": "Properties in HU19 cost 45.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HU19 have risen 4.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 14.8 recorded crimes per 1,000 residents, HU19 has a crime rate well 82% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HU19 has 3 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HU19 are 353.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HU19 (WITHERNSEA) offers affordable property prices (£156,211, 46% below national average), low crime (82% below national average), 3 nearby schools, and excellent broadband (353 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 211309,
+      "crime": 75,
+      "broadband": 353
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 353
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

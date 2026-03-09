@@ -1,0 +1,183 @@
+{
+  "code": "RG28",
+  "name": "WHITCHURCH",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [
+    "RG27",
+    "RG29",
+    "RG30"
+  ],
+  "property": {
+    "avgPrice": 424538,
+    "medianPrice": 380000,
+    "priceChange1y": 4.2,
+    "priceChange5y": 0,
+    "transactions12m": 273,
+    "byType": {
+      "detached": {
+        "avg": 600425,
+        "count": 60
+      },
+      "semi": {
+        "avg": 415178,
+        "count": 83
+      },
+      "terraced": {
+        "avg": 350932,
+        "count": 89
+      },
+      "flat": {
+        "avg": 169822,
+        "count": 27
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 433645
+      },
+      {
+        "year": 2024,
+        "avg": 410285
+      },
+      {
+        "year": 2025,
+        "avg": 427552
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 2.8,
+      "burglary": 0.2,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.4,
+      "otherTheft": 0.3,
+      "other": 1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Whitchurch Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Testbourne Community School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 135201,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 14,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 168,
+    "avgUpload": 30,
+    "superfastPct": 82,
+    "ultrafastPct": 35,
+    "gigabitPct": 35,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Test Valley",
+    "bandD": 1996,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.9,
+    "imdRank": 9889,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG28 is the postcode district for WHITCHURCH, located in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG28 is £424,538, which is 28% below the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG28 cost 47.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG28 have risen 4.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, RG28 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RG28 has 2 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG28 are 168.0 Mbps, with 95% of premises having access to superfast broadband and 61% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG28 (WHITCHURCH) offers above-average property prices (£424,538, 48% above national average), low crime (94% below national average), 2 nearby schools, and excellent broadband (168 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 168
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 168
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

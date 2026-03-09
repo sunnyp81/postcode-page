@@ -1,0 +1,198 @@
+{
+  "code": "SY12",
+  "name": "ELLESMERE",
+  "county": "mid-wales",
+  "region": "wales",
+  "city": "shrewsbury",
+  "adjacent": [
+    "SY11",
+    "SY13",
+    "SY14"
+  ],
+  "property": {
+    "avgPrice": 295915,
+    "medianPrice": 249995,
+    "priceChange1y": 1.6,
+    "priceChange5y": 0,
+    "transactions12m": 441,
+    "byType": {
+      "detached": {
+        "avg": 381177,
+        "count": 171
+      },
+      "semi": {
+        "avg": 215387,
+        "count": 149
+      },
+      "terraced": {
+        "avg": 177394,
+        "count": 79
+      },
+      "flat": {
+        "avg": 145884,
+        "count": 13
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 316263
+      },
+      {
+        "year": 2024,
+        "avg": 284140
+      },
+      {
+        "year": 2025,
+        "avg": 288713
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 7.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -91,
+    "byType": {
+      "violentCrime": 3,
+      "burglary": 0.4,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 1.3,
+      "otherTheft": 0.9,
+      "other": 1.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Welshampton CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ellesmere College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lakelands Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ellesmere Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cockshutt CofE Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 332455,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 71,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 299,
+    "avgUpload": 54,
+    "superfastPct": 90,
+    "ultrafastPct": 72,
+    "gigabitPct": 72,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Shrewsbury Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.2,
+    "imdRank": 14862,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SY12 is the postcode district for ELLESMERE, located in Mid Wales, Wales.",
+    "priceVsCounty": "The average property price in SY12 is £295,915, which is 6% below the Mid Wales average of £315,596.",
+    "priceVsNational": "Property values in SY12 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in SY12 have risen 1.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 7.3 recorded crimes per 1,000 residents, SY12 has a crime rate well 91% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SY12 has 6 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SY12 are 299.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SY12 (ELLESMERE) offers property prices near the national average (£295,915), low crime (91% below national average), 6 nearby schools, and excellent broadband (299 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 315596,
+      "crime": 75,
+      "broadband": 299
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 299
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

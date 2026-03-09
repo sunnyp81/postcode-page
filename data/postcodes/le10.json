@@ -1,0 +1,198 @@
+{
+  "code": "LE10",
+  "name": "HINCKLEY",
+  "county": "leicestershire",
+  "region": "east-midlands",
+  "city": "leicester",
+  "adjacent": [
+    "LE9",
+    "LE11",
+    "LE12"
+  ],
+  "property": {
+    "avgPrice": 301380,
+    "medianPrice": 252000,
+    "priceChange1y": 4.3,
+    "priceChange5y": 0,
+    "transactions12m": 2667,
+    "byType": {
+      "detached": {
+        "avg": 389253,
+        "count": 827
+      },
+      "semi": {
+        "avg": 249852,
+        "count": 1010
+      },
+      "terraced": {
+        "avg": 201927,
+        "count": 523
+      },
+      "flat": {
+        "avg": 125509,
+        "count": 226
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 328075
+      },
+      {
+        "year": 2024,
+        "avg": 283261
+      },
+      {
+        "year": 2025,
+        "avg": 295558
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 71.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -12.3,
+    "byType": {
+      "violentCrime": 27.5,
+      "burglary": 3.8,
+      "vehicleCrime": 3.2,
+      "antisocialBehaviour": 7.9,
+      "otherTheft": 12,
+      "other": 16.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 0,
+    "good": 10,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Westfield Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Westfield Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Burbage Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Sketchley Hill Primary School Burbage",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Burbage Church of England Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 108165,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 8,
+    "privateRent": 11,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 339,
+    "avgUpload": 61,
+    "superfastPct": 97,
+    "ultrafastPct": 84,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Blaby",
+    "bandD": 2184,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10.6,
+    "imdRank": 8738,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LE10 encompasses HINCKLEY and its surrounding areas in Leicestershire, East Midlands.",
+    "priceVsCounty": "The average property price in LE10 is £301,380, which is 13% below the Leicestershire average of £348,118.",
+    "priceVsNational": "Properties in LE10 cost 5.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LE10 have risen 4.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 71.3 recorded crimes per 1,000 residents, LE10 has a crime rate 12% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LE10 has 21 schools within or near its boundaries, including 10 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LE10 are 339.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LE10 (HINCKLEY) offers property prices near the national average (£301,380), 21 nearby schools, and excellent broadband (339 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 348118,
+      "crime": 75,
+      "broadband": 339
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 339
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

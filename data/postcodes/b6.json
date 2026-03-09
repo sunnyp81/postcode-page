@@ -1,0 +1,198 @@
+{
+  "code": "B6",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B5",
+    "B7",
+    "B8"
+  ],
+  "property": {
+    "avgPrice": 310708,
+    "medianPrice": 160000,
+    "priceChange1y": -14.6,
+    "priceChange5y": 0,
+    "transactions12m": 251,
+    "byType": {
+      "detached": {
+        "avg": 237500,
+        "count": 4
+      },
+      "semi": {
+        "avg": 228071,
+        "count": 18
+      },
+      "terraced": {
+        "avg": 163449,
+        "count": 160
+      },
+      "flat": {
+        "avg": 74880,
+        "count": 20
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 329003
+      },
+      {
+        "year": 2024,
+        "avg": 321853
+      },
+      {
+        "year": 2025,
+        "avg": 274856
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 156.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 92.3,
+    "byType": {
+      "violentCrime": 79.9,
+      "burglary": 6.2,
+      "vehicleCrime": 10.6,
+      "antisocialBehaviour": 11.3,
+      "otherTheft": 14.7,
+      "other": 33.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Birchfield Independent Girls' School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Wisdom Academy",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Aston Manor Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "King Edward VI Aston School",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Mansfield Green E-ACT Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 346,
+    "avgUpload": 62,
+    "superfastPct": 90,
+    "ultrafastPct": 87,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B6 covers BIRMINGHAM in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B6 is £310,708, which is 7% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B6 cost 8.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B6 have fallen 14.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 156.3 recorded crimes per 1,000 residents, B6 has a crime rate significantly 92% above the national average of 81.3 per 1,000.",
+    "schoolContext": "B6 has 16 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B6 are 346.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B6 (BIRMINGHAM) offers property prices near the national average (£310,708), higher-than-average crime (92% above national average), 16 nearby schools, and excellent broadband (346 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 346
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 346
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

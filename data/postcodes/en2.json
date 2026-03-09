@@ -1,0 +1,198 @@
+{
+  "code": "EN2",
+  "name": "ENFIELD",
+  "county": "greater-london",
+  "region": "london",
+  "city": "enfield",
+  "adjacent": [
+    "EN1",
+    "EN3",
+    "EN4"
+  ],
+  "property": {
+    "avgPrice": 571248,
+    "medianPrice": 514500,
+    "priceChange1y": -8.4,
+    "priceChange5y": 0,
+    "transactions12m": 1178,
+    "byType": {
+      "detached": {
+        "avg": 986036,
+        "count": 106
+      },
+      "semi": {
+        "avg": 715290,
+        "count": 252
+      },
+      "terraced": {
+        "avg": 565251,
+        "count": 349
+      },
+      "flat": {
+        "avg": 355956,
+        "count": 434
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 597945
+      },
+      {
+        "year": 2024,
+        "avg": 585287
+      },
+      {
+        "year": 2025,
+        "avg": 536000
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 67.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -17.2,
+    "byType": {
+      "violentCrime": 20.1,
+      "burglary": 3.5,
+      "vehicleCrime": 4.3,
+      "antisocialBehaviour": 14.4,
+      "otherTheft": 14.7,
+      "other": 10.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Chase Side Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St John's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Forty Hill CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Michael's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St George's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 122819,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 25,
+    "privateRent": 15,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 315,
+    "avgUpload": 57,
+    "superfastPct": 95,
+    "ultrafastPct": 76,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Welwyn Hatfield",
+    "bandD": 2121,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.2,
+    "imdRank": 12203,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EN2 encompasses ENFIELD and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in EN2 is £571,248, which is 56% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in EN2 cost 99.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EN2 have fallen 8.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 67.3 recorded crimes per 1,000 residents, EN2 has a crime rate 17% below the national average of 81.3 per 1,000.",
+    "schoolContext": "EN2 has 11 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EN2 are 315.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "EN2 (ENFIELD) offers above-average property prices (£571,248, 99% above national average), low crime (17% below national average), 11 nearby schools, and excellent broadband (315 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 315
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 315
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

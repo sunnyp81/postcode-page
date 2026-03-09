@@ -1,0 +1,196 @@
+{
+  "code": "DE1",
+  "name": "DERBY",
+  "county": "derbyshire",
+  "region": "east-midlands",
+  "city": "derby",
+  "adjacent": [
+    "DE3"
+  ],
+  "property": {
+    "avgPrice": 218852,
+    "medianPrice": 170000,
+    "priceChange1y": -17.7,
+    "priceChange5y": 0,
+    "transactions12m": 1460,
+    "byType": {
+      "detached": {
+        "avg": 363593,
+        "count": 21
+      },
+      "semi": {
+        "avg": 218724,
+        "count": 72
+      },
+      "terraced": {
+        "avg": 186884,
+        "count": 352
+      },
+      "flat": {
+        "avg": 162047,
+        "count": 902
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 225844
+      },
+      {
+        "year": 2024,
+        "avg": 226006
+      },
+      {
+        "year": 2025,
+        "avg": 185905
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 131.6,
+      "burglary": 8.6,
+      "vehicleCrime": 9,
+      "antisocialBehaviour": 55.7,
+      "otherTheft": 62.9,
+      "other": 96.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 2,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Central Community Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ashgate Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Whitecross Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Landau Forte College",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Derby Cathedral School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 117493,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 10,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 335,
+    "avgUpload": 60,
+    "superfastPct": 92,
+    "ultrafastPct": 85,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Derbyshire",
+    "bandD": 2033,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.5,
+    "imdRank": 12057,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DE1 covers DERBY in Derbyshire, East Midlands.",
+    "priceVsCounty": "The average property price in DE1 is £218,852, which is 24% below the Derbyshire average of £289,862.",
+    "priceVsNational": "Properties in DE1 cost 23.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DE1 have fallen 17.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, DE1 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "DE1 has 9 schools within or near its boundaries, including 2 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DE1 are 335.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DE1 (DERBY) offers affordable property prices (£218,852, 24% below national average), higher-than-average crime (269% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (335 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 289862,
+      "crime": 75,
+      "broadband": 335
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 335
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "code": "CA27",
+  "name": "ST BEES",
+  "county": "cumbria",
+  "region": "north-west",
+  "city": "carlisle",
+  "adjacent": [
+    "CA26",
+    "CA28"
+  ],
+  "property": {
+    "avgPrice": 247159,
+    "medianPrice": 214000,
+    "priceChange1y": -13,
+    "priceChange5y": 0,
+    "transactions12m": 91,
+    "byType": {
+      "detached": {
+        "avg": 342502,
+        "count": 33
+      },
+      "semi": {
+        "avg": 229471,
+        "count": 19
+      },
+      "terraced": {
+        "avg": 185129,
+        "count": 27
+      },
+      "flat": {
+        "avg": 159106,
+        "count": 9
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 241056
+      },
+      {
+        "year": 2024,
+        "avg": 266724
+      },
+      {
+        "year": 2025,
+        "avg": 231940
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.7,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.1,
+      "other": 0.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Bees School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Bees Village Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 61,
+    "avgUpload": 11,
+    "superfastPct": 97,
+    "ultrafastPct": 2,
+    "gigabitPct": 2,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cumberland",
+    "bandD": 2175,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CA27 covers ST BEES in Cumbria, North West.",
+    "priceVsCounty": "The average property price in CA27 is £247,159, broadly in line with the Cumbria average of £244,524.",
+    "priceVsNational": "Properties in CA27 cost 13.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CA27 have fallen 13.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, CA27 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CA27 has 2 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CA27 are 61.0 Mbps, with 79% of premises having access to superfast broadband and 32% with full fibre (FTTP) connectivity.",
+    "synthesis": "CA27 (ST BEES) offers property prices near the national average (£247,159), low crime (94% below national average), 2 nearby schools, and good broadband connectivity (61 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 244524,
+      "crime": 75,
+      "broadband": 61
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 61
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "HU5",
+  "name": "HULL",
+  "county": "east-yorkshire",
+  "region": "yorkshire",
+  "city": "hull",
+  "adjacent": [
+    "HU4",
+    "HU6",
+    "HU7"
+  ],
+  "property": {
+    "avgPrice": 145912,
+    "medianPrice": 125000,
+    "priceChange1y": -2.3,
+    "priceChange5y": 0,
+    "transactions12m": 2508,
+    "byType": {
+      "detached": {
+        "avg": 267316,
+        "count": 90
+      },
+      "semi": {
+        "avg": 170545,
+        "count": 349
+      },
+      "terraced": {
+        "avg": 127786,
+        "count": 1918
+      },
+      "flat": {
+        "avg": 92786,
+        "count": 65
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 138753
+      },
+      {
+        "year": 2024,
+        "avg": 150811
+      },
+      {
+        "year": 2025,
+        "avg": 147342
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 120.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 48.6,
+    "byType": {
+      "violentCrime": 48.3,
+      "burglary": 8.3,
+      "vehicleCrime": 6.7,
+      "antisocialBehaviour": 8.7,
+      "otherTheft": 20.7,
+      "other": 28.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Froebel House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wyke Sixth Form College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ainthorpe Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Thoresby Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wold Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 39,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 400,
+    "avgUpload": 72,
+    "superfastPct": 100,
+    "ultrafastPct": 100,
+    "gigabitPct": 100,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hull Council",
+    "bandD": 2183,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 40.6,
+    "imdRank": 25222,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HU5 covers HULL in East Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HU5 is £145,912, which is 31% below the East Yorkshire average of £211,309.",
+    "priceVsNational": "Properties in HU5 cost 49.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HU5 have fallen 2.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 120.8 recorded crimes per 1,000 residents, HU5 has a crime rate significantly 49% above the national average of 81.3 per 1,000.",
+    "schoolContext": "HU5 has 14 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HU5 are 400.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HU5 (HULL) offers affordable property prices (£145,912, 49% below national average), higher-than-average crime (49% above national average), 14 nearby schools, and excellent broadband (400 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 211309,
+      "crime": 75,
+      "broadband": 400
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 400
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

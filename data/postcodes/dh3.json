@@ -1,0 +1,198 @@
+{
+  "code": "DH3",
+  "name": "CHESTER LE STREET",
+  "county": "county-durham",
+  "region": "north-east",
+  "city": "durham",
+  "adjacent": [
+    "DH2",
+    "DH4",
+    "DH5"
+  ],
+  "property": {
+    "avgPrice": 191330,
+    "medianPrice": 165000,
+    "priceChange1y": 2.2,
+    "priceChange5y": 0,
+    "transactions12m": 1380,
+    "byType": {
+      "detached": {
+        "avg": 326884,
+        "count": 284
+      },
+      "semi": {
+        "avg": 192320,
+        "count": 457
+      },
+      "terraced": {
+        "avg": 133605,
+        "count": 458
+      },
+      "flat": {
+        "avg": 93370,
+        "count": 132
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 179913
+      },
+      {
+        "year": 2024,
+        "avg": 194887
+      },
+      {
+        "year": 2025,
+        "avg": 199131
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 24.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -69.7,
+    "byType": {
+      "violentCrime": 7.6,
+      "burglary": 1.1,
+      "vehicleCrime": 1.3,
+      "antisocialBehaviour": 4,
+      "otherTheft": 5.5,
+      "other": 5.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ravensworth Terrace Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Portobello Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Birtley East Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Barley Mow Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lumley Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 202760,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 25,
+    "privateRent": 15,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 322,
+    "avgUpload": 58,
+    "superfastPct": 95,
+    "ultrafastPct": 78,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Gateshead",
+    "bandD": 2332,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 28.2,
+    "imdRank": 20831,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DH3 encompasses CHESTER LE STREET and its surrounding areas in County Durham, North East.",
+    "priceVsCounty": "The average property price in DH3 is £191,330, which is 8% below the County Durham average of £207,512.",
+    "priceVsNational": "Properties in DH3 cost 33.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DH3 have risen 2.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 24.6 recorded crimes per 1,000 residents, DH3 has a crime rate well 70% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DH3 has 13 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DH3 are 322.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DH3 (CHESTER LE STREET) offers affordable property prices (£191,330, 33% below national average), low crime (70% below national average), 13 nearby schools, and excellent broadband (322 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 207512,
+      "crime": 75,
+      "broadband": 322
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 322
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

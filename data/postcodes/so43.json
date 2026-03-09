@@ -1,0 +1,197 @@
+{
+  "code": "SO43",
+  "name": "LYNDHURST",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "southampton",
+  "adjacent": [
+    "SO42",
+    "SO45"
+  ],
+  "property": {
+    "avgPrice": 678626,
+    "medianPrice": 500000,
+    "priceChange1y": -22.1,
+    "priceChange5y": 0,
+    "transactions12m": 209,
+    "byType": {
+      "detached": {
+        "avg": 973672,
+        "count": 79
+      },
+      "semi": {
+        "avg": 476021,
+        "count": 48
+      },
+      "terraced": {
+        "avg": 463750,
+        "count": 10
+      },
+      "flat": {
+        "avg": 266624,
+        "count": 50
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 698619
+      },
+      {
+        "year": 2024,
+        "avg": 763846
+      },
+      {
+        "year": 2025,
+        "avg": 594838
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.8,
+      "burglary": 0.2,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.2,
+      "other": 0.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Michael and All Angels CofE Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Coxlease School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Minstead Training Project",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "New Forest Small School Ltd",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Clay Hill School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 176116,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 11,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 208,
+    "avgUpload": 37,
+    "superfastPct": 87,
+    "ultrafastPct": 46,
+    "gigabitPct": 46,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "New Forest",
+    "bandD": 2091,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13,
+    "imdRank": 10782,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SO43 is the postcode district for LYNDHURST, located in Hampshire, South East.",
+    "priceVsCounty": "The average property price in SO43 is £678,626, which is 57% above the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in SO43 cost 136.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SO43 have fallen 22.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SO43 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SO43 has 5 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SO43 are 208.0 Mbps, with 99% of premises having access to superfast broadband and 72% with full fibre (FTTP) connectivity.",
+    "synthesis": "SO43 (LYNDHURST) offers above-average property prices (£678,626, 136% above national average), low crime (94% below national average), 5 nearby schools, and excellent broadband (208 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 208
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 208
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

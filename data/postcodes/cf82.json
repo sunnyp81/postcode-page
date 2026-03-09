@@ -1,0 +1,196 @@
+{
+  "code": "CF82",
+  "name": "HENGOED",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF81",
+    "CF83"
+  ],
+  "property": {
+    "avgPrice": 207451,
+    "medianPrice": 180000,
+    "priceChange1y": 6.9,
+    "priceChange5y": 0,
+    "transactions12m": 736,
+    "byType": {
+      "detached": {
+        "avg": 300800,
+        "count": 160
+      },
+      "semi": {
+        "avg": 192029,
+        "count": 295
+      },
+      "terraced": {
+        "avg": 149299,
+        "count": 226
+      },
+      "flat": {
+        "avg": 115596,
+        "count": 25
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 210139
+      },
+      {
+        "year": 2024,
+        "avg": 199321
+      },
+      {
+        "year": 2025,
+        "avg": 213069
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 16.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -79.3,
+    "byType": {
+      "violentCrime": 7,
+      "burglary": 0.3,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 3.2,
+      "otherTheft": 1.2,
+      "other": 4.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Derwendeg Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hengoed Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tiryberth Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Greenhill Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Maesycwmmer Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 176865,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 271,
+    "avgUpload": 49,
+    "superfastPct": 98,
+    "ultrafastPct": 63,
+    "gigabitPct": 63,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF82 covers HENGOED in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF82 is £207,451, which is 25% below the Cardiff average of £275,506.",
+    "priceVsNational": "Properties in CF82 cost 27.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CF82 have risen 6.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 16.8 recorded crimes per 1,000 residents, CF82 has a crime rate well 79% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CF82 has 10 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF82 are 271.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF82 (HENGOED) offers affordable property prices (£207,451, 28% below national average), low crime (79% below national average), 10 nearby schools, and excellent broadband (271 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 271
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 271
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

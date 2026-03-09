@@ -1,0 +1,197 @@
+{
+  "code": "RG2",
+  "name": "READING",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [
+    "RG1",
+    "RG4"
+  ],
+  "property": {
+    "avgPrice": 465261,
+    "medianPrice": 407000,
+    "priceChange1y": -17.9,
+    "priceChange5y": 0,
+    "transactions12m": 2165,
+    "byType": {
+      "detached": {
+        "avg": 635187,
+        "count": 387
+      },
+      "semi": {
+        "avg": 440271,
+        "count": 666
+      },
+      "terraced": {
+        "avg": 393011,
+        "count": 463
+      },
+      "flat": {
+        "avg": 285665,
+        "count": 593
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 433079
+      },
+      {
+        "year": 2024,
+        "avg": 515955
+      },
+      {
+        "year": 2025,
+        "avg": 423558
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 54.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -32.5,
+    "byType": {
+      "violentCrime": 22.2,
+      "burglary": 1.5,
+      "vehicleCrime": 2.1,
+      "antisocialBehaviour": 5.1,
+      "otherTheft": 13.5,
+      "other": 10.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 22,
+    "outstanding": 0,
+    "good": 8,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Blagdon Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Geoffrey Field Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Geoffrey Field Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Ridgeway Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Farley Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 187200,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 40,
+    "socialRent": 8,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 369,
+    "avgUpload": 66,
+    "superfastPct": 98,
+    "ultrafastPct": 92,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Reading Council",
+    "bandD": 2353,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 5.8,
+    "imdRank": 3651,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG2 encompasses READING and its surrounding areas in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG2 is £465,261, which is 21% below the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG2 cost 62.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG2 have fallen 17.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 54.9 recorded crimes per 1,000 residents, RG2 has a crime rate well 32% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RG2 has 22 schools within or near its boundaries, including 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG2 are 369.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG2 (READING) offers above-average property prices (£465,261, 62% above national average), low crime (32% below national average), 22 nearby schools, and excellent broadband (369 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 369
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 369
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

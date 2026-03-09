@@ -1,0 +1,198 @@
+{
+  "code": "W3",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "W2",
+    "W4",
+    "W5"
+  ],
+  "property": {
+    "avgPrice": 685601,
+    "medianPrice": 500000,
+    "priceChange1y": 1.5,
+    "priceChange5y": 0,
+    "transactions12m": 2259,
+    "byType": {
+      "detached": {
+        "avg": 1594038,
+        "count": 30
+      },
+      "semi": {
+        "avg": 1033349,
+        "count": 255
+      },
+      "terraced": {
+        "avg": 888329,
+        "count": 293
+      },
+      "flat": {
+        "avg": 464157,
+        "count": 1578
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 653810
+      },
+      {
+        "year": 2024,
+        "avg": 701432
+      },
+      {
+        "year": 2025,
+        "avg": 712060
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 143.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 76,
+    "byType": {
+      "violentCrime": 39.1,
+      "burglary": 6.6,
+      "vehicleCrime": 12.1,
+      "antisocialBehaviour": 37.5,
+      "otherTheft": 22.5,
+      "other": 25.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 23,
+    "outstanding": 5,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Maples Nursery School and Children's Centre",
+        "type": "Nursery",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "South Acton Childrens Centre",
+        "type": "Nursery",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Acton Gardens Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "East Acton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "West Acton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 299424,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 21,
+    "privateRent": 29,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 335,
+    "avgUpload": 60,
+    "superfastPct": 97,
+    "ultrafastPct": 83,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hounslow",
+    "bandD": 1882,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.5,
+    "imdRank": 18652,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "W3 covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in W3 is £685,601, which is 48% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in W3 cost 138.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in W3 have risen 1.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 143.1 recorded crimes per 1,000 residents, W3 has a crime rate significantly 76% above the national average of 81.3 per 1,000.",
+    "schoolContext": "W3 has 23 schools within or near its boundaries, including 5 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in W3 are 335.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "W3 (LONDON) offers above-average property prices (£685,601, 139% above national average), higher-than-average crime (76% above national average), strong school provision (5 Outstanding-rated schools), and excellent broadband (335 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 335
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 335
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

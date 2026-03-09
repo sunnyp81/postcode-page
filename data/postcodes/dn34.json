@@ -1,0 +1,198 @@
+{
+  "code": "DN34",
+  "name": "GRIMSBY",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "doncaster",
+  "adjacent": [
+    "DN33",
+    "DN35",
+    "DN36"
+  ],
+  "property": {
+    "avgPrice": 138676,
+    "medianPrice": 130000,
+    "priceChange1y": 3.9,
+    "priceChange5y": 0,
+    "transactions12m": 814,
+    "byType": {
+      "detached": {
+        "avg": 236356,
+        "count": 88
+      },
+      "semi": {
+        "avg": 146195,
+        "count": 364
+      },
+      "terraced": {
+        "avg": 105355,
+        "count": 300
+      },
+      "flat": {
+        "avg": 94463,
+        "count": 46
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 136530
+      },
+      {
+        "year": 2024,
+        "avg": 137152
+      },
+      {
+        "year": 2025,
+        "avg": 142448
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 93.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 14.5,
+    "byType": {
+      "violentCrime": 39.6,
+      "burglary": 4.6,
+      "vehicleCrime": 3.9,
+      "antisocialBehaviour": 6.3,
+      "otherTheft": 13.5,
+      "other": 25.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Western Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "St James' School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Martin's Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "TEC Partnership",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Grange Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 159911,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 13,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 389,
+    "avgUpload": 70,
+    "superfastPct": 99,
+    "ultrafastPct": 97,
+    "gigabitPct": 97,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Doncaster Council",
+    "bandD": 2168,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 31.3,
+    "imdRank": 20177,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DN34 covers GRIMSBY in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in DN34 is £138,676, which is 40% below the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in DN34 cost 51.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DN34 have risen 3.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 93.1 recorded crimes per 1,000 residents, DN34 has a crime rate 15% above the national average of 81.3 per 1,000.",
+    "schoolContext": "DN34 has 10 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DN34 are 389.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DN34 (GRIMSBY) offers affordable property prices (£138,676, 52% below national average), 10 nearby schools, and excellent broadband (389 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 389
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 389
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

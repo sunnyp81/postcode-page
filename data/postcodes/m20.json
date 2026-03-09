@@ -1,0 +1,198 @@
+{
+  "code": "M20",
+  "name": "MANCHESTER",
+  "county": "greater-manchester",
+  "region": "north-west",
+  "city": "manchester",
+  "adjacent": [
+    "M19",
+    "M21",
+    "M22"
+  ],
+  "property": {
+    "avgPrice": 413224,
+    "medianPrice": 332500,
+    "priceChange1y": -3.6,
+    "priceChange5y": 0,
+    "transactions12m": 2057,
+    "byType": {
+      "detached": {
+        "avg": 867824,
+        "count": 95
+      },
+      "semi": {
+        "avg": 482293,
+        "count": 644
+      },
+      "terraced": {
+        "avg": 424795,
+        "count": 456
+      },
+      "flat": {
+        "avg": 250073,
+        "count": 798
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 418886
+      },
+      {
+        "year": 2024,
+        "avg": 417930
+      },
+      {
+        "year": 2025,
+        "avg": 403046
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 2,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Broad Oak Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Paul's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Catherine's RC Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Cuthbert's RC Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Barlow RC High School and Specialist Science College",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 589670,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 21,
+    "socialRent": 30,
+    "privateRent": 30,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 371,
+    "avgUpload": 67,
+    "superfastPct": 98,
+    "ultrafastPct": 94,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Manchester",
+    "bandD": 1970,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 40,
+    "imdRank": 26417,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "M20 is the postcode district for MANCHESTER, located in Greater Manchester, North West.",
+    "priceVsCounty": "The average property price in M20 is £413,224, which is 8% above the Greater Manchester average of £381,941.",
+    "priceVsNational": "Properties in M20 cost 44.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in M20 have fallen 3.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, M20 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "M20 has 19 schools within or near its boundaries, including 2 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in M20 are 371.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "M20 (MANCHESTER) offers above-average property prices (£413,224, 44% above national average), low crime (94% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (371 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 381941,
+      "crime": 75,
+      "broadband": 371
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 371
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

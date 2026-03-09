@@ -1,0 +1,198 @@
+{
+  "code": "ME16",
+  "name": "MAIDSTONE",
+  "county": "kent",
+  "region": "south-east",
+  "city": "medway",
+  "adjacent": [
+    "ME15",
+    "ME17",
+    "ME18"
+  ],
+  "property": {
+    "avgPrice": 378561,
+    "medianPrice": 336995,
+    "priceChange1y": -14.8,
+    "priceChange5y": 0,
+    "transactions12m": 1609,
+    "byType": {
+      "detached": {
+        "avg": 546802,
+        "count": 241
+      },
+      "semi": {
+        "avg": 397331,
+        "count": 536
+      },
+      "terraced": {
+        "avg": 305886,
+        "count": 452
+      },
+      "flat": {
+        "avg": 177812,
+        "count": 349
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 364811
+      },
+      {
+        "year": 2024,
+        "avg": 414712
+      },
+      {
+        "year": 2025,
+        "avg": 353424
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 84.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 4.4,
+    "byType": {
+      "violentCrime": 37.8,
+      "burglary": 1.4,
+      "vehicleCrime": 2.7,
+      "antisocialBehaviour": 14,
+      "otherTheft": 12.1,
+      "other": 16.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 3,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Brunswick House Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "West Borough Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Maidstone, St Michael's Church of England Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Michael's Church of England Infant School Maidstone",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Maidstone Grammar School for Girls",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 187767,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 326,
+    "avgUpload": 59,
+    "superfastPct": 98,
+    "ultrafastPct": 86,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Maidstone",
+    "bandD": 2190,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.5,
+    "imdRank": 13639,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ME16 covers MAIDSTONE in Kent, South East.",
+    "priceVsCounty": "The average property price in ME16 is £378,561, which is 16% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in ME16 cost 31.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ME16 have fallen 14.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "ME16 has a crime rate of 84.9 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "ME16 has 16 schools within or near its boundaries, including 3 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ME16 are 326.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "ME16 (MAIDSTONE) offers above-average property prices (£378,561, 32% above national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (326 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 326
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 326
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

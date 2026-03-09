@@ -1,0 +1,198 @@
+{
+  "code": "TF3",
+  "name": "TELFORD",
+  "county": "shropshire",
+  "region": "west-midlands",
+  "city": "telford",
+  "adjacent": [
+    "TF2",
+    "TF4",
+    "TF5"
+  ],
+  "property": {
+    "avgPrice": 229436,
+    "medianPrice": 173235,
+    "priceChange1y": -29.2,
+    "priceChange5y": 0,
+    "transactions12m": 992,
+    "byType": {
+      "detached": {
+        "avg": 292346,
+        "count": 234
+      },
+      "semi": {
+        "avg": 193042,
+        "count": 237
+      },
+      "terraced": {
+        "avg": 147184,
+        "count": 381
+      },
+      "flat": {
+        "avg": 79805,
+        "count": 100
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 204351
+      },
+      {
+        "year": 2024,
+        "avg": 277911
+      },
+      {
+        "year": 2025,
+        "avg": 196724
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 92.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 13.9,
+    "byType": {
+      "violentCrime": 38.1,
+      "burglary": 2.1,
+      "vehicleCrime": 1.3,
+      "antisocialBehaviour": 14,
+      "otherTheft": 16.8,
+      "other": 20.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "The Linden Centre",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Holmer Lake Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Randlay Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hollinswood Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Thomas Telford School",
+        "type": "Other",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 195952,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 18,
+    "privateRent": 19,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 329,
+    "avgUpload": 59,
+    "superfastPct": 92,
+    "ultrafastPct": 82,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Telford Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25,
+    "imdRank": 18583,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TF3 is the postcode district for TELFORD, located in Shropshire, West Midlands.",
+    "priceVsCounty": "The average property price in TF3 is £229,436, which is 22% below the Shropshire average of £296,045.",
+    "priceVsNational": "Properties in TF3 cost 20.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TF3 have fallen 29.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 92.6 recorded crimes per 1,000 residents, TF3 has a crime rate 14% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TF3 has 10 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TF3 are 329.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TF3 (TELFORD) offers affordable property prices (£229,436, 20% below national average), 10 nearby schools, and excellent broadband (329 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 296045,
+      "crime": 75,
+      "broadband": 329
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 329
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

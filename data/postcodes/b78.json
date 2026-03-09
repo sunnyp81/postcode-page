@@ -1,0 +1,198 @@
+{
+  "code": "B78",
+  "name": "TAMWORTH",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B77",
+    "B79",
+    "B80"
+  ],
+  "property": {
+    "avgPrice": 320741,
+    "medianPrice": 250000,
+    "priceChange1y": -19.3,
+    "priceChange5y": 0,
+    "transactions12m": 1168,
+    "byType": {
+      "detached": {
+        "avg": 408510,
+        "count": 332
+      },
+      "semi": {
+        "avg": 245831,
+        "count": 443
+      },
+      "terraced": {
+        "avg": 216553,
+        "count": 241
+      },
+      "flat": {
+        "avg": 156717,
+        "count": 112
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 283785
+      },
+      {
+        "year": 2024,
+        "avg": 377671
+      },
+      {
+        "year": 2025,
+        "avg": 304673
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 37.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -54.2,
+    "byType": {
+      "violentCrime": 14.8,
+      "burglary": 1.5,
+      "vehicleCrime": 2.9,
+      "antisocialBehaviour": 5.4,
+      "otherTheft": 6.3,
+      "other": 6.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Thomas Barnes Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Longwood Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kingsbury Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "The Polesworth School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Dordon Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 111932,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 13,
+    "privateRent": 11,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 261,
+    "avgUpload": 47,
+    "superfastPct": 92,
+    "ultrafastPct": 63,
+    "gigabitPct": 60,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lichfield",
+    "bandD": 2058,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.6,
+    "imdRank": 10387,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B78 covers TAMWORTH in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B78 is £320,741, broadly in line with the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B78 cost 11.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B78 have fallen 19.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 37.2 recorded crimes per 1,000 residents, B78 has a crime rate well 54% below the national average of 81.3 per 1,000.",
+    "schoolContext": "B78 has 11 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B78 are 261.0 Mbps, with 99% of premises having access to superfast broadband and 87% with full fibre (FTTP) connectivity.",
+    "synthesis": "B78 (TAMWORTH) offers property prices near the national average (£320,741), low crime (54% below national average), 11 nearby schools, and excellent broadband (261 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 261
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 261
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

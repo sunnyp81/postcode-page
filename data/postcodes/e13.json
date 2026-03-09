@@ -1,0 +1,198 @@
+{
+  "code": "E13",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "E12",
+    "E14",
+    "E15"
+  ],
+  "property": {
+    "avgPrice": 416933,
+    "medianPrice": 398000,
+    "priceChange1y": 7.9,
+    "priceChange5y": 0,
+    "transactions12m": 791,
+    "byType": {
+      "detached": {
+        "avg": 400000,
+        "count": 1
+      },
+      "semi": {
+        "avg": 493333,
+        "count": 12
+      },
+      "terraced": {
+        "avg": 427459,
+        "count": 457
+      },
+      "flat": {
+        "avg": 322793,
+        "count": 277
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 465932
+      },
+      {
+        "year": 2024,
+        "avg": 374578
+      },
+      {
+        "year": 2025,
+        "avg": 404059
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 246.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 203.7,
+    "byType": {
+      "violentCrime": 75.3,
+      "burglary": 7.7,
+      "vehicleCrime": 22.1,
+      "antisocialBehaviour": 51.4,
+      "otherTheft": 52.4,
+      "other": 37.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 5,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Tunmarsh School",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Grange Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Southern Road Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Plaistow Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Service for Deaf and Partially Hearing Children",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 374523,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 18,
+    "socialRent": 28,
+    "privateRent": 36,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 345,
+    "avgUpload": 62,
+    "superfastPct": 99,
+    "ultrafastPct": 90,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newham",
+    "bandD": 1628,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 29.6,
+    "imdRank": 24138,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "E13 is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in E13 is £416,933, which is 68% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in E13 cost 45.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in E13 have risen 7.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 246.9 recorded crimes per 1,000 residents, E13 has a crime rate significantly 204% above the national average of 81.3 per 1,000.",
+    "schoolContext": "E13 has 17 schools within or near its boundaries, including 5 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in E13 are 345.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "E13 (LONDON) offers above-average property prices (£416,933, 45% above national average), higher-than-average crime (204% above national average), strong school provision (5 Outstanding-rated schools), and excellent broadband (345 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 345
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 345
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

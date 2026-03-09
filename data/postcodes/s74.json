@@ -1,0 +1,197 @@
+{
+  "code": "S74",
+  "name": "BARNSLEY",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "sheffield",
+  "adjacent": [
+    "S73",
+    "S75"
+  ],
+  "property": {
+    "avgPrice": 185442,
+    "medianPrice": 147500,
+    "priceChange1y": 4,
+    "priceChange5y": 0,
+    "transactions12m": 721,
+    "byType": {
+      "detached": {
+        "avg": 312635,
+        "count": 132
+      },
+      "semi": {
+        "avg": 160078,
+        "count": 268
+      },
+      "terraced": {
+        "avg": 126765,
+        "count": 266
+      },
+      "flat": {
+        "avg": 100519,
+        "count": 27
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 192242
+      },
+      {
+        "year": 2024,
+        "avg": 178223
+      },
+      {
+        "year": 2025,
+        "avg": 185315
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 41.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -49.2,
+    "byType": {
+      "violentCrime": 14.8,
+      "burglary": 2,
+      "vehicleCrime": 3,
+      "antisocialBehaviour": 6.7,
+      "otherTheft": 5.2,
+      "other": 9.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Jump Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Helen's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hoyland Common Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "West Meadows Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kirk Balk Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 276595,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 21,
+    "privateRent": 13,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 302,
+    "avgUpload": 54,
+    "superfastPct": 96,
+    "ultrafastPct": 72,
+    "gigabitPct": 72,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Rotherham",
+    "bandD": 2126,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 29.6,
+    "imdRank": 21030,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "S74 is the postcode district for BARNSLEY, located in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in S74 is £185,442, which is 20% below the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in S74 cost 35.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in S74 have risen 4.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 41.3 recorded crimes per 1,000 residents, S74 has a crime rate well 49% below the national average of 81.3 per 1,000.",
+    "schoolContext": "S74 has 8 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in S74 are 302.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "S74 (BARNSLEY) offers affordable property prices (£185,442, 35% below national average), low crime (49% below national average), 8 nearby schools, and excellent broadband (302 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 302
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 302
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

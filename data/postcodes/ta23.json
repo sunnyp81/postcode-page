@@ -1,0 +1,181 @@
+{
+  "code": "TA23",
+  "name": "WATCHET",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "taunton",
+  "adjacent": [
+    "TA22",
+    "TA24"
+  ],
+  "property": {
+    "avgPrice": 299264,
+    "medianPrice": 255000,
+    "priceChange1y": 2.8,
+    "priceChange5y": 0,
+    "transactions12m": 278,
+    "byType": {
+      "detached": {
+        "avg": 424929,
+        "count": 86
+      },
+      "semi": {
+        "avg": 252794,
+        "count": 83
+      },
+      "terraced": {
+        "avg": 229252,
+        "count": 75
+      },
+      "flat": {
+        "avg": 152429,
+        "count": 17
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 292527
+      },
+      {
+        "year": 2024,
+        "avg": 298497
+      },
+      {
+        "year": 2025,
+        "avg": 306865
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.4,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.3,
+      "otherTheft": 0.1,
+      "other": 0.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Knights Templar Community Church School & Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Old Cleeve Church of England First School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 26693,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 84,
+    "avgUpload": 15,
+    "superfastPct": 87,
+    "ultrafastPct": 10,
+    "gigabitPct": 10,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Taunton Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TA23 is the postcode district for WATCHET, located in Somerset, South West.",
+    "priceVsCounty": "The average property price in TA23 is £299,264, which is 20% below the Somerset average of £373,759.",
+    "priceVsNational": "Property values in TA23 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in TA23 have risen 2.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TA23 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TA23 has 2 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TA23 are 84.0 Mbps, with 83% of premises having access to superfast broadband and 38% with full fibre (FTTP) connectivity.",
+    "synthesis": "TA23 (WATCHET) offers property prices near the national average (£299,264), low crime (94% below national average), 2 nearby schools, and good broadband connectivity (84 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 84
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 84
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

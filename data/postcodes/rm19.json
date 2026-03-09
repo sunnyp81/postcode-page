@@ -1,0 +1,182 @@
+{
+  "code": "RM19",
+  "name": "PURFLEET-ON-THAMES",
+  "county": "greater-london",
+  "region": "london",
+  "city": "romford",
+  "adjacent": [
+    "RM18",
+    "RM20"
+  ],
+  "property": {
+    "avgPrice": 737464,
+    "medianPrice": 235000,
+    "priceChange1y": -50,
+    "priceChange5y": 0,
+    "transactions12m": 267,
+    "byType": {
+      "detached": {
+        "avg": 515250,
+        "count": 4
+      },
+      "semi": {
+        "avg": 371250,
+        "count": 24
+      },
+      "terraced": {
+        "avg": 323462,
+        "count": 77
+      },
+      "flat": {
+        "avg": 189431,
+        "count": 151
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 802964
+      },
+      {
+        "year": 2024,
+        "avg": 900735
+      },
+      {
+        "year": 2025,
+        "avg": 450640
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 15,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -81.5,
+    "byType": {
+      "violentCrime": 5.7,
+      "burglary": 0.4,
+      "vehicleCrime": 2.6,
+      "antisocialBehaviour": 1.2,
+      "otherTheft": 1,
+      "other": 4.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Purfleet Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Harris Academy Riverside",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 180989,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 18,
+    "privateRent": 17,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 241,
+    "avgUpload": 43,
+    "superfastPct": 91,
+    "ultrafastPct": 55,
+    "gigabitPct": 55,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Romford Council",
+    "bandD": 1114,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.9,
+    "imdRank": 17375,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RM19 is the postcode district for PURFLEET-ON-THAMES, located in Greater London, London.",
+    "priceVsCounty": "The average property price in RM19 is £737,464, which is 44% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in RM19 cost 157.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RM19 have fallen 50.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 15.0 recorded crimes per 1,000 residents, RM19 has a crime rate well 82% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RM19 has 2 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RM19 are 241.0 Mbps, with 99% of premises having access to superfast broadband and 81% with full fibre (FTTP) connectivity.",
+    "synthesis": "RM19 (PURFLEET-ON-THAMES) offers above-average property prices (£737,464, 157% above national average), low crime (82% below national average), 2 nearby schools, and excellent broadband (241 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 241
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 241
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

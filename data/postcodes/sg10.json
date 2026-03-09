@@ -1,0 +1,188 @@
+{
+  "code": "SG10",
+  "name": "MUCH HADHAM",
+  "county": "hertfordshire",
+  "region": "east-of-england",
+  "city": "stevenage",
+  "adjacent": [
+    "SG9",
+    "SG11",
+    "SG12"
+  ],
+  "property": {
+    "avgPrice": 734524,
+    "medianPrice": 662500,
+    "priceChange1y": 11.4,
+    "priceChange5y": 0,
+    "transactions12m": 70,
+    "byType": {
+      "detached": {
+        "avg": 906637,
+        "count": 34
+      },
+      "semi": {
+        "avg": 668692,
+        "count": 13
+      },
+      "terraced": {
+        "avg": 409636,
+        "count": 11
+      },
+      "flat": {
+        "avg": 231400,
+        "count": 5
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 783957
+      },
+      {
+        "year": 2024,
+        "avg": 675865
+      },
+      {
+        "year": 2025,
+        "avg": 753007
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.9,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.6,
+      "otherTheft": 0.1,
+      "other": 0.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Andrew's CE Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Elizabeth's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Elizabeth's Centre",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 156875,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 13,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 129,
+    "avgUpload": 23,
+    "superfastPct": 87,
+    "ultrafastPct": 23,
+    "gigabitPct": 23,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Hertfordshire",
+    "bandD": 2117,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.2,
+    "imdRank": 6091,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SG10 encompasses MUCH HADHAM and its surrounding areas in Hertfordshire, East Of England.",
+    "priceVsCounty": "The average property price in SG10 is £734,524, which is 28% above the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in SG10 cost 155.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SG10 have risen 11.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SG10 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SG10 has 3 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SG10 are 129.0 Mbps, with 89% of premises having access to superfast broadband and 50% with full fibre (FTTP) connectivity.",
+    "synthesis": "SG10 (MUCH HADHAM) offers above-average property prices (£734,524, 156% above national average), low crime (94% below national average), 3 nearby schools, and excellent broadband (129 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 129
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 129
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

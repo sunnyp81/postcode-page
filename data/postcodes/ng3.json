@@ -1,0 +1,198 @@
+{
+  "code": "NG3",
+  "name": "NOTTINGHAM",
+  "county": "nottinghamshire",
+  "region": "east-midlands",
+  "city": "nottingham",
+  "adjacent": [
+    "NG2",
+    "NG4",
+    "NG5"
+  ],
+  "property": {
+    "avgPrice": 249431,
+    "medianPrice": 200000,
+    "priceChange1y": -2,
+    "priceChange5y": 0,
+    "transactions12m": 2047,
+    "byType": {
+      "detached": {
+        "avg": 366353,
+        "count": 547
+      },
+      "semi": {
+        "avg": 237687,
+        "count": 561
+      },
+      "terraced": {
+        "avg": 173927,
+        "count": 530
+      },
+      "flat": {
+        "avg": 149372,
+        "count": 340
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 252018
+      },
+      {
+        "year": 2024,
+        "avg": 250274
+      },
+      {
+        "year": 2025,
+        "avg": 245292
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 112.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 38.5,
+    "byType": {
+      "violentCrime": 42.4,
+      "burglary": 3.1,
+      "vehicleCrime": 5.1,
+      "antisocialBehaviour": 18,
+      "otherTheft": 16.2,
+      "other": 27.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Walter Halls Primary and Early Years School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mapperley Plains Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Westdale Infant and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hollygirt School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Carlton Digby School",
+        "type": "Other",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 120179,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 10,
+    "privateRent": 14,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 378,
+    "avgUpload": 68,
+    "superfastPct": 99,
+    "ultrafastPct": 96,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Gedling",
+    "bandD": 2288,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.9,
+    "imdRank": 12438,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NG3 encompasses NOTTINGHAM and its surrounding areas in Nottinghamshire, East Midlands.",
+    "priceVsCounty": "The average property price in NG3 is £249,431, which is 63% below the Nottinghamshire average of £678,596.",
+    "priceVsNational": "Properties in NG3 cost 13.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NG3 have fallen 2.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 112.6 recorded crimes per 1,000 residents, NG3 has a crime rate significantly 38% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NG3 has 18 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NG3 are 378.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NG3 (NOTTINGHAM) offers property prices near the national average (£249,431), higher-than-average crime (38% above national average), 18 nearby schools, and excellent broadband (378 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 678596,
+      "crime": 75,
+      "broadband": 378
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 378
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

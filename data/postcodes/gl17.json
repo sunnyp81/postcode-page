@@ -1,0 +1,197 @@
+{
+  "code": "GL17",
+  "name": "MITCHELDEAN",
+  "county": "gloucestershire",
+  "region": "south-west",
+  "city": "gloucester",
+  "adjacent": [
+    "GL16",
+    "GL18",
+    "GL19"
+  ],
+  "property": {
+    "avgPrice": 363511,
+    "medianPrice": 296500,
+    "priceChange1y": 16.3,
+    "priceChange5y": 0,
+    "transactions12m": 462,
+    "byType": {
+      "detached": {
+        "avg": 420298,
+        "count": 195
+      },
+      "semi": {
+        "avg": 254554,
+        "count": 149
+      },
+      "terraced": {
+        "avg": 212593,
+        "count": 64
+      },
+      "flat": {
+        "avg": 88157,
+        "count": 7
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 411466
+      },
+      {
+        "year": 2024,
+        "avg": 319361
+      },
+      {
+        "year": 2025,
+        "avg": 371299
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -92.9,
+    "byType": {
+      "violentCrime": 2.8,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 1.4,
+      "otherTheft": 0.3,
+      "other": 1.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Woodside Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lydbrook Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ruardean Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Mitcheldean Endowed Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dene Magna School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 40000,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 262,
+    "avgUpload": 47,
+    "superfastPct": 93,
+    "ultrafastPct": 61,
+    "gigabitPct": 61,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Gloucester Council",
+    "bandD": 2219,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.9,
+    "imdRank": 16384,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GL17 encompasses MITCHELDEAN and its surrounding areas in Gloucestershire, South West.",
+    "priceVsCounty": "The average property price in GL17 is £363,511, which is 18% below the Gloucestershire average of £441,384.",
+    "priceVsNational": "Properties in GL17 cost 26.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GL17 have risen 16.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.8 recorded crimes per 1,000 residents, GL17 has a crime rate well 93% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GL17 has 7 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GL17 are 262.0 Mbps, with 99% of premises having access to superfast broadband and 87% with full fibre (FTTP) connectivity.",
+    "synthesis": "GL17 (MITCHELDEAN) offers above-average property prices (£363,511, 27% above national average), low crime (93% below national average), 7 nearby schools, and excellent broadband (262 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 441384,
+      "crime": 75,
+      "broadband": 262
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 262
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "L3",
+  "name": "LIVERPOOL",
+  "county": "merseyside",
+  "region": "north-west",
+  "city": "liverpool",
+  "adjacent": [
+    "L2",
+    "L4",
+    "L5"
+  ],
+  "property": {
+    "avgPrice": 318703,
+    "medianPrice": 175000,
+    "priceChange1y": -7.7,
+    "priceChange5y": 0,
+    "transactions12m": 1045,
+    "byType": {
+      "detached": {
+        "avg": 515000,
+        "count": 1
+      },
+      "semi": {
+        "avg": 198120,
+        "count": 30
+      },
+      "terraced": {
+        "avg": 218081,
+        "count": 43
+      },
+      "flat": {
+        "avg": 218226,
+        "count": 872
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 414347
+      },
+      {
+        "year": 2024,
+        "avg": 270355
+      },
+      {
+        "year": 2025,
+        "avg": 249515
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 158.8,
+      "burglary": 11.1,
+      "vehicleCrime": 17.9,
+      "antisocialBehaviour": 42.5,
+      "otherTheft": 110.5,
+      "other": 201.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Pleasant Street Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Holy Cross Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The City of Liverpool College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Liverpool John Moores University",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Nazene Danielle School of Performing Arts",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 508961,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 23,
+    "socialRent": 26,
+    "privateRent": 24,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 281,
+    "avgUpload": 51,
+    "superfastPct": 85,
+    "ultrafastPct": 71,
+    "gigabitPct": 66,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Liverpool",
+    "bandD": 2308,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 42.4,
+    "imdRank": 25833,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "L3 is the postcode district for LIVERPOOL, located in Merseyside, North West.",
+    "priceVsCounty": "The average property price in L3 is £318,703, which is 26% above the Merseyside average of £252,845.",
+    "priceVsNational": "Properties in L3 cost 11.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in L3 have fallen 7.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, L3 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "L3 has 7 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in L3 are 281.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "L3 (LIVERPOOL) offers property prices near the national average (£318,703), higher-than-average crime (269% above national average), 7 nearby schools, and excellent broadband (281 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 252845,
+      "crime": 75,
+      "broadband": 281
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 281
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

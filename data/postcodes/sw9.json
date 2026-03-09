@@ -1,0 +1,198 @@
+{
+  "code": "SW9",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SW8",
+    "SW10",
+    "SW11"
+  ],
+  "property": {
+    "avgPrice": 581180,
+    "medianPrice": 520000,
+    "priceChange1y": -1.9,
+    "priceChange5y": 0,
+    "transactions12m": 1259,
+    "byType": {
+      "detached": {
+        "avg": 1493330,
+        "count": 5
+      },
+      "semi": {
+        "avg": 1286027,
+        "count": 22
+      },
+      "terraced": {
+        "avg": 956642,
+        "count": 164
+      },
+      "flat": {
+        "avg": 492890,
+        "count": 1032
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 586491
+      },
+      {
+        "year": 2024,
+        "avg": 583361
+      },
+      {
+        "year": 2025,
+        "avg": 572341
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 99.5,
+      "burglary": 13.8,
+      "vehicleCrime": 15.3,
+      "antisocialBehaviour": 77.9,
+      "otherTheft": 87.3,
+      "other": 58.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Stockwell Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Christ Church Primary SW9",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Andrew's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John's Angell Town Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Helen's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 316920,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 21,
+    "socialRent": 34,
+    "privateRent": 29,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 361,
+    "avgUpload": 65,
+    "superfastPct": 98,
+    "ultrafastPct": 89,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lambeth",
+    "bandD": 1762,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.4,
+    "imdRank": 21351,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SW9 encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in SW9 is £581,180, which is 56% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SW9 cost 102.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SW9 have fallen 1.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, SW9 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SW9 has 13 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SW9 are 361.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SW9 (LONDON) offers above-average property prices (£581,180, 103% above national average), higher-than-average crime (269% above national average), 13 nearby schools, and excellent broadband (361 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 361
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 361
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

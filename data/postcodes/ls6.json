@@ -1,0 +1,198 @@
+{
+  "code": "LS6",
+  "name": "LEEDS",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "leeds",
+  "adjacent": [
+    "LS5",
+    "LS7",
+    "LS8"
+  ],
+  "property": {
+    "avgPrice": 338195,
+    "medianPrice": 272000,
+    "priceChange1y": 36,
+    "priceChange5y": 0,
+    "transactions12m": 1409,
+    "byType": {
+      "detached": {
+        "avg": 451225,
+        "count": 100
+      },
+      "semi": {
+        "avg": 331812,
+        "count": 388
+      },
+      "terraced": {
+        "avg": 272079,
+        "count": 565
+      },
+      "flat": {
+        "avg": 196688,
+        "count": 281
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 314642
+      },
+      {
+        "year": 2024,
+        "avg": 301303
+      },
+      {
+        "year": 2025,
+        "avg": 409772
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 142,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 74.7,
+    "byType": {
+      "violentCrime": 55.6,
+      "burglary": 10.2,
+      "vehicleCrime": 14,
+      "antisocialBehaviour": 10.7,
+      "otherTheft": 22.5,
+      "other": 29
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Brudenell Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Quarry Mount Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Meanwood Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cardinal Heenan Catholic High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "West Oaks School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 845189,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 389,
+    "avgUpload": 70,
+    "superfastPct": 99,
+    "ultrafastPct": 97,
+    "gigabitPct": 97,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Leeds",
+    "bandD": 1968,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.3,
+    "imdRank": 18909,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LS6 covers LEEDS in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in LS6 is £338,195, which is 22% above the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in LS6 cost 17.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LS6 have risen 36.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 142.0 recorded crimes per 1,000 residents, LS6 has a crime rate significantly 75% above the national average of 81.3 per 1,000.",
+    "schoolContext": "LS6 has 13 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LS6 are 389.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LS6 (LEEDS) offers property prices near the national average (£338,195), higher-than-average crime (75% above national average), 13 nearby schools, and excellent broadband (389 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 389
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 389
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

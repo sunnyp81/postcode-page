@@ -1,0 +1,178 @@
+{
+  "code": "CA23",
+  "name": "CLEATOR",
+  "county": "cumbria",
+  "region": "north-west",
+  "city": "carlisle",
+  "adjacent": [
+    "CA22",
+    "CA24",
+    "CA25"
+  ],
+  "property": {
+    "avgPrice": 148004,
+    "medianPrice": 111250,
+    "priceChange1y": 3.3,
+    "priceChange5y": 0,
+    "transactions12m": 92,
+    "byType": {
+      "detached": {
+        "avg": 292242,
+        "count": 20
+      },
+      "semi": {
+        "avg": 194583,
+        "count": 6
+      },
+      "terraced": {
+        "avg": 89328,
+        "count": 61
+      },
+      "flat": {
+        "avg": 60743,
+        "count": 0
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 154071
+      },
+      {
+        "year": 2024,
+        "avg": 143378
+      },
+      {
+        "year": 2025,
+        "avg": 148050
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 10.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -87.5,
+    "byType": {
+      "violentCrime": 4.4,
+      "burglary": 0.3,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 1.4,
+      "otherTheft": 0.6,
+      "other": 3.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ennerdale and Kinniside CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 52,
+    "avgUpload": 9,
+    "superfastPct": 84,
+    "ultrafastPct": 1,
+    "gigabitPct": 1,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cumberland",
+    "bandD": 2175,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CA23 encompasses CLEATOR and its surrounding areas in Cumbria, North West.",
+    "priceVsCounty": "The average property price in CA23 is £148,004, which is 39% below the Cumbria average of £244,524.",
+    "priceVsNational": "Properties in CA23 cost 48.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CA23 have risen 3.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 10.2 recorded crimes per 1,000 residents, CA23 has a crime rate well 87% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CA23 has 1 school within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CA23 are 52.0 Mbps, with 78% of premises having access to superfast broadband and 29% with full fibre (FTTP) connectivity.",
+    "synthesis": "CA23 (CLEATOR) offers affordable property prices (£148,004, 48% below national average), low crime (87% below national average), 1 nearby school, and good broadband connectivity (52 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 244524,
+      "crime": 75,
+      "broadband": 52
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 52
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

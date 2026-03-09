@@ -1,0 +1,197 @@
+{
+  "code": "HP9",
+  "name": "BEACONSFIELD",
+  "county": "hertfordshire",
+  "region": "south-east",
+  "city": "hemel-hempstead",
+  "adjacent": [
+    "HP8",
+    "HP10",
+    "HP11"
+  ],
+  "property": {
+    "avgPrice": 1240344,
+    "medianPrice": 950000,
+    "priceChange1y": -2.5,
+    "priceChange5y": 0,
+    "transactions12m": 835,
+    "byType": {
+      "detached": {
+        "avg": 1613976,
+        "count": 419
+      },
+      "semi": {
+        "avg": 773244,
+        "count": 155
+      },
+      "terraced": {
+        "avg": 940539,
+        "count": 89
+      },
+      "flat": {
+        "avg": 526302,
+        "count": 129
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1218533
+      },
+      {
+        "year": 2024,
+        "avg": 1264824
+      },
+      {
+        "year": 2025,
+        "avg": 1233366
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 15.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -80.8,
+    "byType": {
+      "violentCrime": 4.8,
+      "burglary": 1.2,
+      "vehicleCrime": 1.4,
+      "antisocialBehaviour": 1.1,
+      "otherTheft": 3.5,
+      "other": 3.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 1,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Jordans School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Butlers Court School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holtspur School & Pre-School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary and All Saints CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Davenies School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 40,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 65,
+    "socialRent": 13,
+    "privateRent": 22,
+    "economicallyActive": 76,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 294,
+    "avgUpload": 53,
+    "superfastPct": 95,
+    "ultrafastPct": 70,
+    "gigabitPct": 70,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hemel Hempstead Council",
+    "bandD": 2183,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "HP9 encompasses BEACONSFIELD and its surrounding areas in Hertfordshire, South East.",
+    "priceVsCounty": "The average property price in HP9 is £1,240,344, which is 117% above the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in HP9 cost 332.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HP9 have fallen 2.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 15.6 recorded crimes per 1,000 residents, HP9 has a crime rate well 81% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HP9 has 10 schools within or near its boundaries, including 1 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HP9 are 294.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HP9 (BEACONSFIELD) offers above-average property prices (£1,240,344, 332% above national average), low crime (81% below national average), 10 nearby schools, and excellent broadband (294 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 294
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 294
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

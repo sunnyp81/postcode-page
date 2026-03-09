@@ -1,0 +1,197 @@
+{
+  "code": "TA18",
+  "name": "CREWKERNE",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "taunton",
+  "adjacent": [
+    "TA17",
+    "TA19",
+    "TA20"
+  ],
+  "property": {
+    "avgPrice": 289814,
+    "medianPrice": 245000,
+    "priceChange1y": 1.9,
+    "priceChange5y": 0,
+    "transactions12m": 653,
+    "byType": {
+      "detached": {
+        "avg": 394471,
+        "count": 166
+      },
+      "semi": {
+        "avg": 255832,
+        "count": 201
+      },
+      "terraced": {
+        "avg": 206590,
+        "count": 192
+      },
+      "flat": {
+        "avg": 137820,
+        "count": 64
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 331354
+      },
+      {
+        "year": 2024,
+        "avg": 268924
+      },
+      {
+        "year": 2025,
+        "avg": 274054
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 16.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -79.8,
+    "byType": {
+      "violentCrime": 6.6,
+      "burglary": 0.5,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 3,
+      "otherTheft": 2.6,
+      "other": 3.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Wadham School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Perrott Hill School Limited",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Maiden Beech Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "West Chinnock Church School",
+        "type": "Primary",
+        "ofsted": "Inadequate"
+      },
+      {
+        "name": "Ashlands Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 26693,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 220,
+    "avgUpload": 40,
+    "superfastPct": 90,
+    "ultrafastPct": 49,
+    "gigabitPct": 49,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Taunton Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TA18 encompasses CREWKERNE and its surrounding areas in Somerset, South West.",
+    "priceVsCounty": "The average property price in TA18 is £289,814, which is 22% below the Somerset average of £373,759.",
+    "priceVsNational": "Property values in TA18 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in TA18 have risen 1.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 16.4 recorded crimes per 1,000 residents, TA18 has a crime rate well 80% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TA18 has 8 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TA18 are 220.0 Mbps, with 99% of premises having access to superfast broadband and 76% with full fibre (FTTP) connectivity.",
+    "synthesis": "TA18 (CREWKERNE) offers property prices near the national average (£289,814), low crime (80% below national average), 8 nearby schools, and excellent broadband (220 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 220
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 220
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

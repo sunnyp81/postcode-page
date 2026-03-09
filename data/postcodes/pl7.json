@@ -1,0 +1,198 @@
+{
+  "code": "PL7",
+  "name": "PLYMOUTH",
+  "county": "devon",
+  "region": "south-west",
+  "city": "plymouth",
+  "adjacent": [
+    "PL6",
+    "PL8",
+    "PL9"
+  ],
+  "property": {
+    "avgPrice": 292254,
+    "medianPrice": 250000,
+    "priceChange1y": -3.8,
+    "priceChange5y": 0,
+    "transactions12m": 1466,
+    "byType": {
+      "detached": {
+        "avg": 411352,
+        "count": 242
+      },
+      "semi": {
+        "avg": 267404,
+        "count": 639
+      },
+      "terraced": {
+        "avg": 225784,
+        "count": 401
+      },
+      "flat": {
+        "avg": 151481,
+        "count": 147
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 314803
+      },
+      {
+        "year": 2024,
+        "avg": 287619
+      },
+      {
+        "year": 2025,
+        "avg": 276558
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 26.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -67.3,
+    "byType": {
+      "violentCrime": 13,
+      "burglary": 0.8,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 3.8,
+      "otherTheft": 2.8,
+      "other": 5.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Shaugh Prior Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Yealmpstone Farm Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Longcause Community Special School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Plympton Academy",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Hele's School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 92148,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 12,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 334,
+    "avgUpload": 60,
+    "superfastPct": 91,
+    "ultrafastPct": 82,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Hams",
+    "bandD": 2261,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.7,
+    "imdRank": 12057,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PL7 is the postcode district for PLYMOUTH, located in Devon, South West.",
+    "priceVsCounty": "The average property price in PL7 is £292,254, which is 24% below the Devon average of £385,452.",
+    "priceVsNational": "Property values in PL7 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in PL7 have fallen 3.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 26.6 recorded crimes per 1,000 residents, PL7 has a crime rate well 67% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PL7 has 13 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PL7 are 334.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PL7 (PLYMOUTH) offers property prices near the national average (£292,254), low crime (67% below national average), 13 nearby schools, and excellent broadband (334 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 334
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 334
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

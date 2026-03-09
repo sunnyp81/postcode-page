@@ -1,0 +1,197 @@
+{
+  "code": "BH19",
+  "name": "SWANAGE",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "bournemouth",
+  "adjacent": [
+    "BH18",
+    "BH20",
+    "BH21"
+  ],
+  "property": {
+    "avgPrice": 476992,
+    "medianPrice": 375000,
+    "priceChange1y": -16,
+    "priceChange5y": 0,
+    "transactions12m": 644,
+    "byType": {
+      "detached": {
+        "avg": 728927,
+        "count": 183
+      },
+      "semi": {
+        "avg": 440562,
+        "count": 92
+      },
+      "terraced": {
+        "avg": 373390,
+        "count": 115
+      },
+      "flat": {
+        "avg": 304537,
+        "count": 220
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 526938
+      },
+      {
+        "year": 2024,
+        "avg": 483869
+      },
+      {
+        "year": 2025,
+        "avg": 406564
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 11.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -85.7,
+    "byType": {
+      "violentCrime": 4.8,
+      "burglary": 0.3,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 2.3,
+      "otherTheft": 1.9,
+      "other": 2.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Swanage School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary's Catholic Primary School, Swanage",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Swanage St Mark's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Swanage Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St George's Church of England Primary School, Langton Matravers",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 249,
+    "avgUpload": 45,
+    "superfastPct": 95,
+    "ultrafastPct": 57,
+    "gigabitPct": 57,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bournemouth Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.7,
+    "imdRank": 13227,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BH19 is the postcode district for SWANAGE, located in Dorset, South West.",
+    "priceVsCounty": "The average property price in BH19 is £476,992, which is 12% above the Dorset average of £425,376.",
+    "priceVsNational": "Properties in BH19 cost 66.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BH19 have fallen 16.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 11.6 recorded crimes per 1,000 residents, BH19 has a crime rate well 86% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BH19 has 5 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BH19 are 249.0 Mbps, with 99% of premises having access to superfast broadband and 83% with full fibre (FTTP) connectivity.",
+    "synthesis": "BH19 (SWANAGE) offers above-average property prices (£476,992, 66% above national average), low crime (86% below national average), 5 nearby schools, and excellent broadband (249 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 249
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 249
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

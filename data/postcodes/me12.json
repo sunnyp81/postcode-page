@@ -1,0 +1,198 @@
+{
+  "code": "ME12",
+  "name": "SHEERNESS",
+  "county": "kent",
+  "region": "south-east",
+  "city": "medway",
+  "adjacent": [
+    "ME11",
+    "ME13",
+    "ME14"
+  ],
+  "property": {
+    "avgPrice": 317675,
+    "medianPrice": 270000,
+    "priceChange1y": -23.1,
+    "priceChange5y": 0,
+    "transactions12m": 1782,
+    "byType": {
+      "detached": {
+        "avg": 377448,
+        "count": 539
+      },
+      "semi": {
+        "avg": 277323,
+        "count": 479
+      },
+      "terraced": {
+        "avg": 218422,
+        "count": 594
+      },
+      "flat": {
+        "avg": 148261,
+        "count": 68
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 295671
+      },
+      {
+        "year": 2024,
+        "avg": 370050
+      },
+      {
+        "year": 2025,
+        "avg": 284629
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 31.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -61.4,
+    "byType": {
+      "violentCrime": 11.7,
+      "burglary": 0.7,
+      "vehicleCrime": 1.2,
+      "antisocialBehaviour": 8.1,
+      "otherTheft": 2.8,
+      "other": 6.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Rose Street Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "West Minster Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Elmley Dray School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Thistle Hill Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Edward's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 158379,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 286,
+    "avgUpload": 51,
+    "superfastPct": 94,
+    "ultrafastPct": 72,
+    "gigabitPct": 66,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swale",
+    "bandD": 2094,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.1,
+    "imdRank": 19995,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ME12 encompasses SHEERNESS and its surrounding areas in Kent, South East.",
+    "priceVsCounty": "The average property price in ME12 is £317,675, which is 30% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in ME12 cost 10.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ME12 have fallen 23.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 31.4 recorded crimes per 1,000 residents, ME12 has a crime rate well 61% below the national average of 81.3 per 1,000.",
+    "schoolContext": "ME12 has 15 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ME12 are 286.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "ME12 (SHEERNESS) offers property prices near the national average (£317,675), low crime (61% below national average), 15 nearby schools, and excellent broadband (286 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 286
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 286
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

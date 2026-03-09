@@ -1,0 +1,198 @@
+{
+  "code": "TS5",
+  "name": "MIDDLESBROUGH",
+  "county": "teesside",
+  "region": "north-east",
+  "city": "middlesbrough",
+  "adjacent": [
+    "TS4",
+    "TS6",
+    "TS7"
+  ],
+  "property": {
+    "avgPrice": 158744,
+    "medianPrice": 150000,
+    "priceChange1y": 4.8,
+    "priceChange5y": 0,
+    "transactions12m": 1959,
+    "byType": {
+      "detached": {
+        "avg": 256900,
+        "count": 209
+      },
+      "semi": {
+        "avg": 168990,
+        "count": 1008
+      },
+      "terraced": {
+        "avg": 115241,
+        "count": 539
+      },
+      "flat": {
+        "avg": 76738,
+        "count": 158
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 154117
+      },
+      {
+        "year": 2024,
+        "avg": 157338
+      },
+      {
+        "year": 2025,
+        "avg": 164821
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 126,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 55,
+    "byType": {
+      "violentCrime": 32.9,
+      "burglary": 5.5,
+      "vehicleCrime": 6.5,
+      "antisocialBehaviour": 31.5,
+      "otherTheft": 24.2,
+      "other": 25.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Macmillan Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Whinney Banks Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Outwood Academy Acklam",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Green Lane Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kader Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 156161,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 23,
+    "privateRent": 19,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 382,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 95,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Middlesbrough Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 40.5,
+    "imdRank": 23729,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TS5 is the postcode district for MIDDLESBROUGH, located in Teesside, North East.",
+    "priceVsCounty": "The average property price in TS5 is £158,744, which is 16% below the Teesside average of £189,841.",
+    "priceVsNational": "Properties in TS5 cost 44.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TS5 have risen 4.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 126.0 recorded crimes per 1,000 residents, TS5 has a crime rate significantly 55% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TS5 has 13 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TS5 are 382.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TS5 (MIDDLESBROUGH) offers affordable property prices (£158,744, 45% below national average), higher-than-average crime (55% above national average), 13 nearby schools, and excellent broadband (382 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 189841,
+      "crime": 75,
+      "broadband": 382
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 382
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

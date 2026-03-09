@@ -1,0 +1,198 @@
+{
+  "code": "CA5",
+  "name": "CARLISLE",
+  "county": "cumbria",
+  "region": "north-west",
+  "city": "carlisle",
+  "adjacent": [
+    "CA4",
+    "CA6",
+    "CA7"
+  ],
+  "property": {
+    "avgPrice": 304013,
+    "medianPrice": 279950,
+    "priceChange1y": -5,
+    "priceChange5y": 0,
+    "transactions12m": 342,
+    "byType": {
+      "detached": {
+        "avg": 377820,
+        "count": 173
+      },
+      "semi": {
+        "avg": 242248,
+        "count": 83
+      },
+      "terraced": {
+        "avg": 182521,
+        "count": 48
+      },
+      "flat": {
+        "avg": 124643,
+        "count": 7
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 309014
+      },
+      {
+        "year": 2024,
+        "avg": 308159
+      },
+      {
+        "year": 2025,
+        "avg": 292652
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.3,
+      "other": 0.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Burgh by Sands School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Great Orton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Stoneraise School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Thursby Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Michael's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 163,
+    "avgUpload": 29,
+    "superfastPct": 78,
+    "ultrafastPct": 34,
+    "gigabitPct": 34,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cumberland",
+    "bandD": 2175,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CA5 encompasses CARLISLE and its surrounding areas in Cumbria, North West.",
+    "priceVsCounty": "The average property price in CA5 is £304,013, which is 24% above the Cumbria average of £244,524.",
+    "priceVsNational": "Properties in CA5 cost 5.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CA5 have fallen 5.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, CA5 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CA5 has 9 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CA5 are 163.0 Mbps, with 94% of premises having access to superfast broadband and 60% with full fibre (FTTP) connectivity.",
+    "synthesis": "CA5 (CARLISLE) offers property prices near the national average (£304,013), low crime (94% below national average), 9 nearby schools, and excellent broadband (163 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 244524,
+      "crime": 75,
+      "broadband": 163
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 163
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

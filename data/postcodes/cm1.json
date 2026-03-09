@@ -1,0 +1,197 @@
+{
+  "code": "CM1",
+  "name": "CHELMSFORD",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "chelmsford",
+  "adjacent": [
+    "CM2",
+    "CM3"
+  ],
+  "property": {
+    "avgPrice": 429040,
+    "medianPrice": 373000,
+    "priceChange1y": 3.4,
+    "priceChange5y": 0,
+    "transactions12m": 3204,
+    "byType": {
+      "detached": {
+        "avg": 644370,
+        "count": 672
+      },
+      "semi": {
+        "avg": 438496,
+        "count": 830
+      },
+      "terraced": {
+        "avg": 375250,
+        "count": 656
+      },
+      "flat": {
+        "avg": 234200,
+        "count": 963
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 434225
+      },
+      {
+        "year": 2024,
+        "avg": 419861
+      },
+      {
+        "year": 2025,
+        "avg": 434018
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 82.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 1.5,
+    "byType": {
+      "violentCrime": 39.3,
+      "burglary": 2.1,
+      "vehicleCrime": 2.6,
+      "antisocialBehaviour": 7.5,
+      "otherTheft": 13.1,
+      "other": 17.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 33,
+    "outstanding": 4,
+    "good": 10,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Tanglewood Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Highwood Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Westlands Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Bishops' Church of England and Roman Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John Payne Catholic School, Chelmsford",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 95106,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 330,
+    "avgUpload": 59,
+    "superfastPct": 96,
+    "ultrafastPct": 81,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Uttlesford",
+    "bandD": 2045,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 9.3,
+    "imdRank": 7386,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CM1 is the postcode district for CHELMSFORD, located in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CM1 is £429,040, broadly in line with the Essex average of £429,754.",
+    "priceVsNational": "Properties in CM1 cost 49.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CM1 have risen 3.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "CM1 has a crime rate of 82.5 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "CM1 has 33 schools within or near its boundaries, including 4 rated Outstanding and 10 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CM1 are 330.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CM1 (CHELMSFORD) offers above-average property prices (£429,040, 49% above national average), strong school provision (4 Outstanding-rated schools), and excellent broadband (330 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 330
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 330
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "code": "NE36",
+  "name": "EAST BOLDON",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "newcastle-upon-tyne",
+  "adjacent": [
+    "NE35",
+    "NE37",
+    "NE38"
+  ],
+  "property": {
+    "avgPrice": 239872,
+    "medianPrice": 200000,
+    "priceChange1y": 16.9,
+    "priceChange5y": 0,
+    "transactions12m": 297,
+    "byType": {
+      "detached": {
+        "avg": 433100,
+        "count": 34
+      },
+      "semi": {
+        "avg": 230221,
+        "count": 117
+      },
+      "terraced": {
+        "avg": 217740,
+        "count": 91
+      },
+      "flat": {
+        "avg": 113321,
+        "count": 40
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 231854
+      },
+      {
+        "year": 2024,
+        "avg": 226128
+      },
+      {
+        "year": 2025,
+        "avg": 264234
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 28.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -65.2,
+    "byType": {
+      "violentCrime": 11.1,
+      "burglary": 1.4,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 4.2,
+      "otherTheft": 4.2,
+      "other": 6.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Helen Gibson Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "East Boldon Infants' School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "East Boldon Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "West Boldon Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 288606,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 27,
+    "privateRent": 13,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 307,
+    "avgUpload": 55,
+    "superfastPct": 93,
+    "ultrafastPct": 74,
+    "gigabitPct": 74,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Sunderland",
+    "bandD": 1899,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 30.6,
+    "imdRank": 21993,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NE36 covers EAST BOLDON in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in NE36 is £239,872, which is 9% below the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in NE36 cost 16.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NE36 have risen 16.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 28.3 recorded crimes per 1,000 residents, NE36 has a crime rate well 65% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NE36 has 4 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NE36 are 307.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NE36 (EAST BOLDON) offers affordable property prices (£239,872, 16% below national average), low crime (65% below national average), 4 nearby schools, and excellent broadband (307 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 307
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 307
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

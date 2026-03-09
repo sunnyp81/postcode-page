@@ -1,0 +1,198 @@
+{
+  "code": "HP18",
+  "name": "AYLESBURY",
+  "county": "hertfordshire",
+  "region": "south-east",
+  "city": "hemel-hempstead",
+  "adjacent": [
+    "HP17",
+    "HP19",
+    "HP20"
+  ],
+  "property": {
+    "avgPrice": 533729,
+    "medianPrice": 397000,
+    "priceChange1y": 30.7,
+    "priceChange5y": 0,
+    "transactions12m": 865,
+    "byType": {
+      "detached": {
+        "avg": 664526,
+        "count": 257
+      },
+      "semi": {
+        "avg": 418449,
+        "count": 300
+      },
+      "terraced": {
+        "avg": 366437,
+        "count": 187
+      },
+      "flat": {
+        "avg": 232050,
+        "count": 89
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 501918
+      },
+      {
+        "year": 2024,
+        "avg": 480019
+      },
+      {
+        "year": 2025,
+        "avg": 627351
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Long Crendon School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Waddesdon Village Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oakley Church of England Combined School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cuddington and Dinton CofE School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ashfold School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 156470,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 12,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 282,
+    "avgUpload": 51,
+    "superfastPct": 85,
+    "ultrafastPct": 69,
+    "gigabitPct": 67,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Oxfordshire",
+    "bandD": 2240,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.5,
+    "imdRank": 6409,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HP18 encompasses AYLESBURY and its surrounding areas in Hertfordshire, South East.",
+    "priceVsCounty": "The average property price in HP18 is £533,729, which is 7% below the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in HP18 cost 86.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HP18 have risen 30.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, HP18 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HP18 has 11 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HP18 are 282.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HP18 (AYLESBURY) offers above-average property prices (£533,729, 86% above national average), low crime (94% below national average), 11 nearby schools, and excellent broadband (282 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 282
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 282
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

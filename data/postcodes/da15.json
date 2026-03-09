@@ -1,0 +1,198 @@
+{
+  "code": "DA15",
+  "name": "SIDCUP",
+  "county": "greater-london",
+  "region": "london",
+  "city": "dartford",
+  "adjacent": [
+    "DA14",
+    "DA16",
+    "DA17"
+  ],
+  "property": {
+    "avgPrice": 477501,
+    "medianPrice": 440000,
+    "priceChange1y": -0.3,
+    "priceChange5y": 0,
+    "transactions12m": 1203,
+    "byType": {
+      "detached": {
+        "avg": 794797,
+        "count": 73
+      },
+      "semi": {
+        "avg": 561327,
+        "count": 396
+      },
+      "terraced": {
+        "avg": 439372,
+        "count": 490
+      },
+      "flat": {
+        "avg": 284453,
+        "count": 215
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 459834
+      },
+      {
+        "year": 2024,
+        "avg": 485829
+      },
+      {
+        "year": 2025,
+        "avg": 484337
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 40.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -50.7,
+    "byType": {
+      "violentCrime": 12.1,
+      "burglary": 1.9,
+      "vehicleCrime": 4.6,
+      "antisocialBehaviour": 7.5,
+      "otherTheft": 5,
+      "other": 9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Longlands Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Our Lady of the Rosary Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "West Lodge School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Benedict House Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Marlborough School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 299528,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 31,
+    "privateRent": 24,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 366,
+    "avgUpload": 66,
+    "superfastPct": 99,
+    "ultrafastPct": 91,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Greenwich",
+    "bandD": 1814,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 24.5,
+    "imdRank": 20383,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DA15 is the postcode district for SIDCUP, located in Greater London, London.",
+    "priceVsCounty": "The average property price in DA15 is £477,501, which is 63% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in DA15 cost 66.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DA15 have fallen 0.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 40.1 recorded crimes per 1,000 residents, DA15 has a crime rate well 51% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DA15 has 14 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DA15 are 366.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DA15 (SIDCUP) offers above-average property prices (£477,501, 66% above national average), low crime (51% below national average), 14 nearby schools, and excellent broadband (366 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 366
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 366
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

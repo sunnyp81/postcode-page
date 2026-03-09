@@ -1,0 +1,198 @@
+{
+  "code": "CT14",
+  "name": "DEAL",
+  "county": "kent",
+  "region": "south-east",
+  "city": "canterbury",
+  "adjacent": [
+    "CT13",
+    "CT15",
+    "CT16"
+  ],
+  "property": {
+    "avgPrice": 362844,
+    "medianPrice": 310000,
+    "priceChange1y": -5.1,
+    "priceChange5y": 0,
+    "transactions12m": 1843,
+    "byType": {
+      "detached": {
+        "avg": 533788,
+        "count": 365
+      },
+      "semi": {
+        "avg": 330261,
+        "count": 579
+      },
+      "terraced": {
+        "avg": 343071,
+        "count": 574
+      },
+      "flat": {
+        "avg": 212283,
+        "count": 248
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 386802
+      },
+      {
+        "year": 2024,
+        "avg": 360647
+      },
+      {
+        "year": 2025,
+        "avg": 342108
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 46.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -42.4,
+    "byType": {
+      "violentCrime": 20.3,
+      "burglary": 0.8,
+      "vehicleCrime": 1.7,
+      "antisocialBehaviour": 8.4,
+      "otherTheft": 5.8,
+      "other": 9.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Northbourne Park School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ripplevale School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Learning Opportunities Centre Secondary",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brewood Secondary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Warden House Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 119768,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 14,
+    "privateRent": 17,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 312,
+    "avgUpload": 56,
+    "superfastPct": 96,
+    "ultrafastPct": 75,
+    "gigabitPct": 75,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Dover",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.2,
+    "imdRank": 17915,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CT14 covers DEAL in Kent, South East.",
+    "priceVsCounty": "The average property price in CT14 is £362,844, which is 20% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in CT14 cost 26.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CT14 have fallen 5.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 46.8 recorded crimes per 1,000 residents, CT14 has a crime rate well 42% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CT14 has 15 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CT14 are 312.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CT14 (DEAL) offers above-average property prices (£362,844, 26% above national average), low crime (42% below national average), 15 nearby schools, and excellent broadband (312 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 312
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 312
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

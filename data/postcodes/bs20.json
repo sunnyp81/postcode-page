@@ -1,0 +1,197 @@
+{
+  "code": "BS20",
+  "name": "BRISTOL",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS21",
+    "BS22"
+  ],
+  "property": {
+    "avgPrice": 416600,
+    "medianPrice": 382000,
+    "priceChange1y": 1,
+    "priceChange5y": 0,
+    "transactions12m": 1579,
+    "byType": {
+      "detached": {
+        "avg": 570066,
+        "count": 504
+      },
+      "semi": {
+        "avg": 403635,
+        "count": 321
+      },
+      "terraced": {
+        "avg": 394047,
+        "count": 289
+      },
+      "flat": {
+        "avg": 255507,
+        "count": 423
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 437964
+      },
+      {
+        "year": 2024,
+        "avg": 404416
+      },
+      {
+        "year": 2025,
+        "avg": 408591
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 32.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -59.9,
+    "byType": {
+      "violentCrime": 12.8,
+      "burglary": 1,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 5.6,
+      "otherTheft": 5.4,
+      "other": 7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Gordano School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Trinity Anglican-Methodist Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Katherine's School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Portishead Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's Church of England Primary School, Portbury",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 224578,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 9,
+    "privateRent": 16,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 293,
+    "avgUpload": 53,
+    "superfastPct": 95,
+    "ultrafastPct": 74,
+    "gigabitPct": 68,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.8,
+    "imdRank": 11811,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS20 is the postcode district for BRISTOL, located in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS20 is £416,600, which is 7% below the Bristol average of £449,132.",
+    "priceVsNational": "Properties in BS20 cost 45.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BS20 have risen 1.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 32.6 recorded crimes per 1,000 residents, BS20 has a crime rate well 60% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BS20 has 10 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS20 are 293.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS20 (BRISTOL) offers above-average property prices (£416,600, 45% above national average), low crime (60% below national average), 10 nearby schools, and excellent broadband (293 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 293
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 293
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

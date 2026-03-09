@@ -1,0 +1,191 @@
+{
+  "code": "GL56",
+  "name": "MORETON-IN-MARSH",
+  "county": "gloucestershire",
+  "region": "south-west",
+  "city": "gloucester",
+  "adjacent": [
+    "GL55"
+  ],
+  "property": {
+    "avgPrice": 638860,
+    "medianPrice": 450000,
+    "priceChange1y": 3.5,
+    "priceChange5y": 0,
+    "transactions12m": 621,
+    "byType": {
+      "detached": {
+        "avg": 847037,
+        "count": 215
+      },
+      "semi": {
+        "avg": 444499,
+        "count": 160
+      },
+      "terraced": {
+        "avg": 399004,
+        "count": 145
+      },
+      "flat": {
+        "avg": 227501,
+        "count": 56
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 661772
+      },
+      {
+        "year": 2024,
+        "avg": 618193
+      },
+      {
+        "year": 2025,
+        "avg": 639872
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 8.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -89.2,
+    "byType": {
+      "violentCrime": 3.8,
+      "burglary": 0.2,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 1.7,
+      "otherTheft": 0.8,
+      "other": 1.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Kitebrook Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St David's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Blockley Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Longborough Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 101949,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 328,
+    "avgUpload": 59,
+    "superfastPct": 94,
+    "ultrafastPct": 80,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Tewkesbury",
+    "bandD": 2029,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.1,
+    "imdRank": 9967,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GL56 encompasses MORETON-IN-MARSH and its surrounding areas in Gloucestershire, South West.",
+    "priceVsCounty": "The average property price in GL56 is £638,860, which is 45% above the Gloucestershire average of £441,384.",
+    "priceVsNational": "Properties in GL56 cost 122.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GL56 have risen 3.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 8.8 recorded crimes per 1,000 residents, GL56 has a crime rate well 89% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GL56 has 4 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GL56 are 328.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GL56 (MORETON-IN-MARSH) offers above-average property prices (£638,860, 123% above national average), low crime (89% below national average), 4 nearby schools, and excellent broadband (328 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 441384,
+      "crime": 75,
+      "broadband": 328
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 328
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

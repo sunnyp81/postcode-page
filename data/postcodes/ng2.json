@@ -1,0 +1,198 @@
+{
+  "code": "NG2",
+  "name": "NOTTINGHAM",
+  "county": "nottinghamshire",
+  "region": "east-midlands",
+  "city": "nottingham",
+  "adjacent": [
+    "NG1",
+    "NG3",
+    "NG4"
+  ],
+  "property": {
+    "avgPrice": 364002,
+    "medianPrice": 280000,
+    "priceChange1y": -17.1,
+    "priceChange5y": 0,
+    "transactions12m": 2598,
+    "byType": {
+      "detached": {
+        "avg": 533999,
+        "count": 574
+      },
+      "semi": {
+        "avg": 372105,
+        "count": 595
+      },
+      "terraced": {
+        "avg": 212804,
+        "count": 801
+      },
+      "flat": {
+        "avg": 211442,
+        "count": 524
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 332731
+      },
+      {
+        "year": 2024,
+        "avg": 411907
+      },
+      {
+        "year": 2025,
+        "avg": 341313
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 85.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 5.3,
+    "byType": {
+      "violentCrime": 24.5,
+      "burglary": 2.1,
+      "vehicleCrime": 3.6,
+      "antisocialBehaviour": 13.7,
+      "otherTheft": 22.3,
+      "other": 19.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 22,
+    "outstanding": 2,
+    "good": 9,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Welbeck Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lady Bay Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Jesse Gray Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "West Bridgford Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "West Bridgford Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 120179,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 10,
+    "privateRent": 14,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 361,
+    "avgUpload": 65,
+    "superfastPct": 98,
+    "ultrafastPct": 91,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Gedling",
+    "bandD": 2288,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.9,
+    "imdRank": 12438,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NG2 is the postcode district for NOTTINGHAM, located in Nottinghamshire, East Midlands.",
+    "priceVsCounty": "The average property price in NG2 is £364,002, which is 46% below the Nottinghamshire average of £678,596.",
+    "priceVsNational": "Properties in NG2 cost 26.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NG2 have fallen 17.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 85.6 recorded crimes per 1,000 residents, NG2 has a crime rate 5% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NG2 has 22 schools within or near its boundaries, including 2 rated Outstanding and 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NG2 are 361.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NG2 (NOTTINGHAM) offers above-average property prices (£364,002, 27% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (361 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 678596,
+      "crime": 75,
+      "broadband": 361
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 361
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

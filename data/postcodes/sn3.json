@@ -1,0 +1,198 @@
+{
+  "code": "SN3",
+  "name": "SWINDON",
+  "county": "wiltshire",
+  "region": "south-west",
+  "city": "swindon",
+  "adjacent": [
+    "SN2",
+    "SN4",
+    "SN5"
+  ],
+  "property": {
+    "avgPrice": 337851,
+    "medianPrice": 285000,
+    "priceChange1y": -8.2,
+    "priceChange5y": 0,
+    "transactions12m": 2605,
+    "byType": {
+      "detached": {
+        "avg": 443188,
+        "count": 466
+      },
+      "semi": {
+        "avg": 304593,
+        "count": 969
+      },
+      "terraced": {
+        "avg": 253368,
+        "count": 851
+      },
+      "flat": {
+        "avg": 168998,
+        "count": 253
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 372248
+      },
+      {
+        "year": 2024,
+        "avg": 332766
+      },
+      {
+        "year": 2025,
+        "avg": 305624
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 82,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 0.9,
+    "byType": {
+      "violentCrime": 34.7,
+      "burglary": 1.9,
+      "vehicleCrime": 1.9,
+      "antisocialBehaviour": 17,
+      "otherTheft": 10,
+      "other": 16.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 24,
+    "outstanding": 0,
+    "good": 10,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Lainesmead Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lawn Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Colebrook Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "New College Swindon",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eldene Nursery and Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 243875,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 16,
+    "privateRent": 18,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 381,
+    "avgUpload": 69,
+    "superfastPct": 96,
+    "ultrafastPct": 95,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swindon Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.6,
+    "imdRank": 14382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SN3 encompasses SWINDON and its surrounding areas in Wiltshire, South West.",
+    "priceVsCounty": "The average property price in SN3 is £337,851, which is 15% below the Wiltshire average of £397,459.",
+    "priceVsNational": "Properties in SN3 cost 17.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SN3 have fallen 8.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "SN3 has a crime rate of 82.0 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "SN3 has 24 schools within or near its boundaries, including 10 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SN3 are 381.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SN3 (SWINDON) offers property prices near the national average (£337,851), 24 nearby schools, and excellent broadband (381 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 397459,
+      "crime": 75,
+      "broadband": 381
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 381
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

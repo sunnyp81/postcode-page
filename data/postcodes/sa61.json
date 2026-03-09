@@ -1,0 +1,196 @@
+{
+  "code": "SA61",
+  "name": "HAVERFORDWEST",
+  "county": "west-wales",
+  "region": "wales",
+  "city": "swansea",
+  "adjacent": [
+    "SA62",
+    "SA63"
+  ],
+  "property": {
+    "avgPrice": 207253,
+    "medianPrice": 185000,
+    "priceChange1y": 0.1,
+    "priceChange5y": 0,
+    "transactions12m": 682,
+    "byType": {
+      "detached": {
+        "avg": 283498,
+        "count": 223
+      },
+      "semi": {
+        "avg": 189151,
+        "count": 175
+      },
+      "terraced": {
+        "avg": 151695,
+        "count": 205
+      },
+      "flat": {
+        "avg": 74199,
+        "count": 45
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 213645
+      },
+      {
+        "year": 2024,
+        "avg": 203109
+      },
+      {
+        "year": 2025,
+        "avg": 203383
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 64.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -20.7,
+    "byType": {
+      "violentCrime": 31.4,
+      "burglary": 1.9,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 5.6,
+      "otherTheft": 8.2,
+      "other": 16.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Fenton C.P",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mary Immaculate V.R.C. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Marks V.A.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Portfield School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Redhill Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 125761,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 351,
+    "avgUpload": 63,
+    "superfastPct": 99,
+    "ultrafastPct": 86,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swansea Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "SA61 encompasses HAVERFORDWEST and its surrounding areas in West Wales, Wales.",
+    "priceVsCounty": "The average property price in SA61 is £207,253, which is 21% below the West Wales average of £261,315.",
+    "priceVsNational": "Properties in SA61 cost 27.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SA61 have risen 0.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 64.5 recorded crimes per 1,000 residents, SA61 has a crime rate well 21% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SA61 has 8 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SA61 are 351.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SA61 (HAVERFORDWEST) offers affordable property prices (£207,253, 28% below national average), low crime (21% below national average), 8 nearby schools, and excellent broadband (351 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 261315,
+      "crime": 75,
+      "broadband": 351
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 351
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

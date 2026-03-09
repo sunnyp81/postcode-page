@@ -1,0 +1,198 @@
+{
+  "code": "W8",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "W7",
+    "W9",
+    "W10"
+  ],
+  "property": {
+    "avgPrice": 2782324,
+    "medianPrice": 1635000,
+    "priceChange1y": -27.5,
+    "priceChange5y": 0,
+    "transactions12m": 892,
+    "byType": {
+      "detached": {
+        "avg": 4197929,
+        "count": 7
+      },
+      "semi": {
+        "avg": 7724805,
+        "count": 26
+      },
+      "terraced": {
+        "avg": 4717819,
+        "count": 175
+      },
+      "flat": {
+        "avg": 2002627,
+        "count": 600
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 2821586
+      },
+      {
+        "year": 2024,
+        "avg": 3103862
+      },
+      {
+        "year": 2025,
+        "avg": 2250970
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 274.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 237.4,
+    "byType": {
+      "violentCrime": 57.3,
+      "burglary": 17.3,
+      "vehicleCrime": 21.7,
+      "antisocialBehaviour": 57.3,
+      "otherTheft": 80.2,
+      "other": 40.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Fox Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "St Barnabas and St Philip's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary Abbots CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Thomas's Kensington",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ashbourne College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 144518,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 12,
+    "socialRent": 28,
+    "privateRent": 35,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 376,
+    "avgUpload": 68,
+    "superfastPct": 97,
+    "ultrafastPct": 95,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "London Council",
+    "bandD": 1105,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.5,
+    "imdRank": 17177,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "W8 encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in W8 is £2,782,324, which is 113% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in W8 cost 869.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in W8 have fallen 27.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 274.3 recorded crimes per 1,000 residents, W8 has a crime rate significantly 237% above the national average of 81.3 per 1,000.",
+    "schoolContext": "W8 has 6 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in W8 are 376.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "W8 (LONDON) offers above-average property prices (£2,782,324, 869% above national average), higher-than-average crime (237% above national average), 6 nearby schools, and excellent broadband (376 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 376
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 376
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

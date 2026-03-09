@@ -1,0 +1,197 @@
+{
+  "code": "RG9",
+  "name": "HENLEY-ON-THAMES",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [
+    "RG8",
+    "RG10"
+  ],
+  "property": {
+    "avgPrice": 1009459,
+    "medianPrice": 740000,
+    "priceChange1y": -4,
+    "priceChange5y": 0,
+    "transactions12m": 1053,
+    "byType": {
+      "detached": {
+        "avg": 1366936,
+        "count": 353
+      },
+      "semi": {
+        "avg": 732647,
+        "count": 209
+      },
+      "terraced": {
+        "avg": 634031,
+        "count": 231
+      },
+      "flat": {
+        "avg": 508858,
+        "count": 165
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1063685
+      },
+      {
+        "year": 2024,
+        "avg": 998217
+      },
+      {
+        "year": 2025,
+        "avg": 958315
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.7,
+      "burglary": 0.2,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.3,
+      "other": 0.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Frieth Church of England Combined School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Nettlebed Community School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Valley Road School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Peppard Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stoke Row CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 156470,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 12,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 277,
+    "avgUpload": 50,
+    "superfastPct": 94,
+    "ultrafastPct": 65,
+    "gigabitPct": 65,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Oxfordshire",
+    "bandD": 2240,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.5,
+    "imdRank": 6409,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG9 covers HENLEY-ON-THAMES in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG9 is £1,009,459, which is 72% above the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG9 cost 251.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG9 have fallen 4.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, RG9 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RG9 has 14 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG9 are 277.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG9 (HENLEY-ON-THAMES) offers above-average property prices (£1,009,459, 252% above national average), low crime (94% below national average), 14 nearby schools, and excellent broadband (277 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 277
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 277
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

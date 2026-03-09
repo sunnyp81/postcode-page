@@ -1,0 +1,192 @@
+{
+  "code": "HU13",
+  "name": "HESSLE",
+  "county": "east-yorkshire",
+  "region": "yorkshire",
+  "city": "hull",
+  "adjacent": [
+    "HU12",
+    "HU14",
+    "HU15"
+  ],
+  "property": {
+    "avgPrice": 227896,
+    "medianPrice": 196000,
+    "priceChange1y": 2.2,
+    "priceChange5y": 0,
+    "transactions12m": 927,
+    "byType": {
+      "detached": {
+        "avg": 341972,
+        "count": 215
+      },
+      "semi": {
+        "avg": 218347,
+        "count": 313
+      },
+      "terraced": {
+        "avg": 161925,
+        "count": 326
+      },
+      "flat": {
+        "avg": 123181,
+        "count": 47
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 227807
+      },
+      {
+        "year": 2024,
+        "avg": 225691
+      },
+      {
+        "year": 2025,
+        "avg": 230636
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 37.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -54.4,
+    "byType": {
+      "violentCrime": 14.9,
+      "burglary": 2,
+      "vehicleCrime": 2.1,
+      "antisocialBehaviour": 3.4,
+      "otherTheft": 6.3,
+      "other": 8.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Anne's School and Sixth Form College",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hessle High School and Penshurst Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "All Saints Church of England Junior Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "All Saints Church of England Infant Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 39,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 400,
+    "avgUpload": 72,
+    "superfastPct": 100,
+    "ultrafastPct": 100,
+    "gigabitPct": 100,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hull Council",
+    "bandD": 2236,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 40.6,
+    "imdRank": 25222,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HU13 encompasses HESSLE and its surrounding areas in East Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HU13 is £227,896, which is 8% above the East Yorkshire average of £211,309.",
+    "priceVsNational": "Properties in HU13 cost 20.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HU13 have risen 2.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 37.1 recorded crimes per 1,000 residents, HU13 has a crime rate well 54% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HU13 has 4 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HU13 are 400.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HU13 (HESSLE) offers affordable property prices (£227,896, 21% below national average), low crime (54% below national average), 4 nearby schools, and excellent broadband (400 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 211309,
+      "crime": 75,
+      "broadband": 400
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 400
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "code": "NR22",
+  "name": "WALSINGHAM",
+  "county": "norfolk",
+  "region": "east-of-england",
+  "city": "norwich",
+  "adjacent": [
+    "NR21",
+    "NR23",
+    "NR24"
+  ],
+  "property": {
+    "avgPrice": 965857,
+    "medianPrice": 403750,
+    "priceChange1y": -79.8,
+    "priceChange5y": 0,
+    "transactions12m": 40,
+    "byType": {
+      "detached": {
+        "avg": 467543,
+        "count": 12
+      },
+      "semi": {
+        "avg": 376643,
+        "count": 14
+      },
+      "terraced": {
+        "avg": 367643,
+        "count": 7
+      },
+      "flat": {
+        "avg": 249997,
+        "count": 0
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 416500
+      },
+      {
+        "year": 2024,
+        "avg": 1746692
+      },
+      {
+        "year": 2025,
+        "avg": 352600
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.1,
+      "other": 0.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Walsingham CE VA Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 103217,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 20,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 92,
+    "avgUpload": 17,
+    "superfastPct": 73,
+    "ultrafastPct": 14,
+    "gigabitPct": 14,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Norfolk",
+    "bandD": 2129,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.1,
+    "imdRank": 18681,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NR22 encompasses WALSINGHAM and its surrounding areas in Norfolk, East Of England.",
+    "priceVsCounty": "The average property price in NR22 is £965,857, which is 174% above the Norfolk average of £352,657.",
+    "priceVsNational": "Properties in NR22 cost 236.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NR22 have fallen 79.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, NR22 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NR22 has 1 school within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NR22 are 92.0 Mbps, with 84% of premises having access to superfast broadband and 40% with full fibre (FTTP) connectivity.",
+    "synthesis": "NR22 (WALSINGHAM) offers above-average property prices (£965,857, 237% above national average), low crime (94% below national average), 1 nearby school, and good broadband connectivity (92 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 352657,
+      "crime": 75,
+      "broadband": 92
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 92
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

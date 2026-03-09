@@ -1,0 +1,197 @@
+{
+  "code": "NN1",
+  "name": "NORTHAMPTON",
+  "county": "northamptonshire",
+  "region": "east-midlands",
+  "city": "northampton",
+  "adjacent": [
+    "NN2",
+    "NN3"
+  ],
+  "property": {
+    "avgPrice": 259219,
+    "medianPrice": 205000,
+    "priceChange1y": -21.7,
+    "priceChange5y": 0,
+    "transactions12m": 1539,
+    "byType": {
+      "detached": {
+        "avg": 433920,
+        "count": 47
+      },
+      "semi": {
+        "avg": 354119,
+        "count": 60
+      },
+      "terraced": {
+        "avg": 236503,
+        "count": 886
+      },
+      "flat": {
+        "avg": 145942,
+        "count": 423
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 260712
+      },
+      {
+        "year": 2024,
+        "avg": 288474
+      },
+      {
+        "year": 2025,
+        "avg": 225995
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 101.9,
+      "burglary": 9.8,
+      "vehicleCrime": 15.3,
+      "antisocialBehaviour": 60.2,
+      "otherTheft": 69.6,
+      "other": 59.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Vernon Terrace Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Barry Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Progress Schools - Northamptonshire",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Andrew's College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Northampton School for Boys",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 20486,
+    "medianAge": 42,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 312,
+    "avgUpload": 56,
+    "superfastPct": 96,
+    "ultrafastPct": 75,
+    "gigabitPct": 75,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "West Northamptonshire",
+    "bandD": 2146,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.4,
+    "imdRank": 18085,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NN1 is the postcode district for NORTHAMPTON, located in Northamptonshire, East Midlands.",
+    "priceVsCounty": "The average property price in NN1 is £259,219, which is 20% below the Northamptonshire average of £323,962.",
+    "priceVsNational": "Properties in NN1 cost 9.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NN1 have fallen 21.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, NN1 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NN1 has 12 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NN1 are 312.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NN1 (NORTHAMPTON) offers property prices near the national average (£259,219), higher-than-average crime (269% above national average), 12 nearby schools, and excellent broadband (312 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 323962,
+      "crime": 75,
+      "broadband": 312
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 312
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

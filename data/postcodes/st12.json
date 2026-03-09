@@ -1,0 +1,183 @@
+{
+  "code": "ST12",
+  "name": "STOKE-ON-TRENT",
+  "county": "staffordshire",
+  "region": "west-midlands",
+  "city": "stoke-on-trent",
+  "adjacent": [
+    "ST11",
+    "ST13",
+    "ST14"
+  ],
+  "property": {
+    "avgPrice": 346462,
+    "medianPrice": 293000,
+    "priceChange1y": -6.4,
+    "priceChange5y": 0,
+    "transactions12m": 179,
+    "byType": {
+      "detached": {
+        "avg": 465921,
+        "count": 75
+      },
+      "semi": {
+        "avg": 263327,
+        "count": 63
+      },
+      "terraced": {
+        "avg": 247433,
+        "count": 30
+      },
+      "flat": {
+        "avg": 137500,
+        "count": 6
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 313688
+      },
+      {
+        "year": 2024,
+        "avg": 376385
+      },
+      {
+        "year": 2025,
+        "avg": 352392
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.5,
+    "byType": {
+      "violentCrime": 2.7,
+      "burglary": 0.2,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 0.9,
+      "otherTheft": 0.3,
+      "other": 0.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Barlaston CofE (VC) First School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Tittensor CofE (C) First School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 141556,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 14,
+    "privateRent": 13,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 221,
+    "avgUpload": 40,
+    "superfastPct": 94,
+    "ultrafastPct": 49,
+    "gigabitPct": 49,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stafford",
+    "bandD": 2012,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.7,
+    "imdRank": 11220,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ST12 encompasses STOKE-ON-TRENT and its surrounding areas in Staffordshire, West Midlands.",
+    "priceVsCounty": "The average property price in ST12 is £346,462, which is 29% above the Staffordshire average of £267,729.",
+    "priceVsNational": "Properties in ST12 cost 20.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ST12 have fallen 6.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.3 recorded crimes per 1,000 residents, ST12 has a crime rate well 93% below the national average of 81.3 per 1,000.",
+    "schoolContext": "ST12 has 2 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ST12 are 221.0 Mbps, with 99% of premises having access to superfast broadband and 76% with full fibre (FTTP) connectivity.",
+    "synthesis": "ST12 (STOKE-ON-TRENT) offers above-average property prices (£346,462, 21% above national average), low crime (93% below national average), 2 nearby schools, and excellent broadband (221 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 267729,
+      "crime": 75,
+      "broadband": 221
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 221
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "B19",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B18",
+    "B20",
+    "B21"
+  ],
+  "property": {
+    "avgPrice": 332085,
+    "medianPrice": 175000,
+    "priceChange1y": -56,
+    "priceChange5y": 0,
+    "transactions12m": 210,
+    "byType": {
+      "detached": {
+        "avg": 262220,
+        "count": 5
+      },
+      "semi": {
+        "avg": 225325,
+        "count": 11
+      },
+      "terraced": {
+        "avg": 184005,
+        "count": 117
+      },
+      "flat": {
+        "avg": 150806,
+        "count": 23
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 245023
+      },
+      {
+        "year": 2024,
+        "avg": 487296
+      },
+      {
+        "year": 2025,
+        "avg": 214543
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 231.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 185.1,
+    "byType": {
+      "violentCrime": 111.3,
+      "burglary": 10.1,
+      "vehicleCrime": 21.3,
+      "antisocialBehaviour": 16.4,
+      "otherTheft": 24.7,
+      "other": 47.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 2,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Brearley Nursery School",
+        "type": "Nursery",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Newtown Nursery School",
+        "type": "Nursery",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Lozells Junior and Infant School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holte School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Anglesey Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 337,
+    "avgUpload": 61,
+    "superfastPct": 86,
+    "ultrafastPct": 85,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B19 is the postcode district for BIRMINGHAM, located in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B19 is £332,085, broadly in line with the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B19 cost 15.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B19 have fallen 56.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 231.8 recorded crimes per 1,000 residents, B19 has a crime rate significantly 185% above the national average of 81.3 per 1,000.",
+    "schoolContext": "B19 has 12 schools within or near its boundaries, including 2 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B19 are 337.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B19 (BIRMINGHAM) offers property prices near the national average (£332,085), higher-than-average crime (185% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (337 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 337
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 337
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

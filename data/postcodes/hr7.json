@@ -1,0 +1,197 @@
+{
+  "code": "HR7",
+  "name": "BROMYARD",
+  "county": "herefordshire",
+  "region": "west-midlands",
+  "city": "hereford",
+  "adjacent": [
+    "HR6",
+    "HR8",
+    "HR9"
+  ],
+  "property": {
+    "avgPrice": 361111,
+    "medianPrice": 280000,
+    "priceChange1y": -1.2,
+    "priceChange5y": 0,
+    "transactions12m": 299,
+    "byType": {
+      "detached": {
+        "avg": 438010,
+        "count": 108
+      },
+      "semi": {
+        "avg": 247711,
+        "count": 76
+      },
+      "terraced": {
+        "avg": 209291,
+        "count": 60
+      },
+      "flat": {
+        "avg": 135182,
+        "count": 11
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 389296
+      },
+      {
+        "year": 2024,
+        "avg": 349622
+      },
+      {
+        "year": 2025,
+        "avg": 345517
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 12.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -85,
+    "byType": {
+      "violentCrime": 4.3,
+      "burglary": 0.6,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 2.3,
+      "otherTheft": 1.6,
+      "other": 2.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Pencombe CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rowden House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Queen Elizabeth High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Peter's Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bredenbury Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 39,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 63,
+    "socialRent": 16,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 319,
+    "avgUpload": 57,
+    "superfastPct": 88,
+    "ultrafastPct": 78,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hereford Council",
+    "bandD": 2183,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.9,
+    "imdRank": 16384,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HR7 encompasses BROMYARD and its surrounding areas in Herefordshire, West Midlands.",
+    "priceVsCounty": "The average property price in HR7 is £361,111, broadly in line with the Herefordshire average of £372,356.",
+    "priceVsNational": "Properties in HR7 cost 25.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HR7 have fallen 1.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 12.2 recorded crimes per 1,000 residents, HR7 has a crime rate well 85% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HR7 has 5 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HR7 are 319.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HR7 (BROMYARD) offers above-average property prices (£361,111, 26% above national average), low crime (85% below national average), 5 nearby schools, and excellent broadband (319 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 372356,
+      "crime": 75,
+      "broadband": 319
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 319
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "code": "EC3R",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 5493046,
+    "medianPrice": 1250000,
+    "priceChange1y": -6.1,
+    "priceChange5y": 0,
+    "transactions12m": 23,
+    "byType": {
+      "detached": {
+        "avg": 10436787,
+        "count": 0
+      },
+      "semi": {
+        "avg": 6591655,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 5493046,
+        "count": 0
+      },
+      "flat": {
+        "avg": 777125,
+        "count": 12
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 10847808
+      },
+      {
+        "year": 2024,
+        "avg": 3236730
+      },
+      {
+        "year": 2025,
+        "avg": 3039261
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 100.5,
+      "burglary": 26.7,
+      "vehicleCrime": 11.9,
+      "antisocialBehaviour": 71.4,
+      "otherTheft": 248.1,
+      "other": 67.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 0,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": []
+  },
+  "demographics": {
+    "population": 223024,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 15,
+    "socialRent": 40,
+    "privateRent": 29,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 51,
+    "avgUpload": 9,
+    "superfastPct": 10,
+    "ultrafastPct": 10,
+    "gigabitPct": 10,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Islington",
+    "bandD": 1815,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.5,
+    "imdRank": 22490,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EC3R encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in EC3R is £5,493,046, which is 320% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in EC3R cost 1814.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EC3R have fallen 6.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, EC3R has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "School data for EC3R is not currently available.",
+    "broadbandContext": "Average broadband download speeds in EC3R are 51.0 Mbps, with 78% of premises having access to superfast broadband and 29% with full fibre (FTTP) connectivity.",
+    "synthesis": "EC3R (LONDON) offers above-average property prices (£5,493,046, 1814% above national average), higher-than-average crime (269% above national average), and good broadband connectivity (51 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 51
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 51
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

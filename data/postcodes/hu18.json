@@ -1,0 +1,193 @@
+{
+  "code": "HU18",
+  "name": "HORNSEA",
+  "county": "east-yorkshire",
+  "region": "yorkshire",
+  "city": "hull",
+  "adjacent": [
+    "HU17",
+    "HU19",
+    "HU20"
+  ],
+  "property": {
+    "avgPrice": 230300,
+    "medianPrice": 215000,
+    "priceChange1y": -8,
+    "priceChange5y": 0,
+    "transactions12m": 601,
+    "byType": {
+      "detached": {
+        "avg": 303004,
+        "count": 223
+      },
+      "semi": {
+        "avg": 199801,
+        "count": 176
+      },
+      "terraced": {
+        "avg": 175686,
+        "count": 154
+      },
+      "flat": {
+        "avg": 134958,
+        "count": 34
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 225263
+      },
+      {
+        "year": 2024,
+        "avg": 241269
+      },
+      {
+        "year": 2025,
+        "avg": 222018
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 12.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -84.4,
+    "byType": {
+      "violentCrime": 6.4,
+      "burglary": 0.4,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.9,
+      "otherTheft": 0.9,
+      "other": 3.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 1,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hornsea Nursery School",
+        "type": "Nursery",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Hornsea Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hornsea School and Language College",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hornsea Burton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 355884,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 9,
+    "privateRent": 15,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 386,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 96,
+    "gigabitPct": 96,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hull Council",
+    "bandD": 2236,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.6,
+    "imdRank": 12095,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HU18 is the postcode district for HORNSEA, located in East Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HU18 is £230,300, which is 9% above the East Yorkshire average of £211,309.",
+    "priceVsNational": "Properties in HU18 cost 19.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HU18 have fallen 8.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 12.7 recorded crimes per 1,000 residents, HU18 has a crime rate well 84% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HU18 has 4 schools within or near its boundaries, including 1 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HU18 are 386.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HU18 (HORNSEA) offers affordable property prices (£230,300, 20% below national average), low crime (84% below national average), 4 nearby schools, and excellent broadband (386 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 211309,
+      "crime": 75,
+      "broadband": 386
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 386
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

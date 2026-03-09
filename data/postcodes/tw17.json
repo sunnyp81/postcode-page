@@ -1,0 +1,198 @@
+{
+  "code": "TW17",
+  "name": "SHEPPERTON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "twickenham",
+  "adjacent": [
+    "TW16",
+    "TW18",
+    "TW19"
+  ],
+  "property": {
+    "avgPrice": 549511,
+    "medianPrice": 500000,
+    "priceChange1y": 0,
+    "priceChange5y": 0,
+    "transactions12m": 581,
+    "byType": {
+      "detached": {
+        "avg": 760137,
+        "count": 139
+      },
+      "semi": {
+        "avg": 559647,
+        "count": 187
+      },
+      "terraced": {
+        "avg": 448163,
+        "count": 126
+      },
+      "flat": {
+        "avg": 310218,
+        "count": 107
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 508358
+      },
+      {
+        "year": 2024,
+        "avg": 568681
+      },
+      {
+        "year": 2025,
+        "avg": 568801
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 13,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -84,
+    "byType": {
+      "violentCrime": 4.1,
+      "burglary": 0.7,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 1.9,
+      "otherTheft": 2.3,
+      "other": 3.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Nicholas CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Littleton CofE Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Halliford School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Thamesmead School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Saxon Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 141926,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 10,
+    "privateRent": 16,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 347,
+    "avgUpload": 62,
+    "superfastPct": 98,
+    "ultrafastPct": 87,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Elmbridge",
+    "bandD": 2230,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 7.9,
+    "imdRank": 5634,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TW17 encompasses SHEPPERTON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in TW17 is £549,511, which is 58% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in TW17 cost 91.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TW17 have risen 0.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 13.0 recorded crimes per 1,000 residents, TW17 has a crime rate well 84% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TW17 has 6 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TW17 are 347.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TW17 (SHEPPERTON) offers above-average property prices (£549,511, 91% above national average), low crime (84% below national average), 6 nearby schools, and excellent broadband (347 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 347
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 347
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

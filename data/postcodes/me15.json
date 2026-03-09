@@ -1,0 +1,198 @@
+{
+  "code": "ME15",
+  "name": "MAIDSTONE",
+  "county": "kent",
+  "region": "south-east",
+  "city": "medway",
+  "adjacent": [
+    "ME14",
+    "ME16",
+    "ME17"
+  ],
+  "property": {
+    "avgPrice": 360522,
+    "medianPrice": 332000,
+    "priceChange1y": 2.6,
+    "priceChange5y": 0,
+    "transactions12m": 1974,
+    "byType": {
+      "detached": {
+        "avg": 565336,
+        "count": 338
+      },
+      "semi": {
+        "avg": 360114,
+        "count": 718
+      },
+      "terraced": {
+        "avg": 289385,
+        "count": 570
+      },
+      "flat": {
+        "avg": 184618,
+        "count": 267
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 366391
+      },
+      {
+        "year": 2024,
+        "avg": 353293
+      },
+      {
+        "year": 2025,
+        "avg": 362390
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 67,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -17.6,
+    "byType": {
+      "violentCrime": 26.2,
+      "burglary": 1.3,
+      "vehicleCrime": 2.6,
+      "antisocialBehaviour": 11.6,
+      "otherTheft": 11.2,
+      "other": 14.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 2,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "East Farleigh Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Park Way Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Madginford Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Senacre Wood Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hunton Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 187767,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 325,
+    "avgUpload": 59,
+    "superfastPct": 93,
+    "ultrafastPct": 82,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Maidstone",
+    "bandD": 2190,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.5,
+    "imdRank": 13639,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ME15 encompasses MAIDSTONE and its surrounding areas in Kent, South East.",
+    "priceVsCounty": "The average property price in ME15 is £360,522, which is 20% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in ME15 cost 25.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ME15 have risen 2.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 67.0 recorded crimes per 1,000 residents, ME15 has a crime rate 18% below the national average of 81.3 per 1,000.",
+    "schoolContext": "ME15 has 19 schools within or near its boundaries, including 2 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ME15 are 325.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "ME15 (MAIDSTONE) offers above-average property prices (£360,522, 26% above national average), low crime (18% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (325 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 325
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 325
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

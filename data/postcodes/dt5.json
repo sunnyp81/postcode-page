@@ -1,0 +1,182 @@
+{
+  "code": "DT5",
+  "name": "PORTLAND",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "dorchester",
+  "adjacent": [
+    "DT4",
+    "DT6",
+    "DT7"
+  ],
+  "property": {
+    "avgPrice": 250712,
+    "medianPrice": 230000,
+    "priceChange1y": -5.5,
+    "priceChange5y": 0,
+    "transactions12m": 685,
+    "byType": {
+      "detached": {
+        "avg": 366913,
+        "count": 80
+      },
+      "semi": {
+        "avg": 264555,
+        "count": 94
+      },
+      "terraced": {
+        "avg": 235995,
+        "count": 390
+      },
+      "flat": {
+        "avg": 139587,
+        "count": 89
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 252143
+      },
+      {
+        "year": 2024,
+        "avg": 257182
+      },
+      {
+        "year": 2025,
+        "avg": 242939
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 21,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -74.2,
+    "byType": {
+      "violentCrime": 9.1,
+      "burglary": 0.3,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 5.1,
+      "otherTheft": 1.6,
+      "other": 4.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St George's Foundation Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Atlantic Academy Portland",
+        "type": "Other",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 23666,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 309,
+    "avgUpload": 56,
+    "superfastPct": 97,
+    "ultrafastPct": 74,
+    "gigabitPct": 74,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Dorchester Council",
+    "bandD": 2115,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.7,
+    "imdRank": 13227,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DT5 is the postcode district for PORTLAND, located in Dorset, South West.",
+    "priceVsCounty": "The average property price in DT5 is £250,712, which is 41% below the Dorset average of £425,376.",
+    "priceVsNational": "Properties in DT5 cost 12.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DT5 have fallen 5.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 21.0 recorded crimes per 1,000 residents, DT5 has a crime rate well 74% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DT5 has 2 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DT5 are 309.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DT5 (PORTLAND) offers property prices near the national average (£250,712), low crime (74% below national average), 2 nearby schools, and excellent broadband (309 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 309
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 309
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

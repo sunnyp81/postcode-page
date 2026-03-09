@@ -1,0 +1,197 @@
+{
+  "code": "GU11",
+  "name": "ALDERSHOT",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU10",
+    "GU12"
+  ],
+  "property": {
+    "avgPrice": 374057,
+    "medianPrice": 320000,
+    "priceChange1y": -10.2,
+    "priceChange5y": 0,
+    "transactions12m": 1251,
+    "byType": {
+      "detached": {
+        "avg": 586361,
+        "count": 202
+      },
+      "semi": {
+        "avg": 405776,
+        "count": 232
+      },
+      "terraced": {
+        "avg": 318068,
+        "count": 286
+      },
+      "flat": {
+        "avg": 232577,
+        "count": 488
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 374618
+      },
+      {
+        "year": 2024,
+        "avg": 388154
+      },
+      {
+        "year": 2025,
+        "avg": 348672
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 83.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 3.1,
+    "byType": {
+      "violentCrime": 38.5,
+      "burglary": 1.9,
+      "vehicleCrime": 4.8,
+      "antisocialBehaviour": 8.4,
+      "otherTheft": 12.3,
+      "other": 17.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Marlborough Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Talavera Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Talavera Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Park Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Michael's Church of England Controlled Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 105751,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 16,
+    "privateRent": 17,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 343,
+    "avgUpload": 62,
+    "superfastPct": 95,
+    "ultrafastPct": 84,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Rushmoor",
+    "bandD": 2018,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.9,
+    "imdRank": 13229,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU11 encompasses ALDERSHOT and its surrounding areas in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU11 is £374,057, which is 39% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU11 cost 30.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU11 have fallen 10.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "GU11 has a crime rate of 83.8 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "GU11 has 12 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU11 are 343.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU11 (ALDERSHOT) offers above-average property prices (£374,057, 30% above national average), 12 nearby schools, and excellent broadband (343 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 343
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 343
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "CF32",
+  "name": "BRIDGEND",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF31",
+    "CF33",
+    "CF34"
+  ],
+  "property": {
+    "avgPrice": 232786,
+    "medianPrice": 160000,
+    "priceChange1y": 12,
+    "priceChange5y": 0,
+    "transactions12m": 1318,
+    "byType": {
+      "detached": {
+        "avg": 382988,
+        "count": 244
+      },
+      "semi": {
+        "avg": 194196,
+        "count": 398
+      },
+      "terraced": {
+        "avg": 126843,
+        "count": 596
+      },
+      "flat": {
+        "avg": 150862,
+        "count": 29
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 285626
+      },
+      {
+        "year": 2024,
+        "avg": 195282
+      },
+      {
+        "year": 2025,
+        "avg": 218719
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 14.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -82.4,
+    "byType": {
+      "violentCrime": 7.5,
+      "burglary": 0.2,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 1.8,
+      "otherTheft": 1.2,
+      "other": 3.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Betws Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Blaengarw Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brynmenyn Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cefn Cribwr Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ffaldau Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 135743,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 219,
+    "avgUpload": 39,
+    "superfastPct": 93,
+    "ultrafastPct": 55,
+    "gigabitPct": 46,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF32 is the postcode district for BRIDGEND, located in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF32 is £232,786, which is 16% below the Cardiff average of £275,506.",
+    "priceVsNational": "Properties in CF32 cost 18.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CF32 have risen 12.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 14.3 recorded crimes per 1,000 residents, CF32 has a crime rate well 82% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CF32 has 17 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF32 are 219.0 Mbps, with 99% of premises having access to superfast broadband and 75% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF32 (BRIDGEND) offers affordable property prices (£232,786, 19% below national average), low crime (82% below national average), 17 nearby schools, and excellent broadband (219 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 219
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 219
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

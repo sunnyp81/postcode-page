@@ -1,0 +1,196 @@
+{
+  "code": "SK22",
+  "name": "HIGH PEAK",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "stockport",
+  "adjacent": [
+    "SK23"
+  ],
+  "property": {
+    "avgPrice": 294813,
+    "medianPrice": 265000,
+    "priceChange1y": 5.9,
+    "priceChange5y": 0,
+    "transactions12m": 617,
+    "byType": {
+      "detached": {
+        "avg": 464630,
+        "count": 115
+      },
+      "semi": {
+        "avg": 301029,
+        "count": 154
+      },
+      "terraced": {
+        "avg": 241543,
+        "count": 259
+      },
+      "flat": {
+        "avg": 161470,
+        "count": 51
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 285344
+      },
+      {
+        "year": 2024,
+        "avg": 290263
+      },
+      {
+        "year": 2025,
+        "avg": 307532
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 12.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -84.1,
+    "byType": {
+      "violentCrime": 6.4,
+      "burglary": 0.3,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 1.7,
+      "otherTheft": 1,
+      "other": 2.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "New Mills Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hayfield Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "New Mills Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Newtown Primary School (High Peak Federation)",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Thornsett Primary School (High Peak Federation)",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 303929,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 13,
+    "privateRent": 13,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 124,
+    "avgUpload": 22,
+    "superfastPct": 93,
+    "ultrafastPct": 21,
+    "gigabitPct": 21,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stockport",
+    "bandD": 2235,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.8,
+    "imdRank": 15400,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SK22 covers HIGH PEAK in Cheshire, North West.",
+    "priceVsCounty": "The average property price in SK22 is £294,813, which is 5% below the Cheshire average of £311,410.",
+    "priceVsNational": "Property values in SK22 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in SK22 have risen 5.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 12.9 recorded crimes per 1,000 residents, SK22 has a crime rate well 84% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SK22 has 9 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SK22 are 124.0 Mbps, with 89% of premises having access to superfast broadband and 49% with full fibre (FTTP) connectivity.",
+    "synthesis": "SK22 (HIGH PEAK) offers property prices near the national average (£294,813), low crime (84% below national average), 9 nearby schools, and excellent broadband (124 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 124
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 124
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

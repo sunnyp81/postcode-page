@@ -1,0 +1,197 @@
+{
+  "code": "SR7",
+  "name": "SEAHAM",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "sunderland",
+  "adjacent": [
+    "SR6",
+    "SR8"
+  ],
+  "property": {
+    "avgPrice": 145507,
+    "medianPrice": 110000,
+    "priceChange1y": -5.4,
+    "priceChange5y": 0,
+    "transactions12m": 1415,
+    "byType": {
+      "detached": {
+        "avg": 299327,
+        "count": 201
+      },
+      "semi": {
+        "avg": 143789,
+        "count": 413
+      },
+      "terraced": {
+        "avg": 94620,
+        "count": 712
+      },
+      "flat": {
+        "avg": 87621,
+        "count": 45
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 129591
+      },
+      {
+        "year": 2024,
+        "avg": 156203
+      },
+      {
+        "year": 2025,
+        "avg": 147712
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 38.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -52.3,
+    "byType": {
+      "violentCrime": 13.4,
+      "burglary": 0.7,
+      "vehicleCrime": 1.2,
+      "antisocialBehaviour": 5.8,
+      "otherTheft": 6.2,
+      "other": 11.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Seaham Harbour Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ropery Walk Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Westlea Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Joseph's Catholic Primary School, Murton",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Seaview Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 288606,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 27,
+    "privateRent": 13,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 275,
+    "avgUpload": 50,
+    "superfastPct": 97,
+    "ultrafastPct": 72,
+    "gigabitPct": 61,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Sunderland",
+    "bandD": 1899,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 30.6,
+    "imdRank": 21993,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SR7 is the postcode district for SEAHAM, located in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in SR7 is £145,507, which is 45% below the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in SR7 cost 49.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SR7 have fallen 5.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 38.8 recorded crimes per 1,000 residents, SR7 has a crime rate well 52% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SR7 has 11 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SR7 are 275.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SR7 (SEAHAM) offers affordable property prices (£145,507, 49% below national average), low crime (52% below national average), 11 nearby schools, and excellent broadband (275 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 275
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 275
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

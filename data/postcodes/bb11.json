@@ -1,0 +1,197 @@
+{
+  "code": "BB11",
+  "name": "BURNLEY",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "blackburn",
+  "adjacent": [
+    "BB10",
+    "BB12"
+  ],
+  "property": {
+    "avgPrice": 123539,
+    "medianPrice": 85000,
+    "priceChange1y": -4.7,
+    "priceChange5y": 0,
+    "transactions12m": 1601,
+    "byType": {
+      "detached": {
+        "avg": 291950,
+        "count": 81
+      },
+      "semi": {
+        "avg": 169631,
+        "count": 310
+      },
+      "terraced": {
+        "avg": 80462,
+        "count": 1001
+      },
+      "flat": {
+        "avg": 91469,
+        "count": 118
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 110293
+      },
+      {
+        "year": 2024,
+        "avg": 133632
+      },
+      {
+        "year": 2025,
+        "avg": 127402
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 188.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 132,
+    "byType": {
+      "violentCrime": 57.9,
+      "burglary": 8.2,
+      "vehicleCrime": 5.7,
+      "antisocialBehaviour": 49,
+      "otherTheft": 32.7,
+      "other": 35.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Rockwood Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hapton Church of England/Methodist Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Burnley St Peter's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Burnley Holy Trinity Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Burnley St Stephen's Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 99233,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 339,
+    "avgUpload": 61,
+    "superfastPct": 94,
+    "ultrafastPct": 83,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Burnley",
+    "bandD": 2244,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 37.8,
+    "imdRank": 24400,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BB11 encompasses BURNLEY and its surrounding areas in Lancashire, North West.",
+    "priceVsCounty": "The average property price in BB11 is £123,539, which is 51% below the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in BB11 cost 57.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BB11 have fallen 4.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 188.6 recorded crimes per 1,000 residents, BB11 has a crime rate significantly 132% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BB11 has 17 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BB11 are 339.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BB11 (BURNLEY) offers affordable property prices (£123,539, 57% below national average), higher-than-average crime (132% above national average), 17 nearby schools, and excellent broadband (339 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 339
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 339
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

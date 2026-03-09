@@ -1,0 +1,198 @@
+{
+  "code": "CV5",
+  "name": "COVENTRY",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "coventry",
+  "adjacent": [
+    "CV4",
+    "CV6",
+    "CV7"
+  ],
+  "property": {
+    "avgPrice": 278775,
+    "medianPrice": 247000,
+    "priceChange1y": -0.6,
+    "priceChange5y": 0,
+    "transactions12m": 2376,
+    "byType": {
+      "detached": {
+        "avg": 455997,
+        "count": 279
+      },
+      "semi": {
+        "avg": 316062,
+        "count": 615
+      },
+      "terraced": {
+        "avg": 231139,
+        "count": 1049
+      },
+      "flat": {
+        "avg": 159359,
+        "count": 369
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 282659
+      },
+      {
+        "year": 2024,
+        "avg": 277714
+      },
+      {
+        "year": 2025,
+        "avg": 276091
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 45.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -44.3,
+    "byType": {
+      "violentCrime": 19.1,
+      "burglary": 3,
+      "vehicleCrime": 5.5,
+      "antisocialBehaviour": 2.7,
+      "otherTheft": 7.9,
+      "other": 7.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Earlsdon Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Christopher Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Allesley Hall Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Allesley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eastern Green Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 369026,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 17,
+    "privateRent": 23,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 389,
+    "avgUpload": 70,
+    "superfastPct": 99,
+    "ultrafastPct": 97,
+    "gigabitPct": 97,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Coventry",
+    "bandD": 2186,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.6,
+    "imdRank": 19432,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CV5 encompasses COVENTRY and its surrounding areas in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in CV5 is £278,775, which is 17% below the West Midlands average of £334,385.",
+    "priceVsNational": "Property values in CV5 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in CV5 have fallen 0.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 45.3 recorded crimes per 1,000 residents, CV5 has a crime rate well 44% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CV5 has 13 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CV5 are 389.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CV5 (COVENTRY) offers property prices near the national average (£278,775), low crime (44% below national average), 13 nearby schools, and excellent broadband (389 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 389
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 389
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

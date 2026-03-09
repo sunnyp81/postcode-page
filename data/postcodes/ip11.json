@@ -1,0 +1,198 @@
+{
+  "code": "IP11",
+  "name": "FELIXSTOWE",
+  "county": "suffolk",
+  "region": "east-of-england",
+  "city": "ipswich",
+  "adjacent": [
+    "IP10",
+    "IP12",
+    "IP13"
+  ],
+  "property": {
+    "avgPrice": 320716,
+    "medianPrice": 285000,
+    "priceChange1y": 9.3,
+    "priceChange5y": 0,
+    "transactions12m": 1729,
+    "byType": {
+      "detached": {
+        "avg": 433701,
+        "count": 512
+      },
+      "semi": {
+        "avg": 286343,
+        "count": 537
+      },
+      "terraced": {
+        "avg": 232405,
+        "count": 365
+      },
+      "flat": {
+        "avg": 204997,
+        "count": 250
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 338262
+      },
+      {
+        "year": 2024,
+        "avg": 300270
+      },
+      {
+        "year": 2025,
+        "avg": 328292
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 29.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -63.6,
+    "byType": {
+      "violentCrime": 13.9,
+      "burglary": 0.5,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 2.1,
+      "otherTheft": 5.8,
+      "other": 6.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Trimley St Mary Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Trimley St Martin Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kingsfleet Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Felixstowe International College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Felixstowe School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 22092,
+    "medianAge": 41,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 13,
+    "privateRent": 21,
+    "economicallyActive": 76,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 312,
+    "avgUpload": 56,
+    "superfastPct": 95,
+    "ultrafastPct": 75,
+    "gigabitPct": 75,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Suffolk",
+    "bandD": 2019,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.6,
+    "imdRank": 15274,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IP11 encompasses FELIXSTOWE and its surrounding areas in Suffolk, East Of England.",
+    "priceVsCounty": "The average property price in IP11 is £320,716, which is 16% below the Suffolk average of £379,904.",
+    "priceVsNational": "Properties in IP11 cost 11.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IP11 have risen 9.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 29.6 recorded crimes per 1,000 residents, IP11 has a crime rate well 64% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IP11 has 10 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IP11 are 312.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "IP11 (FELIXSTOWE) offers property prices near the national average (£320,716), low crime (64% below national average), 10 nearby schools, and excellent broadband (312 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 379904,
+      "crime": 75,
+      "broadband": 312
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 312
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "BS6",
+  "name": "BRISTOL",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS5",
+    "BS7",
+    "BS8"
+  ],
+  "property": {
+    "avgPrice": 547580,
+    "medianPrice": 440000,
+    "priceChange1y": 0,
+    "priceChange5y": 0,
+    "transactions12m": 1587,
+    "byType": {
+      "detached": {
+        "avg": 955102,
+        "count": 54
+      },
+      "semi": {
+        "avg": 946704,
+        "count": 211
+      },
+      "terraced": {
+        "avg": 701720,
+        "count": 373
+      },
+      "flat": {
+        "avg": 361443,
+        "count": 877
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 553695
+      },
+      {
+        "year": 2024,
+        "avg": 544435
+      },
+      {
+        "year": 2025,
+        "avg": 544702
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 242.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 198,
+    "byType": {
+      "violentCrime": 79.3,
+      "burglary": 9.9,
+      "vehicleCrime": 16.8,
+      "antisocialBehaviour": 35.2,
+      "otherTheft": 46.1,
+      "other": 54.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Ss Peter and Paul RC Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bristol Hospital Education Service",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "North Bristol Post 16 Centre",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cotham School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Westbury Park School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 389,
+    "avgUpload": 70,
+    "superfastPct": 99,
+    "ultrafastPct": 97,
+    "gigabitPct": 97,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.4,
+    "imdRank": 19421,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS6 encompasses BRISTOL and its surrounding areas in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS6 is £547,580, which is 22% above the Bristol average of £449,132.",
+    "priceVsNational": "Properties in BS6 cost 90.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BS6 have risen 0.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 242.3 recorded crimes per 1,000 residents, BS6 has a crime rate significantly 198% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BS6 has 9 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS6 are 389.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS6 (BRISTOL) offers above-average property prices (£547,580, 91% above national average), higher-than-average crime (198% above national average), 9 nearby schools, and excellent broadband (389 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 389
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 389
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

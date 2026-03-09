@@ -1,0 +1,188 @@
+{
+  "code": "NR26",
+  "name": "SHERINGHAM",
+  "county": "norfolk",
+  "region": "east-of-england",
+  "city": "norwich",
+  "adjacent": [
+    "NR25",
+    "NR27",
+    "NR28"
+  ],
+  "property": {
+    "avgPrice": 359941,
+    "medianPrice": 327000,
+    "priceChange1y": -8,
+    "priceChange5y": 0,
+    "transactions12m": 536,
+    "byType": {
+      "detached": {
+        "avg": 460734,
+        "count": 214
+      },
+      "semi": {
+        "avg": 338306,
+        "count": 90
+      },
+      "terraced": {
+        "avg": 336253,
+        "count": 72
+      },
+      "flat": {
+        "avg": 248185,
+        "count": 150
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 375499
+      },
+      {
+        "year": 2024,
+        "avg": 363576
+      },
+      {
+        "year": 2025,
+        "avg": 334322
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 9.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -88.4,
+    "byType": {
+      "violentCrime": 4.4,
+      "burglary": 0.4,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 1.3,
+      "otherTheft": 1.2,
+      "other": 2.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Sheringham Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sheringham Woodfields School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sheringham High School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 103217,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 20,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 271,
+    "avgUpload": 49,
+    "superfastPct": 98,
+    "ultrafastPct": 63,
+    "gigabitPct": 63,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Norfolk",
+    "bandD": 2129,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.1,
+    "imdRank": 18681,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NR26 covers SHERINGHAM in Norfolk, East Of England.",
+    "priceVsCounty": "The average property price in NR26 is £359,941, broadly in line with the Norfolk average of £352,657.",
+    "priceVsNational": "Properties in NR26 cost 25.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NR26 have fallen 8.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 9.4 recorded crimes per 1,000 residents, NR26 has a crime rate well 88% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NR26 has 3 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NR26 are 271.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NR26 (SHERINGHAM) offers above-average property prices (£359,941, 25% above national average), low crime (88% below national average), 3 nearby schools, and excellent broadband (271 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 352657,
+      "crime": 75,
+      "broadband": 271
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 271
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

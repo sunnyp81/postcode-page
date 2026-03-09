@@ -1,0 +1,196 @@
+{
+  "code": "WN8",
+  "name": "SKELMERSDALE",
+  "county": "greater-manchester",
+  "region": "north-west",
+  "city": "wigan",
+  "adjacent": [
+    "WN7"
+  ],
+  "property": {
+    "avgPrice": 260487,
+    "medianPrice": 167000,
+    "priceChange1y": 7.8,
+    "priceChange5y": 0,
+    "transactions12m": 1858,
+    "byType": {
+      "detached": {
+        "avg": 343864,
+        "count": 430
+      },
+      "semi": {
+        "avg": 194114,
+        "count": 585
+      },
+      "terraced": {
+        "avg": 118567,
+        "count": 693
+      },
+      "flat": {
+        "avg": 112268,
+        "count": 74
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 330365
+      },
+      {
+        "year": 2024,
+        "avg": 217832
+      },
+      {
+        "year": 2025,
+        "avg": 234716
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 67,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -17.6,
+    "byType": {
+      "violentCrime": 23.9,
+      "burglary": 2.3,
+      "vehicleCrime": 1.8,
+      "antisocialBehaviour": 19.2,
+      "otherTheft": 5.9,
+      "other": 13.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 31,
+    "outstanding": 3,
+    "good": 9,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Crawford Village Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Little Digmoor Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hillside Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Delph Side Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holland Moor Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 121995,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 14,
+    "privateRent": 12,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 247,
+    "avgUpload": 44,
+    "superfastPct": 95,
+    "ultrafastPct": 65,
+    "gigabitPct": 53,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "West Lancashire",
+    "bandD": 2153,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.6,
+    "imdRank": 14071,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WN8 encompasses SKELMERSDALE and its surrounding areas in Greater Manchester, North West.",
+    "priceVsCounty": "The average property price in WN8 is £260,487, which is 32% below the Greater Manchester average of £381,941.",
+    "priceVsNational": "Properties in WN8 cost 9.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WN8 have risen 7.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 67.0 recorded crimes per 1,000 residents, WN8 has a crime rate 18% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WN8 has 31 schools within or near its boundaries, including 3 rated Outstanding and 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WN8 are 247.0 Mbps, with 99% of premises having access to superfast broadband and 83% with full fibre (FTTP) connectivity.",
+    "synthesis": "WN8 (SKELMERSDALE) offers property prices near the national average (£260,487), low crime (18% below national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (247 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 381941,
+      "crime": 75,
+      "broadband": 247
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 247
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

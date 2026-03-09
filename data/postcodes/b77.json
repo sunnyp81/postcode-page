@@ -1,0 +1,198 @@
+{
+  "code": "B77",
+  "name": "TAMWORTH",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B76",
+    "B78",
+    "B79"
+  ],
+  "property": {
+    "avgPrice": 262374,
+    "medianPrice": 239950,
+    "priceChange1y": -1.1,
+    "priceChange5y": 0,
+    "transactions12m": 2343,
+    "byType": {
+      "detached": {
+        "avg": 365275,
+        "count": 656
+      },
+      "semi": {
+        "avg": 234020,
+        "count": 825
+      },
+      "terraced": {
+        "avg": 196728,
+        "count": 622
+      },
+      "flat": {
+        "avg": 131119,
+        "count": 172
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 262212
+      },
+      {
+        "year": 2024,
+        "avg": 263733
+      },
+      {
+        "year": 2025,
+        "avg": 260929
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 66.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -18.2,
+    "byType": {
+      "violentCrime": 29.4,
+      "burglary": 2.2,
+      "vehicleCrime": 3.5,
+      "antisocialBehaviour": 9.4,
+      "otherTheft": 9.2,
+      "other": 12.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 25,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Florendine Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hanbury's Farm Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Oakhill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Amington Heath Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Gabriel's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 81117,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 18,
+    "privateRent": 13,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 332,
+    "avgUpload": 60,
+    "superfastPct": 99,
+    "ultrafastPct": 84,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Tamworth",
+    "bandD": 2013,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.1,
+    "imdRank": 16944,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B77 encompasses TAMWORTH and its surrounding areas in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B77 is £262,374, which is 22% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B77 cost 8.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B77 have fallen 1.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 66.5 recorded crimes per 1,000 residents, B77 has a crime rate 18% below the national average of 81.3 per 1,000.",
+    "schoolContext": "B77 has 25 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B77 are 332.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B77 (TAMWORTH) offers property prices near the national average (£262,374), low crime (18% below national average), 25 nearby schools, and excellent broadband (332 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 332
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 332
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

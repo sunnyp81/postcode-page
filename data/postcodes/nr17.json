@@ -1,0 +1,198 @@
+{
+  "code": "NR17",
+  "name": "ATTLEBOROUGH",
+  "county": "norfolk",
+  "region": "east-of-england",
+  "city": "norwich",
+  "adjacent": [
+    "NR16",
+    "NR18",
+    "NR19"
+  ],
+  "property": {
+    "avgPrice": 364229,
+    "medianPrice": 292500,
+    "priceChange1y": -9,
+    "priceChange5y": 0,
+    "transactions12m": 1038,
+    "byType": {
+      "detached": {
+        "avg": 418405,
+        "count": 529
+      },
+      "semi": {
+        "avg": 256935,
+        "count": 250
+      },
+      "terraced": {
+        "avg": 211721,
+        "count": 167
+      },
+      "flat": {
+        "avg": 136003,
+        "count": 37
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 401867
+      },
+      {
+        "year": 2024,
+        "avg": 359681
+      },
+      {
+        "year": 2025,
+        "avg": 327218
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 12.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -84.1,
+    "byType": {
+      "violentCrime": 6.3,
+      "burglary": 0.3,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 1.5,
+      "otherTheft": 1.6,
+      "other": 3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Great Ellingham Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rocklands Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Chapel Green School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Attleborough Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Old Buckenham Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 146620,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 313,
+    "avgUpload": 56,
+    "superfastPct": 91,
+    "ultrafastPct": 76,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Breckland",
+    "bandD": 2114,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.6,
+    "imdRank": 16834,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NR17 covers ATTLEBOROUGH in Norfolk, East Of England.",
+    "priceVsCounty": "The average property price in NR17 is £364,229, broadly in line with the Norfolk average of £352,657.",
+    "priceVsNational": "Properties in NR17 cost 26.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NR17 have fallen 9.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 12.9 recorded crimes per 1,000 residents, NR17 has a crime rate well 84% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NR17 has 9 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NR17 are 313.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NR17 (ATTLEBOROUGH) offers above-average property prices (£364,229, 27% above national average), low crime (84% below national average), 9 nearby schools, and excellent broadband (313 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 352657,
+      "crime": 75,
+      "broadband": 313
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 313
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

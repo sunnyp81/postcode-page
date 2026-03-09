@@ -1,0 +1,198 @@
+{
+  "code": "NN15",
+  "name": "KETTERING",
+  "county": "northamptonshire",
+  "region": "east-midlands",
+  "city": "northampton",
+  "adjacent": [
+    "NN14",
+    "NN16",
+    "NN17"
+  ],
+  "property": {
+    "avgPrice": 306835,
+    "medianPrice": 273563,
+    "priceChange1y": -8.1,
+    "priceChange5y": 0,
+    "transactions12m": 2268,
+    "byType": {
+      "detached": {
+        "avg": 384210,
+        "count": 837
+      },
+      "semi": {
+        "avg": 253746,
+        "count": 921
+      },
+      "terraced": {
+        "avg": 219079,
+        "count": 352
+      },
+      "flat": {
+        "avg": 157136,
+        "count": 110
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 301616
+      },
+      {
+        "year": 2024,
+        "avg": 321064
+      },
+      {
+        "year": 2025,
+        "avg": 295141
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 38.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -53.1,
+    "byType": {
+      "violentCrime": 16.2,
+      "burglary": 0.8,
+      "vehicleCrime": 1,
+      "antisocialBehaviour": 8.5,
+      "otherTheft": 3.2,
+      "other": 8.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 3,
+    "good": 9,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Meadowside Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Barton Seagrave Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Latimer Arts College",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Millbrook Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Millbrook Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 20486,
+    "medianAge": 42,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 372,
+    "avgUpload": 67,
+    "superfastPct": 99,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Northamptonshire",
+    "bandD": 2089,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.4,
+    "imdRank": 18085,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NN15 covers KETTERING in Northamptonshire, East Midlands.",
+    "priceVsCounty": "The average property price in NN15 is £306,835, which is 5% below the Northamptonshire average of £323,962.",
+    "priceVsNational": "Properties in NN15 cost 6.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NN15 have fallen 8.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 38.1 recorded crimes per 1,000 residents, NN15 has a crime rate well 53% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NN15 has 20 schools within or near its boundaries, including 3 rated Outstanding and 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NN15 are 372.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NN15 (KETTERING) offers property prices near the national average (£306,835), low crime (53% below national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (372 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 323962,
+      "crime": 75,
+      "broadband": 372
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 372
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "BA14",
+  "name": "TROWBRIDGE",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "bath",
+  "adjacent": [
+    "BA13",
+    "BA15",
+    "BA16"
+  ],
+  "property": {
+    "avgPrice": 307741,
+    "medianPrice": 275000,
+    "priceChange1y": 1.2,
+    "priceChange5y": 0,
+    "transactions12m": 2426,
+    "byType": {
+      "detached": {
+        "avg": 430133,
+        "count": 718
+      },
+      "semi": {
+        "avg": 293747,
+        "count": 644
+      },
+      "terraced": {
+        "avg": 239612,
+        "count": 650
+      },
+      "flat": {
+        "avg": 149113,
+        "count": 333
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 309185
+      },
+      {
+        "year": 2024,
+        "avg": 305220
+      },
+      {
+        "year": 2025,
+        "avg": 308852
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 85.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 4.8,
+    "byType": {
+      "violentCrime": 28.3,
+      "burglary": 1.7,
+      "vehicleCrime": 1.3,
+      "antisocialBehaviour": 19.4,
+      "otherTheft": 16.8,
+      "other": 17.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 24,
+    "outstanding": 0,
+    "good": 11,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Holbrook Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Walwayne Court School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Newtown Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hilperton Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holt Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 523700,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 298,
+    "avgUpload": 54,
+    "superfastPct": 96,
+    "ultrafastPct": 71,
+    "gigabitPct": 71,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bath Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.4,
+    "imdRank": 11265,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BA14 is the postcode district for TROWBRIDGE, located in Somerset, South West.",
+    "priceVsCounty": "The average property price in BA14 is £307,741, which is 18% below the Somerset average of £373,759.",
+    "priceVsNational": "Properties in BA14 cost 7.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BA14 have risen 1.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "BA14 has a crime rate of 85.2 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "BA14 has 24 schools within or near its boundaries, including 11 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BA14 are 298.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BA14 (TROWBRIDGE) offers property prices near the national average (£307,741), 24 nearby schools, and excellent broadband (298 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 298
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 298
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

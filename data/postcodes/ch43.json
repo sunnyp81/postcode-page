@@ -1,0 +1,198 @@
+{
+  "code": "CH43",
+  "name": "PRENTON",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "chester",
+  "adjacent": [
+    "CH42",
+    "CH44",
+    "CH45"
+  ],
+  "property": {
+    "avgPrice": 234012,
+    "medianPrice": 197500,
+    "priceChange1y": 1.5,
+    "priceChange5y": 0,
+    "transactions12m": 1572,
+    "byType": {
+      "detached": {
+        "avg": 414210,
+        "count": 266
+      },
+      "semi": {
+        "avg": 242153,
+        "count": 578
+      },
+      "terraced": {
+        "avg": 179014,
+        "count": 270
+      },
+      "flat": {
+        "avg": 129011,
+        "count": 424
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 233602
+      },
+      {
+        "year": 2024,
+        "avg": 232550
+      },
+      {
+        "year": 2025,
+        "avg": 236136
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 47.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -41.9,
+    "byType": {
+      "violentCrime": 21.1,
+      "burglary": 2,
+      "vehicleCrime": 2.3,
+      "antisocialBehaviour": 4.4,
+      "otherTheft": 5,
+      "other": 12.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 3,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Prenton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Peter's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Paul's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ridgeway High School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Prenton Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 328873,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 15,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 383,
+    "avgUpload": 69,
+    "superfastPct": 100,
+    "ultrafastPct": 95,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wirral",
+    "bandD": 2158,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 29.6,
+    "imdRank": 19585,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CH43 encompasses PRENTON and its surrounding areas in Cheshire, North West.",
+    "priceVsCounty": "The average property price in CH43 is £234,012, which is 25% below the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in CH43 cost 18.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CH43 have risen 1.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 47.2 recorded crimes per 1,000 residents, CH43 has a crime rate well 42% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CH43 has 18 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CH43 are 383.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CH43 (PRENTON) offers affordable property prices (£234,012, 18% below national average), low crime (42% below national average), 18 nearby schools, and excellent broadband (383 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 383
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 383
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

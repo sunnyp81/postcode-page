@@ -1,0 +1,198 @@
+{
+  "code": "L35",
+  "name": "PRESCOT",
+  "county": "merseyside",
+  "region": "north-west",
+  "city": "liverpool",
+  "adjacent": [
+    "L34",
+    "L36",
+    "L37"
+  ],
+  "property": {
+    "avgPrice": 225925,
+    "medianPrice": 192000,
+    "priceChange1y": -9.4,
+    "priceChange5y": 0,
+    "transactions12m": 1219,
+    "byType": {
+      "detached": {
+        "avg": 342072,
+        "count": 278
+      },
+      "semi": {
+        "avg": 198282,
+        "count": 573
+      },
+      "terraced": {
+        "avg": 150322,
+        "count": 298
+      },
+      "flat": {
+        "avg": 103735,
+        "count": 49
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 211146
+      },
+      {
+        "year": 2024,
+        "avg": 243791
+      },
+      {
+        "year": 2025,
+        "avg": 220935
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 59.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -26.8,
+    "byType": {
+      "violentCrime": 26.8,
+      "burglary": 1,
+      "vehicleCrime": 1.3,
+      "antisocialBehaviour": 7.3,
+      "otherTheft": 5.5,
+      "other": 17.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Mary and St Paul's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Luke's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Leo's and Southmead Catholic Primary School Serving the Community",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Longton Lane Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Bartholomew's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 188861,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 20,
+    "privateRent": 13,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 375,
+    "avgUpload": 68,
+    "superfastPct": 97,
+    "ultrafastPct": 93,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Liverpool Council",
+    "bandD": 2251,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 31.5,
+    "imdRank": 21635,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "L35 covers PRESCOT in Merseyside, North West.",
+    "priceVsCounty": "The average property price in L35 is £225,925, which is 11% below the Merseyside average of £252,845.",
+    "priceVsNational": "Properties in L35 cost 21.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in L35 have fallen 9.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 59.5 recorded crimes per 1,000 residents, L35 has a crime rate well 27% below the national average of 81.3 per 1,000.",
+    "schoolContext": "L35 has 13 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in L35 are 375.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "L35 (PRESCOT) offers affordable property prices (£225,925, 21% below national average), low crime (27% below national average), 13 nearby schools, and excellent broadband (375 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 252845,
+      "crime": 75,
+      "broadband": 375
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 375
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

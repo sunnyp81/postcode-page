@@ -1,0 +1,198 @@
+{
+  "code": "E6",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "E5",
+    "E7",
+    "E8"
+  ],
+  "property": {
+    "avgPrice": 416390,
+    "medianPrice": 415000,
+    "priceChange1y": 7.9,
+    "priceChange5y": 0,
+    "transactions12m": 1276,
+    "byType": {
+      "detached": {
+        "avg": 506615,
+        "count": 13
+      },
+      "semi": {
+        "avg": 458424,
+        "count": 59
+      },
+      "terraced": {
+        "avg": 436366,
+        "count": 844
+      },
+      "flat": {
+        "avg": 280106,
+        "count": 308
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 413978
+      },
+      {
+        "year": 2024,
+        "avg": 401693
+      },
+      {
+        "year": 2025,
+        "avg": 433469
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 210.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 158.9,
+    "byType": {
+      "violentCrime": 63.5,
+      "burglary": 5.3,
+      "vehicleCrime": 17.6,
+      "antisocialBehaviour": 42.4,
+      "otherTheft": 42.9,
+      "other": 38.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 24,
+    "outstanding": 5,
+    "good": 8,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Stephen's Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oliver Thomas Nursery School",
+        "type": "Nursery",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Altmore Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Brampton Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Lathom Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 374523,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 18,
+    "socialRent": 28,
+    "privateRent": 36,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 354,
+    "avgUpload": 64,
+    "superfastPct": 99,
+    "ultrafastPct": 91,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newham",
+    "bandD": 1628,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 29.6,
+    "imdRank": 24138,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "E6 covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in E6 is £416,390, which is 68% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in E6 cost 45.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in E6 have risen 7.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 210.5 recorded crimes per 1,000 residents, E6 has a crime rate significantly 159% above the national average of 81.3 per 1,000.",
+    "schoolContext": "E6 has 24 schools within or near its boundaries, including 5 rated Outstanding and 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in E6 are 354.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "E6 (LONDON) offers above-average property prices (£416,390, 45% above national average), higher-than-average crime (159% above national average), strong school provision (5 Outstanding-rated schools), and excellent broadband (354 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 354
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 354
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "TS13",
+  "name": "SALTBURN-BY-THE-SEA",
+  "county": "teesside",
+  "region": "north-east",
+  "city": "middlesbrough",
+  "adjacent": [
+    "TS12",
+    "TS14",
+    "TS15"
+  ],
+  "property": {
+    "avgPrice": 170076,
+    "medianPrice": 117250,
+    "priceChange1y": -11.2,
+    "priceChange5y": 0,
+    "transactions12m": 494,
+    "byType": {
+      "detached": {
+        "avg": 364389,
+        "count": 71
+      },
+      "semi": {
+        "avg": 173120,
+        "count": 105
+      },
+      "terraced": {
+        "avg": 110319,
+        "count": 265
+      },
+      "flat": {
+        "avg": 93687,
+        "count": 21
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 180844
+      },
+      {
+        "year": 2024,
+        "avg": 173391
+      },
+      {
+        "year": 2025,
+        "avg": 153957
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.6,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.4,
+      "otherTheft": 0.1,
+      "other": 0.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hummersea Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Staithes, Seton Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Saint Joseph's Catholic Primary School, A Catholic Voluntary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Whitecliffe Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Handale Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 26693,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 58,
+    "socialRent": 21,
+    "privateRent": 21,
+    "economicallyActive": 69,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 182,
+    "avgUpload": 33,
+    "superfastPct": 83,
+    "ultrafastPct": 39,
+    "gigabitPct": 39,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Middlesbrough Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TS13 covers SALTBURN-BY-THE-SEA in Teesside, North East.",
+    "priceVsCounty": "The average property price in TS13 is £170,076, which is 10% below the Teesside average of £189,841.",
+    "priceVsNational": "Properties in TS13 cost 40.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TS13 have fallen 11.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TS13 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TS13 has 6 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TS13 are 182.0 Mbps, with 97% of premises having access to superfast broadband and 65% with full fibre (FTTP) connectivity.",
+    "synthesis": "TS13 (SALTBURN-BY-THE-SEA) offers affordable property prices (£170,076, 41% below national average), low crime (94% below national average), 6 nearby schools, and excellent broadband (182 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 189841,
+      "crime": 75,
+      "broadband": 182
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 182
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

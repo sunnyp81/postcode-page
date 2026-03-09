@@ -1,0 +1,197 @@
+{
+  "code": "BS14",
+  "name": "BRISTOL",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS13",
+    "BS15",
+    "BS16"
+  ],
+  "property": {
+    "avgPrice": 310243,
+    "medianPrice": 300000,
+    "priceChange1y": 0.6,
+    "priceChange5y": 0,
+    "transactions12m": 1163,
+    "byType": {
+      "detached": {
+        "avg": 460792,
+        "count": 101
+      },
+      "semi": {
+        "avg": 335701,
+        "count": 501
+      },
+      "terraced": {
+        "avg": 285657,
+        "count": 385
+      },
+      "flat": {
+        "avg": 164133,
+        "count": 145
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 329126
+      },
+      {
+        "year": 2024,
+        "avg": 300468
+      },
+      {
+        "year": 2025,
+        "avg": 302390
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 81.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 0.4,
+    "byType": {
+      "violentCrime": 33.2,
+      "burglary": 3.4,
+      "vehicleCrime": 3.7,
+      "antisocialBehaviour": 12.2,
+      "otherTheft": 12.3,
+      "other": 16.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "St Bernadette Catholic Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Bernadette Catholic Secondary School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oasis Academy John Williams",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Waycroft Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Oasis Academy New Oak",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 384,
+    "avgUpload": 69,
+    "superfastPct": 96,
+    "ultrafastPct": 96,
+    "gigabitPct": 96,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.4,
+    "imdRank": 19421,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS14 is the postcode district for BRISTOL, located in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS14 is £310,243, which is 31% below the Bristol average of £449,132.",
+    "priceVsNational": "Properties in BS14 cost 8.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BS14 have risen 0.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "BS14 has a crime rate of 81.6 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "BS14 has 12 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS14 are 384.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS14 (BRISTOL) offers property prices near the national average (£310,243), 12 nearby schools, and excellent broadband (384 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 384
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 384
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

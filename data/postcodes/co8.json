@@ -1,0 +1,178 @@
+{
+  "code": "CO8",
+  "name": "BURES",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "colchester",
+  "adjacent": [
+    "CO7",
+    "CO9",
+    "CO10"
+  ],
+  "property": {
+    "avgPrice": 462563,
+    "medianPrice": 375000,
+    "priceChange1y": 11,
+    "priceChange5y": 0,
+    "transactions12m": 83,
+    "byType": {
+      "detached": {
+        "avg": 552706,
+        "count": 47
+      },
+      "semi": {
+        "avg": 331440,
+        "count": 25
+      },
+      "terraced": {
+        "avg": 318688,
+        "count": 8
+      },
+      "flat": {
+        "avg": 150000,
+        "count": 1
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 459008
+      },
+      {
+        "year": 2024,
+        "avg": 440250
+      },
+      {
+        "year": 2025,
+        "avg": 488586
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.8,
+      "burglary": 0.1,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.1,
+      "other": 0.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bures Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 97033,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 240,
+    "avgUpload": 43,
+    "superfastPct": 89,
+    "ultrafastPct": 55,
+    "gigabitPct": 55,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Babergh",
+    "bandD": 2035,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.3,
+    "imdRank": 12339,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CO8 is the postcode district for BURES, located in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CO8 is £462,563, which is 8% above the Essex average of £429,754.",
+    "priceVsNational": "Properties in CO8 cost 61.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CO8 have risen 11.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, CO8 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CO8 has 1 school within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CO8 are 240.0 Mbps, with 99% of premises having access to superfast broadband and 81% with full fibre (FTTP) connectivity.",
+    "synthesis": "CO8 (BURES) offers above-average property prices (£462,563, 61% above national average), low crime (94% below national average), 1 nearby school, and excellent broadband (240 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 240
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 240
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

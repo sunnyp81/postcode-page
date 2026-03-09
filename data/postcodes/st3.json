@@ -1,0 +1,198 @@
+{
+  "code": "ST3",
+  "name": "STOKE-ON-TRENT",
+  "county": "staffordshire",
+  "region": "west-midlands",
+  "city": "stoke-on-trent",
+  "adjacent": [
+    "ST2",
+    "ST4",
+    "ST5"
+  ],
+  "property": {
+    "avgPrice": 192410,
+    "medianPrice": 165000,
+    "priceChange1y": -14.6,
+    "priceChange5y": 0,
+    "transactions12m": 2685,
+    "byType": {
+      "detached": {
+        "avg": 265715,
+        "count": 527
+      },
+      "semi": {
+        "avg": 167935,
+        "count": 1412
+      },
+      "terraced": {
+        "avg": 126732,
+        "count": 595
+      },
+      "flat": {
+        "avg": 85395,
+        "count": 63
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 173583
+      },
+      {
+        "year": 2024,
+        "avg": 217347
+      },
+      {
+        "year": 2025,
+        "avg": 185580
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 97.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 20,
+    "byType": {
+      "violentCrime": 39.4,
+      "burglary": 3.2,
+      "vehicleCrime": 2.8,
+      "antisocialBehaviour": 15.5,
+      "otherTheft": 12.4,
+      "other": 24.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 27,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Sandford Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Paul's CofE (C) Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ormiston Sir Stanley Matthews Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Belgrave St Bartholomew's Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sutherland Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 141556,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 14,
+    "privateRent": 13,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 347,
+    "avgUpload": 62,
+    "superfastPct": 97,
+    "ultrafastPct": 85,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stafford",
+    "bandD": 2012,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.7,
+    "imdRank": 11220,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ST3 encompasses STOKE-ON-TRENT and its surrounding areas in Staffordshire, West Midlands.",
+    "priceVsCounty": "The average property price in ST3 is £192,410, which is 28% below the Staffordshire average of £267,729.",
+    "priceVsNational": "Properties in ST3 cost 33.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ST3 have fallen 14.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 97.6 recorded crimes per 1,000 residents, ST3 has a crime rate significantly 20% above the national average of 81.3 per 1,000.",
+    "schoolContext": "ST3 has 27 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ST3 are 347.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "ST3 (STOKE-ON-TRENT) offers affordable property prices (£192,410, 33% below national average), higher-than-average crime (20% above national average), 27 nearby schools, and excellent broadband (347 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 267729,
+      "crime": 75,
+      "broadband": 347
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 347
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

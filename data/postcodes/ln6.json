@@ -1,0 +1,198 @@
+{
+  "code": "LN6",
+  "name": "LINCOLN",
+  "county": "lincolnshire",
+  "region": "east-midlands",
+  "city": "lincoln",
+  "adjacent": [
+    "LN5",
+    "LN7",
+    "LN8"
+  ],
+  "property": {
+    "avgPrice": 287230,
+    "medianPrice": 225000,
+    "priceChange1y": -16.1,
+    "priceChange5y": 0,
+    "transactions12m": 2762,
+    "byType": {
+      "detached": {
+        "avg": 297373,
+        "count": 1174
+      },
+      "semi": {
+        "avg": 207851,
+        "count": 979
+      },
+      "terraced": {
+        "avg": 174752,
+        "count": 412
+      },
+      "flat": {
+        "avg": 112139,
+        "count": 100
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 312179
+      },
+      {
+        "year": 2024,
+        "avg": 299377
+      },
+      {
+        "year": 2025,
+        "avg": 251175
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 21.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -73.1,
+    "byType": {
+      "violentCrime": 5.8,
+      "burglary": 0.6,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 5.4,
+      "otherTheft": 6.2,
+      "other": 3.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 34,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 3,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Eagle Community Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "North Scarle Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The South Hykeham Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Skellingthorpe the Holt Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sir Francis Hill Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 127886,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 14,
+    "privateRent": 14,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 353,
+    "avgUpload": 64,
+    "superfastPct": 96,
+    "ultrafastPct": 87,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lincoln Council",
+    "bandD": 2251,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.2,
+    "imdRank": 15577,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LN6 is the postcode district for LINCOLN, located in Lincolnshire, East Midlands.",
+    "priceVsCounty": "The average property price in LN6 is £287,230, which is 8% above the Lincolnshire average of £265,006.",
+    "priceVsNational": "Property values in LN6 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in LN6 have fallen 16.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 21.9 recorded crimes per 1,000 residents, LN6 has a crime rate well 73% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LN6 has 34 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LN6 are 353.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LN6 (LINCOLN) offers property prices near the national average (£287,230), low crime (73% below national average), 34 nearby schools, and excellent broadband (353 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 265006,
+      "crime": 75,
+      "broadband": 353
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 353
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

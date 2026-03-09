@@ -1,0 +1,198 @@
+{
+  "code": "SR5",
+  "name": "SUNDERLAND",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "sunderland",
+  "adjacent": [
+    "SR4",
+    "SR6",
+    "SR7"
+  ],
+  "property": {
+    "avgPrice": 217650,
+    "medianPrice": 100000,
+    "priceChange1y": -50.2,
+    "priceChange5y": 0,
+    "transactions12m": 1042,
+    "byType": {
+      "detached": {
+        "avg": 242424,
+        "count": 56
+      },
+      "semi": {
+        "avg": 127594,
+        "count": 406
+      },
+      "terraced": {
+        "avg": 98493,
+        "count": 437
+      },
+      "flat": {
+        "avg": 54573,
+        "count": 60
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 150828
+      },
+      {
+        "year": 2024,
+        "avg": 322472
+      },
+      {
+        "year": 2025,
+        "avg": 160618
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 79.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -2.6,
+    "byType": {
+      "violentCrime": 28.2,
+      "burglary": 2.8,
+      "vehicleCrime": 1.6,
+      "antisocialBehaviour": 7.5,
+      "otherTheft": 16.8,
+      "other": 22.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 2,
+    "good": 8,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hylton Red House Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Grange Park Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Southwick Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Willow Wood Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Castletown Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 288606,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 27,
+    "privateRent": 13,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 361,
+    "avgUpload": 65,
+    "superfastPct": 96,
+    "ultrafastPct": 90,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Sunderland",
+    "bandD": 1899,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 30.6,
+    "imdRank": 21993,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SR5 encompasses SUNDERLAND and its surrounding areas in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in SR5 is £217,650, which is 18% below the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in SR5 cost 24.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SR5 have fallen 50.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "SR5 has a crime rate of 79.2 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "SR5 has 17 schools within or near its boundaries, including 2 rated Outstanding and 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SR5 are 361.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SR5 (SUNDERLAND) offers affordable property prices (£217,650, 24% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (361 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 361
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 361
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

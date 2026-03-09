@@ -1,0 +1,197 @@
+{
+  "code": "SA13",
+  "name": "PORT TALBOT",
+  "county": "west-wales",
+  "region": "wales",
+  "city": "swansea",
+  "adjacent": [
+    "SA12",
+    "SA14",
+    "SA15"
+  ],
+  "property": {
+    "avgPrice": 156436,
+    "medianPrice": 130000,
+    "priceChange1y": -1.1,
+    "priceChange5y": 0,
+    "transactions12m": 772,
+    "byType": {
+      "detached": {
+        "avg": 293139,
+        "count": 96
+      },
+      "semi": {
+        "avg": 147943,
+        "count": 270
+      },
+      "terraced": {
+        "avg": 116857,
+        "count": 365
+      },
+      "flat": {
+        "avg": 67667,
+        "count": 9
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 152309
+      },
+      {
+        "year": 2024,
+        "avg": 159525
+      },
+      {
+        "year": 2025,
+        "avg": 157731
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0.1,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.1,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Cymer Afan Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eastern Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Glyncorrwg Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Croeserw Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Groes Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 143249,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 290,
+    "avgUpload": 52,
+    "superfastPct": 94,
+    "ultrafastPct": 69,
+    "gigabitPct": 69,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swansea Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "SA13 encompasses PORT TALBOT and its surrounding areas in West Wales, Wales.",
+    "priceVsCounty": "The average property price in SA13 is £156,436, which is 40% below the West Wales average of £261,315.",
+    "priceVsNational": "Properties in SA13 cost 45.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SA13 have fallen 1.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SA13 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SA13 has 10 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SA13 are 290.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SA13 (PORT TALBOT) offers affordable property prices (£156,436, 45% below national average), low crime (94% below national average), 10 nearby schools, and excellent broadband (290 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 261315,
+      "crime": 75,
+      "broadband": 290
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 290
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

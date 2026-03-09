@@ -1,0 +1,197 @@
+{
+  "code": "TA20",
+  "name": "CHARD",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "taunton",
+  "adjacent": [
+    "TA19",
+    "TA21",
+    "TA22"
+  ],
+  "property": {
+    "avgPrice": 322006,
+    "medianPrice": 268000,
+    "priceChange1y": -12.1,
+    "priceChange5y": 0,
+    "transactions12m": 999,
+    "byType": {
+      "detached": {
+        "avg": 429569,
+        "count": 353
+      },
+      "semi": {
+        "avg": 259369,
+        "count": 233
+      },
+      "terraced": {
+        "avg": 206049,
+        "count": 266
+      },
+      "flat": {
+        "avg": 116185,
+        "count": 69
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 319741
+      },
+      {
+        "year": 2024,
+        "avg": 339960
+      },
+      {
+        "year": 2025,
+        "avg": 298830
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 43.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -46.4,
+    "byType": {
+      "violentCrime": 20.6,
+      "burglary": 1.1,
+      "vehicleCrime": 1,
+      "antisocialBehaviour": 5.1,
+      "otherTheft": 6.4,
+      "other": 9.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Combe St Nicholas Church of England VA Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chard School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "3 Dimensions",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holyrood Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Redstart Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 26693,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 172,
+    "avgUpload": 31,
+    "superfastPct": 76,
+    "ultrafastPct": 37,
+    "gigabitPct": 37,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Taunton Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TA20 is the postcode district for CHARD, located in Somerset, South West.",
+    "priceVsCounty": "The average property price in TA20 is £322,006, which is 14% below the Somerset average of £373,759.",
+    "priceVsNational": "Properties in TA20 cost 12.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TA20 have fallen 12.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 43.6 recorded crimes per 1,000 residents, TA20 has a crime rate well 46% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TA20 has 11 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TA20 are 172.0 Mbps, with 96% of premises having access to superfast broadband and 62% with full fibre (FTTP) connectivity.",
+    "synthesis": "TA20 (CHARD) offers property prices near the national average (£322,006), low crime (46% below national average), 11 nearby schools, and excellent broadband (172 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 172
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 172
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "CH42",
+  "name": "BIRKENHEAD",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "chester",
+  "adjacent": [
+    "CH41",
+    "CH43",
+    "CH44"
+  ],
+  "property": {
+    "avgPrice": 158094,
+    "medianPrice": 130000,
+    "priceChange1y": -5.8,
+    "priceChange5y": 0,
+    "transactions12m": 1388,
+    "byType": {
+      "detached": {
+        "avg": 400768,
+        "count": 69
+      },
+      "semi": {
+        "avg": 199829,
+        "count": 397
+      },
+      "terraced": {
+        "avg": 117399,
+        "count": 756
+      },
+      "flat": {
+        "avg": 90817,
+        "count": 115
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 146624
+      },
+      {
+        "year": 2024,
+        "avg": 168888
+      },
+      {
+        "year": 2025,
+        "avg": 159056
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 122.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 50.4,
+    "byType": {
+      "violentCrime": 53,
+      "burglary": 3.1,
+      "vehicleCrime": 3.7,
+      "antisocialBehaviour": 10.2,
+      "otherTheft": 12.2,
+      "other": 40
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Bedford Drive Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Devonshire Park Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mersey Park Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Anne's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Prenton High School for Girls",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 328873,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 15,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 390,
+    "avgUpload": 70,
+    "superfastPct": 100,
+    "ultrafastPct": 97,
+    "gigabitPct": 97,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wirral",
+    "bandD": 2158,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 29.6,
+    "imdRank": 19585,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CH42 is the postcode district for BIRKENHEAD, located in Cheshire, North West.",
+    "priceVsCounty": "The average property price in CH42 is £158,094, which is 49% below the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in CH42 cost 44.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CH42 have fallen 5.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 122.3 recorded crimes per 1,000 residents, CH42 has a crime rate significantly 50% above the national average of 81.3 per 1,000.",
+    "schoolContext": "CH42 has 10 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CH42 are 390.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CH42 (BIRKENHEAD) offers affordable property prices (£158,094, 45% below national average), higher-than-average crime (50% above national average), 10 nearby schools, and excellent broadband (390 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 390
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 390
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

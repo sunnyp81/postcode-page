@@ -1,0 +1,198 @@
+{
+  "code": "RH16",
+  "name": "HAYWARDS HEATH",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "redhill",
+  "adjacent": [
+    "RH15",
+    "RH17",
+    "RH18"
+  ],
+  "property": {
+    "avgPrice": 480249,
+    "medianPrice": 410000,
+    "priceChange1y": -6.4,
+    "priceChange5y": 0,
+    "transactions12m": 1995,
+    "byType": {
+      "detached": {
+        "avg": 766488,
+        "count": 473
+      },
+      "semi": {
+        "avg": 499381,
+        "count": 495
+      },
+      "terraced": {
+        "avg": 403154,
+        "count": 330
+      },
+      "flat": {
+        "avg": 254205,
+        "count": 635
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 455312
+      },
+      {
+        "year": 2024,
+        "avg": 509030
+      },
+      {
+        "year": 2025,
+        "avg": 476655
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 45.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -44.5,
+    "byType": {
+      "violentCrime": 16,
+      "burglary": 1.1,
+      "vehicleCrime": 1.9,
+      "antisocialBehaviour": 10,
+      "otherTheft": 5.9,
+      "other": 10.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Oathall Community College",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Great Walstead School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chalkhill Education Centre, Chalkhill Hospital",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Warden Park Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Harlands Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 102363,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 11,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 340,
+    "avgUpload": 61,
+    "superfastPct": 98,
+    "ultrafastPct": 83,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lewes",
+    "bandD": 2388,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.8,
+    "imdRank": 13359,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RH16 encompasses HAYWARDS HEATH and its surrounding areas in Surrey, South East.",
+    "priceVsCounty": "The average property price in RH16 is £480,249, which is 22% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in RH16 cost 67.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RH16 have fallen 6.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 45.1 recorded crimes per 1,000 residents, RH16 has a crime rate well 45% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RH16 has 11 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RH16 are 340.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RH16 (HAYWARDS HEATH) offers above-average property prices (£480,249, 67% above national average), low crime (45% below national average), 11 nearby schools, and excellent broadband (340 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 340
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 340
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

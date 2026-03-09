@@ -1,0 +1,197 @@
+{
+  "code": "CH1",
+  "name": "CHESTER",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "chester",
+  "adjacent": [
+    "CH2",
+    "CH3"
+  ],
+  "property": {
+    "avgPrice": 297042,
+    "medianPrice": 204500,
+    "priceChange1y": -1.1,
+    "priceChange5y": 0,
+    "transactions12m": 1602,
+    "byType": {
+      "detached": {
+        "avg": 409911,
+        "count": 207
+      },
+      "semi": {
+        "avg": 229851,
+        "count": 300
+      },
+      "terraced": {
+        "avg": 235796,
+        "count": 459
+      },
+      "flat": {
+        "avg": 176164,
+        "count": 508
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 332177
+      },
+      {
+        "year": 2024,
+        "avg": 278478
+      },
+      {
+        "year": 2025,
+        "avg": 275419
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 81.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 0.5,
+    "byType": {
+      "violentCrime": 38.3,
+      "burglary": 2.5,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 5.9,
+      "otherTheft": 12.4,
+      "other": 21.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "J H Godwin Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Dee Point Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "St Theresa's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Blacon High School, A Specialist Sports College",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "The Queen's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 371652,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 15,
+    "privateRent": 14,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 239,
+    "avgUpload": 43,
+    "superfastPct": 92,
+    "ultrafastPct": 66,
+    "gigabitPct": 50,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Chester Council",
+    "bandD": 2098,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.1,
+    "imdRank": 13862,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CH1 encompasses CHESTER and its surrounding areas in Cheshire, North West.",
+    "priceVsCounty": "The average property price in CH1 is £297,042, broadly in line with the Cheshire average of £311,410.",
+    "priceVsNational": "Property values in CH1 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in CH1 have fallen 1.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "CH1 has a crime rate of 81.7 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "CH1 has 14 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CH1 are 239.0 Mbps, with 99% of premises having access to superfast broadband and 81% with full fibre (FTTP) connectivity.",
+    "synthesis": "CH1 (CHESTER) offers property prices near the national average (£297,042), 14 nearby schools, and excellent broadband (239 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 239
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 239
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

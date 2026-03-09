@@ -1,0 +1,198 @@
+{
+  "code": "L5",
+  "name": "LIVERPOOL",
+  "county": "merseyside",
+  "region": "north-west",
+  "city": "liverpool",
+  "adjacent": [
+    "L4",
+    "L6",
+    "L7"
+  ],
+  "property": {
+    "avgPrice": 148881,
+    "medianPrice": 107998,
+    "priceChange1y": -13.8,
+    "priceChange5y": 0,
+    "transactions12m": 610,
+    "byType": {
+      "detached": {
+        "avg": 240000,
+        "count": 4
+      },
+      "semi": {
+        "avg": 172619,
+        "count": 76
+      },
+      "terraced": {
+        "avg": 113672,
+        "count": 258
+      },
+      "flat": {
+        "avg": 110407,
+        "count": 216
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 147051
+      },
+      {
+        "year": 2024,
+        "avg": 159853
+      },
+      {
+        "year": 2025,
+        "avg": 137847
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 214.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 164.2,
+    "byType": {
+      "violentCrime": 71.9,
+      "burglary": 4.6,
+      "vehicleCrime": 10.1,
+      "antisocialBehaviour": 15.8,
+      "otherTheft": 27.1,
+      "other": 85.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Our Lady Immaculate Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Millstead School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "North Liverpool Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Beacon Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Trinity Catholic Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 508961,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 23,
+    "socialRent": 26,
+    "privateRent": 24,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 328,
+    "avgUpload": 59,
+    "superfastPct": 99,
+    "ultrafastPct": 80,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Liverpool",
+    "bandD": 2308,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 42.4,
+    "imdRank": 25833,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "L5 covers LIVERPOOL in Merseyside, North West.",
+    "priceVsCounty": "The average property price in L5 is £148,881, which is 41% below the Merseyside average of £252,845.",
+    "priceVsNational": "Properties in L5 cost 48.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in L5 have fallen 13.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 214.8 recorded crimes per 1,000 residents, L5 has a crime rate significantly 164% above the national average of 81.3 per 1,000.",
+    "schoolContext": "L5 has 8 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in L5 are 328.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "L5 (LIVERPOOL) offers affordable property prices (£148,881, 48% below national average), higher-than-average crime (164% above national average), 8 nearby schools, and excellent broadband (328 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 252845,
+      "crime": 75,
+      "broadband": 328
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 328
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

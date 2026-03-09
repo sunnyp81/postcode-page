@@ -1,0 +1,188 @@
+{
+  "code": "GU19",
+  "name": "BAGSHOT",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU18",
+    "GU20",
+    "GU21"
+  ],
+  "property": {
+    "avgPrice": 514313,
+    "medianPrice": 435000,
+    "priceChange1y": -0.8,
+    "priceChange5y": 0,
+    "transactions12m": 314,
+    "byType": {
+      "detached": {
+        "avg": 798817,
+        "count": 73
+      },
+      "semi": {
+        "avg": 450448,
+        "count": 93
+      },
+      "terraced": {
+        "avg": 364854,
+        "count": 72
+      },
+      "flat": {
+        "avg": 255508,
+        "count": 64
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 647026
+      },
+      {
+        "year": 2024,
+        "avg": 453085
+      },
+      {
+        "year": 2025,
+        "avg": 449349
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 18.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -77.7,
+    "byType": {
+      "violentCrime": 5.9,
+      "burglary": 0.4,
+      "vehicleCrime": 1.2,
+      "antisocialBehaviour": 3.2,
+      "otherTheft": 3.2,
+      "other": 4.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 1,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bagshot Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hall Grove School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Connaught Junior School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 94492,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 10,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 340,
+    "avgUpload": 61,
+    "superfastPct": 96,
+    "ultrafastPct": 83,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Surrey Heath",
+    "bandD": 2248,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.1,
+    "imdRank": 5859,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU19 is the postcode district for BAGSHOT, located in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU19 is £514,313, which is 16% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU19 cost 79.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU19 have fallen 0.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 18.1 recorded crimes per 1,000 residents, GU19 has a crime rate well 78% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU19 has 3 schools within or near its boundaries, including 1 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU19 are 340.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU19 (BAGSHOT) offers above-average property prices (£514,313, 79% above national average), low crime (78% below national average), 3 nearby schools, and excellent broadband (340 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 340
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 340
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

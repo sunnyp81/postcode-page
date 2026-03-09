@@ -1,0 +1,198 @@
+{
+  "code": "NR31",
+  "name": "GREAT YARMOUTH",
+  "county": "norfolk",
+  "region": "east-of-england",
+  "city": "norwich",
+  "adjacent": [
+    "NR30",
+    "NR32",
+    "NR33"
+  ],
+  "property": {
+    "avgPrice": 241537,
+    "medianPrice": 215000,
+    "priceChange1y": 4.1,
+    "priceChange5y": 0,
+    "transactions12m": 2260,
+    "byType": {
+      "detached": {
+        "avg": 350562,
+        "count": 662
+      },
+      "semi": {
+        "avg": 230993,
+        "count": 576
+      },
+      "terraced": {
+        "avg": 167654,
+        "count": 842
+      },
+      "flat": {
+        "avg": 112692,
+        "count": 104
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 252155
+      },
+      {
+        "year": 2024,
+        "avg": 232544
+      },
+      {
+        "year": 2025,
+        "avg": 242183
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 61.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -24.6,
+    "byType": {
+      "violentCrime": 25.8,
+      "burglary": 1.9,
+      "vehicleCrime": 2.2,
+      "antisocialBehaviour": 8.6,
+      "otherTheft": 8.5,
+      "other": 14.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hillside Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Homefield VC CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ormiston Venture Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lynn Grove Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ormiston Cliff Park Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 100529,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 24,
+    "socialRent": 16,
+    "privateRent": 19,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 361,
+    "avgUpload": 65,
+    "superfastPct": 98,
+    "ultrafastPct": 89,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Great Yarmouth",
+    "bandD": 2100,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 33.1,
+    "imdRank": 22767,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NR31 encompasses GREAT YARMOUTH and its surrounding areas in Norfolk, East Of England.",
+    "priceVsCounty": "The average property price in NR31 is £241,537, which is 32% below the Norfolk average of £352,657.",
+    "priceVsNational": "Properties in NR31 cost 15.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NR31 have risen 4.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 61.3 recorded crimes per 1,000 residents, NR31 has a crime rate well 25% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NR31 has 21 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NR31 are 361.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NR31 (GREAT YARMOUTH) offers affordable property prices (£241,537, 16% below national average), low crime (25% below national average), 21 nearby schools, and excellent broadband (361 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 352657,
+      "crime": 75,
+      "broadband": 361
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 361
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

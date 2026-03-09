@@ -1,0 +1,198 @@
+{
+  "code": "DL3",
+  "name": "DARLINGTON",
+  "county": "county-durham",
+  "region": "north-east",
+  "city": "darlington",
+  "adjacent": [
+    "DL2",
+    "DL4",
+    "DL5"
+  ],
+  "property": {
+    "avgPrice": 197855,
+    "medianPrice": 139000,
+    "priceChange1y": -18.4,
+    "priceChange5y": 0,
+    "transactions12m": 2354,
+    "byType": {
+      "detached": {
+        "avg": 332445,
+        "count": 267
+      },
+      "semi": {
+        "avg": 202083,
+        "count": 766
+      },
+      "terraced": {
+        "avg": 116997,
+        "count": 1032
+      },
+      "flat": {
+        "avg": 117362,
+        "count": 223
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 196047
+      },
+      {
+        "year": 2024,
+        "avg": 217342
+      },
+      {
+        "year": 2025,
+        "avg": 177372
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 133.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 63.7,
+    "byType": {
+      "violentCrime": 41.8,
+      "burglary": 4.4,
+      "vehicleCrime": 4.2,
+      "antisocialBehaviour": 30.2,
+      "otherTheft": 25.5,
+      "other": 26.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 0,
+    "good": 8,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "George Dent Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rise Carr College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Harrowgate Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Reid Street Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hummersknott Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 112489,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 16,
+    "privateRent": 19,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 375,
+    "avgUpload": 68,
+    "superfastPct": 97,
+    "ultrafastPct": 93,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Darlington Council",
+    "bandD": 2115,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.7,
+    "imdRank": 18284,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DL3 covers DARLINGTON in County Durham, North East.",
+    "priceVsCounty": "The average property price in DL3 is £197,855, broadly in line with the County Durham average of £207,512.",
+    "priceVsNational": "Properties in DL3 cost 31.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DL3 have fallen 18.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 133.1 recorded crimes per 1,000 residents, DL3 has a crime rate significantly 64% above the national average of 81.3 per 1,000.",
+    "schoolContext": "DL3 has 20 schools within or near its boundaries, including 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DL3 are 375.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DL3 (DARLINGTON) offers affordable property prices (£197,855, 31% below national average), higher-than-average crime (64% above national average), 20 nearby schools, and excellent broadband (375 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 207512,
+      "crime": 75,
+      "broadband": 375
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 375
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

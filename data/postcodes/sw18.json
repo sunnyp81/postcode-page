@@ -1,0 +1,198 @@
+{
+  "code": "SW18",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SW17",
+    "SW19",
+    "SW20"
+  ],
+  "property": {
+    "avgPrice": 818123,
+    "medianPrice": 625000,
+    "priceChange1y": 2,
+    "priceChange5y": 0,
+    "transactions12m": 3452,
+    "byType": {
+      "detached": {
+        "avg": 2526219,
+        "count": 41
+      },
+      "semi": {
+        "avg": 1855243,
+        "count": 151
+      },
+      "terraced": {
+        "avg": 1179633,
+        "count": 947
+      },
+      "flat": {
+        "avg": 545124,
+        "count": 2203
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 827265
+      },
+      {
+        "year": 2024,
+        "avg": 806431
+      },
+      {
+        "year": 2025,
+        "avg": 822892
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 124.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 53.6,
+    "byType": {
+      "violentCrime": 33.4,
+      "burglary": 6.5,
+      "vehicleCrime": 13.5,
+      "antisocialBehaviour": 26.3,
+      "otherTheft": 24.6,
+      "other": 20.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Allfarthing Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beatrix Potter Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Earlsfield Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Riversdale Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Swaffield School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 337655,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 19,
+    "privateRent": 34,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 360,
+    "avgUpload": 65,
+    "superfastPct": 97,
+    "ultrafastPct": 93,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wandsworth",
+    "bandD": 921,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.6,
+    "imdRank": 14312,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SW18 encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in SW18 is £818,123, which is 37% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SW18 cost 185.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SW18 have risen 2.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 124.9 recorded crimes per 1,000 residents, SW18 has a crime rate significantly 54% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SW18 has 18 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SW18 are 360.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SW18 (LONDON) offers above-average property prices (£818,123, 185% above national average), higher-than-average crime (54% above national average), 18 nearby schools, and excellent broadband (360 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 360
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 360
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

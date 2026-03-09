@@ -1,0 +1,198 @@
+{
+  "code": "NG7",
+  "name": "NOTTINGHAM",
+  "county": "nottinghamshire",
+  "region": "east-midlands",
+  "city": "nottingham",
+  "adjacent": [
+    "NG6",
+    "NG8",
+    "NG9"
+  ],
+  "property": {
+    "avgPrice": 312325,
+    "medianPrice": 175000,
+    "priceChange1y": -27.2,
+    "priceChange5y": 0,
+    "transactions12m": 1691,
+    "byType": {
+      "detached": {
+        "avg": 470864,
+        "count": 87
+      },
+      "semi": {
+        "avg": 271172,
+        "count": 301
+      },
+      "terraced": {
+        "avg": 181082,
+        "count": 792
+      },
+      "flat": {
+        "avg": 185428,
+        "count": 365
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 368471
+      },
+      {
+        "year": 2024,
+        "avg": 315662
+      },
+      {
+        "year": 2025,
+        "avg": 229879
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 99.8,
+      "burglary": 11.5,
+      "vehicleCrime": 21.7,
+      "antisocialBehaviour": 54.4,
+      "otherTheft": 67.3,
+      "other": 70.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 0,
+    "good": 8,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Dunkirk Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mellers Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Forest Fields Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Nottingham High School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fig Tree Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 331077,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 23,
+    "socialRent": 26,
+    "privateRent": 27,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 340,
+    "avgUpload": 61,
+    "superfastPct": 98,
+    "ultrafastPct": 83,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Nottingham Council",
+    "bandD": 2285,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 34.9,
+    "imdRank": 24458,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NG7 covers NOTTINGHAM in Nottinghamshire, East Midlands.",
+    "priceVsCounty": "The average property price in NG7 is £312,325, which is 54% below the Nottinghamshire average of £678,596.",
+    "priceVsNational": "Properties in NG7 cost 8.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NG7 have fallen 27.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, NG7 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NG7 has 20 schools within or near its boundaries, including 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NG7 are 340.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NG7 (NOTTINGHAM) offers property prices near the national average (£312,325), higher-than-average crime (269% above national average), 20 nearby schools, and excellent broadband (340 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 678596,
+      "crime": 75,
+      "broadband": 340
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 340
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

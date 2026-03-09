@@ -1,0 +1,198 @@
+{
+  "code": "CV8",
+  "name": "KENILWORTH",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "coventry",
+  "adjacent": [
+    "CV7",
+    "CV9",
+    "CV10"
+  ],
+  "property": {
+    "avgPrice": 436549,
+    "medianPrice": 385000,
+    "priceChange1y": 0.5,
+    "priceChange5y": 0,
+    "transactions12m": 1568,
+    "byType": {
+      "detached": {
+        "avg": 621776,
+        "count": 506
+      },
+      "semi": {
+        "avg": 385706,
+        "count": 501
+      },
+      "terraced": {
+        "avg": 318569,
+        "count": 304
+      },
+      "flat": {
+        "avg": 194361,
+        "count": 205
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 433780
+      },
+      {
+        "year": 2024,
+        "avg": 436632
+      },
+      {
+        "year": 2025,
+        "avg": 438952
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.2,
+    "byType": {
+      "violentCrime": 2.2,
+      "burglary": 0.3,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1.2,
+      "otherTheft": 0.4,
+      "other": 1.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Kenilworth Nursery School & Early Years Training Centre",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Thorns Community Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Clinton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Park Hill Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Priors Field Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 369026,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 17,
+    "privateRent": 23,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 283,
+    "avgUpload": 51,
+    "superfastPct": 95,
+    "ultrafastPct": 69,
+    "gigabitPct": 66,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Coventry",
+    "bandD": 2186,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.6,
+    "imdRank": 19432,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CV8 encompasses KENILWORTH and its surrounding areas in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in CV8 is £436,549, which is 31% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in CV8 cost 52.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CV8 have risen 0.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.5 recorded crimes per 1,000 residents, CV8 has a crime rate well 93% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CV8 has 14 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CV8 are 283.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CV8 (KENILWORTH) offers above-average property prices (£436,549, 52% above national average), low crime (93% below national average), 14 nearby schools, and excellent broadband (283 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 283
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 283
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

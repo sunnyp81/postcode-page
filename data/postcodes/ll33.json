@@ -1,0 +1,182 @@
+{
+  "code": "LL33",
+  "name": "LLANFAIRFECHAN",
+  "county": "north-wales",
+  "region": "wales",
+  "city": "north-wales",
+  "adjacent": [
+    "LL32",
+    "LL34",
+    "LL35"
+  ],
+  "property": {
+    "avgPrice": 229165,
+    "medianPrice": 215000,
+    "priceChange1y": -14.1,
+    "priceChange5y": 0,
+    "transactions12m": 152,
+    "byType": {
+      "detached": {
+        "avg": 351661,
+        "count": 42
+      },
+      "semi": {
+        "avg": 226099,
+        "count": 46
+      },
+      "terraced": {
+        "avg": 159523,
+        "count": 43
+      },
+      "flat": {
+        "avg": 131250,
+        "count": 12
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 248435
+      },
+      {
+        "year": 2024,
+        "avg": 235103
+      },
+      {
+        "year": 2025,
+        "avg": 201864
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 6.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -91.6,
+    "byType": {
+      "violentCrime": 3,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 1.1,
+      "otherTheft": 0.6,
+      "other": 1.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ysgol Pant-Y-Rhedyn",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Babanod Llanfairfechan",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 114891,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 96,
+    "avgUpload": 17,
+    "superfastPct": 92,
+    "ultrafastPct": 13,
+    "gigabitPct": 13,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Wales Council",
+    "bandD": 2304,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LL33 encompasses LLANFAIRFECHAN and its surrounding areas in North Wales, Wales.",
+    "priceVsCounty": "The average property price in LL33 is £229,165, which is 16% below the North Wales average of £271,879.",
+    "priceVsNational": "Properties in LL33 cost 20.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LL33 have fallen 14.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 6.8 recorded crimes per 1,000 residents, LL33 has a crime rate well 92% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LL33 has 2 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LL33 are 96.0 Mbps, with 84% of premises having access to superfast broadband and 41% with full fibre (FTTP) connectivity.",
+    "synthesis": "LL33 (LLANFAIRFECHAN) offers affordable property prices (£229,165, 20% below national average), low crime (92% below national average), 2 nearby schools, and good broadband connectivity (96 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 271879,
+      "crime": 75,
+      "broadband": 96
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 96
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

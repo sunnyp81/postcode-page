@@ -1,0 +1,197 @@
+{
+  "code": "S44",
+  "name": "CHESTERFIELD",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "sheffield",
+  "adjacent": [
+    "S43",
+    "S45"
+  ],
+  "property": {
+    "avgPrice": 229590,
+    "medianPrice": 190000,
+    "priceChange1y": -5.4,
+    "priceChange5y": 0,
+    "transactions12m": 1471,
+    "byType": {
+      "detached": {
+        "avg": 313436,
+        "count": 537
+      },
+      "semi": {
+        "avg": 178396,
+        "count": 562
+      },
+      "terraced": {
+        "avg": 128545,
+        "count": 334
+      },
+      "flat": {
+        "avg": 113261,
+        "count": 9
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 231720
+      },
+      {
+        "year": 2024,
+        "avg": 233664
+      },
+      {
+        "year": 2025,
+        "avg": 220966
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 21.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -73.1,
+    "byType": {
+      "violentCrime": 7.7,
+      "burglary": 1,
+      "vehicleCrime": 1.3,
+      "antisocialBehaviour": 3.4,
+      "otherTheft": 3.8,
+      "other": 4.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bramley Vale Primary & Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "New Bolsover Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Brockley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bolsover Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Calow CofE VC Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 106646,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 19,
+    "privateRent": 8,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 293,
+    "avgUpload": 53,
+    "superfastPct": 93,
+    "ultrafastPct": 70,
+    "gigabitPct": 70,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North East Derbyshire",
+    "bandD": 2144,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.4,
+    "imdRank": 14111,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "S44 is the postcode district for CHESTERFIELD, located in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in S44 is £229,590, broadly in line with the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in S44 cost 20.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in S44 have fallen 5.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 21.9 recorded crimes per 1,000 residents, S44 has a crime rate well 73% below the national average of 81.3 per 1,000.",
+    "schoolContext": "S44 has 14 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in S44 are 293.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "S44 (CHESTERFIELD) offers affordable property prices (£229,590, 20% below national average), low crime (73% below national average), 14 nearby schools, and excellent broadband (293 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 293
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 293
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

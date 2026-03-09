@@ -1,0 +1,198 @@
+{
+  "code": "NW7",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "NW6",
+    "NW8",
+    "NW9"
+  ],
+  "property": {
+    "avgPrice": 814691,
+    "medianPrice": 596250,
+    "priceChange1y": -15.5,
+    "priceChange5y": 0,
+    "transactions12m": 1132,
+    "byType": {
+      "detached": {
+        "avg": 1584287,
+        "count": 158
+      },
+      "semi": {
+        "avg": 804808,
+        "count": 274
+      },
+      "terraced": {
+        "avg": 713327,
+        "count": 130
+      },
+      "flat": {
+        "avg": 470661,
+        "count": 515
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 780682
+      },
+      {
+        "year": 2024,
+        "avg": 892372
+      },
+      {
+        "year": 2025,
+        "avg": 753985
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 32.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -59.8,
+    "byType": {
+      "violentCrime": 9.8,
+      "burglary": 2.4,
+      "vehicleCrime": 2.9,
+      "antisocialBehaviour": 7.6,
+      "otherTheft": 3.7,
+      "other": 6.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 2,
+    "good": 7,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Courtland School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Deansbrook Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Fairway Primary School and Children's Centre",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Paul's CofE Primary School NW7",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Vincent's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 405050,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 13,
+    "privateRent": 30,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 178,
+    "avgUpload": 32,
+    "superfastPct": 96,
+    "ultrafastPct": 37,
+    "gigabitPct": 36,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Barnet",
+    "bandD": 1836,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.1,
+    "imdRank": 13803,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NW7 is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in NW7 is £814,691, which is 38% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in NW7 cost 183.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NW7 have fallen 15.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 32.7 recorded crimes per 1,000 residents, NW7 has a crime rate well 60% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NW7 has 18 schools within or near its boundaries, including 2 rated Outstanding and 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NW7 are 178.0 Mbps, with 97% of premises having access to superfast broadband and 64% with full fibre (FTTP) connectivity.",
+    "synthesis": "NW7 (LONDON) offers above-average property prices (£814,691, 184% above national average), low crime (60% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (178 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 178
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 178
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

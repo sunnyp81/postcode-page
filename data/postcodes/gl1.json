@@ -1,0 +1,197 @@
+{
+  "code": "GL1",
+  "name": "GLOUCESTER",
+  "county": "gloucestershire",
+  "region": "south-west",
+  "city": "gloucester",
+  "adjacent": [
+    "GL2",
+    "GL3"
+  ],
+  "property": {
+    "avgPrice": 244517,
+    "medianPrice": 190000,
+    "priceChange1y": -17.8,
+    "priceChange5y": 0,
+    "transactions12m": 1889,
+    "byType": {
+      "detached": {
+        "avg": 417822,
+        "count": 103
+      },
+      "semi": {
+        "avg": 266533,
+        "count": 449
+      },
+      "terraced": {
+        "avg": 200253,
+        "count": 667
+      },
+      "flat": {
+        "avg": 136468,
+        "count": 556
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 264648
+      },
+      {
+        "year": 2024,
+        "avg": 253855
+      },
+      {
+        "year": 2025,
+        "avg": 208671
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 284.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 249.7,
+    "byType": {
+      "violentCrime": 104.6,
+      "burglary": 8.7,
+      "vehicleCrime": 10.4,
+      "antisocialBehaviour": 55.4,
+      "otherTheft": 48.2,
+      "other": 56.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 3,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Tredworth Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Linden Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Paul's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Kingsholm Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The King's School, Gloucester",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 138598,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 14,
+    "privateRent": 19,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 334,
+    "avgUpload": 60,
+    "superfastPct": 98,
+    "ultrafastPct": 81,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Gloucester",
+    "bandD": 2049,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.8,
+    "imdRank": 16307,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GL1 is the postcode district for GLOUCESTER, located in Gloucestershire, South West.",
+    "priceVsCounty": "The average property price in GL1 is £244,517, which is 45% below the Gloucestershire average of £441,384.",
+    "priceVsNational": "Properties in GL1 cost 14.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GL1 have fallen 17.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 284.3 recorded crimes per 1,000 residents, GL1 has a crime rate significantly 250% above the national average of 81.3 per 1,000.",
+    "schoolContext": "GL1 has 17 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GL1 are 334.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GL1 (GLOUCESTER) offers property prices near the national average (£244,517), higher-than-average crime (250% above national average), 17 nearby schools, and excellent broadband (334 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 441384,
+      "crime": 75,
+      "broadband": 334
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 334
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "code": "DE24",
+  "name": "DERBY",
+  "county": "derbyshire",
+  "region": "east-midlands",
+  "city": "derby",
+  "adjacent": [
+    "DE23"
+  ],
+  "property": {
+    "avgPrice": 228823,
+    "medianPrice": 195000,
+    "priceChange1y": -6.8,
+    "priceChange5y": 0,
+    "transactions12m": 2565,
+    "byType": {
+      "detached": {
+        "avg": 281364,
+        "count": 631
+      },
+      "semi": {
+        "avg": 193246,
+        "count": 1099
+      },
+      "terraced": {
+        "avg": 157912,
+        "count": 656
+      },
+      "flat": {
+        "avg": 99339,
+        "count": 84
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 247284
+      },
+      {
+        "year": 2024,
+        "avg": 225471
+      },
+      {
+        "year": 2025,
+        "avg": 210132
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 96.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 19.2,
+    "byType": {
+      "violentCrime": 43.2,
+      "burglary": 2.6,
+      "vehicleCrime": 3.8,
+      "antisocialBehaviour": 11.3,
+      "otherTheft": 15.2,
+      "other": 20.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 29,
+    "outstanding": 0,
+    "good": 10,
+    "requiresImprovement": 3,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Lord Street Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Alvaston Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Shelton Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Oakwood Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Redwood Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 117493,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 10,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 393,
+    "avgUpload": 71,
+    "superfastPct": 99,
+    "ultrafastPct": 98,
+    "gigabitPct": 98,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Derbyshire",
+    "bandD": 2033,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.5,
+    "imdRank": 12057,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DE24 encompasses DERBY and its surrounding areas in Derbyshire, East Midlands.",
+    "priceVsCounty": "The average property price in DE24 is £228,823, which is 21% below the Derbyshire average of £289,862.",
+    "priceVsNational": "Properties in DE24 cost 20.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DE24 have fallen 6.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 96.9 recorded crimes per 1,000 residents, DE24 has a crime rate 19% above the national average of 81.3 per 1,000.",
+    "schoolContext": "DE24 has 29 schools within or near its boundaries, including 10 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DE24 are 393.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DE24 (DERBY) offers affordable property prices (£228,823, 20% below national average), higher-than-average crime (19% above national average), 29 nearby schools, and excellent broadband (393 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 289862,
+      "crime": 75,
+      "broadband": 393
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 393
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

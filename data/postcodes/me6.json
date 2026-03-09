@@ -1,0 +1,198 @@
+{
+  "code": "ME6",
+  "name": "SNODLAND",
+  "county": "kent",
+  "region": "south-east",
+  "city": "medway",
+  "adjacent": [
+    "ME5",
+    "ME7",
+    "ME8"
+  ],
+  "property": {
+    "avgPrice": 308591,
+    "medianPrice": 305000,
+    "priceChange1y": 8.6,
+    "priceChange5y": 0,
+    "transactions12m": 528,
+    "byType": {
+      "detached": {
+        "avg": 461972,
+        "count": 44
+      },
+      "semi": {
+        "avg": 344824,
+        "count": 158
+      },
+      "terraced": {
+        "avg": 293496,
+        "count": 232
+      },
+      "flat": {
+        "avg": 206705,
+        "count": 85
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 306010
+      },
+      {
+        "year": 2024,
+        "avg": 297403
+      },
+      {
+        "year": 2025,
+        "avg": 322941
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 33.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -59.3,
+    "byType": {
+      "violentCrime": 10.6,
+      "burglary": 0.7,
+      "vehicleCrime": 1.7,
+      "antisocialBehaviour": 9.8,
+      "otherTheft": 3.5,
+      "other": 6.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Snodland CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Valley Invicta Primary School at Holborough Lakes",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Grow 19 LTD",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Katherine's School & Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Holmesdale School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 136853,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 15,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 327,
+    "avgUpload": 59,
+    "superfastPct": 97,
+    "ultrafastPct": 85,
+    "gigabitPct": 77,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Medway Council",
+    "bandD": 2268,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.3,
+    "imdRank": 11005,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ME6 encompasses SNODLAND and its surrounding areas in Kent, South East.",
+    "priceVsCounty": "The average property price in ME6 is £308,591, which is 32% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in ME6 cost 7.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ME6 have risen 8.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 33.1 recorded crimes per 1,000 residents, ME6 has a crime rate well 59% below the national average of 81.3 per 1,000.",
+    "schoolContext": "ME6 has 5 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ME6 are 327.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "ME6 (SNODLAND) offers property prices near the national average (£308,591), low crime (59% below national average), 5 nearby schools, and excellent broadband (327 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 327
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 327
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

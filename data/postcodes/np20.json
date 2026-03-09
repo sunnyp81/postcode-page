@@ -1,0 +1,196 @@
+{
+  "code": "NP20",
+  "name": "NEWPORT",
+  "county": "gwent",
+  "region": "wales",
+  "city": "newport",
+  "adjacent": [
+    "NP19",
+    "NP22"
+  ],
+  "property": {
+    "avgPrice": 227235,
+    "medianPrice": 187000,
+    "priceChange1y": 5,
+    "priceChange5y": 0,
+    "transactions12m": 2218,
+    "byType": {
+      "detached": {
+        "avg": 392004,
+        "count": 265
+      },
+      "semi": {
+        "avg": 240436,
+        "count": 753
+      },
+      "terraced": {
+        "avg": 176711,
+        "count": 768
+      },
+      "flat": {
+        "avg": 126686,
+        "count": 337
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 223754
+      },
+      {
+        "year": 2024,
+        "avg": 224200
+      },
+      {
+        "year": 2025,
+        "avg": 235328
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 111,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 36.5,
+    "byType": {
+      "violentCrime": 35.6,
+      "burglary": 3.1,
+      "vehicleCrime": 3.2,
+      "antisocialBehaviour": 20,
+      "otherTheft": 20.6,
+      "other": 28.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 23,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Clytha Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Crindau Junior & Infant School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Maesglas C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Malpas Court Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Woolos Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 167899,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 347,
+    "avgUpload": 62,
+    "superfastPct": 96,
+    "ultrafastPct": 86,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newport Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "NP20 is the postcode district for NEWPORT, located in Gwent, Wales.",
+    "priceVsCounty": "The average property price in NP20 is £227,235, which is 17% below the Gwent average of £273,109.",
+    "priceVsNational": "Properties in NP20 cost 20.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NP20 have risen 5.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 111.0 recorded crimes per 1,000 residents, NP20 has a crime rate significantly 37% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NP20 has 23 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NP20 are 347.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NP20 (NEWPORT) offers affordable property prices (£227,235, 21% below national average), higher-than-average crime (37% above national average), 23 nearby schools, and excellent broadband (347 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 273109,
+      "crime": 75,
+      "broadband": 347
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 347
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "B42",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B43",
+    "B44"
+  ],
+  "property": {
+    "avgPrice": 220870,
+    "medianPrice": 215000,
+    "priceChange1y": 1.4,
+    "priceChange5y": 0,
+    "transactions12m": 916,
+    "byType": {
+      "detached": {
+        "avg": 324440,
+        "count": 45
+      },
+      "semi": {
+        "avg": 221013,
+        "count": 496
+      },
+      "terraced": {
+        "avg": 212043,
+        "count": 307
+      },
+      "flat": {
+        "avg": 102671,
+        "count": 41
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 222689
+      },
+      {
+        "year": 2024,
+        "avg": 218633
+      },
+      {
+        "year": 2025,
+        "avg": 221639
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 59.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -26.3,
+    "byType": {
+      "violentCrime": 27.5,
+      "burglary": 3.2,
+      "vehicleCrime": 5.3,
+      "antisocialBehaviour": 3.8,
+      "otherTheft": 7.9,
+      "other": 12.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Perry Beeches Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beeches Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beeches Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Calshot Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Priestley Smith School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 388,
+    "avgUpload": 70,
+    "superfastPct": 97,
+    "ultrafastPct": 97,
+    "gigabitPct": 97,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B42 covers BIRMINGHAM in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B42 is £220,870, which is 34% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B42 cost 23.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B42 have risen 1.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 59.9 recorded crimes per 1,000 residents, B42 has a crime rate well 26% below the national average of 81.3 per 1,000.",
+    "schoolContext": "B42 has 10 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B42 are 388.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B42 (BIRMINGHAM) offers affordable property prices (£220,870, 23% below national average), low crime (26% below national average), 10 nearby schools, and excellent broadband (388 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 388
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 388
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

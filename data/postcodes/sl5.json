@@ -1,0 +1,198 @@
+{
+  "code": "SL5",
+  "name": "ASCOT",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "slough",
+  "adjacent": [
+    "SL4",
+    "SL6",
+    "SL7"
+  ],
+  "property": {
+    "avgPrice": 1067609,
+    "medianPrice": 680000,
+    "priceChange1y": 21.8,
+    "priceChange5y": 0,
+    "transactions12m": 1316,
+    "byType": {
+      "detached": {
+        "avg": 1460020,
+        "count": 431
+      },
+      "semi": {
+        "avg": 641655,
+        "count": 271
+      },
+      "terraced": {
+        "avg": 625563,
+        "count": 211
+      },
+      "flat": {
+        "avg": 599070,
+        "count": 332
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1043203
+      },
+      {
+        "year": 2024,
+        "avg": 990347
+      },
+      {
+        "year": 2025,
+        "avg": 1205966
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 13,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -84,
+    "byType": {
+      "violentCrime": 5.2,
+      "burglary": 0.7,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 1,
+      "otherTheft": 2.2,
+      "other": 3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "South Ascot Village Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ascot Heath Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Holy Trinity CofE Primary School, Sunningdale",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Michael's CofE Primary School, Sunninghill",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cheapside CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 94492,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 10,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 334,
+    "avgUpload": 60,
+    "superfastPct": 98,
+    "ultrafastPct": 81,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Surrey Heath",
+    "bandD": 2248,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.1,
+    "imdRank": 5859,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SL5 encompasses ASCOT and its surrounding areas in Berkshire, South East.",
+    "priceVsCounty": "The average property price in SL5 is £1,067,609, which is 82% above the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in SL5 cost 272.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SL5 have risen 21.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 13.0 recorded crimes per 1,000 residents, SL5 has a crime rate well 84% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SL5 has 15 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SL5 are 334.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SL5 (ASCOT) offers above-average property prices (£1,067,609, 272% above national average), low crime (84% below national average), 15 nearby schools, and excellent broadband (334 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 334
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 334
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

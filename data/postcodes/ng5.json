@@ -1,0 +1,198 @@
+{
+  "code": "NG5",
+  "name": "NOTTINGHAM",
+  "county": "nottinghamshire",
+  "region": "east-midlands",
+  "city": "nottingham",
+  "adjacent": [
+    "NG4",
+    "NG6",
+    "NG7"
+  ],
+  "property": {
+    "avgPrice": 229929,
+    "medianPrice": 208000,
+    "priceChange1y": 0.1,
+    "priceChange5y": 0,
+    "transactions12m": 3603,
+    "byType": {
+      "detached": {
+        "avg": 321418,
+        "count": 852
+      },
+      "semi": {
+        "avg": 221203,
+        "count": 1297
+      },
+      "terraced": {
+        "avg": 182171,
+        "count": 959
+      },
+      "flat": {
+        "avg": 122665,
+        "count": 396
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 218506
+      },
+      {
+        "year": 2024,
+        "avg": 235173
+      },
+      {
+        "year": 2025,
+        "avg": 235452
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 102.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 26.3,
+    "byType": {
+      "violentCrime": 35.6,
+      "burglary": 2.1,
+      "vehicleCrime": 2.4,
+      "antisocialBehaviour": 18.7,
+      "otherTheft": 19.4,
+      "other": 24.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 39,
+    "outstanding": 2,
+    "good": 14,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Carrington Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Heathfield Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Rise Park Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Haydn Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Woodthorpe Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 120179,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 10,
+    "privateRent": 14,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 382,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 95,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Gedling",
+    "bandD": 2288,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.9,
+    "imdRank": 12438,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NG5 is the postcode district for NOTTINGHAM, located in Nottinghamshire, East Midlands.",
+    "priceVsCounty": "The average property price in NG5 is £229,929, which is 66% below the Nottinghamshire average of £678,596.",
+    "priceVsNational": "Properties in NG5 cost 19.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NG5 have risen 0.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 102.7 recorded crimes per 1,000 residents, NG5 has a crime rate significantly 26% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NG5 has 39 schools within or near its boundaries, including 2 rated Outstanding and 14 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NG5 are 382.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NG5 (NOTTINGHAM) offers affordable property prices (£229,929, 20% below national average), higher-than-average crime (26% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (382 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 678596,
+      "crime": 75,
+      "broadband": 382
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 382
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

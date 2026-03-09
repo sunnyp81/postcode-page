@@ -1,0 +1,198 @@
+{
+  "code": "TW15",
+  "name": "ASHFORD",
+  "county": "greater-london",
+  "region": "london",
+  "city": "twickenham",
+  "adjacent": [
+    "TW14",
+    "TW16",
+    "TW17"
+  ],
+  "property": {
+    "avgPrice": 457721,
+    "medianPrice": 439400,
+    "priceChange1y": -2.2,
+    "priceChange5y": 0,
+    "transactions12m": 1212,
+    "byType": {
+      "detached": {
+        "avg": 576280,
+        "count": 198
+      },
+      "semi": {
+        "avg": 494141,
+        "count": 460
+      },
+      "terraced": {
+        "avg": 426769,
+        "count": 205
+      },
+      "flat": {
+        "avg": 271521,
+        "count": 310
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 455980
+      },
+      {
+        "year": 2024,
+        "avg": 462989
+      },
+      {
+        "year": 2025,
+        "avg": 452799
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 33.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -58.9,
+    "byType": {
+      "violentCrime": 10.8,
+      "burglary": 1.5,
+      "vehicleCrime": 1.9,
+      "antisocialBehaviour": 5.4,
+      "otherTheft": 6.5,
+      "other": 7.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St James Senior Boys' School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Clarendon Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ashford Park Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ashford CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Thomas Knyvett College",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 299424,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 21,
+    "privateRent": 29,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 363,
+    "avgUpload": 65,
+    "superfastPct": 95,
+    "ultrafastPct": 90,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hounslow",
+    "bandD": 1882,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.5,
+    "imdRank": 18652,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TW15 covers ASHFORD in Greater London, London.",
+    "priceVsCounty": "The average property price in TW15 is £457,721, which is 65% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in TW15 cost 59.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TW15 have fallen 2.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 33.4 recorded crimes per 1,000 residents, TW15 has a crime rate well 59% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TW15 has 9 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TW15 are 363.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TW15 (ASHFORD) offers above-average property prices (£457,721, 59% above national average), low crime (59% below national average), 9 nearby schools, and excellent broadband (363 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 363
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 363
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

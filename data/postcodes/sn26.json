@@ -1,0 +1,176 @@
+{
+  "code": "SN26",
+  "name": "SWINDON",
+  "county": "wiltshire",
+  "region": "south-west",
+  "city": "swindon",
+  "adjacent": [
+    "SN25"
+  ],
+  "property": {
+    "avgPrice": 433517,
+    "medianPrice": 400000,
+    "priceChange1y": -4.3,
+    "priceChange5y": 0,
+    "transactions12m": 159,
+    "byType": {
+      "detached": {
+        "avg": 489205,
+        "count": 105
+      },
+      "semi": {
+        "avg": 342741,
+        "count": 27
+      },
+      "terraced": {
+        "avg": 311795,
+        "count": 22
+      },
+      "flat": {
+        "avg": 237250,
+        "count": 4
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 435029
+      },
+      {
+        "year": 2024,
+        "avg": 439635
+      },
+      {
+        "year": 2025,
+        "avg": 420689
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 12,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -85.2,
+    "byType": {
+      "violentCrime": 3.5,
+      "burglary": 0.2,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1.6,
+      "otherTheft": 4.7,
+      "other": 1.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Leonard's Church of England Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 243875,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 16,
+    "privateRent": 18,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 222,
+    "avgUpload": 40,
+    "superfastPct": 84,
+    "ultrafastPct": 59,
+    "gigabitPct": 47,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swindon Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.6,
+    "imdRank": 14382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SN26 is the postcode district for SWINDON, located in Wiltshire, South West.",
+    "priceVsCounty": "The average property price in SN26 is £433,517, which is 9% above the Wiltshire average of £397,459.",
+    "priceVsNational": "Properties in SN26 cost 51.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SN26 have fallen 4.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 12.0 recorded crimes per 1,000 residents, SN26 has a crime rate well 85% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SN26 has 1 school within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SN26 are 222.0 Mbps, with 99% of premises having access to superfast broadband and 76% with full fibre (FTTP) connectivity.",
+    "synthesis": "SN26 (SWINDON) offers above-average property prices (£433,517, 51% above national average), low crime (85% below national average), 1 nearby school, and excellent broadband (222 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 397459,
+      "crime": 75,
+      "broadband": 222
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 222
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

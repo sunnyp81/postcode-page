@@ -1,0 +1,198 @@
+{
+  "code": "GU10",
+  "name": "FARNHAM",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU9",
+    "GU11",
+    "GU12"
+  ],
+  "property": {
+    "avgPrice": 809849,
+    "medianPrice": 635000,
+    "priceChange1y": -1.1,
+    "priceChange5y": 0,
+    "transactions12m": 1155,
+    "byType": {
+      "detached": {
+        "avg": 1032072,
+        "count": 552
+      },
+      "semi": {
+        "avg": 572012,
+        "count": 306
+      },
+      "terraced": {
+        "avg": 418623,
+        "count": 158
+      },
+      "flat": {
+        "avg": 289669,
+        "count": 75
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 812247
+      },
+      {
+        "year": 2024,
+        "avg": 812176
+      },
+      {
+        "year": 2025,
+        "avg": 803380
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 13.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -82.9,
+    "byType": {
+      "violentCrime": 5.9,
+      "burglary": 0.7,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 2.4,
+      "otherTheft": 1.7,
+      "other": 2.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bentley Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Rowledge Church of England Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Paul's CofE Primary School & Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary's CofE Aided Infant School, Frensham",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John's CofE Aided Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 103162,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 9,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 161,
+    "avgUpload": 29,
+    "superfastPct": 86,
+    "ultrafastPct": 34,
+    "gigabitPct": 32,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hart",
+    "bandD": 2079,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 5.5,
+    "imdRank": 3284,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU10 is the postcode district for FARNHAM, located in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU10 is £809,849, which is 32% above the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU10 cost 182.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU10 have fallen 1.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 13.9 recorded crimes per 1,000 residents, GU10 has a crime rate well 83% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU10 has 13 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU10 are 161.0 Mbps, with 94% of premises having access to superfast broadband and 59% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU10 (FARNHAM) offers above-average property prices (£809,849, 182% above national average), low crime (83% below national average), 13 nearby schools, and excellent broadband (161 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 161
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 161
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

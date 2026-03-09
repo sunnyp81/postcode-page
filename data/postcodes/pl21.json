@@ -1,0 +1,198 @@
+{
+  "code": "PL21",
+  "name": "IVYBRIDGE",
+  "county": "devon",
+  "region": "south-west",
+  "city": "plymouth",
+  "adjacent": [
+    "PL20",
+    "PL22",
+    "PL23"
+  ],
+  "property": {
+    "avgPrice": 356287,
+    "medianPrice": 305000,
+    "priceChange1y": -4,
+    "priceChange5y": 0,
+    "transactions12m": 1097,
+    "byType": {
+      "detached": {
+        "avg": 464841,
+        "count": 381
+      },
+      "semi": {
+        "avg": 292735,
+        "count": 303
+      },
+      "terraced": {
+        "avg": 255710,
+        "count": 301
+      },
+      "flat": {
+        "avg": 173392,
+        "count": 51
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 369973
+      },
+      {
+        "year": 2024,
+        "avg": 356206
+      },
+      {
+        "year": 2025,
+        "avg": 341961
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 15.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -80.7,
+    "byType": {
+      "violentCrime": 6.7,
+      "burglary": 0.6,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 3.2,
+      "otherTheft": 1.7,
+      "other": 3.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Erme Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Modbury Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cornwood Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Ivybridge Community College",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Stowford School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 92148,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 12,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 211,
+    "avgUpload": 38,
+    "superfastPct": 85,
+    "ultrafastPct": 47,
+    "gigabitPct": 47,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Hams",
+    "bandD": 2261,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.7,
+    "imdRank": 12057,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PL21 covers IVYBRIDGE in Devon, South West.",
+    "priceVsCounty": "The average property price in PL21 is £356,287, which is 8% below the Devon average of £385,452.",
+    "priceVsNational": "Properties in PL21 cost 24.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PL21 have fallen 4.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 15.7 recorded crimes per 1,000 residents, PL21 has a crime rate well 81% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PL21 has 9 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PL21 are 211.0 Mbps, with 99% of premises having access to superfast broadband and 73% with full fibre (FTTP) connectivity.",
+    "synthesis": "PL21 (IVYBRIDGE) offers above-average property prices (£356,287, 24% above national average), low crime (81% below national average), 9 nearby schools, and excellent broadband (211 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 211
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 211
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

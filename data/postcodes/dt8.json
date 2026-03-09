@@ -1,0 +1,197 @@
+{
+  "code": "DT8",
+  "name": "BEAMINSTER",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "dorchester",
+  "adjacent": [
+    "DT7",
+    "DT9",
+    "DT10"
+  ],
+  "property": {
+    "avgPrice": 426263,
+    "medianPrice": 359000,
+    "priceChange1y": 0,
+    "priceChange5y": 0,
+    "transactions12m": 309,
+    "byType": {
+      "detached": {
+        "avg": 503856,
+        "count": 119
+      },
+      "semi": {
+        "avg": 350994,
+        "count": 92
+      },
+      "terraced": {
+        "avg": 332996,
+        "count": 70
+      },
+      "flat": {
+        "avg": 144250,
+        "count": 12
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 431700
+      },
+      {
+        "year": 2024,
+        "avg": 423037
+      },
+      {
+        "year": 2025,
+        "avg": 422865
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.7,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.3,
+      "otherTheft": 0.1,
+      "other": 0.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Broadwindsor Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Parrett and Axe Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beaminster School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Mountjoy School",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Beaminster St Mary's Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 23666,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 237,
+    "avgUpload": 43,
+    "superfastPct": 90,
+    "ultrafastPct": 54,
+    "gigabitPct": 54,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Dorchester Council",
+    "bandD": 2115,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DT8 is the postcode district for BEAMINSTER, located in Dorset, South West.",
+    "priceVsCounty": "The average property price in DT8 is £426,263, broadly in line with the Dorset average of £425,376.",
+    "priceVsNational": "Properties in DT8 cost 48.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DT8 have risen 0.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, DT8 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DT8 has 5 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DT8 are 237.0 Mbps, with 99% of premises having access to superfast broadband and 80% with full fibre (FTTP) connectivity.",
+    "synthesis": "DT8 (BEAMINSTER) offers above-average property prices (£426,263, 49% above national average), low crime (94% below national average), 5 nearby schools, and excellent broadband (237 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 237
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 237
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

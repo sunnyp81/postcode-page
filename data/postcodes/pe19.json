@@ -1,0 +1,197 @@
+{
+  "code": "PE19",
+  "name": "ST NEOTS",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "peterborough",
+  "adjacent": [
+    "PE20",
+    "PE21"
+  ],
+  "property": {
+    "avgPrice": 363074,
+    "medianPrice": 330000,
+    "priceChange1y": 0.5,
+    "priceChange5y": 0,
+    "transactions12m": 2737,
+    "byType": {
+      "detached": {
+        "avg": 481788,
+        "count": 831
+      },
+      "semi": {
+        "avg": 337019,
+        "count": 745
+      },
+      "terraced": {
+        "avg": 284087,
+        "count": 674
+      },
+      "flat": {
+        "avg": 184045,
+        "count": 386
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 368653
+      },
+      {
+        "year": 2024,
+        "avg": 359526
+      },
+      {
+        "year": 2025,
+        "avg": 361353
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 43.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -47,
+    "byType": {
+      "violentCrime": 15.3,
+      "burglary": 1,
+      "vehicleCrime": 2.3,
+      "antisocialBehaviour": 8.8,
+      "otherTheft": 5.6,
+      "other": 10.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Priory Park Infant School & Pre-School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Priory Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Newton Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Little Paxton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Great Paxton CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 194976,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 16,
+    "privateRent": 17,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 331,
+    "avgUpload": 60,
+    "superfastPct": 95,
+    "ultrafastPct": 82,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Peterborough Council",
+    "bandD": 2372,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.9,
+    "imdRank": 15291,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PE19 covers ST NEOTS in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in PE19 is £363,074, which is 5% below the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in PE19 cost 26.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PE19 have risen 0.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 43.1 recorded crimes per 1,000 residents, PE19 has a crime rate well 47% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PE19 has 21 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PE19 are 331.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PE19 (ST NEOTS) offers above-average property prices (£363,074, 27% above national average), low crime (47% below national average), 21 nearby schools, and excellent broadband (331 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 331
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 331
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

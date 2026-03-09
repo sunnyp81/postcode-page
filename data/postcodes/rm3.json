@@ -1,0 +1,198 @@
+{
+  "code": "RM3",
+  "name": "ROMFORD",
+  "county": "greater-london",
+  "region": "london",
+  "city": "romford",
+  "adjacent": [
+    "RM2",
+    "RM4",
+    "RM5"
+  ],
+  "property": {
+    "avgPrice": 419272,
+    "medianPrice": 395000,
+    "priceChange1y": 1.3,
+    "priceChange5y": 0,
+    "transactions12m": 1540,
+    "byType": {
+      "detached": {
+        "avg": 569287,
+        "count": 85
+      },
+      "semi": {
+        "avg": 461572,
+        "count": 424
+      },
+      "terraced": {
+        "avg": 394993,
+        "count": 644
+      },
+      "flat": {
+        "avg": 252325,
+        "count": 352
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 426562
+      },
+      {
+        "year": 2024,
+        "avg": 413065
+      },
+      {
+        "year": 2025,
+        "avg": 418373
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 80.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -0.6,
+    "byType": {
+      "violentCrime": 26.8,
+      "burglary": 2.8,
+      "vehicleCrime": 6.7,
+      "antisocialBehaviour": 17,
+      "otherTheft": 11.7,
+      "other": 15.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Harold Wood Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Harold Court Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Broadford Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Mead Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hilldene Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 276274,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 14,
+    "privateRent": 14,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 352,
+    "avgUpload": 63,
+    "superfastPct": 98,
+    "ultrafastPct": 87,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Havering",
+    "bandD": 2088,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.8,
+    "imdRank": 14036,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RM3 covers ROMFORD in Greater London, London.",
+    "priceVsCounty": "The average property price in RM3 is £419,272, which is 68% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in RM3 cost 46.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RM3 have risen 1.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "RM3 has a crime rate of 80.8 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "RM3 has 16 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RM3 are 352.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RM3 (ROMFORD) offers above-average property prices (£419,272, 46% above national average), 16 nearby schools, and excellent broadband (352 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 352
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 352
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

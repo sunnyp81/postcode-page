@@ -1,0 +1,198 @@
+{
+  "code": "PL2",
+  "name": "PLYMOUTH",
+  "county": "devon",
+  "region": "south-west",
+  "city": "plymouth",
+  "adjacent": [
+    "PL1",
+    "PL3",
+    "PL4"
+  ],
+  "property": {
+    "avgPrice": 195706,
+    "medianPrice": 185000,
+    "priceChange1y": 5.3,
+    "priceChange5y": 0,
+    "transactions12m": 1474,
+    "byType": {
+      "detached": {
+        "avg": 327894,
+        "count": 33
+      },
+      "semi": {
+        "avg": 240771,
+        "count": 361
+      },
+      "terraced": {
+        "avg": 192688,
+        "count": 844
+      },
+      "flat": {
+        "avg": 113856,
+        "count": 210
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 191223
+      },
+      {
+        "year": 2024,
+        "avg": 193190
+      },
+      {
+        "year": 2025,
+        "avg": 203491
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 111.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 36.9,
+    "byType": {
+      "violentCrime": 52.2,
+      "burglary": 2.5,
+      "vehicleCrime": 4.1,
+      "antisocialBehaviour": 15.2,
+      "otherTheft": 14.4,
+      "other": 22.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ham Drive Nursery School and Day Care",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "College Road Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pennycross Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Devonport High School for Girls",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Mayflower Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 272067,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 18,
+    "privateRent": 20,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 382,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 95,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Plymouth Council",
+    "bandD": 2319,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.6,
+    "imdRank": 19859,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PL2 encompasses PLYMOUTH and its surrounding areas in Devon, South West.",
+    "priceVsCounty": "The average property price in PL2 is £195,706, which is 49% below the Devon average of £385,452.",
+    "priceVsNational": "Properties in PL2 cost 31.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PL2 have risen 5.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 111.3 recorded crimes per 1,000 residents, PL2 has a crime rate significantly 37% above the national average of 81.3 per 1,000.",
+    "schoolContext": "PL2 has 11 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PL2 are 382.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PL2 (PLYMOUTH) offers affordable property prices (£195,706, 32% below national average), higher-than-average crime (37% above national average), 11 nearby schools, and excellent broadband (382 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 382
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 382
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

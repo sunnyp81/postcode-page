@@ -1,0 +1,197 @@
+{
+  "code": "SO50",
+  "name": "EASTLEIGH",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "southampton",
+  "adjacent": [
+    "SO51",
+    "SO52"
+  ],
+  "property": {
+    "avgPrice": 338300,
+    "medianPrice": 315000,
+    "priceChange1y": -5.6,
+    "priceChange5y": 0,
+    "transactions12m": 2244,
+    "byType": {
+      "detached": {
+        "avg": 493827,
+        "count": 458
+      },
+      "semi": {
+        "avg": 354511,
+        "count": 603
+      },
+      "terraced": {
+        "avg": 288403,
+        "count": 636
+      },
+      "flat": {
+        "avg": 195329,
+        "count": 465
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 339721
+      },
+      {
+        "year": 2024,
+        "avg": 346780
+      },
+      {
+        "year": 2025,
+        "avg": 327278
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 52.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -35.5,
+    "byType": {
+      "violentCrime": 26.7,
+      "burglary": 1.1,
+      "vehicleCrime": 1.2,
+      "antisocialBehaviour": 5.1,
+      "otherTheft": 7.7,
+      "other": 10.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Bridge Education Centre",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stoke Park Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stoke Park Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Crescent Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cherbourg Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 135201,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 14,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 330,
+    "avgUpload": 59,
+    "superfastPct": 97,
+    "ultrafastPct": 80,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Test Valley",
+    "bandD": 1996,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.9,
+    "imdRank": 9889,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SO50 encompasses EASTLEIGH and its surrounding areas in Hampshire, South East.",
+    "priceVsCounty": "The average property price in SO50 is £338,300, which is 22% below the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in SO50 cost 17.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SO50 have fallen 5.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 52.4 recorded crimes per 1,000 residents, SO50 has a crime rate well 36% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SO50 has 17 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SO50 are 330.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SO50 (EASTLEIGH) offers property prices near the national average (£338,300), low crime (36% below national average), 17 nearby schools, and excellent broadband (330 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 330
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 330
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

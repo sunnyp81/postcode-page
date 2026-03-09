@@ -1,0 +1,178 @@
+{
+  "code": "IP15",
+  "name": "ALDEBURGH",
+  "county": "suffolk",
+  "region": "east-of-england",
+  "city": "ipswich",
+  "adjacent": [
+    "IP14",
+    "IP16",
+    "IP17"
+  ],
+  "property": {
+    "avgPrice": 647872,
+    "medianPrice": 512500,
+    "priceChange1y": 27.9,
+    "priceChange5y": 0,
+    "transactions12m": 160,
+    "byType": {
+      "detached": {
+        "avg": 794920,
+        "count": 70
+      },
+      "semi": {
+        "avg": 555000,
+        "count": 25
+      },
+      "terraced": {
+        "avg": 615244,
+        "count": 41
+      },
+      "flat": {
+        "avg": 365441,
+        "count": 16
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 638500
+      },
+      {
+        "year": 2024,
+        "avg": 582738
+      },
+      {
+        "year": 2025,
+        "avg": 745531
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.7,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.2,
+      "other": 0.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Aldeburgh Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 22092,
+    "medianAge": 41,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 13,
+    "privateRent": 21,
+    "economicallyActive": 76,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 202,
+    "avgUpload": 36,
+    "superfastPct": 98,
+    "ultrafastPct": 43,
+    "gigabitPct": 43,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Suffolk",
+    "bandD": 2019,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.6,
+    "imdRank": 15274,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IP15 covers ALDEBURGH in Suffolk, East Of England.",
+    "priceVsCounty": "The average property price in IP15 is £647,872, which is 71% above the Suffolk average of £379,904.",
+    "priceVsNational": "Properties in IP15 cost 125.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IP15 have risen 27.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, IP15 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IP15 has 1 school within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IP15 are 202.0 Mbps, with 99% of premises having access to superfast broadband and 71% with full fibre (FTTP) connectivity.",
+    "synthesis": "IP15 (ALDEBURGH) offers above-average property prices (£647,872, 126% above national average), low crime (94% below national average), 1 nearby school, and excellent broadband (202 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 379904,
+      "crime": 75,
+      "broadband": 202
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 202
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

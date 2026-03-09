@@ -1,0 +1,197 @@
+{
+  "code": "DE23",
+  "name": "DERBY",
+  "county": "derbyshire",
+  "region": "east-midlands",
+  "city": "derby",
+  "adjacent": [
+    "DE22",
+    "DE24"
+  ],
+  "property": {
+    "avgPrice": 232631,
+    "medianPrice": 200000,
+    "priceChange1y": -2.3,
+    "priceChange5y": 0,
+    "transactions12m": 1731,
+    "byType": {
+      "detached": {
+        "avg": 360507,
+        "count": 451
+      },
+      "semi": {
+        "avg": 221064,
+        "count": 578
+      },
+      "terraced": {
+        "avg": 146427,
+        "count": 559
+      },
+      "flat": {
+        "avg": 99216,
+        "count": 93
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 225246
+      },
+      {
+        "year": 2024,
+        "avg": 239161
+      },
+      {
+        "year": 2025,
+        "avg": 233593
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 128.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 57.7,
+    "byType": {
+      "violentCrime": 63,
+      "burglary": 2.1,
+      "vehicleCrime": 4.5,
+      "antisocialBehaviour": 17.1,
+      "otherTheft": 10.5,
+      "other": 30.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 28,
+    "outstanding": 2,
+    "good": 7,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Harrington Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Walbrook Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stonehill Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dale Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pear Tree Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 117493,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 10,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 391,
+    "avgUpload": 70,
+    "superfastPct": 100,
+    "ultrafastPct": 98,
+    "gigabitPct": 97,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Derbyshire",
+    "bandD": 2033,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.5,
+    "imdRank": 12057,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DE23 is the postcode district for DERBY, located in Derbyshire, East Midlands.",
+    "priceVsCounty": "The average property price in DE23 is £232,631, which is 20% below the Derbyshire average of £289,862.",
+    "priceVsNational": "Properties in DE23 cost 18.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DE23 have fallen 2.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 128.2 recorded crimes per 1,000 residents, DE23 has a crime rate significantly 58% above the national average of 81.3 per 1,000.",
+    "schoolContext": "DE23 has 28 schools within or near its boundaries, including 2 rated Outstanding and 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DE23 are 391.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DE23 (DERBY) offers affordable property prices (£232,631, 19% below national average), higher-than-average crime (58% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (391 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 289862,
+      "crime": 75,
+      "broadband": 391
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 391
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

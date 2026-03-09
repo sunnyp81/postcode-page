@@ -1,0 +1,198 @@
+{
+  "code": "SS4",
+  "name": "ROCHFORD",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "southend-on-sea",
+  "adjacent": [
+    "SS3",
+    "SS5",
+    "SS6"
+  ],
+  "property": {
+    "avgPrice": 397720,
+    "medianPrice": 360000,
+    "priceChange1y": 3,
+    "priceChange5y": 0,
+    "transactions12m": 1036,
+    "byType": {
+      "detached": {
+        "avg": 556612,
+        "count": 270
+      },
+      "semi": {
+        "avg": 367370,
+        "count": 423
+      },
+      "terraced": {
+        "avg": 323710,
+        "count": 130
+      },
+      "flat": {
+        "avg": 168815,
+        "count": 154
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 413250
+      },
+      {
+        "year": 2024,
+        "avg": 386160
+      },
+      {
+        "year": 2025,
+        "avg": 397648
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 22.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -72.4,
+    "byType": {
+      "violentCrime": 12,
+      "burglary": 0.4,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 1.7,
+      "otherTheft": 2,
+      "other": 5.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Holt Farm Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Poplar Adolescent Unit",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The King Edmund School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lift Ashingdon",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Rochford Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 89815,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 37,
+    "socialRent": 8,
+    "privateRent": 9,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 345,
+    "avgUpload": 62,
+    "superfastPct": 96,
+    "ultrafastPct": 86,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Rochford",
+    "bandD": 2076,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10.4,
+    "imdRank": 8121,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SS4 encompasses ROCHFORD and its surrounding areas in Essex, East Of England.",
+    "priceVsCounty": "The average property price in SS4 is £397,720, which is 7% below the Essex average of £429,754.",
+    "priceVsNational": "Properties in SS4 cost 38.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SS4 have risen 3.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 22.4 recorded crimes per 1,000 residents, SS4 has a crime rate well 72% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SS4 has 10 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SS4 are 345.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SS4 (ROCHFORD) offers above-average property prices (£397,720, 39% above national average), low crime (72% below national average), 10 nearby schools, and excellent broadband (345 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 345
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 345
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

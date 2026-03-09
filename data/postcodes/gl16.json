@@ -1,0 +1,197 @@
+{
+  "code": "GL16",
+  "name": "COLEFORD",
+  "county": "gloucestershire",
+  "region": "south-west",
+  "city": "gloucester",
+  "adjacent": [
+    "GL15",
+    "GL17",
+    "GL18"
+  ],
+  "property": {
+    "avgPrice": 302436,
+    "medianPrice": 275000,
+    "priceChange1y": -8.3,
+    "priceChange5y": 0,
+    "transactions12m": 633,
+    "byType": {
+      "detached": {
+        "avg": 376271,
+        "count": 266
+      },
+      "semi": {
+        "avg": 243488,
+        "count": 188
+      },
+      "terraced": {
+        "avg": 202797,
+        "count": 90
+      },
+      "flat": {
+        "avg": 127767,
+        "count": 39
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 301228
+      },
+      {
+        "year": 2024,
+        "avg": 314595
+      },
+      {
+        "year": 2025,
+        "avg": 288445
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 22.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -72,
+    "byType": {
+      "violentCrime": 8.6,
+      "burglary": 0.8,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 5.7,
+      "otherTheft": 2.3,
+      "other": 5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Berry Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Coalway Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Coalway Community Infant School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Ellwood Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Clearwell Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 94930,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 316,
+    "avgUpload": 57,
+    "superfastPct": 98,
+    "ultrafastPct": 76,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Gloucester Council",
+    "bandD": 2219,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "GL16 is the postcode district for COLEFORD, located in Gloucestershire, South West.",
+    "priceVsCounty": "The average property price in GL16 is £302,436, which is 31% below the Gloucestershire average of £441,384.",
+    "priceVsNational": "Properties in GL16 cost 5.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GL16 have fallen 8.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 22.8 recorded crimes per 1,000 residents, GL16 has a crime rate well 72% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GL16 has 9 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GL16 are 316.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GL16 (COLEFORD) offers property prices near the national average (£302,436), low crime (72% below national average), 9 nearby schools, and excellent broadband (316 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 441384,
+      "crime": 75,
+      "broadband": 316
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 316
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

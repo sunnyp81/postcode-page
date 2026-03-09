@@ -1,0 +1,198 @@
+{
+  "code": "PR4",
+  "name": "PRESTON",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "preston",
+  "adjacent": [
+    "PR3",
+    "PR5",
+    "PR6"
+  ],
+  "property": {
+    "avgPrice": 295403,
+    "medianPrice": 256248,
+    "priceChange1y": -2.3,
+    "priceChange5y": 0,
+    "transactions12m": 3962,
+    "byType": {
+      "detached": {
+        "avg": 381735,
+        "count": 1846
+      },
+      "semi": {
+        "avg": 219990,
+        "count": 1314
+      },
+      "terraced": {
+        "avg": 168508,
+        "count": 533
+      },
+      "flat": {
+        "avg": 106446,
+        "count": 84
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 288006
+      },
+      {
+        "year": 2024,
+        "avg": 302543
+      },
+      {
+        "year": 2025,
+        "avg": 295677
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.1,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 39,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 2,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Kirkham and Wesham Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Little Hoole Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tarleton Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Catforth Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Weeton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 116113,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 10,
+    "privateRent": 11,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 256,
+    "avgUpload": 46,
+    "superfastPct": 91,
+    "ultrafastPct": 60,
+    "gigabitPct": 59,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Ribble",
+    "bandD": 2142,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.3,
+    "imdRank": 12410,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PR4 is the postcode district for PRESTON, located in Lancashire, North West.",
+    "priceVsCounty": "The average property price in PR4 is £295,403, which is 16% above the Lancashire average of £254,476.",
+    "priceVsNational": "Property values in PR4 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in PR4 have fallen 2.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, PR4 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PR4 has 39 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PR4 are 256.0 Mbps, with 99% of premises having access to superfast broadband and 85% with full fibre (FTTP) connectivity.",
+    "synthesis": "PR4 (PRESTON) offers property prices near the national average (£295,403), low crime (94% below national average), 39 nearby schools, and excellent broadband (256 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 256
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 256
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

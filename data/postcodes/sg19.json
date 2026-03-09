@@ -1,0 +1,196 @@
+{
+  "code": "SG19",
+  "name": "SANDY",
+  "county": "hertfordshire",
+  "region": "east-of-england",
+  "city": "stevenage",
+  "adjacent": [
+    "SG18"
+  ],
+  "property": {
+    "avgPrice": 376734,
+    "medianPrice": 330000,
+    "priceChange1y": 4.4,
+    "priceChange5y": 0,
+    "transactions12m": 1089,
+    "byType": {
+      "detached": {
+        "avg": 537200,
+        "count": 341
+      },
+      "semi": {
+        "avg": 342847,
+        "count": 307
+      },
+      "terraced": {
+        "avg": 271808,
+        "count": 306
+      },
+      "flat": {
+        "avg": 154701,
+        "count": 92
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 371874
+      },
+      {
+        "year": 2024,
+        "avg": 370580
+      },
+      {
+        "year": 2025,
+        "avg": 387033
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.2,
+      "burglary": 0.1,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1.9,
+      "otherTheft": 0.1,
+      "other": 0.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Potton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Robert Peel Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Swithun's Church of England VC Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wrestlingworth CofE Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Sutton CofE VA Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 190619,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 319,
+    "avgUpload": 57,
+    "superfastPct": 93,
+    "ultrafastPct": 78,
+    "gigabitPct": 77,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Huntingdonshire",
+    "bandD": 2192,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.6,
+    "imdRank": 10465,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SG19 encompasses SANDY and its surrounding areas in Hertfordshire, East Of England.",
+    "priceVsCounty": "The average property price in SG19 is £376,734, which is 34% below the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in SG19 cost 31.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SG19 have risen 4.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SG19 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SG19 has 11 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SG19 are 319.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SG19 (SANDY) offers above-average property prices (£376,734, 31% above national average), low crime (94% below national average), 11 nearby schools, and excellent broadband (319 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 319
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 319
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

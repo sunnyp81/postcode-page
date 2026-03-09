@@ -1,0 +1,198 @@
+{
+  "code": "TW3",
+  "name": "HOUNSLOW",
+  "county": "greater-london",
+  "region": "london",
+  "city": "twickenham",
+  "adjacent": [
+    "TW2",
+    "TW4",
+    "TW5"
+  ],
+  "property": {
+    "avgPrice": 462550,
+    "medianPrice": 425000,
+    "priceChange1y": -4.1,
+    "priceChange5y": 0,
+    "transactions12m": 953,
+    "byType": {
+      "detached": {
+        "avg": 712767,
+        "count": 30
+      },
+      "semi": {
+        "avg": 576545,
+        "count": 219
+      },
+      "terraced": {
+        "avg": 479134,
+        "count": 188
+      },
+      "flat": {
+        "avg": 316316,
+        "count": 450
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 460756
+      },
+      {
+        "year": 2024,
+        "avg": 471631
+      },
+      {
+        "year": 2025,
+        "avg": 452106
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 179,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 120.2,
+    "byType": {
+      "violentCrime": 50.3,
+      "burglary": 6.4,
+      "vehicleCrime": 10.1,
+      "antisocialBehaviour": 37,
+      "otherTheft": 44.6,
+      "other": 30.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 2,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hounslow Town Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wellington Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Grove Road Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oaklands School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chatsworth Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 299424,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 21,
+    "privateRent": 29,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 350,
+    "avgUpload": 63,
+    "superfastPct": 96,
+    "ultrafastPct": 86,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hounslow",
+    "bandD": 1882,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.5,
+    "imdRank": 18652,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TW3 covers HOUNSLOW in Greater London, London.",
+    "priceVsCounty": "The average property price in TW3 is £462,550, which is 65% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in TW3 cost 61.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TW3 have fallen 4.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 179.0 recorded crimes per 1,000 residents, TW3 has a crime rate significantly 120% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TW3 has 9 schools within or near its boundaries, including 2 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TW3 are 350.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TW3 (HOUNSLOW) offers above-average property prices (£462,550, 61% above national average), higher-than-average crime (120% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (350 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 350
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 350
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

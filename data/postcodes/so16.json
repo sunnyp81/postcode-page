@@ -1,0 +1,198 @@
+{
+  "code": "SO16",
+  "name": "SOUTHAMPTON",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "southampton",
+  "adjacent": [
+    "SO15",
+    "SO17",
+    "SO18"
+  ],
+  "property": {
+    "avgPrice": 314124,
+    "medianPrice": 265000,
+    "priceChange1y": -4,
+    "priceChange5y": 0,
+    "transactions12m": 2162,
+    "byType": {
+      "detached": {
+        "avg": 550483,
+        "count": 403
+      },
+      "semi": {
+        "avg": 298050,
+        "count": 522
+      },
+      "terraced": {
+        "avg": 262892,
+        "count": 680
+      },
+      "flat": {
+        "avg": 182827,
+        "count": 510
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 298773
+      },
+      {
+        "year": 2024,
+        "avg": 328600
+      },
+      {
+        "year": 2025,
+        "avg": 315489
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 99.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 22.9,
+    "byType": {
+      "violentCrime": 45.9,
+      "burglary": 4.2,
+      "vehicleCrime": 5.5,
+      "antisocialBehaviour": 11,
+      "otherTheft": 11.2,
+      "other": 22.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 27,
+    "outstanding": 3,
+    "good": 7,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Hardmoor Nursery & Early Years Centre - Part of the Learning Federation Partnership of Schools",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Redbridge Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oakwood Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fairisle Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fairisle Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 135201,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 14,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 356,
+    "avgUpload": 64,
+    "superfastPct": 98,
+    "ultrafastPct": 89,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Test Valley",
+    "bandD": 1996,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.9,
+    "imdRank": 9889,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SO16 is the postcode district for SOUTHAMPTON, located in Hampshire, South East.",
+    "priceVsCounty": "The average property price in SO16 is £314,124, which is 27% below the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in SO16 cost 9.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SO16 have fallen 4.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 99.9 recorded crimes per 1,000 residents, SO16 has a crime rate significantly 23% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SO16 has 27 schools within or near its boundaries, including 3 rated Outstanding and 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SO16 are 356.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SO16 (SOUTHAMPTON) offers property prices near the national average (£314,124), higher-than-average crime (23% above national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (356 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 356
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 356
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

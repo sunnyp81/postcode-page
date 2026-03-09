@@ -1,0 +1,198 @@
+{
+  "code": "IP8",
+  "name": "IPSWICH",
+  "county": "suffolk",
+  "region": "east-of-england",
+  "city": "ipswich",
+  "adjacent": [
+    "IP7",
+    "IP9",
+    "IP10"
+  ],
+  "property": {
+    "avgPrice": 350365,
+    "medianPrice": 310000,
+    "priceChange1y": 5,
+    "priceChange5y": 0,
+    "transactions12m": 639,
+    "byType": {
+      "detached": {
+        "avg": 452409,
+        "count": 247
+      },
+      "semi": {
+        "avg": 288185,
+        "count": 202
+      },
+      "terraced": {
+        "avg": 233003,
+        "count": 129
+      },
+      "flat": {
+        "avg": 144077,
+        "count": 21
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 359572
+      },
+      {
+        "year": 2024,
+        "avg": 339393
+      },
+      {
+        "year": 2025,
+        "avg": 356336
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.4,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.1,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Copdock Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Somersham Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bramford Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Belstead House Adult Education Centre",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "One Sixth Form College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 97033,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 185,
+    "avgUpload": 33,
+    "superfastPct": 92,
+    "ultrafastPct": 43,
+    "gigabitPct": 37,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Babergh",
+    "bandD": 2035,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.3,
+    "imdRank": 12339,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IP8 encompasses IPSWICH and its surrounding areas in Suffolk, East Of England.",
+    "priceVsCounty": "The average property price in IP8 is £350,365, which is 8% below the Suffolk average of £379,904.",
+    "priceVsNational": "Properties in IP8 cost 22.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IP8 have risen 5.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, IP8 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IP8 has 8 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IP8 are 185.0 Mbps, with 98% of premises having access to superfast broadband and 66% with full fibre (FTTP) connectivity.",
+    "synthesis": "IP8 (IPSWICH) offers above-average property prices (£350,365, 22% above national average), low crime (94% below national average), 8 nearby schools, and excellent broadband (185 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 379904,
+      "crime": 75,
+      "broadband": 185
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 185
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

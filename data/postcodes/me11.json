@@ -1,0 +1,178 @@
+{
+  "code": "ME11",
+  "name": "QUEENBOROUGH",
+  "county": "kent",
+  "region": "south-east",
+  "city": "medway",
+  "adjacent": [
+    "ME10",
+    "ME12",
+    "ME13"
+  ],
+  "property": {
+    "avgPrice": 310406,
+    "medianPrice": 230000,
+    "priceChange1y": -54.4,
+    "priceChange5y": 0,
+    "transactions12m": 146,
+    "byType": {
+      "detached": {
+        "avg": 322750,
+        "count": 4
+      },
+      "semi": {
+        "avg": 284130,
+        "count": 48
+      },
+      "terraced": {
+        "avg": 217740,
+        "count": 75
+      },
+      "flat": {
+        "avg": 126625,
+        "count": 12
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 252478
+      },
+      {
+        "year": 2024,
+        "avg": 504276
+      },
+      {
+        "year": 2025,
+        "avg": 229806
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 19.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -76,
+    "byType": {
+      "violentCrime": 6.4,
+      "burglary": 0.7,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 2.5,
+      "otherTheft": 5.5,
+      "other": 3.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 1,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Queenborough School and Nursery",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 158379,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 328,
+    "avgUpload": 59,
+    "superfastPct": 95,
+    "ultrafastPct": 82,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swale",
+    "bandD": 2094,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.1,
+    "imdRank": 19995,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ME11 is the postcode district for QUEENBOROUGH, located in Kent, South East.",
+    "priceVsCounty": "The average property price in ME11 is £310,406, which is 31% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in ME11 cost 8.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ME11 have fallen 54.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 19.5 recorded crimes per 1,000 residents, ME11 has a crime rate well 76% below the national average of 81.3 per 1,000.",
+    "schoolContext": "ME11 has 1 school within or near its boundaries, including 1 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ME11 are 328.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "ME11 (QUEENBOROUGH) offers property prices near the national average (£310,406), low crime (76% below national average), 1 nearby school, and excellent broadband (328 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 328
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 328
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

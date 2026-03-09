@@ -1,0 +1,197 @@
+{
+  "code": "CA10",
+  "name": "PENRITH",
+  "county": "cumbria",
+  "region": "north-west",
+  "city": "carlisle",
+  "adjacent": [
+    "CA9",
+    "CA11",
+    "CA12"
+  ],
+  "property": {
+    "avgPrice": 332968,
+    "medianPrice": 285000,
+    "priceChange1y": 3.2,
+    "priceChange5y": 0,
+    "transactions12m": 731,
+    "byType": {
+      "detached": {
+        "avg": 403874,
+        "count": 303
+      },
+      "semi": {
+        "avg": 266498,
+        "count": 190
+      },
+      "terraced": {
+        "avg": 197208,
+        "count": 156
+      },
+      "flat": {
+        "avg": 113887,
+        "count": 19
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 347650
+      },
+      {
+        "year": 2024,
+        "avg": 320224
+      },
+      {
+        "year": 2025,
+        "avg": 330629
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.1,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Clifton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Milburn School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kirkoswald CofE School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Langwathby CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Temple Sowerby CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 144,
+    "avgUpload": 26,
+    "superfastPct": 75,
+    "ultrafastPct": 29,
+    "gigabitPct": 29,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Carlisle Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CA10 is the postcode district for PENRITH, located in Cumbria, North West.",
+    "priceVsCounty": "The average property price in CA10 is £332,968, which is 36% above the Cumbria average of £244,524.",
+    "priceVsNational": "Properties in CA10 cost 16.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CA10 have risen 3.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, CA10 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CA10 has 15 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CA10 are 144.0 Mbps, with 92% of premises having access to superfast broadband and 55% with full fibre (FTTP) connectivity.",
+    "synthesis": "CA10 (PENRITH) offers property prices near the national average (£332,968), low crime (94% below national average), 15 nearby schools, and excellent broadband (144 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 244524,
+      "crime": 75,
+      "broadband": 144
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 144
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

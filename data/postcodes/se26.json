@@ -1,0 +1,198 @@
+{
+  "code": "SE26",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SE25",
+    "SE27",
+    "SE28"
+  ],
+  "property": {
+    "avgPrice": 537422,
+    "medianPrice": 450000,
+    "priceChange1y": 7,
+    "priceChange5y": 0,
+    "transactions12m": 1210,
+    "byType": {
+      "detached": {
+        "avg": 1191883,
+        "count": 24
+      },
+      "semi": {
+        "avg": 823394,
+        "count": 110
+      },
+      "terraced": {
+        "avg": 679054,
+        "count": 301
+      },
+      "flat": {
+        "avg": 386400,
+        "count": 714
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 517007
+      },
+      {
+        "year": 2024,
+        "avg": 530032
+      },
+      {
+        "year": 2025,
+        "avg": 566985
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 123.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 51.5,
+    "byType": {
+      "violentCrime": 34.1,
+      "burglary": 5.5,
+      "vehicleCrime": 11.5,
+      "antisocialBehaviour": 28,
+      "otherTheft": 21.5,
+      "other": 22.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Adamsrill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Haseltine Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Kelvin Grove Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Eliot Bank Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Bartholomews's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 335319,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 340,
+    "avgUpload": 61,
+    "superfastPct": 97,
+    "ultrafastPct": 83,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bromley",
+    "bandD": 1842,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.2,
+    "imdRank": 11297,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SE26 is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in SE26 is £537,422, which is 59% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SE26 cost 87.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SE26 have risen 7.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 123.2 recorded crimes per 1,000 residents, SE26 has a crime rate significantly 52% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SE26 has 10 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SE26 are 340.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SE26 (LONDON) offers above-average property prices (£537,422, 87% above national average), higher-than-average crime (52% above national average), 10 nearby schools, and excellent broadband (340 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 340
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 340
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

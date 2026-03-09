@@ -1,0 +1,198 @@
+{
+  "code": "NN9",
+  "name": "WELLINGBOROUGH",
+  "county": "northamptonshire",
+  "region": "east-midlands",
+  "city": "northampton",
+  "adjacent": [
+    "NN8",
+    "NN10",
+    "NN11"
+  ],
+  "property": {
+    "avgPrice": 282504,
+    "medianPrice": 250000,
+    "priceChange1y": 5.8,
+    "priceChange5y": 0,
+    "transactions12m": 1293,
+    "byType": {
+      "detached": {
+        "avg": 385693,
+        "count": 377
+      },
+      "semi": {
+        "avg": 246785,
+        "count": 516
+      },
+      "terraced": {
+        "avg": 210632,
+        "count": 311
+      },
+      "flat": {
+        "avg": 128171,
+        "count": 63
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 270809
+      },
+      {
+        "year": 2024,
+        "avg": 279575
+      },
+      {
+        "year": 2025,
+        "avg": 295672
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -90.2,
+    "byType": {
+      "violentCrime": 2.7,
+      "burglary": 0.2,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 2.4,
+      "otherTheft": 1,
+      "other": 1.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Manor School",
+        "type": "Secondary",
+        "ofsted": "Inadequate"
+      },
+      {
+        "name": "Windmill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Peter's Church of England Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Finedon Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Finedon Mulso Church of England Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 20486,
+    "medianAge": 42,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 360,
+    "avgUpload": 65,
+    "superfastPct": 95,
+    "ultrafastPct": 89,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Northamptonshire",
+    "bandD": 2089,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.4,
+    "imdRank": 18085,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NN9 covers WELLINGBOROUGH in Northamptonshire, East Midlands.",
+    "priceVsCounty": "The average property price in NN9 is £282,504, which is 13% below the Northamptonshire average of £323,962.",
+    "priceVsNational": "Property values in NN9 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in NN9 have risen 5.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 8.0 recorded crimes per 1,000 residents, NN9 has a crime rate well 90% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NN9 has 11 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NN9 are 360.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NN9 (WELLINGBOROUGH) offers property prices near the national average (£282,504), low crime (90% below national average), 11 nearby schools, and excellent broadband (360 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 323962,
+      "crime": 75,
+      "broadband": 360
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 360
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

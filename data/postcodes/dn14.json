@@ -1,0 +1,196 @@
+{
+  "code": "DN14",
+  "name": "GOOLE",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "doncaster",
+  "adjacent": [
+    "DN15",
+    "DN16"
+  ],
+  "property": {
+    "avgPrice": 228985,
+    "medianPrice": 195000,
+    "priceChange1y": -0.7,
+    "priceChange5y": 0,
+    "transactions12m": 2578,
+    "byType": {
+      "detached": {
+        "avg": 334117,
+        "count": 847
+      },
+      "semi": {
+        "avg": 194240,
+        "count": 790
+      },
+      "terraced": {
+        "avg": 131738,
+        "count": 768
+      },
+      "flat": {
+        "avg": 107891,
+        "count": 65
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 227789
+      },
+      {
+        "year": 2024,
+        "avg": 230349
+      },
+      {
+        "year": 2025,
+        "avg": 228819
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.2,
+      "other": 0.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 27,
+    "outstanding": 0,
+    "good": 11,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Barmby-on-the-Marsh Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eastrington Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rawcliffe Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rawcliffe Bridge Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Snaith Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 23666,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 324,
+    "avgUpload": 58,
+    "superfastPct": 92,
+    "ultrafastPct": 79,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Doncaster Council",
+    "bandD": 2168,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DN14 is the postcode district for GOOLE, located in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in DN14 is £228,985, broadly in line with the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in DN14 cost 20.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DN14 have fallen 0.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, DN14 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DN14 has 27 schools within or near its boundaries, including 11 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DN14 are 324.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DN14 (GOOLE) offers affordable property prices (£228,985, 20% below national average), low crime (94% below national average), 27 nearby schools, and excellent broadband (324 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 324
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 324
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

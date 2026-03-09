@@ -1,0 +1,196 @@
+{
+  "code": "HR1",
+  "name": "HEREFORD",
+  "county": "herefordshire",
+  "region": "west-midlands",
+  "city": "hereford",
+  "adjacent": [
+    "HR2",
+    "HR3"
+  ],
+  "property": {
+    "avgPrice": 369656,
+    "medianPrice": 303000,
+    "priceChange1y": -13.6,
+    "priceChange5y": 0,
+    "transactions12m": 1452,
+    "byType": {
+      "detached": {
+        "avg": 480250,
+        "count": 535
+      },
+      "semi": {
+        "avg": 300169,
+        "count": 408
+      },
+      "terraced": {
+        "avg": 229296,
+        "count": 274
+      },
+      "flat": {
+        "avg": 171605,
+        "count": 151
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 368994
+      },
+      {
+        "year": 2024,
+        "avg": 393358
+      },
+      {
+        "year": 2025,
+        "avg": 339899
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 7.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -90.9,
+    "byType": {
+      "violentCrime": 3.7,
+      "burglary": 0.3,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 1.3,
+      "otherTheft": 0.8,
+      "other": 1.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 26,
+    "outstanding": 4,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Broadlands Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hampton Dene Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Withington Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Francis Xavier's Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 39,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 63,
+    "socialRent": 16,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 344,
+    "avgUpload": 62,
+    "superfastPct": 97,
+    "ultrafastPct": 85,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hereford Council",
+    "bandD": 2183,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.9,
+    "imdRank": 16384,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HR1 encompasses HEREFORD and its surrounding areas in Herefordshire, West Midlands.",
+    "priceVsCounty": "The average property price in HR1 is £369,656, broadly in line with the Herefordshire average of £372,356.",
+    "priceVsNational": "Properties in HR1 cost 28.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HR1 have fallen 13.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 7.4 recorded crimes per 1,000 residents, HR1 has a crime rate well 91% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HR1 has 26 schools within or near its boundaries, including 4 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HR1 are 344.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HR1 (HEREFORD) offers above-average property prices (£369,656, 29% above national average), low crime (91% below national average), strong school provision (4 Outstanding-rated schools), and excellent broadband (344 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 372356,
+      "crime": 75,
+      "broadband": 344
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 344
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

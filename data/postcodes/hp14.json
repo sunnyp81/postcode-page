@@ -1,0 +1,198 @@
+{
+  "code": "HP14",
+  "name": "HIGH WYCOMBE",
+  "county": "hertfordshire",
+  "region": "south-east",
+  "city": "hemel-hempstead",
+  "adjacent": [
+    "HP13",
+    "HP15",
+    "HP16"
+  ],
+  "property": {
+    "avgPrice": 628542,
+    "medianPrice": 495850,
+    "priceChange1y": -7.7,
+    "priceChange5y": 0,
+    "transactions12m": 694,
+    "byType": {
+      "detached": {
+        "avg": 779865,
+        "count": 230
+      },
+      "semi": {
+        "avg": 487831,
+        "count": 196
+      },
+      "terraced": {
+        "avg": 391931,
+        "count": 138
+      },
+      "flat": {
+        "avg": 377142,
+        "count": 100
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 635929
+      },
+      {
+        "year": 2024,
+        "avg": 648434
+      },
+      {
+        "year": 2025,
+        "avg": 598300
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.1,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bledlow Ridge School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lane End Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stokenchurch Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Naphill and Walters Ash School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cadmore End CofE School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 156470,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 12,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 238,
+    "avgUpload": 43,
+    "superfastPct": 91,
+    "ultrafastPct": 55,
+    "gigabitPct": 54,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Oxfordshire",
+    "bandD": 2240,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.5,
+    "imdRank": 6409,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HP14 is the postcode district for HIGH WYCOMBE, located in Hertfordshire, South East.",
+    "priceVsCounty": "The average property price in HP14 is £628,542, which is 10% above the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in HP14 cost 119.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HP14 have fallen 7.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, HP14 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HP14 has 9 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HP14 are 238.0 Mbps, with 99% of premises having access to superfast broadband and 80% with full fibre (FTTP) connectivity.",
+    "synthesis": "HP14 (HIGH WYCOMBE) offers above-average property prices (£628,542, 119% above national average), low crime (94% below national average), 9 nearby schools, and excellent broadband (238 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 238
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 238
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

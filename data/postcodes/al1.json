@@ -1,0 +1,197 @@
+{
+  "code": "AL1",
+  "name": "ST ALBANS",
+  "county": "hertfordshire",
+  "region": "south-east",
+  "city": "st-albans",
+  "adjacent": [
+    "AL2",
+    "AL3"
+  ],
+  "property": {
+    "avgPrice": 686077,
+    "medianPrice": 535000,
+    "priceChange1y": -18,
+    "priceChange5y": 0,
+    "transactions12m": 1852,
+    "byType": {
+      "detached": {
+        "avg": 1310654,
+        "count": 209
+      },
+      "semi": {
+        "avg": 824069,
+        "count": 318
+      },
+      "terraced": {
+        "avg": 648937,
+        "count": 537
+      },
+      "flat": {
+        "avg": 361633,
+        "count": 717
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 656641
+      },
+      {
+        "year": 2024,
+        "avg": 761122
+      },
+      {
+        "year": 2025,
+        "avg": 623997
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 121.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 49,
+    "byType": {
+      "violentCrime": 33.4,
+      "burglary": 4.4,
+      "vehicleCrime": 9.9,
+      "antisocialBehaviour": 22.8,
+      "otherTheft": 30.2,
+      "other": 20.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 3,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bernards Heath Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Camp Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Peter's School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Windermere Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cunningham Hill Junior School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 151012,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 12,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 367,
+    "avgUpload": 66,
+    "superfastPct": 99,
+    "ultrafastPct": 95,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "St Albans",
+    "bandD": 2094,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.3,
+    "imdRank": 6247,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "AL1 is the postcode district for ST ALBANS, located in Hertfordshire, South East.",
+    "priceVsCounty": "The average property price in AL1 is £686,077, which is 20% above the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in AL1 cost 139.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in AL1 have fallen 18.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 121.1 recorded crimes per 1,000 residents, AL1 has a crime rate significantly 49% above the national average of 81.3 per 1,000.",
+    "schoolContext": "AL1 has 21 schools within or near its boundaries, including 3 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in AL1 are 367.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "AL1 (ST ALBANS) offers above-average property prices (£686,077, 139% above national average), higher-than-average crime (49% above national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (367 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 367
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 367
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

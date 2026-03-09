@@ -1,0 +1,197 @@
+{
+  "code": "WR13",
+  "name": "MALVERN",
+  "county": "worcestershire",
+  "region": "west-midlands",
+  "city": "worcester",
+  "adjacent": [
+    "WR12",
+    "WR14",
+    "WR15"
+  ],
+  "property": {
+    "avgPrice": 515735,
+    "medianPrice": 470000,
+    "priceChange1y": -6.2,
+    "priceChange5y": 0,
+    "transactions12m": 359,
+    "byType": {
+      "detached": {
+        "avg": 557931,
+        "count": 215
+      },
+      "semi": {
+        "avg": 356843,
+        "count": 78
+      },
+      "terraced": {
+        "avg": 299675,
+        "count": 20
+      },
+      "flat": {
+        "avg": 298438,
+        "count": 8
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 533005
+      },
+      {
+        "year": 2024,
+        "avg": 523096
+      },
+      {
+        "year": 2025,
+        "avg": 490920
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.6,
+      "burglary": 0.4,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.1,
+      "other": 0.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Colwall CofE Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cradley CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "The Downs, Malvern College Prep School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Elms School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Madresfield CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 31674,
+    "medianAge": 39,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 63,
+    "socialRent": 16,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 278,
+    "avgUpload": 50,
+    "superfastPct": 88,
+    "ultrafastPct": 66,
+    "gigabitPct": 66,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Worcester Council",
+    "bandD": 1691,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.9,
+    "imdRank": 16384,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WR13 encompasses MALVERN and its surrounding areas in Worcestershire, West Midlands.",
+    "priceVsCounty": "The average property price in WR13 is £515,735, which is 24% above the Worcestershire average of £417,033.",
+    "priceVsNational": "Properties in WR13 cost 79.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WR13 have fallen 6.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, WR13 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WR13 has 8 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WR13 are 278.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WR13 (MALVERN) offers above-average property prices (£515,735, 80% above national average), low crime (94% below national average), 8 nearby schools, and excellent broadband (278 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 417033,
+      "crime": 75,
+      "broadband": 278
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 278
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "BA15",
+  "name": "BRADFORD-ON-AVON",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "bath",
+  "adjacent": [
+    "BA14",
+    "BA16"
+  ],
+  "property": {
+    "avgPrice": 473889,
+    "medianPrice": 415000,
+    "priceChange1y": -2.2,
+    "priceChange5y": 0,
+    "transactions12m": 615,
+    "byType": {
+      "detached": {
+        "avg": 652584,
+        "count": 176
+      },
+      "semi": {
+        "avg": 412341,
+        "count": 154
+      },
+      "terraced": {
+        "avg": 424081,
+        "count": 172
+      },
+      "flat": {
+        "avg": 245423,
+        "count": 88
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 480034
+      },
+      {
+        "year": 2024,
+        "avg": 475490
+      },
+      {
+        "year": 2025,
+        "avg": 464995
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 14,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -82.8,
+    "byType": {
+      "violentCrime": 4.8,
+      "burglary": 0.6,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 2.8,
+      "otherTheft": 1.9,
+      "other": 3.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Christ Church Church of England Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Laurence School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Winsley CoE VC Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Fitzmaurice Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Westwood-with-Iford Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 523700,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 241,
+    "avgUpload": 43,
+    "superfastPct": 92,
+    "ultrafastPct": 55,
+    "gigabitPct": 55,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bath Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.4,
+    "imdRank": 11265,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BA15 encompasses BRADFORD-ON-AVON and its surrounding areas in Somerset, South West.",
+    "priceVsCounty": "The average property price in BA15 is £473,889, which is 27% above the Somerset average of £373,759.",
+    "priceVsNational": "Properties in BA15 cost 65.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BA15 have fallen 2.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 14.0 recorded crimes per 1,000 residents, BA15 has a crime rate well 83% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BA15 has 5 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BA15 are 241.0 Mbps, with 99% of premises having access to superfast broadband and 81% with full fibre (FTTP) connectivity.",
+    "synthesis": "BA15 (BRADFORD-ON-AVON) offers above-average property prices (£473,889, 65% above national average), low crime (83% below national average), 5 nearby schools, and excellent broadband (241 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 241
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 241
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

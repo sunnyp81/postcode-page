@@ -1,0 +1,196 @@
+{
+  "code": "RG31",
+  "name": "READING",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [
+    "RG30"
+  ],
+  "property": {
+    "avgPrice": 433318,
+    "medianPrice": 402750,
+    "priceChange1y": 2.2,
+    "priceChange5y": 0,
+    "transactions12m": 1186,
+    "byType": {
+      "detached": {
+        "avg": 606392,
+        "count": 299
+      },
+      "semi": {
+        "avg": 413856,
+        "count": 446
+      },
+      "terraced": {
+        "avg": 348619,
+        "count": 253
+      },
+      "flat": {
+        "avg": 200716,
+        "count": 168
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 451472
+      },
+      {
+        "year": 2024,
+        "avg": 419622
+      },
+      {
+        "year": 2025,
+        "avg": 428784
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 39.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -51.8,
+    "byType": {
+      "violentCrime": 12.9,
+      "burglary": 1.3,
+      "vehicleCrime": 1.7,
+      "antisocialBehaviour": 4.9,
+      "otherTheft": 11.5,
+      "other": 6.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Park Lane Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Birch Copse Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Westwood Farm Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Long Lane Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Westwood Farm Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 165112,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 389,
+    "avgUpload": 70,
+    "superfastPct": 99,
+    "ultrafastPct": 97,
+    "gigabitPct": 97,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Reading Council",
+    "bandD": 1606,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10,
+    "imdRank": 7974,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG31 is the postcode district for READING, located in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG31 is £433,318, which is 26% below the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG31 cost 51.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG31 have risen 2.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 39.2 recorded crimes per 1,000 residents, RG31 has a crime rate well 52% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RG31 has 14 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG31 are 389.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG31 (READING) offers above-average property prices (£433,318, 51% above national average), low crime (52% below national average), 14 nearby schools, and excellent broadband (389 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 389
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 389
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

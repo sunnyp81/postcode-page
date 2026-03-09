@@ -1,0 +1,192 @@
+{
+  "code": "OX25",
+  "name": "BICESTER",
+  "county": "oxfordshire",
+  "region": "south-east",
+  "city": "oxford",
+  "adjacent": [
+    "OX26",
+    "OX27"
+  ],
+  "property": {
+    "avgPrice": 1212355,
+    "medianPrice": 395000,
+    "priceChange1y": -3.7,
+    "priceChange5y": 0,
+    "transactions12m": 865,
+    "byType": {
+      "detached": {
+        "avg": 601057,
+        "count": 329
+      },
+      "semi": {
+        "avg": 442856,
+        "count": 266
+      },
+      "terraced": {
+        "avg": 322143,
+        "count": 159
+      },
+      "flat": {
+        "avg": 228870,
+        "count": 46
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 2154726
+      },
+      {
+        "year": 2024,
+        "avg": 491671
+      },
+      {
+        "year": 2025,
+        "avg": 473678
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.3,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.1,
+      "other": 0.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Five Acres Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dr Radcliffe's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Heyford Park School",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Graven Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 170426,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 244,
+    "avgUpload": 44,
+    "superfastPct": 90,
+    "ultrafastPct": 59,
+    "gigabitPct": 55,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cherwell",
+    "bandD": 2243,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.4,
+    "imdRank": 11879,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "OX25 covers BICESTER in Oxfordshire, South East.",
+    "priceVsCounty": "The average property price in OX25 is £1,212,355, which is 106% above the Oxfordshire average of £588,175.",
+    "priceVsNational": "Properties in OX25 cost 322.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in OX25 have fallen 3.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, OX25 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "OX25 has 4 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in OX25 are 244.0 Mbps, with 99% of premises having access to superfast broadband and 82% with full fibre (FTTP) connectivity.",
+    "synthesis": "OX25 (BICESTER) offers above-average property prices (£1,212,355, 322% above national average), low crime (94% below national average), 4 nearby schools, and excellent broadband (244 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 588175,
+      "crime": 75,
+      "broadband": 244
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 244
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "B29",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B28",
+    "B30",
+    "B31"
+  ],
+  "property": {
+    "avgPrice": 320186,
+    "medianPrice": 250000,
+    "priceChange1y": -16.4,
+    "priceChange5y": 0,
+    "transactions12m": 1281,
+    "byType": {
+      "detached": {
+        "avg": 553919,
+        "count": 74
+      },
+      "semi": {
+        "avg": 283488,
+        "count": 443
+      },
+      "terraced": {
+        "avg": 272584,
+        "count": 591
+      },
+      "flat": {
+        "avg": 167235,
+        "count": 132
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 322482
+      },
+      {
+        "year": 2024,
+        "avg": 342874
+      },
+      {
+        "year": 2025,
+        "avg": 286741
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 133.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 64.3,
+    "byType": {
+      "violentCrime": 50.2,
+      "burglary": 9.3,
+      "vehicleCrime": 9.1,
+      "antisocialBehaviour": 9.2,
+      "otherTheft": 29.6,
+      "other": 26.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 0,
+    "good": 9,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Weoley Castle Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Edith Cadbury Nursery School",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Raddlebarn Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Water Mill Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 375,
+    "avgUpload": 68,
+    "superfastPct": 99,
+    "ultrafastPct": 93,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B29 encompasses BIRMINGHAM and its surrounding areas in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B29 is £320,186, broadly in line with the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B29 cost 11.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B29 have fallen 16.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 133.6 recorded crimes per 1,000 residents, B29 has a crime rate significantly 64% above the national average of 81.3 per 1,000.",
+    "schoolContext": "B29 has 21 schools within or near its boundaries, including 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B29 are 375.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B29 (BIRMINGHAM) offers property prices near the national average (£320,186), higher-than-average crime (64% above national average), 21 nearby schools, and excellent broadband (375 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 375
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 375
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

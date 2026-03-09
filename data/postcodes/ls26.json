@@ -1,0 +1,198 @@
+{
+  "code": "LS26",
+  "name": "LEEDS",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "leeds",
+  "adjacent": [
+    "LS25",
+    "LS27",
+    "LS28"
+  ],
+  "property": {
+    "avgPrice": 280781,
+    "medianPrice": 233750,
+    "priceChange1y": -2.2,
+    "priceChange5y": 0,
+    "transactions12m": 1406,
+    "byType": {
+      "detached": {
+        "avg": 413473,
+        "count": 304
+      },
+      "semi": {
+        "avg": 240610,
+        "count": 641
+      },
+      "terraced": {
+        "avg": 201997,
+        "count": 367
+      },
+      "flat": {
+        "avg": 173899,
+        "count": 61
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 294892
+      },
+      {
+        "year": 2024,
+        "avg": 277416
+      },
+      {
+        "year": 2025,
+        "avg": 271223
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 22.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -72.2,
+    "byType": {
+      "violentCrime": 9.6,
+      "burglary": 1.1,
+      "vehicleCrime": 1,
+      "antisocialBehaviour": 3.4,
+      "otherTheft": 1.8,
+      "other": 5.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 2,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Woodlesford Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Oulton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Victoria Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rothwell Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Rothwell St Mary's RC Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 845189,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 361,
+    "avgUpload": 65,
+    "superfastPct": 96,
+    "ultrafastPct": 90,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Leeds",
+    "bandD": 1968,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.3,
+    "imdRank": 18909,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LS26 encompasses LEEDS and its surrounding areas in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in LS26 is £280,781, broadly in line with the West Yorkshire average of £277,857.",
+    "priceVsNational": "Property values in LS26 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in LS26 have fallen 2.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 22.6 recorded crimes per 1,000 residents, LS26 has a crime rate well 72% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LS26 has 11 schools within or near its boundaries, including 2 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LS26 are 361.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LS26 (LEEDS) offers property prices near the national average (£280,781), low crime (72% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (361 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 361
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 361
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

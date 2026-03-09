@@ -1,0 +1,197 @@
+{
+  "code": "BS37",
+  "name": "BRISTOL",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS36",
+    "BS39"
+  ],
+  "property": {
+    "avgPrice": 395530,
+    "medianPrice": 308375,
+    "priceChange1y": -18.4,
+    "priceChange5y": 0,
+    "transactions12m": 1982,
+    "byType": {
+      "detached": {
+        "avg": 516857,
+        "count": 497
+      },
+      "semi": {
+        "avg": 329416,
+        "count": 535
+      },
+      "terraced": {
+        "avg": 278335,
+        "count": 626
+      },
+      "flat": {
+        "avg": 209615,
+        "count": 231
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 417060
+      },
+      {
+        "year": 2024,
+        "avg": 421038
+      },
+      {
+        "year": 2025,
+        "avg": 343771
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 54.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -32.5,
+    "byType": {
+      "violentCrime": 21.2,
+      "burglary": 1.8,
+      "vehicleCrime": 1,
+      "antisocialBehaviour": 10.1,
+      "otherTheft": 8.3,
+      "other": 12.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 1,
+    "good": 12,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "North Road Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wellesley Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Old Sodbury Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St John's Mead Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Horton CofE VA Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 306332,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 11,
+    "privateRent": 14,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 322,
+    "avgUpload": 58,
+    "superfastPct": 95,
+    "ultrafastPct": 78,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9595,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS37 covers BRISTOL in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS37 is £395,530, which is 12% below the Bristol average of £449,132.",
+    "priceVsNational": "Properties in BS37 cost 37.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BS37 have fallen 18.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 54.9 recorded crimes per 1,000 residents, BS37 has a crime rate well 32% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BS37 has 21 schools within or near its boundaries, including 1 rated Outstanding and 12 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS37 are 322.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS37 (BRISTOL) offers above-average property prices (£395,530, 38% above national average), low crime (32% below national average), 21 nearby schools, and excellent broadband (322 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 322
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 322
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

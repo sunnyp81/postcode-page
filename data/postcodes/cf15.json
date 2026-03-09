@@ -1,0 +1,195 @@
+{
+  "code": "CF15",
+  "name": "CARDIFF",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF14"
+  ],
+  "property": {
+    "avgPrice": 361548,
+    "medianPrice": 316000,
+    "priceChange1y": 6.5,
+    "priceChange5y": 0,
+    "transactions12m": 773,
+    "byType": {
+      "detached": {
+        "avg": 494641,
+        "count": 284
+      },
+      "semi": {
+        "avg": 312379,
+        "count": 191
+      },
+      "terraced": {
+        "avg": 243707,
+        "count": 180
+      },
+      "flat": {
+        "avg": 167780,
+        "count": 88
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 373702
+      },
+      {
+        "year": 2024,
+        "avg": 345770
+      },
+      {
+        "year": 2025,
+        "avg": 368297
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 10.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -87.1,
+    "byType": {
+      "violentCrime": 3.3,
+      "burglary": 0.3,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 1.2,
+      "otherTheft": 2.7,
+      "other": 2.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ffynnon Taf Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Gynradd Gwaelod-Y-Garth",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Radyr Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tongwynlais Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bryn Deri Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 383919,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 206,
+    "avgUpload": 37,
+    "superfastPct": 97,
+    "ultrafastPct": 47,
+    "gigabitPct": 43,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF15 encompasses CARDIFF and its surrounding areas in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF15 is £361,548, which is 31% above the Cardiff average of £275,506.",
+    "priceVsNational": "Properties in CF15 cost 26.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CF15 have risen 6.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 10.5 recorded crimes per 1,000 residents, CF15 has a crime rate well 87% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CF15 has 9 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF15 are 206.0 Mbps, with 99% of premises having access to superfast broadband and 72% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF15 (CARDIFF) offers above-average property prices (£361,548, 26% above national average), low crime (87% below national average), 9 nearby schools, and excellent broadband (206 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 206
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 206
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

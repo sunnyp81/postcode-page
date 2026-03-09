@@ -1,0 +1,197 @@
+{
+  "code": "BH9",
+  "name": "BOURNEMOUTH",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "bournemouth",
+  "adjacent": [
+    "BH8",
+    "BH10",
+    "BH11"
+  ],
+  "property": {
+    "avgPrice": 338290,
+    "medianPrice": 340000,
+    "priceChange1y": 2.9,
+    "priceChange5y": 0,
+    "transactions12m": 1252,
+    "byType": {
+      "detached": {
+        "avg": 414875,
+        "count": 596
+      },
+      "semi": {
+        "avg": 333415,
+        "count": 224
+      },
+      "terraced": {
+        "avg": 306805,
+        "count": 94
+      },
+      "flat": {
+        "avg": 192819,
+        "count": 285
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 333774
+      },
+      {
+        "year": 2024,
+        "avg": 336011
+      },
+      {
+        "year": 2025,
+        "avg": 345600
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 94.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 16.2,
+    "byType": {
+      "violentCrime": 28.6,
+      "burglary": 2.9,
+      "vehicleCrime": 7.6,
+      "antisocialBehaviour": 19.5,
+      "otherTheft": 22.1,
+      "other": 13.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St. Walburga's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Linwood School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Epiphany School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Luke's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Moordown St John's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 393,
+    "avgUpload": 71,
+    "superfastPct": 100,
+    "ultrafastPct": 98,
+    "gigabitPct": 98,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bournemouth Council",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.2,
+    "imdRank": 14820,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BH9 covers BOURNEMOUTH in Dorset, South West.",
+    "priceVsCounty": "The average property price in BH9 is £338,290, which is 20% below the Dorset average of £425,376.",
+    "priceVsNational": "Properties in BH9 cost 17.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BH9 have risen 2.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 94.5 recorded crimes per 1,000 residents, BH9 has a crime rate 16% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BH9 has 6 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BH9 are 393.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BH9 (BOURNEMOUTH) offers property prices near the national average (£338,290), higher-than-average crime (16% above national average), 6 nearby schools, and excellent broadband (393 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 393
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 393
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

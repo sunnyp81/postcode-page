@@ -1,0 +1,197 @@
+{
+  "code": "BR1",
+  "name": "BROMLEY",
+  "county": "greater-london",
+  "region": "london",
+  "city": "bromley",
+  "adjacent": [
+    "BR2",
+    "BR3"
+  ],
+  "property": {
+    "avgPrice": 568194,
+    "medianPrice": 440000,
+    "priceChange1y": -5.2,
+    "priceChange5y": 0,
+    "transactions12m": 2044,
+    "byType": {
+      "detached": {
+        "avg": 1063249,
+        "count": 229
+      },
+      "semi": {
+        "avg": 665851,
+        "count": 334
+      },
+      "terraced": {
+        "avg": 463348,
+        "count": 696
+      },
+      "flat": {
+        "avg": 342892,
+        "count": 695
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 579235
+      },
+      {
+        "year": 2024,
+        "avg": 577209
+      },
+      {
+        "year": 2025,
+        "avg": 546925
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 95.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 17.1,
+    "byType": {
+      "violentCrime": 25.2,
+      "burglary": 2.5,
+      "vehicleCrime": 7.9,
+      "antisocialBehaviour": 16.8,
+      "otherTheft": 24.5,
+      "other": 18.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 23,
+    "outstanding": 3,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Downderry Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Launcelot Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rangefield Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Good Shepherd RC School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John Baptist Southend Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 335319,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 342,
+    "avgUpload": 62,
+    "superfastPct": 97,
+    "ultrafastPct": 85,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bromley",
+    "bandD": 1842,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.2,
+    "imdRank": 11297,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BR1 encompasses BROMLEY and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in BR1 is £568,194, which is 57% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in BR1 cost 98.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BR1 have fallen 5.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 95.2 recorded crimes per 1,000 residents, BR1 has a crime rate 17% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BR1 has 23 schools within or near its boundaries, including 3 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BR1 are 342.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BR1 (BROMLEY) offers above-average property prices (£568,194, 98% above national average), higher-than-average crime (17% above national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (342 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 342
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 342
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "code": "GU51",
+  "name": "FLEET",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU52"
+  ],
+  "property": {
+    "avgPrice": 517810,
+    "medianPrice": 450000,
+    "priceChange1y": -3.1,
+    "priceChange5y": 0,
+    "transactions12m": 1316,
+    "byType": {
+      "detached": {
+        "avg": 766114,
+        "count": 426
+      },
+      "semi": {
+        "avg": 496656,
+        "count": 267
+      },
+      "terraced": {
+        "avg": 411292,
+        "count": 197
+      },
+      "flat": {
+        "avg": 235308,
+        "count": 375
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 521145
+      },
+      {
+        "year": 2024,
+        "avg": 523518
+      },
+      {
+        "year": 2025,
+        "avg": 507458
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 30.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -62,
+    "byType": {
+      "violentCrime": 13.1,
+      "burglary": 0.7,
+      "vehicleCrime": 1.3,
+      "antisocialBehaviour": 3.6,
+      "otherTheft": 5.6,
+      "other": 6.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 1,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Tavistock Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "All Saints Church of England Aided Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Calthorpe Park School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Elvetham Heath Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 103162,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 9,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 330,
+    "avgUpload": 59,
+    "superfastPct": 98,
+    "ultrafastPct": 80,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hart",
+    "bandD": 2079,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 5.5,
+    "imdRank": 3284,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU51 covers FLEET in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU51 is £517,810, which is 16% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU51 cost 80.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU51 have fallen 3.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 30.9 recorded crimes per 1,000 residents, GU51 has a crime rate well 62% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU51 has 4 schools within or near its boundaries, including 1 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU51 are 330.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU51 (FLEET) offers above-average property prices (£517,810, 80% above national average), low crime (62% below national average), 4 nearby schools, and excellent broadband (330 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 330
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 330
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

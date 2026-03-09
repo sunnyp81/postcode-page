@@ -1,0 +1,198 @@
+{
+  "code": "LS10",
+  "name": "LEEDS",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "leeds",
+  "adjacent": [
+    "LS9",
+    "LS11",
+    "LS12"
+  ],
+  "property": {
+    "avgPrice": 240816,
+    "medianPrice": 170000,
+    "priceChange1y": -23.1,
+    "priceChange5y": 0,
+    "transactions12m": 1330,
+    "byType": {
+      "detached": {
+        "avg": 289329,
+        "count": 88
+      },
+      "semi": {
+        "avg": 187394,
+        "count": 467
+      },
+      "terraced": {
+        "avg": 166250,
+        "count": 432
+      },
+      "flat": {
+        "avg": 162631,
+        "count": 303
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 260419
+      },
+      {
+        "year": 2024,
+        "avg": 258022
+      },
+      {
+        "year": 2025,
+        "avg": 198515
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 106.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 30.6,
+    "byType": {
+      "violentCrime": 45.3,
+      "burglary": 3.8,
+      "vehicleCrime": 4.8,
+      "antisocialBehaviour": 11.7,
+      "otherTheft": 15.9,
+      "other": 24.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 0,
+    "good": 11,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Windmill Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hunslet Carr Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Westwood Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Low Road Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Clapgate Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 845189,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 372,
+    "avgUpload": 67,
+    "superfastPct": 97,
+    "ultrafastPct": 93,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Leeds",
+    "bandD": 1968,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.3,
+    "imdRank": 18909,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LS10 is the postcode district for LEEDS, located in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in LS10 is £240,816, which is 13% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in LS10 cost 16.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LS10 have fallen 23.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 106.2 recorded crimes per 1,000 residents, LS10 has a crime rate significantly 31% above the national average of 81.3 per 1,000.",
+    "schoolContext": "LS10 has 20 schools within or near its boundaries, including 11 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LS10 are 372.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LS10 (LEEDS) offers affordable property prices (£240,816, 16% below national average), higher-than-average crime (31% above national average), 20 nearby schools, and excellent broadband (372 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 372
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 372
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

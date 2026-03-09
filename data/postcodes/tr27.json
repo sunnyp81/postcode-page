@@ -1,0 +1,196 @@
+{
+  "code": "TR27",
+  "name": "HAYLE",
+  "county": "cornwall",
+  "region": "south-west",
+  "city": "truro",
+  "adjacent": [
+    "TR26"
+  ],
+  "property": {
+    "avgPrice": 331021,
+    "medianPrice": 292500,
+    "priceChange1y": -1.1,
+    "priceChange5y": 0,
+    "transactions12m": 759,
+    "byType": {
+      "detached": {
+        "avg": 439729,
+        "count": 249
+      },
+      "semi": {
+        "avg": 318042,
+        "count": 147
+      },
+      "terraced": {
+        "avg": 255061,
+        "count": 221
+      },
+      "flat": {
+        "avg": 237853,
+        "count": 59
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 349635
+      },
+      {
+        "year": 2024,
+        "avg": 321465
+      },
+      {
+        "year": 2025,
+        "avg": 317956
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 18.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -77.6,
+    "byType": {
+      "violentCrime": 7.3,
+      "burglary": 0.2,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 2.4,
+      "otherTheft": 3.4,
+      "other": 4.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Gwinear Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Cornwall Independent School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bodriggy Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Connor Downs Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Erth Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 583289,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 229,
+    "avgUpload": 41,
+    "superfastPct": 88,
+    "ultrafastPct": 52,
+    "gigabitPct": 52,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Truro Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.1,
+    "imdRank": 19382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TR27 is the postcode district for HAYLE, located in Cornwall, South West.",
+    "priceVsCounty": "The average property price in TR27 is £331,021, which is 18% below the Cornwall average of £402,222.",
+    "priceVsNational": "Properties in TR27 cost 15.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TR27 have fallen 1.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 18.2 recorded crimes per 1,000 residents, TR27 has a crime rate well 78% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TR27 has 8 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TR27 are 229.0 Mbps, with 99% of premises having access to superfast broadband and 78% with full fibre (FTTP) connectivity.",
+    "synthesis": "TR27 (HAYLE) offers property prices near the national average (£331,021), low crime (78% below national average), 8 nearby schools, and excellent broadband (229 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 402222,
+      "crime": 75,
+      "broadband": 229
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 229
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

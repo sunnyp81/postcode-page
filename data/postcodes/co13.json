@@ -1,0 +1,193 @@
+{
+  "code": "CO13",
+  "name": "FRINTON-ON-SEA",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "colchester",
+  "adjacent": [
+    "CO12",
+    "CO14",
+    "CO15"
+  ],
+  "property": {
+    "avgPrice": 407080,
+    "medianPrice": 335000,
+    "priceChange1y": 8.6,
+    "priceChange5y": 0,
+    "transactions12m": 949,
+    "byType": {
+      "detached": {
+        "avg": 445412,
+        "count": 492
+      },
+      "semi": {
+        "avg": 307760,
+        "count": 218
+      },
+      "terraced": {
+        "avg": 268528,
+        "count": 51
+      },
+      "flat": {
+        "avg": 264095,
+        "count": 155
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 397926
+      },
+      {
+        "year": 2024,
+        "avg": 395352
+      },
+      {
+        "year": 2025,
+        "avg": 429328
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 16.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -80,
+    "byType": {
+      "violentCrime": 6,
+      "burglary": 0.6,
+      "vehicleCrime": 1.1,
+      "antisocialBehaviour": 1.4,
+      "otherTheft": 4.3,
+      "other": 2.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Philomena's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lift Tendring",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Kirby Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Frinton-on-Sea Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 156759,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 8,
+    "privateRent": 18,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 258,
+    "avgUpload": 46,
+    "superfastPct": 98,
+    "ultrafastPct": 59,
+    "gigabitPct": 59,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Tendring",
+    "bandD": 1999,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 30.5,
+    "imdRank": 22083,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CO13 covers FRINTON-ON-SEA in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CO13 is £407,080, which is 5% below the Essex average of £429,754.",
+    "priceVsNational": "Properties in CO13 cost 41.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CO13 have risen 8.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 16.3 recorded crimes per 1,000 residents, CO13 has a crime rate well 80% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CO13 has 4 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CO13 are 258.0 Mbps, with 99% of premises having access to superfast broadband and 86% with full fibre (FTTP) connectivity.",
+    "synthesis": "CO13 (FRINTON-ON-SEA) offers above-average property prices (£407,080, 42% above national average), low crime (80% below national average), 4 nearby schools, and excellent broadband (258 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 258
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 258
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

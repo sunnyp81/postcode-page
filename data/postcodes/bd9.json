@@ -1,0 +1,198 @@
+{
+  "code": "BD9",
+  "name": "BRADFORD",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "bradford",
+  "adjacent": [
+    "BD8",
+    "BD10",
+    "BD11"
+  ],
+  "property": {
+    "avgPrice": 168129,
+    "medianPrice": 143000,
+    "priceChange1y": 12.3,
+    "priceChange5y": 0,
+    "transactions12m": 697,
+    "byType": {
+      "detached": {
+        "avg": 297018,
+        "count": 89
+      },
+      "semi": {
+        "avg": 173656,
+        "count": 207
+      },
+      "terraced": {
+        "avg": 132507,
+        "count": 216
+      },
+      "flat": {
+        "avg": 117284,
+        "count": 156
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 153750
+      },
+      {
+        "year": 2024,
+        "avg": 167462
+      },
+      {
+        "year": 2025,
+        "avg": 187982
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 149.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 83.5,
+    "byType": {
+      "violentCrime": 82.3,
+      "burglary": 4.1,
+      "vehicleCrime": 9,
+      "antisocialBehaviour": 9.1,
+      "otherTheft": 9.4,
+      "other": 35.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Lilycroft Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Frizinghall Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Heaton St Barnabas' CofE Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bradford Grammar School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chellow Heights Special School",
+        "type": "Other",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 563605,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 369,
+    "avgUpload": 66,
+    "superfastPct": 98,
+    "ultrafastPct": 92,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bradford",
+    "bandD": 1956,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 34.7,
+    "imdRank": 23086,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BD9 encompasses BRADFORD and its surrounding areas in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in BD9 is £168,129, which is 39% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in BD9 cost 41.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BD9 have risen 12.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 149.2 recorded crimes per 1,000 residents, BD9 has a crime rate significantly 84% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BD9 has 16 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BD9 are 369.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BD9 (BRADFORD) offers affordable property prices (£168,129, 41% below national average), higher-than-average crime (84% above national average), 16 nearby schools, and excellent broadband (369 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 369
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 369
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

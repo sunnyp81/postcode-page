@@ -1,0 +1,188 @@
+{
+  "code": "EX12",
+  "name": "SEATON",
+  "county": "devon",
+  "region": "south-west",
+  "city": "exeter",
+  "adjacent": [
+    "EX11",
+    "EX13",
+    "EX14"
+  ],
+  "property": {
+    "avgPrice": 340724,
+    "medianPrice": 315000,
+    "priceChange1y": -9.4,
+    "priceChange5y": 0,
+    "transactions12m": 569,
+    "byType": {
+      "detached": {
+        "avg": 481948,
+        "count": 198
+      },
+      "semi": {
+        "avg": 327948,
+        "count": 123
+      },
+      "terraced": {
+        "avg": 301570,
+        "count": 95
+      },
+      "flat": {
+        "avg": 167259,
+        "count": 126
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 313152
+      },
+      {
+        "year": 2024,
+        "avg": 371314
+      },
+      {
+        "year": 2025,
+        "avg": 336462
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 10.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -87.2,
+    "byType": {
+      "violentCrime": 5.5,
+      "burglary": 0.2,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 1.3,
+      "otherTheft": 1.3,
+      "other": 1.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Seaton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Beer Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Branscombe Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 158239,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 10,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 233,
+    "avgUpload": 42,
+    "superfastPct": 96,
+    "ultrafastPct": 52,
+    "gigabitPct": 52,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Devon",
+    "bandD": 2236,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.8,
+    "imdRank": 10893,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EX12 is the postcode district for SEATON, located in Devon, South West.",
+    "priceVsCounty": "The average property price in EX12 is £340,724, which is 12% below the Devon average of £385,452.",
+    "priceVsNational": "Properties in EX12 cost 18.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EX12 have fallen 9.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 10.4 recorded crimes per 1,000 residents, EX12 has a crime rate well 87% below the national average of 81.3 per 1,000.",
+    "schoolContext": "EX12 has 3 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EX12 are 233.0 Mbps, with 99% of premises having access to superfast broadband and 79% with full fibre (FTTP) connectivity.",
+    "synthesis": "EX12 (SEATON) offers property prices near the national average (£340,724), low crime (87% below national average), 3 nearby schools, and excellent broadband (233 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 233
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 233
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

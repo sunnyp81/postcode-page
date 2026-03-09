@@ -1,0 +1,198 @@
+{
+  "code": "N20",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "N19",
+    "N21",
+    "N22"
+  ],
+  "property": {
+    "avgPrice": 794510,
+    "medianPrice": 595000,
+    "priceChange1y": -1.1,
+    "priceChange5y": 0,
+    "transactions12m": 858,
+    "byType": {
+      "detached": {
+        "avg": 1680500,
+        "count": 95
+      },
+      "semi": {
+        "avg": 945406,
+        "count": 207
+      },
+      "terraced": {
+        "avg": 700618,
+        "count": 100
+      },
+      "flat": {
+        "avg": 478199,
+        "count": 426
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 742962
+      },
+      {
+        "year": 2024,
+        "avg": 836239
+      },
+      {
+        "year": 2025,
+        "avg": 826938
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 49.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -39,
+    "byType": {
+      "violentCrime": 11.4,
+      "burglary": 3.4,
+      "vehicleCrime": 7.1,
+      "antisocialBehaviour": 10.4,
+      "otherTheft": 9.4,
+      "other": 8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Pavilion Study Centre",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Queenswell Infant & Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Queenswell Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John's CofE Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Andrew's CofE Voluntary Aided Primary School, Totteridge",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 405050,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 13,
+    "privateRent": 30,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 281,
+    "avgUpload": 51,
+    "superfastPct": 97,
+    "ultrafastPct": 68,
+    "gigabitPct": 65,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Barnet",
+    "bandD": 1836,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.1,
+    "imdRank": 13803,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "N20 encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in N20 is £794,510, which is 39% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in N20 cost 176.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in N20 have fallen 1.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 49.6 recorded crimes per 1,000 residents, N20 has a crime rate well 39% below the national average of 81.3 per 1,000.",
+    "schoolContext": "N20 has 11 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in N20 are 281.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "N20 (LONDON) offers above-average property prices (£794,510, 177% above national average), low crime (39% below national average), 11 nearby schools, and excellent broadband (281 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 281
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 281
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

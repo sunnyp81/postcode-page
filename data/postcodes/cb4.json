@@ -1,0 +1,198 @@
+{
+  "code": "CB4",
+  "name": "CAMBRIDGE",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "cambridge",
+  "adjacent": [
+    "CB3",
+    "CB5",
+    "CB6"
+  ],
+  "property": {
+    "avgPrice": 532293,
+    "medianPrice": 445000,
+    "priceChange1y": 7.1,
+    "priceChange5y": 0,
+    "transactions12m": 1310,
+    "byType": {
+      "detached": {
+        "avg": 728559,
+        "count": 113
+      },
+      "semi": {
+        "avg": 600102,
+        "count": 332
+      },
+      "terraced": {
+        "avg": 501575,
+        "count": 482
+      },
+      "flat": {
+        "avg": 272723,
+        "count": 337
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 559115
+      },
+      {
+        "year": 2024,
+        "avg": 502760
+      },
+      {
+        "year": 2025,
+        "avg": 538252
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 128.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 58.3,
+    "byType": {
+      "violentCrime": 40.6,
+      "burglary": 4.8,
+      "vehicleCrime": 6.5,
+      "antisocialBehaviour": 20.7,
+      "otherTheft": 29.5,
+      "other": 26.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Colleges Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Shirley Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Arbury Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mayfield Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Grove Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 149352,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 20,
+    "socialRent": 23,
+    "privateRent": 28,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 377,
+    "avgUpload": 68,
+    "superfastPct": 98,
+    "ultrafastPct": 95,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cambridge",
+    "bandD": 2126,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.9,
+    "imdRank": 12582,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CB4 encompasses CAMBRIDGE and its surrounding areas in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in CB4 is £532,293, which is 39% above the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in CB4 cost 85.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CB4 have risen 7.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 128.7 recorded crimes per 1,000 residents, CB4 has a crime rate significantly 58% above the national average of 81.3 per 1,000.",
+    "schoolContext": "CB4 has 18 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CB4 are 377.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CB4 (CAMBRIDGE) offers above-average property prices (£532,293, 85% above national average), higher-than-average crime (58% above national average), 18 nearby schools, and excellent broadband (377 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 377
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 377
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "BB4",
+  "name": "ROSSENDALE",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "blackburn",
+  "adjacent": [
+    "BB3",
+    "BB5",
+    "BB6"
+  ],
+  "property": {
+    "avgPrice": 227876,
+    "medianPrice": 182500,
+    "priceChange1y": 6.5,
+    "priceChange5y": 0,
+    "transactions12m": 2002,
+    "byType": {
+      "detached": {
+        "avg": 396750,
+        "count": 370
+      },
+      "semi": {
+        "avg": 236777,
+        "count": 446
+      },
+      "terraced": {
+        "avg": 156969,
+        "count": 957
+      },
+      "flat": {
+        "avg": 155506,
+        "count": 138
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 222469
+      },
+      {
+        "year": 2024,
+        "avg": 223337
+      },
+      {
+        "year": 2025,
+        "avg": 237914
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 34.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -57.9,
+    "byType": {
+      "violentCrime": 10.3,
+      "burglary": 1.3,
+      "vehicleCrime": 1.7,
+      "antisocialBehaviour": 9.6,
+      "otherTheft": 5,
+      "other": 6.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 27,
+    "outstanding": 2,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Hillside Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Staghills Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Haslingden Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Helmshore Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Water Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 73045,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 15,
+    "privateRent": 15,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 300,
+    "avgUpload": 54,
+    "superfastPct": 94,
+    "ultrafastPct": 74,
+    "gigabitPct": 71,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Rossendale",
+    "bandD": 2211,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 24.1,
+    "imdRank": 18936,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BB4 is the postcode district for ROSSENDALE, located in Lancashire, North West.",
+    "priceVsCounty": "The average property price in BB4 is £227,876, which is 10% below the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in BB4 cost 20.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BB4 have risen 6.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 34.2 recorded crimes per 1,000 residents, BB4 has a crime rate well 58% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BB4 has 27 schools within or near its boundaries, including 2 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BB4 are 300.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BB4 (ROSSENDALE) offers affordable property prices (£227,876, 21% below national average), low crime (58% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (300 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 300
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 300
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

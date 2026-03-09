@@ -1,0 +1,198 @@
+{
+  "code": "PE21",
+  "name": "BOSTON",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "peterborough",
+  "adjacent": [
+    "PE20",
+    "PE22",
+    "PE23"
+  ],
+  "property": {
+    "avgPrice": 197178,
+    "medianPrice": 175000,
+    "priceChange1y": 3.9,
+    "priceChange5y": 0,
+    "transactions12m": 2005,
+    "byType": {
+      "detached": {
+        "avg": 255575,
+        "count": 812
+      },
+      "semi": {
+        "avg": 164311,
+        "count": 537
+      },
+      "terraced": {
+        "avg": 125190,
+        "count": 487
+      },
+      "flat": {
+        "avg": 89589,
+        "count": 88
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 200997
+      },
+      {
+        "year": 2024,
+        "avg": 191627
+      },
+      {
+        "year": 2025,
+        "avg": 199169
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 130.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 60.9,
+    "byType": {
+      "violentCrime": 41.5,
+      "burglary": 5,
+      "vehicleCrime": 3.2,
+      "antisocialBehaviour": 28,
+      "otherTheft": 30.1,
+      "other": 23.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Hawthorn Tree School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Boston Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Boston College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tower Road Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Boston West Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 71080,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 20,
+    "privateRent": 18,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 333,
+    "avgUpload": 60,
+    "superfastPct": 96,
+    "ultrafastPct": 81,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Boston",
+    "bandD": 2068,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23,
+    "imdRank": 19256,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PE21 encompasses BOSTON and its surrounding areas in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in PE21 is £197,178, which is 49% below the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in PE21 cost 31.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PE21 have risen 3.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 130.8 recorded crimes per 1,000 residents, PE21 has a crime rate significantly 61% above the national average of 81.3 per 1,000.",
+    "schoolContext": "PE21 has 19 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PE21 are 333.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PE21 (BOSTON) offers affordable property prices (£197,178, 31% below national average), higher-than-average crime (61% above national average), 19 nearby schools, and excellent broadband (333 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 333
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 333
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

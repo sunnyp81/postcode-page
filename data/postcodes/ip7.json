@@ -1,0 +1,198 @@
+{
+  "code": "IP7",
+  "name": "IPSWICH",
+  "county": "suffolk",
+  "region": "east-of-england",
+  "city": "ipswich",
+  "adjacent": [
+    "IP6",
+    "IP8",
+    "IP9"
+  ],
+  "property": {
+    "avgPrice": 452236,
+    "medianPrice": 350000,
+    "priceChange1y": -10.8,
+    "priceChange5y": 0,
+    "transactions12m": 687,
+    "byType": {
+      "detached": {
+        "avg": 505902,
+        "count": 317
+      },
+      "semi": {
+        "avg": 322228,
+        "count": 154
+      },
+      "terraced": {
+        "avg": 291683,
+        "count": 128
+      },
+      "flat": {
+        "avg": 216540,
+        "count": 25
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 457895
+      },
+      {
+        "year": 2024,
+        "avg": 471915
+      },
+      {
+        "year": 2025,
+        "avg": 420918
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bildeston Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hadleigh Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Whatfield Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Old Buckenham Hall School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Centre Academy East Anglia",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 97033,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 192,
+    "avgUpload": 35,
+    "superfastPct": 90,
+    "ultrafastPct": 41,
+    "gigabitPct": 41,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Babergh",
+    "bandD": 2035,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.3,
+    "imdRank": 12339,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IP7 is the postcode district for IPSWICH, located in Suffolk, East Of England.",
+    "priceVsCounty": "The average property price in IP7 is £452,236, which is 19% above the Suffolk average of £379,904.",
+    "priceVsNational": "Properties in IP7 cost 57.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IP7 have fallen 10.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, IP7 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IP7 has 12 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IP7 are 192.0 Mbps, with 99% of premises having access to superfast broadband and 68% with full fibre (FTTP) connectivity.",
+    "synthesis": "IP7 (IPSWICH) offers above-average property prices (£452,236, 58% above national average), low crime (94% below national average), 12 nearby schools, and excellent broadband (192 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 379904,
+      "crime": 75,
+      "broadband": 192
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 192
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

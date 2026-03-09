@@ -1,0 +1,198 @@
+{
+  "code": "SE25",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SE24",
+    "SE26",
+    "SE27"
+  ],
+  "property": {
+    "avgPrice": 386549,
+    "medianPrice": 365000,
+    "priceChange1y": 12.9,
+    "priceChange5y": 0,
+    "transactions12m": 1448,
+    "byType": {
+      "detached": {
+        "avg": 630071,
+        "count": 21
+      },
+      "semi": {
+        "avg": 528924,
+        "count": 110
+      },
+      "terraced": {
+        "avg": 464181,
+        "count": 580
+      },
+      "flat": {
+        "avg": 271542,
+        "count": 655
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 365180
+      },
+      {
+        "year": 2024,
+        "avg": 375691
+      },
+      {
+        "year": 2025,
+        "avg": 424145
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 125.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 54.9,
+    "byType": {
+      "violentCrime": 43.5,
+      "burglary": 3.9,
+      "vehicleCrime": 11.4,
+      "antisocialBehaviour": 26.5,
+      "otherTheft": 15.7,
+      "other": 24.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 1,
+    "good": 7,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Crosfield Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Heavers Farm Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Selhurst Nursery School and Children's Centre",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Harris Academy South Norwood",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Thomas Becket Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 409342,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 18,
+    "privateRent": 24,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 332,
+    "avgUpload": 60,
+    "superfastPct": 96,
+    "ultrafastPct": 83,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Croydon",
+    "bandD": 2240,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.5,
+    "imdRank": 18371,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SE25 covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in SE25 is £386,549, which is 70% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SE25 cost 34.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SE25 have risen 12.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 125.9 recorded crimes per 1,000 residents, SE25 has a crime rate significantly 55% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SE25 has 15 schools within or near its boundaries, including 1 rated Outstanding and 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SE25 are 332.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SE25 (LONDON) offers above-average property prices (£386,549, 35% above national average), higher-than-average crime (55% above national average), 15 nearby schools, and excellent broadband (332 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 332
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 332
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

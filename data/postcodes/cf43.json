@@ -1,0 +1,197 @@
+{
+  "code": "CF43",
+  "name": "FERNDALE",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF42",
+    "CF44",
+    "CF45"
+  ],
+  "property": {
+    "avgPrice": 92915,
+    "medianPrice": 82750,
+    "priceChange1y": 10.8,
+    "priceChange5y": 0,
+    "transactions12m": 568,
+    "byType": {
+      "detached": {
+        "avg": 222933,
+        "count": 15
+      },
+      "semi": {
+        "avg": 113514,
+        "count": 29
+      },
+      "terraced": {
+        "avg": 86626,
+        "count": 493
+      },
+      "flat": {
+        "avg": 58906,
+        "count": 0
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 91256
+      },
+      {
+        "year": 2024,
+        "avg": 89366
+      },
+      {
+        "year": 2025,
+        "avg": 98979
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 11.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -85.4,
+    "byType": {
+      "violentCrime": 5.2,
+      "burglary": 1,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 1.2,
+      "otherTheft": 0.9,
+      "other": 3.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Darran Park Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pontygwaith Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tylorstown Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Gynradd Gymraeg Llyn Y Forwyn",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ferndale Community School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 78,
+    "avgUpload": 14,
+    "superfastPct": 97,
+    "ultrafastPct": 7,
+    "gigabitPct": 7,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF43 covers FERNDALE in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF43 is £92,915, which is 66% below the Cardiff average of £275,506.",
+    "priceVsNational": "Properties in CF43 cost 67.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CF43 have risen 10.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 11.9 recorded crimes per 1,000 residents, CF43 has a crime rate well 85% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CF43 has 7 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF43 are 78.0 Mbps, with 82% of premises having access to superfast broadband and 36% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF43 (FERNDALE) offers affordable property prices (£92,915, 68% below national average), low crime (85% below national average), 7 nearby schools, and good broadband connectivity (78 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 78
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 78
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

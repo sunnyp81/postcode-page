@@ -1,0 +1,198 @@
+{
+  "code": "BB2",
+  "name": "BLACKBURN",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "blackburn",
+  "adjacent": [
+    "BB1",
+    "BB3",
+    "BB4"
+  ],
+  "property": {
+    "avgPrice": 204769,
+    "medianPrice": 165000,
+    "priceChange1y": 1.1,
+    "priceChange5y": 0,
+    "transactions12m": 3030,
+    "byType": {
+      "detached": {
+        "avg": 331541,
+        "count": 821
+      },
+      "semi": {
+        "avg": 192817,
+        "count": 733
+      },
+      "terraced": {
+        "avg": 113874,
+        "count": 1252
+      },
+      "flat": {
+        "avg": 105106,
+        "count": 103
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 203549
+      },
+      {
+        "year": 2024,
+        "avg": 204385
+      },
+      {
+        "year": 2025,
+        "avg": 206621
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 181.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 122.9,
+    "byType": {
+      "violentCrime": 61,
+      "burglary": 4.1,
+      "vehicleCrime": 7.1,
+      "antisocialBehaviour": 50.3,
+      "otherTheft": 26.7,
+      "other": 32.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 40,
+    "outstanding": 3,
+    "good": 11,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Longshaw Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ashworth Nursery School",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Griffin Park Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Longshaw Community Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Meadowhead Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 162540,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 19,
+    "privateRent": 18,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 315,
+    "avgUpload": 57,
+    "superfastPct": 95,
+    "ultrafastPct": 76,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Blackburn Council",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 36,
+    "imdRank": 23819,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BB2 encompasses BLACKBURN and its surrounding areas in Lancashire, North West.",
+    "priceVsCounty": "The average property price in BB2 is £204,769, which is 20% below the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in BB2 cost 28.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BB2 have risen 1.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 181.2 recorded crimes per 1,000 residents, BB2 has a crime rate significantly 123% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BB2 has 40 schools within or near its boundaries, including 3 rated Outstanding and 11 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BB2 are 315.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BB2 (BLACKBURN) offers affordable property prices (£204,769, 29% below national average), higher-than-average crime (123% above national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (315 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 315
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 315
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

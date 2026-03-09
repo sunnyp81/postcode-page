@@ -1,0 +1,196 @@
+{
+  "code": "BS49",
+  "name": "BRISTOL",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS48"
+  ],
+  "property": {
+    "avgPrice": 442162,
+    "medianPrice": 365000,
+    "priceChange1y": -24,
+    "priceChange5y": 0,
+    "transactions12m": 662,
+    "byType": {
+      "detached": {
+        "avg": 526292,
+        "count": 265
+      },
+      "semi": {
+        "avg": 346233,
+        "count": 208
+      },
+      "terraced": {
+        "avg": 276894,
+        "count": 118
+      },
+      "flat": {
+        "avg": 166179,
+        "count": 40
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 385082
+      },
+      {
+        "year": 2024,
+        "avg": 531179
+      },
+      {
+        "year": 2025,
+        "avg": 403439
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 13.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -83.8,
+    "byType": {
+      "violentCrime": 6,
+      "burglary": 0.6,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 2.2,
+      "otherTheft": 1.3,
+      "other": 2.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Court-De-Wyck Church School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Yatton Church of England Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Yatton Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Chestnut Park Primary",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "St Andrew's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 224578,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 9,
+    "privateRent": 16,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 322,
+    "avgUpload": 58,
+    "superfastPct": 95,
+    "ultrafastPct": 78,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.8,
+    "imdRank": 11811,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS49 covers BRISTOL in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS49 is £442,162, broadly in line with the Bristol average of £449,132.",
+    "priceVsNational": "Properties in BS49 cost 54.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BS49 have fallen 24.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 13.2 recorded crimes per 1,000 residents, BS49 has a crime rate well 84% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BS49 has 5 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS49 are 322.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS49 (BRISTOL) offers above-average property prices (£442,162, 54% above national average), low crime (84% below national average), 5 nearby schools, and excellent broadband (322 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 322
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 322
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

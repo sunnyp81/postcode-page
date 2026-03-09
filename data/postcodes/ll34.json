@@ -1,0 +1,182 @@
+{
+  "code": "LL34",
+  "name": "PENMAENMAWR",
+  "county": "north-wales",
+  "region": "wales",
+  "city": "north-wales",
+  "adjacent": [
+    "LL33",
+    "LL35",
+    "LL36"
+  ],
+  "property": {
+    "avgPrice": 224640,
+    "medianPrice": 184000,
+    "priceChange1y": -4.2,
+    "priceChange5y": 0,
+    "transactions12m": 198,
+    "byType": {
+      "detached": {
+        "avg": 342052,
+        "count": 43
+      },
+      "semi": {
+        "avg": 224183,
+        "count": 49
+      },
+      "terraced": {
+        "avg": 160489,
+        "count": 80
+      },
+      "flat": {
+        "avg": 109408,
+        "count": 18
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 253359
+      },
+      {
+        "year": 2024,
+        "avg": 218107
+      },
+      {
+        "year": 2025,
+        "avg": 209017
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -92.7,
+    "byType": {
+      "violentCrime": 2.5,
+      "burglary": 0.3,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 1.2,
+      "otherTheft": 0.7,
+      "other": 1.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ysgol Capelulo",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Pencae",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 114891,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 386,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 96,
+    "gigabitPct": 96,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Wales Council",
+    "bandD": 2304,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LL34 covers PENMAENMAWR in North Wales, Wales.",
+    "priceVsCounty": "The average property price in LL34 is £224,640, which is 17% below the North Wales average of £271,879.",
+    "priceVsNational": "Properties in LL34 cost 21.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LL34 have fallen 4.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.9 recorded crimes per 1,000 residents, LL34 has a crime rate well 93% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LL34 has 2 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LL34 are 386.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LL34 (PENMAENMAWR) offers affordable property prices (£224,640, 22% below national average), low crime (93% below national average), 2 nearby schools, and excellent broadband (386 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 271879,
+      "crime": 75,
+      "broadband": 386
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 386
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

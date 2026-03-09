@@ -1,0 +1,178 @@
+{
+  "code": "PL16",
+  "name": "LIFTON",
+  "county": "devon",
+  "region": "south-west",
+  "city": "plymouth",
+  "adjacent": [
+    "PL15",
+    "PL17",
+    "PL18"
+  ],
+  "property": {
+    "avgPrice": 405375,
+    "medianPrice": 310000,
+    "priceChange1y": -12.2,
+    "priceChange5y": 0,
+    "transactions12m": 85,
+    "byType": {
+      "detached": {
+        "avg": 487887,
+        "count": 31
+      },
+      "semi": {
+        "avg": 274132,
+        "count": 19
+      },
+      "terraced": {
+        "avg": 286243,
+        "count": 14
+      },
+      "flat": {
+        "avg": 88400,
+        "count": 4
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 408819
+      },
+      {
+        "year": 2024,
+        "avg": 428027
+      },
+      {
+        "year": 2025,
+        "avg": 375813
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.5,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.3,
+      "otherTheft": 0.1,
+      "other": 0.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Lifton Community Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 69841,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 24,
+    "socialRent": 9,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 206,
+    "avgUpload": 37,
+    "superfastPct": 73,
+    "ultrafastPct": 47,
+    "gigabitPct": 47,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Torridge",
+    "bandD": 2255,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.3,
+    "imdRank": 20086,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PL16 is the postcode district for LIFTON, located in Devon, South West.",
+    "priceVsCounty": "The average property price in PL16 is £405,375, which is 5% above the Devon average of £385,452.",
+    "priceVsNational": "Properties in PL16 cost 41.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PL16 have fallen 12.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, PL16 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PL16 has 1 school within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PL16 are 206.0 Mbps, with 99% of premises having access to superfast broadband and 72% with full fibre (FTTP) connectivity.",
+    "synthesis": "PL16 (LIFTON) offers above-average property prices (£405,375, 41% above national average), low crime (94% below national average), 1 nearby school, and excellent broadband (206 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 206
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 206
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

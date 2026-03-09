@@ -1,0 +1,198 @@
+{
+  "code": "BH23",
+  "name": "CHRISTCHURCH",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "bournemouth",
+  "adjacent": [
+    "BH22",
+    "BH24",
+    "BH25"
+  ],
+  "property": {
+    "avgPrice": 477219,
+    "medianPrice": 415000,
+    "priceChange1y": -10.4,
+    "priceChange5y": 0,
+    "transactions12m": 2800,
+    "byType": {
+      "detached": {
+        "avg": 629504,
+        "count": 1080
+      },
+      "semi": {
+        "avg": 419943,
+        "count": 409
+      },
+      "terraced": {
+        "avg": 381641,
+        "count": 469
+      },
+      "flat": {
+        "avg": 266326,
+        "count": 732
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 458939
+      },
+      {
+        "year": 2024,
+        "avg": 511637
+      },
+      {
+        "year": 2025,
+        "avg": 458530
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 23.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -71.2,
+    "byType": {
+      "violentCrime": 9.4,
+      "burglary": 0.5,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 3.9,
+      "otherTheft": 5,
+      "other": 3.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Somerford Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Mudeford Community Infants' School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mudeford Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Burton Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "The Priory Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 176116,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 11,
+    "privateRent": 12,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 322,
+    "avgUpload": 58,
+    "superfastPct": 96,
+    "ultrafastPct": 78,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "New Forest",
+    "bandD": 2091,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13,
+    "imdRank": 10782,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BH23 encompasses CHRISTCHURCH and its surrounding areas in Dorset, South West.",
+    "priceVsCounty": "The average property price in BH23 is £477,219, which is 12% above the Dorset average of £425,376.",
+    "priceVsNational": "Properties in BH23 cost 66.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BH23 have fallen 10.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 23.4 recorded crimes per 1,000 residents, BH23 has a crime rate well 71% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BH23 has 21 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BH23 are 322.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BH23 (CHRISTCHURCH) offers above-average property prices (£477,219, 66% above national average), low crime (71% below national average), 21 nearby schools, and excellent broadband (322 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 322
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 322
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

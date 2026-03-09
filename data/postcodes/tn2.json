@@ -1,0 +1,198 @@
+{
+  "code": "TN2",
+  "name": "TUNBRIDGE WELLS",
+  "county": "kent",
+  "region": "south-east",
+  "city": "tunbridge-wells",
+  "adjacent": [
+    "TN1",
+    "TN3",
+    "TN4"
+  ],
+  "property": {
+    "avgPrice": 586379,
+    "medianPrice": 435000,
+    "priceChange1y": -7.1,
+    "priceChange5y": 0,
+    "transactions12m": 1404,
+    "byType": {
+      "detached": {
+        "avg": 904000,
+        "count": 327
+      },
+      "semi": {
+        "avg": 548887,
+        "count": 325
+      },
+      "terraced": {
+        "avg": 399490,
+        "count": 279
+      },
+      "flat": {
+        "avg": 325712,
+        "count": 414
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 633352
+      },
+      {
+        "year": 2024,
+        "avg": 578782
+      },
+      {
+        "year": 2025,
+        "avg": 537424
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 63,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -22.5,
+    "byType": {
+      "violentCrime": 23.6,
+      "burglary": 1.6,
+      "vehicleCrime": 1.3,
+      "antisocialBehaviour": 12.2,
+      "otherTheft": 11.6,
+      "other": 12.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Pembury School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Claremont Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Broadwater Down Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Peter's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St James' Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 166908,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 8,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 330,
+    "avgUpload": 59,
+    "superfastPct": 97,
+    "ultrafastPct": 83,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wealden",
+    "bandD": 2363,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.3,
+    "imdRank": 10272,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TN2 encompasses TUNBRIDGE WELLS and its surrounding areas in Kent, South East.",
+    "priceVsCounty": "The average property price in TN2 is £586,379, which is 30% above the Kent average of £450,882.",
+    "priceVsNational": "Properties in TN2 cost 104.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TN2 have fallen 7.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 63.0 recorded crimes per 1,000 residents, TN2 has a crime rate well 23% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TN2 has 12 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TN2 are 330.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TN2 (TUNBRIDGE WELLS) offers above-average property prices (£586,379, 104% above national average), low crime (23% below national average), 12 nearby schools, and excellent broadband (330 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 330
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 330
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

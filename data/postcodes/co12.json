@@ -1,0 +1,198 @@
+{
+  "code": "CO12",
+  "name": "HARWICH",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "colchester",
+  "adjacent": [
+    "CO11",
+    "CO13",
+    "CO14"
+  ],
+  "property": {
+    "avgPrice": 258021,
+    "medianPrice": 242000,
+    "priceChange1y": -0.7,
+    "priceChange5y": 0,
+    "transactions12m": 1124,
+    "byType": {
+      "detached": {
+        "avg": 356110,
+        "count": 365
+      },
+      "semi": {
+        "avg": 247142,
+        "count": 309
+      },
+      "terraced": {
+        "avg": 192570,
+        "count": 308
+      },
+      "flat": {
+        "avg": 126255,
+        "count": 108
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 250472
+      },
+      {
+        "year": 2024,
+        "avg": 262056
+      },
+      {
+        "year": 2025,
+        "avg": 260124
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 32,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -60.6,
+    "byType": {
+      "violentCrime": 15.6,
+      "burglary": 0.8,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 3.1,
+      "otherTheft": 3.7,
+      "other": 7.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Mayflower Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Harwich Community Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "All Saints Church of England Voluntary Aided Primary School, Great Oakley",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "All Saints' Church of England Voluntary Aided Primary School, Dovercourt",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Chase Lane Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 156759,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 8,
+    "privateRent": 18,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 309,
+    "avgUpload": 56,
+    "superfastPct": 97,
+    "ultrafastPct": 74,
+    "gigabitPct": 74,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Tendring",
+    "bandD": 1999,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 30.5,
+    "imdRank": 22083,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CO12 encompasses HARWICH and its surrounding areas in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CO12 is £258,021, which is 40% below the Essex average of £429,754.",
+    "priceVsNational": "Properties in CO12 cost 10.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CO12 have fallen 0.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 32.0 recorded crimes per 1,000 residents, CO12 has a crime rate well 61% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CO12 has 9 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CO12 are 309.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CO12 (HARWICH) offers property prices near the national average (£258,021), low crime (61% below national average), 9 nearby schools, and excellent broadband (309 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 309
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 309
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

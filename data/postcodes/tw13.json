@@ -1,0 +1,198 @@
+{
+  "code": "TW13",
+  "name": "FELTHAM",
+  "county": "greater-london",
+  "region": "london",
+  "city": "twickenham",
+  "adjacent": [
+    "TW12",
+    "TW14",
+    "TW15"
+  ],
+  "property": {
+    "avgPrice": 413627,
+    "medianPrice": 397000,
+    "priceChange1y": -9,
+    "priceChange5y": 0,
+    "transactions12m": 1078,
+    "byType": {
+      "detached": {
+        "avg": 734381,
+        "count": 31
+      },
+      "semi": {
+        "avg": 477925,
+        "count": 273
+      },
+      "terraced": {
+        "avg": 420792,
+        "count": 347
+      },
+      "flat": {
+        "avg": 267629,
+        "count": 398
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 413118
+      },
+      {
+        "year": 2024,
+        "avg": 431108
+      },
+      {
+        "year": 2025,
+        "avg": 392391
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 91.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 12.3,
+    "byType": {
+      "violentCrime": 29,
+      "burglary": 2.9,
+      "vehicleCrime": 4.9,
+      "antisocialBehaviour": 23.5,
+      "otherTheft": 13.6,
+      "other": 17.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 2,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Cardinal Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Feltham Hill Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Edward Pauling Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Lawrence Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lindon Bennett School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 299424,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 21,
+    "privateRent": 29,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 351,
+    "avgUpload": 63,
+    "superfastPct": 98,
+    "ultrafastPct": 86,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hounslow",
+    "bandD": 1882,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.5,
+    "imdRank": 18652,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TW13 is the postcode district for FELTHAM, located in Greater London, London.",
+    "priceVsCounty": "The average property price in TW13 is £413,627, which is 68% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in TW13 cost 44.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TW13 have fallen 9.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 91.3 recorded crimes per 1,000 residents, TW13 has a crime rate 12% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TW13 has 15 schools within or near its boundaries, including 2 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TW13 are 351.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TW13 (FELTHAM) offers above-average property prices (£413,627, 44% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (351 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 351
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 351
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

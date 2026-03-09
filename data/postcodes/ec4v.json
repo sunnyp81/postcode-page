@@ -1,0 +1,174 @@
+{
+  "code": "EC4V",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 3238430,
+    "medianPrice": 877319,
+    "priceChange1y": -68.7,
+    "priceChange5y": 0,
+    "transactions12m": 59,
+    "byType": {
+      "detached": {
+        "avg": 6153017,
+        "count": 0
+      },
+      "semi": {
+        "avg": 3886116,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 2825000,
+        "count": 2
+      },
+      "flat": {
+        "avg": 1079231,
+        "count": 42
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 2352189
+      },
+      {
+        "year": 2024,
+        "avg": 5046848
+      },
+      {
+        "year": 2025,
+        "avg": 1578213
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 97.9,
+      "burglary": 24.4,
+      "vehicleCrime": 8.9,
+      "antisocialBehaviour": 57.5,
+      "otherTheft": 313,
+      "other": 63.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "City of London School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 223024,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 15,
+    "socialRent": 40,
+    "privateRent": 29,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 160,
+    "avgUpload": 29,
+    "superfastPct": 39,
+    "ultrafastPct": 38,
+    "gigabitPct": 38,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Islington",
+    "bandD": 1815,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.5,
+    "imdRank": 22490,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EC4V is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in EC4V is £3,238,430, which is 148% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in EC4V cost 1028.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EC4V have fallen 68.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, EC4V has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "EC4V has 1 school within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EC4V are 160.0 Mbps, with 94% of premises having access to superfast broadband and 59% with full fibre (FTTP) connectivity.",
+    "synthesis": "EC4V (LONDON) offers above-average property prices (£3,238,430, 1028% above national average), higher-than-average crime (269% above national average), 1 nearby school, and excellent broadband (160 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 160
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 160
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

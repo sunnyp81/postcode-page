@@ -1,0 +1,197 @@
+{
+  "code": "SW1W",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SW2",
+    "SW3"
+  ],
+  "property": {
+    "avgPrice": 3358396,
+    "medianPrice": 1552000,
+    "priceChange1y": 12.4,
+    "priceChange5y": 0,
+    "transactions12m": 395,
+    "byType": {
+      "detached": {
+        "avg": 1900000,
+        "count": 1
+      },
+      "semi": {
+        "avg": 4450000,
+        "count": 2
+      },
+      "terraced": {
+        "avg": 5727294,
+        "count": 89
+      },
+      "flat": {
+        "avg": 2135949,
+        "count": 263
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 3428311
+      },
+      {
+        "year": 2024,
+        "avg": 3156685
+      },
+      {
+        "year": 2025,
+        "avg": 3548690
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 61.1,
+      "burglary": 10.9,
+      "vehicleCrime": 21.6,
+      "antisocialBehaviour": 77,
+      "otherTheft": 139.3,
+      "other": 38.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Barnabas' CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Peter's Eaton Square CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eaton House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Francis Holland School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Inchbald School of Design",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 209996,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 11,
+    "socialRent": 28,
+    "privateRent": 39,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 298,
+    "avgUpload": 54,
+    "superfastPct": 88,
+    "ultrafastPct": 72,
+    "gigabitPct": 72,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Westminster",
+    "bandD": 914,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.3,
+    "imdRank": 16573,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SW1W covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in SW1W is £3,358,396, which is 157% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SW1W cost 1070.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SW1W have risen 12.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, SW1W has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SW1W has 5 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SW1W are 298.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SW1W (LONDON) offers above-average property prices (£3,358,396, 1070% above national average), higher-than-average crime (269% above national average), 5 nearby schools, and excellent broadband (298 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 298
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 298
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

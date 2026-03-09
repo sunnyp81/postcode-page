@@ -1,0 +1,198 @@
+{
+  "code": "TW12",
+  "name": "HAMPTON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "twickenham",
+  "adjacent": [
+    "TW11",
+    "TW13",
+    "TW14"
+  ],
+  "property": {
+    "avgPrice": 697022,
+    "medianPrice": 600000,
+    "priceChange1y": -0.2,
+    "priceChange5y": 0,
+    "transactions12m": 865,
+    "byType": {
+      "detached": {
+        "avg": 1313674,
+        "count": 107
+      },
+      "semi": {
+        "avg": 849813,
+        "count": 205
+      },
+      "terraced": {
+        "avg": 634973,
+        "count": 278
+      },
+      "flat": {
+        "avg": 371906,
+        "count": 241
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 693654
+      },
+      {
+        "year": 2024,
+        "avg": 699338
+      },
+      {
+        "year": 2025,
+        "avg": 697839
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 35.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -56.3,
+    "byType": {
+      "violentCrime": 9.6,
+      "burglary": 2.1,
+      "vehicleCrime": 2.5,
+      "antisocialBehaviour": 7.7,
+      "otherTheft": 6.8,
+      "other": 6.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 2,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Carlisle Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hampton Hill Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hampton Junior School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Hampton Infant School and Nursery",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Buckingham Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 196678,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 12,
+    "privateRent": 23,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 379,
+    "avgUpload": 68,
+    "superfastPct": 99,
+    "ultrafastPct": 94,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Richmond upon Thames",
+    "bandD": 2141,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 9.4,
+    "imdRank": 7159,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TW12 covers HAMPTON in Greater London, London.",
+    "priceVsCounty": "The average property price in TW12 is £697,022, which is 47% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in TW12 cost 142.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TW12 have fallen 0.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 35.5 recorded crimes per 1,000 residents, TW12 has a crime rate well 56% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TW12 has 11 schools within or near its boundaries, including 2 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TW12 are 379.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TW12 (HAMPTON) offers above-average property prices (£697,022, 143% above national average), low crime (56% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (379 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 379
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 379
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

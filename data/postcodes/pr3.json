@@ -1,0 +1,198 @@
+{
+  "code": "PR3",
+  "name": "PRESTON",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "preston",
+  "adjacent": [
+    "PR2",
+    "PR4",
+    "PR5"
+  ],
+  "property": {
+    "avgPrice": 312721,
+    "medianPrice": 267498,
+    "priceChange1y": 1.9,
+    "priceChange5y": 0,
+    "transactions12m": 2832,
+    "byType": {
+      "detached": {
+        "avg": 385375,
+        "count": 1272
+      },
+      "semi": {
+        "avg": 228759,
+        "count": 731
+      },
+      "terraced": {
+        "avg": 184524,
+        "count": 549
+      },
+      "flat": {
+        "avg": 165442,
+        "count": 119
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 309422
+      },
+      {
+        "year": 2024,
+        "avg": 312248
+      },
+      {
+        "year": 2025,
+        "avg": 318316
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 38,
+    "outstanding": 3,
+    "good": 8,
+    "requiresImprovement": 2,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Forton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Nateby Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Goosnargh Whitechapel Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Garstang Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Kirkland and Catterall St Helen's Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 118743,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 8,
+    "privateRent": 16,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 297,
+    "avgUpload": 53,
+    "superfastPct": 92,
+    "ultrafastPct": 71,
+    "gigabitPct": 71,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wyre",
+    "bandD": 2152,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.9,
+    "imdRank": 15609,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PR3 covers PRESTON in Lancashire, North West.",
+    "priceVsCounty": "The average property price in PR3 is £312,721, which is 23% above the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in PR3 cost 9.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PR3 have risen 1.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, PR3 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PR3 has 38 schools within or near its boundaries, including 3 rated Outstanding and 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PR3 are 297.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PR3 (PRESTON) offers property prices near the national average (£312,721), low crime (94% below national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (297 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 297
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 297
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

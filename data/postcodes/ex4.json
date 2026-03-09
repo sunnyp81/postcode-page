@@ -1,0 +1,198 @@
+{
+  "code": "EX4",
+  "name": "EXETER",
+  "county": "devon",
+  "region": "south-west",
+  "city": "exeter",
+  "adjacent": [
+    "EX3",
+    "EX5",
+    "EX6"
+  ],
+  "property": {
+    "avgPrice": 379350,
+    "medianPrice": 283500,
+    "priceChange1y": -13.6,
+    "priceChange5y": 0,
+    "transactions12m": 2120,
+    "byType": {
+      "detached": {
+        "avg": 509460,
+        "count": 317
+      },
+      "semi": {
+        "avg": 345882,
+        "count": 416
+      },
+      "terraced": {
+        "avg": 301622,
+        "count": 867
+      },
+      "flat": {
+        "avg": 179011,
+        "count": 398
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 408359
+      },
+      {
+        "year": 2024,
+        "avg": 388208
+      },
+      {
+        "year": 2025,
+        "avg": 335414
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 181.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 123.2,
+    "byType": {
+      "violentCrime": 71.1,
+      "burglary": 3.8,
+      "vehicleCrime": 2.4,
+      "antisocialBehaviour": 34,
+      "otherTheft": 34.9,
+      "other": 35.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 3,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Montgomery Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stoke Hill Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stoke Hill Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pinhoe Church of England Primary School & Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Wilfrid's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 138548,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 10,
+    "privateRent": 16,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 345,
+    "avgUpload": 62,
+    "superfastPct": 93,
+    "ultrafastPct": 85,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Teignbridge",
+    "bandD": 2279,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.9,
+    "imdRank": 13686,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EX4 encompasses EXETER and its surrounding areas in Devon, South West.",
+    "priceVsCounty": "The average property price in EX4 is £379,350, broadly in line with the Devon average of £385,452.",
+    "priceVsNational": "Properties in EX4 cost 32.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EX4 have fallen 13.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 181.5 recorded crimes per 1,000 residents, EX4 has a crime rate significantly 123% above the national average of 81.3 per 1,000.",
+    "schoolContext": "EX4 has 20 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EX4 are 345.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "EX4 (EXETER) offers above-average property prices (£379,350, 32% above national average), higher-than-average crime (123% above national average), 20 nearby schools, and excellent broadband (345 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 345
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 345
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

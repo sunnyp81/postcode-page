@@ -1,0 +1,197 @@
+{
+  "code": "HP6",
+  "name": "AMERSHAM",
+  "county": "hertfordshire",
+  "region": "south-east",
+  "city": "hemel-hempstead",
+  "adjacent": [
+    "HP5",
+    "HP7",
+    "HP8"
+  ],
+  "property": {
+    "avgPrice": 771182,
+    "medianPrice": 705000,
+    "priceChange1y": 3.1,
+    "priceChange5y": 0,
+    "transactions12m": 579,
+    "byType": {
+      "detached": {
+        "avg": 1132725,
+        "count": 227
+      },
+      "semi": {
+        "avg": 721725,
+        "count": 114
+      },
+      "terraced": {
+        "avg": 557872,
+        "count": 70
+      },
+      "flat": {
+        "avg": 329581,
+        "count": 143
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 733705
+      },
+      {
+        "year": 2024,
+        "avg": 778941
+      },
+      {
+        "year": 2025,
+        "avg": 802807
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 19.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -76,
+    "byType": {
+      "violentCrime": 7.8,
+      "burglary": 1.7,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 2.7,
+      "otherTheft": 2.3,
+      "other": 4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 2,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Henry Allen Nursery School",
+        "type": "Nursery",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Hyde Heath Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Chestnut Lane School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Elangeni School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Heatherton School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 40,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 65,
+    "socialRent": 13,
+    "privateRent": 22,
+    "economicallyActive": 76,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 341,
+    "avgUpload": 61,
+    "superfastPct": 99,
+    "ultrafastPct": 83,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hemel Hempstead Council",
+    "bandD": 2183,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "HP6 encompasses AMERSHAM and its surrounding areas in Hertfordshire, South East.",
+    "priceVsCounty": "The average property price in HP6 is £771,182, which is 35% above the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in HP6 cost 168.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HP6 have risen 3.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 19.5 recorded crimes per 1,000 residents, HP6 has a crime rate well 76% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HP6 has 13 schools within or near its boundaries, including 2 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HP6 are 341.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HP6 (AMERSHAM) offers above-average property prices (£771,182, 169% above national average), low crime (76% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (341 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 341
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 341
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

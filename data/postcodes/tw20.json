@@ -1,0 +1,196 @@
+{
+  "code": "TW20",
+  "name": "EGHAM",
+  "county": "greater-london",
+  "region": "london",
+  "city": "twickenham",
+  "adjacent": [
+    "TW19"
+  ],
+  "property": {
+    "avgPrice": 658237,
+    "medianPrice": 460000,
+    "priceChange1y": -10.7,
+    "priceChange5y": 0,
+    "transactions12m": 908,
+    "byType": {
+      "detached": {
+        "avg": 1213639,
+        "count": 151
+      },
+      "semi": {
+        "avg": 530840,
+        "count": 291
+      },
+      "terraced": {
+        "avg": 511699,
+        "count": 220
+      },
+      "flat": {
+        "avg": 397766,
+        "count": 202
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 831317
+      },
+      {
+        "year": 2024,
+        "avg": 579474
+      },
+      {
+        "year": 2025,
+        "avg": 517241
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 28,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -65.6,
+    "byType": {
+      "violentCrime": 8.4,
+      "burglary": 1.1,
+      "vehicleCrime": 1,
+      "antisocialBehaviour": 4.2,
+      "otherTheft": 7.1,
+      "other": 6.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Manorcroft Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Thorpe Lea Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Jude's Church of England Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Thorpe CofE Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bishopsgate School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 92118,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 321,
+    "avgUpload": 58,
+    "superfastPct": 98,
+    "ultrafastPct": 81,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Runnymede",
+    "bandD": 2171,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12,
+    "imdRank": 10056,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TW20 encompasses EGHAM and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in TW20 is £658,237, which is 50% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in TW20 cost 129.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TW20 have fallen 10.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 28.0 recorded crimes per 1,000 residents, TW20 has a crime rate well 66% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TW20 has 12 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TW20 are 321.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TW20 (EGHAM) offers above-average property prices (£658,237, 129% above national average), low crime (66% below national average), 12 nearby schools, and excellent broadband (321 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 321
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 321
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

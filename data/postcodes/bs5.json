@@ -1,0 +1,197 @@
+{
+  "code": "BS5",
+  "name": "BRISTOL",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS4",
+    "BS6",
+    "BS7"
+  ],
+  "property": {
+    "avgPrice": 325041,
+    "medianPrice": 327000,
+    "priceChange1y": 3.6,
+    "priceChange5y": 0,
+    "transactions12m": 2464,
+    "byType": {
+      "detached": {
+        "avg": 410955,
+        "count": 64
+      },
+      "semi": {
+        "avg": 351976,
+        "count": 252
+      },
+      "terraced": {
+        "avg": 349863,
+        "count": 1566
+      },
+      "flat": {
+        "avg": 208930,
+        "count": 510
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 323288
+      },
+      {
+        "year": 2024,
+        "avg": 320728
+      },
+      {
+        "year": 2025,
+        "avg": 332212
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 214,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 163.2,
+    "byType": {
+      "violentCrime": 82.2,
+      "burglary": 7.2,
+      "vehicleCrime": 12.3,
+      "antisocialBehaviour": 30.8,
+      "otherTheft": 33.9,
+      "other": 47.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 3,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Speedwell Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Limes Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Glenfrome Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Summerhill Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Whitehall Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 371,
+    "avgUpload": 67,
+    "superfastPct": 97,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.4,
+    "imdRank": 19421,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS5 is the postcode district for BRISTOL, located in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS5 is £325,041, which is 28% below the Bristol average of £449,132.",
+    "priceVsNational": "Properties in BS5 cost 13.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BS5 have risen 3.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 214.0 recorded crimes per 1,000 residents, BS5 has a crime rate significantly 163% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BS5 has 17 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS5 are 371.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS5 (BRISTOL) offers property prices near the national average (£325,041), higher-than-average crime (163% above national average), 17 nearby schools, and excellent broadband (371 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 371
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 371
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

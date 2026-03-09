@@ -1,0 +1,198 @@
+{
+  "code": "L4",
+  "name": "LIVERPOOL",
+  "county": "merseyside",
+  "region": "north-west",
+  "city": "liverpool",
+  "adjacent": [
+    "L3",
+    "L5",
+    "L6"
+  ],
+  "property": {
+    "avgPrice": 115713,
+    "medianPrice": 100000,
+    "priceChange1y": 24,
+    "priceChange5y": 0,
+    "transactions12m": 1782,
+    "byType": {
+      "detached": {
+        "avg": 195795,
+        "count": 11
+      },
+      "semi": {
+        "avg": 153576,
+        "count": 206
+      },
+      "terraced": {
+        "avg": 101736,
+        "count": 1429
+      },
+      "flat": {
+        "avg": 84088,
+        "count": 45
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 108654
+      },
+      {
+        "year": 2024,
+        "avg": 108350
+      },
+      {
+        "year": 2025,
+        "avg": 134354
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 229.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 182.4,
+    "byType": {
+      "violentCrime": 104.1,
+      "burglary": 5.4,
+      "vehicleCrime": 7.7,
+      "antisocialBehaviour": 14.3,
+      "otherTheft": 22.8,
+      "other": 75.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 2,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Gwladys Street Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Francis de Sales Catholic Junior School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "St Francis de Sales Catholic Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Matthew's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St John's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 508961,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 23,
+    "socialRent": 26,
+    "privateRent": 24,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 384,
+    "avgUpload": 69,
+    "superfastPct": 100,
+    "ultrafastPct": 96,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Liverpool",
+    "bandD": 2308,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 42.4,
+    "imdRank": 25833,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "L4 encompasses LIVERPOOL and its surrounding areas in Merseyside, North West.",
+    "priceVsCounty": "The average property price in L4 is £115,713, which is 54% below the Merseyside average of £252,845.",
+    "priceVsNational": "Properties in L4 cost 59.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in L4 have risen 24.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 229.6 recorded crimes per 1,000 residents, L4 has a crime rate significantly 182% above the national average of 81.3 per 1,000.",
+    "schoolContext": "L4 has 13 schools within or near its boundaries, including 2 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in L4 are 384.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "L4 (LIVERPOOL) offers affordable property prices (£115,713, 60% below national average), higher-than-average crime (182% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (384 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 252845,
+      "crime": 75,
+      "broadband": 384
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 384
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

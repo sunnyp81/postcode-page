@@ -1,0 +1,193 @@
+{
+  "code": "B96",
+  "name": "REDDITCH",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B95",
+    "B97",
+    "B98"
+  ],
+  "property": {
+    "avgPrice": 468064,
+    "medianPrice": 398000,
+    "priceChange1y": -1.3,
+    "priceChange5y": 0,
+    "transactions12m": 227,
+    "byType": {
+      "detached": {
+        "avg": 595676,
+        "count": 105
+      },
+      "semi": {
+        "avg": 356918,
+        "count": 42
+      },
+      "terraced": {
+        "avg": 286803,
+        "count": 33
+      },
+      "flat": {
+        "avg": 152650,
+        "count": 23
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 419116
+      },
+      {
+        "year": 2024,
+        "avg": 497166
+      },
+      {
+        "year": 2025,
+        "avg": 490922
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.5,
+      "burglary": 0.2,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.1,
+      "other": 0.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Astwood Bank Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Feckenham CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ridgeway Secondary School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chestnut Place",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 87847,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 20,
+    "privateRent": 13,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 175,
+    "avgUpload": 32,
+    "superfastPct": 82,
+    "ultrafastPct": 37,
+    "gigabitPct": 37,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Redditch",
+    "bandD": 2087,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.5,
+    "imdRank": 17343,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B96 covers REDDITCH in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B96 is £468,064, which is 40% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B96 cost 63.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B96 have fallen 1.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, B96 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "B96 has 4 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B96 are 175.0 Mbps, with 96% of premises having access to superfast broadband and 63% with full fibre (FTTP) connectivity.",
+    "synthesis": "B96 (REDDITCH) offers above-average property prices (£468,064, 63% above national average), low crime (94% below national average), 4 nearby schools, and excellent broadband (175 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 175
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 175
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

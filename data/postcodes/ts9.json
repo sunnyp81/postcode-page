@@ -1,0 +1,197 @@
+{
+  "code": "TS9",
+  "name": "MIDDLESBROUGH",
+  "county": "teesside",
+  "region": "north-east",
+  "city": "middlesbrough",
+  "adjacent": [
+    "TS8",
+    "TS10",
+    "TS11"
+  ],
+  "property": {
+    "avgPrice": 339419,
+    "medianPrice": 276000,
+    "priceChange1y": -3.7,
+    "priceChange5y": 0,
+    "transactions12m": 660,
+    "byType": {
+      "detached": {
+        "avg": 461981,
+        "count": 248
+      },
+      "semi": {
+        "avg": 259254,
+        "count": 169
+      },
+      "terraced": {
+        "avg": 222277,
+        "count": 156
+      },
+      "flat": {
+        "avg": 172350,
+        "count": 35
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 330640
+      },
+      {
+        "year": 2024,
+        "avg": 350402
+      },
+      {
+        "year": 2025,
+        "avg": 337311
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.4,
+      "burglary": 0.2,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.4,
+      "otherTheft": 0.1,
+      "other": 0.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bilsdale Midcable Chop Gate Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Marwood Church of England Voluntary Controlled Infant School, Great Ayton",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ingleby Greenhow Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Carlton and Faceby Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kirkby and Great Broughton Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 26693,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 58,
+    "socialRent": 21,
+    "privateRent": 21,
+    "economicallyActive": 69,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 229,
+    "avgUpload": 41,
+    "superfastPct": 78,
+    "ultrafastPct": 54,
+    "gigabitPct": 53,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Middlesbrough Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TS9 encompasses MIDDLESBROUGH and its surrounding areas in Teesside, North East.",
+    "priceVsCounty": "The average property price in TS9 is £339,419, which is 79% above the Teesside average of £189,841.",
+    "priceVsNational": "Properties in TS9 cost 18.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TS9 have fallen 3.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TS9 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TS9 has 8 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TS9 are 229.0 Mbps, with 99% of premises having access to superfast broadband and 78% with full fibre (FTTP) connectivity.",
+    "synthesis": "TS9 (MIDDLESBROUGH) offers property prices near the national average (£339,419), low crime (94% below national average), 8 nearby schools, and excellent broadband (229 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 189841,
+      "crime": 75,
+      "broadband": 229
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 229
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "code": "DL17",
+  "name": "FERRYHILL",
+  "county": "county-durham",
+  "region": "north-east",
+  "city": "darlington",
+  "adjacent": [
+    "DL16"
+  ],
+  "property": {
+    "avgPrice": 95519,
+    "medianPrice": 70000,
+    "priceChange1y": 11.4,
+    "priceChange5y": 0,
+    "transactions12m": 1294,
+    "byType": {
+      "detached": {
+        "avg": 227482,
+        "count": 144
+      },
+      "semi": {
+        "avg": 102566,
+        "count": 326
+      },
+      "terraced": {
+        "avg": 62673,
+        "count": 779
+      },
+      "flat": {
+        "avg": 64357,
+        "count": 7
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 90041
+      },
+      {
+        "year": 2024,
+        "avg": 93681
+      },
+      {
+        "year": 2025,
+        "avg": 104394
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 37,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -54.5,
+    "byType": {
+      "violentCrime": 13.1,
+      "burglary": 1.9,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 5.3,
+      "otherTheft": 7.1,
+      "other": 8.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Woodlands",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ferryhill Station Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "West Cornforth Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dean Bank Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Broom Cottages Primary & Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 538011,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 20,
+    "privateRent": 15,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 225,
+    "avgUpload": 41,
+    "superfastPct": 90,
+    "ultrafastPct": 52,
+    "gigabitPct": 50,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Darlington Council",
+    "bandD": 2168,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.8,
+    "imdRank": 20206,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DL17 encompasses FERRYHILL and its surrounding areas in County Durham, North East.",
+    "priceVsCounty": "The average property price in DL17 is £95,519, which is 54% below the County Durham average of £207,512.",
+    "priceVsNational": "Properties in DL17 cost 66.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DL17 have risen 11.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 37.0 recorded crimes per 1,000 residents, DL17 has a crime rate well 54% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DL17 has 10 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DL17 are 225.0 Mbps, with 99% of premises having access to superfast broadband and 77% with full fibre (FTTP) connectivity.",
+    "synthesis": "DL17 (FERRYHILL) offers affordable property prices (£95,519, 67% below national average), low crime (54% below national average), 10 nearby schools, and excellent broadband (225 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 207512,
+      "crime": 75,
+      "broadband": 225
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 225
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

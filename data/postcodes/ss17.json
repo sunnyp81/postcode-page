@@ -1,0 +1,196 @@
+{
+  "code": "SS17",
+  "name": "STANFORD-LE-HOPE",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "southend-on-sea",
+  "adjacent": [
+    "SS16"
+  ],
+  "property": {
+    "avgPrice": 385147,
+    "medianPrice": 360000,
+    "priceChange1y": -5.9,
+    "priceChange5y": 0,
+    "transactions12m": 1299,
+    "byType": {
+      "detached": {
+        "avg": 557784,
+        "count": 161
+      },
+      "semi": {
+        "avg": 391642,
+        "count": 597
+      },
+      "terraced": {
+        "avg": 341400,
+        "count": 362
+      },
+      "flat": {
+        "avg": 190249,
+        "count": 141
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 391544
+      },
+      {
+        "year": 2024,
+        "avg": 392774
+      },
+      {
+        "year": 2025,
+        "avg": 369768
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 39.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -51.8,
+    "byType": {
+      "violentCrime": 14,
+      "burglary": 1.8,
+      "vehicleCrime": 2.9,
+      "antisocialBehaviour": 3.6,
+      "otherTheft": 8.1,
+      "other": 8.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 2,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "St Clere's School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stanford-Le-Hope Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Abbots Hall Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Graham James Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mossbourne Herd Lane Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 180989,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 18,
+    "privateRent": 17,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 336,
+    "avgUpload": 60,
+    "superfastPct": 96,
+    "ultrafastPct": 82,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Southend On Sea Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.9,
+    "imdRank": 17375,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SS17 covers STANFORD-LE-HOPE in Essex, East Of England.",
+    "priceVsCounty": "The average property price in SS17 is £385,147, which is 10% below the Essex average of £429,754.",
+    "priceVsNational": "Properties in SS17 cost 34.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SS17 have fallen 5.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 39.2 recorded crimes per 1,000 residents, SS17 has a crime rate well 52% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SS17 has 11 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SS17 are 336.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SS17 (STANFORD-LE-HOPE) offers above-average property prices (£385,147, 34% above national average), low crime (52% below national average), 11 nearby schools, and excellent broadband (336 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 336
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 336
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

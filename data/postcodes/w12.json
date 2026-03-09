@@ -1,0 +1,198 @@
+{
+  "code": "W12",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "W11",
+    "W13",
+    "W14"
+  ],
+  "property": {
+    "avgPrice": 853210,
+    "medianPrice": 689500,
+    "priceChange1y": -21,
+    "priceChange5y": 0,
+    "transactions12m": 1520,
+    "byType": {
+      "detached": {
+        "avg": 1308333,
+        "count": 3
+      },
+      "semi": {
+        "avg": 1616245,
+        "count": 47
+      },
+      "terraced": {
+        "avg": 1043339,
+        "count": 321
+      },
+      "flat": {
+        "avg": 721194,
+        "count": 1099
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 915791
+      },
+      {
+        "year": 2024,
+        "avg": 892520
+      },
+      {
+        "year": 2025,
+        "avg": 705001
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 236,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 190.3,
+    "byType": {
+      "violentCrime": 62.7,
+      "burglary": 9,
+      "vehicleCrime": 15.5,
+      "antisocialBehaviour": 52.4,
+      "otherTheft": 55.8,
+      "other": 40.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 22,
+    "outstanding": 5,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Randolph Beresford Early Years Centre",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Vanessa Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Miles Coverdale Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Old Oak Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wendell Park Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 188687,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 17,
+    "socialRent": 30,
+    "privateRent": 34,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 340,
+    "avgUpload": 61,
+    "superfastPct": 95,
+    "ultrafastPct": 89,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "London Council",
+    "bandD": 1142,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.3,
+    "imdRank": 18643,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "W12 covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in W12 is £853,210, which is 35% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in W12 cost 197.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in W12 have fallen 21.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 236.0 recorded crimes per 1,000 residents, W12 has a crime rate significantly 190% above the national average of 81.3 per 1,000.",
+    "schoolContext": "W12 has 22 schools within or near its boundaries, including 5 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in W12 are 340.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "W12 (LONDON) offers above-average property prices (£853,210, 197% above national average), higher-than-average crime (190% above national average), strong school provision (5 Outstanding-rated schools), and excellent broadband (340 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 340
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 340
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

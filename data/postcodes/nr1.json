@@ -1,0 +1,197 @@
+{
+  "code": "NR1",
+  "name": "NORWICH",
+  "county": "norfolk",
+  "region": "east-of-england",
+  "city": "norwich",
+  "adjacent": [
+    "NR2",
+    "NR3"
+  ],
+  "property": {
+    "avgPrice": 250177,
+    "medianPrice": 212500,
+    "priceChange1y": -6.9,
+    "priceChange5y": 0,
+    "transactions12m": 1545,
+    "byType": {
+      "detached": {
+        "avg": 416298,
+        "count": 83
+      },
+      "semi": {
+        "avg": 279363,
+        "count": 222
+      },
+      "terraced": {
+        "avg": 268560,
+        "count": 432
+      },
+      "flat": {
+        "avg": 177180,
+        "count": 756
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 251980
+      },
+      {
+        "year": 2024,
+        "avg": 257628
+      },
+      {
+        "year": 2025,
+        "avg": 239732
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 232.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 186.5,
+    "byType": {
+      "violentCrime": 80.4,
+      "burglary": 5.5,
+      "vehicleCrime": 4.4,
+      "antisocialBehaviour": 36.6,
+      "otherTheft": 58.1,
+      "other": 47.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Norwich School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Norwich Steiner School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lakenham Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Free School Norwich",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Notre Dame High School, Norwich",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 138157,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 10,
+    "privateRent": 10,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 326,
+    "avgUpload": 59,
+    "superfastPct": 98,
+    "ultrafastPct": 84,
+    "gigabitPct": 77,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Broadland",
+    "bandD": 2121,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.8,
+    "imdRank": 10039,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NR1 encompasses NORWICH and its surrounding areas in Norfolk, East Of England.",
+    "priceVsCounty": "The average property price in NR1 is £250,177, which is 29% below the Norfolk average of £352,657.",
+    "priceVsNational": "Properties in NR1 cost 12.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NR1 have fallen 6.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 232.9 recorded crimes per 1,000 residents, NR1 has a crime rate significantly 186% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NR1 has 11 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NR1 are 326.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NR1 (NORWICH) offers property prices near the national average (£250,177), higher-than-average crime (186% above national average), 11 nearby schools, and excellent broadband (326 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 352657,
+      "crime": 75,
+      "broadband": 326
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 326
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

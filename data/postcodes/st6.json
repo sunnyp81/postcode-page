@@ -1,0 +1,198 @@
+{
+  "code": "ST6",
+  "name": "STOKE-ON-TRENT",
+  "county": "staffordshire",
+  "region": "west-midlands",
+  "city": "stoke-on-trent",
+  "adjacent": [
+    "ST5",
+    "ST7",
+    "ST8"
+  ],
+  "property": {
+    "avgPrice": 150374,
+    "medianPrice": 120075,
+    "priceChange1y": -6.4,
+    "priceChange5y": 0,
+    "transactions12m": 2998,
+    "byType": {
+      "detached": {
+        "avg": 248372,
+        "count": 339
+      },
+      "semi": {
+        "avg": 153583,
+        "count": 999
+      },
+      "terraced": {
+        "avg": 96492,
+        "count": 1365
+      },
+      "flat": {
+        "avg": 75252,
+        "count": 115
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 147041
+      },
+      {
+        "year": 2024,
+        "avg": 156768
+      },
+      {
+        "year": 2025,
+        "avg": 146720
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 108.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 33.6,
+    "byType": {
+      "violentCrime": 42.4,
+      "burglary": 4.4,
+      "vehicleCrime": 4.6,
+      "antisocialBehaviour": 17.1,
+      "otherTheft": 13.7,
+      "other": 26.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 30,
+    "outstanding": 5,
+    "good": 12,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ball Green Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Anne's CofE (VC) Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Co-op Academy Stoke-On-Trent",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ormiston Horizon Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Haywood Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 270425,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 22,
+    "privateRent": 18,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 365,
+    "avgUpload": 66,
+    "superfastPct": 98,
+    "ultrafastPct": 90,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stoke On Trent Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 34.5,
+    "imdRank": 23797,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ST6 encompasses STOKE-ON-TRENT and its surrounding areas in Staffordshire, West Midlands.",
+    "priceVsCounty": "The average property price in ST6 is £150,374, which is 44% below the Staffordshire average of £267,729.",
+    "priceVsNational": "Properties in ST6 cost 47.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ST6 have fallen 6.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 108.6 recorded crimes per 1,000 residents, ST6 has a crime rate significantly 34% above the national average of 81.3 per 1,000.",
+    "schoolContext": "ST6 has 30 schools within or near its boundaries, including 5 rated Outstanding and 12 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ST6 are 365.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "ST6 (STOKE-ON-TRENT) offers affordable property prices (£150,374, 48% below national average), higher-than-average crime (34% above national average), strong school provision (5 Outstanding-rated schools), and excellent broadband (365 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 267729,
+      "crime": 75,
+      "broadband": 365
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 365
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

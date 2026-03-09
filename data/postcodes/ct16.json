@@ -1,0 +1,198 @@
+{
+  "code": "CT16",
+  "name": "DOVER",
+  "county": "kent",
+  "region": "south-east",
+  "city": "canterbury",
+  "adjacent": [
+    "CT15",
+    "CT17",
+    "CT18"
+  ],
+  "property": {
+    "avgPrice": 289148,
+    "medianPrice": 268000,
+    "priceChange1y": -5.6,
+    "priceChange5y": 0,
+    "transactions12m": 1165,
+    "byType": {
+      "detached": {
+        "avg": 430860,
+        "count": 207
+      },
+      "semi": {
+        "avg": 299255,
+        "count": 270
+      },
+      "terraced": {
+        "avg": 239080,
+        "count": 428
+      },
+      "flat": {
+        "avg": 178991,
+        "count": 198
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 270661
+      },
+      {
+        "year": 2024,
+        "avg": 305080
+      },
+      {
+        "year": 2025,
+        "avg": 287893
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 72.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -10.8,
+    "byType": {
+      "violentCrime": 30.8,
+      "burglary": 1.2,
+      "vehicleCrime": 2.1,
+      "antisocialBehaviour": 11.8,
+      "otherTheft": 11.6,
+      "other": 15
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Whitfield Aspen School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dover, St Mary's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dover Grammar School for Girls",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Green Park Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Sallygate School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 119768,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 14,
+    "privateRent": 17,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 298,
+    "avgUpload": 54,
+    "superfastPct": 96,
+    "ultrafastPct": 71,
+    "gigabitPct": 71,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Dover",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.2,
+    "imdRank": 17915,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CT16 encompasses DOVER and its surrounding areas in Kent, South East.",
+    "priceVsCounty": "The average property price in CT16 is £289,148, which is 36% below the Kent average of £450,882.",
+    "priceVsNational": "Property values in CT16 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in CT16 have fallen 5.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 72.5 recorded crimes per 1,000 residents, CT16 has a crime rate 11% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CT16 has 12 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CT16 are 298.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CT16 (DOVER) offers property prices near the national average (£289,148), 12 nearby schools, and excellent broadband (298 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 298
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 298
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

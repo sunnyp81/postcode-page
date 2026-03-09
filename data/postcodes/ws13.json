@@ -1,0 +1,198 @@
+{
+  "code": "WS13",
+  "name": "LICHFIELD",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "walsall",
+  "adjacent": [
+    "WS12",
+    "WS14",
+    "WS15"
+  ],
+  "property": {
+    "avgPrice": 398949,
+    "medianPrice": 310000,
+    "priceChange1y": -0.6,
+    "priceChange5y": 0,
+    "transactions12m": 1765,
+    "byType": {
+      "detached": {
+        "avg": 487542,
+        "count": 519
+      },
+      "semi": {
+        "avg": 311910,
+        "count": 430
+      },
+      "terraced": {
+        "avg": 263335,
+        "count": 347
+      },
+      "flat": {
+        "avg": 219316,
+        "count": 388
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 471262
+      },
+      {
+        "year": 2024,
+        "avg": 361732
+      },
+      {
+        "year": 2025,
+        "avg": 359424
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 53.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -33.8,
+    "byType": {
+      "violentCrime": 19.4,
+      "burglary": 1.5,
+      "vehicleCrime": 4.4,
+      "antisocialBehaviour": 7.6,
+      "otherTheft": 10.1,
+      "other": 10.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Stephen's Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Christ Church CofE (C) Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "SS Peter and Paul Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lichfield Cathedral School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Maple Hayes Hall School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 111932,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 13,
+    "privateRent": 11,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 309,
+    "avgUpload": 56,
+    "superfastPct": 91,
+    "ultrafastPct": 79,
+    "gigabitPct": 73,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lichfield",
+    "bandD": 2058,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.6,
+    "imdRank": 10387,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WS13 covers LICHFIELD in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in WS13 is £398,949, which is 19% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in WS13 cost 39.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WS13 have fallen 0.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 53.8 recorded crimes per 1,000 residents, WS13 has a crime rate well 34% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WS13 has 18 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WS13 are 309.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WS13 (LICHFIELD) offers above-average property prices (£398,949, 39% above national average), low crime (34% below national average), 18 nearby schools, and excellent broadband (309 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 309
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 309
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

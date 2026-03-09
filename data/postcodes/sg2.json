@@ -1,0 +1,198 @@
+{
+  "code": "SG2",
+  "name": "STEVENAGE",
+  "county": "hertfordshire",
+  "region": "east-of-england",
+  "city": "stevenage",
+  "adjacent": [
+    "SG1",
+    "SG3",
+    "SG4"
+  ],
+  "property": {
+    "avgPrice": 381309,
+    "medianPrice": 340000,
+    "priceChange1y": 3.9,
+    "priceChange5y": 0,
+    "transactions12m": 1480,
+    "byType": {
+      "detached": {
+        "avg": 610068,
+        "count": 215
+      },
+      "semi": {
+        "avg": 394265,
+        "count": 276
+      },
+      "terraced": {
+        "avg": 331047,
+        "count": 806
+      },
+      "flat": {
+        "avg": 219370,
+        "count": 153
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 372952
+      },
+      {
+        "year": 2024,
+        "avg": 377605
+      },
+      {
+        "year": 2025,
+        "avg": 392249
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 48.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -40.1,
+    "byType": {
+      "violentCrime": 20.1,
+      "burglary": 0.7,
+      "vehicleCrime": 1.7,
+      "antisocialBehaviour": 9,
+      "otherTheft": 7.4,
+      "other": 9.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 22,
+    "outstanding": 1,
+    "good": 8,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Peartree Way Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Walkern Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Peartree Spring Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Benington Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ardeley St Lawrence Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 91774,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 26,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 347,
+    "avgUpload": 62,
+    "superfastPct": 98,
+    "ultrafastPct": 85,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stevenage",
+    "bandD": 2076,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.7,
+    "imdRank": 17354,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SG2 covers STEVENAGE in Hertfordshire, East Of England.",
+    "priceVsCounty": "The average property price in SG2 is £381,309, which is 33% below the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in SG2 cost 32.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SG2 have risen 3.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 48.7 recorded crimes per 1,000 residents, SG2 has a crime rate well 40% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SG2 has 22 schools within or near its boundaries, including 1 rated Outstanding and 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SG2 are 347.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SG2 (STEVENAGE) offers above-average property prices (£381,309, 33% above national average), low crime (40% below national average), 22 nearby schools, and excellent broadband (347 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 347
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 347
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "code": "CF72",
+  "name": "PONTYCLUN",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF71"
+  ],
+  "property": {
+    "avgPrice": 287200,
+    "medianPrice": 246995,
+    "priceChange1y": -4.3,
+    "priceChange5y": 0,
+    "transactions12m": 1349,
+    "byType": {
+      "detached": {
+        "avg": 378486,
+        "count": 443
+      },
+      "semi": {
+        "avg": 225734,
+        "count": 434
+      },
+      "terraced": {
+        "avg": 211294,
+        "count": 366
+      },
+      "flat": {
+        "avg": 230473,
+        "count": 56
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 294175
+      },
+      {
+        "year": 2024,
+        "avg": 288690
+      },
+      {
+        "year": 2025,
+        "avg": 276253
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 14.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -82.5,
+    "byType": {
+      "violentCrime": 5.4,
+      "burglary": 0.8,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 2.3,
+      "otherTheft": 1.9,
+      "other": 3.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Brynnau Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dolau Primary",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Llantrisant Primary",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Llanharan Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Llanhari Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 383919,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 338,
+    "avgUpload": 61,
+    "superfastPct": 95,
+    "ultrafastPct": 84,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF72 encompasses PONTYCLUN and its surrounding areas in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF72 is £287,200, broadly in line with the Cardiff average of £275,506.",
+    "priceVsNational": "Property values in CF72 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in CF72 have fallen 4.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 14.2 recorded crimes per 1,000 residents, CF72 has a crime rate well 83% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CF72 has 11 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF72 are 338.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF72 (PONTYCLUN) offers property prices near the national average (£287,200), low crime (83% below national average), 11 nearby schools, and excellent broadband (338 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 338
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 338
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

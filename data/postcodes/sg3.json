@@ -1,0 +1,188 @@
+{
+  "code": "SG3",
+  "name": "KNEBWORTH",
+  "county": "hertfordshire",
+  "region": "east-of-england",
+  "city": "stevenage",
+  "adjacent": [
+    "SG2",
+    "SG4",
+    "SG5"
+  ],
+  "property": {
+    "avgPrice": 499663,
+    "medianPrice": 440000,
+    "priceChange1y": 3.6,
+    "priceChange5y": 0,
+    "transactions12m": 332,
+    "byType": {
+      "detached": {
+        "avg": 787849,
+        "count": 73
+      },
+      "semi": {
+        "avg": 527002,
+        "count": 85
+      },
+      "terraced": {
+        "avg": 396268,
+        "count": 83
+      },
+      "flat": {
+        "avg": 302366,
+        "count": 84
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 494308
+      },
+      {
+        "year": 2024,
+        "avg": 492816
+      },
+      {
+        "year": 2025,
+        "avg": 510729
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 8.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -89.2,
+    "byType": {
+      "violentCrime": 2.8,
+      "burglary": 0.4,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 1.8,
+      "otherTheft": 1.4,
+      "other": 1.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Knebworth Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "All Saints Church of England Voluntary Aided Primary School, Datchworth",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Michael's Woolmer Green CofE VA Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 137201,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 19,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 260,
+    "avgUpload": 47,
+    "superfastPct": 96,
+    "ultrafastPct": 60,
+    "gigabitPct": 60,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Hertfordshire",
+    "bandD": 2123,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.6,
+    "imdRank": 9430,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SG3 is the postcode district for KNEBWORTH, located in Hertfordshire, East Of England.",
+    "priceVsCounty": "The average property price in SG3 is £499,663, which is 13% below the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in SG3 cost 74.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SG3 have risen 3.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 8.8 recorded crimes per 1,000 residents, SG3 has a crime rate well 89% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SG3 has 3 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SG3 are 260.0 Mbps, with 99% of premises having access to superfast broadband and 87% with full fibre (FTTP) connectivity.",
+    "synthesis": "SG3 (KNEBWORTH) offers above-average property prices (£499,663, 74% above national average), low crime (89% below national average), 3 nearby schools, and excellent broadband (260 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 260
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 260
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

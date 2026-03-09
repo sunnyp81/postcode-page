@@ -1,0 +1,198 @@
+{
+  "code": "BS3",
+  "name": "BRISTOL",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS2",
+    "BS4",
+    "BS5"
+  ],
+  "property": {
+    "avgPrice": 405719,
+    "medianPrice": 370000,
+    "priceChange1y": -7.9,
+    "priceChange5y": 0,
+    "transactions12m": 2453,
+    "byType": {
+      "detached": {
+        "avg": 515475,
+        "count": 30
+      },
+      "semi": {
+        "avg": 468135,
+        "count": 252
+      },
+      "terraced": {
+        "avg": 436022,
+        "count": 1218
+      },
+      "flat": {
+        "avg": 263476,
+        "count": 847
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 398684
+      },
+      {
+        "year": 2024,
+        "avg": 424749
+      },
+      {
+        "year": 2025,
+        "avg": 391070
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 212.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 161.1,
+    "byType": {
+      "violentCrime": 82.6,
+      "burglary": 8,
+      "vehicleCrime": 10.5,
+      "antisocialBehaviour": 36,
+      "otherTheft": 35.1,
+      "other": 40.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Southville Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holy Cross RC Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "LPW Independent School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Parson Street Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Oasis Academy Marksbury Road",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 224578,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 9,
+    "privateRent": 16,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 367,
+    "avgUpload": 66,
+    "superfastPct": 96,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.8,
+    "imdRank": 11811,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS3 encompasses BRISTOL and its surrounding areas in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS3 is £405,719, which is 10% below the Bristol average of £449,132.",
+    "priceVsNational": "Properties in BS3 cost 41.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BS3 have fallen 7.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 212.3 recorded crimes per 1,000 residents, BS3 has a crime rate significantly 161% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BS3 has 13 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS3 are 367.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS3 (BRISTOL) offers above-average property prices (£405,719, 41% above national average), higher-than-average crime (161% above national average), 13 nearby schools, and excellent broadband (367 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 367
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 367
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

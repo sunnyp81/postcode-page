@@ -1,0 +1,198 @@
+{
+  "code": "NR21",
+  "name": "FAKENHAM",
+  "county": "norfolk",
+  "region": "east-of-england",
+  "city": "norwich",
+  "adjacent": [
+    "NR20",
+    "NR22",
+    "NR23"
+  ],
+  "property": {
+    "avgPrice": 338727,
+    "medianPrice": 275000,
+    "priceChange1y": -6.3,
+    "priceChange5y": 0,
+    "transactions12m": 743,
+    "byType": {
+      "detached": {
+        "avg": 428127,
+        "count": 285
+      },
+      "semi": {
+        "avg": 263489,
+        "count": 227
+      },
+      "terraced": {
+        "avg": 247759,
+        "count": 159
+      },
+      "flat": {
+        "avg": 158443,
+        "count": 35
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 341729
+      },
+      {
+        "year": 2024,
+        "avg": 346982
+      },
+      {
+        "year": 2025,
+        "avg": 324993
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 14.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -81.7,
+    "byType": {
+      "violentCrime": 6.7,
+      "burglary": 0.3,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 1.8,
+      "otherTheft": 2.9,
+      "other": 2.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hindringham Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fakenham Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Colkirk Church of England Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sculthorpe Church of England Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Blenheim Park Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 146620,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 198,
+    "avgUpload": 36,
+    "superfastPct": 87,
+    "ultrafastPct": 43,
+    "gigabitPct": 43,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Breckland",
+    "bandD": 2114,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.6,
+    "imdRank": 16834,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NR21 is the postcode district for FAKENHAM, located in Norfolk, East Of England.",
+    "priceVsCounty": "The average property price in NR21 is £338,727, broadly in line with the Norfolk average of £352,657.",
+    "priceVsNational": "Properties in NR21 cost 18.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NR21 have fallen 6.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 14.9 recorded crimes per 1,000 residents, NR21 has a crime rate well 82% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NR21 has 11 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NR21 are 198.0 Mbps, with 99% of premises having access to superfast broadband and 69% with full fibre (FTTP) connectivity.",
+    "synthesis": "NR21 (FAKENHAM) offers property prices near the national average (£338,727), low crime (82% below national average), 11 nearby schools, and excellent broadband (198 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 352657,
+      "crime": 75,
+      "broadband": 198
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 198
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

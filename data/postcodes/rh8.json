@@ -1,0 +1,198 @@
+{
+  "code": "RH8",
+  "name": "OXTED",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "redhill",
+  "adjacent": [
+    "RH7",
+    "RH9",
+    "RH10"
+  ],
+  "property": {
+    "avgPrice": 716377,
+    "medianPrice": 562500,
+    "priceChange1y": 3.7,
+    "priceChange5y": 0,
+    "transactions12m": 683,
+    "byType": {
+      "detached": {
+        "avg": 1115938,
+        "count": 194
+      },
+      "semi": {
+        "avg": 612473,
+        "count": 164
+      },
+      "terraced": {
+        "avg": 490994,
+        "count": 123
+      },
+      "flat": {
+        "avg": 417755,
+        "count": 166
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 702532
+      },
+      {
+        "year": 2024,
+        "avg": 712250
+      },
+      {
+        "year": 2025,
+        "avg": 738628
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 18.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -77.4,
+    "byType": {
+      "violentCrime": 5.7,
+      "burglary": 0.7,
+      "vehicleCrime": 1,
+      "antisocialBehaviour": 2.9,
+      "otherTheft": 4.3,
+      "other": 3.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Limpsfield CofE Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Peter's CofE Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hazelwood School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Moor House School & College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 90586,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 37,
+    "socialRent": 11,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 311,
+    "avgUpload": 56,
+    "superfastPct": 94,
+    "ultrafastPct": 77,
+    "gigabitPct": 74,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Tandridge",
+    "bandD": 2252,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.9,
+    "imdRank": 10027,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RH8 covers OXTED in Surrey, South East.",
+    "priceVsCounty": "The average property price in RH8 is £716,377, which is 17% above the Surrey average of £612,978.",
+    "priceVsNational": "Properties in RH8 cost 149.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RH8 have risen 3.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 18.4 recorded crimes per 1,000 residents, RH8 has a crime rate well 77% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RH8 has 9 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RH8 are 311.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RH8 (OXTED) offers above-average property prices (£716,377, 150% above national average), low crime (77% below national average), 9 nearby schools, and excellent broadband (311 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 311
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 311
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

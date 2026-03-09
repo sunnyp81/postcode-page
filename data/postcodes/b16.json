@@ -1,0 +1,198 @@
+{
+  "code": "B16",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B15",
+    "B17",
+    "B18"
+  ],
+  "property": {
+    "avgPrice": 329918,
+    "medianPrice": 225250,
+    "priceChange1y": -24,
+    "priceChange5y": 0,
+    "transactions12m": 641,
+    "byType": {
+      "detached": {
+        "avg": 518339,
+        "count": 31
+      },
+      "semi": {
+        "avg": 373746,
+        "count": 121
+      },
+      "terraced": {
+        "avg": 258703,
+        "count": 180
+      },
+      "flat": {
+        "avg": 175374,
+        "count": 268
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 365962
+      },
+      {
+        "year": 2024,
+        "avg": 352429
+      },
+      {
+        "year": 2025,
+        "avg": 267680
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 237.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 192.4,
+    "byType": {
+      "violentCrime": 95.6,
+      "burglary": 11.8,
+      "vehicleCrime": 26.6,
+      "antisocialBehaviour": 14.9,
+      "otherTheft": 46.1,
+      "other": 42.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Barford Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Paul's School for Girls",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "George Dixon Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John's & St Peter's CofE Primary",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St George's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 345,
+    "avgUpload": 62,
+    "superfastPct": 93,
+    "ultrafastPct": 87,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B16 is the postcode district for BIRMINGHAM, located in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B16 is £329,918, broadly in line with the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B16 cost 15.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B16 have fallen 24.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 237.7 recorded crimes per 1,000 residents, B16 has a crime rate significantly 192% above the national average of 81.3 per 1,000.",
+    "schoolContext": "B16 has 7 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B16 are 345.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B16 (BIRMINGHAM) offers property prices near the national average (£329,918), higher-than-average crime (192% above national average), 7 nearby schools, and excellent broadband (345 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 345
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 345
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

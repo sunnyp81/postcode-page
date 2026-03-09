@@ -1,0 +1,193 @@
+{
+  "code": "PL24",
+  "name": "PAR",
+  "county": "devon",
+  "region": "south-west",
+  "city": "plymouth",
+  "adjacent": [
+    "PL23",
+    "PL25",
+    "PL26"
+  ],
+  "property": {
+    "avgPrice": 265050,
+    "medianPrice": 230000,
+    "priceChange1y": 1.8,
+    "priceChange5y": 0,
+    "transactions12m": 415,
+    "byType": {
+      "detached": {
+        "avg": 376035,
+        "count": 127
+      },
+      "semi": {
+        "avg": 224468,
+        "count": 143
+      },
+      "terraced": {
+        "avg": 195371,
+        "count": 119
+      },
+      "flat": {
+        "avg": 117200,
+        "count": 12
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 283979
+      },
+      {
+        "year": 2024,
+        "avg": 255920
+      },
+      {
+        "year": 2025,
+        "avg": 260408
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 18.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -76.8,
+    "byType": {
+      "violentCrime": 7.4,
+      "burglary": 0.2,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 3.9,
+      "otherTheft": 2.1,
+      "other": 4.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Biscovey Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tywardreath School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Doubletrees School",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Biscovey Nursery and Infants' Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 583289,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 171,
+    "avgUpload": 31,
+    "superfastPct": 92,
+    "ultrafastPct": 44,
+    "gigabitPct": 31,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Plymouth Council",
+    "bandD": 2372,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.1,
+    "imdRank": 19382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PL24 covers PAR in Devon, South West.",
+    "priceVsCounty": "The average property price in PL24 is £265,050, which is 31% below the Devon average of £385,452.",
+    "priceVsNational": "Properties in PL24 cost 7.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PL24 have risen 1.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 18.9 recorded crimes per 1,000 residents, PL24 has a crime rate well 77% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PL24 has 4 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PL24 are 171.0 Mbps, with 96% of premises having access to superfast broadband and 62% with full fibre (FTTP) connectivity.",
+    "synthesis": "PL24 (PAR) offers property prices near the national average (£265,050), low crime (77% below national average), 4 nearby schools, and excellent broadband (171 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 171
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 171
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

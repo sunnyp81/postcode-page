@@ -1,0 +1,182 @@
+{
+  "code": "BN26",
+  "name": "POLEGATE",
+  "county": "east-sussex",
+  "region": "south-east",
+  "city": "brighton",
+  "adjacent": [
+    "BN25",
+    "BN27"
+  ],
+  "property": {
+    "avgPrice": 380009,
+    "medianPrice": 325000,
+    "priceChange1y": -0.2,
+    "priceChange5y": 0,
+    "transactions12m": 634,
+    "byType": {
+      "detached": {
+        "avg": 553305,
+        "count": 165
+      },
+      "semi": {
+        "avg": 342775,
+        "count": 289
+      },
+      "terraced": {
+        "avg": 301941,
+        "count": 81
+      },
+      "flat": {
+        "avg": 176398,
+        "count": 73
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 384170
+      },
+      {
+        "year": 2024,
+        "avg": 378397
+      },
+      {
+        "year": 2025,
+        "avg": 377641
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 9.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -88.1,
+    "byType": {
+      "violentCrime": 2.6,
+      "burglary": 0.2,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 1.3,
+      "otherTheft": 3.6,
+      "other": 1.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 1,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Alfriston School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Polegate Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 166908,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 8,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 128,
+    "avgUpload": 23,
+    "superfastPct": 94,
+    "ultrafastPct": 22,
+    "gigabitPct": 22,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wealden",
+    "bandD": 2363,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.3,
+    "imdRank": 10272,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BN26 encompasses POLEGATE and its surrounding areas in East Sussex, South East.",
+    "priceVsCounty": "The average property price in BN26 is £380,009, which is 17% below the East Sussex average of £455,819.",
+    "priceVsNational": "Properties in BN26 cost 32.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BN26 have fallen 0.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 9.7 recorded crimes per 1,000 residents, BN26 has a crime rate well 88% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BN26 has 2 schools within or near its boundaries, including 1 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BN26 are 128.0 Mbps, with 89% of premises having access to superfast broadband and 50% with full fibre (FTTP) connectivity.",
+    "synthesis": "BN26 (POLEGATE) offers above-average property prices (£380,009, 32% above national average), low crime (88% below national average), 2 nearby schools, and excellent broadband (128 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 455819,
+      "crime": 75,
+      "broadband": 128
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 128
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

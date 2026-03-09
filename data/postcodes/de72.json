@@ -1,0 +1,197 @@
+{
+  "code": "DE72",
+  "name": "DERBY",
+  "county": "derbyshire",
+  "region": "east-midlands",
+  "city": "derby",
+  "adjacent": [
+    "DE73",
+    "DE74"
+  ],
+  "property": {
+    "avgPrice": 321020,
+    "medianPrice": 270000,
+    "priceChange1y": 11.5,
+    "priceChange5y": 0,
+    "transactions12m": 906,
+    "byType": {
+      "detached": {
+        "avg": 422536,
+        "count": 353
+      },
+      "semi": {
+        "avg": 262141,
+        "count": 296
+      },
+      "terraced": {
+        "avg": 211405,
+        "count": 133
+      },
+      "flat": {
+        "avg": 224366,
+        "count": 99
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 331074
+      },
+      {
+        "year": 2024,
+        "avg": 300226
+      },
+      {
+        "year": 2025,
+        "avg": 334779
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 6.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -91.8,
+    "byType": {
+      "violentCrime": 3,
+      "burglary": 0.2,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 1.5,
+      "otherTheft": 0.3,
+      "other": 1.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 1,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Aston-on-Trent Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Firfield Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ashbrook Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Risley Lower Grammar CE (VC) Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Weston-on-Trent CofE (VA) Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 114253,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 325,
+    "avgUpload": 59,
+    "superfastPct": 94,
+    "ultrafastPct": 79,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Erewash",
+    "bandD": 2054,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.8,
+    "imdRank": 14693,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DE72 encompasses DERBY and its surrounding areas in Derbyshire, East Midlands.",
+    "priceVsCounty": "The average property price in DE72 is £321,020, which is 11% above the Derbyshire average of £289,862.",
+    "priceVsNational": "Properties in DE72 cost 11.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DE72 have risen 11.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 6.7 recorded crimes per 1,000 residents, DE72 has a crime rate well 92% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DE72 has 11 schools within or near its boundaries, including 1 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DE72 are 325.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DE72 (DERBY) offers property prices near the national average (£321,020), low crime (92% below national average), 11 nearby schools, and excellent broadband (325 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 289862,
+      "crime": 75,
+      "broadband": 325
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 325
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

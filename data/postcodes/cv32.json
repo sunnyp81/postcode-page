@@ -1,0 +1,198 @@
+{
+  "code": "CV32",
+  "name": "LEAMINGTON SPA",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "coventry",
+  "adjacent": [
+    "CV31",
+    "CV33",
+    "CV34"
+  ],
+  "property": {
+    "avgPrice": 451363,
+    "medianPrice": 368500,
+    "priceChange1y": -1.8,
+    "priceChange5y": 0,
+    "transactions12m": 1735,
+    "byType": {
+      "detached": {
+        "avg": 714213,
+        "count": 284
+      },
+      "semi": {
+        "avg": 439496,
+        "count": 405
+      },
+      "terraced": {
+        "avg": 443863,
+        "count": 425
+      },
+      "flat": {
+        "avg": 283603,
+        "count": 568
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 432829
+      },
+      {
+        "year": 2024,
+        "avg": 465019
+      },
+      {
+        "year": 2025,
+        "avg": 456861
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 88.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 9,
+    "byType": {
+      "violentCrime": 28.8,
+      "burglary": 3.1,
+      "vehicleCrime": 7.5,
+      "antisocialBehaviour": 17.5,
+      "otherTheft": 16.3,
+      "other": 15.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Telford Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brookhurst Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Milverton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cubbington CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Paul's CofE Primary School, Leamington Spa",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 154889,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 14,
+    "privateRent": 17,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 337,
+    "avgUpload": 61,
+    "superfastPct": 99,
+    "ultrafastPct": 89,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Warwick",
+    "bandD": 2144,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12,
+    "imdRank": 9860,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CV32 encompasses LEAMINGTON SPA and its surrounding areas in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in CV32 is £451,363, which is 35% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in CV32 cost 57.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CV32 have fallen 1.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 88.6 recorded crimes per 1,000 residents, CV32 has a crime rate 9% above the national average of 81.3 per 1,000.",
+    "schoolContext": "CV32 has 14 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CV32 are 337.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CV32 (LEAMINGTON SPA) offers above-average property prices (£451,363, 57% above national average), 14 nearby schools, and excellent broadband (337 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 337
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 337
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

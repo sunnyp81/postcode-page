@@ -1,0 +1,198 @@
+{
+  "code": "SK12",
+  "name": "STOCKPORT",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "stockport",
+  "adjacent": [
+    "SK11",
+    "SK13",
+    "SK14"
+  ],
+  "property": {
+    "avgPrice": 465119,
+    "medianPrice": 405000,
+    "priceChange1y": 2.4,
+    "priceChange5y": 0,
+    "transactions12m": 1093,
+    "byType": {
+      "detached": {
+        "avg": 596764,
+        "count": 431
+      },
+      "semi": {
+        "avg": 401244,
+        "count": 346
+      },
+      "terraced": {
+        "avg": 305841,
+        "count": 153
+      },
+      "flat": {
+        "avg": 201948,
+        "count": 123
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 491341
+      },
+      {
+        "year": 2024,
+        "avg": 447950
+      },
+      {
+        "year": 2025,
+        "avg": 458795
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -92.7,
+    "byType": {
+      "violentCrime": 1.9,
+      "burglary": 0.3,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.5,
+      "otherTheft": 2.1,
+      "other": 1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Vernon Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Worth Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "High Peak School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Paul's Catholic Primary School, A Voluntary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Poynton High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 303929,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 13,
+    "privateRent": 13,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 246,
+    "avgUpload": 44,
+    "superfastPct": 94,
+    "ultrafastPct": 56,
+    "gigabitPct": 56,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stockport",
+    "bandD": 2235,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.8,
+    "imdRank": 15400,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SK12 encompasses STOCKPORT and its surrounding areas in Cheshire, North West.",
+    "priceVsCounty": "The average property price in SK12 is £465,119, which is 49% above the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in SK12 cost 62.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SK12 have risen 2.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.9 recorded crimes per 1,000 residents, SK12 has a crime rate well 93% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SK12 has 8 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SK12 are 246.0 Mbps, with 99% of premises having access to superfast broadband and 83% with full fibre (FTTP) connectivity.",
+    "synthesis": "SK12 (STOCKPORT) offers above-average property prices (£465,119, 62% above national average), low crime (93% below national average), 8 nearby schools, and excellent broadband (246 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 246
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 246
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

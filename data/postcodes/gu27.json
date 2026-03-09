@@ -1,0 +1,198 @@
+{
+  "code": "GU27",
+  "name": "HASLEMERE",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU26",
+    "GU28",
+    "GU29"
+  ],
+  "property": {
+    "avgPrice": 714718,
+    "medianPrice": 533500,
+    "priceChange1y": 2.1,
+    "priceChange5y": 0,
+    "transactions12m": 793,
+    "byType": {
+      "detached": {
+        "avg": 1085882,
+        "count": 295
+      },
+      "semi": {
+        "avg": 588156,
+        "count": 162
+      },
+      "terraced": {
+        "avg": 428274,
+        "count": 128
+      },
+      "flat": {
+        "avg": 278558,
+        "count": 165
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 764206
+      },
+      {
+        "year": 2024,
+        "avg": 684440
+      },
+      {
+        "year": 2025,
+        "avg": 698889
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 15,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -81.5,
+    "byType": {
+      "violentCrime": 5.2,
+      "burglary": 0.6,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 1.8,
+      "otherTheft": 3.4,
+      "other": 3.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Shottermill Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Shottermill Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Bartholomew's CofE Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Grayswood Church of England (Aided) Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Ives School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 134284,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 12,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 224,
+    "avgUpload": 40,
+    "superfastPct": 92,
+    "ultrafastPct": 50,
+    "gigabitPct": 50,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Waverley",
+    "bandD": 2263,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 7.5,
+    "imdRank": 5343,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU27 covers HASLEMERE in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU27 is £714,718, which is 17% above the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU27 cost 149.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU27 have risen 2.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 15.0 recorded crimes per 1,000 residents, GU27 has a crime rate well 82% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU27 has 8 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU27 are 224.0 Mbps, with 99% of premises having access to superfast broadband and 77% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU27 (HASLEMERE) offers above-average property prices (£714,718, 149% above national average), low crime (82% below national average), 8 nearby schools, and excellent broadband (224 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 224
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 224
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "CM2",
+  "name": "CHELMSFORD",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "chelmsford",
+  "adjacent": [
+    "CM1",
+    "CM3",
+    "CM4"
+  ],
+  "property": {
+    "avgPrice": 437892,
+    "medianPrice": 370000,
+    "priceChange1y": 7.7,
+    "priceChange5y": 0,
+    "transactions12m": 2642,
+    "byType": {
+      "detached": {
+        "avg": 629022,
+        "count": 453
+      },
+      "semi": {
+        "avg": 443418,
+        "count": 756
+      },
+      "terraced": {
+        "avg": 360751,
+        "count": 635
+      },
+      "flat": {
+        "avg": 222079,
+        "count": 729
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 468136
+      },
+      {
+        "year": 2024,
+        "avg": 408294
+      },
+      {
+        "year": 2025,
+        "avg": 439630
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 71.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -12.3,
+    "byType": {
+      "violentCrime": 30.1,
+      "burglary": 2.5,
+      "vehicleCrime": 2.5,
+      "antisocialBehaviour": 5.6,
+      "otherTheft": 15.6,
+      "other": 15.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 27,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Woodcroft Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Trinity Road Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Galleywood Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Baddow Hall Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Baddow Hall Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 188803,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 13,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 351,
+    "avgUpload": 63,
+    "superfastPct": 98,
+    "ultrafastPct": 89,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Chelmsford",
+    "bandD": 2025,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.2,
+    "imdRank": 10004,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CM2 encompasses CHELMSFORD and its surrounding areas in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CM2 is £437,892, broadly in line with the Essex average of £429,754.",
+    "priceVsNational": "Properties in CM2 cost 52.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CM2 have risen 7.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 71.3 recorded crimes per 1,000 residents, CM2 has a crime rate 12% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CM2 has 27 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CM2 are 351.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CM2 (CHELMSFORD) offers above-average property prices (£437,892, 53% above national average), 27 nearby schools, and excellent broadband (351 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 351
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 351
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

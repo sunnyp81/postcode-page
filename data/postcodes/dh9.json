@@ -1,0 +1,196 @@
+{
+  "code": "DH9",
+  "name": "STANLEY",
+  "county": "county-durham",
+  "region": "north-east",
+  "city": "durham",
+  "adjacent": [
+    "DH8"
+  ],
+  "property": {
+    "avgPrice": 116605,
+    "medianPrice": 89000,
+    "priceChange1y": 30.1,
+    "priceChange5y": 0,
+    "transactions12m": 1962,
+    "byType": {
+      "detached": {
+        "avg": 246478,
+        "count": 241
+      },
+      "semi": {
+        "avg": 130885,
+        "count": 386
+      },
+      "terraced": {
+        "avg": 79105,
+        "count": 1226
+      },
+      "flat": {
+        "avg": 61720,
+        "count": 35
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 107047
+      },
+      {
+        "year": 2024,
+        "avg": 107075
+      },
+      {
+        "year": 2025,
+        "avg": 139292
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 68.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -15.7,
+    "byType": {
+      "violentCrime": 23.1,
+      "burglary": 2.2,
+      "vehicleCrime": 2,
+      "antisocialBehaviour": 14.8,
+      "otherTheft": 11.3,
+      "other": 15.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Oxhill Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "West Pelton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Stanley Burnside Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Croft Community School",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Tanfield Lea Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 202760,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 25,
+    "privateRent": 15,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 317,
+    "avgUpload": 57,
+    "superfastPct": 96,
+    "ultrafastPct": 78,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Gateshead",
+    "bandD": 2332,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 28.2,
+    "imdRank": 20831,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DH9 encompasses STANLEY and its surrounding areas in County Durham, North East.",
+    "priceVsCounty": "The average property price in DH9 is £116,605, which is 44% below the County Durham average of £207,512.",
+    "priceVsNational": "Properties in DH9 cost 59.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DH9 have risen 30.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 68.5 recorded crimes per 1,000 residents, DH9 has a crime rate 16% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DH9 has 21 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DH9 are 317.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DH9 (STANLEY) offers affordable property prices (£116,605, 59% below national average), low crime (16% below national average), 21 nearby schools, and excellent broadband (317 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 207512,
+      "crime": 75,
+      "broadband": 317
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 317
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

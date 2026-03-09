@@ -1,0 +1,198 @@
+{
+  "code": "BS25",
+  "name": "WINSCOMBE",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS24",
+    "BS26",
+    "BS27"
+  ],
+  "property": {
+    "avgPrice": 476400,
+    "medianPrice": 445000,
+    "priceChange1y": 4.9,
+    "priceChange5y": 0,
+    "transactions12m": 340,
+    "byType": {
+      "detached": {
+        "avg": 558814,
+        "count": 213
+      },
+      "semi": {
+        "avg": 363287,
+        "count": 44
+      },
+      "terraced": {
+        "avg": 333929,
+        "count": 14
+      },
+      "flat": {
+        "avg": 199260,
+        "count": 50
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 486080
+      },
+      {
+        "year": 2024,
+        "avg": 460917
+      },
+      {
+        "year": 2025,
+        "avg": 483688
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.4,
+    "byType": {
+      "violentCrime": 2.8,
+      "burglary": 0.3,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 0.3,
+      "otherTheft": 0.6,
+      "other": 0.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Sidcot School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Churchill Academy & Sixth Form",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Shipham Church of England First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sandford Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Winscombe Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 224578,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 9,
+    "privateRent": 16,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 322,
+    "avgUpload": 58,
+    "superfastPct": 95,
+    "ultrafastPct": 78,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.8,
+    "imdRank": 11811,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS25 covers WINSCOMBE in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS25 is £476,400, which is 6% above the Bristol average of £449,132.",
+    "priceVsNational": "Properties in BS25 cost 66.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BS25 have risen 4.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.4 recorded crimes per 1,000 residents, BS25 has a crime rate well 93% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BS25 has 5 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS25 are 322.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS25 (WINSCOMBE) offers above-average property prices (£476,400, 66% above national average), low crime (93% below national average), 5 nearby schools, and excellent broadband (322 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 322
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 322
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

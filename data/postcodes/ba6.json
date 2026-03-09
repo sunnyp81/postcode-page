@@ -1,0 +1,197 @@
+{
+  "code": "BA6",
+  "name": "GLASTONBURY",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "bath",
+  "adjacent": [
+    "BA5",
+    "BA7",
+    "BA8"
+  ],
+  "property": {
+    "avgPrice": 355346,
+    "medianPrice": 290000,
+    "priceChange1y": 0.2,
+    "priceChange5y": 0,
+    "transactions12m": 697,
+    "byType": {
+      "detached": {
+        "avg": 497673,
+        "count": 234
+      },
+      "semi": {
+        "avg": 288164,
+        "count": 148
+      },
+      "terraced": {
+        "avg": 272941,
+        "count": 174
+      },
+      "flat": {
+        "avg": 132681,
+        "count": 98
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 375557
+      },
+      {
+        "year": 2024,
+        "avg": 344995
+      },
+      {
+        "year": 2025,
+        "avg": 345563
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 32.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -60.4,
+    "byType": {
+      "violentCrime": 11.5,
+      "burglary": 0.6,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 6.7,
+      "otherTheft": 4.9,
+      "other": 8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Meare Village Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St John's Church of England Voluntary Controlled Infants School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "West Pennard Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Benedict's Church of England Voluntary Aided Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Millfield Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 258,
+    "avgUpload": 46,
+    "superfastPct": 86,
+    "ultrafastPct": 65,
+    "gigabitPct": 59,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bath Council",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BA6 encompasses GLASTONBURY and its surrounding areas in Somerset, South West.",
+    "priceVsCounty": "The average property price in BA6 is £355,346, broadly in line with the Somerset average of £373,759.",
+    "priceVsNational": "Properties in BA6 cost 23.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BA6 have risen 0.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 32.2 recorded crimes per 1,000 residents, BA6 has a crime rate well 60% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BA6 has 10 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BA6 are 258.0 Mbps, with 99% of premises having access to superfast broadband and 86% with full fibre (FTTP) connectivity.",
+    "synthesis": "BA6 (GLASTONBURY) offers above-average property prices (£355,346, 24% above national average), low crime (60% below national average), 10 nearby schools, and excellent broadband (258 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 258
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 258
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

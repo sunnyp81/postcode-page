@@ -1,0 +1,197 @@
+{
+  "code": "LL16",
+  "name": "DENBIGH",
+  "county": "north-wales",
+  "region": "wales",
+  "city": "north-wales",
+  "adjacent": [
+    "LL15",
+    "LL17",
+    "LL18"
+  ],
+  "property": {
+    "avgPrice": 259924,
+    "medianPrice": 200000,
+    "priceChange1y": -16.3,
+    "priceChange5y": 0,
+    "transactions12m": 517,
+    "byType": {
+      "detached": {
+        "avg": 317492,
+        "count": 188
+      },
+      "semi": {
+        "avg": 203143,
+        "count": 133
+      },
+      "terraced": {
+        "avg": 136462,
+        "count": 144
+      },
+      "flat": {
+        "avg": 146333,
+        "count": 6
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 263124
+      },
+      {
+        "year": 2024,
+        "avg": 278056
+      },
+      {
+        "year": 2025,
+        "avg": 232803
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 20.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -75,
+    "byType": {
+      "violentCrime": 9.2,
+      "burglary": 0.4,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 3.9,
+      "otherTheft": 2.7,
+      "other": 4.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ysgol Bro Aled, Llansannan",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bodfari C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Frongoch",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Gymraeg Henllan",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Twm o'r Nant",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 114891,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 271,
+    "avgUpload": 49,
+    "superfastPct": 80,
+    "ultrafastPct": 65,
+    "gigabitPct": 65,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Wales Council",
+    "bandD": 2304,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LL16 covers DENBIGH in North Wales, Wales.",
+    "priceVsCounty": "The average property price in LL16 is £259,924, broadly in line with the North Wales average of £271,879.",
+    "priceVsNational": "Properties in LL16 cost 9.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LL16 have fallen 16.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 20.3 recorded crimes per 1,000 residents, LL16 has a crime rate well 75% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LL16 has 15 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LL16 are 271.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LL16 (DENBIGH) offers property prices near the national average (£259,924), low crime (75% below national average), 15 nearby schools, and excellent broadband (271 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 271879,
+      "crime": 75,
+      "broadband": 271
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 271
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

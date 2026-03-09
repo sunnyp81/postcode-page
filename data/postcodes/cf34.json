@@ -1,0 +1,197 @@
+{
+  "code": "CF34",
+  "name": "MAESTEG",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF33",
+    "CF35",
+    "CF36"
+  ],
+  "property": {
+    "avgPrice": 144060,
+    "medianPrice": 125000,
+    "priceChange1y": 12,
+    "priceChange5y": 0,
+    "transactions12m": 769,
+    "byType": {
+      "detached": {
+        "avg": 270477,
+        "count": 81
+      },
+      "semi": {
+        "avg": 157605,
+        "count": 204
+      },
+      "terraced": {
+        "avg": 111292,
+        "count": 445
+      },
+      "flat": {
+        "avg": 114069,
+        "count": 9
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 144294
+      },
+      {
+        "year": 2024,
+        "avg": 135927
+      },
+      {
+        "year": 2025,
+        "avg": 152295
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 34.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -57.8,
+    "byType": {
+      "violentCrime": 12,
+      "burglary": 0.8,
+      "vehicleCrime": 1.8,
+      "antisocialBehaviour": 5.6,
+      "otherTheft": 7.1,
+      "other": 7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Cwmfelin Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Garth Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Llangynwyd Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Nantyffyllon Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Plasnewydd Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 147530,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 356,
+    "avgUpload": 64,
+    "superfastPct": 94,
+    "ultrafastPct": 88,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF34 covers MAESTEG in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF34 is £144,060, which is 48% below the Cardiff average of £275,506.",
+    "priceVsNational": "Properties in CF34 cost 49.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CF34 have risen 12.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 34.3 recorded crimes per 1,000 residents, CF34 has a crime rate well 58% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CF34 has 10 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF34 are 356.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF34 (MAESTEG) offers affordable property prices (£144,060, 50% below national average), low crime (58% below national average), 10 nearby schools, and excellent broadband (356 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 356
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 356
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

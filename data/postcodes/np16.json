@@ -1,0 +1,196 @@
+{
+  "code": "NP16",
+  "name": "CHEPSTOW",
+  "county": "gwent",
+  "region": "wales",
+  "city": "newport",
+  "adjacent": [
+    "NP15",
+    "NP18"
+  ],
+  "property": {
+    "avgPrice": 397530,
+    "medianPrice": 320000,
+    "priceChange1y": 12,
+    "priceChange5y": 0,
+    "transactions12m": 1134,
+    "byType": {
+      "detached": {
+        "avg": 501096,
+        "count": 454
+      },
+      "semi": {
+        "avg": 291543,
+        "count": 253
+      },
+      "terraced": {
+        "avg": 276382,
+        "count": 304
+      },
+      "flat": {
+        "avg": 206510,
+        "count": 56
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 388683
+      },
+      {
+        "year": 2024,
+        "avg": 382913
+      },
+      {
+        "year": 2025,
+        "avg": 428826
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 8.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -89.1,
+    "byType": {
+      "violentCrime": 2.8,
+      "burglary": 0.2,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 2.3,
+      "otherTheft": 0.9,
+      "other": 2.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Tutshill Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dean Close St John's",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wyedean School and Sixth Form Centre",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lift Offa's Mead",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Thornwell Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 94930,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 305,
+    "avgUpload": 55,
+    "superfastPct": 94,
+    "ultrafastPct": 74,
+    "gigabitPct": 73,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newport Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "NP16 covers CHEPSTOW in Gwent, Wales.",
+    "priceVsCounty": "The average property price in NP16 is £397,530, which is 46% above the Gwent average of £273,109.",
+    "priceVsNational": "Properties in NP16 cost 38.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NP16 have risen 12.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 8.9 recorded crimes per 1,000 residents, NP16 has a crime rate well 89% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NP16 has 11 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NP16 are 305.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NP16 (CHEPSTOW) offers above-average property prices (£397,530, 39% above national average), low crime (89% below national average), 11 nearby schools, and excellent broadband (305 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 273109,
+      "crime": 75,
+      "broadband": 305
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 305
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

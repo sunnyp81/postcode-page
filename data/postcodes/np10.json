@@ -1,0 +1,196 @@
+{
+  "code": "NP10",
+  "name": "NEWPORT",
+  "county": "gwent",
+  "region": "wales",
+  "city": "newport",
+  "adjacent": [
+    "NP11",
+    "NP12"
+  ],
+  "property": {
+    "avgPrice": 305571,
+    "medianPrice": 270000,
+    "priceChange1y": 3.7,
+    "priceChange5y": 0,
+    "transactions12m": 1176,
+    "byType": {
+      "detached": {
+        "avg": 395135,
+        "count": 453
+      },
+      "semi": {
+        "avg": 252984,
+        "count": 338
+      },
+      "terraced": {
+        "avg": 199953,
+        "count": 256
+      },
+      "flat": {
+        "avg": 139859,
+        "count": 96
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 288047
+      },
+      {
+        "year": 2024,
+        "avg": 309181
+      },
+      {
+        "year": 2025,
+        "avg": 320736
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 13.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -83.4,
+    "byType": {
+      "violentCrime": 5.5,
+      "burglary": 0.4,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 2.3,
+      "otherTheft": 1.6,
+      "other": 3.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Mount Pleasant Primary",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rogerstone Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "High Cross Primary",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pentrepoeth C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The John Frost School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 167899,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 325,
+    "avgUpload": 59,
+    "superfastPct": 96,
+    "ultrafastPct": 81,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newport Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "NP10 covers NEWPORT in Gwent, Wales.",
+    "priceVsCounty": "The average property price in NP10 is £305,571, which is 12% above the Gwent average of £273,109.",
+    "priceVsNational": "Properties in NP10 cost 6.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NP10 have risen 3.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 13.5 recorded crimes per 1,000 residents, NP10 has a crime rate well 83% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NP10 has 11 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NP10 are 325.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NP10 (NEWPORT) offers property prices near the national average (£305,571), low crime (83% below national average), 11 nearby schools, and excellent broadband (325 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 273109,
+      "crime": 75,
+      "broadband": 325
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 325
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "DA5",
+  "name": "BEXLEY",
+  "county": "greater-london",
+  "region": "london",
+  "city": "dartford",
+  "adjacent": [
+    "DA4",
+    "DA6",
+    "DA7"
+  ],
+  "property": {
+    "avgPrice": 540747,
+    "medianPrice": 511250,
+    "priceChange1y": -1.1,
+    "priceChange5y": 0,
+    "transactions12m": 804,
+    "byType": {
+      "detached": {
+        "avg": 786003,
+        "count": 152
+      },
+      "semi": {
+        "avg": 552135,
+        "count": 326
+      },
+      "terraced": {
+        "avg": 466120,
+        "count": 209
+      },
+      "flat": {
+        "avg": 290425,
+        "count": 97
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 526997
+      },
+      {
+        "year": 2024,
+        "avg": 549048
+      },
+      {
+        "year": 2025,
+        "avg": 542933
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 17.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -78.6,
+    "byType": {
+      "violentCrime": 5.2,
+      "burglary": 1,
+      "vehicleCrime": 2.4,
+      "antisocialBehaviour": 3.4,
+      "otherTheft": 1.7,
+      "other": 3.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Upton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beths Grammar School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Joydens Wood Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hurst Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Old Bexley Church of England School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 256434,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 15,
+    "privateRent": 14,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 355,
+    "avgUpload": 64,
+    "superfastPct": 99,
+    "ultrafastPct": 87,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bexley",
+    "bandD": 2038,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.3,
+    "imdRank": 13529,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DA5 covers BEXLEY in Greater London, London.",
+    "priceVsCounty": "The average property price in DA5 is £540,747, which is 59% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in DA5 cost 88.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DA5 have fallen 1.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 17.4 recorded crimes per 1,000 residents, DA5 has a crime rate well 79% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DA5 has 5 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DA5 are 355.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DA5 (BEXLEY) offers above-average property prices (£540,747, 88% above national average), low crime (79% below national average), 5 nearby schools, and excellent broadband (355 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 355
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 355
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

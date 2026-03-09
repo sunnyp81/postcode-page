@@ -1,0 +1,198 @@
+{
+  "code": "KT18",
+  "name": "EPSOM",
+  "county": "greater-london",
+  "region": "london",
+  "city": "kingston-upon-thames",
+  "adjacent": [
+    "KT17",
+    "KT19",
+    "KT20"
+  ],
+  "property": {
+    "avgPrice": 651178,
+    "medianPrice": 550000,
+    "priceChange1y": -7.4,
+    "priceChange5y": 0,
+    "transactions12m": 766,
+    "byType": {
+      "detached": {
+        "avg": 934445,
+        "count": 202
+      },
+      "semi": {
+        "avg": 609863,
+        "count": 205
+      },
+      "terraced": {
+        "avg": 516046,
+        "count": 78
+      },
+      "flat": {
+        "avg": 346408,
+        "count": 254
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 692421
+      },
+      {
+        "year": 2024,
+        "avg": 648881
+      },
+      {
+        "year": 2025,
+        "avg": 601106
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 10,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -87.7,
+    "byType": {
+      "violentCrime": 4.1,
+      "burglary": 0.6,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 1.7,
+      "otherTheft": 1.1,
+      "other": 2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Joseph's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Christopher's School Trust (Epsom) Ltd",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rosebery School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Vale Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Shawley Community Primary Academy & Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 159134,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 37,
+    "socialRent": 12,
+    "privateRent": 14,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 344,
+    "avgUpload": 62,
+    "superfastPct": 97,
+    "ultrafastPct": 84,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Kingston Upon Thames Council",
+    "bandD": 1023,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.3,
+    "imdRank": 9065,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "KT18 covers EPSOM in Greater London, London.",
+    "priceVsCounty": "The average property price in KT18 is £651,178, which is 50% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in KT18 cost 126.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in KT18 have fallen 7.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 10.0 recorded crimes per 1,000 residents, KT18 has a crime rate well 88% below the national average of 81.3 per 1,000.",
+    "schoolContext": "KT18 has 8 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in KT18 are 344.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "KT18 (EPSOM) offers above-average property prices (£651,178, 127% above national average), low crime (88% below national average), 8 nearby schools, and excellent broadband (344 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 344
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 344
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

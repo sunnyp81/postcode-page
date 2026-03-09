@@ -1,0 +1,198 @@
+{
+  "code": "CM21",
+  "name": "SAWBRIDGEWORTH",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "chelmsford",
+  "adjacent": [
+    "CM20",
+    "CM22",
+    "CM23"
+  ],
+  "property": {
+    "avgPrice": 493862,
+    "medianPrice": 454250,
+    "priceChange1y": -2.9,
+    "priceChange5y": 0,
+    "transactions12m": 620,
+    "byType": {
+      "detached": {
+        "avg": 739844,
+        "count": 198
+      },
+      "semi": {
+        "avg": 485033,
+        "count": 155
+      },
+      "terraced": {
+        "avg": 387807,
+        "count": 107
+      },
+      "flat": {
+        "avg": 234034,
+        "count": 141
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 502792
+      },
+      {
+        "year": 2024,
+        "avg": 495386
+      },
+      {
+        "year": 2025,
+        "avg": 480885
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 16.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -79.8,
+    "byType": {
+      "violentCrime": 6.6,
+      "burglary": 0.6,
+      "vehicleCrime": 1.6,
+      "antisocialBehaviour": 3.5,
+      "otherTheft": 1.5,
+      "other": 2.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 1,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Fawbert and Barnard Infants' School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Reedings Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mandeville Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "High Wych Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Leventhorpe",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 156875,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 13,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 278,
+    "avgUpload": 50,
+    "superfastPct": 94,
+    "ultrafastPct": 72,
+    "gigabitPct": 63,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Hertfordshire",
+    "bandD": 2117,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.2,
+    "imdRank": 6091,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CM21 covers SAWBRIDGEWORTH in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CM21 is £493,862, which is 15% above the Essex average of £429,754.",
+    "priceVsNational": "Properties in CM21 cost 72.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CM21 have fallen 2.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 16.4 recorded crimes per 1,000 residents, CM21 has a crime rate well 80% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CM21 has 5 schools within or near its boundaries, including 1 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CM21 are 278.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CM21 (SAWBRIDGEWORTH) offers above-average property prices (£493,862, 72% above national average), low crime (80% below national average), 5 nearby schools, and excellent broadband (278 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 278
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 278
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

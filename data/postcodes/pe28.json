@@ -1,0 +1,198 @@
+{
+  "code": "PE28",
+  "name": "HUNTINGDON",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "peterborough",
+  "adjacent": [
+    "PE27",
+    "PE29",
+    "PE30"
+  ],
+  "property": {
+    "avgPrice": 411729,
+    "medianPrice": 355000,
+    "priceChange1y": 3.1,
+    "priceChange5y": 0,
+    "transactions12m": 2438,
+    "byType": {
+      "detached": {
+        "avg": 494414,
+        "count": 1204
+      },
+      "semi": {
+        "avg": 312467,
+        "count": 702
+      },
+      "terraced": {
+        "avg": 282268,
+        "count": 344
+      },
+      "flat": {
+        "avg": 179957,
+        "count": 91
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 403763
+      },
+      {
+        "year": 2024,
+        "avg": 409439
+      },
+      {
+        "year": 2025,
+        "avg": 422324
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 10.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -87.6,
+    "byType": {
+      "violentCrime": 3.3,
+      "burglary": 0.2,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 2.4,
+      "otherTheft": 2.1,
+      "other": 1.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 22,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Eileen Wade Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fenstanton and Hilton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hemingford Grey Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Houghton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wyton on the Hill Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 92906,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 14,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 291,
+    "avgUpload": 52,
+    "superfastPct": 90,
+    "ultrafastPct": 71,
+    "gigabitPct": 69,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Cambridgeshire",
+    "bandD": 2143,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.5,
+    "imdRank": 9710,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PE28 covers HUNTINGDON in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in PE28 is £411,729, which is 7% above the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in PE28 cost 43.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PE28 have risen 3.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 10.1 recorded crimes per 1,000 residents, PE28 has a crime rate well 88% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PE28 has 22 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PE28 are 291.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PE28 (HUNTINGDON) offers above-average property prices (£411,729, 43% above national average), low crime (88% below national average), 22 nearby schools, and excellent broadband (291 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 291
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 291
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

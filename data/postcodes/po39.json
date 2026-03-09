@@ -1,0 +1,178 @@
+{
+  "code": "PO39",
+  "name": "TOTLAND BAY",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "portsmouth",
+  "adjacent": [
+    "PO38",
+    "PO40",
+    "PO41"
+  ],
+  "property": {
+    "avgPrice": 358753,
+    "medianPrice": 302500,
+    "priceChange1y": 17.1,
+    "priceChange5y": 0,
+    "transactions12m": 164,
+    "byType": {
+      "detached": {
+        "avg": 508009,
+        "count": 66
+      },
+      "semi": {
+        "avg": 295860,
+        "count": 25
+      },
+      "terraced": {
+        "avg": 246807,
+        "count": 26
+      },
+      "flat": {
+        "avg": 210919,
+        "count": 37
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 380750
+      },
+      {
+        "year": 2024,
+        "avg": 323739
+      },
+      {
+        "year": 2025,
+        "avg": 379133
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 12.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -84.1,
+    "byType": {
+      "violentCrime": 5.8,
+      "burglary": 0.3,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 2.1,
+      "otherTheft": 0.9,
+      "other": 3.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Saviour's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 141660,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 23,
+    "socialRent": 11,
+    "privateRent": 18,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 280,
+    "avgUpload": 50,
+    "superfastPct": 93,
+    "ultrafastPct": 66,
+    "gigabitPct": 66,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Portsmouth Council",
+    "bandD": 2372,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.3,
+    "imdRank": 19454,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PO39 covers TOTLAND BAY in Hampshire, South East.",
+    "priceVsCounty": "The average property price in PO39 is £358,753, which is 17% below the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in PO39 cost 25.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PO39 have risen 17.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 12.9 recorded crimes per 1,000 residents, PO39 has a crime rate well 84% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PO39 has 1 school within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PO39 are 280.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PO39 (TOTLAND BAY) offers above-average property prices (£358,753, 25% above national average), low crime (84% below national average), 1 nearby school, and excellent broadband (280 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 280
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 280
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

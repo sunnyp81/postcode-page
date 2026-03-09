@@ -1,0 +1,198 @@
+{
+  "code": "SE19",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SE18",
+    "SE20",
+    "SE21"
+  ],
+  "property": {
+    "avgPrice": 507072,
+    "medianPrice": 430000,
+    "priceChange1y": 2.9,
+    "priceChange5y": 0,
+    "transactions12m": 1349,
+    "byType": {
+      "detached": {
+        "avg": 1148050,
+        "count": 65
+      },
+      "semi": {
+        "avg": 789681,
+        "count": 106
+      },
+      "terraced": {
+        "avg": 660271,
+        "count": 217
+      },
+      "flat": {
+        "avg": 377623,
+        "count": 902
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 511795
+      },
+      {
+        "year": 2024,
+        "avg": 497631
+      },
+      {
+        "year": 2025,
+        "avg": 512211
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 100.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 23.2,
+    "byType": {
+      "violentCrime": 31.6,
+      "burglary": 4.6,
+      "vehicleCrime": 8.9,
+      "antisocialBehaviour": 22.7,
+      "otherTheft": 14,
+      "other": 18.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Paxton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Norwood School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Downsview Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rockmount Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "All Saints CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 335319,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 326,
+    "avgUpload": 59,
+    "superfastPct": 95,
+    "ultrafastPct": 80,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bromley",
+    "bandD": 1842,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.2,
+    "imdRank": 11297,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SE19 covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in SE19 is £507,072, which is 61% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SE19 cost 76.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SE19 have risen 2.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 100.2 recorded crimes per 1,000 residents, SE19 has a crime rate significantly 23% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SE19 has 14 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SE19 are 326.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SE19 (LONDON) offers above-average property prices (£507,072, 77% above national average), higher-than-average crime (23% above national average), 14 nearby schools, and excellent broadband (326 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 326
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 326
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

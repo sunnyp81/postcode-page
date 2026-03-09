@@ -1,0 +1,196 @@
+{
+  "code": "SA19",
+  "name": "LLANDEILO",
+  "county": "west-wales",
+  "region": "wales",
+  "city": "swansea",
+  "adjacent": [
+    "SA18",
+    "SA20"
+  ],
+  "property": {
+    "avgPrice": 308430,
+    "medianPrice": 269975,
+    "priceChange1y": -10.9,
+    "priceChange5y": 0,
+    "transactions12m": 382,
+    "byType": {
+      "detached": {
+        "avg": 365680,
+        "count": 156
+      },
+      "semi": {
+        "avg": 200112,
+        "count": 57
+      },
+      "terraced": {
+        "avg": 177500,
+        "count": 78
+      },
+      "flat": {
+        "avg": 87300,
+        "count": 7
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 300587
+      },
+      {
+        "year": 2024,
+        "avg": 330042
+      },
+      {
+        "year": 2025,
+        "avg": 293996
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ysgol Gynradd Ffairfach",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Talley School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Llangadog C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Gymraeg Teilo Sant",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Llandeilo C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 190800,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 129,
+    "avgUpload": 23,
+    "superfastPct": 47,
+    "ultrafastPct": 28,
+    "gigabitPct": 28,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swansea Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "SA19 encompasses LLANDEILO and its surrounding areas in West Wales, Wales.",
+    "priceVsCounty": "The average property price in SA19 is £308,430, which is 18% above the West Wales average of £261,315.",
+    "priceVsNational": "Properties in SA19 cost 7.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SA19 have fallen 10.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SA19 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SA19 has 6 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SA19 are 129.0 Mbps, with 89% of premises having access to superfast broadband and 50% with full fibre (FTTP) connectivity.",
+    "synthesis": "SA19 (LLANDEILO) offers property prices near the national average (£308,430), low crime (94% below national average), 6 nearby schools, and excellent broadband (129 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 261315,
+      "crime": 75,
+      "broadband": 129
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 129
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

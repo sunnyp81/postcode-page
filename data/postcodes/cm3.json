@@ -1,0 +1,198 @@
+{
+  "code": "CM3",
+  "name": "CHELMSFORD",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "chelmsford",
+  "adjacent": [
+    "CM2",
+    "CM4",
+    "CM5"
+  ],
+  "property": {
+    "avgPrice": 522439,
+    "medianPrice": 450000,
+    "priceChange1y": -3.9,
+    "priceChange5y": 0,
+    "transactions12m": 2367,
+    "byType": {
+      "detached": {
+        "avg": 640181,
+        "count": 1163
+      },
+      "semi": {
+        "avg": 417909,
+        "count": 580
+      },
+      "terraced": {
+        "avg": 331261,
+        "count": 337
+      },
+      "flat": {
+        "avg": 210447,
+        "count": 199
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 514014
+      },
+      {
+        "year": 2024,
+        "avg": 536727
+      },
+      {
+        "year": 2025,
+        "avg": 515866
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.2,
+    "byType": {
+      "violentCrime": 2.1,
+      "burglary": 0.3,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 0.4,
+      "otherTheft": 0.7,
+      "other": 1.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 28,
+    "outstanding": 0,
+    "good": 10,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Great Leighs Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cold Norton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Boreham Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hatfield Peverel Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Danbury Park Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 164304,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 16,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 275,
+    "avgUpload": 50,
+    "superfastPct": 93,
+    "ultrafastPct": 66,
+    "gigabitPct": 64,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Braintree",
+    "bandD": 2010,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.7,
+    "imdRank": 12716,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CM3 covers CHELMSFORD in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CM3 is £522,439, which is 22% above the Essex average of £429,754.",
+    "priceVsNational": "Properties in CM3 cost 82.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CM3 have fallen 3.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.5 recorded crimes per 1,000 residents, CM3 has a crime rate well 93% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CM3 has 28 schools within or near its boundaries, including 10 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CM3 are 275.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CM3 (CHELMSFORD) offers above-average property prices (£522,439, 82% above national average), low crime (93% below national average), 28 nearby schools, and excellent broadband (275 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 275
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 275
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

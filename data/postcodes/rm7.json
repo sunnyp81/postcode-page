@@ -1,0 +1,198 @@
+{
+  "code": "RM7",
+  "name": "ROMFORD",
+  "county": "greater-london",
+  "region": "london",
+  "city": "romford",
+  "adjacent": [
+    "RM6",
+    "RM8",
+    "RM9"
+  ],
+  "property": {
+    "avgPrice": 417184,
+    "medianPrice": 417500,
+    "priceChange1y": -9.1,
+    "priceChange5y": 0,
+    "transactions12m": 1106,
+    "byType": {
+      "detached": {
+        "avg": 505835,
+        "count": 46
+      },
+      "semi": {
+        "avg": 459651,
+        "count": 315
+      },
+      "terraced": {
+        "avg": 434517,
+        "count": 455
+      },
+      "flat": {
+        "avg": 241252,
+        "count": 257
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 387732
+      },
+      {
+        "year": 2024,
+        "avg": 450344
+      },
+      {
+        "year": 2025,
+        "avg": 409196
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 126.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 55.6,
+    "byType": {
+      "violentCrime": 39.8,
+      "burglary": 3,
+      "vehicleCrime": 6.2,
+      "antisocialBehaviour": 26.5,
+      "otherTheft": 25.4,
+      "other": 25.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Rush Green Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Crownfield Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Crownfield Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Barking and Dagenham College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Mawney Foundation School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 276274,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 14,
+    "privateRent": 14,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 360,
+    "avgUpload": 65,
+    "superfastPct": 100,
+    "ultrafastPct": 92,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Havering",
+    "bandD": 2088,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.8,
+    "imdRank": 14036,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RM7 is the postcode district for ROMFORD, located in Greater London, London.",
+    "priceVsCounty": "The average property price in RM7 is £417,184, which is 68% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in RM7 cost 45.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RM7 have fallen 9.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 126.5 recorded crimes per 1,000 residents, RM7 has a crime rate significantly 56% above the national average of 81.3 per 1,000.",
+    "schoolContext": "RM7 has 9 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RM7 are 360.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RM7 (ROMFORD) offers above-average property prices (£417,184, 45% above national average), higher-than-average crime (56% above national average), 9 nearby schools, and excellent broadband (360 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 360
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 360
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "code": "PR26",
+  "name": "LEYLAND",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "preston",
+  "adjacent": [
+    "PR25"
+  ],
+  "property": {
+    "avgPrice": 276582,
+    "medianPrice": 232623,
+    "priceChange1y": -1,
+    "priceChange5y": 0,
+    "transactions12m": 968,
+    "byType": {
+      "detached": {
+        "avg": 359046,
+        "count": 331
+      },
+      "semi": {
+        "avg": 208322,
+        "count": 382
+      },
+      "terraced": {
+        "avg": 182027,
+        "count": 206
+      },
+      "flat": {
+        "avg": 180769,
+        "count": 13
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 296475
+      },
+      {
+        "year": 2024,
+        "avg": 265766
+      },
+      {
+        "year": 2025,
+        "avg": 263064
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 27.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -65.8,
+    "byType": {
+      "violentCrime": 12.3,
+      "burglary": 0.6,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 6.7,
+      "otherTheft": 2.3,
+      "other": 5.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Moss Side Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bretherton Endowed Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Leyland St James Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Farington Moss St. Paul's C.E. Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Trinity and St Michael's VA CofE/Methodist Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 116113,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 10,
+    "privateRent": 11,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 336,
+    "avgUpload": 60,
+    "superfastPct": 94,
+    "ultrafastPct": 83,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Ribble",
+    "bandD": 2142,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.3,
+    "imdRank": 12410,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PR26 encompasses LEYLAND and its surrounding areas in Lancashire, North West.",
+    "priceVsCounty": "The average property price in PR26 is £276,582, which is 9% above the Lancashire average of £254,476.",
+    "priceVsNational": "Property values in PR26 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in PR26 have fallen 1.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 27.8 recorded crimes per 1,000 residents, PR26 has a crime rate well 66% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PR26 has 7 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PR26 are 336.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PR26 (LEYLAND) offers property prices near the national average (£276,582), low crime (66% below national average), 7 nearby schools, and excellent broadband (336 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 336
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 336
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

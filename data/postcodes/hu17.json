@@ -1,0 +1,198 @@
+{
+  "code": "HU17",
+  "name": "BEVERLEY",
+  "county": "east-yorkshire",
+  "region": "yorkshire",
+  "city": "hull",
+  "adjacent": [
+    "HU16",
+    "HU18",
+    "HU19"
+  ],
+  "property": {
+    "avgPrice": 271457,
+    "medianPrice": 245000,
+    "priceChange1y": 0.3,
+    "priceChange5y": 0,
+    "transactions12m": 2900,
+    "byType": {
+      "detached": {
+        "avg": 362255,
+        "count": 969
+      },
+      "semi": {
+        "avg": 235464,
+        "count": 953
+      },
+      "terraced": {
+        "avg": 203982,
+        "count": 741
+      },
+      "flat": {
+        "avg": 158869,
+        "count": 168
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 267989
+      },
+      {
+        "year": 2024,
+        "avg": 272792
+      },
+      {
+        "year": 2025,
+        "avg": 273716
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 49.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -38.6,
+    "byType": {
+      "violentCrime": 21.1,
+      "burglary": 2.4,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 3.7,
+      "otherTheft": 10.7,
+      "other": 11.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 3,
+    "good": 2,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Beverley Manor Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Walkington Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Leconfield Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Molescroft Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Leven Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 355884,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 9,
+    "privateRent": 15,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 378,
+    "avgUpload": 68,
+    "superfastPct": 96,
+    "ultrafastPct": 94,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hull Council",
+    "bandD": 2236,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.6,
+    "imdRank": 12095,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HU17 covers BEVERLEY in East Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HU17 is £271,457, which is 28% above the East Yorkshire average of £211,309.",
+    "priceVsNational": "Properties in HU17 cost 5.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HU17 have risen 0.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 49.9 recorded crimes per 1,000 residents, HU17 has a crime rate well 39% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HU17 has 20 schools within or near its boundaries, including 3 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HU17 are 378.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HU17 (BEVERLEY) offers property prices near the national average (£271,457), low crime (39% below national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (378 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 211309,
+      "crime": 75,
+      "broadband": 378
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 378
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

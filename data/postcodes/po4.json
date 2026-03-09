@@ -1,0 +1,198 @@
+{
+  "code": "PO4",
+  "name": "SOUTHSEA",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "portsmouth",
+  "adjacent": [
+    "PO3",
+    "PO5",
+    "PO6"
+  ],
+  "property": {
+    "avgPrice": 302350,
+    "medianPrice": 260000,
+    "priceChange1y": -15.6,
+    "priceChange5y": 0,
+    "transactions12m": 1979,
+    "byType": {
+      "detached": {
+        "avg": 643969,
+        "count": 24
+      },
+      "semi": {
+        "avg": 432660,
+        "count": 97
+      },
+      "terraced": {
+        "avg": 290597,
+        "count": 1354
+      },
+      "flat": {
+        "avg": 209793,
+        "count": 447
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 289812
+      },
+      {
+        "year": 2024,
+        "avg": 332371
+      },
+      {
+        "year": 2025,
+        "avg": 280400
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 164.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 102.2,
+    "byType": {
+      "violentCrime": 67.9,
+      "burglary": 4.2,
+      "vehicleCrime": 10.4,
+      "antisocialBehaviour": 18.2,
+      "otherTheft": 28.4,
+      "other": 35.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bramble Infant School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Devonshire Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cumberland Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Fernhurst Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Craneswater Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 214321,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 18,
+    "privateRent": 26,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 388,
+    "avgUpload": 70,
+    "superfastPct": 100,
+    "ultrafastPct": 98,
+    "gigabitPct": 96,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Portsmouth Council",
+    "bandD": 2319,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.9,
+    "imdRank": 20660,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PO4 is the postcode district for SOUTHSEA, located in Hampshire, South East.",
+    "priceVsCounty": "The average property price in PO4 is £302,350, which is 30% below the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in PO4 cost 5.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PO4 have fallen 15.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 164.4 recorded crimes per 1,000 residents, PO4 has a crime rate significantly 102% above the national average of 81.3 per 1,000.",
+    "schoolContext": "PO4 has 12 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PO4 are 388.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PO4 (SOUTHSEA) offers property prices near the national average (£302,350), higher-than-average crime (102% above national average), 12 nearby schools, and excellent broadband (388 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 388
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 388
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

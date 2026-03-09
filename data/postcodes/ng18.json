@@ -1,0 +1,198 @@
+{
+  "code": "NG18",
+  "name": "MANSFIELD",
+  "county": "nottinghamshire",
+  "region": "east-midlands",
+  "city": "nottingham",
+  "adjacent": [
+    "NG17",
+    "NG19",
+    "NG20"
+  ],
+  "property": {
+    "avgPrice": 227136,
+    "medianPrice": 180000,
+    "priceChange1y": -15.7,
+    "priceChange5y": 0,
+    "transactions12m": 2034,
+    "byType": {
+      "detached": {
+        "avg": 334255,
+        "count": 596
+      },
+      "semi": {
+        "avg": 183853,
+        "count": 637
+      },
+      "terraced": {
+        "avg": 124733,
+        "count": 553
+      },
+      "flat": {
+        "avg": 105414,
+        "count": 164
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 211749
+      },
+      {
+        "year": 2024,
+        "avg": 253318
+      },
+      {
+        "year": 2025,
+        "avg": 213673
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 145.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 79.1,
+    "byType": {
+      "violentCrime": 48.9,
+      "burglary": 3.1,
+      "vehicleCrime": 3.1,
+      "antisocialBehaviour": 23.4,
+      "otherTheft": 34.7,
+      "other": 32.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "West Nottinghamshire College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Portland College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Berry Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Asquith Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Wynndale Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 127886,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 14,
+    "privateRent": 14,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 340,
+    "avgUpload": 61,
+    "superfastPct": 97,
+    "ultrafastPct": 86,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Nottingham Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.2,
+    "imdRank": 15577,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NG18 encompasses MANSFIELD and its surrounding areas in Nottinghamshire, East Midlands.",
+    "priceVsCounty": "The average property price in NG18 is £227,136, which is 67% below the Nottinghamshire average of £678,596.",
+    "priceVsNational": "Properties in NG18 cost 20.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NG18 have fallen 15.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 145.6 recorded crimes per 1,000 residents, NG18 has a crime rate significantly 79% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NG18 has 18 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NG18 are 340.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NG18 (MANSFIELD) offers affordable property prices (£227,136, 21% below national average), higher-than-average crime (79% above national average), 18 nearby schools, and excellent broadband (340 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 678596,
+      "crime": 75,
+      "broadband": 340
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 340
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

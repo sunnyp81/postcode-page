@@ -1,0 +1,197 @@
+{
+  "code": "YO10",
+  "name": "YORK",
+  "county": "north-yorkshire",
+  "region": "yorkshire",
+  "city": "york",
+  "adjacent": [
+    "YO11",
+    "YO12"
+  ],
+  "property": {
+    "avgPrice": 331617,
+    "medianPrice": 286000,
+    "priceChange1y": -0.9,
+    "priceChange5y": 0,
+    "transactions12m": 895,
+    "byType": {
+      "detached": {
+        "avg": 477622,
+        "count": 88
+      },
+      "semi": {
+        "avg": 344995,
+        "count": 288
+      },
+      "terraced": {
+        "avg": 318580,
+        "count": 297
+      },
+      "flat": {
+        "avg": 196924,
+        "count": 188
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 366239
+      },
+      {
+        "year": 2024,
+        "avg": 317305
+      },
+      {
+        "year": 2025,
+        "avg": 314313
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 87.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 8,
+    "byType": {
+      "violentCrime": 28.1,
+      "burglary": 2.2,
+      "vehicleCrime": 1.5,
+      "antisocialBehaviour": 23.1,
+      "otherTheft": 15.9,
+      "other": 17.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 3,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Danesgate Community",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fishergate Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Oswald's Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lord Deramore's Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "York Steiner School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 209301,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 14,
+    "privateRent": 18,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 338,
+    "avgUpload": 61,
+    "superfastPct": 94,
+    "ultrafastPct": 85,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "York Council",
+    "bandD": 1725,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "YO10 is the postcode district for YORK, located in North Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in YO10 is £331,617, which is 7% below the North Yorkshire average of £354,925.",
+    "priceVsNational": "Properties in YO10 cost 15.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in YO10 have fallen 0.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 87.8 recorded crimes per 1,000 residents, YO10 has a crime rate 8% above the national average of 81.3 per 1,000.",
+    "schoolContext": "YO10 has 12 schools within or near its boundaries, including 3 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in YO10 are 338.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "YO10 (YORK) offers property prices near the national average (£331,617), strong school provision (3 Outstanding-rated schools), and excellent broadband (338 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 354925,
+      "crime": 75,
+      "broadband": 338
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 338
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

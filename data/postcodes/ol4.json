@@ -1,0 +1,198 @@
+{
+  "code": "OL4",
+  "name": "OLDHAM",
+  "county": "greater-manchester",
+  "region": "north-west",
+  "city": "oldham",
+  "adjacent": [
+    "OL3",
+    "OL5",
+    "OL6"
+  ],
+  "property": {
+    "avgPrice": 214279,
+    "medianPrice": 175000,
+    "priceChange1y": 4.8,
+    "priceChange5y": 0,
+    "transactions12m": 1506,
+    "byType": {
+      "detached": {
+        "avg": 411727,
+        "count": 192
+      },
+      "semi": {
+        "avg": 236115,
+        "count": 401
+      },
+      "terraced": {
+        "avg": 149062,
+        "count": 782
+      },
+      "flat": {
+        "avg": 168221,
+        "count": 48
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 200554
+      },
+      {
+        "year": 2024,
+        "avg": 216779
+      },
+      {
+        "year": 2025,
+        "avg": 227107
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Glodwick Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Springhead Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Knowsley Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Horton Mill Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Agnes CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 251560,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 21,
+    "privateRent": 15,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 369,
+    "avgUpload": 66,
+    "superfastPct": 99,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Oldham",
+    "bandD": 2220,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 33.2,
+    "imdRank": 22460,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "OL4 covers OLDHAM in Greater Manchester, North West.",
+    "priceVsCounty": "The average property price in OL4 is £214,279, which is 44% below the Greater Manchester average of £381,941.",
+    "priceVsNational": "Properties in OL4 cost 25.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in OL4 have risen 4.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, OL4 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "OL4 has 19 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in OL4 are 369.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "OL4 (OLDHAM) offers affordable property prices (£214,279, 25% below national average), low crime (94% below national average), 19 nearby schools, and excellent broadband (369 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 381941,
+      "crime": 75,
+      "broadband": 369
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 369
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

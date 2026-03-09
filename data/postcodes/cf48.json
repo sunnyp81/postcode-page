@@ -1,0 +1,195 @@
+{
+  "code": "CF48",
+  "name": "MERTHYR TYDFIL",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF47"
+  ],
+  "property": {
+    "avgPrice": 165018,
+    "medianPrice": 131500,
+    "priceChange1y": -10.8,
+    "priceChange5y": 0,
+    "transactions12m": 954,
+    "byType": {
+      "detached": {
+        "avg": 300824,
+        "count": 165
+      },
+      "semi": {
+        "avg": 171045,
+        "count": 205
+      },
+      "terraced": {
+        "avg": 112264,
+        "count": 522
+      },
+      "flat": {
+        "avg": 74000,
+        "count": 16
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 152737
+      },
+      {
+        "year": 2024,
+        "avg": 181010
+      },
+      {
+        "year": 2025,
+        "avg": 161414
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 61.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -24.2,
+    "byType": {
+      "violentCrime": 19,
+      "burglary": 1.1,
+      "vehicleCrime": 2.6,
+      "antisocialBehaviour": 11.3,
+      "otherTheft": 13.1,
+      "other": 14.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Abercanaid Community School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pantysgallog Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Heolgerrig Community School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ynysowen Community Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol-Y-Graig Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 58972,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 264,
+    "avgUpload": 48,
+    "superfastPct": 96,
+    "ultrafastPct": 61,
+    "gigabitPct": 61,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF48 encompasses MERTHYR TYDFIL and its surrounding areas in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF48 is £165,018, which is 40% below the Cardiff average of £275,506.",
+    "priceVsNational": "Properties in CF48 cost 42.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CF48 have fallen 10.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 61.6 recorded crimes per 1,000 residents, CF48 has a crime rate well 24% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CF48 has 11 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF48 are 264.0 Mbps, with 99% of premises having access to superfast broadband and 88% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF48 (MERTHYR TYDFIL) offers affordable property prices (£165,018, 43% below national average), low crime (24% below national average), 11 nearby schools, and excellent broadband (264 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 264
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 264
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

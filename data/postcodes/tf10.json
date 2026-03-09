@@ -1,0 +1,198 @@
+{
+  "code": "TF10",
+  "name": "NEWPORT",
+  "county": "shropshire",
+  "region": "west-midlands",
+  "city": "telford",
+  "adjacent": [
+    "TF9",
+    "TF11",
+    "TF12"
+  ],
+  "property": {
+    "avgPrice": 324215,
+    "medianPrice": 277500,
+    "priceChange1y": 20.1,
+    "priceChange5y": 0,
+    "transactions12m": 820,
+    "byType": {
+      "detached": {
+        "avg": 407121,
+        "count": 348
+      },
+      "semi": {
+        "avg": 265770,
+        "count": 240
+      },
+      "terraced": {
+        "avg": 238532,
+        "count": 140
+      },
+      "flat": {
+        "avg": 130553,
+        "count": 46
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 322218
+      },
+      {
+        "year": 2024,
+        "avg": 299684
+      },
+      {
+        "year": 2025,
+        "avg": 359909
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 20.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -74.5,
+    "byType": {
+      "violentCrime": 10,
+      "burglary": 0.6,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 3,
+      "otherTheft": 2.2,
+      "other": 4.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Church Aston Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lilleshall Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Newport Infant School and Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Moorfield Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Peter's Church of England Controlled Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 332455,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 239,
+    "avgUpload": 43,
+    "superfastPct": 87,
+    "ultrafastPct": 57,
+    "gigabitPct": 54,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Telford Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.2,
+    "imdRank": 14862,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TF10 encompasses NEWPORT and its surrounding areas in Shropshire, West Midlands.",
+    "priceVsCounty": "The average property price in TF10 is £324,215, which is 10% above the Shropshire average of £296,045.",
+    "priceVsNational": "Properties in TF10 cost 13.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TF10 have risen 20.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 20.7 recorded crimes per 1,000 residents, TF10 has a crime rate well 75% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TF10 has 13 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TF10 are 239.0 Mbps, with 99% of premises having access to superfast broadband and 81% with full fibre (FTTP) connectivity.",
+    "synthesis": "TF10 (NEWPORT) offers property prices near the national average (£324,215), low crime (75% below national average), 13 nearby schools, and excellent broadband (239 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 296045,
+      "crime": 75,
+      "broadband": 239
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 239
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

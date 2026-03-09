@@ -1,0 +1,198 @@
+{
+  "code": "SW12",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SW11",
+    "SW13",
+    "SW14"
+  ],
+  "property": {
+    "avgPrice": 875455,
+    "medianPrice": 700000,
+    "priceChange1y": 0.1,
+    "priceChange5y": 0,
+    "transactions12m": 1642,
+    "byType": {
+      "detached": {
+        "avg": 2697714,
+        "count": 21
+      },
+      "semi": {
+        "avg": 1754543,
+        "count": 79
+      },
+      "terraced": {
+        "avg": 1276495,
+        "count": 441
+      },
+      "flat": {
+        "avg": 599570,
+        "count": 1044
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 885644
+      },
+      {
+        "year": 2024,
+        "avg": 870309
+      },
+      {
+        "year": 2025,
+        "avg": 871420
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 126.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 56.1,
+    "byType": {
+      "violentCrime": 28,
+      "burglary": 6.8,
+      "vehicleCrime": 16.9,
+      "antisocialBehaviour": 28.8,
+      "otherTheft": 29.3,
+      "other": 17.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 2,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Henry Cavendish Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Telferscot Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Bede's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "La Retraite Roman Catholic Girls' School",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "The White House Preparatory School & Woodentops Kindergarten",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 337655,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 19,
+    "privateRent": 34,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 367,
+    "avgUpload": 66,
+    "superfastPct": 99,
+    "ultrafastPct": 95,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wandsworth",
+    "bandD": 921,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.6,
+    "imdRank": 14312,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SW12 encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in SW12 is £875,455, which is 33% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SW12 cost 205.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SW12 have risen 0.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 126.9 recorded crimes per 1,000 residents, SW12 has a crime rate significantly 56% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SW12 has 15 schools within or near its boundaries, including 2 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SW12 are 367.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SW12 (LONDON) offers above-average property prices (£875,455, 205% above national average), higher-than-average crime (56% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (367 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 367
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 367
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

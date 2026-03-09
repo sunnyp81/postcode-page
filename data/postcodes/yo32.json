@@ -1,0 +1,195 @@
+{
+  "code": "YO32",
+  "name": "YORK",
+  "county": "north-yorkshire",
+  "region": "yorkshire",
+  "city": "york",
+  "adjacent": [
+    "YO31"
+  ],
+  "property": {
+    "avgPrice": 364620,
+    "medianPrice": 315000,
+    "priceChange1y": -7,
+    "priceChange5y": 0,
+    "transactions12m": 1109,
+    "byType": {
+      "detached": {
+        "avg": 450686,
+        "count": 448
+      },
+      "semi": {
+        "avg": 293330,
+        "count": 412
+      },
+      "terraced": {
+        "avg": 273369,
+        "count": 141
+      },
+      "flat": {
+        "avg": 149658,
+        "count": 78
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 376395
+      },
+      {
+        "year": 2024,
+        "avg": 370322
+      },
+      {
+        "year": 2025,
+        "avg": 344364
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 13.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -83.8,
+    "byType": {
+      "violentCrime": 3.1,
+      "burglary": 0.2,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 5.1,
+      "otherTheft": 2.4,
+      "other": 2.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ralph Butterfield Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Stockton-on-the-Forest Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wigginton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Headlands Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Huntington School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 28133,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 327,
+    "avgUpload": 59,
+    "superfastPct": 94,
+    "ultrafastPct": 81,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "York Council",
+    "bandD": 1725,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "YO32 encompasses YORK and its surrounding areas in North Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in YO32 is £364,620, broadly in line with the North Yorkshire average of £354,925.",
+    "priceVsNational": "Properties in YO32 cost 27.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in YO32 have fallen 7.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 13.2 recorded crimes per 1,000 residents, YO32 has a crime rate well 84% below the national average of 81.3 per 1,000.",
+    "schoolContext": "YO32 has 9 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in YO32 are 327.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "YO32 (YORK) offers above-average property prices (£364,620, 27% above national average), low crime (84% below national average), 9 nearby schools, and excellent broadband (327 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 354925,
+      "crime": 75,
+      "broadband": 327
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 327
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

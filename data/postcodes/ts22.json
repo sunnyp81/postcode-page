@@ -1,0 +1,198 @@
+{
+  "code": "TS22",
+  "name": "BILLINGHAM",
+  "county": "teesside",
+  "region": "north-east",
+  "city": "middlesbrough",
+  "adjacent": [
+    "TS21",
+    "TS23",
+    "TS24"
+  ],
+  "property": {
+    "avgPrice": 351739,
+    "medianPrice": 322995,
+    "priceChange1y": -7.5,
+    "priceChange5y": 0,
+    "transactions12m": 879,
+    "byType": {
+      "detached": {
+        "avg": 434748,
+        "count": 559
+      },
+      "semi": {
+        "avg": 185804,
+        "count": 225
+      },
+      "terraced": {
+        "avg": 166727,
+        "count": 62
+      },
+      "flat": {
+        "avg": 178375,
+        "count": 8
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 352891
+      },
+      {
+        "year": 2024,
+        "avg": 361520
+      },
+      {
+        "year": 2025,
+        "avg": 334416
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -92.6,
+    "byType": {
+      "violentCrime": 1.9,
+      "burglary": 0.3,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1.2,
+      "otherTheft": 1.4,
+      "other": 1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Northfield School and Sports College",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wynyard Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Paul's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wolviston Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Prior's Mill CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 206800,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 16,
+    "privateRent": 15,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 347,
+    "avgUpload": 62,
+    "superfastPct": 90,
+    "ultrafastPct": 86,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Middlesbrough Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.8,
+    "imdRank": 17541,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TS22 covers BILLINGHAM in Teesside, North East.",
+    "priceVsCounty": "The average property price in TS22 is £351,739, which is 85% above the Teesside average of £189,841.",
+    "priceVsNational": "Properties in TS22 cost 22.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TS22 have fallen 7.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 6.0 recorded crimes per 1,000 residents, TS22 has a crime rate well 93% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TS22 has 5 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TS22 are 347.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TS22 (BILLINGHAM) offers above-average property prices (£351,739, 23% above national average), low crime (93% below national average), 5 nearby schools, and excellent broadband (347 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 189841,
+      "crime": 75,
+      "broadband": 347
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 347
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

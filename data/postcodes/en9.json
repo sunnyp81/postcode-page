@@ -1,0 +1,198 @@
+{
+  "code": "EN9",
+  "name": "WALTHAM ABBEY",
+  "county": "greater-london",
+  "region": "london",
+  "city": "enfield",
+  "adjacent": [
+    "EN8",
+    "EN10",
+    "EN11"
+  ],
+  "property": {
+    "avgPrice": 485039,
+    "medianPrice": 392500,
+    "priceChange1y": -25.4,
+    "priceChange5y": 0,
+    "transactions12m": 985,
+    "byType": {
+      "detached": {
+        "avg": 737261,
+        "count": 125
+      },
+      "semi": {
+        "avg": 479310,
+        "count": 270
+      },
+      "terraced": {
+        "avg": 391567,
+        "count": 271
+      },
+      "flat": {
+        "avg": 250498,
+        "count": 257
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 454127
+      },
+      {
+        "year": 2024,
+        "avg": 567012
+      },
+      {
+        "year": 2025,
+        "avg": 422921
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 21.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -74,
+    "byType": {
+      "violentCrime": 8.8,
+      "burglary": 0.7,
+      "vehicleCrime": 2.3,
+      "antisocialBehaviour": 2,
+      "otherTheft": 1.9,
+      "other": 5.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Leverton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Upshire Primary Foundation School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "King Harold Business & Enterprise Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hillhouse CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Waltham Holy Cross Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 101900,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 342,
+    "avgUpload": 62,
+    "superfastPct": 98,
+    "ultrafastPct": 87,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Broxbourne",
+    "bandD": 1997,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 15414,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EN9 covers WALTHAM ABBEY in Greater London, London.",
+    "priceVsCounty": "The average property price in EN9 is £485,039, which is 63% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in EN9 cost 69.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EN9 have fallen 25.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 21.1 recorded crimes per 1,000 residents, EN9 has a crime rate well 74% below the national average of 81.3 per 1,000.",
+    "schoolContext": "EN9 has 6 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EN9 are 342.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "EN9 (WALTHAM ABBEY) offers above-average property prices (£485,039, 69% above national average), low crime (74% below national average), 6 nearby schools, and excellent broadband (342 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 342
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 342
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

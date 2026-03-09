@@ -1,0 +1,198 @@
+{
+  "code": "IP12",
+  "name": "WOODBRIDGE",
+  "county": "suffolk",
+  "region": "east-of-england",
+  "city": "ipswich",
+  "adjacent": [
+    "IP11",
+    "IP13",
+    "IP14"
+  ],
+  "property": {
+    "avgPrice": 439988,
+    "medianPrice": 351000,
+    "priceChange1y": -2.8,
+    "priceChange5y": 0,
+    "transactions12m": 1242,
+    "byType": {
+      "detached": {
+        "avg": 588897,
+        "count": 460
+      },
+      "semi": {
+        "avg": 350827,
+        "count": 299
+      },
+      "terraced": {
+        "avg": 335881,
+        "count": 259
+      },
+      "flat": {
+        "avg": 191708,
+        "count": 144
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 482153
+      },
+      {
+        "year": 2024,
+        "avg": 425952
+      },
+      {
+        "year": 2025,
+        "avg": 414085
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.4,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.1,
+      "other": 0.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Melton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Woodbridge Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sandlings Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Woodbridge School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Farlingaye High School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 22092,
+    "medianAge": 41,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 13,
+    "privateRent": 21,
+    "economicallyActive": 76,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 178,
+    "avgUpload": 32,
+    "superfastPct": 90,
+    "ultrafastPct": 37,
+    "gigabitPct": 37,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Suffolk",
+    "bandD": 2019,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.6,
+    "imdRank": 15274,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IP12 covers WOODBRIDGE in Suffolk, East Of England.",
+    "priceVsCounty": "The average property price in IP12 is £439,988, which is 16% above the Suffolk average of £379,904.",
+    "priceVsNational": "Properties in IP12 cost 53.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IP12 have fallen 2.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, IP12 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IP12 has 14 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IP12 are 178.0 Mbps, with 97% of premises having access to superfast broadband and 64% with full fibre (FTTP) connectivity.",
+    "synthesis": "IP12 (WOODBRIDGE) offers above-average property prices (£439,988, 53% above national average), low crime (94% below national average), 14 nearby schools, and excellent broadband (178 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 379904,
+      "crime": 75,
+      "broadband": 178
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 178
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "LL20",
+  "name": "LLANGOLLEN",
+  "county": "north-wales",
+  "region": "wales",
+  "city": "north-wales",
+  "adjacent": [
+    "LL19",
+    "LL21",
+    "LL22"
+  ],
+  "property": {
+    "avgPrice": 325988,
+    "medianPrice": 220000,
+    "priceChange1y": -19.2,
+    "priceChange5y": 0,
+    "transactions12m": 335,
+    "byType": {
+      "detached": {
+        "avg": 325707,
+        "count": 118
+      },
+      "semi": {
+        "avg": 225309,
+        "count": 58
+      },
+      "terraced": {
+        "avg": 174216,
+        "count": 87
+      },
+      "flat": {
+        "avg": 143431,
+        "count": 28
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 353701
+      },
+      {
+        "year": 2024,
+        "avg": 343035
+      },
+      {
+        "year": 2025,
+        "avg": 277151
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -90.2,
+    "byType": {
+      "violentCrime": 3.3,
+      "burglary": 0.2,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1.6,
+      "otherTheft": 1.3,
+      "other": 1.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ysgol Bryn Collen Llangollen",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Froncysyllte C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Garth C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Cynddelw",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Llanarmon Dyffryn Ceiriog",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 98202,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 198,
+    "avgUpload": 36,
+    "superfastPct": 90,
+    "ultrafastPct": 45,
+    "gigabitPct": 42,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Wales Council",
+    "bandD": 2304,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LL20 is the postcode district for LLANGOLLEN, located in North Wales, Wales.",
+    "priceVsCounty": "The average property price in LL20 is £325,988, which is 20% above the North Wales average of £271,879.",
+    "priceVsNational": "Properties in LL20 cost 13.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LL20 have fallen 19.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 8.0 recorded crimes per 1,000 residents, LL20 has a crime rate well 90% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LL20 has 7 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LL20 are 198.0 Mbps, with 99% of premises having access to superfast broadband and 69% with full fibre (FTTP) connectivity.",
+    "synthesis": "LL20 (LLANGOLLEN) offers property prices near the national average (£325,988), low crime (90% below national average), 7 nearby schools, and excellent broadband (198 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 271879,
+      "crime": 75,
+      "broadband": 198
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 198
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

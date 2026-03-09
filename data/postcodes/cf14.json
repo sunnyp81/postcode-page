@@ -1,0 +1,195 @@
+{
+  "code": "CF14",
+  "name": "CARDIFF",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF15"
+  ],
+  "property": {
+    "avgPrice": 389571,
+    "medianPrice": 327000,
+    "priceChange1y": -10.6,
+    "priceChange5y": 0,
+    "transactions12m": 3132,
+    "byType": {
+      "detached": {
+        "avg": 555352,
+        "count": 624
+      },
+      "semi": {
+        "avg": 382247,
+        "count": 1069
+      },
+      "terraced": {
+        "avg": 300952,
+        "count": 818
+      },
+      "flat": {
+        "avg": 166597,
+        "count": 553
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 370965
+      },
+      {
+        "year": 2024,
+        "avg": 418317
+      },
+      {
+        "year": 2025,
+        "avg": 373791
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 56.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -31,
+    "byType": {
+      "violentCrime": 16.9,
+      "burglary": 1.7,
+      "vehicleCrime": 4.4,
+      "antisocialBehaviour": 5.3,
+      "otherTheft": 15.9,
+      "other": 11.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 32,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Birchgrove Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gabalfa Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rhydypenau Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ton-Yr-Ywen Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Coed Glas Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 383919,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 365,
+    "avgUpload": 66,
+    "superfastPct": 98,
+    "ultrafastPct": 93,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF14 is the postcode district for CARDIFF, located in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF14 is £389,571, which is 41% above the Cardiff average of £275,506.",
+    "priceVsNational": "Properties in CF14 cost 35.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CF14 have fallen 10.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 56.1 recorded crimes per 1,000 residents, CF14 has a crime rate well 31% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CF14 has 32 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF14 are 365.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF14 (CARDIFF) offers above-average property prices (£389,571, 36% above national average), low crime (31% below national average), 32 nearby schools, and excellent broadband (365 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 365
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 365
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

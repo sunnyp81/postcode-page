@@ -1,0 +1,191 @@
+{
+  "code": "DL11",
+  "name": "RICHMOND",
+  "county": "county-durham",
+  "region": "north-east",
+  "city": "darlington",
+  "adjacent": [
+    "DL10",
+    "DL12",
+    "DL13"
+  ],
+  "property": {
+    "avgPrice": 430336,
+    "medianPrice": 350000,
+    "priceChange1y": 5.5,
+    "priceChange5y": 0,
+    "transactions12m": 251,
+    "byType": {
+      "detached": {
+        "avg": 497024,
+        "count": 87
+      },
+      "semi": {
+        "avg": 357796,
+        "count": 48
+      },
+      "terraced": {
+        "avg": 292026,
+        "count": 70
+      },
+      "flat": {
+        "avg": 272500,
+        "count": 4
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 403241
+      },
+      {
+        "year": 2024,
+        "avg": 433543
+      },
+      {
+        "year": 2025,
+        "avg": 457509
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 76.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -6.4,
+    "byType": {
+      "violentCrime": 20.5,
+      "burglary": 4.9,
+      "vehicleCrime": 7.6,
+      "antisocialBehaviour": 16.7,
+      "otherTheft": 12.2,
+      "other": 14.1
+    },
+    "source": "synthetic-estimate",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Reeth Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gunnerside Methodist Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ravensworth Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eppleby Forcett Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 23666,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 58,
+    "socialRent": 21,
+    "privateRent": 21,
+    "economicallyActive": 69,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 97,
+    "avgUpload": 17,
+    "superfastPct": 53,
+    "ultrafastPct": 18,
+    "gigabitPct": 18,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Darlington Council",
+    "bandD": 2168,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DL11 encompasses RICHMOND and its surrounding areas in County Durham, North East.",
+    "priceVsCounty": "The average property price in DL11 is £430,336, which is 107% above the County Durham average of £207,512.",
+    "priceVsNational": "Properties in DL11 cost 49.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DL11 have risen 5.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 76.1 recorded crimes per 1,000 residents, DL11 has a crime rate 6% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DL11 has 4 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DL11 are 97.0 Mbps, with 85% of premises having access to superfast broadband and 42% with full fibre (FTTP) connectivity.",
+    "synthesis": "DL11 (RICHMOND) offers above-average property prices (£430,336, 50% above national average), 4 nearby schools, and good broadband connectivity (97 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 207512,
+      "crime": 75,
+      "broadband": 97
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 97
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

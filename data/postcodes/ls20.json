@@ -1,0 +1,198 @@
+{
+  "code": "LS20",
+  "name": "LEEDS",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "leeds",
+  "adjacent": [
+    "LS19",
+    "LS21",
+    "LS22"
+  ],
+  "property": {
+    "avgPrice": 342783,
+    "medianPrice": 290000,
+    "priceChange1y": 2.9,
+    "priceChange5y": 0,
+    "transactions12m": 551,
+    "byType": {
+      "detached": {
+        "avg": 586982,
+        "count": 109
+      },
+      "semi": {
+        "avg": 338373,
+        "count": 183
+      },
+      "terraced": {
+        "avg": 261635,
+        "count": 170
+      },
+      "flat": {
+        "avg": 183160,
+        "count": 70
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 332381
+      },
+      {
+        "year": 2024,
+        "avg": 342851
+      },
+      {
+        "year": 2025,
+        "avg": 352800
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 35.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -56.8,
+    "byType": {
+      "violentCrime": 12.1,
+      "burglary": 2.1,
+      "vehicleCrime": 1,
+      "antisocialBehaviour": 3.8,
+      "otherTheft": 10.4,
+      "other": 5.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Guiseley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tranmere Park Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hawksworth Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Guiseley School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Green Meadows Academy",
+        "type": "Other",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 845189,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 332,
+    "avgUpload": 60,
+    "superfastPct": 95,
+    "ultrafastPct": 83,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Leeds",
+    "bandD": 1968,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.3,
+    "imdRank": 18909,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LS20 encompasses LEEDS and its surrounding areas in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in LS20 is £342,783, which is 23% above the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in LS20 cost 19.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LS20 have risen 2.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 35.1 recorded crimes per 1,000 residents, LS20 has a crime rate well 57% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LS20 has 6 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LS20 are 332.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LS20 (LEEDS) offers property prices near the national average (£342,783), low crime (57% below national average), 6 nearby schools, and excellent broadband (332 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 332
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 332
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

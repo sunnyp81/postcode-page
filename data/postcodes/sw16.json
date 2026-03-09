@@ -1,0 +1,198 @@
+{
+  "code": "SW16",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SW15",
+    "SW17",
+    "SW18"
+  ],
+  "property": {
+    "avgPrice": 569459,
+    "medianPrice": 475000,
+    "priceChange1y": -4.3,
+    "priceChange5y": 0,
+    "transactions12m": 3150,
+    "byType": {
+      "detached": {
+        "avg": 1202984,
+        "count": 75
+      },
+      "semi": {
+        "avg": 835125,
+        "count": 303
+      },
+      "terraced": {
+        "avg": 656551,
+        "count": 1016
+      },
+      "flat": {
+        "avg": 395677,
+        "count": 1629
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 562992
+      },
+      {
+        "year": 2024,
+        "avg": 584058
+      },
+      {
+        "year": 2025,
+        "avg": 559232
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 143,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 75.9,
+    "byType": {
+      "violentCrime": 40.8,
+      "burglary": 7,
+      "vehicleCrime": 11.5,
+      "antisocialBehaviour": 31.8,
+      "otherTheft": 30.9,
+      "other": 21
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 2,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Granton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sunnyhill Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Woodmansterne School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Crown Lane Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Andrew's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 337655,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 19,
+    "privateRent": 34,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 362,
+    "avgUpload": 65,
+    "superfastPct": 98,
+    "ultrafastPct": 92,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wandsworth",
+    "bandD": 921,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.6,
+    "imdRank": 14312,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SW16 covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in SW16 is £569,459, which is 56% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SW16 cost 98.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SW16 have fallen 4.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 143.0 recorded crimes per 1,000 residents, SW16 has a crime rate significantly 76% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SW16 has 17 schools within or near its boundaries, including 2 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SW16 are 362.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SW16 (LONDON) offers above-average property prices (£569,459, 98% above national average), higher-than-average crime (76% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (362 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 362
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 362
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

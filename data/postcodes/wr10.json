@@ -1,0 +1,198 @@
+{
+  "code": "WR10",
+  "name": "PERSHORE",
+  "county": "worcestershire",
+  "region": "west-midlands",
+  "city": "worcester",
+  "adjacent": [
+    "WR9",
+    "WR11",
+    "WR12"
+  ],
+  "property": {
+    "avgPrice": 409912,
+    "medianPrice": 338000,
+    "priceChange1y": 1.3,
+    "priceChange5y": 0,
+    "transactions12m": 995,
+    "byType": {
+      "detached": {
+        "avg": 509399,
+        "count": 420
+      },
+      "semi": {
+        "avg": 304126,
+        "count": 298
+      },
+      "terraced": {
+        "avg": 248582,
+        "count": 188
+      },
+      "flat": {
+        "avg": 157718,
+        "count": 39
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 400043
+      },
+      {
+        "year": 2024,
+        "avg": 412721
+      },
+      {
+        "year": 2025,
+        "avg": 418257
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 18.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -77,
+    "byType": {
+      "violentCrime": 7.1,
+      "burglary": 0.8,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 2.8,
+      "otherTheft": 3.1,
+      "other": 4.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Abbey Park Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cropthorne-with-Charlton CofE First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eckington CofE First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Elmley Castle CofE First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fladbury CofE Primary School and Preschool",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 138017,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 16,
+    "privateRent": 11,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 332,
+    "avgUpload": 60,
+    "superfastPct": 95,
+    "ultrafastPct": 81,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wychavon",
+    "bandD": 2002,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.8,
+    "imdRank": 13500,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WR10 encompasses PERSHORE and its surrounding areas in Worcestershire, West Midlands.",
+    "priceVsCounty": "The average property price in WR10 is £409,912, broadly in line with the Worcestershire average of £417,033.",
+    "priceVsNational": "Properties in WR10 cost 42.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WR10 have risen 1.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 18.7 recorded crimes per 1,000 residents, WR10 has a crime rate well 77% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WR10 has 11 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WR10 are 332.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WR10 (PERSHORE) offers above-average property prices (£409,912, 43% above national average), low crime (77% below national average), 11 nearby schools, and excellent broadband (332 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 417033,
+      "crime": 75,
+      "broadband": 332
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 332
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

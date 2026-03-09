@@ -1,0 +1,197 @@
+{
+  "code": "HG3",
+  "name": "HARROGATE",
+  "county": "north-yorkshire",
+  "region": "yorkshire",
+  "city": "harrogate",
+  "adjacent": [
+    "HG2",
+    "HG4",
+    "HG5"
+  ],
+  "property": {
+    "avgPrice": 503707,
+    "medianPrice": 388500,
+    "priceChange1y": 6.3,
+    "priceChange5y": 0,
+    "transactions12m": 1475,
+    "byType": {
+      "detached": {
+        "avg": 619726,
+        "count": 670
+      },
+      "semi": {
+        "avg": 326949,
+        "count": 400
+      },
+      "terraced": {
+        "avg": 284007,
+        "count": 242
+      },
+      "flat": {
+        "avg": 221020,
+        "count": 60
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 526984
+      },
+      {
+        "year": 2024,
+        "avg": 478456
+      },
+      {
+        "year": 2025,
+        "avg": 508516
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.1,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 24,
+    "outstanding": 0,
+    "good": 12,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Kettlesing Felliscliffe Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Glasshouses Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beckwithshaw Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Cuthbert's Church of England Primary School, Pateley Bridge",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Birstwith Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 216,
+    "avgUpload": 39,
+    "superfastPct": 83,
+    "ultrafastPct": 51,
+    "gigabitPct": 48,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Harrogate Council",
+    "bandD": 2183,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HG3 encompasses HARROGATE and its surrounding areas in North Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HG3 is £503,707, which is 42% above the North Yorkshire average of £354,925.",
+    "priceVsNational": "Properties in HG3 cost 75.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HG3 have risen 6.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, HG3 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HG3 has 24 schools within or near its boundaries, including 12 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HG3 are 216.0 Mbps, with 99% of premises having access to superfast broadband and 74% with full fibre (FTTP) connectivity.",
+    "synthesis": "HG3 (HARROGATE) offers above-average property prices (£503,707, 76% above national average), low crime (94% below national average), 24 nearby schools, and excellent broadband (216 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 354925,
+      "crime": 75,
+      "broadband": 216
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 216
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "CO11",
+  "name": "MANNINGTREE",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "colchester",
+  "adjacent": [
+    "CO10",
+    "CO12",
+    "CO13"
+  ],
+  "property": {
+    "avgPrice": 399153,
+    "medianPrice": 351250,
+    "priceChange1y": -0.1,
+    "priceChange5y": 0,
+    "transactions12m": 1042,
+    "byType": {
+      "detached": {
+        "avg": 507970,
+        "count": 417
+      },
+      "semi": {
+        "avg": 330269,
+        "count": 337
+      },
+      "terraced": {
+        "avg": 308873,
+        "count": 173
+      },
+      "flat": {
+        "avg": 192301,
+        "count": 68
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 406653
+      },
+      {
+        "year": 2024,
+        "avg": 395889
+      },
+      {
+        "year": 2025,
+        "avg": 395384
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 9.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -88.8,
+    "byType": {
+      "violentCrime": 4,
+      "burglary": 0.2,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 1.2,
+      "otherTheft": 1.5,
+      "other": 1.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bradfield Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wix and Wrabness Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Highfields Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lawford Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Manningtree High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 97033,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 337,
+    "avgUpload": 61,
+    "superfastPct": 97,
+    "ultrafastPct": 82,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Babergh",
+    "bandD": 2035,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.3,
+    "imdRank": 12339,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CO11 is the postcode district for MANNINGTREE, located in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CO11 is £399,153, which is 7% below the Essex average of £429,754.",
+    "priceVsNational": "Properties in CO11 cost 39.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CO11 have fallen 0.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 9.1 recorded crimes per 1,000 residents, CO11 has a crime rate well 89% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CO11 has 7 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CO11 are 337.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CO11 (MANNINGTREE) offers above-average property prices (£399,153, 39% above national average), low crime (89% below national average), 7 nearby schools, and excellent broadband (337 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 337
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 337
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

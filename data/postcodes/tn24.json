@@ -1,0 +1,198 @@
+{
+  "code": "TN24",
+  "name": "ASHFORD",
+  "county": "kent",
+  "region": "south-east",
+  "city": "tunbridge-wells",
+  "adjacent": [
+    "TN23",
+    "TN25",
+    "TN26"
+  ],
+  "property": {
+    "avgPrice": 386844,
+    "medianPrice": 311000,
+    "priceChange1y": -24.3,
+    "priceChange5y": 0,
+    "transactions12m": 1518,
+    "byType": {
+      "detached": {
+        "avg": 468615,
+        "count": 363
+      },
+      "semi": {
+        "avg": 335263,
+        "count": 467
+      },
+      "terraced": {
+        "avg": 279131,
+        "count": 430
+      },
+      "flat": {
+        "avg": 173502,
+        "count": 197
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 370719
+      },
+      {
+        "year": 2024,
+        "avg": 443415
+      },
+      {
+        "year": 2025,
+        "avg": 335865
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 88.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 8.9,
+    "byType": {
+      "violentCrime": 31.3,
+      "burglary": 1.9,
+      "vehicleCrime": 1.8,
+      "antisocialBehaviour": 16.7,
+      "otherTheft": 19.6,
+      "other": 17.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Willesborough Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Willesborough Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ashford School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Phoenix Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Goat Lees Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 140936,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 358,
+    "avgUpload": 64,
+    "superfastPct": 97,
+    "ultrafastPct": 89,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Ashford",
+    "bandD": 2101,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.5,
+    "imdRank": 15484,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TN24 covers ASHFORD in Kent, South East.",
+    "priceVsCounty": "The average property price in TN24 is £386,844, which is 14% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in TN24 cost 34.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TN24 have fallen 24.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 88.5 recorded crimes per 1,000 residents, TN24 has a crime rate 9% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TN24 has 12 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TN24 are 358.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TN24 (ASHFORD) offers above-average property prices (£386,844, 35% above national average), 12 nearby schools, and excellent broadband (358 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 358
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 358
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

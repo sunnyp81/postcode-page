@@ -1,0 +1,197 @@
+{
+  "code": "ST1",
+  "name": "STOKE-ON-TRENT",
+  "county": "staffordshire",
+  "region": "west-midlands",
+  "city": "stoke-on-trent",
+  "adjacent": [
+    "ST2",
+    "ST3"
+  ],
+  "property": {
+    "avgPrice": 148112,
+    "medianPrice": 110000,
+    "priceChange1y": -7.3,
+    "priceChange5y": 0,
+    "transactions12m": 1556,
+    "byType": {
+      "detached": {
+        "avg": 225290,
+        "count": 112
+      },
+      "semi": {
+        "avg": 153768,
+        "count": 380
+      },
+      "terraced": {
+        "avg": 97734,
+        "count": 830
+      },
+      "flat": {
+        "avg": 83340,
+        "count": 104
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 169627
+      },
+      {
+        "year": 2024,
+        "avg": 140738
+      },
+      {
+        "year": 2025,
+        "avg": 130404
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 201.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 147.6,
+    "byType": {
+      "violentCrime": 65.5,
+      "burglary": 8.2,
+      "vehicleCrime": 9.5,
+      "antisocialBehaviour": 37.2,
+      "otherTheft": 35.2,
+      "other": 45.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Edison Pace School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Phoenix Independent School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St George and St Martin's Catholic Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Excel Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Co-op Academy Hamilton",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 270425,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 22,
+    "privateRent": 18,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 313,
+    "avgUpload": 56,
+    "superfastPct": 90,
+    "ultrafastPct": 76,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stoke On Trent Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 34.5,
+    "imdRank": 23797,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ST1 covers STOKE-ON-TRENT in Staffordshire, West Midlands.",
+    "priceVsCounty": "The average property price in ST1 is £148,112, which is 45% below the Staffordshire average of £267,729.",
+    "priceVsNational": "Properties in ST1 cost 48.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ST1 have fallen 7.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 201.3 recorded crimes per 1,000 residents, ST1 has a crime rate significantly 148% above the national average of 81.3 per 1,000.",
+    "schoolContext": "ST1 has 15 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ST1 are 313.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "ST1 (STOKE-ON-TRENT) offers affordable property prices (£148,112, 48% below national average), higher-than-average crime (148% above national average), 15 nearby schools, and excellent broadband (313 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 267729,
+      "crime": 75,
+      "broadband": 313
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 313
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

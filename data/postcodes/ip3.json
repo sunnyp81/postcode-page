@@ -1,0 +1,198 @@
+{
+  "code": "IP3",
+  "name": "IPSWICH",
+  "county": "suffolk",
+  "region": "east-of-england",
+  "city": "ipswich",
+  "adjacent": [
+    "IP2",
+    "IP4",
+    "IP5"
+  ],
+  "property": {
+    "avgPrice": 299917,
+    "medianPrice": 245000,
+    "priceChange1y": -6.7,
+    "priceChange5y": 0,
+    "transactions12m": 1329,
+    "byType": {
+      "detached": {
+        "avg": 406247,
+        "count": 233
+      },
+      "semi": {
+        "avg": 266076,
+        "count": 571
+      },
+      "terraced": {
+        "avg": 224383,
+        "count": 286
+      },
+      "flat": {
+        "avg": 140364,
+        "count": 200
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 290099
+      },
+      {
+        "year": 2024,
+        "avg": 315721
+      },
+      {
+        "year": 2025,
+        "avg": 294643
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 60.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -26.1,
+    "byType": {
+      "violentCrime": 24.6,
+      "burglary": 2.5,
+      "vehicleCrime": 4.5,
+      "antisocialBehaviour": 4.5,
+      "otherTheft": 10.3,
+      "other": 13.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ipswich Academy",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Cliff Lane Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Murrayfield Primary - A Paradigm Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Alderwood Academy",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "First Base Ipswich Academy",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 140274,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 21,
+    "privateRent": 21,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 373,
+    "avgUpload": 67,
+    "superfastPct": 99,
+    "ultrafastPct": 93,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Ipswich",
+    "bandD": 2155,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.9,
+    "imdRank": 19866,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IP3 covers IPSWICH in Suffolk, East Of England.",
+    "priceVsCounty": "The average property price in IP3 is £299,917, which is 21% below the Suffolk average of £379,904.",
+    "priceVsNational": "Property values in IP3 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in IP3 have fallen 6.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 60.1 recorded crimes per 1,000 residents, IP3 has a crime rate well 26% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IP3 has 11 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IP3 are 373.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "IP3 (IPSWICH) offers property prices near the national average (£299,917), low crime (26% below national average), 11 nearby schools, and excellent broadband (373 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 379904,
+      "crime": 75,
+      "broadband": 373
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 373
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

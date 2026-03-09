@@ -1,0 +1,198 @@
+{
+  "code": "NE10",
+  "name": "GATESHEAD",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "newcastle-upon-tyne",
+  "adjacent": [
+    "NE9",
+    "NE11",
+    "NE12"
+  ],
+  "property": {
+    "avgPrice": 161973,
+    "medianPrice": 134000,
+    "priceChange1y": -22.2,
+    "priceChange5y": 0,
+    "transactions12m": 1155,
+    "byType": {
+      "detached": {
+        "avg": 261159,
+        "count": 77
+      },
+      "semi": {
+        "avg": 152949,
+        "count": 566
+      },
+      "terraced": {
+        "avg": 138037,
+        "count": 279
+      },
+      "flat": {
+        "avg": 74911,
+        "count": 177
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 138830
+      },
+      {
+        "year": 2024,
+        "avg": 191668
+      },
+      {
+        "year": 2025,
+        "avg": 149153
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 74.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -8.4,
+    "byType": {
+      "violentCrime": 26.9,
+      "burglary": 3.1,
+      "vehicleCrime": 2.6,
+      "antisocialBehaviour": 13.6,
+      "otherTheft": 8.2,
+      "other": 20.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bede Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bill Quay Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Falla Park Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brandling Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lingey House Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 202760,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 25,
+    "privateRent": 15,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 370,
+    "avgUpload": 67,
+    "superfastPct": 95,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Gateshead",
+    "bandD": 2332,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 28.2,
+    "imdRank": 20831,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NE10 is the postcode district for GATESHEAD, located in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in NE10 is £161,973, which is 39% below the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in NE10 cost 43.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NE10 have fallen 22.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 74.5 recorded crimes per 1,000 residents, NE10 has a crime rate 8% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NE10 has 18 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NE10 are 370.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NE10 (GATESHEAD) offers affordable property prices (£161,973, 44% below national average), 18 nearby schools, and excellent broadband (370 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 370
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 370
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

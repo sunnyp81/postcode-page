@@ -1,0 +1,198 @@
+{
+  "code": "SE10",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SE9",
+    "SE11",
+    "SE12"
+  ],
+  "property": {
+    "avgPrice": 660747,
+    "medianPrice": 525345,
+    "priceChange1y": -2,
+    "priceChange5y": 0,
+    "transactions12m": 1975,
+    "byType": {
+      "detached": {
+        "avg": 1391667,
+        "count": 6
+      },
+      "semi": {
+        "avg": 1003993,
+        "count": 36
+      },
+      "terraced": {
+        "avg": 864308,
+        "count": 385
+      },
+      "flat": {
+        "avg": 499032,
+        "count": 1474
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 716821
+      },
+      {
+        "year": 2024,
+        "avg": 637023
+      },
+      {
+        "year": 2025,
+        "avg": 624032
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 135.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 66.9,
+    "byType": {
+      "violentCrime": 37.1,
+      "burglary": 6.4,
+      "vehicleCrime": 7.6,
+      "antisocialBehaviour": 27.3,
+      "otherTheft": 33.8,
+      "other": 23.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Robert Owen Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Meridian Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Christ Church Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Joseph's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Alfege with St Peter's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 299528,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 31,
+    "privateRent": 24,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 312,
+    "avgUpload": 56,
+    "superfastPct": 96,
+    "ultrafastPct": 75,
+    "gigabitPct": 75,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Greenwich",
+    "bandD": 1814,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 24.5,
+    "imdRank": 20383,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SE10 covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in SE10 is £660,747, which is 49% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SE10 cost 130.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SE10 have fallen 2.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 135.7 recorded crimes per 1,000 residents, SE10 has a crime rate significantly 67% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SE10 has 11 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SE10 are 312.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SE10 (LONDON) offers above-average property prices (£660,747, 130% above national average), higher-than-average crime (67% above national average), 11 nearby schools, and excellent broadband (312 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 312
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 312
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

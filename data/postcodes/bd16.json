@@ -1,0 +1,198 @@
+{
+  "code": "BD16",
+  "name": "BINGLEY",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "bradford",
+  "adjacent": [
+    "BD15",
+    "BD17",
+    "BD18"
+  ],
+  "property": {
+    "avgPrice": 257040,
+    "medianPrice": 205000,
+    "priceChange1y": 7.3,
+    "priceChange5y": 0,
+    "transactions12m": 1261,
+    "byType": {
+      "detached": {
+        "avg": 439138,
+        "count": 219
+      },
+      "semi": {
+        "avg": 251117,
+        "count": 373
+      },
+      "terraced": {
+        "avg": 194341,
+        "count": 411
+      },
+      "flat": {
+        "avg": 135505,
+        "count": 213
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 270547
+      },
+      {
+        "year": 2024,
+        "avg": 242598
+      },
+      {
+        "year": 2025,
+        "avg": 260188
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 37.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -54.1,
+    "byType": {
+      "violentCrime": 15.1,
+      "burglary": 2.1,
+      "vehicleCrime": 2,
+      "antisocialBehaviour": 5.7,
+      "otherTheft": 5.2,
+      "other": 7.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Crossflatts Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eldwick Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Myrtle Park Primary",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Bingley Grammar School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lady Lane Park School & Nursery",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 563605,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 326,
+    "avgUpload": 59,
+    "superfastPct": 95,
+    "ultrafastPct": 82,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bradford",
+    "bandD": 1956,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 34.7,
+    "imdRank": 23086,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BD16 covers BINGLEY in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in BD16 is £257,040, which is 7% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in BD16 cost 10.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BD16 have risen 7.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 37.3 recorded crimes per 1,000 residents, BD16 has a crime rate well 54% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BD16 has 13 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BD16 are 326.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BD16 (BINGLEY) offers property prices near the national average (£257,040), low crime (54% below national average), 13 nearby schools, and excellent broadband (326 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 326
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 326
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

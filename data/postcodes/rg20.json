@@ -1,0 +1,198 @@
+{
+  "code": "RG20",
+  "name": "NEWBURY",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [
+    "RG19",
+    "RG21",
+    "RG22"
+  ],
+  "property": {
+    "avgPrice": 753927,
+    "medianPrice": 571875,
+    "priceChange1y": -4.5,
+    "priceChange5y": 0,
+    "transactions12m": 644,
+    "byType": {
+      "detached": {
+        "avg": 882524,
+        "count": 317
+      },
+      "semi": {
+        "avg": 490708,
+        "count": 134
+      },
+      "terraced": {
+        "avg": 380399,
+        "count": 100
+      },
+      "flat": {
+        "avg": 216363,
+        "count": 25
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 799792
+      },
+      {
+        "year": 2024,
+        "avg": 748571
+      },
+      {
+        "year": 2025,
+        "avg": 714771
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 59.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -26.8,
+    "byType": {
+      "violentCrime": 22.9,
+      "burglary": 1.2,
+      "vehicleCrime": 2.2,
+      "antisocialBehaviour": 6.8,
+      "otherTheft": 11.8,
+      "other": 14.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 23,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Chieveley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Ilsleys Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beedon C.E. (Controlled) Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chaddleworth St Andrew's C.E. Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Compton C.E. Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 165112,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 14,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 211,
+    "avgUpload": 38,
+    "superfastPct": 88,
+    "ultrafastPct": 49,
+    "gigabitPct": 46,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Reading Council",
+    "bandD": 1606,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10,
+    "imdRank": 7974,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG20 encompasses NEWBURY and its surrounding areas in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG20 is £753,927, which is 29% above the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG20 cost 162.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG20 have fallen 4.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 59.5 recorded crimes per 1,000 residents, RG20 has a crime rate well 27% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RG20 has 23 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG20 are 211.0 Mbps, with 99% of premises having access to superfast broadband and 73% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG20 (NEWBURY) offers above-average property prices (£753,927, 163% above national average), low crime (27% below national average), 23 nearby schools, and excellent broadband (211 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 211
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 211
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

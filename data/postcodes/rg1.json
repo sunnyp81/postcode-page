@@ -1,0 +1,196 @@
+{
+  "code": "RG1",
+  "name": "READING",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [
+    "RG2"
+  ],
+  "property": {
+    "avgPrice": 415144,
+    "medianPrice": 305000,
+    "priceChange1y": 1.9,
+    "priceChange5y": 0,
+    "transactions12m": 2234,
+    "byType": {
+      "detached": {
+        "avg": 636215,
+        "count": 66
+      },
+      "semi": {
+        "avg": 488520,
+        "count": 181
+      },
+      "terraced": {
+        "avg": 352969,
+        "count": 821
+      },
+      "flat": {
+        "avg": 259191,
+        "count": 1053
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 415565
+      },
+      {
+        "year": 2024,
+        "avg": 411507
+      },
+      {
+        "year": 2025,
+        "avg": 419184
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 242.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 197.9,
+    "byType": {
+      "violentCrime": 81.2,
+      "burglary": 8.8,
+      "vehicleCrime": 12.1,
+      "antisocialBehaviour": 24.1,
+      "otherTheft": 72,
+      "other": 44.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 22,
+    "outstanding": 2,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Coley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "E P Collier Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Oxford Road Community School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Redlands Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Katesgrove Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 187200,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 40,
+    "socialRent": 8,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 363,
+    "avgUpload": 65,
+    "superfastPct": 97,
+    "ultrafastPct": 91,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Reading Council",
+    "bandD": 2353,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 5.8,
+    "imdRank": 3651,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG1 is the postcode district for READING, located in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG1 is £415,144, which is 29% below the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG1 cost 44.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG1 have risen 1.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 242.2 recorded crimes per 1,000 residents, RG1 has a crime rate significantly 198% above the national average of 81.3 per 1,000.",
+    "schoolContext": "RG1 has 22 schools within or near its boundaries, including 2 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG1 are 363.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG1 (READING) offers above-average property prices (£415,144, 45% above national average), higher-than-average crime (198% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (363 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 363
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 363
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

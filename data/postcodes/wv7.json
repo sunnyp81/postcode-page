@@ -1,0 +1,193 @@
+{
+  "code": "WV7",
+  "name": "WOLVERHAMPTON",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "wolverhampton",
+  "adjacent": [
+    "WV6",
+    "WV8",
+    "WV9"
+  ],
+  "property": {
+    "avgPrice": 323493,
+    "medianPrice": 306000,
+    "priceChange1y": 5.1,
+    "priceChange5y": 0,
+    "transactions12m": 286,
+    "byType": {
+      "detached": {
+        "avg": 427362,
+        "count": 100
+      },
+      "semi": {
+        "avg": 285472,
+        "count": 98
+      },
+      "terraced": {
+        "avg": 251356,
+        "count": 62
+      },
+      "flat": {
+        "avg": 148406,
+        "count": 16
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 324993
+      },
+      {
+        "year": 2024,
+        "avg": 316068
+      },
+      {
+        "year": 2025,
+        "avg": 332188
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.1,
+    "byType": {
+      "violentCrime": 2.4,
+      "burglary": 0.1,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 0.6,
+      "otherTheft": 1.3,
+      "other": 0.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Mary's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Birchfield School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Gables Learning Centre",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Albrighton Primary School & Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 332455,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 299,
+    "avgUpload": 54,
+    "superfastPct": 90,
+    "ultrafastPct": 74,
+    "gigabitPct": 71,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wolverhampton Council",
+    "bandD": 1638,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.2,
+    "imdRank": 14862,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WV7 covers WOLVERHAMPTON in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in WV7 is £323,493, broadly in line with the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in WV7 cost 12.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WV7 have risen 5.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.6 recorded crimes per 1,000 residents, WV7 has a crime rate well 93% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WV7 has 4 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WV7 are 299.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WV7 (WOLVERHAMPTON) offers property prices near the national average (£323,493), low crime (93% below national average), 4 nearby schools, and excellent broadband (299 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 299
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 299
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

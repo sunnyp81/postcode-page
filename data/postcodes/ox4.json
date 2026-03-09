@@ -1,0 +1,197 @@
+{
+  "code": "OX4",
+  "name": "OXFORD",
+  "county": "oxfordshire",
+  "region": "south-east",
+  "city": "oxford",
+  "adjacent": [
+    "OX3",
+    "OX5"
+  ],
+  "property": {
+    "avgPrice": 557173,
+    "medianPrice": 400000,
+    "priceChange1y": -17,
+    "priceChange5y": 0,
+    "transactions12m": 1596,
+    "byType": {
+      "detached": {
+        "avg": 752812,
+        "count": 69
+      },
+      "semi": {
+        "avg": 472809,
+        "count": 477
+      },
+      "terraced": {
+        "avg": 467423,
+        "count": 672
+      },
+      "flat": {
+        "avg": 267224,
+        "count": 312
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 660338
+      },
+      {
+        "year": 2024,
+        "avg": 548998
+      },
+      {
+        "year": 2025,
+        "avg": 455524
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 116.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 43.4,
+    "byType": {
+      "violentCrime": 39.5,
+      "burglary": 3.1,
+      "vehicleCrime": 7.7,
+      "antisocialBehaviour": 12.5,
+      "otherTheft": 30.2,
+      "other": 23.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 27,
+    "outstanding": 0,
+    "good": 12,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Comper Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "East Oxford Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Church Cowley St James Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary and St John Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Magdalen College School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 156470,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 12,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 329,
+    "avgUpload": 59,
+    "superfastPct": 97,
+    "ultrafastPct": 84,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Oxfordshire",
+    "bandD": 2240,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.5,
+    "imdRank": 6409,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "OX4 covers OXFORD in Oxfordshire, South East.",
+    "priceVsCounty": "The average property price in OX4 is £557,173, which is 5% below the Oxfordshire average of £588,175.",
+    "priceVsNational": "Properties in OX4 cost 94.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in OX4 have fallen 17.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 116.6 recorded crimes per 1,000 residents, OX4 has a crime rate significantly 43% above the national average of 81.3 per 1,000.",
+    "schoolContext": "OX4 has 27 schools within or near its boundaries, including 12 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in OX4 are 329.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "OX4 (OXFORD) offers above-average property prices (£557,173, 94% above national average), higher-than-average crime (43% above national average), 27 nearby schools, and excellent broadband (329 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 588175,
+      "crime": 75,
+      "broadband": 329
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 329
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "TF1",
+  "name": "TELFORD",
+  "county": "shropshire",
+  "region": "west-midlands",
+  "city": "telford",
+  "adjacent": [
+    "TF2",
+    "TF3"
+  ],
+  "property": {
+    "avgPrice": 238391,
+    "medianPrice": 202500,
+    "priceChange1y": 14.7,
+    "priceChange5y": 0,
+    "transactions12m": 1685,
+    "byType": {
+      "detached": {
+        "avg": 327637,
+        "count": 447
+      },
+      "semi": {
+        "avg": 198661,
+        "count": 676
+      },
+      "terraced": {
+        "avg": 166859,
+        "count": 338
+      },
+      "flat": {
+        "avg": 119089,
+        "count": 150
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 235152
+      },
+      {
+        "year": 2024,
+        "avg": 225369
+      },
+      {
+        "year": 2025,
+        "avg": 258439
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 73.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -9.5,
+    "byType": {
+      "violentCrime": 29.9,
+      "burglary": 1.5,
+      "vehicleCrime": 2.9,
+      "antisocialBehaviour": 11.9,
+      "otherTheft": 11.4,
+      "other": 16
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Wrekin College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Bridge at HLC",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Telford College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dothill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Charlton School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 195952,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 18,
+    "privateRent": 19,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 323,
+    "avgUpload": 58,
+    "superfastPct": 98,
+    "ultrafastPct": 83,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Telford Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25,
+    "imdRank": 18583,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TF1 encompasses TELFORD and its surrounding areas in Shropshire, West Midlands.",
+    "priceVsCounty": "The average property price in TF1 is £238,391, which is 19% below the Shropshire average of £296,045.",
+    "priceVsNational": "Properties in TF1 cost 16.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TF1 have risen 14.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 73.6 recorded crimes per 1,000 residents, TF1 has a crime rate 9% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TF1 has 14 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TF1 are 323.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TF1 (TELFORD) offers affordable property prices (£238,391, 17% below national average), 14 nearby schools, and excellent broadband (323 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 296045,
+      "crime": 75,
+      "broadband": 323
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 323
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "NR33",
+  "name": "LOWESTOFT",
+  "county": "norfolk",
+  "region": "east-of-england",
+  "city": "norwich",
+  "adjacent": [
+    "NR32",
+    "NR34",
+    "NR35"
+  ],
+  "property": {
+    "avgPrice": 250687,
+    "medianPrice": 220000,
+    "priceChange1y": -1.4,
+    "priceChange5y": 0,
+    "transactions12m": 1781,
+    "byType": {
+      "detached": {
+        "avg": 311326,
+        "count": 555
+      },
+      "semi": {
+        "avg": 229670,
+        "count": 513
+      },
+      "terraced": {
+        "avg": 185048,
+        "count": 595
+      },
+      "flat": {
+        "avg": 142398,
+        "count": 54
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 259699
+      },
+      {
+        "year": 2024,
+        "avg": 248095
+      },
+      {
+        "year": 2025,
+        "avg": 244503
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 30.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -62.4,
+    "byType": {
+      "violentCrime": 12.9,
+      "burglary": 1.3,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 4.2,
+      "otherTheft": 5.4,
+      "other": 5.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "East Point Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Westwood Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Red Oak Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Grove Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Kessingland Church of England Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 20486,
+    "medianAge": 41,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 13,
+    "privateRent": 21,
+    "economicallyActive": 76,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 337,
+    "avgUpload": 61,
+    "superfastPct": 98,
+    "ultrafastPct": 82,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Suffolk",
+    "bandD": 2019,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.6,
+    "imdRank": 15274,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NR33 is the postcode district for LOWESTOFT, located in Norfolk, East Of England.",
+    "priceVsCounty": "The average property price in NR33 is £250,687, which is 29% below the Norfolk average of £352,657.",
+    "priceVsNational": "Properties in NR33 cost 12.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NR33 have fallen 1.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 30.6 recorded crimes per 1,000 residents, NR33 has a crime rate well 62% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NR33 has 14 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NR33 are 337.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NR33 (LOWESTOFT) offers property prices near the national average (£250,687), low crime (62% below national average), 14 nearby schools, and excellent broadband (337 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 352657,
+      "crime": 75,
+      "broadband": 337
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 337
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "RG5",
+  "name": "READING",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [
+    "RG4",
+    "RG6",
+    "RG7"
+  ],
+  "property": {
+    "avgPrice": 455041,
+    "medianPrice": 440000,
+    "priceChange1y": -1.1,
+    "priceChange5y": 0,
+    "transactions12m": 1031,
+    "byType": {
+      "detached": {
+        "avg": 608559,
+        "count": 240
+      },
+      "semi": {
+        "avg": 466989,
+        "count": 393
+      },
+      "terraced": {
+        "avg": 385357,
+        "count": 239
+      },
+      "flat": {
+        "avg": 233563,
+        "count": 142
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 443793
+      },
+      {
+        "year": 2024,
+        "avg": 462386
+      },
+      {
+        "year": 2025,
+        "avg": 457246
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 31.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -60.8,
+    "byType": {
+      "violentCrime": 13.7,
+      "burglary": 0.8,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 3.6,
+      "otherTheft": 6.5,
+      "other": 6.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Ambleside Centre",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Woodley CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Dominic Savio Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Waingels",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beechwood Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 187200,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 40,
+    "socialRent": 8,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 372,
+    "avgUpload": 67,
+    "superfastPct": 100,
+    "ultrafastPct": 94,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Reading Council",
+    "bandD": 2353,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 5.8,
+    "imdRank": 3651,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG5 encompasses READING and its surrounding areas in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG5 is £455,041, which is 22% below the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG5 cost 58.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG5 have fallen 1.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 31.9 recorded crimes per 1,000 residents, RG5 has a crime rate well 61% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RG5 has 12 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG5 are 372.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG5 (READING) offers above-average property prices (£455,041, 59% above national average), low crime (61% below national average), 12 nearby schools, and excellent broadband (372 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 372
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 372
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

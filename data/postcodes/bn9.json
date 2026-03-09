@@ -1,0 +1,198 @@
+{
+  "code": "BN9",
+  "name": "NEWHAVEN",
+  "county": "east-sussex",
+  "region": "south-east",
+  "city": "brighton",
+  "adjacent": [
+    "BN8",
+    "BN10",
+    "BN11"
+  ],
+  "property": {
+    "avgPrice": 308740,
+    "medianPrice": 291500,
+    "priceChange1y": -0.7,
+    "priceChange5y": 0,
+    "transactions12m": 535,
+    "byType": {
+      "detached": {
+        "avg": 406293,
+        "count": 101
+      },
+      "semi": {
+        "avg": 320232,
+        "count": 152
+      },
+      "terraced": {
+        "avg": 277914,
+        "count": 182
+      },
+      "flat": {
+        "avg": 202162,
+        "count": 82
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 309569
+      },
+      {
+        "year": 2024,
+        "avg": 309460
+      },
+      {
+        "year": 2025,
+        "avg": 307169
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 40.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -50.7,
+    "byType": {
+      "violentCrime": 14.2,
+      "burglary": 0.9,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 7.7,
+      "otherTheft": 6.8,
+      "other": 9.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Denton Community Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Harbour Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "High Cliff Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Seahaven Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Breakwater Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 102363,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 11,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 296,
+    "avgUpload": 53,
+    "superfastPct": 98,
+    "ultrafastPct": 70,
+    "gigabitPct": 70,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lewes",
+    "bandD": 2388,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.8,
+    "imdRank": 13359,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BN9 covers NEWHAVEN in East Sussex, South East.",
+    "priceVsCounty": "The average property price in BN9 is £308,740, which is 32% below the East Sussex average of £455,819.",
+    "priceVsNational": "Properties in BN9 cost 7.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BN9 have fallen 0.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 40.1 recorded crimes per 1,000 residents, BN9 has a crime rate well 51% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BN9 has 5 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BN9 are 296.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BN9 (NEWHAVEN) offers property prices near the national average (£308,740), low crime (51% below national average), 5 nearby schools, and excellent broadband (296 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 455819,
+      "crime": 75,
+      "broadband": 296
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 296
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

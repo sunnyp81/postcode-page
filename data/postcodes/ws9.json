@@ -1,0 +1,198 @@
+{
+  "code": "WS9",
+  "name": "WALSALL",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "walsall",
+  "adjacent": [
+    "WS8",
+    "WS10",
+    "WS11"
+  ],
+  "property": {
+    "avgPrice": 322571,
+    "medianPrice": 275000,
+    "priceChange1y": 5.3,
+    "priceChange5y": 0,
+    "transactions12m": 1072,
+    "byType": {
+      "detached": {
+        "avg": 451824,
+        "count": 281
+      },
+      "semi": {
+        "avg": 294696,
+        "count": 389
+      },
+      "terraced": {
+        "avg": 248119,
+        "count": 181
+      },
+      "flat": {
+        "avg": 141991,
+        "count": 179
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 341216
+      },
+      {
+        "year": 2024,
+        "avg": 304894
+      },
+      {
+        "year": 2025,
+        "avg": 321182
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 25.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -68.3,
+    "byType": {
+      "violentCrime": 9.7,
+      "burglary": 1.7,
+      "vehicleCrime": 2.9,
+      "antisocialBehaviour": 1.3,
+      "otherTheft": 6.2,
+      "other": 4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Whetstone Field Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary of the Angels Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Francis of Assisi Catholic College",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Leighswood School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 111932,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 13,
+    "privateRent": 11,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 330,
+    "avgUpload": 59,
+    "superfastPct": 93,
+    "ultrafastPct": 82,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lichfield",
+    "bandD": 2058,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.6,
+    "imdRank": 10387,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WS9 encompasses WALSALL and its surrounding areas in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in WS9 is £322,571, broadly in line with the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in WS9 cost 12.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WS9 have risen 5.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 25.8 recorded crimes per 1,000 residents, WS9 has a crime rate well 68% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WS9 has 12 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WS9 are 330.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WS9 (WALSALL) offers property prices near the national average (£322,571), low crime (68% below national average), 12 nearby schools, and excellent broadband (330 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 330
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 330
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

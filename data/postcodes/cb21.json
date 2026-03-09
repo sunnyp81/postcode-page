@@ -1,0 +1,197 @@
+{
+  "code": "CB21",
+  "name": "CAMBRIDGE",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "cambridge",
+  "adjacent": [
+    "CB22",
+    "CB23"
+  ],
+  "property": {
+    "avgPrice": 587867,
+    "medianPrice": 452000,
+    "priceChange1y": 9.4,
+    "priceChange5y": 0,
+    "transactions12m": 614,
+    "byType": {
+      "detached": {
+        "avg": 677335,
+        "count": 274
+      },
+      "semi": {
+        "avg": 410516,
+        "count": 193
+      },
+      "terraced": {
+        "avg": 344938,
+        "count": 88
+      },
+      "flat": {
+        "avg": 235678,
+        "count": 18
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 635106
+      },
+      {
+        "year": 2024,
+        "avg": 544061
+      },
+      {
+        "year": 2025,
+        "avg": 595129
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 1,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Great Abington Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Fulbourn Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Castle Camps Church of England (Controlled) Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Linton CofE Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Waldorf Cambridge School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 149352,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 20,
+    "socialRent": 23,
+    "privateRent": 28,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 205,
+    "avgUpload": 37,
+    "superfastPct": 92,
+    "ultrafastPct": 46,
+    "gigabitPct": 44,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cambridge",
+    "bandD": 2126,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.9,
+    "imdRank": 12582,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CB21 is the postcode district for CAMBRIDGE, located in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in CB21 is £587,867, which is 53% above the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in CB21 cost 104.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CB21 have risen 9.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, CB21 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CB21 has 12 schools within or near its boundaries, including 1 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CB21 are 205.0 Mbps, with 99% of premises having access to superfast broadband and 71% with full fibre (FTTP) connectivity.",
+    "synthesis": "CB21 (CAMBRIDGE) offers above-average property prices (£587,867, 105% above national average), low crime (94% below national average), 12 nearby schools, and excellent broadband (205 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 205
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 205
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "L23",
+  "name": "LIVERPOOL",
+  "county": "merseyside",
+  "region": "north-west",
+  "city": "liverpool",
+  "adjacent": [
+    "L22",
+    "L24",
+    "L25"
+  ],
+  "property": {
+    "avgPrice": 313268,
+    "medianPrice": 271000,
+    "priceChange1y": 1.3,
+    "priceChange5y": 0,
+    "transactions12m": 1327,
+    "byType": {
+      "detached": {
+        "avg": 523169,
+        "count": 212
+      },
+      "semi": {
+        "avg": 307579,
+        "count": 662
+      },
+      "terraced": {
+        "avg": 215828,
+        "count": 203
+      },
+      "flat": {
+        "avg": 179867,
+        "count": 216
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 316100
+      },
+      {
+        "year": 2024,
+        "avg": 310147
+      },
+      {
+        "year": 2025,
+        "avg": 314258
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 46.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -42.3,
+    "byType": {
+      "violentCrime": 18.5,
+      "burglary": 2.2,
+      "vehicleCrime": 2.1,
+      "antisocialBehaviour": 5.3,
+      "otherTheft": 6.5,
+      "other": 12.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Jigsaw Primary Pupil Referral Unit",
+        "type": "Other",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "St Luke's Halsall Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Nicholas Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Great Crosby Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St William of York Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 286281,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 14,
+    "privateRent": 16,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 386,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 96,
+    "gigabitPct": 96,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Sefton",
+    "bandD": 2230,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27,
+    "imdRank": 18986,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "L23 covers LIVERPOOL in Merseyside, North West.",
+    "priceVsCounty": "The average property price in L23 is £313,268, which is 24% above the Merseyside average of £252,845.",
+    "priceVsNational": "Properties in L23 cost 9.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in L23 have risen 1.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 46.9 recorded crimes per 1,000 residents, L23 has a crime rate well 42% below the national average of 81.3 per 1,000.",
+    "schoolContext": "L23 has 20 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in L23 are 386.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "L23 (LIVERPOOL) offers property prices near the national average (£313,268), low crime (42% below national average), 20 nearby schools, and excellent broadband (386 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 252845,
+      "crime": 75,
+      "broadband": 386
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 386
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

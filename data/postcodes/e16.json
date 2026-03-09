@@ -1,0 +1,198 @@
+{
+  "code": "E16",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "E15",
+    "E17",
+    "E18"
+  ],
+  "property": {
+    "avgPrice": 497138,
+    "medianPrice": 450000,
+    "priceChange1y": -3.9,
+    "priceChange5y": 0,
+    "transactions12m": 2536,
+    "byType": {
+      "detached": {
+        "avg": 535000,
+        "count": 3
+      },
+      "semi": {
+        "avg": 434677,
+        "count": 32
+      },
+      "terraced": {
+        "avg": 450072,
+        "count": 277
+      },
+      "flat": {
+        "avg": 474381,
+        "count": 2140
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 520425
+      },
+      {
+        "year": 2024,
+        "avg": 495175
+      },
+      {
+        "year": 2025,
+        "avg": 475658
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 174.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 114.6,
+    "byType": {
+      "violentCrime": 48.7,
+      "burglary": 6.5,
+      "vehicleCrime": 18.2,
+      "antisocialBehaviour": 31.6,
+      "otherTheft": 39.1,
+      "other": 30.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 4,
+    "good": 7,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Edith Kerrison Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Keir Hardie Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Star Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Calverton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Luke's Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 374523,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 18,
+    "socialRent": 28,
+    "privateRent": 36,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 329,
+    "avgUpload": 59,
+    "superfastPct": 95,
+    "ultrafastPct": 83,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newham",
+    "bandD": 1628,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 29.6,
+    "imdRank": 24138,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "E16 is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in E16 is £497,138, which is 62% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in E16 cost 73.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in E16 have fallen 3.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 174.5 recorded crimes per 1,000 residents, E16 has a crime rate significantly 115% above the national average of 81.3 per 1,000.",
+    "schoolContext": "E16 has 20 schools within or near its boundaries, including 4 rated Outstanding and 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in E16 are 329.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "E16 (LONDON) offers above-average property prices (£497,138, 73% above national average), higher-than-average crime (115% above national average), strong school provision (4 Outstanding-rated schools), and excellent broadband (329 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 329
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 329
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

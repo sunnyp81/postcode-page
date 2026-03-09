@@ -1,0 +1,196 @@
+{
+  "code": "BS10",
+  "name": "BRISTOL",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS9",
+    "BS11"
+  ],
+  "property": {
+    "avgPrice": 376994,
+    "medianPrice": 330000,
+    "priceChange1y": -8.2,
+    "priceChange5y": 0,
+    "transactions12m": 1279,
+    "byType": {
+      "detached": {
+        "avg": 517704,
+        "count": 177
+      },
+      "semi": {
+        "avg": 373674,
+        "count": 441
+      },
+      "terraced": {
+        "avg": 320779,
+        "count": 392
+      },
+      "flat": {
+        "avg": 231040,
+        "count": 210
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 373627
+      },
+      {
+        "year": 2024,
+        "avg": 391160
+      },
+      {
+        "year": 2025,
+        "avg": 359013
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 106,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 30.4,
+    "byType": {
+      "violentCrime": 42.2,
+      "burglary": 3.1,
+      "vehicleCrime": 5.9,
+      "antisocialBehaviour": 10.3,
+      "otherTheft": 22.2,
+      "other": 22.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Brentry Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Blaise Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bristol Free School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Little Mead Primary Academy",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Henbury Court Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 365,
+    "avgUpload": 66,
+    "superfastPct": 98,
+    "ultrafastPct": 90,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.4,
+    "imdRank": 19421,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS10 covers BRISTOL in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS10 is £376,994, which is 16% below the Bristol average of £449,132.",
+    "priceVsNational": "Properties in BS10 cost 31.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BS10 have fallen 8.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 106.0 recorded crimes per 1,000 residents, BS10 has a crime rate significantly 30% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BS10 has 10 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS10 are 365.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS10 (BRISTOL) offers above-average property prices (£376,994, 31% above national average), higher-than-average crime (30% above national average), 10 nearby schools, and excellent broadband (365 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 365
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 365
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

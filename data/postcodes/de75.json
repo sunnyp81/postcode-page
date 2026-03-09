@@ -1,0 +1,196 @@
+{
+  "code": "DE75",
+  "name": "HEANOR",
+  "county": "derbyshire",
+  "region": "east-midlands",
+  "city": "derby",
+  "adjacent": [
+    "DE74"
+  ],
+  "property": {
+    "avgPrice": 236714,
+    "medianPrice": 195000,
+    "priceChange1y": -19.7,
+    "priceChange5y": 0,
+    "transactions12m": 936,
+    "byType": {
+      "detached": {
+        "avg": 317152,
+        "count": 355
+      },
+      "semi": {
+        "avg": 184287,
+        "count": 267
+      },
+      "terraced": {
+        "avg": 143994,
+        "count": 266
+      },
+      "flat": {
+        "avg": 107100,
+        "count": 7
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 218905
+      },
+      {
+        "year": 2024,
+        "avg": 272935
+      },
+      {
+        "year": 2025,
+        "avg": 219186
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 58.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -28.5,
+    "byType": {
+      "violentCrime": 22.9,
+      "burglary": 1.3,
+      "vehicleCrime": 1.9,
+      "antisocialBehaviour": 12.4,
+      "otherTheft": 6.6,
+      "other": 13
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Marlpool Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Marlpool Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Coppice Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Corfield CofE Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mundy CofE Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 130451,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 13,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 382,
+    "avgUpload": 69,
+    "superfastPct": 98,
+    "ultrafastPct": 95,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Amber Valley",
+    "bandD": 2086,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 14755,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DE75 encompasses HEANOR and its surrounding areas in Derbyshire, East Midlands.",
+    "priceVsCounty": "The average property price in DE75 is £236,714, which is 18% below the Derbyshire average of £289,862.",
+    "priceVsNational": "Properties in DE75 cost 17.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DE75 have fallen 19.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 58.1 recorded crimes per 1,000 residents, DE75 has a crime rate well 29% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DE75 has 10 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DE75 are 382.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DE75 (HEANOR) offers affordable property prices (£236,714, 18% below national average), low crime (29% below national average), 10 nearby schools, and excellent broadband (382 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 289862,
+      "crime": 75,
+      "broadband": 382
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 382
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

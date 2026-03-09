@@ -1,0 +1,198 @@
+{
+  "code": "WA13",
+  "name": "LYMM",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "warrington",
+  "adjacent": [
+    "WA12",
+    "WA14",
+    "WA15"
+  ],
+  "property": {
+    "avgPrice": 449844,
+    "medianPrice": 365000,
+    "priceChange1y": -14.1,
+    "priceChange5y": 0,
+    "transactions12m": 616,
+    "byType": {
+      "detached": {
+        "avg": 689982,
+        "count": 163
+      },
+      "semi": {
+        "avg": 381693,
+        "count": 207
+      },
+      "terraced": {
+        "avg": 333946,
+        "count": 125
+      },
+      "flat": {
+        "avg": 200636,
+        "count": 99
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 432558
+      },
+      {
+        "year": 2024,
+        "avg": 493157
+      },
+      {
+        "year": 2025,
+        "avg": 423440
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 9.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -88.4,
+    "byType": {
+      "violentCrime": 3.7,
+      "burglary": 0.5,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 1.7,
+      "otherTheft": 1.6,
+      "other": 1.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Cherry Tree School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Willow Tree Park",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lymm High School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Statham Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ravenbank Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 241025,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 15,
+    "privateRent": 14,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 366,
+    "avgUpload": 66,
+    "superfastPct": 93,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Trafford",
+    "bandD": 1878,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.1,
+    "imdRank": 12412,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WA13 covers LYMM in Cheshire, North West.",
+    "priceVsCounty": "The average property price in WA13 is £449,844, which is 44% above the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in WA13 cost 56.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WA13 have fallen 14.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 9.4 recorded crimes per 1,000 residents, WA13 has a crime rate well 88% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WA13 has 6 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WA13 are 366.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WA13 (LYMM) offers above-average property prices (£449,844, 57% above national average), low crime (88% below national average), 6 nearby schools, and excellent broadband (366 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 366
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 366
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

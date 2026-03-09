@@ -1,0 +1,198 @@
+{
+  "code": "SE4",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SE3",
+    "SE5",
+    "SE6"
+  ],
+  "property": {
+    "avgPrice": 610341,
+    "medianPrice": 550000,
+    "priceChange1y": 1.2,
+    "priceChange5y": 0,
+    "transactions12m": 1059,
+    "byType": {
+      "detached": {
+        "avg": 897570,
+        "count": 15
+      },
+      "semi": {
+        "avg": 906419,
+        "count": 73
+      },
+      "terraced": {
+        "avg": 797045,
+        "count": 367
+      },
+      "flat": {
+        "avg": 444244,
+        "count": 570
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 599271
+      },
+      {
+        "year": 2024,
+        "avg": 612525
+      },
+      {
+        "year": 2025,
+        "avg": 619881
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 129.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 59.2,
+    "byType": {
+      "violentCrime": 39.1,
+      "burglary": 5.9,
+      "vehicleCrime": 9.4,
+      "antisocialBehaviour": 25.5,
+      "otherTheft": 25.3,
+      "other": 24.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Chelwood Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beecroft Garden Primary",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gordonbrock Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "John Stainer Community Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Myatt Garden Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 314786,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 18,
+    "socialRent": 40,
+    "privateRent": 26,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 348,
+    "avgUpload": 63,
+    "superfastPct": 99,
+    "ultrafastPct": 85,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Southwark",
+    "bandD": 1693,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.8,
+    "imdRank": 21247,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SE4 covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in SE4 is £610,341, which is 53% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SE4 cost 112.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SE4 have risen 1.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 129.4 recorded crimes per 1,000 residents, SE4 has a crime rate significantly 59% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SE4 has 8 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SE4 are 348.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SE4 (LONDON) offers above-average property prices (£610,341, 113% above national average), higher-than-average crime (59% above national average), 8 nearby schools, and excellent broadband (348 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 348
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 348
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

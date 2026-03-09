@@ -1,0 +1,183 @@
+{
+  "code": "TQ10",
+  "name": "SOUTH BRENT",
+  "county": "devon",
+  "region": "south-west",
+  "city": "torquay",
+  "adjacent": [
+    "TQ9",
+    "TQ11",
+    "TQ12"
+  ],
+  "property": {
+    "avgPrice": 416889,
+    "medianPrice": 320000,
+    "priceChange1y": 5.2,
+    "priceChange5y": 0,
+    "transactions12m": 161,
+    "byType": {
+      "detached": {
+        "avg": 572337,
+        "count": 51
+      },
+      "semi": {
+        "avg": 266667,
+        "count": 31
+      },
+      "terraced": {
+        "avg": 271053,
+        "count": 52
+      },
+      "flat": {
+        "avg": 236250,
+        "count": 4
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 424679
+      },
+      {
+        "year": 2024,
+        "avg": 401744
+      },
+      {
+        "year": 2025,
+        "avg": 422513
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.8,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.6,
+      "otherTheft": 0.6,
+      "other": 1.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "South Brent Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Breakthrough College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 92148,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 12,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 246,
+    "avgUpload": 44,
+    "superfastPct": 80,
+    "ultrafastPct": 58,
+    "gigabitPct": 58,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Hams",
+    "bandD": 2261,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.7,
+    "imdRank": 12057,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TQ10 is the postcode district for SOUTH BRENT, located in Devon, South West.",
+    "priceVsCounty": "The average property price in TQ10 is £416,889, which is 8% above the Devon average of £385,452.",
+    "priceVsNational": "Properties in TQ10 cost 45.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TQ10 have risen 5.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TQ10 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TQ10 has 2 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TQ10 are 246.0 Mbps, with 99% of premises having access to superfast broadband and 83% with full fibre (FTTP) connectivity.",
+    "synthesis": "TQ10 (SOUTH BRENT) offers above-average property prices (£416,889, 45% above national average), low crime (94% below national average), 2 nearby schools, and excellent broadband (246 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 246
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 246
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

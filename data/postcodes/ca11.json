@@ -1,0 +1,197 @@
+{
+  "code": "CA11",
+  "name": "PENRITH",
+  "county": "cumbria",
+  "region": "north-west",
+  "city": "carlisle",
+  "adjacent": [
+    "CA10",
+    "CA12",
+    "CA13"
+  ],
+  "property": {
+    "avgPrice": 290129,
+    "medianPrice": 240000,
+    "priceChange1y": -4.7,
+    "priceChange5y": 0,
+    "transactions12m": 1475,
+    "byType": {
+      "detached": {
+        "avg": 405090,
+        "count": 457
+      },
+      "semi": {
+        "avg": 233519,
+        "count": 412
+      },
+      "terraced": {
+        "avg": 194086,
+        "count": 337
+      },
+      "flat": {
+        "avg": 146569,
+        "count": 182
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 310131
+      },
+      {
+        "year": 2024,
+        "avg": 283500
+      },
+      {
+        "year": 2025,
+        "avg": 270162
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.9,
+      "burglary": 0.2,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.4,
+      "otherTheft": 0.2,
+      "other": 1.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Greystoke Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brunswick School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "North Lakes School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Penruddock Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Plumpton School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 296,
+    "avgUpload": 53,
+    "superfastPct": 90,
+    "ultrafastPct": 71,
+    "gigabitPct": 71,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Carlisle Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CA11 encompasses PENRITH and its surrounding areas in Cumbria, North West.",
+    "priceVsCounty": "The average property price in CA11 is £290,129, which is 19% above the Cumbria average of £244,524.",
+    "priceVsNational": "Property values in CA11 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in CA11 have fallen 4.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, CA11 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CA11 has 14 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CA11 are 296.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CA11 (PENRITH) offers property prices near the national average (£290,129), low crime (94% below national average), 14 nearby schools, and excellent broadband (296 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 244524,
+      "crime": 75,
+      "broadband": 296
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 296
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

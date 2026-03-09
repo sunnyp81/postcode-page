@@ -1,0 +1,198 @@
+{
+  "code": "E10",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "E9",
+    "E11",
+    "E12"
+  ],
+  "property": {
+    "avgPrice": 534696,
+    "medianPrice": 475000,
+    "priceChange1y": 9,
+    "priceChange5y": 0,
+    "transactions12m": 1528,
+    "byType": {
+      "detached": {
+        "avg": 2582100,
+        "count": 4
+      },
+      "semi": {
+        "avg": 640535,
+        "count": 48
+      },
+      "terraced": {
+        "avg": 633388,
+        "count": 563
+      },
+      "flat": {
+        "avg": 397673,
+        "count": 832
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 523334
+      },
+      {
+        "year": 2024,
+        "avg": 517830
+      },
+      {
+        "year": 2025,
+        "avg": 564248
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 165.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 103.2,
+    "byType": {
+      "violentCrime": 45.7,
+      "burglary": 5.9,
+      "vehicleCrime": 12.5,
+      "antisocialBehaviour": 39.9,
+      "otherTheft": 31.2,
+      "other": 30.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Newport School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dawlish Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Joseph's Catholic Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Joseph's Catholic Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Leyton Sixth Form College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 279737,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 21,
+    "privateRent": 26,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 350,
+    "avgUpload": 63,
+    "superfastPct": 97,
+    "ultrafastPct": 86,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Waltham Forest",
+    "bandD": 2056,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.2,
+    "imdRank": 21186,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "E10 is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in E10 is £534,696, which is 59% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in E10 cost 86.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in E10 have risen 9.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 165.2 recorded crimes per 1,000 residents, E10 has a crime rate significantly 103% above the national average of 81.3 per 1,000.",
+    "schoolContext": "E10 has 14 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in E10 are 350.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "E10 (LONDON) offers above-average property prices (£534,696, 86% above national average), higher-than-average crime (103% above national average), 14 nearby schools, and excellent broadband (350 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 350
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 350
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

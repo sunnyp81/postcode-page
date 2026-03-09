@@ -1,0 +1,196 @@
+{
+  "code": "BL9",
+  "name": "BURY",
+  "county": "greater-manchester",
+  "region": "north-west",
+  "city": "bolton",
+  "adjacent": [
+    "BL8"
+  ],
+  "property": {
+    "avgPrice": 260146,
+    "medianPrice": 195000,
+    "priceChange1y": -9,
+    "priceChange5y": 0,
+    "transactions12m": 2093,
+    "byType": {
+      "detached": {
+        "avg": 390341,
+        "count": 268
+      },
+      "semi": {
+        "avg": 234233,
+        "count": 663
+      },
+      "terraced": {
+        "avg": 168641,
+        "count": 850
+      },
+      "flat": {
+        "avg": 135872,
+        "count": 188
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 259975
+      },
+      {
+        "year": 2024,
+        "avg": 271766
+      },
+      {
+        "year": 2025,
+        "avg": 247187
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 30,
+    "outstanding": 0,
+    "good": 11,
+    "requiresImprovement": 3,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Hoyle Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fairfield Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hollins Grundy Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Peter's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Marie's Roman Catholic Primary School, Bury",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 198921,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 15,
+    "privateRent": 16,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 353,
+    "avgUpload": 64,
+    "superfastPct": 97,
+    "ultrafastPct": 89,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bury",
+    "bandD": 2180,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.7,
+    "imdRank": 17812,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BL9 is the postcode district for BURY, located in Greater Manchester, North West.",
+    "priceVsCounty": "The average property price in BL9 is £260,146, which is 32% below the Greater Manchester average of £381,941.",
+    "priceVsNational": "Properties in BL9 cost 9.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BL9 have fallen 9.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, BL9 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BL9 has 30 schools within or near its boundaries, including 11 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BL9 are 353.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BL9 (BURY) offers property prices near the national average (£260,146), low crime (94% below national average), 30 nearby schools, and excellent broadband (353 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 381941,
+      "crime": 75,
+      "broadband": 353
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 353
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

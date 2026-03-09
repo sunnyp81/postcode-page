@@ -1,0 +1,197 @@
+{
+  "code": "CR8",
+  "name": "PURLEY",
+  "county": "greater-london",
+  "region": "london",
+  "city": "croydon",
+  "adjacent": [
+    "CR7",
+    "CR9"
+  ],
+  "property": {
+    "avgPrice": 565884,
+    "medianPrice": 485000,
+    "priceChange1y": -5.7,
+    "priceChange5y": 0,
+    "transactions12m": 1552,
+    "byType": {
+      "detached": {
+        "avg": 900421,
+        "count": 422
+      },
+      "semi": {
+        "avg": 597331,
+        "count": 310
+      },
+      "terraced": {
+        "avg": 504175,
+        "count": 211
+      },
+      "flat": {
+        "avg": 318264,
+        "count": 564
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 548628
+      },
+      {
+        "year": 2024,
+        "avg": 590024
+      },
+      {
+        "year": 2025,
+        "avg": 556226
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 38.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -52.6,
+    "byType": {
+      "violentCrime": 12.2,
+      "burglary": 2.4,
+      "vehicleCrime": 3.8,
+      "antisocialBehaviour": 7.2,
+      "otherTheft": 6.1,
+      "other": 6.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 1,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Purley Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beaumont Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Hayes Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Christ Church CofE Primary School (Purley)",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Margaret Roper Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 90586,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 37,
+    "socialRent": 11,
+    "privateRent": 11,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 305,
+    "avgUpload": 55,
+    "superfastPct": 95,
+    "ultrafastPct": 73,
+    "gigabitPct": 73,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Tandridge",
+    "bandD": 2252,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.9,
+    "imdRank": 10027,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CR8 is the postcode district for PURLEY, located in Greater London, London.",
+    "priceVsCounty": "The average property price in CR8 is £565,884, which is 57% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in CR8 cost 97.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CR8 have fallen 5.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 38.5 recorded crimes per 1,000 residents, CR8 has a crime rate well 53% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CR8 has 15 schools within or near its boundaries, including 1 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CR8 are 305.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CR8 (PURLEY) offers above-average property prices (£565,884, 97% above national average), low crime (53% below national average), 15 nearby schools, and excellent broadband (305 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 305
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 305
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

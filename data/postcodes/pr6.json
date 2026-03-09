@@ -1,0 +1,198 @@
+{
+  "code": "PR6",
+  "name": "CHORLEY",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "preston",
+  "adjacent": [
+    "PR5",
+    "PR7",
+    "PR8"
+  ],
+  "property": {
+    "avgPrice": 266981,
+    "medianPrice": 206000,
+    "priceChange1y": 3.8,
+    "priceChange5y": 0,
+    "transactions12m": 1575,
+    "byType": {
+      "detached": {
+        "avg": 390053,
+        "count": 473
+      },
+      "semi": {
+        "avg": 212917,
+        "count": 350
+      },
+      "terraced": {
+        "avg": 157977,
+        "count": 644
+      },
+      "flat": {
+        "avg": 141057,
+        "count": 34
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 291678
+      },
+      {
+        "year": 2024,
+        "avg": 250283
+      },
+      {
+        "year": 2025,
+        "avg": 259837
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 24.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -70,
+    "byType": {
+      "violentCrime": 8.8,
+      "burglary": 0.7,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 7.6,
+      "otherTheft": 2.3,
+      "other": 4.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 22,
+    "outstanding": 2,
+    "good": 8,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Highfield Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Anderton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Withnell Fold Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Abbey Village Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Clayton-le-Woods Manor Road Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 162540,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 19,
+    "privateRent": 18,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 325,
+    "avgUpload": 59,
+    "superfastPct": 92,
+    "ultrafastPct": 80,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Preston Council",
+    "bandD": 2319,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 36,
+    "imdRank": 23819,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PR6 covers CHORLEY in Lancashire, North West.",
+    "priceVsCounty": "The average property price in PR6 is £266,981, broadly in line with the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in PR6 cost 7.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PR6 have risen 3.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 24.4 recorded crimes per 1,000 residents, PR6 has a crime rate well 70% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PR6 has 22 schools within or near its boundaries, including 2 rated Outstanding and 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PR6 are 325.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PR6 (CHORLEY) offers property prices near the national average (£266,981), low crime (70% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (325 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 325
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 325
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

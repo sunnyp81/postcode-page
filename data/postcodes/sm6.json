@@ -1,0 +1,197 @@
+{
+  "code": "SM6",
+  "name": "WALLINGTON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "sutton",
+  "adjacent": [
+    "SM5",
+    "SM7"
+  ],
+  "property": {
+    "avgPrice": 459303,
+    "medianPrice": 400500,
+    "priceChange1y": -7,
+    "priceChange5y": 0,
+    "transactions12m": 1397,
+    "byType": {
+      "detached": {
+        "avg": 816041,
+        "count": 97
+      },
+      "semi": {
+        "avg": 633101,
+        "count": 282
+      },
+      "terraced": {
+        "avg": 488563,
+        "count": 322
+      },
+      "flat": {
+        "avg": 276917,
+        "count": 650
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 442271
+      },
+      {
+        "year": 2024,
+        "avg": 484757
+      },
+      {
+        "year": 2025,
+        "avg": 450863
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 72.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -10.6,
+    "byType": {
+      "violentCrime": 24.3,
+      "burglary": 3.9,
+      "vehicleCrime": 5.2,
+      "antisocialBehaviour": 13.4,
+      "otherTheft": 12.9,
+      "other": 13
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 3,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hackbridge Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "High View Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beddington Infants' School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Foresters Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Holy Trinity CofE Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 214525,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 14,
+    "privateRent": 19,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 347,
+    "avgUpload": 62,
+    "superfastPct": 97,
+    "ultrafastPct": 85,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Sutton",
+    "bandD": 2048,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14,
+    "imdRank": 11415,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SM6 is the postcode district for WALLINGTON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in SM6 is £459,303, which is 65% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SM6 cost 60.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SM6 have fallen 7.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 72.7 recorded crimes per 1,000 residents, SM6 has a crime rate 11% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SM6 has 16 schools within or near its boundaries, including 3 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SM6 are 347.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SM6 (WALLINGTON) offers above-average property prices (£459,303, 60% above national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (347 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 347
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 347
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

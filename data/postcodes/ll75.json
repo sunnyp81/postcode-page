@@ -1,0 +1,177 @@
+{
+  "code": "LL75",
+  "name": "PENTRAETH",
+  "county": "north-wales",
+  "region": "wales",
+  "city": "north-wales",
+  "adjacent": [
+    "LL74",
+    "LL76",
+    "LL77"
+  ],
+  "property": {
+    "avgPrice": 296926,
+    "medianPrice": 206250,
+    "priceChange1y": -24.5,
+    "priceChange5y": 0,
+    "transactions12m": 49,
+    "byType": {
+      "detached": {
+        "avg": 285471,
+        "count": 17
+      },
+      "semi": {
+        "avg": 188917,
+        "count": 15
+      },
+      "terraced": {
+        "avg": 173893,
+        "count": 11
+      },
+      "flat": {
+        "avg": 118247,
+        "count": 0
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 280504
+      },
+      {
+        "year": 2024,
+        "avg": 349621
+      },
+      {
+        "year": 2025,
+        "avg": 263929
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.3,
+      "otherTheft": 0,
+      "other": 0.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ysgol Gymuned Pentraeth",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 69097,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 187,
+    "avgUpload": 34,
+    "superfastPct": 85,
+    "ultrafastPct": 40,
+    "gigabitPct": 40,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Wales Council",
+    "bandD": 2304,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LL75 encompasses PENTRAETH and its surrounding areas in North Wales, Wales.",
+    "priceVsCounty": "The average property price in LL75 is £296,926, which is 9% above the North Wales average of £271,879.",
+    "priceVsNational": "Property values in LL75 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in LL75 have fallen 24.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, LL75 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LL75 has 1 school within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LL75 are 187.0 Mbps, with 98% of premises having access to superfast broadband and 66% with full fibre (FTTP) connectivity.",
+    "synthesis": "LL75 (PENTRAETH) offers property prices near the national average (£296,926), low crime (94% below national average), 1 nearby school, and excellent broadband (187 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 271879,
+      "crime": 75,
+      "broadband": 187
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 187
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "GU30",
+  "name": "LIPHOOK",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU29",
+    "GU31",
+    "GU32"
+  ],
+  "property": {
+    "avgPrice": 601292,
+    "medianPrice": 485000,
+    "priceChange1y": -5.4,
+    "priceChange5y": 0,
+    "transactions12m": 481,
+    "byType": {
+      "detached": {
+        "avg": 853564,
+        "count": 179
+      },
+      "semi": {
+        "avg": 459181,
+        "count": 102
+      },
+      "terraced": {
+        "avg": 397587,
+        "count": 101
+      },
+      "flat": {
+        "avg": 283489,
+        "count": 76
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 592255
+      },
+      {
+        "year": 2024,
+        "avg": 619053
+      },
+      {
+        "year": 2025,
+        "avg": 585711
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 9.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -88.1,
+    "byType": {
+      "violentCrime": 3.9,
+      "burglary": 0.4,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 0.7,
+      "otherTheft": 2,
+      "other": 2.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 2,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Liphook Infant School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Liphook Church of England Controlled Junior School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Hollycombe Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Highfield and Brookham School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bohunt School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 129975,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 193,
+    "avgUpload": 35,
+    "superfastPct": 85,
+    "ultrafastPct": 42,
+    "gigabitPct": 42,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Hampshire",
+    "bandD": 2028,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10.3,
+    "imdRank": 8236,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU30 covers LIPHOOK in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU30 is £601,292, broadly in line with the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU30 cost 109.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU30 have fallen 5.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 9.7 recorded crimes per 1,000 residents, GU30 has a crime rate well 88% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU30 has 6 schools within or near its boundaries, including 2 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU30 are 193.0 Mbps, with 99% of premises having access to superfast broadband and 68% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU30 (LIPHOOK) offers above-average property prices (£601,292, 110% above national average), low crime (88% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (193 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 193
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 193
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

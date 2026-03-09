@@ -1,0 +1,198 @@
+{
+  "code": "IP14",
+  "name": "STOWMARKET",
+  "county": "suffolk",
+  "region": "east-of-england",
+  "city": "ipswich",
+  "adjacent": [
+    "IP13",
+    "IP15",
+    "IP16"
+  ],
+  "property": {
+    "avgPrice": 330546,
+    "medianPrice": 290000,
+    "priceChange1y": -9.4,
+    "priceChange5y": 0,
+    "transactions12m": 2300,
+    "byType": {
+      "detached": {
+        "avg": 420784,
+        "count": 920
+      },
+      "semi": {
+        "avg": 272667,
+        "count": 639
+      },
+      "terraced": {
+        "avg": 222060,
+        "count": 471
+      },
+      "flat": {
+        "avg": 145685,
+        "count": 157
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 342548
+      },
+      {
+        "year": 2024,
+        "avg": 339848
+      },
+      {
+        "year": 2025,
+        "avg": 307839
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.4,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.4,
+      "other": 0.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 24,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Wood Ley Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Great Finborough Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Stonham Aspal Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sir Robert Hitcham Church of England Voluntary Aided School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Finborough School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 110775,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 11,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 273,
+    "avgUpload": 49,
+    "superfastPct": 93,
+    "ultrafastPct": 64,
+    "gigabitPct": 64,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Mid Suffolk",
+    "bandD": 2017,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.2,
+    "imdRank": 11380,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IP14 encompasses STOWMARKET and its surrounding areas in Suffolk, East Of England.",
+    "priceVsCounty": "The average property price in IP14 is £330,546, which is 13% below the Suffolk average of £379,904.",
+    "priceVsNational": "Properties in IP14 cost 15.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IP14 have fallen 9.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, IP14 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IP14 has 24 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IP14 are 273.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "IP14 (STOWMARKET) offers property prices near the national average (£330,546), low crime (94% below national average), 24 nearby schools, and excellent broadband (273 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 379904,
+      "crime": 75,
+      "broadband": 273
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 273
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

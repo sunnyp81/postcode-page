@@ -1,0 +1,198 @@
+{
+  "code": "NR25",
+  "name": "HOLT",
+  "county": "norfolk",
+  "region": "east-of-england",
+  "city": "norwich",
+  "adjacent": [
+    "NR24",
+    "NR26",
+    "NR27"
+  ],
+  "property": {
+    "avgPrice": 519627,
+    "medianPrice": 400000,
+    "priceChange1y": -15.8,
+    "priceChange5y": 0,
+    "transactions12m": 580,
+    "byType": {
+      "detached": {
+        "avg": 625896,
+        "count": 309
+      },
+      "semi": {
+        "avg": 351218,
+        "count": 102
+      },
+      "terraced": {
+        "avg": 335107,
+        "count": 116
+      },
+      "flat": {
+        "avg": 200579,
+        "count": 19
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 599248
+      },
+      {
+        "year": 2024,
+        "avg": 522212
+      },
+      {
+        "year": 2025,
+        "avg": 439752
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.3,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.4,
+      "otherTheft": 0.4,
+      "other": 0.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Holt Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Langham Village School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Blakeney Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gresham's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kelling CE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 103217,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 20,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 154,
+    "avgUpload": 28,
+    "superfastPct": 90,
+    "ultrafastPct": 30,
+    "gigabitPct": 30,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Norfolk",
+    "bandD": 2129,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.1,
+    "imdRank": 18681,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NR25 encompasses HOLT and its surrounding areas in Norfolk, East Of England.",
+    "priceVsCounty": "The average property price in NR25 is £519,627, which is 47% above the Norfolk average of £352,657.",
+    "priceVsNational": "Properties in NR25 cost 81.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NR25 have fallen 15.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, NR25 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NR25 has 5 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NR25 are 154.0 Mbps, with 93% of premises having access to superfast broadband and 57% with full fibre (FTTP) connectivity.",
+    "synthesis": "NR25 (HOLT) offers above-average property prices (£519,627, 81% above national average), low crime (94% below national average), 5 nearby schools, and excellent broadband (154 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 352657,
+      "crime": 75,
+      "broadband": 154
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 154
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

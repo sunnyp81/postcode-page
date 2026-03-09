@@ -1,0 +1,197 @@
+{
+  "code": "IG1",
+  "name": "ILFORD",
+  "county": "greater-london",
+  "region": "london",
+  "city": "ilford",
+  "adjacent": [
+    "IG2",
+    "IG3"
+  ],
+  "property": {
+    "avgPrice": 456068,
+    "medianPrice": 415000,
+    "priceChange1y": 13.2,
+    "priceChange5y": 0,
+    "transactions12m": 1133,
+    "byType": {
+      "detached": {
+        "avg": 830250,
+        "count": 10
+      },
+      "semi": {
+        "avg": 658256,
+        "count": 78
+      },
+      "terraced": {
+        "avg": 496261,
+        "count": 627
+      },
+      "flat": {
+        "avg": 256454,
+        "count": 346
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 457719
+      },
+      {
+        "year": 2024,
+        "avg": 429201
+      },
+      {
+        "year": 2025,
+        "avg": 485841
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 214.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 163.7,
+    "byType": {
+      "violentCrime": 66,
+      "burglary": 6.1,
+      "vehicleCrime": 15.8,
+      "antisocialBehaviour": 46.7,
+      "otherTheft": 44.4,
+      "other": 35.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Constance Bridgeman Centre",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cleveland Road Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gordon Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Uphall Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Woodlands Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 321231,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 11,
+    "privateRent": 28,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 378,
+    "avgUpload": 68,
+    "superfastPct": 97,
+    "ultrafastPct": 94,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Redbridge",
+    "bandD": 1976,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.2,
+    "imdRank": 15082,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IG1 is the postcode district for ILFORD, located in Greater London, London.",
+    "priceVsCounty": "The average property price in IG1 is £456,068, which is 65% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in IG1 cost 58.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IG1 have risen 13.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 214.4 recorded crimes per 1,000 residents, IG1 has a crime rate significantly 164% above the national average of 81.3 per 1,000.",
+    "schoolContext": "IG1 has 18 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IG1 are 378.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "IG1 (ILFORD) offers above-average property prices (£456,068, 59% above national average), higher-than-average crime (164% above national average), 18 nearby schools, and excellent broadband (378 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 378
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 378
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "LL54",
+  "name": "CAERNARFON",
+  "county": "north-wales",
+  "region": "wales",
+  "city": "north-wales",
+  "adjacent": [
+    "LL53",
+    "LL55",
+    "LL56"
+  ],
+  "property": {
+    "avgPrice": 220794,
+    "medianPrice": 162250,
+    "priceChange1y": 0.7,
+    "priceChange5y": 0,
+    "transactions12m": 420,
+    "byType": {
+      "detached": {
+        "avg": 282912,
+        "count": 102
+      },
+      "semi": {
+        "avg": 186260,
+        "count": 78
+      },
+      "terraced": {
+        "avg": 135220,
+        "count": 187
+      },
+      "flat": {
+        "avg": 91950,
+        "count": 0
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 251710
+      },
+      {
+        "year": 2024,
+        "avg": 201782
+      },
+      {
+        "year": 2025,
+        "avg": 203151
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 6.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -91.9,
+    "byType": {
+      "violentCrime": 3.2,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 1.4,
+      "otherTheft": 0.2,
+      "other": 1.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ysgol Brynaerau",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Gynradd Llanaelhaearn",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Gynradd Llanllyfni",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Baladeulyn",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Gynradd Nebo",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 120813,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 293,
+    "avgUpload": 53,
+    "superfastPct": 91,
+    "ultrafastPct": 70,
+    "gigabitPct": 70,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Wales Council",
+    "bandD": 2304,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LL54 encompasses CAERNARFON and its surrounding areas in North Wales, Wales.",
+    "priceVsCounty": "The average property price in LL54 is £220,794, which is 19% below the North Wales average of £271,879.",
+    "priceVsNational": "Properties in LL54 cost 23.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LL54 have risen 0.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 6.6 recorded crimes per 1,000 residents, LL54 has a crime rate well 92% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LL54 has 13 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LL54 are 293.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LL54 (CAERNARFON) offers affordable property prices (£220,794, 23% below national average), low crime (92% below national average), 13 nearby schools, and excellent broadband (293 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 271879,
+      "crime": 75,
+      "broadband": 293
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 293
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

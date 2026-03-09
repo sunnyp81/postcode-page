@@ -1,0 +1,198 @@
+{
+  "code": "TR13",
+  "name": "HELSTON",
+  "county": "cornwall",
+  "region": "south-west",
+  "city": "truro",
+  "adjacent": [
+    "TR12",
+    "TR14",
+    "TR15"
+  ],
+  "property": {
+    "avgPrice": 342881,
+    "medianPrice": 295000,
+    "priceChange1y": 1.5,
+    "priceChange5y": 0,
+    "transactions12m": 916,
+    "byType": {
+      "detached": {
+        "avg": 436740,
+        "count": 349
+      },
+      "semi": {
+        "avg": 297652,
+        "count": 210
+      },
+      "terraced": {
+        "avg": 243758,
+        "count": 251
+      },
+      "flat": {
+        "avg": 152546,
+        "count": 45
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 365426
+      },
+      {
+        "year": 2024,
+        "avg": 329956
+      },
+      {
+        "year": 2025,
+        "avg": 334805
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 11.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -86.3,
+    "byType": {
+      "violentCrime": 4.4,
+      "burglary": 0.3,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 2,
+      "otherTheft": 1.2,
+      "other": 3.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 4,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Boskenwyn Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Nansloe Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Michael's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Breage CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Godolphin Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 583289,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 232,
+    "avgUpload": 42,
+    "superfastPct": 86,
+    "ultrafastPct": 53,
+    "gigabitPct": 53,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Truro Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.1,
+    "imdRank": 19382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TR13 encompasses HELSTON and its surrounding areas in Cornwall, South West.",
+    "priceVsCounty": "The average property price in TR13 is £342,881, which is 15% below the Cornwall average of £402,222.",
+    "priceVsNational": "Properties in TR13 cost 19.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TR13 have risen 1.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 11.1 recorded crimes per 1,000 residents, TR13 has a crime rate well 86% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TR13 has 12 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TR13 are 232.0 Mbps, with 99% of premises having access to superfast broadband and 79% with full fibre (FTTP) connectivity.",
+    "synthesis": "TR13 (HELSTON) offers property prices near the national average (£342,881), low crime (86% below national average), 12 nearby schools, and excellent broadband (232 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 402222,
+      "crime": 75,
+      "broadband": 232
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 232
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "TF6",
+  "name": "TELFORD",
+  "county": "shropshire",
+  "region": "west-midlands",
+  "city": "telford",
+  "adjacent": [
+    "TF5",
+    "TF7",
+    "TF8"
+  ],
+  "property": {
+    "avgPrice": 371024,
+    "medianPrice": 295000,
+    "priceChange1y": -4.9,
+    "priceChange5y": 0,
+    "transactions12m": 462,
+    "byType": {
+      "detached": {
+        "avg": 422867,
+        "count": 202
+      },
+      "semi": {
+        "avg": 261298,
+        "count": 193
+      },
+      "terraced": {
+        "avg": 279063,
+        "count": 38
+      },
+      "flat": {
+        "avg": 157875,
+        "count": 4
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 345240
+      },
+      {
+        "year": 2024,
+        "avg": 390996
+      },
+      {
+        "year": 2025,
+        "avg": 371902
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.3,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "High Ercall Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Overley Hall School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Retreat",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Crudgington Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Allscott Meads Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 332455,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 88,
+    "avgUpload": 16,
+    "superfastPct": 72,
+    "ultrafastPct": 13,
+    "gigabitPct": 13,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Telford Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.2,
+    "imdRank": 14862,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TF6 is the postcode district for TELFORD, located in Shropshire, West Midlands.",
+    "priceVsCounty": "The average property price in TF6 is £371,024, which is 25% above the Shropshire average of £296,045.",
+    "priceVsNational": "Properties in TF6 cost 29.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TF6 have fallen 4.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TF6 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TF6 has 6 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TF6 are 88.0 Mbps, with 83% of premises having access to superfast broadband and 39% with full fibre (FTTP) connectivity.",
+    "synthesis": "TF6 (TELFORD) offers above-average property prices (£371,024, 29% above national average), low crime (94% below national average), 6 nearby schools, and good broadband connectivity (88 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 296045,
+      "crime": 75,
+      "broadband": 88
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 88
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

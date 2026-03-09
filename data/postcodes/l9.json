@@ -1,0 +1,198 @@
+{
+  "code": "L9",
+  "name": "LIVERPOOL",
+  "county": "merseyside",
+  "region": "north-west",
+  "city": "liverpool",
+  "adjacent": [
+    "L8",
+    "L10",
+    "L11"
+  ],
+  "property": {
+    "avgPrice": 154863,
+    "medianPrice": 135000,
+    "priceChange1y": 2.8,
+    "priceChange5y": 0,
+    "transactions12m": 1400,
+    "byType": {
+      "detached": {
+        "avg": 257238,
+        "count": 107
+      },
+      "semi": {
+        "avg": 172114,
+        "count": 371
+      },
+      "terraced": {
+        "avg": 120536,
+        "count": 767
+      },
+      "flat": {
+        "avg": 75689,
+        "count": 101
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 162087
+      },
+      {
+        "year": 2024,
+        "avg": 149321
+      },
+      {
+        "year": 2025,
+        "avg": 153569
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 108.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 33.1,
+    "byType": {
+      "violentCrime": 54.3,
+      "burglary": 2.2,
+      "vehicleCrime": 2.9,
+      "antisocialBehaviour": 9.4,
+      "otherTheft": 8.8,
+      "other": 30.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Barlows Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Northcote Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Archbishop Beck Catholic College",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Redbridge High School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Our Lady and St Philomena's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 286281,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 14,
+    "privateRent": 16,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 372,
+    "avgUpload": 67,
+    "superfastPct": 99,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Sefton",
+    "bandD": 2230,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27,
+    "imdRank": 18986,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "L9 is the postcode district for LIVERPOOL, located in Merseyside, North West.",
+    "priceVsCounty": "The average property price in L9 is £154,863, which is 39% below the Merseyside average of £252,845.",
+    "priceVsNational": "Properties in L9 cost 46.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in L9 have risen 2.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 108.2 recorded crimes per 1,000 residents, L9 has a crime rate significantly 33% above the national average of 81.3 per 1,000.",
+    "schoolContext": "L9 has 13 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in L9 are 372.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "L9 (LIVERPOOL) offers affordable property prices (£154,863, 46% below national average), higher-than-average crime (33% above national average), 13 nearby schools, and excellent broadband (372 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 252845,
+      "crime": 75,
+      "broadband": 372
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 372
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "L7",
+  "name": "LIVERPOOL",
+  "county": "merseyside",
+  "region": "north-west",
+  "city": "liverpool",
+  "adjacent": [
+    "L6",
+    "L8",
+    "L9"
+  ],
+  "property": {
+    "avgPrice": 249971,
+    "medianPrice": 140000,
+    "priceChange1y": -52.9,
+    "priceChange5y": 0,
+    "transactions12m": 642,
+    "byType": {
+      "detached": {
+        "avg": 233500,
+        "count": 18
+      },
+      "semi": {
+        "avg": 169705,
+        "count": 89
+      },
+      "terraced": {
+        "avg": 163276,
+        "count": 385
+      },
+      "flat": {
+        "avg": 96971,
+        "count": 105
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 253891
+      },
+      {
+        "year": 2024,
+        "avg": 321472
+      },
+      {
+        "year": 2025,
+        "avg": 151486
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 239.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 194.6,
+    "byType": {
+      "violentCrime": 91.1,
+      "burglary": 9.9,
+      "vehicleCrime": 11.2,
+      "antisocialBehaviour": 19.4,
+      "otherTheft": 34.3,
+      "other": 73.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 2,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Chatham Place Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sacred Heart Catholic Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Hugh's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Sebastian's Catholic Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Anne's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 508961,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 23,
+    "socialRent": 26,
+    "privateRent": 24,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 318,
+    "avgUpload": 57,
+    "superfastPct": 97,
+    "ultrafastPct": 83,
+    "gigabitPct": 74,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Liverpool",
+    "bandD": 2308,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 42.4,
+    "imdRank": 25833,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "L7 encompasses LIVERPOOL and its surrounding areas in Merseyside, North West.",
+    "priceVsCounty": "The average property price in L7 is £249,971, broadly in line with the Merseyside average of £252,845.",
+    "priceVsNational": "Properties in L7 cost 12.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in L7 have fallen 52.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 239.5 recorded crimes per 1,000 residents, L7 has a crime rate significantly 195% above the national average of 81.3 per 1,000.",
+    "schoolContext": "L7 has 11 schools within or near its boundaries, including 2 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in L7 are 318.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "L7 (LIVERPOOL) offers property prices near the national average (£249,971), higher-than-average crime (195% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (318 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 252845,
+      "crime": 75,
+      "broadband": 318
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 318
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

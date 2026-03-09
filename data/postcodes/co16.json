@@ -1,0 +1,196 @@
+{
+  "code": "CO16",
+  "name": "CLACTON-ON-SEA",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "colchester",
+  "adjacent": [
+    "CO15"
+  ],
+  "property": {
+    "avgPrice": 321030,
+    "medianPrice": 280000,
+    "priceChange1y": 6.8,
+    "priceChange5y": 0,
+    "transactions12m": 1269,
+    "byType": {
+      "detached": {
+        "avg": 382579,
+        "count": 632
+      },
+      "semi": {
+        "avg": 257477,
+        "count": 396
+      },
+      "terraced": {
+        "avg": 229703,
+        "count": 131
+      },
+      "flat": {
+        "avg": 147907,
+        "count": 54
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 329455
+      },
+      {
+        "year": 2024,
+        "avg": 307213
+      },
+      {
+        "year": 2025,
+        "avg": 328035
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.4,
+      "burglary": 0.1,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.9,
+      "other": 0.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Tendring Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Engaines Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cann Hall Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Clare's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ravens Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 156759,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 8,
+    "privateRent": 18,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 261,
+    "avgUpload": 47,
+    "superfastPct": 97,
+    "ultrafastPct": 60,
+    "gigabitPct": 60,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Tendring",
+    "bandD": 1999,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 30.5,
+    "imdRank": 22083,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CO16 covers CLACTON-ON-SEA in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CO16 is £321,030, which is 25% below the Essex average of £429,754.",
+    "priceVsNational": "Properties in CO16 cost 11.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CO16 have risen 6.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, CO16 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CO16 has 10 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CO16 are 261.0 Mbps, with 99% of premises having access to superfast broadband and 87% with full fibre (FTTP) connectivity.",
+    "synthesis": "CO16 (CLACTON-ON-SEA) offers property prices near the national average (£321,030), low crime (94% below national average), 10 nearby schools, and excellent broadband (261 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 261
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 261
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

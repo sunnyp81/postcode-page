@@ -1,0 +1,197 @@
+{
+  "code": "HX1",
+  "name": "HALIFAX",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "halifax",
+  "adjacent": [
+    "HX2",
+    "HX3"
+  ],
+  "property": {
+    "avgPrice": 153480,
+    "medianPrice": 103000,
+    "priceChange1y": -20.3,
+    "priceChange5y": 0,
+    "transactions12m": 922,
+    "byType": {
+      "detached": {
+        "avg": 335231,
+        "count": 26
+      },
+      "semi": {
+        "avg": 174802,
+        "count": 58
+      },
+      "terraced": {
+        "avg": 109014,
+        "count": 538
+      },
+      "flat": {
+        "avg": 116837,
+        "count": 213
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 156716
+      },
+      {
+        "year": 2024,
+        "avg": 165550
+      },
+      {
+        "year": 2025,
+        "avg": 131934
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 207.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 155.2,
+    "byType": {
+      "violentCrime": 89.3,
+      "burglary": 7.6,
+      "vehicleCrime": 5.6,
+      "antisocialBehaviour": 17.8,
+      "otherTheft": 29.5,
+      "other": 57.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 1,
+    "good": 0,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Savile Park Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Parkinson Lane Community Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Calderdale College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beech Hill School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holy Trinity Primary School, A Church of England Academy",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 210929,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 18,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 294,
+    "avgUpload": 53,
+    "superfastPct": 95,
+    "ultrafastPct": 70,
+    "gigabitPct": 70,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Calderdale",
+    "bandD": 2086,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.4,
+    "imdRank": 19705,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HX1 encompasses HALIFAX and its surrounding areas in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HX1 is £153,480, which is 45% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in HX1 cost 46.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HX1 have fallen 20.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 207.5 recorded crimes per 1,000 residents, HX1 has a crime rate significantly 155% above the national average of 81.3 per 1,000.",
+    "schoolContext": "HX1 has 11 schools within or near its boundaries, including 1 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HX1 are 294.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HX1 (HALIFAX) offers affordable property prices (£153,480, 47% below national average), higher-than-average crime (155% above national average), 11 nearby schools, and excellent broadband (294 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 294
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 294
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "code": "PO17",
+  "name": "FAREHAM",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "portsmouth",
+  "adjacent": [
+    "PO16",
+    "PO18",
+    "PO19"
+  ],
+  "property": {
+    "avgPrice": 455176,
+    "medianPrice": 345000,
+    "priceChange1y": -20.9,
+    "priceChange5y": 0,
+    "transactions12m": 339,
+    "byType": {
+      "detached": {
+        "avg": 704768,
+        "count": 89
+      },
+      "semi": {
+        "avg": 415229,
+        "count": 70
+      },
+      "terraced": {
+        "avg": 317986,
+        "count": 71
+      },
+      "flat": {
+        "avg": 213489,
+        "count": 92
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 475919
+      },
+      {
+        "year": 2024,
+        "avg": 488734
+      },
+      {
+        "year": 2025,
+        "avg": 386517
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 2.4,
+      "burglary": 0.3,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.5,
+      "otherTheft": 0.4,
+      "other": 0.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Newtown Soberton Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wickham Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Boundary Oak School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 214321,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 18,
+    "privateRent": 26,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 171,
+    "avgUpload": 31,
+    "superfastPct": 82,
+    "ultrafastPct": 36,
+    "gigabitPct": 36,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Portsmouth Council",
+    "bandD": 2372,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.9,
+    "imdRank": 20660,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PO17 encompasses FAREHAM and its surrounding areas in Hampshire, South East.",
+    "priceVsCounty": "The average property price in PO17 is £455,176, which is 5% above the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in PO17 cost 58.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PO17 have fallen 20.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, PO17 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PO17 has 3 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PO17 are 171.0 Mbps, with 96% of premises having access to superfast broadband and 62% with full fibre (FTTP) connectivity.",
+    "synthesis": "PO17 (FAREHAM) offers above-average property prices (£455,176, 59% above national average), low crime (94% below national average), 3 nearby schools, and excellent broadband (171 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 171
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 171
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

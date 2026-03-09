@@ -1,0 +1,198 @@
+{
+  "code": "CW3",
+  "name": "CREWE",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "crewe",
+  "adjacent": [
+    "CW2",
+    "CW4",
+    "CW5"
+  ],
+  "property": {
+    "avgPrice": 355530,
+    "medianPrice": 318000,
+    "priceChange1y": -2.8,
+    "priceChange5y": 0,
+    "transactions12m": 420,
+    "byType": {
+      "detached": {
+        "avg": 424212,
+        "count": 202
+      },
+      "semi": {
+        "avg": 263431,
+        "count": 102
+      },
+      "terraced": {
+        "avg": 210588,
+        "count": 68
+      },
+      "flat": {
+        "avg": 169235,
+        "count": 17
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 340120
+      },
+      {
+        "year": 2024,
+        "avg": 368398
+      },
+      {
+        "year": 2025,
+        "avg": 358070
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.1,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Betley CofE VC Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sir John Offley CofE (VC) Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Madeley High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Meadows Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Audlem St James' CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 421298,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 12,
+    "privateRent": 14,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 184,
+    "avgUpload": 33,
+    "superfastPct": 94,
+    "ultrafastPct": 38,
+    "gigabitPct": 38,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Crewe Council",
+    "bandD": 2098,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.5,
+    "imdRank": 11380,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CW3 is the postcode district for CREWE, located in Cheshire, North West.",
+    "priceVsCounty": "The average property price in CW3 is £355,530, which is 14% above the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in CW3 cost 23.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CW3 have fallen 2.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, CW3 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CW3 has 6 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CW3 are 184.0 Mbps, with 98% of premises having access to superfast broadband and 66% with full fibre (FTTP) connectivity.",
+    "synthesis": "CW3 (CREWE) offers above-average property prices (£355,530, 24% above national average), low crime (94% below national average), 6 nearby schools, and excellent broadband (184 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 184
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 184
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

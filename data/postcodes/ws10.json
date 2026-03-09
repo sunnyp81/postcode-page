@@ -1,0 +1,198 @@
+{
+  "code": "WS10",
+  "name": "WEDNESBURY",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "walsall",
+  "adjacent": [
+    "WS9",
+    "WS11",
+    "WS12"
+  ],
+  "property": {
+    "avgPrice": 245107,
+    "medianPrice": 180000,
+    "priceChange1y": 29.3,
+    "priceChange5y": 0,
+    "transactions12m": 1269,
+    "byType": {
+      "detached": {
+        "avg": 293710,
+        "count": 95
+      },
+      "semi": {
+        "avg": 197811,
+        "count": 588
+      },
+      "terraced": {
+        "avg": 168211,
+        "count": 389
+      },
+      "flat": {
+        "avg": 105656,
+        "count": 139
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 261152
+      },
+      {
+        "year": 2024,
+        "avg": 210057
+      },
+      {
+        "year": 2025,
+        "avg": 271679
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 106.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 31.1,
+    "byType": {
+      "violentCrime": 39.7,
+      "burglary": 3.7,
+      "vehicleCrime": 10.6,
+      "antisocialBehaviour": 5.9,
+      "otherTheft": 25.8,
+      "other": 20.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 23,
+    "outstanding": 2,
+    "good": 11,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Albert Pritchard Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Old Park Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Park Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Wood Green Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rowley View Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 353860,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 27,
+    "privateRent": 17,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 354,
+    "avgUpload": 64,
+    "superfastPct": 98,
+    "ultrafastPct": 87,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Sandwell",
+    "bandD": 1930,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 34.9,
+    "imdRank": 25276,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WS10 covers WEDNESBURY in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in WS10 is £245,107, which is 27% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in WS10 cost 14.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WS10 have risen 29.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 106.6 recorded crimes per 1,000 residents, WS10 has a crime rate significantly 31% above the national average of 81.3 per 1,000.",
+    "schoolContext": "WS10 has 23 schools within or near its boundaries, including 2 rated Outstanding and 11 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WS10 are 354.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WS10 (WEDNESBURY) offers property prices near the national average (£245,107), higher-than-average crime (31% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (354 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 354
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 354
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

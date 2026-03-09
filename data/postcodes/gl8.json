@@ -1,0 +1,198 @@
+{
+  "code": "GL8",
+  "name": "TETBURY",
+  "county": "gloucestershire",
+  "region": "south-west",
+  "city": "gloucester",
+  "adjacent": [
+    "GL7",
+    "GL9",
+    "GL10"
+  ],
+  "property": {
+    "avgPrice": 548809,
+    "medianPrice": 415000,
+    "priceChange1y": 10.9,
+    "priceChange5y": 0,
+    "transactions12m": 527,
+    "byType": {
+      "detached": {
+        "avg": 786105,
+        "count": 156
+      },
+      "semi": {
+        "avg": 459871,
+        "count": 112
+      },
+      "terraced": {
+        "avg": 393755,
+        "count": 132
+      },
+      "flat": {
+        "avg": 284239,
+        "count": 97
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 511609
+      },
+      {
+        "year": 2024,
+        "avg": 544202
+      },
+      {
+        "year": 2025,
+        "avg": 603783
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 8.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -89.2,
+    "byType": {
+      "violentCrime": 4.2,
+      "burglary": 0.4,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1.8,
+      "otherTheft": 0.8,
+      "other": 1.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Westonbirt School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sir William Romney's School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Avening Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Leighterton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 523700,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 226,
+    "avgUpload": 41,
+    "superfastPct": 96,
+    "ultrafastPct": 50,
+    "gigabitPct": 50,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Gloucester Council",
+    "bandD": 2166,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.4,
+    "imdRank": 11265,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GL8 encompasses TETBURY and its surrounding areas in Gloucestershire, South West.",
+    "priceVsCounty": "The average property price in GL8 is £548,809, which is 24% above the Gloucestershire average of £441,384.",
+    "priceVsNational": "Properties in GL8 cost 91.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GL8 have risen 10.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 8.8 recorded crimes per 1,000 residents, GL8 has a crime rate well 89% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GL8 has 5 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GL8 are 226.0 Mbps, with 99% of premises having access to superfast broadband and 77% with full fibre (FTTP) connectivity.",
+    "synthesis": "GL8 (TETBURY) offers above-average property prices (£548,809, 91% above national average), low crime (89% below national average), 5 nearby schools, and excellent broadband (226 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 441384,
+      "crime": 75,
+      "broadband": 226
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 226
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

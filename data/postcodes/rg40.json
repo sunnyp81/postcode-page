@@ -1,0 +1,197 @@
+{
+  "code": "RG40",
+  "name": "WOKINGHAM",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "reading",
+  "adjacent": [
+    "RG41",
+    "RG42"
+  ],
+  "property": {
+    "avgPrice": 564673,
+    "medianPrice": 485000,
+    "priceChange1y": 5.2,
+    "priceChange5y": 0,
+    "transactions12m": 1871,
+    "byType": {
+      "detached": {
+        "avg": 800285,
+        "count": 658
+      },
+      "semi": {
+        "avg": 507044,
+        "count": 382
+      },
+      "terraced": {
+        "avg": 425741,
+        "count": 308
+      },
+      "flat": {
+        "avg": 296749,
+        "count": 460
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 558746
+      },
+      {
+        "year": 2024,
+        "avg": 555968
+      },
+      {
+        "year": 2025,
+        "avg": 585000
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 22.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -72.7,
+    "byType": {
+      "violentCrime": 7.8,
+      "burglary": 0.8,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 2.4,
+      "otherTheft": 5.7,
+      "other": 4.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 22,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Foundry College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gorse Ride Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Gorse Ride Infants' School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Finchampstead CofE VA Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Luckley House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 187200,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 40,
+    "socialRent": 8,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 340,
+    "avgUpload": 61,
+    "superfastPct": 95,
+    "ultrafastPct": 84,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Reading Council",
+    "bandD": 1606,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 5.8,
+    "imdRank": 3651,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RG40 is the postcode district for WOKINGHAM, located in Berkshire, South East.",
+    "priceVsCounty": "The average property price in RG40 is £564,673, broadly in line with the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in RG40 cost 96.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RG40 have risen 5.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 22.2 recorded crimes per 1,000 residents, RG40 has a crime rate well 73% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RG40 has 22 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RG40 are 340.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RG40 (WOKINGHAM) offers above-average property prices (£564,673, 97% above national average), low crime (73% below national average), 22 nearby schools, and excellent broadband (340 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 340
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 340
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

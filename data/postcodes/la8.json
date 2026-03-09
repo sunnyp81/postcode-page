@@ -1,0 +1,197 @@
+{
+  "code": "LA8",
+  "name": "KENDAL",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "lancaster",
+  "adjacent": [
+    "LA7",
+    "LA9",
+    "LA10"
+  ],
+  "property": {
+    "avgPrice": 460126,
+    "medianPrice": 385000,
+    "priceChange1y": 9.2,
+    "priceChange5y": 0,
+    "transactions12m": 407,
+    "byType": {
+      "detached": {
+        "avg": 571441,
+        "count": 149
+      },
+      "semi": {
+        "avg": 360814,
+        "count": 90
+      },
+      "terraced": {
+        "avg": 310456,
+        "count": 101
+      },
+      "flat": {
+        "avg": 315185,
+        "count": 33
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 453165
+      },
+      {
+        "year": 2024,
+        "avg": 448030
+      },
+      {
+        "year": 2025,
+        "avg": 489046
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 35,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -56.9,
+    "byType": {
+      "violentCrime": 14.8,
+      "burglary": 0.8,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 3.3,
+      "otherTheft": 5.3,
+      "other": 10.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Levens CofE School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Old Hutton CofE School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Staveley CofE School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Crosscrake CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Crosthwaite CofE School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 338,
+    "avgUpload": 61,
+    "superfastPct": 93,
+    "ultrafastPct": 83,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lancaster Council",
+    "bandD": 2251,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LA8 encompasses KENDAL and its surrounding areas in Lancashire, North West.",
+    "priceVsCounty": "The average property price in LA8 is £460,126, which is 81% above the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in LA8 cost 60.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LA8 have risen 9.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 35.0 recorded crimes per 1,000 residents, LA8 has a crime rate well 57% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LA8 has 9 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LA8 are 338.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LA8 (KENDAL) offers above-average property prices (£460,126, 60% above national average), low crime (57% below national average), 9 nearby schools, and excellent broadband (338 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 338
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 338
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

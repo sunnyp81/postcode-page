@@ -1,0 +1,198 @@
+{
+  "code": "ME3",
+  "name": "ROCHESTER",
+  "county": "kent",
+  "region": "south-east",
+  "city": "medway",
+  "adjacent": [
+    "ME2",
+    "ME4",
+    "ME5"
+  ],
+  "property": {
+    "avgPrice": 388806,
+    "medianPrice": 368500,
+    "priceChange1y": -3.3,
+    "priceChange5y": 0,
+    "transactions12m": 1267,
+    "byType": {
+      "detached": {
+        "avg": 528131,
+        "count": 377
+      },
+      "semi": {
+        "avg": 359193,
+        "count": 494
+      },
+      "terraced": {
+        "avg": 295090,
+        "count": 297
+      },
+      "flat": {
+        "avg": 181867,
+        "count": 75
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 392934
+      },
+      {
+        "year": 2024,
+        "avg": 392281
+      },
+      {
+        "year": 2025,
+        "avg": 379308
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 9.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -87.9,
+    "byType": {
+      "violentCrime": 4.5,
+      "burglary": 0.1,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 2.3,
+      "otherTheft": 0.6,
+      "other": 1.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Higham Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Helen's Church of England Primary School, Cliffe",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gad's Hill School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cliffe Woods Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Leigh Academy Hundred of Hoo",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 110671,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 17,
+    "privateRent": 17,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 227,
+    "avgUpload": 41,
+    "superfastPct": 87,
+    "ultrafastPct": 58,
+    "gigabitPct": 49,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Gravesham",
+    "bandD": 2104,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.4,
+    "imdRank": 17293,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ME3 encompasses ROCHESTER and its surrounding areas in Kent, South East.",
+    "priceVsCounty": "The average property price in ME3 is £388,806, which is 14% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in ME3 cost 35.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ME3 have fallen 3.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 9.8 recorded crimes per 1,000 residents, ME3 has a crime rate well 88% below the national average of 81.3 per 1,000.",
+    "schoolContext": "ME3 has 11 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ME3 are 227.0 Mbps, with 99% of premises having access to superfast broadband and 77% with full fibre (FTTP) connectivity.",
+    "synthesis": "ME3 (ROCHESTER) offers above-average property prices (£388,806, 35% above national average), low crime (88% below national average), 11 nearby schools, and excellent broadband (227 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 227
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 227
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "PL20",
+  "name": "YELVERTON",
+  "county": "devon",
+  "region": "south-west",
+  "city": "plymouth",
+  "adjacent": [
+    "PL19",
+    "PL21",
+    "PL22"
+  ],
+  "property": {
+    "avgPrice": 376266,
+    "medianPrice": 317500,
+    "priceChange1y": 5.4,
+    "priceChange5y": 0,
+    "transactions12m": 494,
+    "byType": {
+      "detached": {
+        "avg": 514020,
+        "count": 182
+      },
+      "semi": {
+        "avg": 296951,
+        "count": 131
+      },
+      "terraced": {
+        "avg": 258478,
+        "count": 116
+      },
+      "flat": {
+        "avg": 143052,
+        "count": 27
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 385037
+      },
+      {
+        "year": 2024,
+        "avg": 362118
+      },
+      {
+        "year": 2025,
+        "avg": 381691
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 2.1,
+      "burglary": 0.2,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.8,
+      "otherTheft": 0.4,
+      "other": 0.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Horrabridge Primary & Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Quay View School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lady Modiford's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Meavy Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Princetown Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 92148,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 12,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 232,
+    "avgUpload": 42,
+    "superfastPct": 78,
+    "ultrafastPct": 54,
+    "gigabitPct": 54,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Hams",
+    "bandD": 2261,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.7,
+    "imdRank": 12057,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PL20 encompasses YELVERTON and its surrounding areas in Devon, South West.",
+    "priceVsCounty": "The average property price in PL20 is £376,266, broadly in line with the Devon average of £385,452.",
+    "priceVsNational": "Properties in PL20 cost 31.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PL20 have risen 5.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, PL20 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PL20 has 9 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PL20 are 232.0 Mbps, with 99% of premises having access to superfast broadband and 79% with full fibre (FTTP) connectivity.",
+    "synthesis": "PL20 (YELVERTON) offers above-average property prices (£376,266, 31% above national average), low crime (94% below national average), 9 nearby schools, and excellent broadband (232 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 232
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 232
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "NN2",
+  "name": "NORTHAMPTON",
+  "county": "northamptonshire",
+  "region": "east-midlands",
+  "city": "northampton",
+  "adjacent": [
+    "NN1",
+    "NN3",
+    "NN4"
+  ],
+  "property": {
+    "avgPrice": 274200,
+    "medianPrice": 245000,
+    "priceChange1y": -3.1,
+    "priceChange5y": 0,
+    "transactions12m": 2137,
+    "byType": {
+      "detached": {
+        "avg": 402845,
+        "count": 404
+      },
+      "semi": {
+        "avg": 261506,
+        "count": 718
+      },
+      "terraced": {
+        "avg": 220534,
+        "count": 851
+      },
+      "flat": {
+        "avg": 144121,
+        "count": 114
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 281957
+      },
+      {
+        "year": 2024,
+        "avg": 273884
+      },
+      {
+        "year": 2025,
+        "avg": 265292
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 119.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 46.7,
+    "byType": {
+      "violentCrime": 35.6,
+      "burglary": 6,
+      "vehicleCrime": 6.1,
+      "antisocialBehaviour": 23,
+      "otherTheft": 31,
+      "other": 17.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 22,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Wallace Road Nursery School",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Whitehills Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Whitehills Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kingsthorpe Grove Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "All Saints CofE VA Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 20486,
+    "medianAge": 42,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 386,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 96,
+    "gigabitPct": 96,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "West Northamptonshire",
+    "bandD": 2146,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.4,
+    "imdRank": 18085,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NN2 encompasses NORTHAMPTON and its surrounding areas in Northamptonshire, East Midlands.",
+    "priceVsCounty": "The average property price in NN2 is £274,200, which is 15% below the Northamptonshire average of £323,962.",
+    "priceVsNational": "Property values in NN2 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in NN2 have fallen 3.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 119.3 recorded crimes per 1,000 residents, NN2 has a crime rate significantly 47% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NN2 has 22 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NN2 are 386.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NN2 (NORTHAMPTON) offers property prices near the national average (£274,200), higher-than-average crime (47% above national average), 22 nearby schools, and excellent broadband (386 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 323962,
+      "crime": 75,
+      "broadband": 386
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 386
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

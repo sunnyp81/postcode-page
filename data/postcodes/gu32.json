@@ -1,0 +1,198 @@
+{
+  "code": "GU32",
+  "name": "PETERSFIELD",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU31",
+    "GU33",
+    "GU34"
+  ],
+  "property": {
+    "avgPrice": 605933,
+    "medianPrice": 450000,
+    "priceChange1y": -6.2,
+    "priceChange5y": 0,
+    "transactions12m": 449,
+    "byType": {
+      "detached": {
+        "avg": 960049,
+        "count": 113
+      },
+      "semi": {
+        "avg": 505195,
+        "count": 103
+      },
+      "terraced": {
+        "avg": 408957,
+        "count": 99
+      },
+      "flat": {
+        "avg": 225186,
+        "count": 92
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 630701
+      },
+      {
+        "year": 2024,
+        "avg": 612329
+      },
+      {
+        "year": 2025,
+        "avg": 574373
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.2,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.5,
+      "other": 0.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Langrish Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Petersfield Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sheet Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "East Meon Church of England Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Froxfield Church of England Primary and Pre-School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 129975,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 241,
+    "avgUpload": 43,
+    "superfastPct": 84,
+    "ultrafastPct": 56,
+    "gigabitPct": 56,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Hampshire",
+    "bandD": 2028,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10.3,
+    "imdRank": 8236,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU32 encompasses PETERSFIELD and its surrounding areas in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU32 is £605,933, broadly in line with the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU32 cost 111.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU32 have fallen 6.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, GU32 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU32 has 9 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU32 are 241.0 Mbps, with 99% of premises having access to superfast broadband and 81% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU32 (PETERSFIELD) offers above-average property prices (£605,933, 111% above national average), low crime (94% below national average), 9 nearby schools, and excellent broadband (241 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 241
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 241
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

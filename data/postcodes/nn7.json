@@ -1,0 +1,198 @@
+{
+  "code": "NN7",
+  "name": "NORTHAMPTON",
+  "county": "northamptonshire",
+  "region": "east-midlands",
+  "city": "northampton",
+  "adjacent": [
+    "NN6",
+    "NN8",
+    "NN9"
+  ],
+  "property": {
+    "avgPrice": 434311,
+    "medianPrice": 341050,
+    "priceChange1y": -4.4,
+    "priceChange5y": 0,
+    "transactions12m": 1402,
+    "byType": {
+      "detached": {
+        "avg": 500609,
+        "count": 642
+      },
+      "semi": {
+        "avg": 314371,
+        "count": 485
+      },
+      "terraced": {
+        "avg": 284460,
+        "count": 174
+      },
+      "flat": {
+        "avg": 188553,
+        "count": 33
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 464356
+      },
+      {
+        "year": 2024,
+        "avg": 429366
+      },
+      {
+        "year": 2025,
+        "avg": 410544
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 16.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -80.1,
+    "byType": {
+      "violentCrime": 4.7,
+      "burglary": 0.5,
+      "vehicleCrime": 1.4,
+      "antisocialBehaviour": 4.1,
+      "otherTheft": 1.8,
+      "other": 3.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 23,
+    "outstanding": 1,
+    "good": 12,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Blisworth Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brington Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bugbrooke Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Denton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Harlestone Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 305884,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 18,
+    "privateRent": 19,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 346,
+    "avgUpload": 62,
+    "superfastPct": 94,
+    "ultrafastPct": 85,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Northampton Council",
+    "bandD": 2285,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 14351,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NN7 is the postcode district for NORTHAMPTON, located in Northamptonshire, East Midlands.",
+    "priceVsCounty": "The average property price in NN7 is £434,311, which is 34% above the Northamptonshire average of £323,962.",
+    "priceVsNational": "Properties in NN7 cost 51.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NN7 have fallen 4.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 16.2 recorded crimes per 1,000 residents, NN7 has a crime rate well 80% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NN7 has 23 schools within or near its boundaries, including 1 rated Outstanding and 12 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NN7 are 346.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NN7 (NORTHAMPTON) offers above-average property prices (£434,311, 51% above national average), low crime (80% below national average), 23 nearby schools, and excellent broadband (346 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 323962,
+      "crime": 75,
+      "broadband": 346
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 346
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

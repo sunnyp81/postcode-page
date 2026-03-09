@@ -1,0 +1,198 @@
+{
+  "code": "SS14",
+  "name": "BASILDON",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "southend-on-sea",
+  "adjacent": [
+    "SS13",
+    "SS15",
+    "SS16"
+  ],
+  "property": {
+    "avgPrice": 440286,
+    "medianPrice": 320000,
+    "priceChange1y": -32.1,
+    "priceChange5y": 0,
+    "transactions12m": 1053,
+    "byType": {
+      "detached": {
+        "avg": 408300,
+        "count": 39
+      },
+      "semi": {
+        "avg": 363830,
+        "count": 134
+      },
+      "terraced": {
+        "avg": 314448,
+        "count": 696
+      },
+      "flat": {
+        "avg": 196104,
+        "count": 123
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 422575
+      },
+      {
+        "year": 2024,
+        "avg": 528368
+      },
+      {
+        "year": 2025,
+        "avg": 358507
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 137.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 68.9,
+    "byType": {
+      "violentCrime": 60.2,
+      "burglary": 3.9,
+      "vehicleCrime": 8.4,
+      "antisocialBehaviour": 17.6,
+      "otherTheft": 15.5,
+      "other": 31.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ghyllgrove Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "De La Salle School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Basildon Lower Academy",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Lift Pioneer",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Greensted Primary School & Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 193632,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 21,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 343,
+    "avgUpload": 62,
+    "superfastPct": 96,
+    "ultrafastPct": 84,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Basildon",
+    "bandD": 2063,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.2,
+    "imdRank": 17744,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SS14 covers BASILDON in Essex, East Of England.",
+    "priceVsCounty": "The average property price in SS14 is £440,286, broadly in line with the Essex average of £429,754.",
+    "priceVsNational": "Properties in SS14 cost 53.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SS14 have fallen 32.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 137.3 recorded crimes per 1,000 residents, SS14 has a crime rate significantly 69% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SS14 has 9 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SS14 are 343.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SS14 (BASILDON) offers above-average property prices (£440,286, 53% above national average), higher-than-average crime (69% above national average), 9 nearby schools, and excellent broadband (343 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 343
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 343
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "BS21",
+  "name": "CLEVEDON",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS20",
+    "BS22",
+    "BS23"
+  ],
+  "property": {
+    "avgPrice": 408051,
+    "medianPrice": 334000,
+    "priceChange1y": 1.9,
+    "priceChange5y": 0,
+    "transactions12m": 1225,
+    "byType": {
+      "detached": {
+        "avg": 622157,
+        "count": 296
+      },
+      "semi": {
+        "avg": 398688,
+        "count": 281
+      },
+      "terraced": {
+        "avg": 307849,
+        "count": 291
+      },
+      "flat": {
+        "avg": 278077,
+        "count": 312
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 398679
+      },
+      {
+        "year": 2024,
+        "avg": 409607
+      },
+      {
+        "year": 2025,
+        "avg": 417499
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 28.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -65.1,
+    "byType": {
+      "violentCrime": 12.6,
+      "burglary": 0.7,
+      "vehicleCrime": 1,
+      "antisocialBehaviour": 3.6,
+      "otherTheft": 5.2,
+      "other": 5.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Clevedon School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Yeo Moor Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Tickenham Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John the Evangelist Church School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mary Elton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 224578,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 9,
+    "privateRent": 16,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 344,
+    "avgUpload": 62,
+    "superfastPct": 91,
+    "ultrafastPct": 85,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.8,
+    "imdRank": 11811,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS21 encompasses CLEVEDON and its surrounding areas in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS21 is £408,051, which is 9% below the Bristol average of £449,132.",
+    "priceVsNational": "Properties in BS21 cost 42.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BS21 have risen 1.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 28.4 recorded crimes per 1,000 residents, BS21 has a crime rate well 65% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BS21 has 8 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS21 are 344.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS21 (CLEVEDON) offers above-average property prices (£408,051, 42% above national average), low crime (65% below national average), 8 nearby schools, and excellent broadband (344 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 344
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 344
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

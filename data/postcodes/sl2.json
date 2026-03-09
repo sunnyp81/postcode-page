@@ -1,0 +1,198 @@
+{
+  "code": "SL2",
+  "name": "SLOUGH",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "slough",
+  "adjacent": [
+    "SL1",
+    "SL3",
+    "SL4"
+  ],
+  "property": {
+    "avgPrice": 539419,
+    "medianPrice": 403750,
+    "priceChange1y": 10.1,
+    "priceChange5y": 0,
+    "transactions12m": 1276,
+    "byType": {
+      "detached": {
+        "avg": 1101440,
+        "count": 221
+      },
+      "semi": {
+        "avg": 514984,
+        "count": 242
+      },
+      "terraced": {
+        "avg": 393537,
+        "count": 480
+      },
+      "flat": {
+        "avg": 256549,
+        "count": 301
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 548974
+      },
+      {
+        "year": 2024,
+        "avg": 511735
+      },
+      {
+        "year": 2025,
+        "avg": 563568
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 59.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -27.1,
+    "byType": {
+      "violentCrime": 26.3,
+      "burglary": 1.6,
+      "vehicleCrime": 6.6,
+      "antisocialBehaviour": 5.1,
+      "otherTheft": 7.8,
+      "other": 11.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 24,
+    "outstanding": 2,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Lea Nursery School",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wexham School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Farnham Common Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Farnham Common Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's Farnham Royal CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 167359,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 29,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 325,
+    "avgUpload": 59,
+    "superfastPct": 94,
+    "ultrafastPct": 82,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Slough Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23,
+    "imdRank": 19788,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SL2 encompasses SLOUGH and its surrounding areas in Berkshire, South East.",
+    "priceVsCounty": "The average property price in SL2 is £539,419, which is 8% below the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in SL2 cost 88.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SL2 have risen 10.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 59.3 recorded crimes per 1,000 residents, SL2 has a crime rate well 27% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SL2 has 24 schools within or near its boundaries, including 2 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SL2 are 325.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SL2 (SLOUGH) offers above-average property prices (£539,419, 88% above national average), low crime (27% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (325 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 325
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 325
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

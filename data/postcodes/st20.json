@@ -1,0 +1,187 @@
+{
+  "code": "ST20",
+  "name": "STAFFORD",
+  "county": "staffordshire",
+  "region": "west-midlands",
+  "city": "stoke-on-trent",
+  "adjacent": [
+    "ST19",
+    "ST21"
+  ],
+  "property": {
+    "avgPrice": 338524,
+    "medianPrice": 297000,
+    "priceChange1y": 12.3,
+    "priceChange5y": 0,
+    "transactions12m": 281,
+    "byType": {
+      "detached": {
+        "avg": 383753,
+        "count": 142
+      },
+      "semi": {
+        "avg": 241821,
+        "count": 81
+      },
+      "terraced": {
+        "avg": 252661,
+        "count": 27
+      },
+      "flat": {
+        "avg": 128317,
+        "count": 3
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 345263
+      },
+      {
+        "year": 2024,
+        "avg": 314917
+      },
+      {
+        "year": 2025,
+        "avg": 353499
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.1,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Gnosall St Lawrence Coe Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Woodseaves CE Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Church Eaton Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 141556,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 14,
+    "privateRent": 13,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 205,
+    "avgUpload": 37,
+    "superfastPct": 79,
+    "ultrafastPct": 46,
+    "gigabitPct": 46,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stafford",
+    "bandD": 2012,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.7,
+    "imdRank": 11220,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ST20 is the postcode district for STAFFORD, located in Staffordshire, West Midlands.",
+    "priceVsCounty": "The average property price in ST20 is £338,524, which is 26% above the Staffordshire average of £267,729.",
+    "priceVsNational": "Properties in ST20 cost 18.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ST20 have risen 12.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, ST20 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "ST20 has 3 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ST20 are 205.0 Mbps, with 99% of premises having access to superfast broadband and 71% with full fibre (FTTP) connectivity.",
+    "synthesis": "ST20 (STAFFORD) offers property prices near the national average (£338,524), low crime (94% below national average), 3 nearby schools, and excellent broadband (205 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 267729,
+      "crime": 75,
+      "broadband": 205
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 205
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "SO14",
+  "name": "SOUTHAMPTON",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "southampton",
+  "adjacent": [
+    "SO15",
+    "SO16"
+  ],
+  "property": {
+    "avgPrice": 407593,
+    "medianPrice": 212750,
+    "priceChange1y": -44.7,
+    "priceChange5y": 0,
+    "transactions12m": 988,
+    "byType": {
+      "detached": {
+        "avg": 318708,
+        "count": 12
+      },
+      "semi": {
+        "avg": 347696,
+        "count": 44
+      },
+      "terraced": {
+        "avg": 277955,
+        "count": 246
+      },
+      "flat": {
+        "avg": 200126,
+        "count": 567
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 484686
+      },
+      {
+        "year": 2024,
+        "avg": 459485
+      },
+      {
+        "year": 2025,
+        "avg": 253900
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 131.6,
+      "burglary": 10.3,
+      "vehicleCrime": 11.8,
+      "antisocialBehaviour": 29.9,
+      "otherTheft": 67.8,
+      "other": 68.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 2,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bevois Town Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mount Pleasant Juniors",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Mount Pleasant Infants",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John's Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's Church of England Primary School & Nursery",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 259424,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 22,
+    "privateRent": 27,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 329,
+    "avgUpload": 59,
+    "superfastPct": 88,
+    "ultrafastPct": 83,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Southampton Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.9,
+    "imdRank": 20786,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SO14 encompasses SOUTHAMPTON and its surrounding areas in Hampshire, South East.",
+    "priceVsCounty": "The average property price in SO14 is £407,593, which is 6% below the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in SO14 cost 42.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SO14 have fallen 44.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, SO14 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SO14 has 8 schools within or near its boundaries, including 2 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SO14 are 329.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SO14 (SOUTHAMPTON) offers above-average property prices (£407,593, 42% above national average), higher-than-average crime (269% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (329 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 329
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 329
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

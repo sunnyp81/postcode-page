@@ -1,0 +1,198 @@
+{
+  "code": "LE6",
+  "name": "LEICESTER",
+  "county": "leicestershire",
+  "region": "east-midlands",
+  "city": "leicester",
+  "adjacent": [
+    "LE5",
+    "LE7",
+    "LE8"
+  ],
+  "property": {
+    "avgPrice": 329782,
+    "medianPrice": 275000,
+    "priceChange1y": 5.3,
+    "priceChange5y": 0,
+    "transactions12m": 553,
+    "byType": {
+      "detached": {
+        "avg": 427683,
+        "count": 227
+      },
+      "semi": {
+        "avg": 271845,
+        "count": 191
+      },
+      "terraced": {
+        "avg": 225336,
+        "count": 112
+      },
+      "flat": {
+        "avg": 145682,
+        "count": 11
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 349489
+      },
+      {
+        "year": 2024,
+        "avg": 314242
+      },
+      {
+        "year": 2025,
+        "avg": 330839
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 16,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -80.3,
+    "byType": {
+      "violentCrime": 6.5,
+      "burglary": 1.1,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 2.4,
+      "otherTheft": 1.5,
+      "other": 3.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Martinshaw Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Elizabeth Woodville Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brookvale Groby Learning Campus",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lady Jane Grey Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ratby Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 116682,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 10,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 346,
+    "avgUpload": 62,
+    "superfastPct": 95,
+    "ultrafastPct": 85,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Leicester Council",
+    "bandD": 2251,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.5,
+    "imdRank": 11242,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LE6 is the postcode district for LEICESTER, located in Leicestershire, East Midlands.",
+    "priceVsCounty": "The average property price in LE6 is £329,782, which is 5% below the Leicestershire average of £348,118.",
+    "priceVsNational": "Properties in LE6 cost 14.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LE6 have risen 5.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 16.0 recorded crimes per 1,000 residents, LE6 has a crime rate well 80% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LE6 has 6 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LE6 are 346.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LE6 (LEICESTER) offers property prices near the national average (£329,782), low crime (80% below national average), 6 nearby schools, and excellent broadband (346 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 348118,
+      "crime": 75,
+      "broadband": 346
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 346
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

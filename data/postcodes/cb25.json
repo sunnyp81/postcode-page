@@ -1,0 +1,196 @@
+{
+  "code": "CB25",
+  "name": "CAMBRIDGE",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "cambridge",
+  "adjacent": [
+    "CB24"
+  ],
+  "property": {
+    "avgPrice": 458254,
+    "medianPrice": 385000,
+    "priceChange1y": -11.7,
+    "priceChange5y": 0,
+    "transactions12m": 766,
+    "byType": {
+      "detached": {
+        "avg": 561442,
+        "count": 302
+      },
+      "semi": {
+        "avg": 363862,
+        "count": 193
+      },
+      "terraced": {
+        "avg": 332604,
+        "count": 177
+      },
+      "flat": {
+        "avg": 193764,
+        "count": 57
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 437285
+      },
+      {
+        "year": 2024,
+        "avg": 493227
+      },
+      {
+        "year": 2025,
+        "avg": 435647
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 56.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -30.3,
+    "byType": {
+      "violentCrime": 15.3,
+      "burglary": 3.7,
+      "vehicleCrime": 5.7,
+      "antisocialBehaviour": 12.5,
+      "otherTheft": 9.1,
+      "other": 10.5
+    },
+    "source": "synthetic-estimate",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Waterbeach Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Burwell Village College (Primary)",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bottisham Village College",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Bottisham Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Swaffham Prior Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 92906,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 14,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 244,
+    "avgUpload": 44,
+    "superfastPct": 93,
+    "ultrafastPct": 60,
+    "gigabitPct": 54,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Cambridgeshire",
+    "bandD": 2143,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.5,
+    "imdRank": 9710,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CB25 encompasses CAMBRIDGE and its surrounding areas in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in CB25 is £458,254, which is 19% above the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in CB25 cost 59.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CB25 have fallen 11.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 56.7 recorded crimes per 1,000 residents, CB25 has a crime rate well 30% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CB25 has 6 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CB25 are 244.0 Mbps, with 99% of premises having access to superfast broadband and 82% with full fibre (FTTP) connectivity.",
+    "synthesis": "CB25 (CAMBRIDGE) offers above-average property prices (£458,254, 60% above national average), low crime (30% below national average), 6 nearby schools, and excellent broadband (244 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 244
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 244
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

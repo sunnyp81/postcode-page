@@ -1,0 +1,198 @@
+{
+  "code": "BA12",
+  "name": "WARMINSTER",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "bath",
+  "adjacent": [
+    "BA11",
+    "BA13",
+    "BA14"
+  ],
+  "property": {
+    "avgPrice": 363158,
+    "medianPrice": 310000,
+    "priceChange1y": -4.6,
+    "priceChange5y": 0,
+    "transactions12m": 1536,
+    "byType": {
+      "detached": {
+        "avg": 480650,
+        "count": 572
+      },
+      "semi": {
+        "avg": 296111,
+        "count": 389
+      },
+      "terraced": {
+        "avg": 253754,
+        "count": 340
+      },
+      "flat": {
+        "avg": 161754,
+        "count": 153
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 378718
+      },
+      {
+        "year": 2024,
+        "avg": 362108
+      },
+      {
+        "year": 2025,
+        "avg": 345293
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.5,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.7,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Horningsham Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mere School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Crockerton CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Sutton Veny CofE School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Minster CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 523700,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 209,
+    "avgUpload": 38,
+    "superfastPct": 88,
+    "ultrafastPct": 46,
+    "gigabitPct": 46,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bath Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.4,
+    "imdRank": 11265,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BA12 encompasses WARMINSTER and its surrounding areas in Somerset, South West.",
+    "priceVsCounty": "The average property price in BA12 is £363,158, broadly in line with the Somerset average of £373,759.",
+    "priceVsNational": "Properties in BA12 cost 26.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BA12 have fallen 4.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, BA12 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BA12 has 16 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BA12 are 209.0 Mbps, with 99% of premises having access to superfast broadband and 72% with full fibre (FTTP) connectivity.",
+    "synthesis": "BA12 (WARMINSTER) offers above-average property prices (£363,158, 27% above national average), low crime (94% below national average), 16 nearby schools, and excellent broadband (209 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 209
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 209
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

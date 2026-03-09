@@ -1,0 +1,198 @@
+{
+  "code": "UB2",
+  "name": "SOUTHALL",
+  "county": "greater-london",
+  "region": "london",
+  "city": "uxbridge",
+  "adjacent": [
+    "UB1",
+    "UB3",
+    "UB4"
+  ],
+  "property": {
+    "avgPrice": 524385,
+    "medianPrice": 390000,
+    "priceChange1y": 69.3,
+    "priceChange5y": 0,
+    "transactions12m": 667,
+    "byType": {
+      "detached": {
+        "avg": 899929,
+        "count": 26
+      },
+      "semi": {
+        "avg": 609158,
+        "count": 76
+      },
+      "terraced": {
+        "avg": 490949,
+        "count": 198
+      },
+      "flat": {
+        "avg": 302273,
+        "count": 307
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 434349
+      },
+      {
+        "year": 2024,
+        "avg": 448650
+      },
+      {
+        "year": 2025,
+        "avg": 759597
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 169.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 108.1,
+    "byType": {
+      "violentCrime": 48.5,
+      "burglary": 4.7,
+      "vehicleCrime": 13.7,
+      "antisocialBehaviour": 44.6,
+      "otherTheft": 32.9,
+      "other": 24.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 2,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Greenfields Nursery School and Children's Centre",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Clifton Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Dairy Meadow Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Havelock Primary School, Nursery & Arp",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wolf Fields Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 299424,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 21,
+    "privateRent": 29,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 322,
+    "avgUpload": 58,
+    "superfastPct": 95,
+    "ultrafastPct": 78,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hounslow",
+    "bandD": 1882,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.5,
+    "imdRank": 18652,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "UB2 covers SOUTHALL in Greater London, London.",
+    "priceVsCounty": "The average property price in UB2 is £524,385, which is 60% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in UB2 cost 82.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in UB2 have risen 69.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 169.2 recorded crimes per 1,000 residents, UB2 has a crime rate significantly 108% above the national average of 81.3 per 1,000.",
+    "schoolContext": "UB2 has 14 schools within or near its boundaries, including 2 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in UB2 are 322.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "UB2 (SOUTHALL) offers above-average property prices (£524,385, 83% above national average), higher-than-average crime (108% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (322 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 322
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 322
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

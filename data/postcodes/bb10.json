@@ -1,0 +1,198 @@
+{
+  "code": "BB10",
+  "name": "BURNLEY",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "blackburn",
+  "adjacent": [
+    "BB9",
+    "BB11",
+    "BB12"
+  ],
+  "property": {
+    "avgPrice": 157417,
+    "medianPrice": 120000,
+    "priceChange1y": -9.8,
+    "priceChange5y": 0,
+    "transactions12m": 1996,
+    "byType": {
+      "detached": {
+        "avg": 307655,
+        "count": 320
+      },
+      "semi": {
+        "avg": 183541,
+        "count": 450
+      },
+      "terraced": {
+        "avg": 93560,
+        "count": 1127
+      },
+      "flat": {
+        "avg": 125742,
+        "count": 20
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 149853
+      },
+      {
+        "year": 2024,
+        "avg": 168980
+      },
+      {
+        "year": 2025,
+        "avg": 152500
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 96.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 18.5,
+    "byType": {
+      "violentCrime": 34.6,
+      "burglary": 4.1,
+      "vehicleCrime": 4.6,
+      "antisocialBehaviour": 25.8,
+      "otherTheft": 8.8,
+      "other": 18.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 0,
+    "good": 8,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Basnett Street Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Briercliffe Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Worsthorne Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Burnley Brunshaw Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Barden Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 99777,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 12,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 356,
+    "avgUpload": 64,
+    "superfastPct": 95,
+    "ultrafastPct": 88,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Pendle",
+    "bandD": 2302,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 30.7,
+    "imdRank": 21934,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BB10 is the postcode district for BURNLEY, located in Lancashire, North West.",
+    "priceVsCounty": "The average property price in BB10 is £157,417, which is 38% below the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in BB10 cost 45.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BB10 have fallen 9.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 96.3 recorded crimes per 1,000 residents, BB10 has a crime rate 18% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BB10 has 21 schools within or near its boundaries, including 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BB10 are 356.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BB10 (BURNLEY) offers affordable property prices (£157,417, 45% below national average), higher-than-average crime (18% above national average), 21 nearby schools, and excellent broadband (356 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 356
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 356
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

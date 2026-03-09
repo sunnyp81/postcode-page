@@ -1,0 +1,196 @@
+{
+  "code": "SO24",
+  "name": "ALRESFORD",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "southampton",
+  "adjacent": [
+    "SO23"
+  ],
+  "property": {
+    "avgPrice": 731946,
+    "medianPrice": 547500,
+    "priceChange1y": -0.2,
+    "priceChange5y": 0,
+    "transactions12m": 404,
+    "byType": {
+      "detached": {
+        "avg": 998499,
+        "count": 164
+      },
+      "semi": {
+        "avg": 522562,
+        "count": 85
+      },
+      "terraced": {
+        "avg": 463034,
+        "count": 88
+      },
+      "flat": {
+        "avg": 292421,
+        "count": 37
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 745564
+      },
+      {
+        "year": 2024,
+        "avg": 726526
+      },
+      {
+        "year": 2025,
+        "avg": 725136
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.4,
+      "burglary": 0.2,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.3,
+      "otherTheft": 0.3,
+      "other": 0.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Cheriton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sun Hill Infant and Preschool",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ropley CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brockwood Park School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Perins School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 129975,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 160,
+    "avgUpload": 29,
+    "superfastPct": 63,
+    "ultrafastPct": 35,
+    "gigabitPct": 35,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "East Hampshire",
+    "bandD": 2028,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10.3,
+    "imdRank": 8236,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SO24 covers ALRESFORD in Hampshire, South East.",
+    "priceVsCounty": "The average property price in SO24 is £731,946, which is 70% above the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in SO24 cost 155.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SO24 have fallen 0.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, SO24 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SO24 has 6 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SO24 are 160.0 Mbps, with 94% of premises having access to superfast broadband and 59% with full fibre (FTTP) connectivity.",
+    "synthesis": "SO24 (ALRESFORD) offers above-average property prices (£731,946, 155% above national average), low crime (94% below national average), 6 nearby schools, and excellent broadband (160 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 160
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 160
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

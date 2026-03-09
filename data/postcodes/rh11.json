@@ -1,0 +1,198 @@
+{
+  "code": "RH11",
+  "name": "CRAWLEY",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "redhill",
+  "adjacent": [
+    "RH10",
+    "RH12",
+    "RH13"
+  ],
+  "property": {
+    "avgPrice": 398871,
+    "medianPrice": 335000,
+    "priceChange1y": -11.2,
+    "priceChange5y": 0,
+    "transactions12m": 1825,
+    "byType": {
+      "detached": {
+        "avg": 666092,
+        "count": 195
+      },
+      "semi": {
+        "avg": 399937,
+        "count": 397
+      },
+      "terraced": {
+        "avg": 336096,
+        "count": 846
+      },
+      "flat": {
+        "avg": 207323,
+        "count": 345
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 441932
+      },
+      {
+        "year": 2024,
+        "avg": 398830
+      },
+      {
+        "year": 2025,
+        "avg": 354268
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 145.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 79.2,
+    "byType": {
+      "violentCrime": 51.6,
+      "burglary": 3.3,
+      "vehicleCrime": 3.7,
+      "antisocialBehaviour": 24.7,
+      "otherTheft": 27.9,
+      "other": 34.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "West Green Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Wilfrid's Catholic Comprehensive School, Crawley",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holy Trinity CofE Secondary School, Crawley",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cottesmore School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Manor Green College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 124008,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 23,
+    "privateRent": 18,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 379,
+    "avgUpload": 68,
+    "superfastPct": 99,
+    "ultrafastPct": 94,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Crawley",
+    "bandD": 2099,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.9,
+    "imdRank": 16479,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RH11 covers CRAWLEY in Surrey, South East.",
+    "priceVsCounty": "The average property price in RH11 is £398,871, which is 35% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in RH11 cost 39.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RH11 have fallen 11.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 145.7 recorded crimes per 1,000 residents, RH11 has a crime rate significantly 79% above the national average of 81.3 per 1,000.",
+    "schoolContext": "RH11 has 20 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RH11 are 379.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RH11 (CRAWLEY) offers above-average property prices (£398,871, 39% above national average), higher-than-average crime (79% above national average), 20 nearby schools, and excellent broadband (379 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 379
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 379
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

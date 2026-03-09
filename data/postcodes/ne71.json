@@ -1,0 +1,180 @@
+{
+  "code": "NE71",
+  "name": "WOOLER",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "newcastle-upon-tyne",
+  "adjacent": [
+    "NE70"
+  ],
+  "property": {
+    "avgPrice": 246155,
+    "medianPrice": 217500,
+    "priceChange1y": -15.3,
+    "priceChange5y": 0,
+    "transactions12m": 185,
+    "byType": {
+      "detached": {
+        "avg": 345256,
+        "count": 55
+      },
+      "semi": {
+        "avg": 204752,
+        "count": 67
+      },
+      "terraced": {
+        "avg": 162787,
+        "count": 35
+      },
+      "flat": {
+        "avg": 138500,
+        "count": 11
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 246530
+      },
+      {
+        "year": 2024,
+        "avg": 264458
+      },
+      {
+        "year": 2025,
+        "avg": 224078
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 81.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 0.6,
+    "byType": {
+      "violentCrime": 22.1,
+      "burglary": 5.3,
+      "vehicleCrime": 8.2,
+      "antisocialBehaviour": 18,
+      "otherTheft": 13.1,
+      "other": 15.1
+    },
+    "source": "synthetic-estimate",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Wooler First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Glendale Middle School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 331420,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 18,
+    "privateRent": 14,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 208,
+    "avgUpload": 37,
+    "superfastPct": 70,
+    "ultrafastPct": 48,
+    "gigabitPct": 48,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newcastle Upon Tyne Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.1,
+    "imdRank": 16778,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NE71 encompasses WOOLER and its surrounding areas in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in NE71 is £246,155, which is 7% below the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in NE71 cost 14.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NE71 have fallen 15.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "NE71 has a crime rate of 81.8 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "NE71 has 2 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NE71 are 208.0 Mbps, with 99% of premises having access to superfast broadband and 72% with full fibre (FTTP) connectivity.",
+    "synthesis": "NE71 (WOOLER) offers property prices near the national average (£246,155), 2 nearby schools, and excellent broadband (208 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 208
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 208
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

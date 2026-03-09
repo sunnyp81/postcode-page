@@ -1,0 +1,197 @@
+{
+  "code": "BL8",
+  "name": "BURY",
+  "county": "greater-manchester",
+  "region": "north-west",
+  "city": "bolton",
+  "adjacent": [
+    "BL7",
+    "BL9"
+  ],
+  "property": {
+    "avgPrice": 265314,
+    "medianPrice": 239340,
+    "priceChange1y": 4.2,
+    "priceChange5y": 0,
+    "transactions12m": 1597,
+    "byType": {
+      "detached": {
+        "avg": 412655,
+        "count": 389
+      },
+      "semi": {
+        "avg": 256919,
+        "count": 507
+      },
+      "terraced": {
+        "avg": 185170,
+        "count": 551
+      },
+      "flat": {
+        "avg": 136087,
+        "count": 95
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 254769
+      },
+      {
+        "year": 2024,
+        "avg": 265264
+      },
+      {
+        "year": 2025,
+        "avg": 276537
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Chantlers Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lowercroft Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Guardian Angels Roman Catholic Primary School, Bury",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Our Lady of Lourdes Roman Catholic Primary School, Bury",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Emmanuel Holcombe Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 162540,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 19,
+    "privateRent": 18,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 339,
+    "avgUpload": 61,
+    "superfastPct": 95,
+    "ultrafastPct": 85,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bolton Council",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 36,
+    "imdRank": 23819,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BL8 covers BURY in Greater Manchester, North West.",
+    "priceVsCounty": "The average property price in BL8 is £265,314, which is 31% below the Greater Manchester average of £381,941.",
+    "priceVsNational": "Properties in BL8 cost 7.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BL8 have risen 4.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, BL8 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BL8 has 20 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BL8 are 339.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BL8 (BURY) offers property prices near the national average (£265,314), low crime (94% below national average), 20 nearby schools, and excellent broadband (339 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 381941,
+      "crime": 75,
+      "broadband": 339
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 339
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

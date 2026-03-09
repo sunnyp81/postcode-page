@@ -1,0 +1,198 @@
+{
+  "code": "DN2",
+  "name": "DONCASTER",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "doncaster",
+  "adjacent": [
+    "DN1",
+    "DN3",
+    "DN4"
+  ],
+  "property": {
+    "avgPrice": 194574,
+    "medianPrice": 160500,
+    "priceChange1y": -7.2,
+    "priceChange5y": 0,
+    "transactions12m": 1048,
+    "byType": {
+      "detached": {
+        "avg": 269131,
+        "count": 153
+      },
+      "semi": {
+        "avg": 167989,
+        "count": 654
+      },
+      "terraced": {
+        "avg": 140440,
+        "count": 197
+      },
+      "flat": {
+        "avg": 94958,
+        "count": 24
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 184546
+      },
+      {
+        "year": 2024,
+        "avg": 206823
+      },
+      {
+        "year": 2025,
+        "avg": 191876
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 96.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 18.2,
+    "byType": {
+      "violentCrime": 29.1,
+      "burglary": 4.6,
+      "vehicleCrime": 7.9,
+      "antisocialBehaviour": 12.4,
+      "otherTheft": 23.6,
+      "other": 18.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Park Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Doncaster School for Deaf Children",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Yorkshire Rose College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hospital Teaching Service",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kingfisher Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 319765,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 17,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 393,
+    "avgUpload": 71,
+    "superfastPct": 99,
+    "ultrafastPct": 98,
+    "gigabitPct": 98,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Doncaster",
+    "bandD": 1926,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 30.3,
+    "imdRank": 21613,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DN2 is the postcode district for DONCASTER, located in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in DN2 is £194,574, which is 16% below the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in DN2 cost 32.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DN2 have fallen 7.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 96.1 recorded crimes per 1,000 residents, DN2 has a crime rate 18% above the national average of 81.3 per 1,000.",
+    "schoolContext": "DN2 has 11 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DN2 are 393.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DN2 (DONCASTER) offers affordable property prices (£194,574, 32% below national average), higher-than-average crime (18% above national average), 11 nearby schools, and excellent broadband (393 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 393
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 393
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

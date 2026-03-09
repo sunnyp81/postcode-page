@@ -1,0 +1,198 @@
+{
+  "code": "PO36",
+  "name": "SANDOWN",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "portsmouth",
+  "adjacent": [
+    "PO35",
+    "PO37",
+    "PO38"
+  ],
+  "property": {
+    "avgPrice": 277653,
+    "medianPrice": 249475,
+    "priceChange1y": 1.7,
+    "priceChange5y": 0,
+    "transactions12m": 790,
+    "byType": {
+      "detached": {
+        "avg": 372193,
+        "count": 277
+      },
+      "semi": {
+        "avg": 263632,
+        "count": 166
+      },
+      "terraced": {
+        "avg": 227629,
+        "count": 113
+      },
+      "flat": {
+        "avg": 162508,
+        "count": 157
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 281103
+      },
+      {
+        "year": 2024,
+        "avg": 274196
+      },
+      {
+        "year": 2025,
+        "avg": 278813
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 29.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -63.2,
+    "byType": {
+      "violentCrime": 12.2,
+      "burglary": 1.1,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 4.5,
+      "otherTheft": 4.5,
+      "other": 7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Newchurch Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Broadlea Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Brading Church of England Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Bay Church of England School",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Forest Edge School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 141660,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 23,
+    "socialRent": 11,
+    "privateRent": 18,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 325,
+    "avgUpload": 59,
+    "superfastPct": 95,
+    "ultrafastPct": 79,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Portsmouth Council",
+    "bandD": 2372,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.3,
+    "imdRank": 19454,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PO36 covers SANDOWN in Hampshire, South East.",
+    "priceVsCounty": "The average property price in PO36 is £277,653, which is 36% below the Hampshire average of £431,529.",
+    "priceVsNational": "Property values in PO36 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in PO36 have risen 1.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 29.9 recorded crimes per 1,000 residents, PO36 has a crime rate well 63% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PO36 has 5 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PO36 are 325.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PO36 (SANDOWN) offers property prices near the national average (£277,653), low crime (63% below national average), 5 nearby schools, and excellent broadband (325 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 325
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 325
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

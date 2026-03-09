@@ -1,0 +1,196 @@
+{
+  "code": "NP13",
+  "name": "ABERTILLERY",
+  "county": "gwent",
+  "region": "wales",
+  "city": "newport",
+  "adjacent": [
+    "NP12",
+    "NP15"
+  ],
+  "property": {
+    "avgPrice": 123803,
+    "medianPrice": 105000,
+    "priceChange1y": 5.3,
+    "priceChange5y": 0,
+    "transactions12m": 822,
+    "byType": {
+      "detached": {
+        "avg": 285483,
+        "count": 36
+      },
+      "semi": {
+        "avg": 155804,
+        "count": 90
+      },
+      "terraced": {
+        "avg": 106273,
+        "count": 637
+      },
+      "flat": {
+        "avg": 66942,
+        "count": 12
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 110391
+      },
+      {
+        "year": 2024,
+        "avg": 128483
+      },
+      {
+        "year": 2025,
+        "avg": 135239
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 24,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -70.5,
+    "byType": {
+      "violentCrime": 8.7,
+      "burglary": 0.8,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 5.1,
+      "otherTheft": 1.6,
+      "other": 6.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ysgol Gymraeg Bro Helyg",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ystruth Primary",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "ST Illtyd's",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Coed -y- Garn Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Abertillery Learning Community",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 67873,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 90,
+    "avgUpload": 16,
+    "superfastPct": 93,
+    "ultrafastPct": 11,
+    "gigabitPct": 11,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newport Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "NP13 covers ABERTILLERY in Gwent, Wales.",
+    "priceVsCounty": "The average property price in NP13 is £123,803, which is 55% below the Gwent average of £273,109.",
+    "priceVsNational": "Properties in NP13 cost 56.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NP13 have risen 5.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 24.0 recorded crimes per 1,000 residents, NP13 has a crime rate well 70% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NP13 has 5 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NP13 are 90.0 Mbps, with 84% of premises having access to superfast broadband and 40% with full fibre (FTTP) connectivity.",
+    "synthesis": "NP13 (ABERTILLERY) offers affordable property prices (£123,803, 57% below national average), low crime (70% below national average), 5 nearby schools, and good broadband connectivity (90 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 273109,
+      "crime": 75,
+      "broadband": 90
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 90
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

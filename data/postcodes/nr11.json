@@ -1,0 +1,198 @@
+{
+  "code": "NR11",
+  "name": "NORWICH",
+  "county": "norfolk",
+  "region": "east-of-england",
+  "city": "norwich",
+  "adjacent": [
+    "NR10",
+    "NR12",
+    "NR13"
+  ],
+  "property": {
+    "avgPrice": 359879,
+    "medianPrice": 315000,
+    "priceChange1y": -5.8,
+    "priceChange5y": 0,
+    "transactions12m": 881,
+    "byType": {
+      "detached": {
+        "avg": 450608,
+        "count": 363
+      },
+      "semi": {
+        "avg": 300754,
+        "count": 253
+      },
+      "terraced": {
+        "avg": 299537,
+        "count": 166
+      },
+      "flat": {
+        "avg": 161874,
+        "count": 41
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 350002
+      },
+      {
+        "year": 2024,
+        "avg": 374842
+      },
+      {
+        "year": 2025,
+        "avg": 353122
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Aldborough Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Colby Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mundesley Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bure Valley School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "John of Gaunt Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 103217,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 20,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 116,
+    "avgUpload": 21,
+    "superfastPct": 81,
+    "ultrafastPct": 20,
+    "gigabitPct": 20,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Norfolk",
+    "bandD": 2129,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.1,
+    "imdRank": 18681,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NR11 covers NORWICH in Norfolk, East Of England.",
+    "priceVsCounty": "The average property price in NR11 is £359,879, broadly in line with the Norfolk average of £352,657.",
+    "priceVsNational": "Properties in NR11 cost 25.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NR11 have fallen 5.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, NR11 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NR11 has 14 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NR11 are 116.0 Mbps, with 87% of premises having access to superfast broadband and 47% with full fibre (FTTP) connectivity.",
+    "synthesis": "NR11 (NORWICH) offers above-average property prices (£359,879, 25% above national average), low crime (94% below national average), 14 nearby schools, and excellent broadband (116 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 352657,
+      "crime": 75,
+      "broadband": 116
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 116
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

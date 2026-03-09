@@ -1,0 +1,198 @@
+{
+  "code": "KT4",
+  "name": "WORCESTER PARK",
+  "county": "greater-london",
+  "region": "london",
+  "city": "kingston-upon-thames",
+  "adjacent": [
+    "KT3",
+    "KT5",
+    "KT6"
+  ],
+  "property": {
+    "avgPrice": 563245,
+    "medianPrice": 560000,
+    "priceChange1y": -0.1,
+    "priceChange5y": 0,
+    "transactions12m": 1120,
+    "byType": {
+      "detached": {
+        "avg": 794479,
+        "count": 106
+      },
+      "semi": {
+        "avg": 681569,
+        "count": 348
+      },
+      "terraced": {
+        "avg": 537496,
+        "count": 426
+      },
+      "flat": {
+        "avg": 305520,
+        "count": 218
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 559660
+      },
+      {
+        "year": 2024,
+        "avg": 565401
+      },
+      {
+        "year": 2025,
+        "avg": 564848
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 35.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -55.8,
+    "byType": {
+      "violentCrime": 11.1,
+      "burglary": 1.8,
+      "vehicleCrime": 2.6,
+      "antisocialBehaviour": 8.8,
+      "otherTheft": 5.4,
+      "other": 6.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Malden Parochial CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Dorchester Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cheam Common Junior Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cuddington Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Linden Bridge School",
+        "type": "Other",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 83288,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 9,
+    "privateRent": 15,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 379,
+    "avgUpload": 68,
+    "superfastPct": 100,
+    "ultrafastPct": 94,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Kingston Upon Thames Council",
+    "bandD": 986,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.8,
+    "imdRank": 6532,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "KT4 is the postcode district for WORCESTER PARK, located in Greater London, London.",
+    "priceVsCounty": "The average property price in KT4 is £563,245, which is 57% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in KT4 cost 96.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in KT4 have fallen 0.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 35.9 recorded crimes per 1,000 residents, KT4 has a crime rate well 56% below the national average of 81.3 per 1,000.",
+    "schoolContext": "KT4 has 7 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in KT4 are 379.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "KT4 (WORCESTER PARK) offers above-average property prices (£563,245, 96% above national average), low crime (56% below national average), 7 nearby schools, and excellent broadband (379 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 379
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 379
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

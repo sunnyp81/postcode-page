@@ -1,0 +1,198 @@
+{
+  "code": "MK3",
+  "name": "MILTON KEYNES",
+  "county": "buckinghamshire",
+  "region": "south-east",
+  "city": "milton-keynes",
+  "adjacent": [
+    "MK2",
+    "MK4",
+    "MK5"
+  ],
+  "property": {
+    "avgPrice": 322579,
+    "medianPrice": 310000,
+    "priceChange1y": 2.9,
+    "priceChange5y": 0,
+    "transactions12m": 1203,
+    "byType": {
+      "detached": {
+        "avg": 453751,
+        "count": 264
+      },
+      "semi": {
+        "avg": 327730,
+        "count": 427
+      },
+      "terraced": {
+        "avg": 295531,
+        "count": 213
+      },
+      "flat": {
+        "avg": 195783,
+        "count": 280
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 331180
+      },
+      {
+        "year": 2024,
+        "avg": 314049
+      },
+      {
+        "year": 2025,
+        "avg": 323029
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 52.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -35.3,
+    "byType": {
+      "violentCrime": 23.5,
+      "burglary": 1.8,
+      "vehicleCrime": 2.3,
+      "antisocialBehaviour": 6.6,
+      "otherTheft": 8.1,
+      "other": 10.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Barleyhurst Park Primary",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Abbeys Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cold Harbour Church of England School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Thomas Aquinas Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Milton Keynes Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 305884,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 18,
+    "privateRent": 19,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 379,
+    "avgUpload": 68,
+    "superfastPct": 99,
+    "ultrafastPct": 94,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Milton Keynes Council",
+    "bandD": 2268,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 14351,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "MK3 encompasses MILTON KEYNES and its surrounding areas in Buckinghamshire, South East.",
+    "priceVsCounty": "The average property price in MK3 is £322,579, which is 32% below the Buckinghamshire average of £472,988.",
+    "priceVsNational": "Properties in MK3 cost 12.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in MK3 have risen 2.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 52.6 recorded crimes per 1,000 residents, MK3 has a crime rate well 35% below the national average of 81.3 per 1,000.",
+    "schoolContext": "MK3 has 13 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in MK3 are 379.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "MK3 (MILTON KEYNES) offers property prices near the national average (£322,579), low crime (35% below national average), 13 nearby schools, and excellent broadband (379 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 472988,
+      "crime": 75,
+      "broadband": 379
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 379
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

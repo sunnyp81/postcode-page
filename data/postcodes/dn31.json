@@ -1,0 +1,187 @@
+{
+  "code": "DN31",
+  "name": "GRIMSBY",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "doncaster",
+  "adjacent": [
+    "DN32",
+    "DN33"
+  ],
+  "property": {
+    "avgPrice": 98911,
+    "medianPrice": 73000,
+    "priceChange1y": 2.3,
+    "priceChange5y": 0,
+    "transactions12m": 733,
+    "byType": {
+      "detached": {
+        "avg": 174821,
+        "count": 24
+      },
+      "semi": {
+        "avg": 132654,
+        "count": 92
+      },
+      "terraced": {
+        "avg": 69438,
+        "count": 509
+      },
+      "flat": {
+        "avg": 45643,
+        "count": 34
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 98810
+      },
+      {
+        "year": 2024,
+        "avg": 98100
+      },
+      {
+        "year": 2025,
+        "avg": 100330
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 201.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 147.8,
+    "byType": {
+      "violentCrime": 66.7,
+      "burglary": 8.2,
+      "vehicleCrime": 6.8,
+      "antisocialBehaviour": 17.7,
+      "otherTheft": 48.5,
+      "other": 53.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ormiston South Parade Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Macaulay Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Littlecoates Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 159911,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 13,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 297,
+    "avgUpload": 53,
+    "superfastPct": 85,
+    "ultrafastPct": 72,
+    "gigabitPct": 72,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Doncaster Council",
+    "bandD": 2168,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 31.3,
+    "imdRank": 20177,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DN31 covers GRIMSBY in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in DN31 is £98,911, which is 57% below the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in DN31 cost 65.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DN31 have risen 2.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 201.5 recorded crimes per 1,000 residents, DN31 has a crime rate significantly 148% above the national average of 81.3 per 1,000.",
+    "schoolContext": "DN31 has 3 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DN31 are 297.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DN31 (GRIMSBY) offers affordable property prices (£98,911, 66% below national average), higher-than-average crime (148% above national average), 3 nearby schools, and excellent broadband (297 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 297
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 297
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

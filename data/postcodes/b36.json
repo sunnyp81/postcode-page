@@ -1,0 +1,198 @@
+{
+  "code": "B36",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B35",
+    "B37",
+    "B38"
+  ],
+  "property": {
+    "avgPrice": 242734,
+    "medianPrice": 225000,
+    "priceChange1y": 1.8,
+    "priceChange5y": 0,
+    "transactions12m": 1103,
+    "byType": {
+      "detached": {
+        "avg": 385492,
+        "count": 102
+      },
+      "semi": {
+        "avg": 274863,
+        "count": 437
+      },
+      "terraced": {
+        "avg": 201645,
+        "count": 393
+      },
+      "flat": {
+        "avg": 119789,
+        "count": 132
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 235328
+      },
+      {
+        "year": 2024,
+        "avg": 244250
+      },
+      {
+        "year": 2025,
+        "avg": 248673
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 89.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 10.1,
+    "byType": {
+      "violentCrime": 41.7,
+      "burglary": 3.2,
+      "vehicleCrime": 9.6,
+      "antisocialBehaviour": 4.4,
+      "otherTheft": 14,
+      "other": 16.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 2,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Hodge Hill Girls' School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hodge Hill College",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Braidwood School for the Deaf",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary and St Margaret's Church of England Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Forest Oak School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 386,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 96,
+    "gigabitPct": 96,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B36 covers BIRMINGHAM in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B36 is £242,734, which is 27% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B36 cost 15.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B36 have risen 1.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 89.5 recorded crimes per 1,000 residents, B36 has a crime rate 10% above the national average of 81.3 per 1,000.",
+    "schoolContext": "B36 has 18 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B36 are 386.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B36 (BIRMINGHAM) offers affordable property prices (£242,734, 15% below national average), 18 nearby schools, and excellent broadband (386 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 386
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 386
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

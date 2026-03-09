@@ -1,0 +1,197 @@
+{
+  "code": "TW5",
+  "name": "HOUNSLOW",
+  "county": "greater-london",
+  "region": "london",
+  "city": "twickenham",
+  "adjacent": [
+    "TW4",
+    "TW7"
+  ],
+  "property": {
+    "avgPrice": 624146,
+    "medianPrice": 525000,
+    "priceChange1y": -21.2,
+    "priceChange5y": 0,
+    "transactions12m": 456,
+    "byType": {
+      "detached": {
+        "avg": 774224,
+        "count": 29
+      },
+      "semi": {
+        "avg": 609942,
+        "count": 217
+      },
+      "terraced": {
+        "avg": 496517,
+        "count": 93
+      },
+      "flat": {
+        "avg": 273626,
+        "count": 98
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 728943
+      },
+      {
+        "year": 2024,
+        "avg": 635060
+      },
+      {
+        "year": 2025,
+        "avg": 500350
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 94.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 16.5,
+    "byType": {
+      "violentCrime": 32.2,
+      "burglary": 4.2,
+      "vehicleCrime": 7.7,
+      "antisocialBehaviour": 21.6,
+      "otherTheft": 12.1,
+      "other": 17
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Cedars Primary School",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Rosary Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Heston Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cranford Community College",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Tarbiyyah Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 299424,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 21,
+    "privateRent": 29,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 344,
+    "avgUpload": 62,
+    "superfastPct": 98,
+    "ultrafastPct": 84,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hounslow",
+    "bandD": 1882,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.5,
+    "imdRank": 18652,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TW5 encompasses HOUNSLOW and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in TW5 is £624,146, which is 52% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in TW5 cost 117.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TW5 have fallen 21.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 94.7 recorded crimes per 1,000 residents, TW5 has a crime rate 16% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TW5 has 12 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TW5 are 344.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TW5 (HOUNSLOW) offers above-average property prices (£624,146, 117% above national average), higher-than-average crime (16% above national average), 12 nearby schools, and excellent broadband (344 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 344
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 344
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

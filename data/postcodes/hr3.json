@@ -1,0 +1,197 @@
+{
+  "code": "HR3",
+  "name": "HEREFORD",
+  "county": "herefordshire",
+  "region": "west-midlands",
+  "city": "hereford",
+  "adjacent": [
+    "HR2",
+    "HR4",
+    "HR5"
+  ],
+  "property": {
+    "avgPrice": 430913,
+    "medianPrice": 366000,
+    "priceChange1y": -15.2,
+    "priceChange5y": 0,
+    "transactions12m": 328,
+    "byType": {
+      "detached": {
+        "avg": 481560,
+        "count": 162
+      },
+      "semi": {
+        "avg": 275116,
+        "count": 40
+      },
+      "terraced": {
+        "avg": 303502,
+        "count": 60
+      },
+      "flat": {
+        "avg": 209077,
+        "count": 13
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 435178
+      },
+      {
+        "year": 2024,
+        "avg": 458209
+      },
+      {
+        "year": 2025,
+        "avg": 388423
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Almeley Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Clifford Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eardisley CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hay-On-Wye C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Clyro C.I.W. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 39,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 63,
+    "socialRent": 16,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 201,
+    "avgUpload": 36,
+    "superfastPct": 79,
+    "ultrafastPct": 45,
+    "gigabitPct": 45,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hereford Council",
+    "bandD": 2183,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.9,
+    "imdRank": 16384,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HR3 is the postcode district for HEREFORD, located in Herefordshire, West Midlands.",
+    "priceVsCounty": "The average property price in HR3 is £430,913, which is 16% above the Herefordshire average of £372,356.",
+    "priceVsNational": "Properties in HR3 cost 50.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HR3 have fallen 15.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, HR3 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HR3 has 5 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HR3 are 201.0 Mbps, with 99% of premises having access to superfast broadband and 70% with full fibre (FTTP) connectivity.",
+    "synthesis": "HR3 (HEREFORD) offers above-average property prices (£430,913, 50% above national average), low crime (94% below national average), 5 nearby schools, and excellent broadband (201 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 372356,
+      "crime": 75,
+      "broadband": 201
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 201
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "code": "ME18",
+  "name": "MAIDSTONE",
+  "county": "kent",
+  "region": "south-east",
+  "city": "medway",
+  "adjacent": [
+    "ME17",
+    "ME19",
+    "ME20"
+  ],
+  "property": {
+    "avgPrice": 483632,
+    "medianPrice": 440000,
+    "priceChange1y": -5.9,
+    "priceChange5y": 0,
+    "transactions12m": 221,
+    "byType": {
+      "detached": {
+        "avg": 694511,
+        "count": 69
+      },
+      "semi": {
+        "avg": 457953,
+        "count": 73
+      },
+      "terraced": {
+        "avg": 333267,
+        "count": 43
+      },
+      "flat": {
+        "avg": 202052,
+        "count": 22
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 501212
+      },
+      {
+        "year": 2024,
+        "avg": 486577
+      },
+      {
+        "year": 2025,
+        "avg": 457904
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.4,
+      "burglary": 0.1,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 0.4,
+      "otherTheft": 0.4,
+      "other": 1.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Mereworth Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wateringbury Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Laddingford St Mary's Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Yalding, St Peter and St Paul Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 187767,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 208,
+    "avgUpload": 37,
+    "superfastPct": 78,
+    "ultrafastPct": 47,
+    "gigabitPct": 47,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Maidstone",
+    "bandD": 2190,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.5,
+    "imdRank": 13639,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ME18 encompasses MAIDSTONE and its surrounding areas in Kent, South East.",
+    "priceVsCounty": "The average property price in ME18 is £483,632, which is 7% above the Kent average of £450,882.",
+    "priceVsNational": "Properties in ME18 cost 68.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ME18 have fallen 5.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, ME18 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "ME18 has 4 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ME18 are 208.0 Mbps, with 99% of premises having access to superfast broadband and 72% with full fibre (FTTP) connectivity.",
+    "synthesis": "ME18 (MAIDSTONE) offers above-average property prices (£483,632, 69% above national average), low crime (94% below national average), 4 nearby schools, and excellent broadband (208 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 208
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 208
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

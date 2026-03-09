@@ -1,0 +1,198 @@
+{
+  "code": "SW15",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SW14",
+    "SW16",
+    "SW17"
+  ],
+  "property": {
+    "avgPrice": 800502,
+    "medianPrice": 592450,
+    "priceChange1y": -2,
+    "priceChange5y": 0,
+    "transactions12m": 2394,
+    "byType": {
+      "detached": {
+        "avg": 2524491,
+        "count": 86
+      },
+      "semi": {
+        "avg": 1586158,
+        "count": 141
+      },
+      "terraced": {
+        "avg": 1059764,
+        "count": 527
+      },
+      "flat": {
+        "avg": 523085,
+        "count": 1545
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 832195
+      },
+      {
+        "year": 2024,
+        "avg": 792202
+      },
+      {
+        "year": 2025,
+        "avg": 776573
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 99.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 22.8,
+    "byType": {
+      "violentCrime": 26.9,
+      "burglary": 4.7,
+      "vehicleCrime": 9,
+      "antisocialBehaviour": 22.6,
+      "otherTheft": 19.2,
+      "other": 17.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 25,
+    "outstanding": 1,
+    "good": 9,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Eastwood Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brandlehow Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hotham Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Granard Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Heathmere Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 337655,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 19,
+    "privateRent": 34,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 266,
+    "avgUpload": 48,
+    "superfastPct": 98,
+    "ultrafastPct": 81,
+    "gigabitPct": 54,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wandsworth",
+    "bandD": 921,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.6,
+    "imdRank": 14312,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SW15 encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in SW15 is £800,502, which is 39% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SW15 cost 178.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SW15 have fallen 2.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 99.8 recorded crimes per 1,000 residents, SW15 has a crime rate significantly 23% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SW15 has 25 schools within or near its boundaries, including 1 rated Outstanding and 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SW15 are 266.0 Mbps, with 99% of premises having access to superfast broadband and 88% with full fibre (FTTP) connectivity.",
+    "synthesis": "SW15 (LONDON) offers above-average property prices (£800,502, 179% above national average), higher-than-average crime (23% above national average), 25 nearby schools, and excellent broadband (266 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 266
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 266
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

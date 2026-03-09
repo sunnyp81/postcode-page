@@ -1,0 +1,198 @@
+{
+  "code": "SO51",
+  "name": "ROMSEY",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "southampton",
+  "adjacent": [
+    "SO50",
+    "SO52",
+    "SO53"
+  ],
+  "property": {
+    "avgPrice": 513573,
+    "medianPrice": 407250,
+    "priceChange1y": -5,
+    "priceChange5y": 0,
+    "transactions12m": 1442,
+    "byType": {
+      "detached": {
+        "avg": 718445,
+        "count": 442
+      },
+      "semi": {
+        "avg": 419859,
+        "count": 298
+      },
+      "terraced": {
+        "avg": 352757,
+        "count": 342
+      },
+      "flat": {
+        "avg": 284542,
+        "count": 281
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 560807
+      },
+      {
+        "year": 2024,
+        "avg": 500597
+      },
+      {
+        "year": 2025,
+        "avg": 475479
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 19.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -75.9,
+    "byType": {
+      "violentCrime": 7.3,
+      "burglary": 0.6,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 1.9,
+      "otherTheft": 5.7,
+      "other": 3.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Braishfield Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cupernham Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cupernham Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lockerley Church of England Endowed Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Romsey Abbey Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 523700,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 245,
+    "avgUpload": 44,
+    "superfastPct": 89,
+    "ultrafastPct": 58,
+    "gigabitPct": 56,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Southampton Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.4,
+    "imdRank": 11265,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SO51 covers ROMSEY in Hampshire, South East.",
+    "priceVsCounty": "The average property price in SO51 is £513,573, which is 19% above the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in SO51 cost 78.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SO51 have fallen 5.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 19.6 recorded crimes per 1,000 residents, SO51 has a crime rate well 76% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SO51 has 14 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SO51 are 245.0 Mbps, with 99% of premises having access to superfast broadband and 82% with full fibre (FTTP) connectivity.",
+    "synthesis": "SO51 (ROMSEY) offers above-average property prices (£513,573, 79% above national average), low crime (76% below national average), 14 nearby schools, and excellent broadband (245 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 245
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 245
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

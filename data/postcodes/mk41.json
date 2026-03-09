@@ -1,0 +1,198 @@
+{
+  "code": "MK41",
+  "name": "BEDFORD",
+  "county": "buckinghamshire",
+  "region": "south-east",
+  "city": "milton-keynes",
+  "adjacent": [
+    "MK40",
+    "MK42",
+    "MK43"
+  ],
+  "property": {
+    "avgPrice": 369175,
+    "medianPrice": 325000,
+    "priceChange1y": 1.3,
+    "priceChange5y": 0,
+    "transactions12m": 1554,
+    "byType": {
+      "detached": {
+        "avg": 493193,
+        "count": 403
+      },
+      "semi": {
+        "avg": 338415,
+        "count": 618
+      },
+      "terraced": {
+        "avg": 273533,
+        "count": 410
+      },
+      "flat": {
+        "avg": 163280,
+        "count": 79
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 365512
+      },
+      {
+        "year": 2024,
+        "avg": 368828
+      },
+      {
+        "year": 2025,
+        "avg": 373458
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 51.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -36.3,
+    "byType": {
+      "violentCrime": 16.8,
+      "burglary": 1.5,
+      "vehicleCrime": 4.6,
+      "antisocialBehaviour": 7.2,
+      "otherTheft": 12.5,
+      "other": 9.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Livingstone Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Edith Cavell Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brickhill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hazeldene School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Scott Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 194976,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 16,
+    "privateRent": 17,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 355,
+    "avgUpload": 64,
+    "superfastPct": 97,
+    "ultrafastPct": 88,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Milton Keynes Council",
+    "bandD": 2321,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.9,
+    "imdRank": 15291,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "MK41 is the postcode district for BEDFORD, located in Buckinghamshire, South East.",
+    "priceVsCounty": "The average property price in MK41 is £369,175, which is 22% below the Buckinghamshire average of £472,988.",
+    "priceVsNational": "Properties in MK41 cost 28.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in MK41 have risen 1.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 51.8 recorded crimes per 1,000 residents, MK41 has a crime rate well 36% below the national average of 81.3 per 1,000.",
+    "schoolContext": "MK41 has 19 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in MK41 are 355.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "MK41 (BEDFORD) offers above-average property prices (£369,175, 29% above national average), low crime (36% below national average), 19 nearby schools, and excellent broadband (355 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 472988,
+      "crime": 75,
+      "broadband": 355
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 355
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "code": "HG1",
+  "name": "HARROGATE",
+  "county": "north-yorkshire",
+  "region": "yorkshire",
+  "city": "harrogate",
+  "adjacent": [
+    "HG2",
+    "HG3"
+  ],
+  "property": {
+    "avgPrice": 389566,
+    "medianPrice": 260750,
+    "priceChange1y": -3.4,
+    "priceChange5y": 0,
+    "transactions12m": 2254,
+    "byType": {
+      "detached": {
+        "avg": 612028,
+        "count": 291
+      },
+      "semi": {
+        "avg": 315661,
+        "count": 624
+      },
+      "terraced": {
+        "avg": 278054,
+        "count": 682
+      },
+      "flat": {
+        "avg": 262906,
+        "count": 573
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 399625
+      },
+      {
+        "year": 2024,
+        "avg": 389973
+      },
+      {
+        "year": 2025,
+        "avg": 376648
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 90.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 10.8,
+    "byType": {
+      "violentCrime": 29.3,
+      "burglary": 4.3,
+      "vehicleCrime": 3,
+      "antisocialBehaviour": 19.5,
+      "otherTheft": 19.2,
+      "other": 14.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Harrogate, Grove Road Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Harrogate Ladies' College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brackenfield School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Henshaws College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Harrogate Language Academy",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 380,
+    "avgUpload": 68,
+    "superfastPct": 98,
+    "ultrafastPct": 96,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Harrogate Council",
+    "bandD": 2183,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HG1 covers HARROGATE in North Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HG1 is £389,566, which is 10% above the North Yorkshire average of £354,925.",
+    "priceVsNational": "Properties in HG1 cost 35.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HG1 have fallen 3.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 90.1 recorded crimes per 1,000 residents, HG1 has a crime rate 11% above the national average of 81.3 per 1,000.",
+    "schoolContext": "HG1 has 15 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HG1 are 380.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HG1 (HARROGATE) offers above-average property prices (£389,566, 36% above national average), 15 nearby schools, and excellent broadband (380 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 354925,
+      "crime": 75,
+      "broadband": 380
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 380
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "NG23",
+  "name": "NEWARK",
+  "county": "nottinghamshire",
+  "region": "east-midlands",
+  "city": "nottingham",
+  "adjacent": [
+    "NG22",
+    "NG24",
+    "NG25"
+  ],
+  "property": {
+    "avgPrice": 390301,
+    "medianPrice": 334530,
+    "priceChange1y": 4,
+    "priceChange5y": 0,
+    "transactions12m": 808,
+    "byType": {
+      "detached": {
+        "avg": 435877,
+        "count": 524
+      },
+      "semi": {
+        "avg": 260833,
+        "count": 165
+      },
+      "terraced": {
+        "avg": 206348,
+        "count": 65
+      },
+      "flat": {
+        "avg": 182909,
+        "count": 11
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 414552
+      },
+      {
+        "year": 2024,
+        "avg": 373159
+      },
+      {
+        "year": 2025,
+        "avg": 387925
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.3,
+      "burglary": 0,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.6,
+      "other": 0.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Claypole Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "John Blow Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Queen Eleanor Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "North Clifton Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Sutton-On-Trent Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 147151,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 119,
+    "avgUpload": 21,
+    "superfastPct": 81,
+    "ultrafastPct": 21,
+    "gigabitPct": 21,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Kesteven",
+    "bandD": 2015,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.5,
+    "imdRank": 11133,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NG23 is the postcode district for NEWARK, located in Nottinghamshire, East Midlands.",
+    "priceVsCounty": "The average property price in NG23 is £390,301, which is 42% below the Nottinghamshire average of £678,596.",
+    "priceVsNational": "Properties in NG23 cost 36.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NG23 have risen 4.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, NG23 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NG23 has 12 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NG23 are 119.0 Mbps, with 88% of premises having access to superfast broadband and 48% with full fibre (FTTP) connectivity.",
+    "synthesis": "NG23 (NEWARK) offers above-average property prices (£390,301, 36% above national average), low crime (94% below national average), 12 nearby schools, and excellent broadband (119 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 678596,
+      "crime": 75,
+      "broadband": 119
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 119
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

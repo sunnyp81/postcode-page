@@ -1,0 +1,196 @@
+{
+  "code": "CF63",
+  "name": "BARRY",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF62",
+    "CF64"
+  ],
+  "property": {
+    "avgPrice": 206552,
+    "medianPrice": 185000,
+    "priceChange1y": 1.8,
+    "priceChange5y": 0,
+    "transactions12m": 974,
+    "byType": {
+      "detached": {
+        "avg": 349545,
+        "count": 89
+      },
+      "semi": {
+        "avg": 232742,
+        "count": 169
+      },
+      "terraced": {
+        "avg": 184660,
+        "count": 548
+      },
+      "flat": {
+        "avg": 132197,
+        "count": 124
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 202300
+      },
+      {
+        "year": 2024,
+        "avg": 206916
+      },
+      {
+        "year": 2025,
+        "avg": 210635
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 99.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 22.6,
+    "byType": {
+      "violentCrime": 41.2,
+      "burglary": 1.4,
+      "vehicleCrime": 4.1,
+      "antisocialBehaviour": 11.9,
+      "otherTheft": 14.5,
+      "other": 26.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Holton Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Jenner Park Primary",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Palmerston Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Richard Gwyn R.C. High School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cadoxton Community Primary",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 135743,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 378,
+    "avgUpload": 68,
+    "superfastPct": 98,
+    "ultrafastPct": 94,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF63 encompasses BARRY and its surrounding areas in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF63 is £206,552, which is 25% below the Cardiff average of £275,506.",
+    "priceVsNational": "Properties in CF63 cost 28.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CF63 have risen 1.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 99.7 recorded crimes per 1,000 residents, CF63 has a crime rate significantly 23% above the national average of 81.3 per 1,000.",
+    "schoolContext": "CF63 has 6 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF63 are 378.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF63 (BARRY) offers affordable property prices (£206,552, 28% below national average), higher-than-average crime (23% above national average), 6 nearby schools, and excellent broadband (378 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 378
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 378
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

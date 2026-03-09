@@ -1,0 +1,198 @@
+{
+  "code": "NN8",
+  "name": "WELLINGBOROUGH",
+  "county": "northamptonshire",
+  "region": "east-midlands",
+  "city": "northampton",
+  "adjacent": [
+    "NN7",
+    "NN9",
+    "NN10"
+  ],
+  "property": {
+    "avgPrice": 293797,
+    "medianPrice": 258198,
+    "priceChange1y": -12.6,
+    "priceChange5y": 0,
+    "transactions12m": 2846,
+    "byType": {
+      "detached": {
+        "avg": 374558,
+        "count": 825
+      },
+      "semi": {
+        "avg": 250355,
+        "count": 945
+      },
+      "terraced": {
+        "avg": 208353,
+        "count": 768
+      },
+      "flat": {
+        "avg": 142232,
+        "count": 189
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 292756
+      },
+      {
+        "year": 2024,
+        "avg": 311326
+      },
+      {
+        "year": 2025,
+        "avg": 272062
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 137.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 68.8,
+    "byType": {
+      "violentCrime": 44.2,
+      "burglary": 3.7,
+      "vehicleCrime": 10.1,
+      "antisocialBehaviour": 27.2,
+      "otherTheft": 27.4,
+      "other": 24.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 25,
+    "outstanding": 0,
+    "good": 10,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Croyland Nursery School & Day Nursery",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Highfield Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Avenue Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "All Saints CEVA Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wellingborough School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 20486,
+    "medianAge": 42,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 378,
+    "avgUpload": 68,
+    "superfastPct": 98,
+    "ultrafastPct": 94,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Northamptonshire",
+    "bandD": 2089,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.4,
+    "imdRank": 18085,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NN8 encompasses WELLINGBOROUGH and its surrounding areas in Northamptonshire, East Midlands.",
+    "priceVsCounty": "The average property price in NN8 is £293,797, which is 9% below the Northamptonshire average of £323,962.",
+    "priceVsNational": "Property values in NN8 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in NN8 have fallen 12.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 137.2 recorded crimes per 1,000 residents, NN8 has a crime rate significantly 69% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NN8 has 25 schools within or near its boundaries, including 10 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NN8 are 378.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NN8 (WELLINGBOROUGH) offers property prices near the national average (£293,797), higher-than-average crime (69% above national average), 25 nearby schools, and excellent broadband (378 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 323962,
+      "crime": 75,
+      "broadband": 378
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 378
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

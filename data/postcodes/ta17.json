@@ -1,0 +1,177 @@
+{
+  "code": "TA17",
+  "name": "HINTON ST GEORGE",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "taunton",
+  "adjacent": [
+    "TA16",
+    "TA18",
+    "TA19"
+  ],
+  "property": {
+    "avgPrice": 518234,
+    "medianPrice": 440000,
+    "priceChange1y": 14.9,
+    "priceChange5y": 0,
+    "transactions12m": 43,
+    "byType": {
+      "detached": {
+        "avg": 712142,
+        "count": 18
+      },
+      "semi": {
+        "avg": 432000,
+        "count": 4
+      },
+      "terraced": {
+        "avg": 350167,
+        "count": 15
+      },
+      "flat": {
+        "avg": 486667,
+        "count": 3
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 523406
+      },
+      {
+        "year": 2024,
+        "avg": 485722
+      },
+      {
+        "year": 2025,
+        "avg": 558000
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hinton St George Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 26693,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 46,
+    "avgUpload": 8,
+    "superfastPct": 55,
+    "ultrafastPct": 3,
+    "gigabitPct": 3,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Taunton Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TA17 is the postcode district for HINTON ST GEORGE, located in Somerset, South West.",
+    "priceVsCounty": "The average property price in TA17 is £518,234, which is 39% above the Somerset average of £373,759.",
+    "priceVsNational": "Properties in TA17 cost 80.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TA17 have risen 14.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TA17 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TA17 has 1 school within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TA17 are 46.0 Mbps, with 77% of premises having access to superfast broadband and 28% with full fibre (FTTP) connectivity.",
+    "synthesis": "TA17 (HINTON ST GEORGE) offers above-average property prices (£518,234, 81% above national average), low crime (94% below national average), and 1 nearby school."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 46
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 46
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

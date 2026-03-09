@@ -1,0 +1,198 @@
+{
+  "code": "PL25",
+  "name": "ST AUSTELL",
+  "county": "devon",
+  "region": "south-west",
+  "city": "plymouth",
+  "adjacent": [
+    "PL24",
+    "PL26",
+    "PL27"
+  ],
+  "property": {
+    "avgPrice": 288075,
+    "medianPrice": 260000,
+    "priceChange1y": -6.7,
+    "priceChange5y": 0,
+    "transactions12m": 1288,
+    "byType": {
+      "detached": {
+        "avg": 390105,
+        "count": 497
+      },
+      "semi": {
+        "avg": 253271,
+        "count": 336
+      },
+      "terraced": {
+        "avg": 220025,
+        "count": 273
+      },
+      "flat": {
+        "avg": 139161,
+        "count": 130
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 289576
+      },
+      {
+        "year": 2024,
+        "avg": 296336
+      },
+      {
+        "year": 2025,
+        "avg": 276377
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 63.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -22.4,
+    "byType": {
+      "violentCrime": 27.3,
+      "burglary": 1.2,
+      "vehicleCrime": 1.1,
+      "antisocialBehaviour": 11.2,
+      "otherTheft": 10,
+      "other": 12.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Cornwall College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sandy Hill Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Penrice Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Charlestown Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Restormel Academy",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 583289,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 257,
+    "avgUpload": 46,
+    "superfastPct": 92,
+    "ultrafastPct": 69,
+    "gigabitPct": 56,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Plymouth Council",
+    "bandD": 2372,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.1,
+    "imdRank": 19382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PL25 is the postcode district for ST AUSTELL, located in Devon, South West.",
+    "priceVsCounty": "The average property price in PL25 is £288,075, which is 25% below the Devon average of £385,452.",
+    "priceVsNational": "Property values in PL25 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in PL25 have fallen 6.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 63.1 recorded crimes per 1,000 residents, PL25 has a crime rate well 22% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PL25 has 10 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PL25 are 257.0 Mbps, with 99% of premises having access to superfast broadband and 86% with full fibre (FTTP) connectivity.",
+    "synthesis": "PL25 (ST AUSTELL) offers property prices near the national average (£288,075), low crime (22% below national average), 10 nearby schools, and excellent broadband (257 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 257
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 257
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

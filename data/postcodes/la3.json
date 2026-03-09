@@ -1,0 +1,198 @@
+{
+  "code": "LA3",
+  "name": "MORECAMBE",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "lancaster",
+  "adjacent": [
+    "LA2",
+    "LA4",
+    "LA5"
+  ],
+  "property": {
+    "avgPrice": 211157,
+    "medianPrice": 175000,
+    "priceChange1y": -15.9,
+    "priceChange5y": 0,
+    "transactions12m": 1188,
+    "byType": {
+      "detached": {
+        "avg": 305575,
+        "count": 219
+      },
+      "semi": {
+        "avg": 192404,
+        "count": 497
+      },
+      "terraced": {
+        "avg": 154514,
+        "count": 290
+      },
+      "flat": {
+        "avg": 106602,
+        "count": 126
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 186935
+      },
+      {
+        "year": 2024,
+        "avg": 242432
+      },
+      {
+        "year": 2025,
+        "avg": 203801
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 51.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -36.4,
+    "byType": {
+      "violentCrime": 19.3,
+      "burglary": 1.5,
+      "vehicleCrime": 1.7,
+      "antisocialBehaviour": 16.4,
+      "otherTheft": 3.2,
+      "other": 9.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Morecambe and Heysham Sandylands Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "West End Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Trumacar Nursery and Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Morecambe and Heysham Grosvenor Park Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Heysham St Peter's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 145006,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 10,
+    "privateRent": 19,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 346,
+    "avgUpload": 62,
+    "superfastPct": 96,
+    "ultrafastPct": 87,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lancaster",
+    "bandD": 2205,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 24.2,
+    "imdRank": 17708,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LA3 covers MORECAMBE in Lancashire, North West.",
+    "priceVsCounty": "The average property price in LA3 is £211,157, which is 17% below the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in LA3 cost 26.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LA3 have fallen 15.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 51.7 recorded crimes per 1,000 residents, LA3 has a crime rate well 36% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LA3 has 10 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LA3 are 346.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LA3 (MORECAMBE) offers affordable property prices (£211,157, 26% below national average), low crime (36% below national average), 10 nearby schools, and excellent broadband (346 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 346
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 346
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

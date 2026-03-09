@@ -1,0 +1,198 @@
+{
+  "code": "NG19",
+  "name": "MANSFIELD",
+  "county": "nottinghamshire",
+  "region": "east-midlands",
+  "city": "nottingham",
+  "adjacent": [
+    "NG18",
+    "NG20",
+    "NG21"
+  ],
+  "property": {
+    "avgPrice": 192983,
+    "medianPrice": 174000,
+    "priceChange1y": 0.1,
+    "priceChange5y": 0,
+    "transactions12m": 2429,
+    "byType": {
+      "detached": {
+        "avg": 257087,
+        "count": 798
+      },
+      "semi": {
+        "avg": 164382,
+        "count": 1004
+      },
+      "terraced": {
+        "avg": 125417,
+        "count": 508
+      },
+      "flat": {
+        "avg": 93488,
+        "count": 71
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 188202
+      },
+      {
+        "year": 2024,
+        "avg": 195311
+      },
+      {
+        "year": 2025,
+        "avg": 195421
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 74.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -8,
+    "byType": {
+      "violentCrime": 27.4,
+      "burglary": 1.9,
+      "vehicleCrime": 2.2,
+      "antisocialBehaviour": 14.9,
+      "otherTheft": 13.3,
+      "other": 15.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 26,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Anthony Bek Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Nettleworth Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Leas Park Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "John T Rice Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Newlands Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 127886,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 14,
+    "privateRent": 14,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 350,
+    "avgUpload": 63,
+    "superfastPct": 98,
+    "ultrafastPct": 88,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Nottingham Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.2,
+    "imdRank": 15577,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NG19 covers MANSFIELD in Nottinghamshire, East Midlands.",
+    "priceVsCounty": "The average property price in NG19 is £192,983, which is 72% below the Nottinghamshire average of £678,596.",
+    "priceVsNational": "Properties in NG19 cost 32.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NG19 have risen 0.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 74.8 recorded crimes per 1,000 residents, NG19 has a crime rate 8% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NG19 has 26 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NG19 are 350.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NG19 (MANSFIELD) offers affordable property prices (£192,983, 33% below national average), 26 nearby schools, and excellent broadband (350 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 678596,
+      "crime": 75,
+      "broadband": 350
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 350
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

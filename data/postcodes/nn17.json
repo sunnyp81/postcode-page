@@ -1,0 +1,197 @@
+{
+  "code": "NN17",
+  "name": "CORBY",
+  "county": "northamptonshire",
+  "region": "east-midlands",
+  "city": "northampton",
+  "adjacent": [
+    "NN16",
+    "NN18"
+  ],
+  "property": {
+    "avgPrice": 290988,
+    "medianPrice": 240000,
+    "priceChange1y": -12.9,
+    "priceChange5y": 0,
+    "transactions12m": 1891,
+    "byType": {
+      "detached": {
+        "avg": 379426,
+        "count": 497
+      },
+      "semi": {
+        "avg": 233863,
+        "count": 702
+      },
+      "terraced": {
+        "avg": 207402,
+        "count": 500
+      },
+      "flat": {
+        "avg": 137639,
+        "count": 116
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 320688
+      },
+      {
+        "year": 2024,
+        "avg": 294015
+      },
+      {
+        "year": 2025,
+        "avg": 255993
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 40.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -50.3,
+    "byType": {
+      "violentCrime": 13.3,
+      "burglary": 1.6,
+      "vehicleCrime": 1.4,
+      "antisocialBehaviour": 7,
+      "otherTheft": 8.8,
+      "other": 8.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Corby Old Village Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Pen Green Centre for Children and Their Families",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Corby Business Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Woodnewton- A Learning Community",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Corby Technical School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 20486,
+    "medianAge": 42,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 340,
+    "avgUpload": 61,
+    "superfastPct": 97,
+    "ultrafastPct": 83,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Northamptonshire",
+    "bandD": 2089,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.4,
+    "imdRank": 18085,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NN17 encompasses CORBY and its surrounding areas in Northamptonshire, East Midlands.",
+    "priceVsCounty": "The average property price in NN17 is £290,988, which is 10% below the Northamptonshire average of £323,962.",
+    "priceVsNational": "Property values in NN17 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in NN17 have fallen 12.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 40.4 recorded crimes per 1,000 residents, NN17 has a crime rate well 50% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NN17 has 14 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NN17 are 340.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NN17 (CORBY) offers property prices near the national average (£290,988), low crime (50% below national average), 14 nearby schools, and excellent broadband (340 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 323962,
+      "crime": 75,
+      "broadband": 340
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 340
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

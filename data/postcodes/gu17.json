@@ -1,0 +1,193 @@
+{
+  "code": "GU17",
+  "name": "CAMBERLEY",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU16",
+    "GU18",
+    "GU19"
+  ],
+  "property": {
+    "avgPrice": 429994,
+    "medianPrice": 415000,
+    "priceChange1y": -0.1,
+    "priceChange5y": 0,
+    "transactions12m": 496,
+    "byType": {
+      "detached": {
+        "avg": 585342,
+        "count": 151
+      },
+      "semi": {
+        "avg": 436852,
+        "count": 130
+      },
+      "terraced": {
+        "avg": 375360,
+        "count": 135
+      },
+      "flat": {
+        "avg": 202855,
+        "count": 74
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 441715
+      },
+      {
+        "year": 2024,
+        "avg": 423362
+      },
+      {
+        "year": 2025,
+        "avg": 422839
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 17.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -78.6,
+    "byType": {
+      "violentCrime": 6.9,
+      "burglary": 0.5,
+      "vehicleCrime": 1.3,
+      "antisocialBehaviour": 3.9,
+      "otherTheft": 2.1,
+      "other": 2.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hawley Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Frogmore Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Frogmore Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hawley Woods School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 103162,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 9,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 350,
+    "avgUpload": 63,
+    "superfastPct": 97,
+    "ultrafastPct": 86,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hart",
+    "bandD": 2079,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 5.5,
+    "imdRank": 3284,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU17 encompasses CAMBERLEY and its surrounding areas in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU17 is £429,994, which is 30% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU17 cost 49.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU17 have fallen 0.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 17.4 recorded crimes per 1,000 residents, GU17 has a crime rate well 79% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU17 has 4 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU17 are 350.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU17 (CAMBERLEY) offers above-average property prices (£429,994, 50% above national average), low crime (79% below national average), 4 nearby schools, and excellent broadband (350 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 350
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 350
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

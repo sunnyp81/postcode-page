@@ -1,0 +1,197 @@
+{
+  "code": "BH15",
+  "name": "POOLE",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "bournemouth",
+  "adjacent": [
+    "BH14",
+    "BH16",
+    "BH17"
+  ],
+  "property": {
+    "avgPrice": 357261,
+    "medianPrice": 312000,
+    "priceChange1y": -2.2,
+    "priceChange5y": 0,
+    "transactions12m": 1697,
+    "byType": {
+      "detached": {
+        "avg": 439711,
+        "count": 459
+      },
+      "semi": {
+        "avg": 339788,
+        "count": 281
+      },
+      "terraced": {
+        "avg": 314689,
+        "count": 286
+      },
+      "flat": {
+        "avg": 218391,
+        "count": 599
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 411518
+      },
+      {
+        "year": 2024,
+        "avg": 333338
+      },
+      {
+        "year": 2025,
+        "avg": 325876
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 71.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -12.2,
+    "byType": {
+      "violentCrime": 22.8,
+      "burglary": 2.1,
+      "vehicleCrime": 3.2,
+      "antisocialBehaviour": 19.6,
+      "otherTheft": 12.9,
+      "other": 10.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Edward's Roman Catholic/Church of England School, Poole",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Cornerstone Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stanley Green Infant Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's Catholic Primary School, Poole",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Old Town Infant School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 340,
+    "avgUpload": 61,
+    "superfastPct": 98,
+    "ultrafastPct": 83,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bournemouth Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.7,
+    "imdRank": 13227,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BH15 covers POOLE in Dorset, South West.",
+    "priceVsCounty": "The average property price in BH15 is £357,261, which is 16% below the Dorset average of £425,376.",
+    "priceVsNational": "Properties in BH15 cost 24.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BH15 have fallen 2.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 71.4 recorded crimes per 1,000 residents, BH15 has a crime rate 12% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BH15 has 10 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BH15 are 340.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BH15 (POOLE) offers above-average property prices (£357,261, 24% above national average), 10 nearby schools, and excellent broadband (340 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 340
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 340
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

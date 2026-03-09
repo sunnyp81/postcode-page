@@ -1,0 +1,177 @@
+{
+  "code": "BH4",
+  "name": "BOURNEMOUTH",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "bournemouth",
+  "adjacent": [
+    "BH3",
+    "BH5",
+    "BH6"
+  ],
+  "property": {
+    "avgPrice": 384473,
+    "medianPrice": 275000,
+    "priceChange1y": -6.8,
+    "priceChange5y": 0,
+    "transactions12m": 657,
+    "byType": {
+      "detached": {
+        "avg": 969431,
+        "count": 80
+      },
+      "semi": {
+        "avg": 599500,
+        "count": 10
+      },
+      "terraced": {
+        "avg": 618880,
+        "count": 22
+      },
+      "flat": {
+        "avg": 265037,
+        "count": 515
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 406628
+      },
+      {
+        "year": 2024,
+        "avg": 382859
+      },
+      {
+        "year": 2025,
+        "avg": 356663
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 109.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 34.2,
+    "byType": {
+      "violentCrime": 29.6,
+      "burglary": 3.8,
+      "vehicleCrime": 7.7,
+      "antisocialBehaviour": 28.2,
+      "otherTheft": 23.8,
+      "other": 16.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Talbot Heath School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 349,
+    "avgUpload": 63,
+    "superfastPct": 100,
+    "ultrafastPct": 94,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bournemouth Council",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.2,
+    "imdRank": 14820,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BH4 is the postcode district for BOURNEMOUTH, located in Dorset, South West.",
+    "priceVsCounty": "The average property price in BH4 is £384,473, which is 10% below the Dorset average of £425,376.",
+    "priceVsNational": "Properties in BH4 cost 34.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BH4 have fallen 6.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 109.1 recorded crimes per 1,000 residents, BH4 has a crime rate significantly 34% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BH4 has 1 school within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BH4 are 349.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BH4 (BOURNEMOUTH) offers above-average property prices (£384,473, 34% above national average), higher-than-average crime (34% above national average), 1 nearby school, and excellent broadband (349 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 349
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 349
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

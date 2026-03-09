@@ -1,0 +1,197 @@
+{
+  "code": "TA10",
+  "name": "LANGPORT",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "taunton",
+  "adjacent": [
+    "TA9",
+    "TA11",
+    "TA12"
+  ],
+  "property": {
+    "avgPrice": 413102,
+    "medianPrice": 346750,
+    "priceChange1y": -2.9,
+    "priceChange5y": 0,
+    "transactions12m": 450,
+    "byType": {
+      "detached": {
+        "avg": 520172,
+        "count": 214
+      },
+      "semi": {
+        "avg": 312778,
+        "count": 111
+      },
+      "terraced": {
+        "avg": 267890,
+        "count": 59
+      },
+      "flat": {
+        "avg": 130339,
+        "count": 33
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 443057
+      },
+      {
+        "year": 2024,
+        "avg": 405464
+      },
+      {
+        "year": 2025,
+        "avg": 393530
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 9.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -87.9,
+    "byType": {
+      "violentCrime": 4.7,
+      "burglary": 0.1,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 0.6,
+      "otherTheft": 2.6,
+      "other": 1.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Curry Rivel Church of England VC Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "High Ham Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Long Sutton CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hambridge Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Huish Episcopi Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 26693,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 67,
+    "avgUpload": 12,
+    "superfastPct": 79,
+    "ultrafastPct": 6,
+    "gigabitPct": 6,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Taunton Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TA10 covers LANGPORT in Somerset, South West.",
+    "priceVsCounty": "The average property price in TA10 is £413,102, which is 11% above the Somerset average of £373,759.",
+    "priceVsNational": "Properties in TA10 cost 43.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TA10 have fallen 2.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 9.8 recorded crimes per 1,000 residents, TA10 has a crime rate well 88% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TA10 has 6 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TA10 are 67.0 Mbps, with 80% of premises having access to superfast broadband and 33% with full fibre (FTTP) connectivity.",
+    "synthesis": "TA10 (LANGPORT) offers above-average property prices (£413,102, 44% above national average), low crime (88% below national average), 6 nearby schools, and good broadband connectivity (67 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 67
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 67
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

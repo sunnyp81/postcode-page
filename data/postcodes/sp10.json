@@ -1,0 +1,197 @@
+{
+  "code": "SP10",
+  "name": "ANDOVER",
+  "county": "wiltshire",
+  "region": "south-west",
+  "city": "salisbury",
+  "adjacent": [
+    "SP9",
+    "SP11"
+  ],
+  "property": {
+    "avgPrice": 317669,
+    "medianPrice": 280000,
+    "priceChange1y": 1.9,
+    "priceChange5y": 0,
+    "transactions12m": 1595,
+    "byType": {
+      "detached": {
+        "avg": 464582,
+        "count": 319
+      },
+      "semi": {
+        "avg": 320034,
+        "count": 359
+      },
+      "terraced": {
+        "avg": 256183,
+        "count": 573
+      },
+      "flat": {
+        "avg": 158104,
+        "count": 289
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 306967
+      },
+      {
+        "year": 2024,
+        "avg": 320236
+      },
+      {
+        "year": 2025,
+        "avg": 326479
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 82.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 1.4,
+    "byType": {
+      "violentCrime": 38.4,
+      "burglary": 2.1,
+      "vehicleCrime": 1.8,
+      "antisocialBehaviour": 12.1,
+      "otherTheft": 10.8,
+      "other": 17.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 2,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Balksbury Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Portway Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Anton Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Portway Infant School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Vigo Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 135201,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 14,
+    "privateRent": 12,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 316,
+    "avgUpload": 57,
+    "superfastPct": 97,
+    "ultrafastPct": 76,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Test Valley",
+    "bandD": 1996,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.9,
+    "imdRank": 9889,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SP10 encompasses ANDOVER and its surrounding areas in Wiltshire, South West.",
+    "priceVsCounty": "The average property price in SP10 is £317,669, which is 20% below the Wiltshire average of £397,459.",
+    "priceVsNational": "Properties in SP10 cost 10.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SP10 have risen 1.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "SP10 has a crime rate of 82.4 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "SP10 has 19 schools within or near its boundaries, including 2 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SP10 are 316.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SP10 (ANDOVER) offers property prices near the national average (£317,669), strong school provision (2 Outstanding-rated schools), and excellent broadband (316 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 397459,
+      "crime": 75,
+      "broadband": 316
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 316
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

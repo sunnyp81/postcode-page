@@ -1,0 +1,198 @@
+{
+  "code": "GU29",
+  "name": "MIDHURST",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU28",
+    "GU30",
+    "GU31"
+  ],
+  "property": {
+    "avgPrice": 580896,
+    "medianPrice": 427500,
+    "priceChange1y": -7.1,
+    "priceChange5y": 0,
+    "transactions12m": 484,
+    "byType": {
+      "detached": {
+        "avg": 896470,
+        "count": 140
+      },
+      "semi": {
+        "avg": 475833,
+        "count": 71
+      },
+      "terraced": {
+        "avg": 411238,
+        "count": 141
+      },
+      "flat": {
+        "avg": 292780,
+        "count": 109
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 642536
+      },
+      {
+        "year": 2024,
+        "avg": 568494
+      },
+      {
+        "year": 2025,
+        "avg": 528140
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 6.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -91.9,
+    "byType": {
+      "violentCrime": 2.1,
+      "burglary": 0.3,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 1,
+      "otherTheft": 1.7,
+      "other": 1.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 1,
+    "good": 0,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Stedham Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Midhurst CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Easebourne CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Midhurst Rother College",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Conifers House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 128934,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 23,
+    "socialRent": 15,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 118,
+    "avgUpload": 21,
+    "superfastPct": 85,
+    "ultrafastPct": 20,
+    "gigabitPct": 20,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Chichester",
+    "bandD": 2130,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.1,
+    "imdRank": 12318,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU29 encompasses MIDHURST and its surrounding areas in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU29 is £580,896, which is 5% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU29 cost 102.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU29 have fallen 7.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 6.6 recorded crimes per 1,000 residents, GU29 has a crime rate well 92% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU29 has 5 schools within or near its boundaries, including 1 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU29 are 118.0 Mbps, with 88% of premises having access to superfast broadband and 47% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU29 (MIDHURST) offers above-average property prices (£580,896, 102% above national average), low crime (92% below national average), 5 nearby schools, and excellent broadband (118 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 118
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 118
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

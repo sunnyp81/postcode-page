@@ -1,0 +1,198 @@
+{
+  "code": "CB2",
+  "name": "CAMBRIDGE",
+  "county": "cambridgeshire",
+  "region": "east-of-england",
+  "city": "cambridge",
+  "adjacent": [
+    "CB1",
+    "CB3",
+    "CB4"
+  ],
+  "property": {
+    "avgPrice": 741894,
+    "medianPrice": 530000,
+    "priceChange1y": -6.1,
+    "priceChange5y": 0,
+    "transactions12m": 767,
+    "byType": {
+      "detached": {
+        "avg": 1273301,
+        "count": 101
+      },
+      "semi": {
+        "avg": 741984,
+        "count": 76
+      },
+      "terraced": {
+        "avg": 753125,
+        "count": 215
+      },
+      "flat": {
+        "avg": 397819,
+        "count": 336
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 783832
+      },
+      {
+        "year": 2024,
+        "avg": 734521
+      },
+      {
+        "year": 2025,
+        "avg": 689402
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 52.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -35.5,
+    "byType": {
+      "violentCrime": 14.4,
+      "burglary": 1.9,
+      "vehicleCrime": 2,
+      "antisocialBehaviour": 8.8,
+      "otherTheft": 15.1,
+      "other": 10.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 18,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Fawcett Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Pauls CofE VA Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Faith's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Leys School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 149352,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 20,
+    "socialRent": 23,
+    "privateRent": 28,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 332,
+    "avgUpload": 60,
+    "superfastPct": 96,
+    "ultrafastPct": 83,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cambridge",
+    "bandD": 2126,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.9,
+    "imdRank": 12582,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CB2 covers CAMBRIDGE in Cambridgeshire, East Of England.",
+    "priceVsCounty": "The average property price in CB2 is £741,894, which is 93% above the Cambridgeshire average of £383,701.",
+    "priceVsNational": "Properties in CB2 cost 158.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CB2 have fallen 6.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 52.4 recorded crimes per 1,000 residents, CB2 has a crime rate well 36% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CB2 has 18 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CB2 are 332.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CB2 (CAMBRIDGE) offers above-average property prices (£741,894, 158% above national average), low crime (36% below national average), 18 nearby schools, and excellent broadband (332 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 383701,
+      "crime": 75,
+      "broadband": 332
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 332
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

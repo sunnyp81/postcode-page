@@ -1,0 +1,198 @@
+{
+  "code": "SG5",
+  "name": "HITCHIN",
+  "county": "hertfordshire",
+  "region": "east-of-england",
+  "city": "stevenage",
+  "adjacent": [
+    "SG4",
+    "SG6",
+    "SG7"
+  ],
+  "property": {
+    "avgPrice": 491780,
+    "medianPrice": 435000,
+    "priceChange1y": 0.3,
+    "priceChange5y": 0,
+    "transactions12m": 1745,
+    "byType": {
+      "detached": {
+        "avg": 685051,
+        "count": 452
+      },
+      "semi": {
+        "avg": 489323,
+        "count": 435
+      },
+      "terraced": {
+        "avg": 413461,
+        "count": 414
+      },
+      "flat": {
+        "avg": 266356,
+        "count": 383
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 460095
+      },
+      {
+        "year": 2024,
+        "avg": 507146
+      },
+      {
+        "year": 2025,
+        "avg": 508549
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 9.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -88.4,
+    "byType": {
+      "violentCrime": 3.3,
+      "burglary": 0.5,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 2.2,
+      "otherTheft": 0.7,
+      "other": 2.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Shillington Lower School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Roecroft Lower School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "York Road Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Strathmore Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pirton School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 91774,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 26,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 305,
+    "avgUpload": 55,
+    "superfastPct": 95,
+    "ultrafastPct": 73,
+    "gigabitPct": 73,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stevenage",
+    "bandD": 2076,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 19.7,
+    "imdRank": 17354,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SG5 covers HITCHIN in Hertfordshire, East Of England.",
+    "priceVsCounty": "The average property price in SG5 is £491,780, which is 14% below the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in SG5 cost 71.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SG5 have risen 0.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 9.4 recorded crimes per 1,000 residents, SG5 has a crime rate well 88% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SG5 has 16 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SG5 are 305.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SG5 (HITCHIN) offers above-average property prices (£491,780, 71% above national average), low crime (88% below national average), 16 nearby schools, and excellent broadband (305 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 305
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 305
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

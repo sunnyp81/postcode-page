@@ -1,0 +1,198 @@
+{
+  "code": "KT11",
+  "name": "COBHAM",
+  "county": "greater-london",
+  "region": "london",
+  "city": "kingston-upon-thames",
+  "adjacent": [
+    "KT10",
+    "KT12",
+    "KT13"
+  ],
+  "property": {
+    "avgPrice": 1265290,
+    "medianPrice": 907000,
+    "priceChange1y": -13.8,
+    "priceChange5y": 0,
+    "transactions12m": 768,
+    "byType": {
+      "detached": {
+        "avg": 1930235,
+        "count": 344
+      },
+      "semi": {
+        "avg": 762121,
+        "count": 148
+      },
+      "terraced": {
+        "avg": 630948,
+        "count": 92
+      },
+      "flat": {
+        "avg": 617802,
+        "count": 155
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1308581
+      },
+      {
+        "year": 2024,
+        "avg": 1330632
+      },
+      {
+        "year": 2025,
+        "avg": 1147530
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 13.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -83,
+    "byType": {
+      "violentCrime": 4.5,
+      "burglary": 0.6,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 2.1,
+      "otherTheft": 2.5,
+      "other": 3.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Matthew's CofE Aided Infant School, Cobham",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Reed's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Parkside School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Feltonfleet",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Notre Dame School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 141926,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 10,
+    "privateRent": 16,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 268,
+    "avgUpload": 48,
+    "superfastPct": 92,
+    "ultrafastPct": 67,
+    "gigabitPct": 61,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Elmbridge",
+    "bandD": 2230,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 7.9,
+    "imdRank": 5634,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "KT11 encompasses COBHAM and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in KT11 is £1,265,290, broadly in line with the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in KT11 cost 340.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in KT11 have fallen 13.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 13.8 recorded crimes per 1,000 residents, KT11 has a crime rate well 83% below the national average of 81.3 per 1,000.",
+    "schoolContext": "KT11 has 11 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in KT11 are 268.0 Mbps, with 99% of premises having access to superfast broadband and 89% with full fibre (FTTP) connectivity.",
+    "synthesis": "KT11 (COBHAM) offers above-average property prices (£1,265,290, 341% above national average), low crime (83% below national average), 11 nearby schools, and excellent broadband (268 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 268
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 268
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

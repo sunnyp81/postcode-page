@@ -1,0 +1,197 @@
+{
+  "code": "B37",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B36",
+    "B38"
+  ],
+  "property": {
+    "avgPrice": 256641,
+    "medianPrice": 195000,
+    "priceChange1y": 3.3,
+    "priceChange5y": 0,
+    "transactions12m": 1083,
+    "byType": {
+      "detached": {
+        "avg": 414375,
+        "count": 104
+      },
+      "semi": {
+        "avg": 250969,
+        "count": 292
+      },
+      "terraced": {
+        "avg": 188491,
+        "count": 513
+      },
+      "flat": {
+        "avg": 115521,
+        "count": 150
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 291667
+      },
+      {
+        "year": 2024,
+        "avg": 235964
+      },
+      {
+        "year": 2025,
+        "avg": 243654
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 130.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 60.8,
+    "byType": {
+      "violentCrime": 56.8,
+      "burglary": 4,
+      "vehicleCrime": 12.6,
+      "antisocialBehaviour": 7.4,
+      "otherTheft": 19.4,
+      "other": 30.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Marston Green Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bishop Wilson Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Grace Academy Solihull",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "John Henry Newman Catholic College",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Marston Green Infant Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 368,
+    "avgUpload": 66,
+    "superfastPct": 98,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B37 is the postcode district for BIRMINGHAM, located in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B37 is £256,641, which is 23% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B37 cost 10.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B37 have risen 3.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 130.7 recorded crimes per 1,000 residents, B37 has a crime rate significantly 61% above the national average of 81.3 per 1,000.",
+    "schoolContext": "B37 has 14 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B37 are 368.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B37 (BIRMINGHAM) offers property prices near the national average (£256,641), higher-than-average crime (61% above national average), 14 nearby schools, and excellent broadband (368 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 368
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 368
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "S60",
+  "name": "ROTHERHAM",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "sheffield",
+  "adjacent": [
+    "S61",
+    "S62"
+  ],
+  "property": {
+    "avgPrice": 244495,
+    "medianPrice": 210000,
+    "priceChange1y": 1.9,
+    "priceChange5y": 0,
+    "transactions12m": 2060,
+    "byType": {
+      "detached": {
+        "avg": 350856,
+        "count": 476
+      },
+      "semi": {
+        "avg": 211976,
+        "count": 973
+      },
+      "terraced": {
+        "avg": 166583,
+        "count": 356
+      },
+      "flat": {
+        "avg": 128883,
+        "count": 165
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 261474
+      },
+      {
+        "year": 2024,
+        "avg": 233128
+      },
+      {
+        "year": 2025,
+        "avg": 237518
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 45.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -44.2,
+    "byType": {
+      "violentCrime": 16.4,
+      "burglary": 1.8,
+      "vehicleCrime": 2.2,
+      "antisocialBehaviour": 8.4,
+      "otherTheft": 6.2,
+      "other": 10.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Broom Valley Community School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Sitwell Nursery & Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brinsworth Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Canklow Woods Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Whiston Junior and Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 276595,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 21,
+    "privateRent": 13,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 367,
+    "avgUpload": 66,
+    "superfastPct": 96,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Rotherham",
+    "bandD": 2126,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 29.6,
+    "imdRank": 21030,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "S60 encompasses ROTHERHAM and its surrounding areas in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in S60 is £244,495, which is 6% above the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in S60 cost 14.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in S60 have risen 1.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 45.4 recorded crimes per 1,000 residents, S60 has a crime rate well 44% below the national average of 81.3 per 1,000.",
+    "schoolContext": "S60 has 17 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in S60 are 367.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "S60 (ROTHERHAM) offers property prices near the national average (£244,495), low crime (44% below national average), 17 nearby schools, and excellent broadband (367 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 367
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 367
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "code": "TQ8",
+  "name": "SALCOMBE",
+  "county": "devon",
+  "region": "south-west",
+  "city": "torquay",
+  "adjacent": [
+    "TQ7",
+    "TQ9",
+    "TQ10"
+  ],
+  "property": {
+    "avgPrice": 992111,
+    "medianPrice": 760000,
+    "priceChange1y": -9.4,
+    "priceChange5y": 0,
+    "transactions12m": 203,
+    "byType": {
+      "detached": {
+        "avg": 1283858,
+        "count": 63
+      },
+      "semi": {
+        "avg": 1035330,
+        "count": 28
+      },
+      "terraced": {
+        "avg": 709845,
+        "count": 37
+      },
+      "flat": {
+        "avg": 868779,
+        "count": 51
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1024204
+      },
+      {
+        "year": 2024,
+        "avg": 1005974
+      },
+      {
+        "year": 2025,
+        "avg": 911770
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.8,
+      "burglary": 0.1,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.4,
+      "otherTheft": 0.4,
+      "other": 0.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Salcombe Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 92148,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 12,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 189,
+    "avgUpload": 34,
+    "superfastPct": 91,
+    "ultrafastPct": 40,
+    "gigabitPct": 40,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Hams",
+    "bandD": 2261,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.7,
+    "imdRank": 12057,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TQ8 encompasses SALCOMBE and its surrounding areas in Devon, South West.",
+    "priceVsCounty": "The average property price in TQ8 is £992,111, which is 157% above the Devon average of £385,452.",
+    "priceVsNational": "Properties in TQ8 cost 245.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TQ8 have fallen 9.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TQ8 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TQ8 has 1 school within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TQ8 are 189.0 Mbps, with 98% of premises having access to superfast broadband and 67% with full fibre (FTTP) connectivity.",
+    "synthesis": "TQ8 (SALCOMBE) offers above-average property prices (£992,111, 246% above national average), low crime (94% below national average), 1 nearby school, and excellent broadband (189 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 189
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 189
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

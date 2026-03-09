@@ -1,0 +1,197 @@
+{
+  "code": "LU1",
+  "name": "LUTON",
+  "county": "bedfordshire",
+  "region": "east-of-england",
+  "city": "luton",
+  "adjacent": [
+    "LU2",
+    "LU3"
+  ],
+  "property": {
+    "avgPrice": 367876,
+    "medianPrice": 275000,
+    "priceChange1y": -1.3,
+    "priceChange5y": 0,
+    "transactions12m": 1352,
+    "byType": {
+      "detached": {
+        "avg": 582432,
+        "count": 103
+      },
+      "semi": {
+        "avg": 353759,
+        "count": 335
+      },
+      "terraced": {
+        "avg": 268650,
+        "count": 489
+      },
+      "flat": {
+        "avg": 142956,
+        "count": 278
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 365719
+      },
+      {
+        "year": 2024,
+        "avg": 371416
+      },
+      {
+        "year": 2025,
+        "avg": 366420
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 248.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 206,
+    "byType": {
+      "violentCrime": 84.3,
+      "burglary": 7.9,
+      "vehicleCrime": 16.2,
+      "antisocialBehaviour": 35,
+      "otherTheft": 49.9,
+      "other": 55.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 23,
+    "outstanding": 3,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Rothesay Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chapel Street Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Slip End Village School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cutenhoe Hill Primary School ( Formerly Surrey Street)",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Foxdell Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 315877,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 362,
+    "avgUpload": 65,
+    "superfastPct": 97,
+    "ultrafastPct": 90,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Luton Council",
+    "bandD": 2251,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.2,
+    "imdRank": 9823,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LU1 covers LUTON in Bedfordshire, East Of England.",
+    "priceVsCounty": "The average property price in LU1 is £367,876, broadly in line with the Bedfordshire average of £368,807.",
+    "priceVsNational": "Properties in LU1 cost 28.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LU1 have fallen 1.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 248.8 recorded crimes per 1,000 residents, LU1 has a crime rate significantly 206% above the national average of 81.3 per 1,000.",
+    "schoolContext": "LU1 has 23 schools within or near its boundaries, including 3 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LU1 are 362.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LU1 (LUTON) offers above-average property prices (£367,876, 28% above national average), higher-than-average crime (206% above national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (362 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 368807,
+      "crime": 75,
+      "broadband": 362
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 362
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

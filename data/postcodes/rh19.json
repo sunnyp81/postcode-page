@@ -1,0 +1,197 @@
+{
+  "code": "RH19",
+  "name": "EAST GRINSTEAD",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "redhill",
+  "adjacent": [
+    "RH18",
+    "RH20"
+  ],
+  "property": {
+    "avgPrice": 500049,
+    "medianPrice": 425000,
+    "priceChange1y": -5.1,
+    "priceChange5y": 0,
+    "transactions12m": 1719,
+    "byType": {
+      "detached": {
+        "avg": 720627,
+        "count": 515
+      },
+      "semi": {
+        "avg": 453329,
+        "count": 377
+      },
+      "terraced": {
+        "avg": 383812,
+        "count": 311
+      },
+      "flat": {
+        "avg": 238526,
+        "count": 440
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 469332
+      },
+      {
+        "year": 2024,
+        "avg": 529692
+      },
+      {
+        "year": 2025,
+        "avg": 502477
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 32.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -59.8,
+    "byType": {
+      "violentCrime": 11.6,
+      "burglary": 1.1,
+      "vehicleCrime": 1.9,
+      "antisocialBehaviour": 7.7,
+      "otherTheft": 4.1,
+      "other": 6.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ashurst Wood Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Estcots Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Meads Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Peter's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Imberhorne School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 166908,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 8,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 332,
+    "avgUpload": 60,
+    "superfastPct": 96,
+    "ultrafastPct": 83,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wealden",
+    "bandD": 2363,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.3,
+    "imdRank": 10272,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RH19 encompasses EAST GRINSTEAD and its surrounding areas in Surrey, South East.",
+    "priceVsCounty": "The average property price in RH19 is £500,049, which is 18% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in RH19 cost 74.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RH19 have fallen 5.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 32.7 recorded crimes per 1,000 residents, RH19 has a crime rate well 60% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RH19 has 15 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RH19 are 332.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RH19 (EAST GRINSTEAD) offers above-average property prices (£500,049, 74% above national average), low crime (60% below national average), 15 nearby schools, and excellent broadband (332 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 332
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 332
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

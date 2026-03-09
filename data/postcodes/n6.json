@@ -1,0 +1,198 @@
+{
+  "code": "N6",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "N5",
+    "N7",
+    "N8"
+  ],
+  "property": {
+    "avgPrice": 1317035,
+    "medianPrice": 763750,
+    "priceChange1y": 6.1,
+    "priceChange5y": 0,
+    "transactions12m": 784,
+    "byType": {
+      "detached": {
+        "avg": 4676636,
+        "count": 55
+      },
+      "semi": {
+        "avg": 2231273,
+        "count": 55
+      },
+      "terraced": {
+        "avg": 1708818,
+        "count": 118
+      },
+      "flat": {
+        "avg": 732001,
+        "count": 505
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1369272
+      },
+      {
+        "year": 2024,
+        "avg": 1257169
+      },
+      {
+        "year": 2025,
+        "avg": 1334331
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 125.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 53.9,
+    "byType": {
+      "violentCrime": 30.5,
+      "burglary": 7.9,
+      "vehicleCrime": 12.3,
+      "antisocialBehaviour": 30.5,
+      "otherTheft": 25.9,
+      "other": 18
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 2,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Highgate Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "St Michael's CofE Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Channing School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Highgate School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Avenue Pre-Preparatory School and Nursery",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 405050,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 13,
+    "privateRent": 30,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 326,
+    "avgUpload": 59,
+    "superfastPct": 99,
+    "ultrafastPct": 83,
+    "gigabitPct": 77,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Barnet",
+    "bandD": 1836,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.1,
+    "imdRank": 13803,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "N6 covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in N6 is £1,317,035, broadly in line with the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in N6 cost 358.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in N6 have risen 6.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 125.1 recorded crimes per 1,000 residents, N6 has a crime rate significantly 54% above the national average of 81.3 per 1,000.",
+    "schoolContext": "N6 has 8 schools within or near its boundaries, including 2 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in N6 are 326.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "N6 (LONDON) offers above-average property prices (£1,317,035, 359% above national average), higher-than-average crime (54% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (326 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 326
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 326
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

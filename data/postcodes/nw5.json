@@ -1,0 +1,198 @@
+{
+  "code": "NW5",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "NW4",
+    "NW6",
+    "NW7"
+  ],
+  "property": {
+    "avgPrice": 939563,
+    "medianPrice": 655000,
+    "priceChange1y": -3.8,
+    "priceChange5y": 0,
+    "transactions12m": 855,
+    "byType": {
+      "detached": {
+        "avg": 2407750,
+        "count": 4
+      },
+      "semi": {
+        "avg": 2420167,
+        "count": 33
+      },
+      "terraced": {
+        "avg": 1552778,
+        "count": 160
+      },
+      "flat": {
+        "avg": 608842,
+        "count": 604
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1007549
+      },
+      {
+        "year": 2024,
+        "avg": 918346
+      },
+      {
+        "year": 2025,
+        "avg": 883226
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 299.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 268.3,
+    "byType": {
+      "violentCrime": 70.2,
+      "burglary": 14.9,
+      "vehicleCrime": 19.9,
+      "antisocialBehaviour": 65.3,
+      "otherTheft": 80,
+      "other": 49.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 3,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Rhyl Community Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Torriano Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eleanor Palmer Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Kentish Town Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Patrick's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 216943,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 14,
+    "socialRent": 34,
+    "privateRent": 33,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 382,
+    "avgUpload": 69,
+    "superfastPct": 98,
+    "ultrafastPct": 95,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Camden",
+    "bandD": 1900,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.1,
+    "imdRank": 16763,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NW5 encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in NW5 is £939,563, which is 28% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in NW5 cost 227.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NW5 have fallen 3.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 299.4 recorded crimes per 1,000 residents, NW5 has a crime rate significantly 268% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NW5 has 14 schools within or near its boundaries, including 3 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NW5 are 382.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NW5 (LONDON) offers above-average property prices (£939,563, 227% above national average), higher-than-average crime (268% above national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (382 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 382
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 382
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

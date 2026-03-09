@@ -1,0 +1,188 @@
+{
+  "code": "NE45",
+  "name": "CORBRIDGE",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "newcastle-upon-tyne",
+  "adjacent": [
+    "NE44",
+    "NE46",
+    "NE47"
+  ],
+  "property": {
+    "avgPrice": 412732,
+    "medianPrice": 399950,
+    "priceChange1y": -5.1,
+    "priceChange5y": 0,
+    "transactions12m": 229,
+    "byType": {
+      "detached": {
+        "avg": 520838,
+        "count": 104
+      },
+      "semi": {
+        "avg": 380675,
+        "count": 45
+      },
+      "terraced": {
+        "avg": 340530,
+        "count": 38
+      },
+      "flat": {
+        "avg": 190313,
+        "count": 28
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 410835
+      },
+      {
+        "year": 2024,
+        "avg": 425969
+      },
+      {
+        "year": 2025,
+        "avg": 404142
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.9,
+      "burglary": 0.2,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.6,
+      "otherTheft": 0.5,
+      "other": 1.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Corbridge (VA) Church of England First School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Corbridge Middle School",
+        "type": "Other",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Cambian Dilston College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 331420,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 18,
+    "privateRent": 14,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 155,
+    "avgUpload": 28,
+    "superfastPct": 92,
+    "ultrafastPct": 30,
+    "gigabitPct": 30,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newcastle Upon Tyne Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.1,
+    "imdRank": 16778,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NE45 covers CORBRIDGE in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in NE45 is £412,732, which is 56% above the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in NE45 cost 43.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NE45 have fallen 5.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, NE45 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NE45 has 3 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NE45 are 155.0 Mbps, with 93% of premises having access to superfast broadband and 58% with full fibre (FTTP) connectivity.",
+    "synthesis": "NE45 (CORBRIDGE) offers above-average property prices (£412,732, 44% above national average), low crime (94% below national average), 3 nearby schools, and excellent broadband (155 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 155
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 155
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

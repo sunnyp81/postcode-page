@@ -1,0 +1,198 @@
+{
+  "code": "CW10",
+  "name": "MIDDLEWICH",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "crewe",
+  "adjacent": [
+    "CW9",
+    "CW11",
+    "CW12"
+  ],
+  "property": {
+    "avgPrice": 322167,
+    "medianPrice": 212841,
+    "priceChange1y": -21.7,
+    "priceChange5y": 0,
+    "transactions12m": 836,
+    "byType": {
+      "detached": {
+        "avg": 336744,
+        "count": 247
+      },
+      "semi": {
+        "avg": 208118,
+        "count": 254
+      },
+      "terraced": {
+        "avg": 177491,
+        "count": 191
+      },
+      "flat": {
+        "avg": 169695,
+        "count": 106
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 368740
+      },
+      {
+        "year": 2024,
+        "avg": 321904
+      },
+      {
+        "year": 2025,
+        "avg": 251907
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 26.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -67.5,
+    "byType": {
+      "violentCrime": 12.2,
+      "burglary": 0.6,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 2.1,
+      "otherTheft": 3.4,
+      "other": 7.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Byley Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Middlewich Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Compass Community Cledford Park",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Middlewich High School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wimboldsley Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 421298,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 12,
+    "privateRent": 14,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 339,
+    "avgUpload": 61,
+    "superfastPct": 92,
+    "ultrafastPct": 84,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Crewe Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.5,
+    "imdRank": 11380,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CW10 encompasses MIDDLEWICH and its surrounding areas in Cheshire, North West.",
+    "priceVsCounty": "The average property price in CW10 is £322,167, broadly in line with the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in CW10 cost 12.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CW10 have fallen 21.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 26.4 recorded crimes per 1,000 residents, CW10 has a crime rate well 68% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CW10 has 7 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CW10 are 339.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CW10 (MIDDLEWICH) offers property prices near the national average (£322,167), low crime (68% below national average), 7 nearby schools, and excellent broadband (339 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 339
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 339
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

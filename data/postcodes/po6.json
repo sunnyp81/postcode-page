@@ -1,0 +1,198 @@
+{
+  "code": "PO6",
+  "name": "PORTSMOUTH",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "portsmouth",
+  "adjacent": [
+    "PO5",
+    "PO7",
+    "PO8"
+  ],
+  "property": {
+    "avgPrice": 360099,
+    "medianPrice": 300000,
+    "priceChange1y": 9,
+    "priceChange5y": 0,
+    "transactions12m": 1349,
+    "byType": {
+      "detached": {
+        "avg": 546633,
+        "count": 160
+      },
+      "semi": {
+        "avg": 343601,
+        "count": 418
+      },
+      "terraced": {
+        "avg": 343584,
+        "count": 496
+      },
+      "flat": {
+        "avg": 194092,
+        "count": 222
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 338689
+      },
+      {
+        "year": 2024,
+        "avg": 354547
+      },
+      {
+        "year": 2025,
+        "avg": 386345
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 71.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -12.4,
+    "byType": {
+      "violentCrime": 32.5,
+      "burglary": 1.9,
+      "vehicleCrime": 2,
+      "antisocialBehaviour": 7.1,
+      "otherTheft": 12.5,
+      "other": 15.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Medina Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Portsdown Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Paul's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "City of Portsmouth College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beacon View Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 214321,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 18,
+    "privateRent": 26,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 365,
+    "avgUpload": 66,
+    "superfastPct": 95,
+    "ultrafastPct": 92,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Portsmouth Council",
+    "bandD": 2319,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.9,
+    "imdRank": 20660,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PO6 covers PORTSMOUTH in Hampshire, South East.",
+    "priceVsCounty": "The average property price in PO6 is £360,099, which is 17% below the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in PO6 cost 25.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PO6 have risen 9.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 71.2 recorded crimes per 1,000 residents, PO6 has a crime rate 12% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PO6 has 15 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PO6 are 365.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PO6 (PORTSMOUTH) offers above-average property prices (£360,099, 25% above national average), 15 nearby schools, and excellent broadband (365 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 365
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 365
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

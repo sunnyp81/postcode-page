@@ -1,0 +1,174 @@
+{
+  "code": "EC3A",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 1920012,
+    "medianPrice": 1900475,
+    "priceChange1y": -8.2,
+    "priceChange5y": 0,
+    "transactions12m": 30,
+    "byType": {
+      "detached": {
+        "avg": 3648023,
+        "count": 0
+      },
+      "semi": {
+        "avg": 2304014,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 1920012,
+        "count": 0
+      },
+      "flat": {
+        "avg": 1910816,
+        "count": 28
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1944897
+      },
+      {
+        "year": 2024,
+        "avg": 1937627
+      },
+      {
+        "year": 2025,
+        "avg": 1778250
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 115.5,
+      "burglary": 25.5,
+      "vehicleCrime": 14,
+      "antisocialBehaviour": 76.7,
+      "otherTheft": 260.2,
+      "other": 83.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 1,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Aldgate School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 223024,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 15,
+    "socialRent": 40,
+    "privateRent": 29,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 55,
+    "avgUpload": 10,
+    "superfastPct": 11,
+    "ultrafastPct": 11,
+    "gigabitPct": 11,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Islington",
+    "bandD": 1815,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.5,
+    "imdRank": 22490,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EC3A covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in EC3A is £1,920,012, which is 47% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in EC3A cost 569.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EC3A have fallen 8.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, EC3A has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "EC3A has 1 school within or near its boundaries, including 1 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EC3A are 55.0 Mbps, with 78% of premises having access to superfast broadband and 30% with full fibre (FTTP) connectivity.",
+    "synthesis": "EC3A (LONDON) offers above-average property prices (£1,920,012, 569% above national average), higher-than-average crime (269% above national average), 1 nearby school, and good broadband connectivity (55 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 55
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 55
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "LE5",
+  "name": "LEICESTER",
+  "county": "leicestershire",
+  "region": "east-midlands",
+  "city": "leicester",
+  "adjacent": [
+    "LE4",
+    "LE6",
+    "LE7"
+  ],
+  "property": {
+    "avgPrice": 284722,
+    "medianPrice": 265000,
+    "priceChange1y": -3.2,
+    "priceChange5y": 0,
+    "transactions12m": 1792,
+    "byType": {
+      "detached": {
+        "avg": 394088,
+        "count": 279
+      },
+      "semi": {
+        "avg": 289608,
+        "count": 665
+      },
+      "terraced": {
+        "avg": 238100,
+        "count": 634
+      },
+      "flat": {
+        "avg": 125174,
+        "count": 146
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 295044
+      },
+      {
+        "year": 2024,
+        "avg": 283925
+      },
+      {
+        "year": 2025,
+        "avg": 274807
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 105.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 29.9,
+    "byType": {
+      "violentCrime": 45.3,
+      "burglary": 3.5,
+      "vehicleCrime": 4.7,
+      "antisocialBehaviour": 14.6,
+      "otherTheft": 10.6,
+      "other": 27
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 45,
+    "outstanding": 1,
+    "good": 13,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Evington Valley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mayflower Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Merrydale Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Linden Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Whitehall Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 388348,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 22,
+    "socialRent": 23,
+    "privateRent": 27,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 390,
+    "avgUpload": 70,
+    "superfastPct": 100,
+    "ultrafastPct": 97,
+    "gigabitPct": 97,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Leicester Council",
+    "bandD": 2251,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 30.9,
+    "imdRank": 22857,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LE5 covers LEICESTER in Leicestershire, East Midlands.",
+    "priceVsCounty": "The average property price in LE5 is £284,722, which is 18% below the Leicestershire average of £348,118.",
+    "priceVsNational": "Property values in LE5 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in LE5 have fallen 3.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 105.6 recorded crimes per 1,000 residents, LE5 has a crime rate significantly 30% above the national average of 81.3 per 1,000.",
+    "schoolContext": "LE5 has 45 schools within or near its boundaries, including 1 rated Outstanding and 13 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LE5 are 390.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LE5 (LEICESTER) offers property prices near the national average (£284,722), higher-than-average crime (30% above national average), 45 nearby schools, and excellent broadband (390 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 348118,
+      "crime": 75,
+      "broadband": 390
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 390
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

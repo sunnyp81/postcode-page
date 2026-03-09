@@ -1,0 +1,198 @@
+{
+  "code": "AL6",
+  "name": "WELWYN",
+  "county": "hertfordshire",
+  "region": "south-east",
+  "city": "st-albans",
+  "adjacent": [
+    "AL5",
+    "AL7",
+    "AL8"
+  ],
+  "property": {
+    "avgPrice": 887954,
+    "medianPrice": 720000,
+    "priceChange1y": 5,
+    "priceChange5y": 0,
+    "transactions12m": 451,
+    "byType": {
+      "detached": {
+        "avg": 998328,
+        "count": 234
+      },
+      "semi": {
+        "avg": 647087,
+        "count": 91
+      },
+      "terraced": {
+        "avg": 536555,
+        "count": 59
+      },
+      "flat": {
+        "avg": 500245,
+        "count": 50
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1097855
+      },
+      {
+        "year": 2024,
+        "avg": 766765
+      },
+      {
+        "year": 2025,
+        "avg": 805467
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 10.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -87,
+    "byType": {
+      "violentCrime": 3.2,
+      "burglary": 0.6,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 2.8,
+      "otherTheft": 2.2,
+      "other": 1.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Tenterfield Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oaklands Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Tewin Cowper Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Welwyn St Mary's Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 137201,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 19,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 121,
+    "avgUpload": 22,
+    "superfastPct": 93,
+    "ultrafastPct": 20,
+    "gigabitPct": 20,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Hertfordshire",
+    "bandD": 2123,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.6,
+    "imdRank": 9430,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "AL6 covers WELWYN in Hertfordshire, South East.",
+    "priceVsCounty": "The average property price in AL6 is £887,954, which is 55% above the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in AL6 cost 209.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in AL6 have risen 5.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 10.6 recorded crimes per 1,000 residents, AL6 has a crime rate well 87% below the national average of 81.3 per 1,000.",
+    "schoolContext": "AL6 has 6 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in AL6 are 121.0 Mbps, with 88% of premises having access to superfast broadband and 48% with full fibre (FTTP) connectivity.",
+    "synthesis": "AL6 (WELWYN) offers above-average property prices (£887,954, 209% above national average), low crime (87% below national average), 6 nearby schools, and excellent broadband (121 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 121
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 121
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "code": "M1",
+  "name": "MANCHESTER",
+  "county": "greater-manchester",
+  "region": "north-west",
+  "city": "manchester",
+  "adjacent": [
+    "M2",
+    "M3"
+  ],
+  "property": {
+    "avgPrice": 447093,
+    "medianPrice": 290000,
+    "priceChange1y": -13.6,
+    "priceChange5y": 0,
+    "transactions12m": 1078,
+    "byType": {
+      "detached": {
+        "avg": 140000,
+        "count": 1
+      },
+      "semi": {
+        "avg": 536512,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 424306,
+        "count": 7
+      },
+      "flat": {
+        "avg": 301542,
+        "count": 1015
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 431318
+      },
+      {
+        "year": 2024,
+        "avg": 467350
+      },
+      {
+        "year": 2025,
+        "avg": 403821
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.6,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.2,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 0,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": []
+  },
+  "demographics": {
+    "population": 589670,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 21,
+    "socialRent": 30,
+    "privateRent": 30,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 312,
+    "avgUpload": 56,
+    "superfastPct": 87,
+    "ultrafastPct": 76,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Manchester",
+    "bandD": 1970,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 40,
+    "imdRank": 26417,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "M1 covers MANCHESTER in Greater Manchester, North West.",
+    "priceVsCounty": "The average property price in M1 is £447,093, which is 17% above the Greater Manchester average of £381,941.",
+    "priceVsNational": "Properties in M1 cost 55.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in M1 have fallen 13.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, M1 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "School data for M1 is not currently available.",
+    "broadbandContext": "Average broadband download speeds in M1 are 312.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "M1 (MANCHESTER) offers above-average property prices (£447,093, 56% above national average), low crime (94% below national average), and excellent broadband (312 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 381941,
+      "crime": 75,
+      "broadband": 312
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 312
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

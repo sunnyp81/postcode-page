@@ -1,0 +1,197 @@
+{
+  "code": "BH17",
+  "name": "POOLE",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "bournemouth",
+  "adjacent": [
+    "BH16",
+    "BH18",
+    "BH19"
+  ],
+  "property": {
+    "avgPrice": 324100,
+    "medianPrice": 315000,
+    "priceChange1y": 2.2,
+    "priceChange5y": 0,
+    "transactions12m": 1007,
+    "byType": {
+      "detached": {
+        "avg": 397546,
+        "count": 337
+      },
+      "semi": {
+        "avg": 322929,
+        "count": 243
+      },
+      "terraced": {
+        "avg": 273508,
+        "count": 274
+      },
+      "flat": {
+        "avg": 178337,
+        "count": 108
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 326045
+      },
+      {
+        "year": 2024,
+        "avg": 319771
+      },
+      {
+        "year": 2025,
+        "avg": 326903
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 40,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -50.8,
+    "byType": {
+      "violentCrime": 14.1,
+      "burglary": 1.5,
+      "vehicleCrime": 1.8,
+      "antisocialBehaviour": 10.6,
+      "otherTheft": 6.6,
+      "other": 5.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 1,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Parkstone Grammar School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Poole Grammar School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Montacute School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Magna Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Longspee Academy",
+        "type": "Other",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 383,
+    "avgUpload": 69,
+    "superfastPct": 100,
+    "ultrafastPct": 95,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bournemouth Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.2,
+    "imdRank": 14820,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BH17 encompasses POOLE and its surrounding areas in Dorset, South West.",
+    "priceVsCounty": "The average property price in BH17 is £324,100, which is 24% below the Dorset average of £425,376.",
+    "priceVsNational": "Properties in BH17 cost 12.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BH17 have risen 2.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 40.0 recorded crimes per 1,000 residents, BH17 has a crime rate well 51% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BH17 has 10 schools within or near its boundaries, including 1 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BH17 are 383.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BH17 (POOLE) offers property prices near the national average (£324,100), low crime (51% below national average), 10 nearby schools, and excellent broadband (383 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 383
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 383
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

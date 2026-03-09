@@ -1,0 +1,197 @@
+{
+  "code": "CA6",
+  "name": "CARLISLE",
+  "county": "cumbria",
+  "region": "north-west",
+  "city": "carlisle",
+  "adjacent": [
+    "CA5",
+    "CA7",
+    "CA8"
+  ],
+  "property": {
+    "avgPrice": 308110,
+    "medianPrice": 240000,
+    "priceChange1y": -7.9,
+    "priceChange5y": 0,
+    "transactions12m": 398,
+    "byType": {
+      "detached": {
+        "avg": 338543,
+        "count": 173
+      },
+      "semi": {
+        "avg": 185541,
+        "count": 92
+      },
+      "terraced": {
+        "avg": 144469,
+        "count": 84
+      },
+      "flat": {
+        "avg": 82908,
+        "count": 3
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 338040
+      },
+      {
+        "year": 2024,
+        "avg": 303228
+      },
+      {
+        "year": 2025,
+        "avg": 279256
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 70.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -13.3,
+    "byType": {
+      "violentCrime": 19,
+      "burglary": 4.6,
+      "vehicleCrime": 7.1,
+      "antisocialBehaviour": 15.5,
+      "otherTheft": 11.3,
+      "other": 13
+    },
+    "source": "synthetic-estimate",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bewcastle School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Irthington Village School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rockcliffe CofE School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Shankhill CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Blackford CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35977,
+    "medianAge": 38,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 152,
+    "avgUpload": 27,
+    "superfastPct": 61,
+    "ultrafastPct": 33,
+    "gigabitPct": 33,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cumberland",
+    "bandD": 2175,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CA6 covers CARLISLE in Cumbria, North West.",
+    "priceVsCounty": "The average property price in CA6 is £308,110, which is 26% above the Cumbria average of £244,524.",
+    "priceVsNational": "Properties in CA6 cost 7.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CA6 have fallen 7.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 70.5 recorded crimes per 1,000 residents, CA6 has a crime rate 13% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CA6 has 8 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CA6 are 152.0 Mbps, with 93% of premises having access to superfast broadband and 57% with full fibre (FTTP) connectivity.",
+    "synthesis": "CA6 (CARLISLE) offers property prices near the national average (£308,110), 8 nearby schools, and excellent broadband (152 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 244524,
+      "crime": 75,
+      "broadband": 152
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 152
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "ofcom",
+      "mhclg",
+      "synthetic-estimates"
+    ]
+  }
+}

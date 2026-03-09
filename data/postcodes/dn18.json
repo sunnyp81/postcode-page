@@ -1,0 +1,198 @@
+{
+  "code": "DN18",
+  "name": "BARTON-UPON-HUMBER",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "doncaster",
+  "adjacent": [
+    "DN17",
+    "DN19",
+    "DN20"
+  ],
+  "property": {
+    "avgPrice": 199486,
+    "medianPrice": 181250,
+    "priceChange1y": 1.5,
+    "priceChange5y": 0,
+    "transactions12m": 660,
+    "byType": {
+      "detached": {
+        "avg": 268910,
+        "count": 264
+      },
+      "semi": {
+        "avg": 168921,
+        "count": 183
+      },
+      "terraced": {
+        "avg": 128073,
+        "count": 173
+      },
+      "flat": {
+        "avg": 88091,
+        "count": 21
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 192720
+      },
+      {
+        "year": 2024,
+        "avg": 201508
+      },
+      {
+        "year": 2025,
+        "avg": 204506
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 18.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -77.6,
+    "byType": {
+      "violentCrime": 7.8,
+      "burglary": 0.7,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 2.1,
+      "otherTheft": 2.7,
+      "other": 4.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "South Ferriby Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bowmandale Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Castledyke Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Barton St Peter's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Baysgarth School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 171336,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 15,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 359,
+    "avgUpload": 65,
+    "superfastPct": 92,
+    "ultrafastPct": 89,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Doncaster Council",
+    "bandD": 2168,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.1,
+    "imdRank": 17200,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DN18 encompasses BARTON-UPON-HUMBER and its surrounding areas in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in DN18 is £199,486, which is 14% below the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in DN18 cost 30.5% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DN18 have risen 1.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 18.2 recorded crimes per 1,000 residents, DN18 has a crime rate well 78% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DN18 has 6 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DN18 are 359.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DN18 (BARTON-UPON-HUMBER) offers affordable property prices (£199,486, 30% below national average), low crime (78% below national average), 6 nearby schools, and excellent broadband (359 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 359
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 359
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

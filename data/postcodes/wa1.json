@@ -1,0 +1,197 @@
+{
+  "code": "WA1",
+  "name": "WARRINGTON",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "warrington",
+  "adjacent": [
+    "WA2",
+    "WA3"
+  ],
+  "property": {
+    "avgPrice": 308229,
+    "medianPrice": 222000,
+    "priceChange1y": -7.8,
+    "priceChange5y": 0,
+    "transactions12m": 1115,
+    "byType": {
+      "detached": {
+        "avg": 368168,
+        "count": 167
+      },
+      "semi": {
+        "avg": 245572,
+        "count": 439
+      },
+      "terraced": {
+        "avg": 171956,
+        "count": 306
+      },
+      "flat": {
+        "avg": 117263,
+        "count": 123
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 334017
+      },
+      {
+        "year": 2024,
+        "avg": 306119
+      },
+      {
+        "year": 2025,
+        "avg": 282164
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 113.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 40,
+    "byType": {
+      "violentCrime": 52.9,
+      "burglary": 2.5,
+      "vehicleCrime": 3,
+      "antisocialBehaviour": 9.1,
+      "otherTheft": 15.1,
+      "other": 31.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Elphin's (Fairfield) CofE Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Woolston CofE Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Oswald's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Peter's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Green Lane Community Special School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 215391,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 15,
+    "privateRent": 14,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 340,
+    "avgUpload": 61,
+    "superfastPct": 98,
+    "ultrafastPct": 85,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Warrington Council",
+    "bandD": 1638,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.9,
+    "imdRank": 14277,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WA1 covers WARRINGTON in Cheshire, North West.",
+    "priceVsCounty": "The average property price in WA1 is £308,229, broadly in line with the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in WA1 cost 7.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WA1 have fallen 7.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 113.8 recorded crimes per 1,000 residents, WA1 has a crime rate significantly 40% above the national average of 81.3 per 1,000.",
+    "schoolContext": "WA1 has 11 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WA1 are 340.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WA1 (WARRINGTON) offers property prices near the national average (£308,229), higher-than-average crime (40% above national average), 11 nearby schools, and excellent broadband (340 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 340
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 340
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

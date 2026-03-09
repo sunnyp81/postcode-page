@@ -1,0 +1,198 @@
+{
+  "code": "WS2",
+  "name": "WALSALL",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "walsall",
+  "adjacent": [
+    "WS1",
+    "WS3",
+    "WS4"
+  ],
+  "property": {
+    "avgPrice": 198072,
+    "medianPrice": 165000,
+    "priceChange1y": -14.3,
+    "priceChange5y": 0,
+    "transactions12m": 1023,
+    "byType": {
+      "detached": {
+        "avg": 277962,
+        "count": 74
+      },
+      "semi": {
+        "avg": 195299,
+        "count": 381
+      },
+      "terraced": {
+        "avg": 148347,
+        "count": 429
+      },
+      "flat": {
+        "avg": 83639,
+        "count": 83
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 188674
+      },
+      {
+        "year": 2024,
+        "avg": 215902
+      },
+      {
+        "year": 2025,
+        "avg": 184983
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 146.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 80.3,
+    "byType": {
+      "violentCrime": 56.9,
+      "burglary": 6.3,
+      "vehicleCrime": 11.8,
+      "antisocialBehaviour": 10.5,
+      "otherTheft": 29.3,
+      "other": 31.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 22,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 2,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Alumwell Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Alumwell Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Alumwell Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "King Charles Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "County Bridge Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 295678,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 24,
+    "privateRent": 15,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 330,
+    "avgUpload": 59,
+    "superfastPct": 98,
+    "ultrafastPct": 80,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Walsall",
+    "bandD": 2261,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 31.6,
+    "imdRank": 22152,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WS2 is the postcode district for WALSALL, located in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in WS2 is £198,072, which is 41% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in WS2 cost 31.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WS2 have fallen 14.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 146.6 recorded crimes per 1,000 residents, WS2 has a crime rate significantly 80% above the national average of 81.3 per 1,000.",
+    "schoolContext": "WS2 has 22 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WS2 are 330.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WS2 (WALSALL) offers affordable property prices (£198,072, 31% below national average), higher-than-average crime (80% above national average), 22 nearby schools, and excellent broadband (330 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 330
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 330
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

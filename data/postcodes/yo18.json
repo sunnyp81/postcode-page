@@ -1,0 +1,196 @@
+{
+  "code": "YO18",
+  "name": "PICKERING",
+  "county": "north-yorkshire",
+  "region": "yorkshire",
+  "city": "york",
+  "adjacent": [
+    "YO17",
+    "YO19"
+  ],
+  "property": {
+    "avgPrice": 317292,
+    "medianPrice": 275000,
+    "priceChange1y": -0.5,
+    "priceChange5y": 0,
+    "transactions12m": 710,
+    "byType": {
+      "detached": {
+        "avg": 402078,
+        "count": 268
+      },
+      "semi": {
+        "avg": 261326,
+        "count": 151
+      },
+      "terraced": {
+        "avg": 251257,
+        "count": 197
+      },
+      "flat": {
+        "avg": 178393,
+        "count": 55
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 322951
+      },
+      {
+        "year": 2024,
+        "avg": 314791
+      },
+      {
+        "year": 2025,
+        "avg": 313290
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.1,
+    "byType": {
+      "violentCrime": 1.7,
+      "burglary": 0.2,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 1.9,
+      "otherTheft": 0.5,
+      "other": 1.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Rosedale Abbey Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Pickering Community Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pickering Community Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Joseph's Catholic Primary School - a Catholic voluntary academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Thornton Dale CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 28133,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 231,
+    "avgUpload": 42,
+    "superfastPct": 76,
+    "ultrafastPct": 54,
+    "gigabitPct": 54,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "York Council",
+    "bandD": 1725,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "YO18 covers PICKERING in North Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in YO18 is £317,292, which is 11% below the North Yorkshire average of £354,925.",
+    "priceVsNational": "Properties in YO18 cost 10.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in YO18 have fallen 0.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.6 recorded crimes per 1,000 residents, YO18 has a crime rate well 93% below the national average of 81.3 per 1,000.",
+    "schoolContext": "YO18 has 6 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in YO18 are 231.0 Mbps, with 99% of premises having access to superfast broadband and 79% with full fibre (FTTP) connectivity.",
+    "synthesis": "YO18 (PICKERING) offers property prices near the national average (£317,292), low crime (93% below national average), 6 nearby schools, and excellent broadband (231 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 354925,
+      "crime": 75,
+      "broadband": 231
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 231
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

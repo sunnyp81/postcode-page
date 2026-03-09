@@ -1,0 +1,171 @@
+{
+  "code": "BD1",
+  "name": "BRADFORD",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "bradford",
+  "adjacent": [
+    "BD2",
+    "BD3"
+  ],
+  "property": {
+    "avgPrice": 156757,
+    "medianPrice": 86500,
+    "priceChange1y": -0.1,
+    "priceChange5y": 0,
+    "transactions12m": 725,
+    "byType": {
+      "detached": {
+        "avg": 297838,
+        "count": 0
+      },
+      "semi": {
+        "avg": 250000,
+        "count": 1
+      },
+      "terraced": {
+        "avg": 143795,
+        "count": 22
+      },
+      "flat": {
+        "avg": 112078,
+        "count": 579
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 221183
+      },
+      {
+        "year": 2024,
+        "avg": 123708
+      },
+      {
+        "year": 2025,
+        "avg": 123524
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 144,
+      "burglary": 11.6,
+      "vehicleCrime": 15.4,
+      "antisocialBehaviour": 26.6,
+      "otherTheft": 55.7,
+      "other": 101.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 0,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": []
+  },
+  "demographics": {
+    "population": 563605,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 278,
+    "avgUpload": 50,
+    "superfastPct": 80,
+    "ultrafastPct": 67,
+    "gigabitPct": 67,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bradford",
+    "bandD": 1956,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 34.7,
+    "imdRank": 23086,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BD1 covers BRADFORD in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in BD1 is £156,757, which is 44% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in BD1 cost 45.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BD1 have fallen 0.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, BD1 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "School data for BD1 is not currently available.",
+    "broadbandContext": "Average broadband download speeds in BD1 are 278.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BD1 (BRADFORD) offers affordable property prices (£156,757, 45% below national average), higher-than-average crime (269% above national average), and excellent broadband (278 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 278
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 278
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

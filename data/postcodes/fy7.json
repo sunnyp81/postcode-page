@@ -1,0 +1,197 @@
+{
+  "code": "FY7",
+  "name": "FLEETWOOD",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "blackpool",
+  "adjacent": [
+    "FY6",
+    "FY8"
+  ],
+  "property": {
+    "avgPrice": 158051,
+    "medianPrice": 125000,
+    "priceChange1y": 2.4,
+    "priceChange5y": 0,
+    "transactions12m": 1117,
+    "byType": {
+      "detached": {
+        "avg": 252802,
+        "count": 144
+      },
+      "semi": {
+        "avg": 160554,
+        "count": 301
+      },
+      "terraced": {
+        "avg": 109579,
+        "count": 554
+      },
+      "flat": {
+        "avg": 78722,
+        "count": 72
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 190890
+      },
+      {
+        "year": 2024,
+        "avg": 142509
+      },
+      {
+        "year": 2025,
+        "avg": 145860
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 90.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 11.3,
+    "byType": {
+      "violentCrime": 33.5,
+      "burglary": 2.3,
+      "vehicleCrime": 1.3,
+      "antisocialBehaviour": 25.9,
+      "otherTheft": 8.5,
+      "other": 18.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Charles Saer Community Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Larkholme Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Shakespeare Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fleetwood Chaucer Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Fleetwood High School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 118743,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 8,
+    "privateRent": 16,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 372,
+    "avgUpload": 67,
+    "superfastPct": 99,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wyre",
+    "bandD": 2152,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.9,
+    "imdRank": 15609,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "FY7 is the postcode district for FLEETWOOD, located in Lancashire, North West.",
+    "priceVsCounty": "The average property price in FY7 is £158,051, which is 38% below the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in FY7 cost 44.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in FY7 have risen 2.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 90.5 recorded crimes per 1,000 residents, FY7 has a crime rate 11% above the national average of 81.3 per 1,000.",
+    "schoolContext": "FY7 has 10 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in FY7 are 372.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "FY7 (FLEETWOOD) offers affordable property prices (£158,051, 45% below national average), 10 nearby schools, and excellent broadband (372 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 372
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 372
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

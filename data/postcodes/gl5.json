@@ -1,0 +1,198 @@
+{
+  "code": "GL5",
+  "name": "STROUD",
+  "county": "gloucestershire",
+  "region": "south-west",
+  "city": "gloucester",
+  "adjacent": [
+    "GL4",
+    "GL6",
+    "GL7"
+  ],
+  "property": {
+    "avgPrice": 380330,
+    "medianPrice": 312500,
+    "priceChange1y": -3.4,
+    "priceChange5y": 0,
+    "transactions12m": 1447,
+    "byType": {
+      "detached": {
+        "avg": 620444,
+        "count": 311
+      },
+      "semi": {
+        "avg": 336277,
+        "count": 480
+      },
+      "terraced": {
+        "avg": 321318,
+        "count": 334
+      },
+      "flat": {
+        "avg": 181080,
+        "count": 227
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 369053
+      },
+      {
+        "year": 2024,
+        "avg": 392102
+      },
+      {
+        "year": 2025,
+        "avg": 378964
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 57.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -29,
+    "byType": {
+      "violentCrime": 16.3,
+      "burglary": 1.5,
+      "vehicleCrime": 2.9,
+      "antisocialBehaviour": 14.6,
+      "otherTheft": 12,
+      "other": 10.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Stroud Valley Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Uplands Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Thrupp School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cashes Green Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rodborough Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 125680,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 12,
+    "privateRent": 12,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 166,
+    "avgUpload": 30,
+    "superfastPct": 93,
+    "ultrafastPct": 33,
+    "gigabitPct": 33,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Stroud",
+    "bandD": 2155,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10.8,
+    "imdRank": 8821,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GL5 encompasses STROUD and its surrounding areas in Gloucestershire, South West.",
+    "priceVsCounty": "The average property price in GL5 is £380,330, which is 14% below the Gloucestershire average of £441,384.",
+    "priceVsNational": "Properties in GL5 cost 32.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GL5 have fallen 3.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 57.7 recorded crimes per 1,000 residents, GL5 has a crime rate well 29% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GL5 has 20 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GL5 are 166.0 Mbps, with 95% of premises having access to superfast broadband and 61% with full fibre (FTTP) connectivity.",
+    "synthesis": "GL5 (STROUD) offers above-average property prices (£380,330, 33% above national average), low crime (29% below national average), 20 nearby schools, and excellent broadband (166 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 441384,
+      "crime": 75,
+      "broadband": 166
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 166
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

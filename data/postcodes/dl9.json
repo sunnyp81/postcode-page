@@ -1,0 +1,197 @@
+{
+  "code": "DL9",
+  "name": "CATTERICK GARRISON",
+  "county": "county-durham",
+  "region": "north-east",
+  "city": "darlington",
+  "adjacent": [
+    "DL8",
+    "DL10",
+    "DL11"
+  ],
+  "property": {
+    "avgPrice": 191982,
+    "medianPrice": 179730,
+    "priceChange1y": -10.1,
+    "priceChange5y": 0,
+    "transactions12m": 418,
+    "byType": {
+      "detached": {
+        "avg": 265843,
+        "count": 79
+      },
+      "semi": {
+        "avg": 178328,
+        "count": 197
+      },
+      "terraced": {
+        "avg": 145221,
+        "count": 116
+      },
+      "flat": {
+        "avg": 94965,
+        "count": 16
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 190786
+      },
+      {
+        "year": 2024,
+        "avg": 202074
+      },
+      {
+        "year": 2025,
+        "avg": 181606
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 17.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -78.7,
+    "byType": {
+      "violentCrime": 7.2,
+      "burglary": 0.4,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 4.5,
+      "otherTheft": 1.9,
+      "other": 3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Colburn Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Catterick Garrison, Le Cateau Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wavell Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hipswell Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Risedale School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 23666,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 58,
+    "socialRent": 21,
+    "privateRent": 21,
+    "economicallyActive": 69,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 331,
+    "avgUpload": 60,
+    "superfastPct": 98,
+    "ultrafastPct": 81,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Darlington Council",
+    "bandD": 2115,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9092,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DL9 covers CATTERICK GARRISON in County Durham, North East.",
+    "priceVsCounty": "The average property price in DL9 is £191,982, which is 7% below the County Durham average of £207,512.",
+    "priceVsNational": "Properties in DL9 cost 33.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DL9 have fallen 10.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 17.3 recorded crimes per 1,000 residents, DL9 has a crime rate well 79% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DL9 has 7 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DL9 are 331.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DL9 (CATTERICK GARRISON) offers affordable property prices (£191,982, 33% below national average), low crime (79% below national average), 7 nearby schools, and excellent broadband (331 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 207512,
+      "crime": 75,
+      "broadband": 331
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 331
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

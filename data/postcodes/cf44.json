@@ -1,0 +1,197 @@
+{
+  "code": "CF44",
+  "name": "ABERDARE",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF43",
+    "CF45",
+    "CF46"
+  ],
+  "property": {
+    "avgPrice": 169452,
+    "medianPrice": 135000,
+    "priceChange1y": 0.7,
+    "priceChange5y": 0,
+    "transactions12m": 1747,
+    "byType": {
+      "detached": {
+        "avg": 302446,
+        "count": 289
+      },
+      "semi": {
+        "avg": 176684,
+        "count": 383
+      },
+      "terraced": {
+        "avg": 116528,
+        "count": 956
+      },
+      "flat": {
+        "avg": 68657,
+        "count": 41
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 162805
+      },
+      {
+        "year": 2024,
+        "avg": 172522
+      },
+      {
+        "year": 2025,
+        "avg": 173670
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 45.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -44,
+    "byType": {
+      "violentCrime": 20.9,
+      "burglary": 0.8,
+      "vehicleCrime": 1.2,
+      "antisocialBehaviour": 6.9,
+      "otherTheft": 3.1,
+      "other": 12.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 23,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Penderyn Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oaklands Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Abernant Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Blaengwawr Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Capcoch Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 58972,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 281,
+    "avgUpload": 51,
+    "superfastPct": 96,
+    "ultrafastPct": 66,
+    "gigabitPct": 66,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF44 is the postcode district for ABERDARE, located in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF44 is £169,452, which is 38% below the Cardiff average of £275,506.",
+    "priceVsNational": "Properties in CF44 cost 41.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CF44 have risen 0.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 45.5 recorded crimes per 1,000 residents, CF44 has a crime rate well 44% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CF44 has 23 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF44 are 281.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF44 (ABERDARE) offers affordable property prices (£169,452, 41% below national average), low crime (44% below national average), 23 nearby schools, and excellent broadband (281 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 281
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 281
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

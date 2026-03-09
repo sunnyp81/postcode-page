@@ -1,0 +1,196 @@
+{
+  "code": "NW11",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "NW10"
+  ],
+  "property": {
+    "avgPrice": 1147585,
+    "medianPrice": 880000,
+    "priceChange1y": -6.7,
+    "priceChange5y": 0,
+    "transactions12m": 978,
+    "byType": {
+      "detached": {
+        "avg": 2503911,
+        "count": 125
+      },
+      "semi": {
+        "avg": 1438811,
+        "count": 309
+      },
+      "terraced": {
+        "avg": 947804,
+        "count": 130
+      },
+      "flat": {
+        "avg": 536914,
+        "count": 358
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1196091
+      },
+      {
+        "year": 2024,
+        "avg": 1151875
+      },
+      {
+        "year": 2025,
+        "avg": 1075170
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 77.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -4.7,
+    "byType": {
+      "violentCrime": 17.2,
+      "burglary": 5,
+      "vehicleCrime": 10.6,
+      "antisocialBehaviour": 16.5,
+      "otherTheft": 15.3,
+      "other": 12.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Brookland Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Brookland Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Garden Suburb Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Garden Suburb Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Menorah Primary School for Girls",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 405050,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 13,
+    "privateRent": 30,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 262,
+    "avgUpload": 47,
+    "superfastPct": 99,
+    "ultrafastPct": 60,
+    "gigabitPct": 60,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Barnet",
+    "bandD": 1836,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.1,
+    "imdRank": 13803,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NW11 encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in NW11 is £1,147,585, which is 12% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in NW11 cost 299.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NW11 have fallen 6.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "NW11 has a crime rate of 77.5 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "NW11 has 15 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NW11 are 262.0 Mbps, with 99% of premises having access to superfast broadband and 87% with full fibre (FTTP) connectivity.",
+    "synthesis": "NW11 (LONDON) offers above-average property prices (£1,147,585, 300% above national average), 15 nearby schools, and excellent broadband (262 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 262
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 262
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "DH6",
+  "name": "DURHAM",
+  "county": "county-durham",
+  "region": "north-east",
+  "city": "durham",
+  "adjacent": [
+    "DH5",
+    "DH7",
+    "DH8"
+  ],
+  "property": {
+    "avgPrice": 142589,
+    "medianPrice": 120000,
+    "priceChange1y": -3.4,
+    "priceChange5y": 0,
+    "transactions12m": 2129,
+    "byType": {
+      "detached": {
+        "avg": 237071,
+        "count": 496
+      },
+      "semi": {
+        "avg": 121466,
+        "count": 799
+      },
+      "terraced": {
+        "avg": 92571,
+        "count": 752
+      },
+      "flat": {
+        "avg": 73563,
+        "count": 16
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 137465
+      },
+      {
+        "year": 2024,
+        "avg": 147676
+      },
+      {
+        "year": 2025,
+        "avg": 142702
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.2,
+      "burglary": 0.2,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.8,
+      "otherTheft": 0.1,
+      "other": 1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Cassop Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Coxhoe Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Pittington Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ludworth Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sherburn Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 538011,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 20,
+    "privateRent": 15,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 277,
+    "avgUpload": 50,
+    "superfastPct": 93,
+    "ultrafastPct": 66,
+    "gigabitPct": 65,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Durham Council",
+    "bandD": 2115,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.8,
+    "imdRank": 20206,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DH6 encompasses DURHAM and its surrounding areas in County Durham, North East.",
+    "priceVsCounty": "The average property price in DH6 is £142,589, which is 31% below the County Durham average of £207,512.",
+    "priceVsNational": "Properties in DH6 cost 50.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DH6 have fallen 3.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, DH6 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DH6 has 15 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DH6 are 277.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DH6 (DURHAM) offers affordable property prices (£142,589, 50% below national average), low crime (94% below national average), 15 nearby schools, and excellent broadband (277 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 207512,
+      "crime": 75,
+      "broadband": 277
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 277
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

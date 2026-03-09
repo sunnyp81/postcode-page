@@ -1,0 +1,198 @@
+{
+  "code": "B74",
+  "name": "SUTTON COLDFIELD",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B73",
+    "B75",
+    "B76"
+  ],
+  "property": {
+    "avgPrice": 481316,
+    "medianPrice": 375000,
+    "priceChange1y": 5.9,
+    "priceChange5y": 0,
+    "transactions12m": 1407,
+    "byType": {
+      "detached": {
+        "avg": 770217,
+        "count": 515
+      },
+      "semi": {
+        "avg": 382520,
+        "count": 413
+      },
+      "terraced": {
+        "avg": 337756,
+        "count": 102
+      },
+      "flat": {
+        "avg": 201413,
+        "count": 342
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 492932
+      },
+      {
+        "year": 2024,
+        "avg": 462582
+      },
+      {
+        "year": 2025,
+        "avg": 490014
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 8.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -89.3,
+    "byType": {
+      "violentCrime": 2.7,
+      "burglary": 1.1,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 0.5,
+      "otherTheft": 2,
+      "other": 1.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Manor Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Anne's Catholic Primary School, Streetly",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Four Oaks Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Streetly Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bishop Vesey's Grammar School",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 342,
+    "avgUpload": 62,
+    "superfastPct": 99,
+    "ultrafastPct": 84,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B74 encompasses SUTTON COLDFIELD and its surrounding areas in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B74 is £481,316, which is 44% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B74 cost 67.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B74 have risen 5.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 8.7 recorded crimes per 1,000 residents, B74 has a crime rate well 89% below the national average of 81.3 per 1,000.",
+    "schoolContext": "B74 has 10 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B74 are 342.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B74 (SUTTON COLDFIELD) offers above-average property prices (£481,316, 68% above national average), low crime (89% below national average), 10 nearby schools, and excellent broadband (342 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 342
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 342
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

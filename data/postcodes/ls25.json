@@ -1,0 +1,198 @@
+{
+  "code": "LS25",
+  "name": "LEEDS",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "leeds",
+  "adjacent": [
+    "LS24",
+    "LS26",
+    "LS27"
+  ],
+  "property": {
+    "avgPrice": 290427,
+    "medianPrice": 250000,
+    "priceChange1y": 10.7,
+    "priceChange5y": 0,
+    "transactions12m": 2420,
+    "byType": {
+      "detached": {
+        "avg": 394353,
+        "count": 763
+      },
+      "semi": {
+        "avg": 238618,
+        "count": 1056
+      },
+      "terraced": {
+        "avg": 192744,
+        "count": 455
+      },
+      "flat": {
+        "avg": 127677,
+        "count": 84
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 287802
+      },
+      {
+        "year": 2024,
+        "avg": 278791
+      },
+      {
+        "year": 2025,
+        "avg": 308496
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 6.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -91.8,
+    "byType": {
+      "violentCrime": 3.1,
+      "burglary": 0.4,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1.2,
+      "otherTheft": 0.4,
+      "other": 1.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 1,
+    "good": 8,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ninelands Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sherburn in Elmet, Athelstan Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Green Lane Primary Academy",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Garforth Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Benedict's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 845189,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 336,
+    "avgUpload": 60,
+    "superfastPct": 95,
+    "ultrafastPct": 82,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Leeds",
+    "bandD": 1968,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.3,
+    "imdRank": 18909,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LS25 is the postcode district for LEEDS, located in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in LS25 is £290,427, broadly in line with the West Yorkshire average of £277,857.",
+    "priceVsNational": "Property values in LS25 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in LS25 have risen 10.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 6.7 recorded crimes per 1,000 residents, LS25 has a crime rate well 92% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LS25 has 17 schools within or near its boundaries, including 1 rated Outstanding and 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LS25 are 336.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LS25 (LEEDS) offers property prices near the national average (£290,427), low crime (92% below national average), 17 nearby schools, and excellent broadband (336 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 336
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 336
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

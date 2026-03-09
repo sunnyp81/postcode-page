@@ -1,0 +1,196 @@
+{
+  "code": "BN27",
+  "name": "HAILSHAM",
+  "county": "east-sussex",
+  "region": "south-east",
+  "city": "brighton",
+  "adjacent": [
+    "BN26"
+  ],
+  "property": {
+    "avgPrice": 392265,
+    "medianPrice": 325000,
+    "priceChange1y": -9.4,
+    "priceChange5y": 0,
+    "transactions12m": 1668,
+    "byType": {
+      "detached": {
+        "avg": 472718,
+        "count": 551
+      },
+      "semi": {
+        "avg": 330274,
+        "count": 563
+      },
+      "terraced": {
+        "avg": 275903,
+        "count": 348
+      },
+      "flat": {
+        "avg": 173831,
+        "count": 114
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 401491
+      },
+      {
+        "year": 2024,
+        "avg": 405042
+      },
+      {
+        "year": 2025,
+        "avg": 366930
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 38.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -52.5,
+    "byType": {
+      "violentCrime": 14.1,
+      "burglary": 0.8,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 9.7,
+      "otherTheft": 5.2,
+      "other": 7.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 2,
+    "nearest": [
+      {
+        "name": "Park Mead Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Herstmonceux Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bede's Senior School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hawkes Farm Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "White House Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 166908,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 8,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 233,
+    "avgUpload": 42,
+    "superfastPct": 96,
+    "ultrafastPct": 52,
+    "gigabitPct": 52,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wealden",
+    "bandD": 2363,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.3,
+    "imdRank": 10272,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BN27 covers HAILSHAM in East Sussex, South East.",
+    "priceVsCounty": "The average property price in BN27 is £392,265, which is 14% below the East Sussex average of £455,819.",
+    "priceVsNational": "Properties in BN27 cost 36.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BN27 have fallen 9.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 38.6 recorded crimes per 1,000 residents, BN27 has a crime rate well 53% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BN27 has 11 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BN27 are 233.0 Mbps, with 99% of premises having access to superfast broadband and 79% with full fibre (FTTP) connectivity.",
+    "synthesis": "BN27 (HAILSHAM) offers above-average property prices (£392,265, 37% above national average), low crime (53% below national average), 11 nearby schools, and excellent broadband (233 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 455819,
+      "crime": 75,
+      "broadband": 233
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 233
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

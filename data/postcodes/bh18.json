@@ -1,0 +1,192 @@
+{
+  "code": "BH18",
+  "name": "BROADSTONE",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "bournemouth",
+  "adjacent": [
+    "BH17",
+    "BH19",
+    "BH20"
+  ],
+  "property": {
+    "avgPrice": 526882,
+    "medianPrice": 485000,
+    "priceChange1y": 2.3,
+    "priceChange5y": 0,
+    "transactions12m": 554,
+    "byType": {
+      "detached": {
+        "avg": 582602,
+        "count": 409
+      },
+      "semi": {
+        "avg": 426375,
+        "count": 48
+      },
+      "terraced": {
+        "avg": 363360,
+        "count": 5
+      },
+      "flat": {
+        "avg": 304254,
+        "count": 81
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 542629
+      },
+      {
+        "year": 2024,
+        "avg": 513300
+      },
+      {
+        "year": 2025,
+        "avg": 525126
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 17.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -78.8,
+    "byType": {
+      "violentCrime": 7.4,
+      "burglary": 0.9,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 4.1,
+      "otherTheft": 1.7,
+      "other": 2.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Corfe Hills School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Broadstone Middle School",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Broadstone First School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Springdale First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 341,
+    "avgUpload": 61,
+    "superfastPct": 99,
+    "ultrafastPct": 83,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bournemouth Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.7,
+    "imdRank": 13227,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BH18 covers BROADSTONE in Dorset, South West.",
+    "priceVsCounty": "The average property price in BH18 is £526,882, which is 24% above the Dorset average of £425,376.",
+    "priceVsNational": "Properties in BH18 cost 83.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BH18 have risen 2.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 17.2 recorded crimes per 1,000 residents, BH18 has a crime rate well 79% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BH18 has 4 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BH18 are 341.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BH18 (BROADSTONE) offers above-average property prices (£526,882, 84% above national average), low crime (79% below national average), 4 nearby schools, and excellent broadband (341 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 341
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 341
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

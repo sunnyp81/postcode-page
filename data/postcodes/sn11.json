@@ -1,0 +1,198 @@
+{
+  "code": "SN11",
+  "name": "CALNE",
+  "county": "wiltshire",
+  "region": "south-west",
+  "city": "swindon",
+  "adjacent": [
+    "SN10",
+    "SN12",
+    "SN13"
+  ],
+  "property": {
+    "avgPrice": 325330,
+    "medianPrice": 275000,
+    "priceChange1y": -6.5,
+    "priceChange5y": 0,
+    "transactions12m": 1264,
+    "byType": {
+      "detached": {
+        "avg": 468444,
+        "count": 338
+      },
+      "semi": {
+        "avg": 291495,
+        "count": 337
+      },
+      "terraced": {
+        "avg": 245524,
+        "count": 378
+      },
+      "flat": {
+        "avg": 159445,
+        "count": 169
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 299829
+      },
+      {
+        "year": 2024,
+        "avg": 347256
+      },
+      {
+        "year": 2025,
+        "avg": 324562
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 30.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -62.5,
+    "byType": {
+      "violentCrime": 13.7,
+      "burglary": 0.3,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 6.2,
+      "otherTheft": 2.5,
+      "other": 7.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hilmarton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Priestley Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Cherhill CofE School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Heddington Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Derry Hill Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 523700,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 291,
+    "avgUpload": 52,
+    "superfastPct": 91,
+    "ultrafastPct": 71,
+    "gigabitPct": 69,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swindon Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.4,
+    "imdRank": 11265,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SN11 is the postcode district for CALNE, located in Wiltshire, South West.",
+    "priceVsCounty": "The average property price in SN11 is £325,330, which is 18% below the Wiltshire average of £397,459.",
+    "priceVsNational": "Properties in SN11 cost 13.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SN11 have fallen 6.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 30.5 recorded crimes per 1,000 residents, SN11 has a crime rate well 62% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SN11 has 12 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SN11 are 291.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SN11 (CALNE) offers property prices near the national average (£325,330), low crime (62% below national average), 12 nearby schools, and excellent broadband (291 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 397459,
+      "crime": 75,
+      "broadband": 291
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 291
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

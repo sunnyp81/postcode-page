@@ -1,0 +1,198 @@
+{
+  "code": "RH4",
+  "name": "DORKING",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "redhill",
+  "adjacent": [
+    "RH3",
+    "RH5",
+    "RH6"
+  ],
+  "property": {
+    "avgPrice": 588774,
+    "medianPrice": 450000,
+    "priceChange1y": 12.3,
+    "priceChange5y": 0,
+    "transactions12m": 740,
+    "byType": {
+      "detached": {
+        "avg": 1005091,
+        "count": 121
+      },
+      "semi": {
+        "avg": 586230,
+        "count": 157
+      },
+      "terraced": {
+        "avg": 487482,
+        "count": 173
+      },
+      "flat": {
+        "avg": 301678,
+        "count": 221
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 588804
+      },
+      {
+        "year": 2024,
+        "avg": 557315
+      },
+      {
+        "year": 2025,
+        "avg": 626086
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 34.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -57.9,
+    "byType": {
+      "violentCrime": 11.8,
+      "burglary": 2,
+      "vehicleCrime": 1.4,
+      "antisocialBehaviour": 4.6,
+      "otherTheft": 5.1,
+      "other": 9.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Dorking Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Joseph's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Ashcombe School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Surrey Hills All Saints Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 88709,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 12,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 330,
+    "avgUpload": 59,
+    "superfastPct": 97,
+    "ultrafastPct": 80,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Mole Valley",
+    "bandD": 2194,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 9.5,
+    "imdRank": 7447,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RH4 encompasses DORKING and its surrounding areas in Surrey, South East.",
+    "priceVsCounty": "The average property price in RH4 is £588,774, broadly in line with the Surrey average of £612,978.",
+    "priceVsNational": "Properties in RH4 cost 105.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RH4 have risen 12.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 34.2 recorded crimes per 1,000 residents, RH4 has a crime rate well 58% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RH4 has 9 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RH4 are 330.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RH4 (DORKING) offers above-average property prices (£588,774, 105% above national average), low crime (58% below national average), 9 nearby schools, and excellent broadband (330 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 330
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 330
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

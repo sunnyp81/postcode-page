@@ -1,0 +1,196 @@
+{
+  "code": "CH49",
+  "name": "WIRRAL",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "chester",
+  "adjacent": [
+    "CH48"
+  ],
+  "property": {
+    "avgPrice": 244678,
+    "medianPrice": 227250,
+    "priceChange1y": -0.5,
+    "priceChange5y": 0,
+    "transactions12m": 1206,
+    "byType": {
+      "detached": {
+        "avg": 348604,
+        "count": 311
+      },
+      "semi": {
+        "avg": 243759,
+        "count": 556
+      },
+      "terraced": {
+        "avg": 158386,
+        "count": 215
+      },
+      "flat": {
+        "avg": 110168,
+        "count": 104
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 240128
+      },
+      {
+        "year": 2024,
+        "avg": 247137
+      },
+      {
+        "year": 2025,
+        "avg": 245995
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 45,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -44.6,
+    "byType": {
+      "violentCrime": 19.6,
+      "burglary": 1.6,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 5.8,
+      "otherTheft": 4.7,
+      "other": 12.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 2,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Ganneys Meadow Nursery School and Family Centre",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Greasby Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fender Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Overchurch Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Joseph's Catholic Primary School Upton",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 328873,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 15,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 382,
+    "avgUpload": 69,
+    "superfastPct": 99,
+    "ultrafastPct": 95,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wirral",
+    "bandD": 2158,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 29.6,
+    "imdRank": 19585,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CH49 encompasses WIRRAL and its surrounding areas in Cheshire, North West.",
+    "priceVsCounty": "The average property price in CH49 is £244,678, which is 21% below the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in CH49 cost 14.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CH49 have fallen 0.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 45.0 recorded crimes per 1,000 residents, CH49 has a crime rate well 45% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CH49 has 17 schools within or near its boundaries, including 2 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CH49 are 382.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CH49 (WIRRAL) offers property prices near the national average (£244,678), low crime (45% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (382 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 382
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 382
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

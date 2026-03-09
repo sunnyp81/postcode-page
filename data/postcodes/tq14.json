@@ -1,0 +1,196 @@
+{
+  "code": "TQ14",
+  "name": "TEIGNMOUTH",
+  "county": "devon",
+  "region": "south-west",
+  "city": "torquay",
+  "adjacent": [
+    "TQ13"
+  ],
+  "property": {
+    "avgPrice": 349403,
+    "medianPrice": 315000,
+    "priceChange1y": 0.5,
+    "priceChange5y": 0,
+    "transactions12m": 1055,
+    "byType": {
+      "detached": {
+        "avg": 493758,
+        "count": 372
+      },
+      "semi": {
+        "avg": 332814,
+        "count": 135
+      },
+      "terraced": {
+        "avg": 286603,
+        "count": 227
+      },
+      "flat": {
+        "avg": 213205,
+        "count": 275
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 345909
+      },
+      {
+        "year": 2024,
+        "avg": 350448
+      },
+      {
+        "year": 2025,
+        "avg": 352222
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 33.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -58.3,
+    "byType": {
+      "violentCrime": 14.9,
+      "burglary": 0.8,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 5.5,
+      "otherTheft": 5.1,
+      "other": 6.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bishopsteignton School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hazeldown School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Trinity School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Teignmouth Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Teignmouth Community School, Exeter Road",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 138548,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 10,
+    "privateRent": 16,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 341,
+    "avgUpload": 61,
+    "superfastPct": 99,
+    "ultrafastPct": 83,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Teignbridge",
+    "bandD": 2279,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.9,
+    "imdRank": 13686,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TQ14 encompasses TEIGNMOUTH and its surrounding areas in Devon, South West.",
+    "priceVsCounty": "The average property price in TQ14 is £349,403, which is 9% below the Devon average of £385,452.",
+    "priceVsNational": "Properties in TQ14 cost 21.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TQ14 have risen 0.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 33.9 recorded crimes per 1,000 residents, TQ14 has a crime rate well 58% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TQ14 has 7 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TQ14 are 341.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TQ14 (TEIGNMOUTH) offers above-average property prices (£349,403, 22% above national average), low crime (58% below national average), 7 nearby schools, and excellent broadband (341 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 341
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 341
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

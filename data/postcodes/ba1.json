@@ -1,0 +1,197 @@
+{
+  "code": "BA1",
+  "name": "BATH",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "bath",
+  "adjacent": [
+    "BA2",
+    "BA3"
+  ],
+  "property": {
+    "avgPrice": 630589,
+    "medianPrice": 456000,
+    "priceChange1y": -8.5,
+    "priceChange5y": 0,
+    "transactions12m": 2168,
+    "byType": {
+      "detached": {
+        "avg": 1045220,
+        "count": 275
+      },
+      "semi": {
+        "avg": 651967,
+        "count": 329
+      },
+      "terraced": {
+        "avg": 598223,
+        "count": 615
+      },
+      "flat": {
+        "avg": 369384,
+        "count": 819
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 715735
+      },
+      {
+        "year": 2024,
+        "avg": 613455
+      },
+      {
+        "year": 2025,
+        "avg": 561029
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 126.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 55.1,
+    "byType": {
+      "violentCrime": 39.6,
+      "burglary": 4.7,
+      "vehicleCrime": 4.7,
+      "antisocialBehaviour": 21.3,
+      "otherTheft": 32.3,
+      "other": 23.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 1,
+    "good": 7,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Kingswood School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Royal High School GDST",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kingswood Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bath College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Newbridge Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 200028,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 14,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 176,
+    "avgUpload": 32,
+    "superfastPct": 87,
+    "ultrafastPct": 46,
+    "gigabitPct": 33,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bath Council",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BA1 covers BATH in Somerset, South West.",
+    "priceVsCounty": "The average property price in BA1 is £630,589, which is 69% above the Somerset average of £373,759.",
+    "priceVsNational": "Properties in BA1 cost 119.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BA1 have fallen 8.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 126.1 recorded crimes per 1,000 residents, BA1 has a crime rate significantly 55% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BA1 has 17 schools within or near its boundaries, including 1 rated Outstanding and 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BA1 are 176.0 Mbps, with 96% of premises having access to superfast broadband and 63% with full fibre (FTTP) connectivity.",
+    "synthesis": "BA1 (BATH) offers above-average property prices (£630,589, 120% above national average), higher-than-average crime (55% above national average), 17 nearby schools, and excellent broadband (176 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 176
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 176
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

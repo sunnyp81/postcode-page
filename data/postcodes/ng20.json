@@ -1,0 +1,198 @@
+{
+  "code": "NG20",
+  "name": "MANSFIELD",
+  "county": "nottinghamshire",
+  "region": "east-midlands",
+  "city": "nottingham",
+  "adjacent": [
+    "NG19",
+    "NG21",
+    "NG22"
+  ],
+  "property": {
+    "avgPrice": 191734,
+    "medianPrice": 155397,
+    "priceChange1y": -12.4,
+    "priceChange5y": 0,
+    "transactions12m": 1247,
+    "byType": {
+      "detached": {
+        "avg": 279775,
+        "count": 297
+      },
+      "semi": {
+        "avg": 159577,
+        "count": 516
+      },
+      "terraced": {
+        "avg": 123831,
+        "count": 382
+      },
+      "flat": {
+        "avg": 65885,
+        "count": 13
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 200733
+      },
+      {
+        "year": 2024,
+        "avg": 198590
+      },
+      {
+        "year": 2025,
+        "avg": 173995
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 2.5,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.8,
+      "otherTheft": 0.4,
+      "other": 1.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Brookfield Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "The Park Infant & Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Park Junior School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Hetts Lane Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eastlands Junior School (Welbeck Federation of Schools)",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 124937,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 15,
+    "privateRent": 14,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 262,
+    "avgUpload": 47,
+    "superfastPct": 94,
+    "ultrafastPct": 68,
+    "gigabitPct": 58,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bassetlaw",
+    "bandD": 2317,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.6,
+    "imdRank": 17877,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NG20 is the postcode district for MANSFIELD, located in Nottinghamshire, East Midlands.",
+    "priceVsCounty": "The average property price in NG20 is £191,734, which is 72% below the Nottinghamshire average of £678,596.",
+    "priceVsNational": "Properties in NG20 cost 33.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NG20 have fallen 12.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, NG20 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NG20 has 17 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NG20 are 262.0 Mbps, with 99% of premises having access to superfast broadband and 87% with full fibre (FTTP) connectivity.",
+    "synthesis": "NG20 (MANSFIELD) offers affordable property prices (£191,734, 33% below national average), low crime (94% below national average), 17 nearby schools, and excellent broadband (262 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 678596,
+      "crime": 75,
+      "broadband": 262
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 262
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

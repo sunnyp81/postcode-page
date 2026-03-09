@@ -1,0 +1,198 @@
+{
+  "code": "TN17",
+  "name": "CRANBROOK",
+  "county": "kent",
+  "region": "south-east",
+  "city": "tunbridge-wells",
+  "adjacent": [
+    "TN16",
+    "TN18",
+    "TN19"
+  ],
+  "property": {
+    "avgPrice": 611310,
+    "medianPrice": 445000,
+    "priceChange1y": -12,
+    "priceChange5y": 0,
+    "transactions12m": 568,
+    "byType": {
+      "detached": {
+        "avg": 850651,
+        "count": 183
+      },
+      "semi": {
+        "avg": 444320,
+        "count": 177
+      },
+      "terraced": {
+        "avg": 358898,
+        "count": 106
+      },
+      "flat": {
+        "avg": 251285,
+        "count": 40
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 644348
+      },
+      {
+        "year": 2024,
+        "avg": 625041
+      },
+      {
+        "year": 2025,
+        "avg": 549786
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 11.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -85.4,
+    "byType": {
+      "violentCrime": 3.4,
+      "burglary": 0.2,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 2.1,
+      "otherTheft": 2.9,
+      "other": 3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Benenden Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cranbrook Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Goudhurst and Kilndown Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Frittenden Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Colliers Green Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 187767,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 280,
+    "avgUpload": 50,
+    "superfastPct": 86,
+    "ultrafastPct": 67,
+    "gigabitPct": 67,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Maidstone",
+    "bandD": 2190,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.5,
+    "imdRank": 13639,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TN17 encompasses CRANBROOK and its surrounding areas in Kent, South East.",
+    "priceVsCounty": "The average property price in TN17 is £611,310, which is 36% above the Kent average of £450,882.",
+    "priceVsNational": "Properties in TN17 cost 113.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TN17 have fallen 12.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 11.9 recorded crimes per 1,000 residents, TN17 has a crime rate well 85% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TN17 has 11 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TN17 are 280.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TN17 (CRANBROOK) offers above-average property prices (£611,310, 113% above national average), low crime (85% below national average), 11 nearby schools, and excellent broadband (280 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 280
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 280
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

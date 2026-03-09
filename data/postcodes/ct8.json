@@ -1,0 +1,188 @@
+{
+  "code": "CT8",
+  "name": "WESTGATE-ON-SEA",
+  "county": "kent",
+  "region": "south-east",
+  "city": "canterbury",
+  "adjacent": [
+    "CT7",
+    "CT9",
+    "CT10"
+  ],
+  "property": {
+    "avgPrice": 302269,
+    "medianPrice": 267400,
+    "priceChange1y": -3.2,
+    "priceChange5y": 0,
+    "transactions12m": 436,
+    "byType": {
+      "detached": {
+        "avg": 450132,
+        "count": 38
+      },
+      "semi": {
+        "avg": 334215,
+        "count": 60
+      },
+      "terraced": {
+        "avg": 324135,
+        "count": 129
+      },
+      "flat": {
+        "avg": 202092,
+        "count": 192
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 331859
+      },
+      {
+        "year": 2024,
+        "avg": 294151
+      },
+      {
+        "year": 2025,
+        "avg": 284756
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 24.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -69.7,
+    "byType": {
+      "violentCrime": 11.6,
+      "burglary": 0.3,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 3.7,
+      "otherTheft": 3,
+      "other": 5.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Saviour's Church of England Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ursuline College",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Crispin's Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 142691,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 12,
+    "privateRent": 24,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 341,
+    "avgUpload": 61,
+    "superfastPct": 100,
+    "ultrafastPct": 83,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Thanet",
+    "bandD": 2173,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 31.3,
+    "imdRank": 21985,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CT8 covers WESTGATE-ON-SEA in Kent, South East.",
+    "priceVsCounty": "The average property price in CT8 is £302,269, which is 33% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in CT8 cost 5.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CT8 have fallen 3.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 24.6 recorded crimes per 1,000 residents, CT8 has a crime rate well 70% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CT8 has 3 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CT8 are 341.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CT8 (WESTGATE-ON-SEA) offers property prices near the national average (£302,269), low crime (70% below national average), 3 nearby schools, and excellent broadband (341 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 341
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 341
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

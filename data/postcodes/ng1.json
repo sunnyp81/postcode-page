@@ -1,0 +1,197 @@
+{
+  "code": "NG1",
+  "name": "NOTTINGHAM",
+  "county": "nottinghamshire",
+  "region": "east-midlands",
+  "city": "nottingham",
+  "adjacent": [
+    "NG2",
+    "NG3"
+  ],
+  "property": {
+    "avgPrice": 546545,
+    "medianPrice": 170000,
+    "priceChange1y": -36.6,
+    "priceChange5y": 0,
+    "transactions12m": 548,
+    "byType": {
+      "detached": {
+        "avg": 1007143,
+        "count": 7
+      },
+      "semi": {
+        "avg": 263833,
+        "count": 6
+      },
+      "terraced": {
+        "avg": 308197,
+        "count": 38
+      },
+      "flat": {
+        "avg": 149265,
+        "count": 347
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 736525
+      },
+      {
+        "year": 2024,
+        "avg": 513344
+      },
+      {
+        "year": 2025,
+        "avg": 325481
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 137.2,
+      "burglary": 14.7,
+      "vehicleCrime": 20.1,
+      "antisocialBehaviour": 84.2,
+      "otherTheft": 125.5,
+      "other": 99.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Joseph's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Nottingham Girls' High School GDST",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Nottingham College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Nottingham Trent University",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sutherland House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 331077,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 23,
+    "socialRent": 26,
+    "privateRent": 27,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 253,
+    "avgUpload": 46,
+    "superfastPct": 75,
+    "ultrafastPct": 64,
+    "gigabitPct": 59,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Nottingham Council",
+    "bandD": 2285,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 34.9,
+    "imdRank": 24458,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NG1 covers NOTTINGHAM in Nottinghamshire, East Midlands.",
+    "priceVsCounty": "The average property price in NG1 is £546,545, which is 19% below the Nottinghamshire average of £678,596.",
+    "priceVsNational": "Properties in NG1 cost 90.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NG1 have fallen 36.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, NG1 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NG1 has 6 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NG1 are 253.0 Mbps, with 99% of premises having access to superfast broadband and 85% with full fibre (FTTP) connectivity.",
+    "synthesis": "NG1 (NOTTINGHAM) offers above-average property prices (£546,545, 90% above national average), higher-than-average crime (269% above national average), 6 nearby schools, and excellent broadband (253 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 678596,
+      "crime": 75,
+      "broadband": 253
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 253
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

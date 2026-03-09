@@ -1,0 +1,198 @@
+{
+  "code": "CM12",
+  "name": "BILLERICAY",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "chelmsford",
+  "adjacent": [
+    "CM11",
+    "CM13",
+    "CM14"
+  ],
+  "property": {
+    "avgPrice": 546395,
+    "medianPrice": 475000,
+    "priceChange1y": 3.5,
+    "priceChange5y": 0,
+    "transactions12m": 920,
+    "byType": {
+      "detached": {
+        "avg": 757035,
+        "count": 274
+      },
+      "semi": {
+        "avg": 488785,
+        "count": 318
+      },
+      "terraced": {
+        "avg": 375843,
+        "count": 140
+      },
+      "flat": {
+        "avg": 244884,
+        "count": 155
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 522991
+      },
+      {
+        "year": 2024,
+        "avg": 548327
+      },
+      {
+        "year": 2025,
+        "avg": 567551
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 29.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -63.7,
+    "byType": {
+      "violentCrime": 9.2,
+      "burglary": 1.4,
+      "vehicleCrime": 2.6,
+      "antisocialBehaviour": 2.4,
+      "otherTheft": 7.8,
+      "other": 6.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 1,
+    "good": 0,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Quilters Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Quilters Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "South Green Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brightside Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 79326,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 11,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 334,
+    "avgUpload": 60,
+    "superfastPct": 98,
+    "ultrafastPct": 81,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Brentwood",
+    "bandD": 1989,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10,
+    "imdRank": 8058,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CM12 covers BILLERICAY in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CM12 is £546,395, which is 27% above the Essex average of £429,754.",
+    "priceVsNational": "Properties in CM12 cost 90.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CM12 have risen 3.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 29.5 recorded crimes per 1,000 residents, CM12 has a crime rate well 64% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CM12 has 8 schools within or near its boundaries, including 1 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CM12 are 334.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CM12 (BILLERICAY) offers above-average property prices (£546,395, 90% above national average), low crime (64% below national average), 8 nearby schools, and excellent broadband (334 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 334
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 334
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

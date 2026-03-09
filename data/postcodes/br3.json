@@ -1,0 +1,198 @@
+{
+  "code": "BR3",
+  "name": "BECKENHAM",
+  "county": "greater-london",
+  "region": "london",
+  "city": "bromley",
+  "adjacent": [
+    "BR2",
+    "BR4",
+    "BR5"
+  ],
+  "property": {
+    "avgPrice": 601302,
+    "medianPrice": 512500,
+    "priceChange1y": -5.9,
+    "priceChange5y": 0,
+    "transactions12m": 2399,
+    "byType": {
+      "detached": {
+        "avg": 1188111,
+        "count": 238
+      },
+      "semi": {
+        "avg": 808997,
+        "count": 395
+      },
+      "terraced": {
+        "avg": 629387,
+        "count": 611
+      },
+      "flat": {
+        "avg": 354654,
+        "count": 1076
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 618671
+      },
+      {
+        "year": 2024,
+        "avg": 609019
+      },
+      {
+        "year": 2025,
+        "avg": 573309
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 56.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -30.5,
+    "byType": {
+      "violentCrime": 14.9,
+      "burglary": 3.1,
+      "vehicleCrime": 7.3,
+      "antisocialBehaviour": 11.4,
+      "otherTheft": 10.7,
+      "other": 9.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 2,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Christophers The Hall School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Langley Park School for Boys",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Langley Park School for Girls",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Harris Academy Beckenham",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Balgowan Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 335319,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 13,
+    "privateRent": 16,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 340,
+    "avgUpload": 61,
+    "superfastPct": 99,
+    "ultrafastPct": 85,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bromley",
+    "bandD": 1842,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.2,
+    "imdRank": 11297,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BR3 is the postcode district for BECKENHAM, located in Greater London, London.",
+    "priceVsCounty": "The average property price in BR3 is £601,302, which is 54% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in BR3 cost 109.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BR3 have fallen 5.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 56.5 recorded crimes per 1,000 residents, BR3 has a crime rate well 31% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BR3 has 19 schools within or near its boundaries, including 2 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BR3 are 340.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BR3 (BECKENHAM) offers above-average property prices (£601,302, 110% above national average), low crime (31% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (340 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 340
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 340
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

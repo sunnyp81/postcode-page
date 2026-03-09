@@ -1,0 +1,188 @@
+{
+  "code": "TR10",
+  "name": "PENRYN",
+  "county": "cornwall",
+  "region": "south-west",
+  "city": "truro",
+  "adjacent": [
+    "TR9",
+    "TR11",
+    "TR12"
+  ],
+  "property": {
+    "avgPrice": 325569,
+    "medianPrice": 270000,
+    "priceChange1y": 5.6,
+    "priceChange5y": 0,
+    "transactions12m": 516,
+    "byType": {
+      "detached": {
+        "avg": 473838,
+        "count": 137
+      },
+      "semi": {
+        "avg": 292290,
+        "count": 94
+      },
+      "terraced": {
+        "avg": 256528,
+        "count": 154
+      },
+      "flat": {
+        "avg": 188128,
+        "count": 87
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 326474
+      },
+      {
+        "year": 2024,
+        "avg": 317220
+      },
+      {
+        "year": 2025,
+        "avg": 334923
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 21.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -74,
+    "byType": {
+      "violentCrime": 7.4,
+      "burglary": 0.4,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 3.2,
+      "otherTheft": 4.9,
+      "other": 5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Penryn College",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Penryn Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Mabe Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 583289,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 242,
+    "avgUpload": 44,
+    "superfastPct": 85,
+    "ultrafastPct": 56,
+    "gigabitPct": 56,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Truro Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.1,
+    "imdRank": 19382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TR10 encompasses PENRYN and its surrounding areas in Cornwall, South West.",
+    "priceVsCounty": "The average property price in TR10 is £325,569, which is 19% below the Cornwall average of £402,222.",
+    "priceVsNational": "Properties in TR10 cost 13.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TR10 have risen 5.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 21.1 recorded crimes per 1,000 residents, TR10 has a crime rate well 74% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TR10 has 3 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TR10 are 242.0 Mbps, with 99% of premises having access to superfast broadband and 82% with full fibre (FTTP) connectivity.",
+    "synthesis": "TR10 (PENRYN) offers property prices near the national average (£325,569), low crime (74% below national average), 3 nearby schools, and excellent broadband (242 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 402222,
+      "crime": 75,
+      "broadband": 242
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 242
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

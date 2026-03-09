@@ -1,0 +1,198 @@
+{
+  "code": "GU24",
+  "name": "WOKING",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU23",
+    "GU25",
+    "GU26"
+  ],
+  "property": {
+    "avgPrice": 667254,
+    "medianPrice": 550000,
+    "priceChange1y": -7.5,
+    "priceChange5y": 0,
+    "transactions12m": 632,
+    "byType": {
+      "detached": {
+        "avg": 868291,
+        "count": 257
+      },
+      "semi": {
+        "avg": 544574,
+        "count": 206
+      },
+      "terraced": {
+        "avg": 413404,
+        "count": 106
+      },
+      "flat": {
+        "avg": 272179,
+        "count": 39
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 667364
+      },
+      {
+        "year": 2024,
+        "avg": 690453
+      },
+      {
+        "year": 2025,
+        "avg": 638732
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 18.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -77,
+    "byType": {
+      "violentCrime": 6.5,
+      "burglary": 0.3,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 2.7,
+      "otherTheft": 2.3,
+      "other": 6.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bisley CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Coworth-Flexlands School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Knowl Hill School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lift Wishmore",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gordon's School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 94492,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 10,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 203,
+    "avgUpload": 37,
+    "superfastPct": 91,
+    "ultrafastPct": 47,
+    "gigabitPct": 43,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Surrey Heath",
+    "bandD": 2248,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.1,
+    "imdRank": 5859,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU24 covers WOKING in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU24 is £667,254, which is 9% above the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU24 cost 132.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU24 have fallen 7.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 18.7 recorded crimes per 1,000 residents, GU24 has a crime rate well 77% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU24 has 10 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU24 are 203.0 Mbps, with 99% of premises having access to superfast broadband and 71% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU24 (WOKING) offers above-average property prices (£667,254, 132% above national average), low crime (77% below national average), 10 nearby schools, and excellent broadband (203 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 203
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 203
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

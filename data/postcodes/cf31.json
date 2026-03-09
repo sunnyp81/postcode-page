@@ -1,0 +1,196 @@
+{
+  "code": "CF31",
+  "name": "BRIDGEND",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF32",
+    "CF33"
+  ],
+  "property": {
+    "avgPrice": 237826,
+    "medianPrice": 219950,
+    "priceChange1y": 2,
+    "priceChange5y": 0,
+    "transactions12m": 2019,
+    "byType": {
+      "detached": {
+        "avg": 321691,
+        "count": 578
+      },
+      "semi": {
+        "avg": 219677,
+        "count": 830
+      },
+      "terraced": {
+        "avg": 174685,
+        "count": 469
+      },
+      "flat": {
+        "avg": 126101,
+        "count": 87
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 228710
+      },
+      {
+        "year": 2024,
+        "avg": 239843
+      },
+      {
+        "year": 2025,
+        "avg": 244664
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 92.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 13.3,
+    "byType": {
+      "violentCrime": 35.1,
+      "burglary": 1.6,
+      "vehicleCrime": 2.3,
+      "antisocialBehaviour": 14.8,
+      "otherTheft": 12.3,
+      "other": 26.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bryntirion Infants School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Penybont Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Llangewydd Junior School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Gymraeg Bro Ogwr",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Cefn Glas Infant School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 147530,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 337,
+    "avgUpload": 61,
+    "superfastPct": 97,
+    "ultrafastPct": 85,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF31 covers BRIDGEND in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF31 is £237,826, which is 14% below the Cardiff average of £275,506.",
+    "priceVsNational": "Properties in CF31 cost 17.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CF31 have risen 2.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 92.1 recorded crimes per 1,000 residents, CF31 has a crime rate 13% above the national average of 81.3 per 1,000.",
+    "schoolContext": "CF31 has 17 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF31 are 337.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF31 (BRIDGEND) offers affordable property prices (£237,826, 17% below national average), 17 nearby schools, and excellent broadband (337 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 337
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 337
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

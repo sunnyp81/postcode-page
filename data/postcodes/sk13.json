@@ -1,0 +1,198 @@
+{
+  "code": "SK13",
+  "name": "GLOSSOP",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "stockport",
+  "adjacent": [
+    "SK12",
+    "SK14",
+    "SK15"
+  ],
+  "property": {
+    "avgPrice": 271576,
+    "medianPrice": 240000,
+    "priceChange1y": 2.8,
+    "priceChange5y": 0,
+    "transactions12m": 1441,
+    "byType": {
+      "detached": {
+        "avg": 424100,
+        "count": 288
+      },
+      "semi": {
+        "avg": 284697,
+        "count": 337
+      },
+      "terraced": {
+        "avg": 208092,
+        "count": 634
+      },
+      "flat": {
+        "avg": 149547,
+        "count": 106
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 261370
+      },
+      {
+        "year": 2024,
+        "avg": 272881
+      },
+      {
+        "year": 2025,
+        "avg": 280629
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 45.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -43.5,
+    "byType": {
+      "violentCrime": 15.6,
+      "burglary": 1.4,
+      "vehicleCrime": 1.5,
+      "antisocialBehaviour": 10.1,
+      "otherTheft": 7.3,
+      "other": 10
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 0,
+    "good": 11,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hadfield Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gamesley Early Excellence Centre",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Padfield Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hadfield Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Simmondley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 91959,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 12,
+    "privateRent": 14,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 259,
+    "avgUpload": 47,
+    "superfastPct": 94,
+    "ultrafastPct": 60,
+    "gigabitPct": 60,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "High Peak",
+    "bandD": 2067,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.6,
+    "imdRank": 12758,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SK13 covers GLOSSOP in Cheshire, North West.",
+    "priceVsCounty": "The average property price in SK13 is £271,576, which is 13% below the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in SK13 cost 5.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SK13 have risen 2.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 45.9 recorded crimes per 1,000 residents, SK13 has a crime rate well 44% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SK13 has 20 schools within or near its boundaries, including 11 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SK13 are 259.0 Mbps, with 99% of premises having access to superfast broadband and 86% with full fibre (FTTP) connectivity.",
+    "synthesis": "SK13 (GLOSSOP) offers property prices near the national average (£271,576), low crime (44% below national average), 20 nearby schools, and excellent broadband (259 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 259
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 259
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

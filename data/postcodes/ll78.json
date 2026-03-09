@@ -1,0 +1,169 @@
+{
+  "code": "LL78",
+  "name": "BRYNTEG",
+  "county": "north-wales",
+  "region": "wales",
+  "city": "north-wales",
+  "adjacent": [
+    "LL77"
+  ],
+  "property": {
+    "avgPrice": 294927,
+    "medianPrice": 261500,
+    "priceChange1y": -4.6,
+    "priceChange5y": 0,
+    "transactions12m": 22,
+    "byType": {
+      "detached": {
+        "avg": 301900,
+        "count": 11
+      },
+      "semi": {
+        "avg": 227071,
+        "count": 7
+      },
+      "terraced": {
+        "avg": 239000,
+        "count": 2
+      },
+      "flat": {
+        "avg": 162520,
+        "count": 0
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 367500
+      },
+      {
+        "year": 2024,
+        "avg": 286786
+      },
+      {
+        "year": 2025,
+        "avg": 273718
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.1,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 0,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": []
+  },
+  "demographics": {
+    "population": 69097,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 134,
+    "avgUpload": 24,
+    "superfastPct": 84,
+    "ultrafastPct": 25,
+    "gigabitPct": 25,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Wales Council",
+    "bandD": 2304,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LL78 encompasses BRYNTEG and its surrounding areas in North Wales, Wales.",
+    "priceVsCounty": "The average property price in LL78 is £294,927, which is 8% above the North Wales average of £271,879.",
+    "priceVsNational": "Property values in LL78 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in LL78 have fallen 4.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, LL78 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "School data for LL78 is not currently available.",
+    "broadbandContext": "Average broadband download speeds in LL78 are 134.0 Mbps, with 90% of premises having access to superfast broadband and 52% with full fibre (FTTP) connectivity.",
+    "synthesis": "LL78 (BRYNTEG) offers property prices near the national average (£294,927), low crime (94% below national average), and excellent broadband (134 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 271879,
+      "crime": 75,
+      "broadband": 134
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 134
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

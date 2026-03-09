@@ -1,0 +1,198 @@
+{
+  "code": "PO11",
+  "name": "HAYLING ISLAND",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "portsmouth",
+  "adjacent": [
+    "PO10",
+    "PO12",
+    "PO13"
+  ],
+  "property": {
+    "avgPrice": 369542,
+    "medianPrice": 345000,
+    "priceChange1y": -1.1,
+    "priceChange5y": 0,
+    "transactions12m": 847,
+    "byType": {
+      "detached": {
+        "avg": 490992,
+        "count": 349
+      },
+      "semi": {
+        "avg": 352638,
+        "count": 186
+      },
+      "terraced": {
+        "avg": 307484,
+        "count": 71
+      },
+      "flat": {
+        "avg": 193365,
+        "count": 203
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 373277
+      },
+      {
+        "year": 2024,
+        "avg": 369164
+      },
+      {
+        "year": 2025,
+        "avg": 365281
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 22.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -72.7,
+    "byType": {
+      "violentCrime": 11.3,
+      "burglary": 0.4,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 2.1,
+      "otherTheft": 3.3,
+      "other": 4.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Mill Rythe Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Mengham Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mengham Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Hayling College",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mill Rythe Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 126985,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 19,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 278,
+    "avgUpload": 50,
+    "superfastPct": 96,
+    "ultrafastPct": 65,
+    "gigabitPct": 65,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Havant",
+    "bandD": 2018,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.8,
+    "imdRank": 16673,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PO11 encompasses HAYLING ISLAND and its surrounding areas in Hampshire, South East.",
+    "priceVsCounty": "The average property price in PO11 is £369,542, which is 14% below the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in PO11 cost 28.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PO11 have fallen 1.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 22.2 recorded crimes per 1,000 residents, PO11 has a crime rate well 73% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PO11 has 5 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PO11 are 278.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PO11 (HAYLING ISLAND) offers above-average property prices (£369,542, 29% above national average), low crime (73% below national average), 5 nearby schools, and excellent broadband (278 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 278
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 278
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

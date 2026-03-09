@@ -1,0 +1,198 @@
+{
+  "code": "TN8",
+  "name": "EDENBRIDGE",
+  "county": "kent",
+  "region": "south-east",
+  "city": "tunbridge-wells",
+  "adjacent": [
+    "TN7",
+    "TN9",
+    "TN10"
+  ],
+  "property": {
+    "avgPrice": 575643,
+    "medianPrice": 445000,
+    "priceChange1y": 11.2,
+    "priceChange5y": 0,
+    "transactions12m": 539,
+    "byType": {
+      "detached": {
+        "avg": 850728,
+        "count": 139
+      },
+      "semi": {
+        "avg": 503739,
+        "count": 127
+      },
+      "terraced": {
+        "avg": 384720,
+        "count": 166
+      },
+      "flat": {
+        "avg": 226372,
+        "count": 45
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 558464
+      },
+      {
+        "year": 2024,
+        "avg": 555721
+      },
+      {
+        "year": 2025,
+        "avg": 617708
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 16.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -80.2,
+    "byType": {
+      "violentCrime": 5.5,
+      "burglary": 0.4,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 3.3,
+      "otherTheft": 2.8,
+      "other": 3.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Crockham Hill Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hever Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chiddingstone Church of England School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Edenbridge Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The View School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 166908,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 8,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 273,
+    "avgUpload": 49,
+    "superfastPct": 85,
+    "ultrafastPct": 65,
+    "gigabitPct": 65,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wealden",
+    "bandD": 2363,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.3,
+    "imdRank": 10272,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TN8 encompasses EDENBRIDGE and its surrounding areas in Kent, South East.",
+    "priceVsCounty": "The average property price in TN8 is £575,643, which is 28% above the Kent average of £450,882.",
+    "priceVsNational": "Properties in TN8 cost 100.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TN8 have risen 11.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 16.1 recorded crimes per 1,000 residents, TN8 has a crime rate well 80% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TN8 has 6 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TN8 are 273.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TN8 (EDENBRIDGE) offers above-average property prices (£575,643, 101% above national average), low crime (80% below national average), 6 nearby schools, and excellent broadband (273 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 273
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 273
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

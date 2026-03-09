@@ -1,0 +1,197 @@
+{
+  "code": "HU6",
+  "name": "HULL",
+  "county": "east-yorkshire",
+  "region": "yorkshire",
+  "city": "hull",
+  "adjacent": [
+    "HU5",
+    "HU7",
+    "HU8"
+  ],
+  "property": {
+    "avgPrice": 140901,
+    "medianPrice": 130000,
+    "priceChange1y": 8.9,
+    "priceChange5y": 0,
+    "transactions12m": 1015,
+    "byType": {
+      "detached": {
+        "avg": 222748,
+        "count": 74
+      },
+      "semi": {
+        "avg": 157106,
+        "count": 336
+      },
+      "terraced": {
+        "avg": 119500,
+        "count": 530
+      },
+      "flat": {
+        "avg": 71369,
+        "count": 44
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 137950
+      },
+      {
+        "year": 2024,
+        "avg": 136830
+      },
+      {
+        "year": 2025,
+        "avg": 149034
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 95.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 18,
+    "byType": {
+      "violentCrime": 44.5,
+      "burglary": 4.3,
+      "vehicleCrime": 2.6,
+      "antisocialBehaviour": 6.9,
+      "otherTheft": 15.7,
+      "other": 21.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 2,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "University of Hull",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sirius Academy North",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lift Green Way",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lift Hall Road",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Parks Primary Academy",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 39,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 396,
+    "avgUpload": 71,
+    "superfastPct": 99,
+    "ultrafastPct": 99,
+    "gigabitPct": 99,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hull Council",
+    "bandD": 2183,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 40.6,
+    "imdRank": 25222,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HU6 is the postcode district for HULL, located in East Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HU6 is £140,901, which is 33% below the East Yorkshire average of £211,309.",
+    "priceVsNational": "Properties in HU6 cost 50.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HU6 have risen 8.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 95.9 recorded crimes per 1,000 residents, HU6 has a crime rate 18% above the national average of 81.3 per 1,000.",
+    "schoolContext": "HU6 has 17 schools within or near its boundaries, including 2 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HU6 are 396.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HU6 (HULL) offers affordable property prices (£140,901, 51% below national average), higher-than-average crime (18% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (396 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 211309,
+      "crime": 75,
+      "broadband": 396
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 396
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

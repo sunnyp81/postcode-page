@@ -1,0 +1,197 @@
+{
+  "code": "SS11",
+  "name": "WICKFORD",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "southend-on-sea",
+  "adjacent": [
+    "SS12",
+    "SS13"
+  ],
+  "property": {
+    "avgPrice": 421184,
+    "medianPrice": 390000,
+    "priceChange1y": -2.7,
+    "priceChange5y": 0,
+    "transactions12m": 929,
+    "byType": {
+      "detached": {
+        "avg": 561706,
+        "count": 273
+      },
+      "semi": {
+        "avg": 392269,
+        "count": 403
+      },
+      "terraced": {
+        "avg": 330827,
+        "count": 118
+      },
+      "flat": {
+        "avg": 208481,
+        "count": 108
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 428286
+      },
+      {
+        "year": 2024,
+        "avg": 423010
+      },
+      {
+        "year": 2025,
+        "avg": 411452
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 36.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -55.6,
+    "byType": {
+      "violentCrime": 13.6,
+      "burglary": 1.2,
+      "vehicleCrime": 2.5,
+      "antisocialBehaviour": 7.8,
+      "otherTheft": 3.4,
+      "other": 7.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Beauchamps High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Children's Support Service",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Runwell Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Wickford Church of England School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Hilltop Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 89815,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 37,
+    "socialRent": 8,
+    "privateRent": 9,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 328,
+    "avgUpload": 59,
+    "superfastPct": 94,
+    "ultrafastPct": 80,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Rochford",
+    "bandD": 2076,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10.4,
+    "imdRank": 8121,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SS11 covers WICKFORD in Essex, East Of England.",
+    "priceVsCounty": "The average property price in SS11 is £421,184, broadly in line with the Essex average of £429,754.",
+    "priceVsNational": "Properties in SS11 cost 46.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SS11 have fallen 2.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 36.1 recorded crimes per 1,000 residents, SS11 has a crime rate well 56% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SS11 has 7 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SS11 are 328.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SS11 (WICKFORD) offers above-average property prices (£421,184, 47% above national average), low crime (56% below national average), 7 nearby schools, and excellent broadband (328 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 328
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 328
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

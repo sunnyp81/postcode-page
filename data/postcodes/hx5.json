@@ -1,0 +1,198 @@
+{
+  "code": "HX5",
+  "name": "ELLAND",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "halifax",
+  "adjacent": [
+    "HX4",
+    "HX6",
+    "HX7"
+  ],
+  "property": {
+    "avgPrice": 216190,
+    "medianPrice": 170000,
+    "priceChange1y": 6.2,
+    "priceChange5y": 0,
+    "transactions12m": 461,
+    "byType": {
+      "detached": {
+        "avg": 365930,
+        "count": 50
+      },
+      "semi": {
+        "avg": 233678,
+        "count": 112
+      },
+      "terraced": {
+        "avg": 139286,
+        "count": 232
+      },
+      "flat": {
+        "avg": 143299,
+        "count": 44
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 218797
+      },
+      {
+        "year": 2024,
+        "avg": 208946
+      },
+      {
+        "year": 2025,
+        "avg": 221960
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 50.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -37.5,
+    "byType": {
+      "violentCrime": 19.1,
+      "burglary": 1.4,
+      "vehicleCrime": 1.8,
+      "antisocialBehaviour": 10.4,
+      "otherTheft": 7.1,
+      "other": 11.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Cross Lane Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Elland Church of England (Voluntary Aided) Junior, Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Old Earth Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Compass Community School North",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Patrick's Catholic Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 210929,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 18,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 344,
+    "avgUpload": 62,
+    "superfastPct": 97,
+    "ultrafastPct": 84,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Calderdale",
+    "bandD": 2086,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.4,
+    "imdRank": 19705,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HX5 covers ELLAND in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HX5 is £216,190, which is 22% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in HX5 cost 24.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HX5 have risen 6.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 50.8 recorded crimes per 1,000 residents, HX5 has a crime rate well 38% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HX5 has 6 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HX5 are 344.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HX5 (ELLAND) offers affordable property prices (£216,190, 25% below national average), low crime (38% below national average), 6 nearby schools, and excellent broadband (344 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 344
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 344
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

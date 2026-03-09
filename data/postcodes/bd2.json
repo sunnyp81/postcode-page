@@ -1,0 +1,198 @@
+{
+  "code": "BD2",
+  "name": "BRADFORD",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "bradford",
+  "adjacent": [
+    "BD1",
+    "BD3",
+    "BD4"
+  ],
+  "property": {
+    "avgPrice": 184291,
+    "medianPrice": 165000,
+    "priceChange1y": 2.3,
+    "priceChange5y": 0,
+    "transactions12m": 1676,
+    "byType": {
+      "detached": {
+        "avg": 265522,
+        "count": 187
+      },
+      "semi": {
+        "avg": 182702,
+        "count": 887
+      },
+      "terraced": {
+        "avg": 126910,
+        "count": 499
+      },
+      "flat": {
+        "avg": 83972,
+        "count": 47
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 182038
+      },
+      {
+        "year": 2024,
+        "avg": 183554
+      },
+      {
+        "year": 2025,
+        "avg": 187758
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 147.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 80.9,
+    "byType": {
+      "violentCrime": 63.9,
+      "burglary": 7.8,
+      "vehicleCrime": 7.9,
+      "antisocialBehaviour": 17.4,
+      "otherTheft": 17.9,
+      "other": 32.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Peel Park Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Swain House Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wellington Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Poplars Farm Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fagley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 563605,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 375,
+    "avgUpload": 68,
+    "superfastPct": 99,
+    "ultrafastPct": 93,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bradford",
+    "bandD": 1956,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 34.7,
+    "imdRank": 23086,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BD2 is the postcode district for BRADFORD, located in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in BD2 is £184,291, which is 34% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in BD2 cost 35.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BD2 have risen 2.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 147.1 recorded crimes per 1,000 residents, BD2 has a crime rate significantly 81% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BD2 has 12 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BD2 are 375.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BD2 (BRADFORD) offers affordable property prices (£184,291, 36% below national average), higher-than-average crime (81% above national average), 12 nearby schools, and excellent broadband (375 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 375
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 375
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

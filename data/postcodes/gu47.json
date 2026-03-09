@@ -1,0 +1,196 @@
+{
+  "code": "GU47",
+  "name": "SANDHURST",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU46"
+  ],
+  "property": {
+    "avgPrice": 433675,
+    "medianPrice": 420000,
+    "priceChange1y": 6.2,
+    "priceChange5y": 0,
+    "transactions12m": 748,
+    "byType": {
+      "detached": {
+        "avg": 593889,
+        "count": 247
+      },
+      "semi": {
+        "avg": 443633,
+        "count": 185
+      },
+      "terraced": {
+        "avg": 352120,
+        "count": 188
+      },
+      "flat": {
+        "avg": 221766,
+        "count": 107
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 398256
+      },
+      {
+        "year": 2024,
+        "avg": 439700
+      },
+      {
+        "year": 2025,
+        "avg": 466962
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 24.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -69.5,
+    "byType": {
+      "violentCrime": 10,
+      "burglary": 0.6,
+      "vehicleCrime": 1.2,
+      "antisocialBehaviour": 5.6,
+      "otherTheft": 2.7,
+      "other": 4.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "College Town Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "New Scotland Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wellington College Prep",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sandhurst School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Michael's Church of England Primary School, Sandhurst",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 130806,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 16,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 379,
+    "avgUpload": 68,
+    "superfastPct": 100,
+    "ultrafastPct": 94,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Guildford Council",
+    "bandD": 2219,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10.2,
+    "imdRank": 8295,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU47 encompasses SANDHURST and its surrounding areas in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU47 is £433,675, which is 29% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU47 cost 51.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU47 have risen 6.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 24.8 recorded crimes per 1,000 residents, GU47 has a crime rate well 69% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU47 has 7 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU47 are 379.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU47 (SANDHURST) offers above-average property prices (£433,675, 51% above national average), low crime (69% below national average), 7 nearby schools, and excellent broadband (379 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 379
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 379
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

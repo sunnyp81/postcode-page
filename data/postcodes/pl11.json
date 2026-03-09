@@ -1,0 +1,198 @@
+{
+  "code": "PL11",
+  "name": "TORPOINT",
+  "county": "devon",
+  "region": "south-west",
+  "city": "plymouth",
+  "adjacent": [
+    "PL10",
+    "PL12",
+    "PL13"
+  ],
+  "property": {
+    "avgPrice": 299333,
+    "medianPrice": 230000,
+    "priceChange1y": -7.4,
+    "priceChange5y": 0,
+    "transactions12m": 505,
+    "byType": {
+      "detached": {
+        "avg": 529352,
+        "count": 117
+      },
+      "semi": {
+        "avg": 265197,
+        "count": 136
+      },
+      "terraced": {
+        "avg": 213479,
+        "count": 158
+      },
+      "flat": {
+        "avg": 145061,
+        "count": 66
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 334833
+      },
+      {
+        "year": 2024,
+        "avg": 291873
+      },
+      {
+        "year": 2025,
+        "avg": 270298
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Torpoint Nursery and Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Carbeile Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Torpoint Community College",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Nicolas' CofE VA School, Downderry",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Antony Church of England School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 583289,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 319,
+    "avgUpload": 57,
+    "superfastPct": 91,
+    "ultrafastPct": 82,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Plymouth Council",
+    "bandD": 2372,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.1,
+    "imdRank": 19382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PL11 encompasses TORPOINT and its surrounding areas in Devon, South West.",
+    "priceVsCounty": "The average property price in PL11 is £299,333, which is 22% below the Devon average of £385,452.",
+    "priceVsNational": "Property values in PL11 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in PL11 have fallen 7.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, PL11 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PL11 has 5 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PL11 are 319.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PL11 (TORPOINT) offers property prices near the national average (£299,333), low crime (94% below national average), 5 nearby schools, and excellent broadband (319 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 319
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 319
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

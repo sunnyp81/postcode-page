@@ -1,0 +1,198 @@
+{
+  "code": "SE23",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SE22",
+    "SE24",
+    "SE25"
+  ],
+  "property": {
+    "avgPrice": 563626,
+    "medianPrice": 475000,
+    "priceChange1y": 2.8,
+    "priceChange5y": 0,
+    "transactions12m": 1400,
+    "byType": {
+      "detached": {
+        "avg": 1069200,
+        "count": 51
+      },
+      "semi": {
+        "avg": 998724,
+        "count": 120
+      },
+      "terraced": {
+        "avg": 720102,
+        "count": 345
+      },
+      "flat": {
+        "avg": 401985,
+        "count": 827
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 539776
+      },
+      {
+        "year": 2024,
+        "avg": 567489
+      },
+      {
+        "year": 2025,
+        "avg": 583115
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 109.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 34.6,
+    "byType": {
+      "violentCrime": 33.9,
+      "burglary": 5.5,
+      "vehicleCrime": 11.3,
+      "antisocialBehaviour": 24.3,
+      "otherTheft": 15.2,
+      "other": 19.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Dalmain Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stillness Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Stillness Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Fairlawn Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Horniman Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 314786,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 18,
+    "socialRent": 40,
+    "privateRent": 26,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 350,
+    "avgUpload": 63,
+    "superfastPct": 96,
+    "ultrafastPct": 86,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Southwark",
+    "bandD": 1693,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.8,
+    "imdRank": 21247,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SE23 is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in SE23 is £563,626, which is 57% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SE23 cost 96.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SE23 have risen 2.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 109.4 recorded crimes per 1,000 residents, SE23 has a crime rate significantly 35% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SE23 has 13 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SE23 are 350.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SE23 (LONDON) offers above-average property prices (£563,626, 96% above national average), higher-than-average crime (35% above national average), 13 nearby schools, and excellent broadband (350 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 350
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 350
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

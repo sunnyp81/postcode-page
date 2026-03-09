@@ -1,0 +1,198 @@
+{
+  "code": "IG5",
+  "name": "ILFORD",
+  "county": "greater-london",
+  "region": "london",
+  "city": "ilford",
+  "adjacent": [
+    "IG4",
+    "IG6",
+    "IG7"
+  ],
+  "property": {
+    "avgPrice": 529183,
+    "medianPrice": 530000,
+    "priceChange1y": 9.6,
+    "priceChange5y": 0,
+    "transactions12m": 381,
+    "byType": {
+      "detached": {
+        "avg": 662292,
+        "count": 24
+      },
+      "semi": {
+        "avg": 609248,
+        "count": 170
+      },
+      "terraced": {
+        "avg": 557339,
+        "count": 111
+      },
+      "flat": {
+        "avg": 252813,
+        "count": 70
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 490333
+      },
+      {
+        "year": 2024,
+        "avg": 524176
+      },
+      {
+        "year": 2025,
+        "avg": 574323
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 64.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -20.5,
+    "byType": {
+      "violentCrime": 20.7,
+      "burglary": 2.2,
+      "vehicleCrime": 6.1,
+      "antisocialBehaviour": 13.9,
+      "otherTheft": 12.4,
+      "other": 9.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Gilbert Colvin Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Glade Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Caterham High School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Parkhill Infants' School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Parkhill Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 321231,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 11,
+    "privateRent": 28,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 397,
+    "avgUpload": 71,
+    "superfastPct": 100,
+    "ultrafastPct": 99,
+    "gigabitPct": 99,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Redbridge",
+    "bandD": 1976,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.2,
+    "imdRank": 15082,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IG5 encompasses ILFORD and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in IG5 is £529,183, which is 60% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in IG5 cost 84.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IG5 have risen 9.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 64.6 recorded crimes per 1,000 residents, IG5 has a crime rate well 21% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IG5 has 6 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IG5 are 397.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "IG5 (ILFORD) offers above-average property prices (£529,183, 84% above national average), low crime (21% below national average), 6 nearby schools, and excellent broadband (397 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 397
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 397
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

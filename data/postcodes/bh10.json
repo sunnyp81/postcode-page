@@ -1,0 +1,197 @@
+{
+  "code": "BH10",
+  "name": "BOURNEMOUTH",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "bournemouth",
+  "adjacent": [
+    "BH9",
+    "BH11",
+    "BH12"
+  ],
+  "property": {
+    "avgPrice": 344316,
+    "medianPrice": 340000,
+    "priceChange1y": 4.6,
+    "priceChange5y": 0,
+    "transactions12m": 812,
+    "byType": {
+      "detached": {
+        "avg": 383791,
+        "count": 489
+      },
+      "semi": {
+        "avg": 322739,
+        "count": 149
+      },
+      "terraced": {
+        "avg": 303136,
+        "count": 57
+      },
+      "flat": {
+        "avg": 200383,
+        "count": 89
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 342219
+      },
+      {
+        "year": 2024,
+        "avg": 338315
+      },
+      {
+        "year": 2025,
+        "avg": 354044
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 66.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -18.5,
+    "byType": {
+      "violentCrime": 24.6,
+      "burglary": 2.7,
+      "vehicleCrime": 4.5,
+      "antisocialBehaviour": 14.4,
+      "otherTheft": 8.2,
+      "other": 12
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "The Bourne Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Winton Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Glenmoor Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hill View Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kingsleigh Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 376,
+    "avgUpload": 68,
+    "superfastPct": 100,
+    "ultrafastPct": 93,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bournemouth Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.2,
+    "imdRank": 14820,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BH10 is the postcode district for BOURNEMOUTH, located in Dorset, South West.",
+    "priceVsCounty": "The average property price in BH10 is £344,316, which is 19% below the Dorset average of £425,376.",
+    "priceVsNational": "Properties in BH10 cost 20.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BH10 have risen 4.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 66.3 recorded crimes per 1,000 residents, BH10 has a crime rate 18% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BH10 has 6 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BH10 are 376.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BH10 (BOURNEMOUTH) offers property prices near the national average (£344,316), low crime (18% below national average), 6 nearby schools, and excellent broadband (376 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 376
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 376
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

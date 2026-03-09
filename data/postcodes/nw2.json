@@ -1,0 +1,198 @@
+{
+  "code": "NW2",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "NW1",
+    "NW3",
+    "NW4"
+  ],
+  "property": {
+    "avgPrice": 716600,
+    "medianPrice": 535000,
+    "priceChange1y": 3.6,
+    "priceChange5y": 0,
+    "transactions12m": 1773,
+    "byType": {
+      "detached": {
+        "avg": 2083027,
+        "count": 59
+      },
+      "semi": {
+        "avg": 954917,
+        "count": 292
+      },
+      "terraced": {
+        "avg": 700348,
+        "count": 270
+      },
+      "flat": {
+        "avg": 465383,
+        "count": 1044
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 728597
+      },
+      {
+        "year": 2024,
+        "avg": 700570
+      },
+      {
+        "year": 2025,
+        "avg": 725641
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 151.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 86.5,
+    "byType": {
+      "violentCrime": 39.7,
+      "burglary": 6.2,
+      "vehicleCrime": 13.3,
+      "antisocialBehaviour": 41.7,
+      "otherTheft": 25.7,
+      "other": 24.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 4,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hampstead School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Mulberry House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "All Saints' CofE Primary School NW2",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Agnes' Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Mapledown School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 405050,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 13,
+    "privateRent": 30,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 333,
+    "avgUpload": 60,
+    "superfastPct": 97,
+    "ultrafastPct": 81,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Barnet",
+    "bandD": 1836,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.1,
+    "imdRank": 13803,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NW2 encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in NW2 is £716,600, which is 45% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in NW2 cost 149.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NW2 have risen 3.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 151.6 recorded crimes per 1,000 residents, NW2 has a crime rate significantly 86% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NW2 has 20 schools within or near its boundaries, including 4 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NW2 are 333.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NW2 (LONDON) offers above-average property prices (£716,600, 150% above national average), higher-than-average crime (86% above national average), strong school provision (4 Outstanding-rated schools), and excellent broadband (333 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 333
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 333
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

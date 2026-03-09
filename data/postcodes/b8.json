@@ -1,0 +1,198 @@
+{
+  "code": "B8",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B7",
+    "B9",
+    "B10"
+  ],
+  "property": {
+    "avgPrice": 201459,
+    "medianPrice": 175000,
+    "priceChange1y": 18.7,
+    "priceChange5y": 0,
+    "transactions12m": 567,
+    "byType": {
+      "detached": {
+        "avg": 286115,
+        "count": 13
+      },
+      "semi": {
+        "avg": 204123,
+        "count": 148
+      },
+      "terraced": {
+        "avg": 174925,
+        "count": 309
+      },
+      "flat": {
+        "avg": 49824,
+        "count": 36
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 222117
+      },
+      {
+        "year": 2024,
+        "avg": 175729
+      },
+      {
+        "year": 2025,
+        "avg": 208503
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 153.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 89.3,
+    "byType": {
+      "violentCrime": 79.5,
+      "burglary": 5.9,
+      "vehicleCrime": 11.4,
+      "antisocialBehaviour": 9.5,
+      "otherTheft": 14.2,
+      "other": 33.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 2,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Highfield Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Washwood Heath Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Adderley Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Shaw Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Adderley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 356,
+    "avgUpload": 64,
+    "superfastPct": 96,
+    "ultrafastPct": 90,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B8 encompasses BIRMINGHAM and its surrounding areas in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B8 is £201,459, which is 40% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B8 cost 29.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B8 have risen 18.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 153.9 recorded crimes per 1,000 residents, B8 has a crime rate significantly 89% above the national average of 81.3 per 1,000.",
+    "schoolContext": "B8 has 20 schools within or near its boundaries, including 2 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B8 are 356.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B8 (BIRMINGHAM) offers affordable property prices (£201,459, 30% below national average), higher-than-average crime (89% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (356 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 356
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 356
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

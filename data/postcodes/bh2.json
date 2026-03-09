@@ -1,0 +1,182 @@
+{
+  "code": "BH2",
+  "name": "BOURNEMOUTH",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "bournemouth",
+  "adjacent": [
+    "BH1",
+    "BH3",
+    "BH4"
+  ],
+  "property": {
+    "avgPrice": 298676,
+    "medianPrice": 210000,
+    "priceChange1y": -21.2,
+    "priceChange5y": 0,
+    "transactions12m": 684,
+    "byType": {
+      "detached": {
+        "avg": 828605,
+        "count": 18
+      },
+      "semi": {
+        "avg": 495000,
+        "count": 6
+      },
+      "terraced": {
+        "avg": 389400,
+        "count": 20
+      },
+      "flat": {
+        "avg": 214343,
+        "count": 589
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 329968
+      },
+      {
+        "year": 2024,
+        "avg": 302174
+      },
+      {
+        "year": 2025,
+        "avg": 238021
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 201.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 148,
+    "byType": {
+      "violentCrime": 59.9,
+      "burglary": 5.3,
+      "vehicleCrime": 11.4,
+      "antisocialBehaviour": 57.9,
+      "otherTheft": 35.8,
+      "other": 31.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Kings Bournemouth",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Michael's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 317,
+    "avgUpload": 57,
+    "superfastPct": 98,
+    "ultrafastPct": 82,
+    "gigabitPct": 74,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bournemouth Council",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.2,
+    "imdRank": 14820,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BH2 encompasses BOURNEMOUTH and its surrounding areas in Dorset, South West.",
+    "priceVsCounty": "The average property price in BH2 is £298,676, which is 30% below the Dorset average of £425,376.",
+    "priceVsNational": "Property values in BH2 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in BH2 have fallen 21.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 201.6 recorded crimes per 1,000 residents, BH2 has a crime rate significantly 148% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BH2 has 2 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BH2 are 317.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BH2 (BOURNEMOUTH) offers property prices near the national average (£298,676), higher-than-average crime (148% above national average), 2 nearby schools, and excellent broadband (317 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 317
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 317
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

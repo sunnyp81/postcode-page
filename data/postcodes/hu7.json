@@ -1,0 +1,197 @@
+{
+  "code": "HU7",
+  "name": "HULL",
+  "county": "east-yorkshire",
+  "region": "yorkshire",
+  "city": "hull",
+  "adjacent": [
+    "HU6",
+    "HU8",
+    "HU9"
+  ],
+  "property": {
+    "avgPrice": 174335,
+    "medianPrice": 158000,
+    "priceChange1y": 5,
+    "priceChange5y": 0,
+    "transactions12m": 2097,
+    "byType": {
+      "detached": {
+        "avg": 251225,
+        "count": 391
+      },
+      "semi": {
+        "avg": 169721,
+        "count": 709
+      },
+      "terraced": {
+        "avg": 129200,
+        "count": 872
+      },
+      "flat": {
+        "avg": 90671,
+        "count": 68
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 180150
+      },
+      {
+        "year": 2024,
+        "avg": 167975
+      },
+      {
+        "year": 2025,
+        "avg": 176312
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 103.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 27.4,
+    "byType": {
+      "violentCrime": 44.9,
+      "burglary": 5.4,
+      "vehicleCrime": 2.8,
+      "antisocialBehaviour": 8,
+      "otherTheft": 17.8,
+      "other": 24.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 2,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Wawne Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Andrew's Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Northcott School and Sixth Form College",
+        "type": "Other",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Lift Kingswood",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Compass Academy",
+        "type": "Other",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 39,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 62,
+    "socialRent": 16,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 396,
+    "avgUpload": 71,
+    "superfastPct": 99,
+    "ultrafastPct": 99,
+    "gigabitPct": 99,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hull Council",
+    "bandD": 2183,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 40.6,
+    "imdRank": 25222,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HU7 encompasses HULL and its surrounding areas in East Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HU7 is £174,335, which is 17% below the East Yorkshire average of £211,309.",
+    "priceVsNational": "Properties in HU7 cost 39.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HU7 have risen 5.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 103.6 recorded crimes per 1,000 residents, HU7 has a crime rate significantly 27% above the national average of 81.3 per 1,000.",
+    "schoolContext": "HU7 has 19 schools within or near its boundaries, including 2 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HU7 are 396.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HU7 (HULL) offers affordable property prices (£174,335, 39% below national average), higher-than-average crime (27% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (396 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 211309,
+      "crime": 75,
+      "broadband": 396
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 396
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

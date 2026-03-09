@@ -1,0 +1,198 @@
+{
+  "code": "IP4",
+  "name": "IPSWICH",
+  "county": "suffolk",
+  "region": "east-of-england",
+  "city": "ipswich",
+  "adjacent": [
+    "IP3",
+    "IP5",
+    "IP6"
+  ],
+  "property": {
+    "avgPrice": 277438,
+    "medianPrice": 250000,
+    "priceChange1y": 12.6,
+    "priceChange5y": 0,
+    "transactions12m": 1747,
+    "byType": {
+      "detached": {
+        "avg": 455836,
+        "count": 320
+      },
+      "semi": {
+        "avg": 284464,
+        "count": 552
+      },
+      "terraced": {
+        "avg": 216003,
+        "count": 520
+      },
+      "flat": {
+        "avg": 152869,
+        "count": 298
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 296170
+      },
+      {
+        "year": 2024,
+        "avg": 254522
+      },
+      {
+        "year": 2025,
+        "avg": 286694
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 78.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -3.8,
+    "byType": {
+      "violentCrime": 34.1,
+      "burglary": 1.6,
+      "vehicleCrime": 4.4,
+      "antisocialBehaviour": 5.3,
+      "otherTheft": 16.5,
+      "other": 16.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Clifford Road Primary School & Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John's Church of England Voluntary Aided Primary School, Ipswich",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Margaret's Church of England Voluntary Aided Primary School, Ipswich",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Northgate High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Suffolk New College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 140274,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 21,
+    "privateRent": 21,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 371,
+    "avgUpload": 67,
+    "superfastPct": 99,
+    "ultrafastPct": 94,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Ipswich",
+    "bandD": 2155,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.9,
+    "imdRank": 19866,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IP4 is the postcode district for IPSWICH, located in Suffolk, East Of England.",
+    "priceVsCounty": "The average property price in IP4 is £277,438, which is 27% below the Suffolk average of £379,904.",
+    "priceVsNational": "Property values in IP4 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in IP4 have risen 12.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "IP4 has a crime rate of 78.2 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "IP4 has 19 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IP4 are 371.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "IP4 (IPSWICH) offers property prices near the national average (£277,438), 19 nearby schools, and excellent broadband (371 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 379904,
+      "crime": 75,
+      "broadband": 371
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 371
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

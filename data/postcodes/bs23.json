@@ -1,0 +1,198 @@
+{
+  "code": "BS23",
+  "name": "WESTON-SUPER-MARE",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS22",
+    "BS24",
+    "BS25"
+  ],
+  "property": {
+    "avgPrice": 270670,
+    "medianPrice": 204000,
+    "priceChange1y": -9.6,
+    "priceChange5y": 0,
+    "transactions12m": 1888,
+    "byType": {
+      "detached": {
+        "avg": 427827,
+        "count": 153
+      },
+      "semi": {
+        "avg": 303568,
+        "count": 363
+      },
+      "terraced": {
+        "avg": 241614,
+        "count": 305
+      },
+      "flat": {
+        "avg": 169910,
+        "count": 949
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 315888
+      },
+      {
+        "year": 2024,
+        "avg": 259044
+      },
+      {
+        "year": 2025,
+        "avg": 234147
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 175.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 115.6,
+    "byType": {
+      "violentCrime": 74.7,
+      "burglary": 5.2,
+      "vehicleCrime": 5.4,
+      "antisocialBehaviour": 24.8,
+      "otherTheft": 24.7,
+      "other": 40.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Westhaven School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Weston College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hans Price Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bournville Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Christ Church Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 224578,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 9,
+    "privateRent": 16,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 319,
+    "avgUpload": 57,
+    "superfastPct": 97,
+    "ultrafastPct": 82,
+    "gigabitPct": 75,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.8,
+    "imdRank": 11811,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS23 is the postcode district for WESTON-SUPER-MARE, located in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS23 is £270,670, which is 40% below the Bristol average of £449,132.",
+    "priceVsNational": "Properties in BS23 cost 5.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BS23 have fallen 9.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 175.3 recorded crimes per 1,000 residents, BS23 has a crime rate significantly 116% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BS23 has 11 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS23 are 319.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS23 (WESTON-SUPER-MARE) offers property prices near the national average (£270,670), higher-than-average crime (116% above national average), 11 nearby schools, and excellent broadband (319 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 319
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 319
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

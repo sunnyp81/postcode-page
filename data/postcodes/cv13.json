@@ -1,0 +1,196 @@
+{
+  "code": "CV13",
+  "name": "NUNEATON",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "coventry",
+  "adjacent": [
+    "CV12"
+  ],
+  "property": {
+    "avgPrice": 423261,
+    "medianPrice": 350000,
+    "priceChange1y": -6.9,
+    "priceChange5y": 0,
+    "transactions12m": 545,
+    "byType": {
+      "detached": {
+        "avg": 513527,
+        "count": 288
+      },
+      "semi": {
+        "avg": 286147,
+        "count": 150
+      },
+      "terraced": {
+        "avg": 246034,
+        "count": 67
+      },
+      "flat": {
+        "avg": 205313,
+        "count": 8
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 417465
+      },
+      {
+        "year": 2024,
+        "avg": 437266
+      },
+      {
+        "year": 2025,
+        "avg": 407163
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.2,
+      "burglary": 0.2,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 0.5,
+      "otherTheft": 0.4,
+      "other": 0.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 1,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Congerstone Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Dixie Grammar School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oakwood Community School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Market Bosworth School",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Saint Martin's Catholic Voluntary Academy",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 141565,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 15,
+    "privateRent": 15,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 108,
+    "avgUpload": 19,
+    "superfastPct": 88,
+    "ultrafastPct": 19,
+    "gigabitPct": 16,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Coventry Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.5,
+    "imdRank": 18479,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CV13 is the postcode district for NUNEATON, located in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in CV13 is £423,261, which is 27% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in CV13 cost 47.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CV13 have fallen 6.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, CV13 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CV13 has 11 schools within or near its boundaries, including 1 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CV13 are 108.0 Mbps, with 86% of premises having access to superfast broadband and 45% with full fibre (FTTP) connectivity.",
+    "synthesis": "CV13 (NUNEATON) offers above-average property prices (£423,261, 47% above national average), low crime (94% below national average), 11 nearby schools, and excellent broadband (108 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 108
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 108
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

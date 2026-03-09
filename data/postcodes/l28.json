@@ -1,0 +1,193 @@
+{
+  "code": "L28",
+  "name": "LIVERPOOL",
+  "county": "merseyside",
+  "region": "north-west",
+  "city": "liverpool",
+  "adjacent": [
+    "L27",
+    "L29",
+    "L30"
+  ],
+  "property": {
+    "avgPrice": 116050,
+    "medianPrice": 114000,
+    "priceChange1y": 8,
+    "priceChange5y": 0,
+    "transactions12m": 114,
+    "byType": {
+      "detached": {
+        "avg": 174750,
+        "count": 4
+      },
+      "semi": {
+        "avg": 133440,
+        "count": 21
+      },
+      "terraced": {
+        "avg": 109918,
+        "count": 87
+      },
+      "flat": {
+        "avg": 82750,
+        "count": 2
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 114487
+      },
+      {
+        "year": 2024,
+        "avg": 114199
+      },
+      {
+        "year": 2025,
+        "avg": 123291
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 64.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -21.2,
+    "byType": {
+      "violentCrime": 29.8,
+      "burglary": 0.9,
+      "vehicleCrime": 1.2,
+      "antisocialBehaviour": 8.4,
+      "otherTheft": 3.7,
+      "other": 20.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Meadow Park School",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Albert's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Brigid's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Stockbridge Village Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 162565,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 25,
+    "privateRent": 13,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 393,
+    "avgUpload": 71,
+    "superfastPct": 100,
+    "ultrafastPct": 98,
+    "gigabitPct": 98,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Knowsley",
+    "bandD": 2150,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 43,
+    "imdRank": 26199,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "L28 encompasses LIVERPOOL and its surrounding areas in Merseyside, North West.",
+    "priceVsCounty": "The average property price in L28 is £116,050, which is 54% below the Merseyside average of £252,845.",
+    "priceVsNational": "Properties in L28 cost 59.6% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in L28 have risen 8.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 64.1 recorded crimes per 1,000 residents, L28 has a crime rate well 21% below the national average of 81.3 per 1,000.",
+    "schoolContext": "L28 has 4 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in L28 are 393.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "L28 (LIVERPOOL) offers affordable property prices (£116,050, 60% below national average), low crime (21% below national average), 4 nearby schools, and excellent broadband (393 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 252845,
+      "crime": 75,
+      "broadband": 393
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 393
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

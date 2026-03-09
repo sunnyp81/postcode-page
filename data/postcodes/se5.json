@@ -1,0 +1,198 @@
+{
+  "code": "SE5",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SE4",
+    "SE6",
+    "SE7"
+  ],
+  "property": {
+    "avgPrice": 604120,
+    "medianPrice": 475000,
+    "priceChange1y": -10.6,
+    "priceChange5y": 0,
+    "transactions12m": 1359,
+    "byType": {
+      "detached": {
+        "avg": 1676556,
+        "count": 13
+      },
+      "semi": {
+        "avg": 1150730,
+        "count": 32
+      },
+      "terraced": {
+        "avg": 976077,
+        "count": 254
+      },
+      "flat": {
+        "avg": 446269,
+        "count": 994
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 579436
+      },
+      {
+        "year": 2024,
+        "avg": 646631
+      },
+      {
+        "year": 2025,
+        "avg": 578307
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 287.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 253.8,
+    "byType": {
+      "violentCrime": 81.4,
+      "burglary": 13.7,
+      "vehicleCrime": 15.2,
+      "antisocialBehaviour": 63,
+      "otherTheft": 69.1,
+      "other": 45.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 2,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St John the Divine Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Crawford Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "John Ruskin Primary School and Language Classes",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Oliver Goldsmith Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St George's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 314786,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 18,
+    "socialRent": 40,
+    "privateRent": 26,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 318,
+    "avgUpload": 57,
+    "superfastPct": 94,
+    "ultrafastPct": 77,
+    "gigabitPct": 77,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Southwark",
+    "bandD": 1693,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.8,
+    "imdRank": 21247,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SE5 is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in SE5 is £604,120, which is 54% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SE5 cost 110.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SE5 have fallen 10.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 287.6 recorded crimes per 1,000 residents, SE5 has a crime rate significantly 254% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SE5 has 19 schools within or near its boundaries, including 2 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SE5 are 318.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SE5 (LONDON) offers above-average property prices (£604,120, 110% above national average), higher-than-average crime (254% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (318 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 318
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 318
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

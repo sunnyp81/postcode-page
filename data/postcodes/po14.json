@@ -1,0 +1,198 @@
+{
+  "code": "PO14",
+  "name": "FAREHAM",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "portsmouth",
+  "adjacent": [
+    "PO13",
+    "PO15",
+    "PO16"
+  ],
+  "property": {
+    "avgPrice": 438944,
+    "medianPrice": 345000,
+    "priceChange1y": -17.6,
+    "priceChange5y": 0,
+    "transactions12m": 1434,
+    "byType": {
+      "detached": {
+        "avg": 555852,
+        "count": 453
+      },
+      "semi": {
+        "avg": 356251,
+        "count": 424
+      },
+      "terraced": {
+        "avg": 299000,
+        "count": 357
+      },
+      "flat": {
+        "avg": 192292,
+        "count": 156
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 488879
+      },
+      {
+        "year": 2024,
+        "avg": 454929
+      },
+      {
+        "year": 2025,
+        "avg": 374808
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 17.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -78.4,
+    "byType": {
+      "violentCrime": 8.9,
+      "burglary": 0.6,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 1.7,
+      "otherTheft": 2.4,
+      "other": 3.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Crofton Anne Dale Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wallisdean Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wallisdean Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Titchfield Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Crofton Anne Dale Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 115428,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 8,
+    "privateRent": 10,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 366,
+    "avgUpload": 66,
+    "superfastPct": 98,
+    "ultrafastPct": 91,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Fareham",
+    "bandD": 1973,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 9,
+    "imdRank": 6777,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PO14 encompasses FAREHAM and its surrounding areas in Hampshire, South East.",
+    "priceVsCounty": "The average property price in PO14 is £438,944, broadly in line with the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in PO14 cost 52.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PO14 have fallen 17.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 17.6 recorded crimes per 1,000 residents, PO14 has a crime rate well 78% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PO14 has 20 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PO14 are 366.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PO14 (FAREHAM) offers above-average property prices (£438,944, 53% above national average), low crime (78% below national average), 20 nearby schools, and excellent broadband (366 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 366
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 366
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "IP13",
+  "name": "WOODBRIDGE",
+  "county": "suffolk",
+  "region": "east-of-england",
+  "city": "ipswich",
+  "adjacent": [
+    "IP12",
+    "IP14",
+    "IP15"
+  ],
+  "property": {
+    "avgPrice": 458223,
+    "medianPrice": 365000,
+    "priceChange1y": -6.1,
+    "priceChange5y": 0,
+    "transactions12m": 944,
+    "byType": {
+      "detached": {
+        "avg": 558881,
+        "count": 439
+      },
+      "semi": {
+        "avg": 307919,
+        "count": 254
+      },
+      "terraced": {
+        "avg": 264575,
+        "count": 151
+      },
+      "flat": {
+        "avg": 194060,
+        "count": 29
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 474489
+      },
+      {
+        "year": 2024,
+        "avg": 462756
+      },
+      {
+        "year": 2025,
+        "avg": 434448
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Earl Soham Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Grundisburgh Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bealings School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Framlingham Sir Robert Hitcham's Church of England Voluntary Aided Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Framlingham College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 110775,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 11,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 187,
+    "avgUpload": 34,
+    "superfastPct": 85,
+    "ultrafastPct": 40,
+    "gigabitPct": 40,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Mid Suffolk",
+    "bandD": 2017,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.2,
+    "imdRank": 11380,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IP13 is the postcode district for WOODBRIDGE, located in Suffolk, East Of England.",
+    "priceVsCounty": "The average property price in IP13 is £458,223, which is 21% above the Suffolk average of £379,904.",
+    "priceVsNational": "Properties in IP13 cost 59.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IP13 have fallen 6.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, IP13 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IP13 has 13 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IP13 are 187.0 Mbps, with 98% of premises having access to superfast broadband and 66% with full fibre (FTTP) connectivity.",
+    "synthesis": "IP13 (WOODBRIDGE) offers above-average property prices (£458,223, 60% above national average), low crime (94% below national average), 13 nearby schools, and excellent broadband (187 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 379904,
+      "crime": 75,
+      "broadband": 187
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 187
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

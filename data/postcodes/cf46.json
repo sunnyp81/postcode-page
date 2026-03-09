@@ -1,0 +1,197 @@
+{
+  "code": "CF46",
+  "name": "TREHARRIS",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF45",
+    "CF47",
+    "CF48"
+  ],
+  "property": {
+    "avgPrice": 175949,
+    "medianPrice": 140000,
+    "priceChange1y": -2,
+    "priceChange5y": 0,
+    "transactions12m": 590,
+    "byType": {
+      "detached": {
+        "avg": 337147,
+        "count": 95
+      },
+      "semi": {
+        "avg": 181244,
+        "count": 148
+      },
+      "terraced": {
+        "avg": 114935,
+        "count": 306
+      },
+      "flat": {
+        "avg": 170000,
+        "count": 2
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 166899
+      },
+      {
+        "year": 2024,
+        "avg": 182343
+      },
+      {
+        "year": 2025,
+        "avg": 178697
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 13.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -83,
+    "byType": {
+      "violentCrime": 5.8,
+      "burglary": 0.4,
+      "vehicleCrime": 1.1,
+      "antisocialBehaviour": 2.3,
+      "otherTheft": 0.8,
+      "other": 3.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bedlinog Community Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Trelewis Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Llancaeach Junior School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Llanfabon Infants School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Edwardsville Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 58972,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 184,
+    "avgUpload": 33,
+    "superfastPct": 95,
+    "ultrafastPct": 38,
+    "gigabitPct": 38,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF46 covers TREHARRIS in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF46 is £175,949, which is 36% below the Cardiff average of £275,506.",
+    "priceVsNational": "Properties in CF46 cost 38.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CF46 have fallen 2.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 13.8 recorded crimes per 1,000 residents, CF46 has a crime rate well 83% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CF46 has 5 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF46 are 184.0 Mbps, with 98% of premises having access to superfast broadband and 66% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF46 (TREHARRIS) offers affordable property prices (£175,949, 39% below national average), low crime (83% below national average), 5 nearby schools, and excellent broadband (184 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 184
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 184
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

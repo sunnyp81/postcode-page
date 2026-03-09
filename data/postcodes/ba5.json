@@ -1,0 +1,197 @@
+{
+  "code": "BA5",
+  "name": "WELLS",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "bath",
+  "adjacent": [
+    "BA4",
+    "BA6",
+    "BA7"
+  ],
+  "property": {
+    "avgPrice": 413089,
+    "medianPrice": 327500,
+    "priceChange1y": -7.3,
+    "priceChange5y": 0,
+    "transactions12m": 1036,
+    "byType": {
+      "detached": {
+        "avg": 575365,
+        "count": 288
+      },
+      "semi": {
+        "avg": 321389,
+        "count": 243
+      },
+      "terraced": {
+        "avg": 302460,
+        "count": 280
+      },
+      "flat": {
+        "avg": 201595,
+        "count": 157
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 384949
+      },
+      {
+        "year": 2024,
+        "avg": 444028
+      },
+      {
+        "year": 2025,
+        "avg": 411422
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 27.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -65.7,
+    "byType": {
+      "violentCrime": 10.8,
+      "burglary": 1.2,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 4.1,
+      "otherTheft": 5.9,
+      "other": 5.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 3,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Coxley Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Priddy Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wookey Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Lawrence's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wells Cathedral School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 258,
+    "avgUpload": 46,
+    "superfastPct": 88,
+    "ultrafastPct": 64,
+    "gigabitPct": 59,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bath Council",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BA5 is the postcode district for WELLS, located in Somerset, South West.",
+    "priceVsCounty": "The average property price in BA5 is £413,089, which is 11% above the Somerset average of £373,759.",
+    "priceVsNational": "Properties in BA5 cost 43.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BA5 have fallen 7.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 27.9 recorded crimes per 1,000 residents, BA5 has a crime rate well 66% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BA5 has 12 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BA5 are 258.0 Mbps, with 99% of premises having access to superfast broadband and 86% with full fibre (FTTP) connectivity.",
+    "synthesis": "BA5 (WELLS) offers above-average property prices (£413,089, 44% above national average), low crime (66% below national average), 12 nearby schools, and excellent broadband (258 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 258
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 258
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

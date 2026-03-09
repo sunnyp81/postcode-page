@@ -1,0 +1,198 @@
+{
+  "code": "SW6",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SW5",
+    "SW7",
+    "SW8"
+  ],
+  "property": {
+    "avgPrice": 1180977,
+    "medianPrice": 859475,
+    "priceChange1y": -16.7,
+    "priceChange5y": 0,
+    "transactions12m": 3414,
+    "byType": {
+      "detached": {
+        "avg": 2495833,
+        "count": 12
+      },
+      "semi": {
+        "avg": 2511974,
+        "count": 51
+      },
+      "terraced": {
+        "avg": 1800770,
+        "count": 933
+      },
+      "flat": {
+        "avg": 835589,
+        "count": 2247
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1131333
+      },
+      {
+        "year": 2024,
+        "avg": 1298031
+      },
+      {
+        "year": 2025,
+        "avg": 1081062
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 201.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 148.3,
+    "byType": {
+      "violentCrime": 53.5,
+      "burglary": 11.1,
+      "vehicleCrime": 15.4,
+      "antisocialBehaviour": 43.2,
+      "otherTheft": 44,
+      "other": 34.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 24,
+    "outstanding": 5,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Sir John Lillie Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "All Saints CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holy Cross RC School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John's Walham Green Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "St Thomas of Canterbury Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 188687,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 17,
+    "socialRent": 30,
+    "privateRent": 34,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 338,
+    "avgUpload": 61,
+    "superfastPct": 97,
+    "ultrafastPct": 89,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "London Council",
+    "bandD": 1090,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.3,
+    "imdRank": 18643,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SW6 encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in SW6 is £1,180,977, which is 10% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SW6 cost 311.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SW6 have fallen 16.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 201.9 recorded crimes per 1,000 residents, SW6 has a crime rate significantly 148% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SW6 has 24 schools within or near its boundaries, including 5 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SW6 are 338.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SW6 (LONDON) offers above-average property prices (£1,180,977, 311% above national average), higher-than-average crime (148% above national average), strong school provision (5 Outstanding-rated schools), and excellent broadband (338 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 338
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 338
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

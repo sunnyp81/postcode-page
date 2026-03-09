@@ -1,0 +1,198 @@
+{
+  "code": "SS13",
+  "name": "BASILDON",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "southend-on-sea",
+  "adjacent": [
+    "SS12",
+    "SS14",
+    "SS15"
+  ],
+  "property": {
+    "avgPrice": 338865,
+    "medianPrice": 300000,
+    "priceChange1y": -7.3,
+    "priceChange5y": 0,
+    "transactions12m": 720,
+    "byType": {
+      "detached": {
+        "avg": 459474,
+        "count": 78
+      },
+      "semi": {
+        "avg": 348365,
+        "count": 147
+      },
+      "terraced": {
+        "avg": 291357,
+        "count": 327
+      },
+      "flat": {
+        "avg": 180673,
+        "count": 134
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 331931
+      },
+      {
+        "year": 2024,
+        "avg": 354677
+      },
+      {
+        "year": 2025,
+        "avg": 328811
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 117.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 44.4,
+    "byType": {
+      "violentCrime": 44.8,
+      "burglary": 3.3,
+      "vehicleCrime": 8.1,
+      "antisocialBehaviour": 13.4,
+      "otherTheft": 19.3,
+      "other": 28.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Eversley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Basildon Upper Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Briscoe Primary School & Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Northlands Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Margaret's Church of England Academy, Bowers Gifford",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 193632,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 21,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 326,
+    "avgUpload": 59,
+    "superfastPct": 97,
+    "ultrafastPct": 79,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Basildon",
+    "bandD": 2063,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.2,
+    "imdRank": 17744,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SS13 encompasses BASILDON and its surrounding areas in Essex, East Of England.",
+    "priceVsCounty": "The average property price in SS13 is £338,865, which is 21% below the Essex average of £429,754.",
+    "priceVsNational": "Properties in SS13 cost 18.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SS13 have fallen 7.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 117.4 recorded crimes per 1,000 residents, SS13 has a crime rate significantly 44% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SS13 has 7 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SS13 are 326.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SS13 (BASILDON) offers property prices near the national average (£338,865), higher-than-average crime (44% above national average), 7 nearby schools, and excellent broadband (326 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 326
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 326
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

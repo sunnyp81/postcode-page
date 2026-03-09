@@ -1,0 +1,198 @@
+{
+  "code": "MK7",
+  "name": "MILTON KEYNES",
+  "county": "buckinghamshire",
+  "region": "south-east",
+  "city": "milton-keynes",
+  "adjacent": [
+    "MK6",
+    "MK8",
+    "MK9"
+  ],
+  "property": {
+    "avgPrice": 424508,
+    "medianPrice": 310000,
+    "priceChange1y": 12.9,
+    "priceChange5y": 0,
+    "transactions12m": 499,
+    "byType": {
+      "detached": {
+        "avg": 552478,
+        "count": 172
+      },
+      "semi": {
+        "avg": 287666,
+        "count": 106
+      },
+      "terraced": {
+        "avg": 231641,
+        "count": 120
+      },
+      "flat": {
+        "avg": 148746,
+        "count": 94
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 496675
+      },
+      {
+        "year": 2024,
+        "avg": 367431
+      },
+      {
+        "year": 2025,
+        "avg": 414822
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 29.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -63.7,
+    "byType": {
+      "violentCrime": 13.2,
+      "burglary": 0.8,
+      "vehicleCrime": 2.6,
+      "antisocialBehaviour": 4.4,
+      "otherTheft": 2.7,
+      "other": 5.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Wavendon Gate School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Open University",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Walton High",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Heronsgate School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Heronshill School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 305884,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 18,
+    "privateRent": 19,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 393,
+    "avgUpload": 71,
+    "superfastPct": 99,
+    "ultrafastPct": 98,
+    "gigabitPct": 98,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Milton Keynes Council",
+    "bandD": 2268,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 14351,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "MK7 covers MILTON KEYNES in Buckinghamshire, South East.",
+    "priceVsCounty": "The average property price in MK7 is £424,508, which is 10% below the Buckinghamshire average of £472,988.",
+    "priceVsNational": "Properties in MK7 cost 47.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in MK7 have risen 12.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 29.5 recorded crimes per 1,000 residents, MK7 has a crime rate well 64% below the national average of 81.3 per 1,000.",
+    "schoolContext": "MK7 has 7 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in MK7 are 393.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "MK7 (MILTON KEYNES) offers above-average property prices (£424,508, 48% above national average), low crime (64% below national average), 7 nearby schools, and excellent broadband (393 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 472988,
+      "crime": 75,
+      "broadband": 393
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 393
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

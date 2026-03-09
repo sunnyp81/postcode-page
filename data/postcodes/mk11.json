@@ -1,0 +1,188 @@
+{
+  "code": "MK11",
+  "name": "MILTON KEYNES",
+  "county": "buckinghamshire",
+  "region": "south-east",
+  "city": "milton-keynes",
+  "adjacent": [
+    "MK10",
+    "MK12",
+    "MK13"
+  ],
+  "property": {
+    "avgPrice": 372743,
+    "medianPrice": 303500,
+    "priceChange1y": 13.6,
+    "priceChange5y": 0,
+    "transactions12m": 547,
+    "byType": {
+      "detached": {
+        "avg": 546871,
+        "count": 79
+      },
+      "semi": {
+        "avg": 367934,
+        "count": 141
+      },
+      "terraced": {
+        "avg": 304472,
+        "count": 157
+      },
+      "flat": {
+        "avg": 218180,
+        "count": 144
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 366895
+      },
+      {
+        "year": 2024,
+        "avg": 352924
+      },
+      {
+        "year": 2025,
+        "avg": 401033
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 32.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -60.5,
+    "byType": {
+      "violentCrime": 14.6,
+      "burglary": 1.3,
+      "vehicleCrime": 2.3,
+      "antisocialBehaviour": 4.3,
+      "otherTheft": 2.2,
+      "other": 7.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 1,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Russell Street School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Fairfields Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary and St Giles Church of England School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 305884,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 18,
+    "privateRent": 19,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 350,
+    "avgUpload": 63,
+    "superfastPct": 98,
+    "ultrafastPct": 88,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Milton Keynes Council",
+    "bandD": 2321,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 14351,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "MK11 is the postcode district for MILTON KEYNES, located in Buckinghamshire, South East.",
+    "priceVsCounty": "The average property price in MK11 is £372,743, which is 21% below the Buckinghamshire average of £472,988.",
+    "priceVsNational": "Properties in MK11 cost 29.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in MK11 have risen 13.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 32.1 recorded crimes per 1,000 residents, MK11 has a crime rate well 61% below the national average of 81.3 per 1,000.",
+    "schoolContext": "MK11 has 3 schools within or near its boundaries, including 1 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in MK11 are 350.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "MK11 (MILTON KEYNES) offers above-average property prices (£372,743, 30% above national average), low crime (61% below national average), 3 nearby schools, and excellent broadband (350 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 472988,
+      "crime": 75,
+      "broadband": 350
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 350
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

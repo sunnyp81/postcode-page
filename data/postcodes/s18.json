@@ -1,0 +1,197 @@
+{
+  "code": "S18",
+  "name": "DRONFIELD",
+  "county": "south-yorkshire",
+  "region": "yorkshire",
+  "city": "sheffield",
+  "adjacent": [
+    "S17",
+    "S20"
+  ],
+  "property": {
+    "avgPrice": 327053,
+    "medianPrice": 281875,
+    "priceChange1y": 2.1,
+    "priceChange5y": 0,
+    "transactions12m": 1002,
+    "byType": {
+      "detached": {
+        "avg": 432053,
+        "count": 393
+      },
+      "semi": {
+        "avg": 271475,
+        "count": 384
+      },
+      "terraced": {
+        "avg": 216726,
+        "count": 131
+      },
+      "flat": {
+        "avg": 141297,
+        "count": 52
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 325544
+      },
+      {
+        "year": 2024,
+        "avg": 324633
+      },
+      {
+        "year": 2025,
+        "avg": 331306
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 22.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -72.6,
+    "byType": {
+      "violentCrime": 7.8,
+      "burglary": 0.9,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 2.9,
+      "otherTheft": 6.1,
+      "other": 4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Dronfield Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dronfield Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "William Levick Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Penny Acres Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Unstone Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 106646,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 19,
+    "privateRent": 8,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 319,
+    "avgUpload": 57,
+    "superfastPct": 95,
+    "ultrafastPct": 77,
+    "gigabitPct": 77,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North East Derbyshire",
+    "bandD": 2144,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.4,
+    "imdRank": 14111,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "S18 encompasses DRONFIELD and its surrounding areas in South Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in S18 is £327,053, which is 42% above the South Yorkshire average of £230,881.",
+    "priceVsNational": "Properties in S18 cost 14.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in S18 have risen 2.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 22.3 recorded crimes per 1,000 residents, S18 has a crime rate well 73% below the national average of 81.3 per 1,000.",
+    "schoolContext": "S18 has 14 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in S18 are 319.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "S18 (DRONFIELD) offers property prices near the national average (£327,053), low crime (73% below national average), 14 nearby schools, and excellent broadband (319 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 230881,
+      "crime": 75,
+      "broadband": 319
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 319
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

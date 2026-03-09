@@ -1,0 +1,196 @@
+{
+  "code": "EX39",
+  "name": "BIDEFORD",
+  "county": "devon",
+  "region": "south-west",
+  "city": "exeter",
+  "adjacent": [
+    "EX38"
+  ],
+  "property": {
+    "avgPrice": 330303,
+    "medianPrice": 277500,
+    "priceChange1y": -5.6,
+    "priceChange5y": 0,
+    "transactions12m": 2414,
+    "byType": {
+      "detached": {
+        "avg": 434749,
+        "count": 861
+      },
+      "semi": {
+        "avg": 286904,
+        "count": 393
+      },
+      "terraced": {
+        "avg": 239849,
+        "count": 759
+      },
+      "flat": {
+        "avg": 188465,
+        "count": 215
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 338256
+      },
+      {
+        "year": 2024,
+        "avg": 334209
+      },
+      {
+        "year": 2025,
+        "avg": 315390
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 6.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -91.6,
+    "byType": {
+      "violentCrime": 2.8,
+      "burglary": 0.2,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 1.4,
+      "otherTheft": 1,
+      "other": 1.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Appledore School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "East-the-Water Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "West Croft School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Buckland Brewer Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Hartland Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 69841,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 24,
+    "socialRent": 9,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 333,
+    "avgUpload": 60,
+    "superfastPct": 88,
+    "ultrafastPct": 82,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Torridge",
+    "bandD": 2255,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.3,
+    "imdRank": 20086,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EX39 is the postcode district for BIDEFORD, located in Devon, South West.",
+    "priceVsCounty": "The average property price in EX39 is £330,303, which is 14% below the Devon average of £385,452.",
+    "priceVsNational": "Properties in EX39 cost 15.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EX39 have fallen 5.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 6.8 recorded crimes per 1,000 residents, EX39 has a crime rate well 92% below the national average of 81.3 per 1,000.",
+    "schoolContext": "EX39 has 16 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EX39 are 333.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "EX39 (BIDEFORD) offers property prices near the national average (£330,303), low crime (92% below national average), 16 nearby schools, and excellent broadband (333 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 333
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 333
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "RH10",
+  "name": "CRAWLEY",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "redhill",
+  "adjacent": [
+    "RH9",
+    "RH11",
+    "RH12"
+  ],
+  "property": {
+    "avgPrice": 468800,
+    "medianPrice": 380000,
+    "priceChange1y": -8.8,
+    "priceChange5y": 0,
+    "transactions12m": 2896,
+    "byType": {
+      "detached": {
+        "avg": 606331,
+        "count": 681
+      },
+      "semi": {
+        "avg": 421252,
+        "count": 642
+      },
+      "terraced": {
+        "avg": 355664,
+        "count": 858
+      },
+      "flat": {
+        "avg": 220249,
+        "count": 617
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 440964
+      },
+      {
+        "year": 2024,
+        "avg": 501958
+      },
+      {
+        "year": 2025,
+        "avg": 457804
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 54.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -32.8,
+    "byType": {
+      "violentCrime": 20.2,
+      "burglary": 1.6,
+      "vehicleCrime": 1.8,
+      "antisocialBehaviour": 9.7,
+      "otherTheft": 9.6,
+      "other": 11.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 25,
+    "outstanding": 1,
+    "good": 8,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Copthorne Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Three Bridges Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Pound Hill Junior School, Crawley",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fairway Infant School, Copthorne",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Maidenbower Infant School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 90586,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 37,
+    "socialRent": 11,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 315,
+    "avgUpload": 57,
+    "superfastPct": 96,
+    "ultrafastPct": 76,
+    "gigabitPct": 76,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Tandridge",
+    "bandD": 2252,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.9,
+    "imdRank": 10027,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RH10 encompasses CRAWLEY and its surrounding areas in Surrey, South East.",
+    "priceVsCounty": "The average property price in RH10 is £468,800, which is 24% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in RH10 cost 63.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RH10 have fallen 8.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 54.6 recorded crimes per 1,000 residents, RH10 has a crime rate well 33% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RH10 has 25 schools within or near its boundaries, including 1 rated Outstanding and 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RH10 are 315.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RH10 (CRAWLEY) offers above-average property prices (£468,800, 63% above national average), low crime (33% below national average), 25 nearby schools, and excellent broadband (315 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 315
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 315
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

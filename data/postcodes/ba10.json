@@ -1,0 +1,187 @@
+{
+  "code": "BA10",
+  "name": "BRUTON",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "bath",
+  "adjacent": [
+    "BA9",
+    "BA11",
+    "BA12"
+  ],
+  "property": {
+    "avgPrice": 512360,
+    "medianPrice": 330500,
+    "priceChange1y": -46.4,
+    "priceChange5y": 0,
+    "transactions12m": 156,
+    "byType": {
+      "detached": {
+        "avg": 588292,
+        "count": 39
+      },
+      "semi": {
+        "avg": 350783,
+        "count": 36
+      },
+      "terraced": {
+        "avg": 321987,
+        "count": 46
+      },
+      "flat": {
+        "avg": 238329,
+        "count": 21
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 402332
+      },
+      {
+        "year": 2024,
+        "avg": 725053
+      },
+      {
+        "year": 2025,
+        "avg": 388723
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.9,
+      "burglary": 0.2,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 0.9,
+      "otherTheft": 0.9,
+      "other": 0.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bruton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "King's Bruton",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sexey's School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 320,
+    "avgUpload": 58,
+    "superfastPct": 90,
+    "ultrafastPct": 78,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bath Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BA10 covers BRUTON in Somerset, South West.",
+    "priceVsCounty": "The average property price in BA10 is £512,360, which is 37% above the Somerset average of £373,759.",
+    "priceVsNational": "Properties in BA10 cost 78.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BA10 have fallen 46.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, BA10 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BA10 has 3 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BA10 are 320.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BA10 (BRUTON) offers above-average property prices (£512,360, 79% above national average), low crime (94% below national average), 3 nearby schools, and excellent broadband (320 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 320
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 320
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "LL13",
+  "name": "WREXHAM",
+  "county": "north-wales",
+  "region": "wales",
+  "city": "north-wales",
+  "adjacent": [
+    "LL12",
+    "LL14",
+    "LL15"
+  ],
+  "property": {
+    "avgPrice": 241784,
+    "medianPrice": 168000,
+    "priceChange1y": 5.3,
+    "priceChange5y": 0,
+    "transactions12m": 1132,
+    "byType": {
+      "detached": {
+        "avg": 337500,
+        "count": 298
+      },
+      "semi": {
+        "avg": 176514,
+        "count": 276
+      },
+      "terraced": {
+        "avg": 139095,
+        "count": 374
+      },
+      "flat": {
+        "avg": 104556,
+        "count": 101
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 232265
+      },
+      {
+        "year": 2024,
+        "avg": 240711
+      },
+      {
+        "year": 2025,
+        "avg": 253507
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 31.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -61.6,
+    "byType": {
+      "violentCrime": 12.3,
+      "burglary": 1.4,
+      "vehicleCrime": 0.8,
+      "antisocialBehaviour": 6.3,
+      "otherTheft": 3.1,
+      "other": 7.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 23,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Deiniol C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Barker's Lane C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Sant Dunawd",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holt's Community Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Bodhyfryd",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 138245,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 265,
+    "avgUpload": 48,
+    "superfastPct": 92,
+    "ultrafastPct": 62,
+    "gigabitPct": 62,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Wales Council",
+    "bandD": 2304,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LL13 covers WREXHAM in North Wales, Wales.",
+    "priceVsCounty": "The average property price in LL13 is £241,784, which is 11% below the North Wales average of £271,879.",
+    "priceVsNational": "Properties in LL13 cost 15.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LL13 have risen 5.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 31.2 recorded crimes per 1,000 residents, LL13 has a crime rate well 62% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LL13 has 23 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LL13 are 265.0 Mbps, with 99% of premises having access to superfast broadband and 88% with full fibre (FTTP) connectivity.",
+    "synthesis": "LL13 (WREXHAM) offers affordable property prices (£241,784, 16% below national average), low crime (62% below national average), 23 nearby schools, and excellent broadband (265 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 271879,
+      "crime": 75,
+      "broadband": 265
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 265
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "M15",
+  "name": "MANCHESTER",
+  "county": "greater-manchester",
+  "region": "north-west",
+  "city": "manchester",
+  "adjacent": [
+    "M14",
+    "M16",
+    "M17"
+  ],
+  "property": {
+    "avgPrice": 310079,
+    "medianPrice": 282100,
+    "priceChange1y": -13.7,
+    "priceChange5y": 0,
+    "transactions12m": 1909,
+    "byType": {
+      "detached": {
+        "avg": 218500,
+        "count": 2
+      },
+      "semi": {
+        "avg": 252061,
+        "count": 18
+      },
+      "terraced": {
+        "avg": 256758,
+        "count": 63
+      },
+      "flat": {
+        "avg": 304437,
+        "count": 1788
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 318325
+      },
+      {
+        "year": 2024,
+        "avg": 316166
+      },
+      {
+        "year": 2025,
+        "avg": 272851
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.3,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.1,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 2,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Martenscroft Nursery School & Children's Centre",
+        "type": "Nursery",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "St Philip's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holy Name Roman Catholic Primary School Manchester",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "St Wilfrid's RC Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Loreto College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 241025,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 15,
+    "privateRent": 14,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 312,
+    "avgUpload": 56,
+    "superfastPct": 96,
+    "ultrafastPct": 75,
+    "gigabitPct": 75,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Trafford",
+    "bandD": 1878,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.1,
+    "imdRank": 12412,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "M15 encompasses MANCHESTER and its surrounding areas in Greater Manchester, North West.",
+    "priceVsCounty": "The average property price in M15 is £310,079, which is 19% below the Greater Manchester average of £381,941.",
+    "priceVsNational": "Properties in M15 cost 8.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in M15 have fallen 13.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, M15 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "M15 has 11 schools within or near its boundaries, including 2 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in M15 are 312.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "M15 (MANCHESTER) offers property prices near the national average (£310,079), low crime (94% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (312 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 381941,
+      "crime": 75,
+      "broadband": 312
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 312
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

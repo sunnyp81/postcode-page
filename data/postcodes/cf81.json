@@ -1,0 +1,196 @@
+{
+  "code": "CF81",
+  "name": "BARGOED",
+  "county": "cardiff",
+  "region": "wales",
+  "city": "cardiff",
+  "adjacent": [
+    "CF82",
+    "CF83"
+  ],
+  "property": {
+    "avgPrice": 154689,
+    "medianPrice": 135000,
+    "priceChange1y": -6.9,
+    "priceChange5y": 0,
+    "transactions12m": 570,
+    "byType": {
+      "detached": {
+        "avg": 267534,
+        "count": 52
+      },
+      "semi": {
+        "avg": 170074,
+        "count": 125
+      },
+      "terraced": {
+        "avg": 123471,
+        "count": 328
+      },
+      "flat": {
+        "avg": 122500,
+        "count": 12
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 145369
+      },
+      {
+        "year": 2024,
+        "avg": 166094
+      },
+      {
+        "year": 2025,
+        "avg": 154686
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -92.6,
+    "byType": {
+      "violentCrime": 2.5,
+      "burglary": 0.1,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 1.2,
+      "otherTheft": 0.2,
+      "other": 1.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Deri Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fochriw Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gilfach Fargoed Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Gymraeg Gilfach Fargoed",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Heolddu Comprehensive School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 176865,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 216,
+    "avgUpload": 39,
+    "superfastPct": 98,
+    "ultrafastPct": 47,
+    "gigabitPct": 47,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cardiff Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CF81 encompasses BARGOED and its surrounding areas in Cardiff, Wales.",
+    "priceVsCounty": "The average property price in CF81 is £154,689, which is 44% below the Cardiff average of £275,506.",
+    "priceVsNational": "Properties in CF81 cost 46.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CF81 have fallen 6.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 6.0 recorded crimes per 1,000 residents, CF81 has a crime rate well 93% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CF81 has 11 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CF81 are 216.0 Mbps, with 99% of premises having access to superfast broadband and 74% with full fibre (FTTP) connectivity.",
+    "synthesis": "CF81 (BARGOED) offers affordable property prices (£154,689, 46% below national average), low crime (93% below national average), 11 nearby schools, and excellent broadband (216 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 275506,
+      "crime": 75,
+      "broadband": 216
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 216
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

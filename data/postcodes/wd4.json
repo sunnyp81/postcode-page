@@ -1,0 +1,193 @@
+{
+  "code": "WD4",
+  "name": "KINGS LANGLEY",
+  "county": "greater-london",
+  "region": "london",
+  "city": "watford",
+  "adjacent": [
+    "WD3",
+    "WD5",
+    "WD6"
+  ],
+  "property": {
+    "avgPrice": 698424,
+    "medianPrice": 550000,
+    "priceChange1y": -2.9,
+    "priceChange5y": 0,
+    "transactions12m": 529,
+    "byType": {
+      "detached": {
+        "avg": 1028261,
+        "count": 166
+      },
+      "semi": {
+        "avg": 620072,
+        "count": 117
+      },
+      "terraced": {
+        "avg": 503247,
+        "count": 65
+      },
+      "flat": {
+        "avg": 302689,
+        "count": 157
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 761400
+      },
+      {
+        "year": 2024,
+        "avg": 678346
+      },
+      {
+        "year": 2025,
+        "avg": 658503
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -90.2,
+    "byType": {
+      "violentCrime": 3.3,
+      "burglary": 0.6,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1.9,
+      "otherTheft": 0.6,
+      "other": 1.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Kings Langley Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Paul's Church of England Primary School, Langleybury",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Paul's Church of England Voluntary Aided Primary School, Chipperfield",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kings Langley School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 95807,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 15,
+    "privateRent": 12,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 305,
+    "avgUpload": 55,
+    "superfastPct": 88,
+    "ultrafastPct": 76,
+    "gigabitPct": 73,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Three Rivers",
+    "bandD": 2099,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 9.9,
+    "imdRank": 7742,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WD4 covers KINGS LANGLEY in Greater London, London.",
+    "priceVsCounty": "The average property price in WD4 is £698,424, which is 47% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in WD4 cost 143.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WD4 have fallen 2.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 8.0 recorded crimes per 1,000 residents, WD4 has a crime rate well 90% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WD4 has 4 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WD4 are 305.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WD4 (KINGS LANGLEY) offers above-average property prices (£698,424, 143% above national average), low crime (90% below national average), 4 nearby schools, and excellent broadband (305 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 305
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 305
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "EX7",
+  "name": "DAWLISH",
+  "county": "devon",
+  "region": "south-west",
+  "city": "exeter",
+  "adjacent": [
+    "EX6",
+    "EX8",
+    "EX9"
+  ],
+  "property": {
+    "avgPrice": 301015,
+    "medianPrice": 270000,
+    "priceChange1y": 13.5,
+    "priceChange5y": 0,
+    "transactions12m": 825,
+    "byType": {
+      "detached": {
+        "avg": 419992,
+        "count": 248
+      },
+      "semi": {
+        "avg": 311107,
+        "count": 144
+      },
+      "terraced": {
+        "avg": 243011,
+        "count": 239
+      },
+      "flat": {
+        "avg": 154543,
+        "count": 150
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 300316
+      },
+      {
+        "year": 2024,
+        "avg": 285547
+      },
+      {
+        "year": 2025,
+        "avg": 324212
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 23.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -70.8,
+    "byType": {
+      "violentCrime": 10.7,
+      "burglary": 0.8,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 3.8,
+      "otherTheft": 3,
+      "other": 4.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Education and Care (Devon) Ltd At 7-9 Oak Park Villas",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oakwood Specialist College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gatehouse Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Westcliff Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chances Educational Support Services",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 138548,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 10,
+    "privateRent": 16,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 256,
+    "avgUpload": 46,
+    "superfastPct": 94,
+    "ultrafastPct": 59,
+    "gigabitPct": 59,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Teignbridge",
+    "bandD": 2279,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.9,
+    "imdRank": 13686,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EX7 encompasses DAWLISH and its surrounding areas in Devon, South West.",
+    "priceVsCounty": "The average property price in EX7 is £301,015, which is 22% below the Devon average of £385,452.",
+    "priceVsNational": "Property values in EX7 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in EX7 have risen 13.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 23.7 recorded crimes per 1,000 residents, EX7 has a crime rate well 71% below the national average of 81.3 per 1,000.",
+    "schoolContext": "EX7 has 7 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EX7 are 256.0 Mbps, with 99% of premises having access to superfast broadband and 85% with full fibre (FTTP) connectivity.",
+    "synthesis": "EX7 (DAWLISH) offers property prices near the national average (£301,015), low crime (71% below national average), 7 nearby schools, and excellent broadband (256 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 256
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 256
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

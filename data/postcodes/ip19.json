@@ -1,0 +1,198 @@
+{
+  "code": "IP19",
+  "name": "HALESWORTH",
+  "county": "suffolk",
+  "region": "east-of-england",
+  "city": "ipswich",
+  "adjacent": [
+    "IP18",
+    "IP20",
+    "IP21"
+  ],
+  "property": {
+    "avgPrice": 378092,
+    "medianPrice": 326000,
+    "priceChange1y": 1.2,
+    "priceChange5y": 0,
+    "transactions12m": 579,
+    "byType": {
+      "detached": {
+        "avg": 453157,
+        "count": 280
+      },
+      "semi": {
+        "avg": 291133,
+        "count": 143
+      },
+      "terraced": {
+        "avg": 243972,
+        "count": 94
+      },
+      "flat": {
+        "avg": 152382,
+        "count": 17
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 408893
+      },
+      {
+        "year": 2024,
+        "avg": 356943
+      },
+      {
+        "year": 2025,
+        "avg": 361404
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 7.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -91.1,
+    "byType": {
+      "violentCrime": 3.3,
+      "burglary": 0.3,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1.2,
+      "otherTheft": 0.8,
+      "other": 1.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 5,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bramfield House School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bramfield Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holton St Peter Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Edgar Sewter Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Wenhaston Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 110775,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 11,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 216,
+    "avgUpload": 39,
+    "superfastPct": 89,
+    "ultrafastPct": 48,
+    "gigabitPct": 48,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Mid Suffolk",
+    "bandD": 2017,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.2,
+    "imdRank": 11380,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IP19 is the postcode district for HALESWORTH, located in Suffolk, East Of England.",
+    "priceVsCounty": "The average property price in IP19 is £378,092, broadly in line with the Suffolk average of £379,904.",
+    "priceVsNational": "Properties in IP19 cost 31.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IP19 have risen 1.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 7.2 recorded crimes per 1,000 residents, IP19 has a crime rate well 91% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IP19 has 5 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IP19 are 216.0 Mbps, with 99% of premises having access to superfast broadband and 74% with full fibre (FTTP) connectivity.",
+    "synthesis": "IP19 (HALESWORTH) offers above-average property prices (£378,092, 32% above national average), low crime (91% below national average), 5 nearby schools, and excellent broadband (216 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 379904,
+      "crime": 75,
+      "broadband": 216
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 216
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "PR7",
+  "name": "CHORLEY",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "preston",
+  "adjacent": [
+    "PR6",
+    "PR8",
+    "PR9"
+  ],
+  "property": {
+    "avgPrice": 264855,
+    "medianPrice": 200000,
+    "priceChange1y": 19,
+    "priceChange5y": 0,
+    "transactions12m": 3268,
+    "byType": {
+      "detached": {
+        "avg": 365734,
+        "count": 827
+      },
+      "semi": {
+        "avg": 210966,
+        "count": 1004
+      },
+      "terraced": {
+        "avg": 157243,
+        "count": 887
+      },
+      "flat": {
+        "avg": 110623,
+        "count": 375
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 263134
+      },
+      {
+        "year": 2024,
+        "avg": 244232
+      },
+      {
+        "year": 2025,
+        "avg": 290651
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 45.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -44.3,
+    "byType": {
+      "violentCrime": 16.8,
+      "burglary": 1.5,
+      "vehicleCrime": 1.1,
+      "antisocialBehaviour": 14.7,
+      "otherTheft": 3.7,
+      "other": 7.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 34,
+    "outstanding": 3,
+    "good": 12,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Duke Street Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Buckshaw Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Coppull Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Euxton Primrose Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Eccleston Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 116113,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 10,
+    "privateRent": 11,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 349,
+    "avgUpload": 63,
+    "superfastPct": 95,
+    "ultrafastPct": 88,
+    "gigabitPct": 85,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Ribble",
+    "bandD": 2142,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.3,
+    "imdRank": 12410,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PR7 is the postcode district for CHORLEY, located in Lancashire, North West.",
+    "priceVsCounty": "The average property price in PR7 is £264,855, broadly in line with the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in PR7 cost 7.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PR7 have risen 19.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 45.3 recorded crimes per 1,000 residents, PR7 has a crime rate well 44% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PR7 has 34 schools within or near its boundaries, including 3 rated Outstanding and 12 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PR7 are 349.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PR7 (CHORLEY) offers property prices near the national average (£264,855), low crime (44% below national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (349 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 349
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 349
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

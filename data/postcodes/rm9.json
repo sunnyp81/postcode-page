@@ -1,0 +1,198 @@
+{
+  "code": "RM9",
+  "name": "DAGENHAM",
+  "county": "greater-london",
+  "region": "london",
+  "city": "romford",
+  "adjacent": [
+    "RM8",
+    "RM10",
+    "RM11"
+  ],
+  "property": {
+    "avgPrice": 380292,
+    "medianPrice": 365000,
+    "priceChange1y": -1.5,
+    "priceChange5y": 0,
+    "transactions12m": 867,
+    "byType": {
+      "detached": {
+        "avg": 677333,
+        "count": 3
+      },
+      "semi": {
+        "avg": 420948,
+        "count": 62
+      },
+      "terraced": {
+        "avg": 374935,
+        "count": 675
+      },
+      "flat": {
+        "avg": 200369,
+        "count": 106
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 403782
+      },
+      {
+        "year": 2024,
+        "avg": 369636
+      },
+      {
+        "year": 2025,
+        "avg": 364106
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 116.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 43.2,
+    "byType": {
+      "violentCrime": 43.6,
+      "burglary": 4.3,
+      "vehicleCrime": 11,
+      "antisocialBehaviour": 19.4,
+      "otherTheft": 16.6,
+      "other": 21.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Thomas Arnold Primary School, Rowdowns Road",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Parsloes Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Five Elms Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Peter's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Monteagle Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 276274,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 14,
+    "privateRent": 14,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 374,
+    "avgUpload": 67,
+    "superfastPct": 96,
+    "ultrafastPct": 93,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Havering",
+    "bandD": 2088,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.8,
+    "imdRank": 14036,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RM9 covers DAGENHAM in Greater London, London.",
+    "priceVsCounty": "The average property price in RM9 is £380,292, which is 71% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in RM9 cost 32.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RM9 have fallen 1.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 116.4 recorded crimes per 1,000 residents, RM9 has a crime rate significantly 43% above the national average of 81.3 per 1,000.",
+    "schoolContext": "RM9 has 16 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RM9 are 374.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RM9 (DAGENHAM) offers above-average property prices (£380,292, 33% above national average), higher-than-average crime (43% above national average), 16 nearby schools, and excellent broadband (374 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 374
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 374
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

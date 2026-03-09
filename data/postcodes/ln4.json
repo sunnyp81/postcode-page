@@ -1,0 +1,198 @@
+{
+  "code": "LN4",
+  "name": "LINCOLN",
+  "county": "lincolnshire",
+  "region": "east-midlands",
+  "city": "lincoln",
+  "adjacent": [
+    "LN3",
+    "LN5",
+    "LN6"
+  ],
+  "property": {
+    "avgPrice": 270464,
+    "medianPrice": 237500,
+    "priceChange1y": 1.6,
+    "priceChange5y": 0,
+    "transactions12m": 1914,
+    "byType": {
+      "detached": {
+        "avg": 314266,
+        "count": 1008
+      },
+      "semi": {
+        "avg": 205088,
+        "count": 535
+      },
+      "terraced": {
+        "avg": 175015,
+        "count": 251
+      },
+      "flat": {
+        "avg": 128868,
+        "count": 38
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 288837
+      },
+      {
+        "year": 2024,
+        "avg": 258261
+      },
+      {
+        "year": 2025,
+        "avg": 262279
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0.1,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.1,
+      "otherTheft": 0.1,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 20,
+    "outstanding": 1,
+    "good": 9,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Digby the Tedder Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Metheringham Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Nocton Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Walcott Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Tattershall Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 105114,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 24,
+    "socialRent": 21,
+    "privateRent": 25,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 243,
+    "avgUpload": 44,
+    "superfastPct": 87,
+    "ultrafastPct": 56,
+    "gigabitPct": 56,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Lincoln",
+    "bandD": 2094,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.9,
+    "imdRank": 20015,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LN4 encompasses LINCOLN and its surrounding areas in Lincolnshire, East Midlands.",
+    "priceVsCounty": "The average property price in LN4 is £270,464, broadly in line with the Lincolnshire average of £265,006.",
+    "priceVsNational": "Properties in LN4 cost 5.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LN4 have risen 1.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, LN4 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LN4 has 20 schools within or near its boundaries, including 1 rated Outstanding and 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LN4 are 243.0 Mbps, with 99% of premises having access to superfast broadband and 82% with full fibre (FTTP) connectivity.",
+    "synthesis": "LN4 (LINCOLN) offers property prices near the national average (£270,464), low crime (94% below national average), 20 nearby schools, and excellent broadband (243 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 265006,
+      "crime": 75,
+      "broadband": 243
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 243
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

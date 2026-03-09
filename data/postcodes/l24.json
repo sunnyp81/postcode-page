@@ -1,0 +1,198 @@
+{
+  "code": "L24",
+  "name": "LIVERPOOL",
+  "county": "merseyside",
+  "region": "north-west",
+  "city": "liverpool",
+  "adjacent": [
+    "L23",
+    "L25",
+    "L26"
+  ],
+  "property": {
+    "avgPrice": 302036,
+    "medianPrice": 155000,
+    "priceChange1y": -3.5,
+    "priceChange5y": 0,
+    "transactions12m": 481,
+    "byType": {
+      "detached": {
+        "avg": 476597,
+        "count": 31
+      },
+      "semi": {
+        "avg": 200882,
+        "count": 146
+      },
+      "terraced": {
+        "avg": 141399,
+        "count": 222
+      },
+      "flat": {
+        "avg": 95509,
+        "count": 53
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 416532
+      },
+      {
+        "year": 2024,
+        "avg": 248743
+      },
+      {
+        "year": 2025,
+        "avg": 240145
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 58.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -28.2,
+    "byType": {
+      "violentCrime": 21.7,
+      "burglary": 1.3,
+      "vehicleCrime": 2.1,
+      "antisocialBehaviour": 6.2,
+      "otherTheft": 6.8,
+      "other": 20.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Middlefield Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hale Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Stockton Wood Community Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "St Christopher's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Prudentia Education",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 131543,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 24,
+    "privateRent": 13,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 340,
+    "avgUpload": 61,
+    "superfastPct": 96,
+    "ultrafastPct": 83,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Liverpool Council",
+    "bandD": 2251,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 32.3,
+    "imdRank": 21746,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "L24 is the postcode district for LIVERPOOL, located in Merseyside, North West.",
+    "priceVsCounty": "The average property price in L24 is £302,036, which is 19% above the Merseyside average of £252,845.",
+    "priceVsNational": "Properties in L24 cost 5.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in L24 have fallen 3.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 58.4 recorded crimes per 1,000 residents, L24 has a crime rate well 28% below the national average of 81.3 per 1,000.",
+    "schoolContext": "L24 has 6 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in L24 are 340.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "L24 (LIVERPOOL) offers property prices near the national average (£302,036), low crime (28% below national average), 6 nearby schools, and excellent broadband (340 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 252845,
+      "crime": 75,
+      "broadband": 340
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 340
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

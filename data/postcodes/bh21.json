@@ -1,0 +1,197 @@
+{
+  "code": "BH21",
+  "name": "WIMBORNE",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "bournemouth",
+  "adjacent": [
+    "BH20",
+    "BH22",
+    "BH23"
+  ],
+  "property": {
+    "avgPrice": 488712,
+    "medianPrice": 410000,
+    "priceChange1y": -2.3,
+    "priceChange5y": 0,
+    "transactions12m": 1935,
+    "byType": {
+      "detached": {
+        "avg": 579397,
+        "count": 845
+      },
+      "semi": {
+        "avg": 391999,
+        "count": 426
+      },
+      "terraced": {
+        "avg": 347242,
+        "count": 329
+      },
+      "flat": {
+        "avg": 233616,
+        "count": 218
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 538466
+      },
+      {
+        "year": 2024,
+        "avg": 467496
+      },
+      {
+        "year": 2025,
+        "avg": 456797
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 10.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -87.5,
+    "byType": {
+      "violentCrime": 3.7,
+      "burglary": 0.3,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 1.9,
+      "otherTheft": 2.3,
+      "other": 1.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 28,
+    "outstanding": 1,
+    "good": 12,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Sturminster Marshall First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rushcombe First School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Cranborne Middle School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Canford School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dumpton School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 300,
+    "avgUpload": 54,
+    "superfastPct": 92,
+    "ultrafastPct": 72,
+    "gigabitPct": 72,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bournemouth Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.7,
+    "imdRank": 13227,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BH21 covers WIMBORNE in Dorset, South West.",
+    "priceVsCounty": "The average property price in BH21 is £488,712, which is 15% above the Dorset average of £425,376.",
+    "priceVsNational": "Properties in BH21 cost 70.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BH21 have fallen 2.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 10.2 recorded crimes per 1,000 residents, BH21 has a crime rate well 87% below the national average of 81.3 per 1,000.",
+    "schoolContext": "BH21 has 28 schools within or near its boundaries, including 1 rated Outstanding and 12 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BH21 are 300.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BH21 (WIMBORNE) offers above-average property prices (£488,712, 70% above national average), low crime (87% below national average), 28 nearby schools, and excellent broadband (300 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 300
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 300
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

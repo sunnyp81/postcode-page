@@ -1,0 +1,198 @@
+{
+  "code": "BD21",
+  "name": "KEIGHLEY",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "bradford",
+  "adjacent": [
+    "BD20",
+    "BD22",
+    "BD23"
+  ],
+  "property": {
+    "avgPrice": 170092,
+    "medianPrice": 115000,
+    "priceChange1y": -22.6,
+    "priceChange5y": 0,
+    "transactions12m": 863,
+    "byType": {
+      "detached": {
+        "avg": 235601,
+        "count": 39
+      },
+      "semi": {
+        "avg": 153599,
+        "count": 199
+      },
+      "terraced": {
+        "avg": 102400,
+        "count": 532
+      },
+      "flat": {
+        "avg": 62900,
+        "count": 17
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 169308
+      },
+      {
+        "year": 2024,
+        "avg": 190332
+      },
+      {
+        "year": 2025,
+        "avg": 147306
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 155.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 91.1,
+    "byType": {
+      "violentCrime": 69.4,
+      "burglary": 6.1,
+      "vehicleCrime": 4.9,
+      "antisocialBehaviour": 14.8,
+      "otherTheft": 29.1,
+      "other": 31
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Strong Close Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ingrow Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Long Lee Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Keighley St Andrew's CofE Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Anne's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 563605,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 15,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 356,
+    "avgUpload": 64,
+    "superfastPct": 97,
+    "ultrafastPct": 89,
+    "gigabitPct": 87,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bradford",
+    "bandD": 1956,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 34.7,
+    "imdRank": 23086,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BD21 encompasses KEIGHLEY and its surrounding areas in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in BD21 is £170,092, which is 39% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in BD21 cost 40.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BD21 have fallen 22.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 155.4 recorded crimes per 1,000 residents, BD21 has a crime rate significantly 91% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BD21 has 10 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BD21 are 356.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BD21 (KEIGHLEY) offers affordable property prices (£170,092, 41% below national average), higher-than-average crime (91% above national average), 10 nearby schools, and excellent broadband (356 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 356
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 356
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

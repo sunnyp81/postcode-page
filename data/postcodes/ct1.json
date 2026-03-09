@@ -1,0 +1,197 @@
+{
+  "code": "CT1",
+  "name": "CANTERBURY",
+  "county": "kent",
+  "region": "south-east",
+  "city": "canterbury",
+  "adjacent": [
+    "CT2",
+    "CT3"
+  ],
+  "property": {
+    "avgPrice": 358011,
+    "medianPrice": 275000,
+    "priceChange1y": 28.2,
+    "priceChange5y": 0,
+    "transactions12m": 1453,
+    "byType": {
+      "detached": {
+        "avg": 542780,
+        "count": 187
+      },
+      "semi": {
+        "avg": 337810,
+        "count": 284
+      },
+      "terraced": {
+        "avg": 313092,
+        "count": 393
+      },
+      "flat": {
+        "avg": 236628,
+        "count": 412
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 366158
+      },
+      {
+        "year": 2024,
+        "avg": 314294
+      },
+      {
+        "year": 2025,
+        "avg": 403018
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 183.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 126.1,
+    "byType": {
+      "violentCrime": 64.7,
+      "burglary": 3.5,
+      "vehicleCrime": 4.3,
+      "antisocialBehaviour": 33.8,
+      "otherTheft": 40.1,
+      "other": 37.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Parkside Community Foundation Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Peter's Methodist Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Thomas' Catholic Primary School, Canterbury",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Simon Langton Girls' Grammar School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wincheap Foundation Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 162100,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 12,
+    "privateRent": 20,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 254,
+    "avgUpload": 46,
+    "superfastPct": 98,
+    "ultrafastPct": 58,
+    "gigabitPct": 58,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Canterbury",
+    "bandD": 2115,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.8,
+    "imdRank": 13753,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CT1 encompasses CANTERBURY and its surrounding areas in Kent, South East.",
+    "priceVsCounty": "The average property price in CT1 is £358,011, which is 21% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in CT1 cost 24.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CT1 have risen 28.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 183.8 recorded crimes per 1,000 residents, CT1 has a crime rate significantly 126% above the national average of 81.3 per 1,000.",
+    "schoolContext": "CT1 has 17 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CT1 are 254.0 Mbps, with 99% of premises having access to superfast broadband and 85% with full fibre (FTTP) connectivity.",
+    "synthesis": "CT1 (CANTERBURY) offers above-average property prices (£358,011, 25% above national average), higher-than-average crime (126% above national average), 17 nearby schools, and excellent broadband (254 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 254
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 254
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

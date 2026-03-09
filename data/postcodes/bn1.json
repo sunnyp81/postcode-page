@@ -1,0 +1,197 @@
+{
+  "code": "BN1",
+  "name": "BRIGHTON",
+  "county": "east-sussex",
+  "region": "south-east",
+  "city": "brighton",
+  "adjacent": [
+    "BN2",
+    "BN3"
+  ],
+  "property": {
+    "avgPrice": 519776,
+    "medianPrice": 420000,
+    "priceChange1y": 5.8,
+    "priceChange5y": 0,
+    "transactions12m": 3433,
+    "byType": {
+      "detached": {
+        "avg": 845575,
+        "count": 307
+      },
+      "semi": {
+        "avg": 577133,
+        "count": 539
+      },
+      "terraced": {
+        "avg": 628902,
+        "count": 904
+      },
+      "flat": {
+        "avg": 312834,
+        "count": 1503
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 513379
+      },
+      {
+        "year": 2024,
+        "avg": 509396
+      },
+      {
+        "year": 2025,
+        "avg": 538771
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 161.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 98.9,
+    "byType": {
+      "violentCrime": 48.6,
+      "burglary": 4.7,
+      "vehicleCrime": 4.2,
+      "antisocialBehaviour": 25.9,
+      "otherTheft": 44.3,
+      "other": 34
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 27,
+    "outstanding": 0,
+    "good": 10,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Downs Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Downs Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hertford Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Middle Street Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Patcham Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 283870,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 15,
+    "privateRent": 31,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 326,
+    "avgUpload": 59,
+    "superfastPct": 94,
+    "ultrafastPct": 83,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Brighton Council",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.8,
+    "imdRank": 16209,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BN1 is the postcode district for BRIGHTON, located in East Sussex, South East.",
+    "priceVsCounty": "The average property price in BN1 is £519,776, which is 14% above the East Sussex average of £455,819.",
+    "priceVsNational": "Properties in BN1 cost 81.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BN1 have risen 5.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 161.7 recorded crimes per 1,000 residents, BN1 has a crime rate significantly 99% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BN1 has 27 schools within or near its boundaries, including 10 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BN1 are 326.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BN1 (BRIGHTON) offers above-average property prices (£519,776, 81% above national average), higher-than-average crime (99% above national average), 27 nearby schools, and excellent broadband (326 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 455819,
+      "crime": 75,
+      "broadband": 326
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 326
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

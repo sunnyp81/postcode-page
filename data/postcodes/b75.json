@@ -1,0 +1,198 @@
+{
+  "code": "B75",
+  "name": "SUTTON COLDFIELD",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B74",
+    "B76",
+    "B77"
+  ],
+  "property": {
+    "avgPrice": 403935,
+    "medianPrice": 370000,
+    "priceChange1y": 3,
+    "priceChange5y": 0,
+    "transactions12m": 1194,
+    "byType": {
+      "detached": {
+        "avg": 563003,
+        "count": 419
+      },
+      "semi": {
+        "avg": 357062,
+        "count": 438
+      },
+      "terraced": {
+        "avg": 277223,
+        "count": 188
+      },
+      "flat": {
+        "avg": 156654,
+        "count": 112
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 394386
+      },
+      {
+        "year": 2024,
+        "avg": 402990
+      },
+      {
+        "year": 2025,
+        "avg": 415158
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 28.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -65.2,
+    "byType": {
+      "violentCrime": 11.1,
+      "burglary": 2.2,
+      "vehicleCrime": 3.2,
+      "antisocialBehaviour": 1.6,
+      "otherTheft": 5.6,
+      "other": 4.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Moor Hall Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Little Sutton Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Coppice Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "New Hall Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Langley School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 357,
+    "avgUpload": 64,
+    "superfastPct": 97,
+    "ultrafastPct": 88,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B75 covers SUTTON COLDFIELD in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B75 is £403,935, which is 21% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B75 cost 40.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B75 have risen 3.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 28.3 recorded crimes per 1,000 residents, B75 has a crime rate well 65% below the national average of 81.3 per 1,000.",
+    "schoolContext": "B75 has 12 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B75 are 357.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B75 (SUTTON COLDFIELD) offers above-average property prices (£403,935, 41% above national average), low crime (65% below national average), 12 nearby schools, and excellent broadband (357 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 357
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 357
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

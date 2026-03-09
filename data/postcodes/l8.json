@@ -1,0 +1,198 @@
+{
+  "code": "L8",
+  "name": "LIVERPOOL",
+  "county": "merseyside",
+  "region": "north-west",
+  "city": "liverpool",
+  "adjacent": [
+    "L7",
+    "L9",
+    "L10"
+  ],
+  "property": {
+    "avgPrice": 183170,
+    "medianPrice": 140950,
+    "priceChange1y": -19.7,
+    "priceChange5y": 0,
+    "transactions12m": 1181,
+    "byType": {
+      "detached": {
+        "avg": 443750,
+        "count": 12
+      },
+      "semi": {
+        "avg": 220391,
+        "count": 64
+      },
+      "terraced": {
+        "avg": 155207,
+        "count": 437
+      },
+      "flat": {
+        "avg": 145620,
+        "count": 603
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 195453
+      },
+      {
+        "year": 2024,
+        "avg": 187624
+      },
+      {
+        "year": 2025,
+        "avg": 150705
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 207.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 155,
+    "byType": {
+      "violentCrime": 78,
+      "burglary": 6.6,
+      "vehicleCrime": 9.4,
+      "antisocialBehaviour": 17.6,
+      "otherTheft": 28,
+      "other": 67.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Abercromby Nursery School",
+        "type": "Nursery",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Matthew Arnold Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Windsor Community Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "St Finbar's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Patrick's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 508961,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 23,
+    "socialRent": 26,
+    "privateRent": 24,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 335,
+    "avgUpload": 60,
+    "superfastPct": 98,
+    "ultrafastPct": 90,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Liverpool",
+    "bandD": 2308,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 42.4,
+    "imdRank": 25833,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "L8 covers LIVERPOOL in Merseyside, North West.",
+    "priceVsCounty": "The average property price in L8 is £183,170, which is 28% below the Merseyside average of £252,845.",
+    "priceVsNational": "Properties in L8 cost 36.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in L8 have fallen 19.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 207.3 recorded crimes per 1,000 residents, L8 has a crime rate significantly 155% above the national average of 81.3 per 1,000.",
+    "schoolContext": "L8 has 14 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in L8 are 335.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "L8 (LIVERPOOL) offers affordable property prices (£183,170, 36% below national average), higher-than-average crime (155% above national average), 14 nearby schools, and excellent broadband (335 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 252845,
+      "crime": 75,
+      "broadband": 335
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 335
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

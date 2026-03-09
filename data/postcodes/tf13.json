@@ -1,0 +1,186 @@
+{
+  "code": "TF13",
+  "name": "MUCH WENLOCK",
+  "county": "shropshire",
+  "region": "west-midlands",
+  "city": "telford",
+  "adjacent": [
+    "TF12"
+  ],
+  "property": {
+    "avgPrice": 439184,
+    "medianPrice": 397500,
+    "priceChange1y": 15.8,
+    "priceChange5y": 0,
+    "transactions12m": 154,
+    "byType": {
+      "detached": {
+        "avg": 490880,
+        "count": 71
+      },
+      "semi": {
+        "avg": 337690,
+        "count": 25
+      },
+      "terraced": {
+        "avg": 348920,
+        "count": 33
+      },
+      "flat": {
+        "avg": 197786,
+        "count": 7
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 477557
+      },
+      {
+        "year": 2024,
+        "avg": 390031
+      },
+      {
+        "year": 2025,
+        "avg": 451473
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Brockton CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "William Brookes School",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Much Wenlock Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 332455,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 103,
+    "avgUpload": 19,
+    "superfastPct": 75,
+    "ultrafastPct": 17,
+    "gigabitPct": 17,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Telford Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.2,
+    "imdRank": 14862,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TF13 encompasses MUCH WENLOCK and its surrounding areas in Shropshire, West Midlands.",
+    "priceVsCounty": "The average property price in TF13 is £439,184, which is 48% above the Shropshire average of £296,045.",
+    "priceVsNational": "Properties in TF13 cost 53.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TF13 have risen 15.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TF13 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TF13 has 3 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TF13 are 103.0 Mbps, with 85% of premises having access to superfast broadband and 43% with full fibre (FTTP) connectivity.",
+    "synthesis": "TF13 (MUCH WENLOCK) offers above-average property prices (£439,184, 53% above national average), low crime (94% below national average), 3 nearby schools, and excellent broadband (103 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 296045,
+      "crime": 75,
+      "broadband": 103
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 103
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "WA12",
+  "name": "NEWTON-LE-WILLOWS",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "warrington",
+  "adjacent": [
+    "WA11",
+    "WA13",
+    "WA14"
+  ],
+  "property": {
+    "avgPrice": 219975,
+    "medianPrice": 191500,
+    "priceChange1y": -3.9,
+    "priceChange5y": 0,
+    "transactions12m": 1046,
+    "byType": {
+      "detached": {
+        "avg": 339828,
+        "count": 205
+      },
+      "semi": {
+        "avg": 212904,
+        "count": 368
+      },
+      "terraced": {
+        "avg": 156580,
+        "count": 369
+      },
+      "flat": {
+        "avg": 114208,
+        "count": 64
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 206418
+      },
+      {
+        "year": 2024,
+        "avg": 231034
+      },
+      {
+        "year": 2025,
+        "avg": 222048
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 57.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -29.4,
+    "byType": {
+      "violentCrime": 26.3,
+      "burglary": 2.1,
+      "vehicleCrime": 1.6,
+      "antisocialBehaviour": 5.6,
+      "otherTheft": 7.4,
+      "other": 14.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Newton-le-Willows Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lyme Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wargrave CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Peter's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Willow Bank School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 188861,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 20,
+    "privateRent": 13,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 361,
+    "avgUpload": 65,
+    "superfastPct": 98,
+    "ultrafastPct": 89,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Warrington Council",
+    "bandD": 1691,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 31.5,
+    "imdRank": 21635,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WA12 encompasses NEWTON-LE-WILLOWS and its surrounding areas in Cheshire, North West.",
+    "priceVsCounty": "The average property price in WA12 is £219,975, which is 29% below the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in WA12 cost 23.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WA12 have fallen 3.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 57.4 recorded crimes per 1,000 residents, WA12 has a crime rate well 29% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WA12 has 11 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WA12 are 361.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WA12 (NEWTON-LE-WILLOWS) offers affordable property prices (£219,975, 23% below national average), low crime (29% below national average), 11 nearby schools, and excellent broadband (361 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 361
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 361
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

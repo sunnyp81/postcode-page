@@ -1,0 +1,198 @@
+{
+  "code": "CM4",
+  "name": "INGATESTONE",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "chelmsford",
+  "adjacent": [
+    "CM3",
+    "CM5",
+    "CM6"
+  ],
+  "property": {
+    "avgPrice": 811122,
+    "medianPrice": 685000,
+    "priceChange1y": -13.2,
+    "priceChange5y": 0,
+    "transactions12m": 544,
+    "byType": {
+      "detached": {
+        "avg": 1091688,
+        "count": 252
+      },
+      "semi": {
+        "avg": 597161,
+        "count": 142
+      },
+      "terraced": {
+        "avg": 519882,
+        "count": 57
+      },
+      "flat": {
+        "avg": 403581,
+        "count": 62
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 878316
+      },
+      {
+        "year": 2024,
+        "avg": 839933
+      },
+      {
+        "year": 2025,
+        "avg": 729206
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1.5,
+      "burglary": 0.4,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 1.1,
+      "other": 0.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Blackmore Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Stock Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Anglo European School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Margaretting Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ingatestone Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 137451,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 15,
+    "privateRent": 13,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 206,
+    "avgUpload": 37,
+    "superfastPct": 90,
+    "ultrafastPct": 45,
+    "gigabitPct": 45,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Epping Forest",
+    "bandD": 2002,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.1,
+    "imdRank": 12930,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CM4 is the postcode district for INGATESTONE, located in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CM4 is £811,122, which is 89% above the Essex average of £429,754.",
+    "priceVsNational": "Properties in CM4 cost 182.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CM4 have fallen 13.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, CM4 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CM4 has 6 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CM4 are 206.0 Mbps, with 99% of premises having access to superfast broadband and 72% with full fibre (FTTP) connectivity.",
+    "synthesis": "CM4 (INGATESTONE) offers above-average property prices (£811,122, 183% above national average), low crime (94% below national average), 6 nearby schools, and excellent broadband (206 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 206
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 206
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

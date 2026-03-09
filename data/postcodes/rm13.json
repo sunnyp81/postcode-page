@@ -1,0 +1,198 @@
+{
+  "code": "RM13",
+  "name": "RAINHAM",
+  "county": "greater-london",
+  "region": "london",
+  "city": "romford",
+  "adjacent": [
+    "RM12",
+    "RM14",
+    "RM15"
+  ],
+  "property": {
+    "avgPrice": 405257,
+    "medianPrice": 408500,
+    "priceChange1y": 1.2,
+    "priceChange5y": 0,
+    "transactions12m": 1342,
+    "byType": {
+      "detached": {
+        "avg": 498641,
+        "count": 151
+      },
+      "semi": {
+        "avg": 439706,
+        "count": 366
+      },
+      "terraced": {
+        "avg": 409106,
+        "count": 519
+      },
+      "flat": {
+        "avg": 245106,
+        "count": 260
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 395941
+      },
+      {
+        "year": 2024,
+        "avg": 408161
+      },
+      {
+        "year": 2025,
+        "avg": 412979
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 52,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -36,
+    "byType": {
+      "violentCrime": 15.8,
+      "burglary": 1.6,
+      "vehicleCrime": 5.4,
+      "antisocialBehaviour": 12.3,
+      "otherTheft": 6.8,
+      "other": 10.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Whybridge Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Parsonage Farm Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brady Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Newtons Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rainham Village Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 276274,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 14,
+    "privateRent": 14,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 330,
+    "avgUpload": 59,
+    "superfastPct": 95,
+    "ultrafastPct": 81,
+    "gigabitPct": 80,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Havering",
+    "bandD": 2088,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.8,
+    "imdRank": 14036,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RM13 is the postcode district for RAINHAM, located in Greater London, London.",
+    "priceVsCounty": "The average property price in RM13 is £405,257, which is 69% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in RM13 cost 41.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RM13 have risen 1.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 52.0 recorded crimes per 1,000 residents, RM13 has a crime rate well 36% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RM13 has 13 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RM13 are 330.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RM13 (RAINHAM) offers above-average property prices (£405,257, 41% above national average), low crime (36% below national average), 13 nearby schools, and excellent broadband (330 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 330
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 330
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

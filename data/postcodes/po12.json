@@ -1,0 +1,198 @@
+{
+  "code": "PO12",
+  "name": "GOSPORT",
+  "county": "hampshire",
+  "region": "south-east",
+  "city": "portsmouth",
+  "adjacent": [
+    "PO11",
+    "PO13",
+    "PO14"
+  ],
+  "property": {
+    "avgPrice": 261579,
+    "medianPrice": 230000,
+    "priceChange1y": -3.5,
+    "priceChange5y": 0,
+    "transactions12m": 2202,
+    "byType": {
+      "detached": {
+        "avg": 504309,
+        "count": 155
+      },
+      "semi": {
+        "avg": 301455,
+        "count": 411
+      },
+      "terraced": {
+        "avg": 237092,
+        "count": 969
+      },
+      "flat": {
+        "avg": 159827,
+        "count": 582
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 281428
+      },
+      {
+        "year": 2024,
+        "avg": 256224
+      },
+      {
+        "year": 2025,
+        "avg": 247267
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 87.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 7.6,
+    "byType": {
+      "violentCrime": 42.7,
+      "burglary": 1.6,
+      "vehicleCrime": 2.3,
+      "antisocialBehaviour": 8.8,
+      "otherTheft": 14.8,
+      "other": 17.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 17,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Elson Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Elson Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Haselworth Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Alverstoke Community Infant and Pre-School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Gomer Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 82921,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 16,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 372,
+    "avgUpload": 67,
+    "superfastPct": 100,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Gosport",
+    "bandD": 2040,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.5,
+    "imdRank": 16794,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PO12 covers GOSPORT in Hampshire, South East.",
+    "priceVsCounty": "The average property price in PO12 is £261,579, which is 39% below the Hampshire average of £431,529.",
+    "priceVsNational": "Properties in PO12 cost 8.9% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PO12 have fallen 3.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 87.5 recorded crimes per 1,000 residents, PO12 has a crime rate 8% above the national average of 81.3 per 1,000.",
+    "schoolContext": "PO12 has 17 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PO12 are 372.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PO12 (GOSPORT) offers property prices near the national average (£261,579), 17 nearby schools, and excellent broadband (372 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 431529,
+      "crime": 75,
+      "broadband": 372
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 372
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

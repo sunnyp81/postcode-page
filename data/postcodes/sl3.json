@@ -1,0 +1,198 @@
+{
+  "code": "SL3",
+  "name": "SLOUGH",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "slough",
+  "adjacent": [
+    "SL2",
+    "SL4",
+    "SL5"
+  ],
+  "property": {
+    "avgPrice": 539019,
+    "medianPrice": 440000,
+    "priceChange1y": -11.1,
+    "priceChange5y": 0,
+    "transactions12m": 1278,
+    "byType": {
+      "detached": {
+        "avg": 834271,
+        "count": 191
+      },
+      "semi": {
+        "avg": 535002,
+        "count": 373
+      },
+      "terraced": {
+        "avg": 416234,
+        "count": 359
+      },
+      "flat": {
+        "avg": 253592,
+        "count": 294
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 551256
+      },
+      {
+        "year": 2024,
+        "avg": 562029
+      },
+      {
+        "year": 2025,
+        "avg": 499565
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 73.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -9.3,
+    "byType": {
+      "violentCrime": 28.9,
+      "burglary": 2.8,
+      "vehicleCrime": 7.1,
+      "antisocialBehaviour": 7.1,
+      "otherTheft": 10.4,
+      "other": 17.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 25,
+    "outstanding": 3,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Wexham Court Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Bernard's Catholic Grammar School",
+        "type": "Secondary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Pippins School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eton End School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Long Close School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 167359,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 29,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 335,
+    "avgUpload": 60,
+    "superfastPct": 95,
+    "ultrafastPct": 84,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Slough Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23,
+    "imdRank": 19788,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SL3 covers SLOUGH in Berkshire, South East.",
+    "priceVsCounty": "The average property price in SL3 is £539,019, which is 8% below the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in SL3 cost 87.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SL3 have fallen 11.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 73.7 recorded crimes per 1,000 residents, SL3 has a crime rate 9% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SL3 has 25 schools within or near its boundaries, including 3 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SL3 are 335.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SL3 (SLOUGH) offers above-average property prices (£539,019, 88% above national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (335 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 335
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 335
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

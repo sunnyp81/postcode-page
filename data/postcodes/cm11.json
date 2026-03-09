@@ -1,0 +1,197 @@
+{
+  "code": "CM11",
+  "name": "BILLERICAY",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "chelmsford",
+  "adjacent": [
+    "CM12",
+    "CM13"
+  ],
+  "property": {
+    "avgPrice": 611220,
+    "medianPrice": 465000,
+    "priceChange1y": -4,
+    "priceChange5y": 0,
+    "transactions12m": 758,
+    "byType": {
+      "detached": {
+        "avg": 859147,
+        "count": 273
+      },
+      "semi": {
+        "avg": 456987,
+        "count": 266
+      },
+      "terraced": {
+        "avg": 390157,
+        "count": 138
+      },
+      "flat": {
+        "avg": 212598,
+        "count": 61
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 598486
+      },
+      {
+        "year": 2024,
+        "avg": 627747
+      },
+      {
+        "year": 2025,
+        "avg": 602455
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 7.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -91.1,
+    "byType": {
+      "violentCrime": 3.4,
+      "burglary": 0.4,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 0.3,
+      "otherTheft": 0.6,
+      "other": 1.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 1,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Sunnymede Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "South Green Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ramsden Hall Academy",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Crays Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Peter's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 188803,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 34,
+    "socialRent": 13,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 332,
+    "avgUpload": 60,
+    "superfastPct": 94,
+    "ultrafastPct": 81,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Chelmsford",
+    "bandD": 2025,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.2,
+    "imdRank": 10004,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CM11 encompasses BILLERICAY and its surrounding areas in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CM11 is £611,220, which is 42% above the Essex average of £429,754.",
+    "priceVsNational": "Properties in CM11 cost 113.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CM11 have fallen 4.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 7.2 recorded crimes per 1,000 residents, CM11 has a crime rate well 91% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CM11 has 6 schools within or near its boundaries, including 1 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CM11 are 332.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CM11 (BILLERICAY) offers above-average property prices (£611,220, 113% above national average), low crime (91% below national average), 6 nearby schools, and excellent broadband (332 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 332
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 332
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

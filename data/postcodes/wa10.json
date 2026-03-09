@@ -1,0 +1,198 @@
+{
+  "code": "WA10",
+  "name": "ST HELENS",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "warrington",
+  "adjacent": [
+    "WA9",
+    "WA11",
+    "WA12"
+  ],
+  "property": {
+    "avgPrice": 178763,
+    "medianPrice": 145000,
+    "priceChange1y": -3.1,
+    "priceChange5y": 0,
+    "transactions12m": 1901,
+    "byType": {
+      "detached": {
+        "avg": 340988,
+        "count": 187
+      },
+      "semi": {
+        "avg": 214744,
+        "count": 577
+      },
+      "terraced": {
+        "avg": 119048,
+        "count": 891
+      },
+      "flat": {
+        "avg": 91845,
+        "count": 132
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 162297
+      },
+      {
+        "year": 2024,
+        "avg": 189893
+      },
+      {
+        "year": 2025,
+        "avg": 184052
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 117,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 43.9,
+    "byType": {
+      "violentCrime": 45.3,
+      "burglary": 3.1,
+      "vehicleCrime": 2.9,
+      "antisocialBehaviour": 11.8,
+      "otherTheft": 17.9,
+      "other": 36
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Rivington Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bleak Hill Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Eccleston Mere Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Holy Cross Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Teresa's Catholic Primary School, Devon Street",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 188861,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 20,
+    "privateRent": 13,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 343,
+    "avgUpload": 62,
+    "superfastPct": 96,
+    "ultrafastPct": 84,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Warrington Council",
+    "bandD": 1691,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 31.5,
+    "imdRank": 21635,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WA10 covers ST HELENS in Cheshire, North West.",
+    "priceVsCounty": "The average property price in WA10 is £178,763, which is 43% below the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in WA10 cost 37.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WA10 have fallen 3.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 117.0 recorded crimes per 1,000 residents, WA10 has a crime rate significantly 44% above the national average of 81.3 per 1,000.",
+    "schoolContext": "WA10 has 16 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WA10 are 343.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WA10 (ST HELENS) offers affordable property prices (£178,763, 38% below national average), higher-than-average crime (44% above national average), 16 nearby schools, and excellent broadband (343 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 343
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 343
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "code": "L2",
+  "name": "LIVERPOOL",
+  "county": "merseyside",
+  "region": "north-west",
+  "city": "liverpool",
+  "adjacent": [
+    "L1",
+    "L3",
+    "L4"
+  ],
+  "property": {
+    "avgPrice": 720745,
+    "medianPrice": 112750,
+    "priceChange1y": -53.6,
+    "priceChange5y": 0,
+    "transactions12m": 188,
+    "byType": {
+      "detached": {
+        "avg": 1369416,
+        "count": 0
+      },
+      "semi": {
+        "avg": 864894,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 863333,
+        "count": 3
+      },
+      "flat": {
+        "avg": 115034,
+        "count": 141
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1267467
+      },
+      {
+        "year": 2024,
+        "avg": 403857
+      },
+      {
+        "year": 2025,
+        "avg": 187562
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 145.2,
+      "burglary": 10.2,
+      "vehicleCrime": 16.7,
+      "antisocialBehaviour": 39.3,
+      "otherTheft": 105,
+      "other": 190.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 0,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": []
+  },
+  "demographics": {
+    "population": 508961,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 23,
+    "socialRent": 26,
+    "privateRent": 24,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 299,
+    "avgUpload": 54,
+    "superfastPct": 74,
+    "ultrafastPct": 74,
+    "gigabitPct": 74,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Liverpool",
+    "bandD": 2308,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 42.4,
+    "imdRank": 25833,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "L2 covers LIVERPOOL in Merseyside, North West.",
+    "priceVsCounty": "The average property price in L2 is £720,745, which is 185% above the Merseyside average of £252,845.",
+    "priceVsNational": "Properties in L2 cost 151.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in L2 have fallen 53.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, L2 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "School data for L2 is not currently available.",
+    "broadbandContext": "Average broadband download speeds in L2 are 299.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "L2 (LIVERPOOL) offers above-average property prices (£720,745, 151% above national average), higher-than-average crime (269% above national average), and excellent broadband (299 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 252845,
+      "crime": 75,
+      "broadband": 299
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 299
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

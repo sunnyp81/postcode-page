@@ -1,0 +1,198 @@
+{
+  "code": "LE9",
+  "name": "LEICESTER",
+  "county": "leicestershire",
+  "region": "east-midlands",
+  "city": "leicester",
+  "adjacent": [
+    "LE8",
+    "LE10",
+    "LE11"
+  ],
+  "property": {
+    "avgPrice": 303049,
+    "medianPrice": 262000,
+    "priceChange1y": 2.2,
+    "priceChange5y": 0,
+    "transactions12m": 2766,
+    "byType": {
+      "detached": {
+        "avg": 411774,
+        "count": 1038
+      },
+      "semi": {
+        "avg": 246350,
+        "count": 1031
+      },
+      "terraced": {
+        "avg": 204433,
+        "count": 499
+      },
+      "flat": {
+        "avg": 117216,
+        "count": 111
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 299868
+      },
+      {
+        "year": 2024,
+        "avg": 301460
+      },
+      {
+        "year": 2025,
+        "avg": 308106
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 1,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.3,
+      "other": 0.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 26,
+    "outstanding": 0,
+    "good": 7,
+    "requiresImprovement": 3,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Barwell Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Newbold Verdon Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Orchard Church of England Primary School, Broughton Astley",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Thurlaston Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brooke House Day School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 108165,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 8,
+    "privateRent": 11,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 225,
+    "avgUpload": 41,
+    "superfastPct": 96,
+    "ultrafastPct": 54,
+    "gigabitPct": 48,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Blaby",
+    "bandD": 2184,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10.6,
+    "imdRank": 8738,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LE9 is the postcode district for LEICESTER, located in Leicestershire, East Midlands.",
+    "priceVsCounty": "The average property price in LE9 is £303,049, which is 13% below the Leicestershire average of £348,118.",
+    "priceVsNational": "Properties in LE9 cost 5.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LE9 have risen 2.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, LE9 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LE9 has 26 schools within or near its boundaries, including 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LE9 are 225.0 Mbps, with 99% of premises having access to superfast broadband and 77% with full fibre (FTTP) connectivity.",
+    "synthesis": "LE9 (LEICESTER) offers property prices near the national average (£303,049), low crime (94% below national average), 26 nearby schools, and excellent broadband (225 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 348118,
+      "crime": 75,
+      "broadband": 225
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 225
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

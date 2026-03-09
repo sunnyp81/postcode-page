@@ -1,0 +1,198 @@
+{
+  "code": "SS7",
+  "name": "BENFLEET",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "southend-on-sea",
+  "adjacent": [
+    "SS6",
+    "SS8",
+    "SS9"
+  ],
+  "property": {
+    "avgPrice": 422687,
+    "medianPrice": 385000,
+    "priceChange1y": 1.2,
+    "priceChange5y": 0,
+    "transactions12m": 2170,
+    "byType": {
+      "detached": {
+        "avg": 554475,
+        "count": 666
+      },
+      "semi": {
+        "avg": 386701,
+        "count": 979
+      },
+      "terraced": {
+        "avg": 344860,
+        "count": 147
+      },
+      "flat": {
+        "avg": 226339,
+        "count": 304
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 440953
+      },
+      {
+        "year": 2024,
+        "avg": 411964
+      },
+      {
+        "year": 2025,
+        "avg": 417013
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 22.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -72.4,
+    "byType": {
+      "violentCrime": 11.5,
+      "burglary": 1.4,
+      "vehicleCrime": 1.3,
+      "antisocialBehaviour": 1.8,
+      "otherTheft": 1.9,
+      "other": 4.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 1,
+    "good": 7,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Cedar Hall School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Glenwood School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "USP College",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The King John School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Appleton School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 90581,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 6,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 300,
+    "avgUpload": 54,
+    "superfastPct": 99,
+    "ultrafastPct": 71,
+    "gigabitPct": 71,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Castle Point",
+    "bandD": 2054,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.8,
+    "imdRank": 13905,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SS7 encompasses BENFLEET and its surrounding areas in Essex, East Of England.",
+    "priceVsCounty": "The average property price in SS7 is £422,687, broadly in line with the Essex average of £429,754.",
+    "priceVsNational": "Properties in SS7 cost 47.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SS7 have risen 1.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 22.4 recorded crimes per 1,000 residents, SS7 has a crime rate well 72% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SS7 has 19 schools within or near its boundaries, including 1 rated Outstanding and 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SS7 are 300.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SS7 (BENFLEET) offers above-average property prices (£422,687, 47% above national average), low crime (72% below national average), 19 nearby schools, and excellent broadband (300 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 300
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 300
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

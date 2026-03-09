@@ -1,0 +1,197 @@
+{
+  "code": "IG10",
+  "name": "LOUGHTON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "ilford",
+  "adjacent": [
+    "IG9",
+    "IG11"
+  ],
+  "property": {
+    "avgPrice": 590671,
+    "medianPrice": 475000,
+    "priceChange1y": -0.6,
+    "priceChange5y": 0,
+    "transactions12m": 1489,
+    "byType": {
+      "detached": {
+        "avg": 1129479,
+        "count": 192
+      },
+      "semi": {
+        "avg": 645810,
+        "count": 337
+      },
+      "terraced": {
+        "avg": 517771,
+        "count": 409
+      },
+      "flat": {
+        "avg": 355243,
+        "count": 512
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 535805
+      },
+      {
+        "year": 2024,
+        "avg": 617804
+      },
+      {
+        "year": 2025,
+        "avg": 613949
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 47.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -42.1,
+    "byType": {
+      "violentCrime": 16.2,
+      "burglary": 2,
+      "vehicleCrime": 3.9,
+      "antisocialBehaviour": 3.7,
+      "otherTheft": 11.7,
+      "other": 9.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 1,
+    "good": 7,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Thomas Willingale Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oaklands School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Woodcroft School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Debden Park High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Davenant Foundation School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 137451,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 15,
+    "privateRent": 13,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 369,
+    "avgUpload": 66,
+    "superfastPct": 99,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Epping Forest",
+    "bandD": 2002,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.1,
+    "imdRank": 12930,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "IG10 is the postcode district for LOUGHTON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in IG10 is £590,671, which is 55% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in IG10 cost 105.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in IG10 have fallen 0.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 47.1 recorded crimes per 1,000 residents, IG10 has a crime rate well 42% below the national average of 81.3 per 1,000.",
+    "schoolContext": "IG10 has 14 schools within or near its boundaries, including 1 rated Outstanding and 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in IG10 are 369.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "IG10 (LOUGHTON) offers above-average property prices (£590,671, 106% above national average), low crime (42% below national average), 14 nearby schools, and excellent broadband (369 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 369
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 369
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

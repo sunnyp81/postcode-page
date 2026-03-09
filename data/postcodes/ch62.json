@@ -1,0 +1,198 @@
+{
+  "code": "CH62",
+  "name": "WIRRAL",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "chester",
+  "adjacent": [
+    "CH61",
+    "CH63",
+    "CH64"
+  ],
+  "property": {
+    "avgPrice": 232269,
+    "medianPrice": 198975,
+    "priceChange1y": -9.7,
+    "priceChange5y": 0,
+    "transactions12m": 1398,
+    "byType": {
+      "detached": {
+        "avg": 347953,
+        "count": 206
+      },
+      "semi": {
+        "avg": 221272,
+        "count": 569
+      },
+      "terraced": {
+        "avg": 165509,
+        "count": 449
+      },
+      "flat": {
+        "avg": 120447,
+        "count": 123
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 247663
+      },
+      {
+        "year": 2024,
+        "avg": 236021
+      },
+      {
+        "year": 2025,
+        "avg": 213018
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 22.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -72,
+    "byType": {
+      "violentCrime": 8.3,
+      "burglary": 0.6,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 2.3,
+      "otherTheft": 5.1,
+      "other": 5.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Grove Street Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Raeburn Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Christ The King Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Heygarth Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Millfields Church of England (Controlled) Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 328873,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 15,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 379,
+    "avgUpload": 68,
+    "superfastPct": 99,
+    "ultrafastPct": 94,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wirral",
+    "bandD": 2158,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 29.6,
+    "imdRank": 19585,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CH62 covers WIRRAL in Cheshire, North West.",
+    "priceVsCounty": "The average property price in CH62 is £232,269, which is 25% below the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in CH62 cost 19.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CH62 have fallen 9.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 22.8 recorded crimes per 1,000 residents, CH62 has a crime rate well 72% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CH62 has 9 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CH62 are 379.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CH62 (WIRRAL) offers affordable property prices (£232,269, 19% below national average), low crime (72% below national average), 9 nearby schools, and excellent broadband (379 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 379
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 379
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

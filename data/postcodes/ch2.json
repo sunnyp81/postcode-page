@@ -1,0 +1,198 @@
+{
+  "code": "CH2",
+  "name": "CHESTER",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "chester",
+  "adjacent": [
+    "CH1",
+    "CH3",
+    "CH4"
+  ],
+  "property": {
+    "avgPrice": 331201,
+    "medianPrice": 268000,
+    "priceChange1y": -13.5,
+    "priceChange5y": 0,
+    "transactions12m": 1573,
+    "byType": {
+      "detached": {
+        "avg": 427956,
+        "count": 304
+      },
+      "semi": {
+        "avg": 329127,
+        "count": 605
+      },
+      "terraced": {
+        "avg": 247991,
+        "count": 444
+      },
+      "flat": {
+        "avg": 161660,
+        "count": 177
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 306415
+      },
+      {
+        "year": 2024,
+        "avg": 366386
+      },
+      {
+        "year": 2025,
+        "avg": 316802
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 16.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -80.2,
+    "byType": {
+      "violentCrime": 8.8,
+      "burglary": 0.4,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 1.6,
+      "otherTheft": 1.1,
+      "other": 3.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 3,
+    "good": 3,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Newton Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Mickle Trafford Village School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Upton Westlea Primary School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Elton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Werburgh's and St Columba's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 371652,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 15,
+    "privateRent": 14,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 341,
+    "avgUpload": 61,
+    "superfastPct": 96,
+    "ultrafastPct": 87,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Chester Council",
+    "bandD": 2098,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.1,
+    "imdRank": 13862,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CH2 covers CHESTER in Cheshire, North West.",
+    "priceVsCounty": "The average property price in CH2 is £331,201, which is 6% above the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in CH2 cost 15.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CH2 have fallen 13.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 16.1 recorded crimes per 1,000 residents, CH2 has a crime rate well 80% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CH2 has 16 schools within or near its boundaries, including 3 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CH2 are 341.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CH2 (CHESTER) offers property prices near the national average (£331,201), low crime (80% below national average), strong school provision (3 Outstanding-rated schools), and excellent broadband (341 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 341
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 341
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

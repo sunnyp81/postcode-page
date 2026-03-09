@@ -1,0 +1,198 @@
+{
+  "code": "BS8",
+  "name": "BRISTOL",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS7",
+    "BS9",
+    "BS10"
+  ],
+  "property": {
+    "avgPrice": 615552,
+    "medianPrice": 454000,
+    "priceChange1y": -14.6,
+    "priceChange5y": 0,
+    "transactions12m": 1320,
+    "byType": {
+      "detached": {
+        "avg": 1104794,
+        "count": 78
+      },
+      "semi": {
+        "avg": 1201758,
+        "count": 60
+      },
+      "terraced": {
+        "avg": 808944,
+        "count": 199
+      },
+      "flat": {
+        "avg": 416177,
+        "count": 897
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 593892
+      },
+      {
+        "year": 2024,
+        "avg": 671598
+      },
+      {
+        "year": 2025,
+        "avg": 573717
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 122.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 50.8,
+    "byType": {
+      "violentCrime": 39.5,
+      "burglary": 6.1,
+      "vehicleCrime": 10.2,
+      "antisocialBehaviour": 18.6,
+      "otherTheft": 27,
+      "other": 21.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 1,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Johns Church of England Primary School, Clifton",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Clifton College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Clifton High School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bristol Grammar School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Queen Elizabeth's Hospital",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 224578,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 9,
+    "privateRent": 16,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 348,
+    "avgUpload": 63,
+    "superfastPct": 92,
+    "ultrafastPct": 86,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.8,
+    "imdRank": 11811,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS8 is the postcode district for BRISTOL, located in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS8 is £615,552, which is 37% above the Bristol average of £449,132.",
+    "priceVsNational": "Properties in BS8 cost 114.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BS8 have fallen 14.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 122.6 recorded crimes per 1,000 residents, BS8 has a crime rate significantly 51% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BS8 has 8 schools within or near its boundaries, including 1 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS8 are 348.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS8 (BRISTOL) offers above-average property prices (£615,552, 114% above national average), higher-than-average crime (51% above national average), 8 nearby schools, and excellent broadband (348 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 348
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 348
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

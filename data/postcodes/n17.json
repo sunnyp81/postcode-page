@@ -1,0 +1,198 @@
+{
+  "code": "N17",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "N16",
+    "N18",
+    "N19"
+  ],
+  "property": {
+    "avgPrice": 502374,
+    "medianPrice": 445000,
+    "priceChange1y": -6.3,
+    "priceChange5y": 0,
+    "transactions12m": 1582,
+    "byType": {
+      "detached": {
+        "avg": 1516917,
+        "count": 6
+      },
+      "semi": {
+        "avg": 525279,
+        "count": 36
+      },
+      "terraced": {
+        "avg": 558346,
+        "count": 610
+      },
+      "flat": {
+        "avg": 378596,
+        "count": 848
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 539290
+      },
+      {
+        "year": 2024,
+        "avg": 489022
+      },
+      {
+        "year": 2025,
+        "avg": 458243
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 259.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 219.1,
+    "byType": {
+      "violentCrime": 75.6,
+      "burglary": 9.1,
+      "vehicleCrime": 19.3,
+      "antisocialBehaviour": 59.5,
+      "otherTheft": 48.5,
+      "other": 47.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 26,
+    "outstanding": 5,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Pembury House Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Rowland Hill Nursery School",
+        "type": "Nursery",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "The Devonshire Hill Nursery & Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lancasterian Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lea Valley Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 279737,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 21,
+    "privateRent": 26,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 361,
+    "avgUpload": 65,
+    "superfastPct": 97,
+    "ultrafastPct": 89,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Waltham Forest",
+    "bandD": 2056,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.2,
+    "imdRank": 21186,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "N17 encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in N17 is £502,374, which is 62% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in N17 cost 75.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in N17 have fallen 6.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 259.4 recorded crimes per 1,000 residents, N17 has a crime rate significantly 219% above the national average of 81.3 per 1,000.",
+    "schoolContext": "N17 has 26 schools within or near its boundaries, including 5 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in N17 are 361.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "N17 (LONDON) offers above-average property prices (£502,374, 75% above national average), higher-than-average crime (219% above national average), strong school provision (5 Outstanding-rated schools), and excellent broadband (361 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 361
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 361
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

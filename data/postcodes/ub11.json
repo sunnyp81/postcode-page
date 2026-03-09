@@ -1,0 +1,170 @@
+{
+  "code": "UB11",
+  "name": "UXBRIDGE",
+  "county": "greater-london",
+  "region": "london",
+  "city": "uxbridge",
+  "adjacent": [
+    "UB10"
+  ],
+  "property": {
+    "avgPrice": 6687500,
+    "medianPrice": 6625000,
+    "priceChange1y": -17.9,
+    "priceChange5y": 0,
+    "transactions12m": 8,
+    "byType": {
+      "detached": {
+        "avg": 12706250,
+        "count": 0
+      },
+      "semi": {
+        "avg": 8025000,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 6687500,
+        "count": 0
+      },
+      "flat": {
+        "avg": 4547500,
+        "count": 0
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 6075000
+      },
+      {
+        "year": 2024,
+        "avg": 7825000
+      },
+      {
+        "year": 2025,
+        "avg": 6425000
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 68.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -16.2,
+    "byType": {
+      "violentCrime": 23.2,
+      "burglary": 3,
+      "vehicleCrime": 6.4,
+      "antisocialBehaviour": 16.4,
+      "otherTheft": 5.8,
+      "other": 13.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 0,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": []
+  },
+  "demographics": {
+    "population": 329185,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 16,
+    "privateRent": 24,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 28,
+    "avgUpload": 5,
+    "superfastPct": 4,
+    "ultrafastPct": 4,
+    "gigabitPct": 4,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hillingdon",
+    "bandD": 1760,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.2,
+    "imdRank": 15515,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "UB11 covers UXBRIDGE in Greater London, London.",
+    "priceVsCounty": "The average property price in UB11 is £6,687,500, which is 411% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in UB11 cost 2230.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in UB11 have fallen 17.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 68.1 recorded crimes per 1,000 residents, UB11 has a crime rate 16% below the national average of 81.3 per 1,000.",
+    "schoolContext": "School data for UB11 is not currently available.",
+    "broadbandContext": "Average broadband download speeds in UB11 are 28.0 Mbps, with 74% of premises having access to superfast broadband and 23% with full fibre (FTTP) connectivity.",
+    "synthesis": "UB11 (UXBRIDGE) offers above-average property prices (£6,687,500, 2230% above national average), and low crime (16% below national average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 28
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 28
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

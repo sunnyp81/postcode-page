@@ -1,0 +1,196 @@
+{
+  "code": "HR8",
+  "name": "LEDBURY",
+  "county": "herefordshire",
+  "region": "west-midlands",
+  "city": "hereford",
+  "adjacent": [
+    "HR7",
+    "HR9"
+  ],
+  "property": {
+    "avgPrice": 370222,
+    "medianPrice": 306000,
+    "priceChange1y": -9.1,
+    "priceChange5y": 0,
+    "transactions12m": 768,
+    "byType": {
+      "detached": {
+        "avg": 465882,
+        "count": 323
+      },
+      "semi": {
+        "avg": 277584,
+        "count": 185
+      },
+      "terraced": {
+        "avg": 229019,
+        "count": 145
+      },
+      "flat": {
+        "avg": 151392,
+        "count": 56
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 385499
+      },
+      {
+        "year": 2024,
+        "avg": 380931
+      },
+      {
+        "year": 2025,
+        "avg": 346407
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 6.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -92.4,
+    "byType": {
+      "violentCrime": 2.3,
+      "burglary": 0.2,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 1.1,
+      "otherTheft": 0.7,
+      "other": 1.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 9,
+    "outstanding": 1,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ledbury Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bosbury CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Queenswood School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ashperton Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "John Masefield High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 35029,
+    "medianAge": 39,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 63,
+    "socialRent": 16,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 296,
+    "avgUpload": 53,
+    "superfastPct": 87,
+    "ultrafastPct": 73,
+    "gigabitPct": 71,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hereford Council",
+    "bandD": 2183,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.9,
+    "imdRank": 16384,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HR8 covers LEDBURY in Herefordshire, West Midlands.",
+    "priceVsCounty": "The average property price in HR8 is £370,222, broadly in line with the Herefordshire average of £372,356.",
+    "priceVsNational": "Properties in HR8 cost 29.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HR8 have fallen 9.1% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 6.2 recorded crimes per 1,000 residents, HR8 has a crime rate well 92% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HR8 has 9 schools within or near its boundaries, including 1 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HR8 are 296.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HR8 (LEDBURY) offers above-average property prices (£370,222, 29% above national average), low crime (92% below national average), 9 nearby schools, and excellent broadband (296 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 372356,
+      "crime": 75,
+      "broadband": 296
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 296
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

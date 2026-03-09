@@ -1,0 +1,198 @@
+{
+  "code": "LE8",
+  "name": "LEICESTER",
+  "county": "leicestershire",
+  "region": "east-midlands",
+  "city": "leicester",
+  "adjacent": [
+    "LE7",
+    "LE9",
+    "LE10"
+  ],
+  "property": {
+    "avgPrice": 337259,
+    "medianPrice": 289746,
+    "priceChange1y": -0.2,
+    "priceChange5y": 0,
+    "transactions12m": 1819,
+    "byType": {
+      "detached": {
+        "avg": 430711,
+        "count": 723
+      },
+      "semi": {
+        "avg": 268817,
+        "count": 604
+      },
+      "terraced": {
+        "avg": 234848,
+        "count": 350
+      },
+      "flat": {
+        "avg": 166296,
+        "count": 68
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 342911
+      },
+      {
+        "year": 2024,
+        "avg": 334748
+      },
+      {
+        "year": 2025,
+        "avg": 334061
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.1,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 1,
+    "good": 6,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Blaby Thistly Meadow Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Fleckney Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Great Glen St Cuthbert's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "LGS Stoneygate",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Leicester Grammar School Trust",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 108165,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 8,
+    "privateRent": 11,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 255,
+    "avgUpload": 46,
+    "superfastPct": 94,
+    "ultrafastPct": 63,
+    "gigabitPct": 57,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Blaby",
+    "bandD": 2184,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 10.6,
+    "imdRank": 8738,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LE8 covers LEICESTER in Leicestershire, East Midlands.",
+    "priceVsCounty": "The average property price in LE8 is £337,259, broadly in line with the Leicestershire average of £348,118.",
+    "priceVsNational": "Properties in LE8 cost 17.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LE8 have fallen 0.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, LE8 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LE8 has 15 schools within or near its boundaries, including 1 rated Outstanding and 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LE8 are 255.0 Mbps, with 99% of premises having access to superfast broadband and 85% with full fibre (FTTP) connectivity.",
+    "synthesis": "LE8 (LEICESTER) offers property prices near the national average (£337,259), low crime (94% below national average), 15 nearby schools, and excellent broadband (255 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 348118,
+      "crime": 75,
+      "broadband": 255
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 255
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

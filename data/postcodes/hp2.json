@@ -1,0 +1,198 @@
+{
+  "code": "HP2",
+  "name": "HEMEL HEMPSTEAD",
+  "county": "hertfordshire",
+  "region": "south-east",
+  "city": "hemel-hempstead",
+  "adjacent": [
+    "HP1",
+    "HP3",
+    "HP4"
+  ],
+  "property": {
+    "avgPrice": 428728,
+    "medianPrice": 375000,
+    "priceChange1y": 5,
+    "priceChange5y": 0,
+    "transactions12m": 1367,
+    "byType": {
+      "detached": {
+        "avg": 633509,
+        "count": 148
+      },
+      "semi": {
+        "avg": 463689,
+        "count": 254
+      },
+      "terraced": {
+        "avg": 382306,
+        "count": 564
+      },
+      "flat": {
+        "avg": 208292,
+        "count": 358
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 417228
+      },
+      {
+        "year": 2024,
+        "avg": 423742
+      },
+      {
+        "year": 2025,
+        "avg": 445092
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 99.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 22.5,
+    "byType": {
+      "violentCrime": 37,
+      "burglary": 3.5,
+      "vehicleCrime": 6.4,
+      "antisocialBehaviour": 21.1,
+      "otherTheft": 14.9,
+      "other": 16.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 0,
+    "good": 8,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hobletts Manor Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Gaddesden Row JMI School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "George Street Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hobletts Manor Infants' School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Aycliffe Drive Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 151012,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 12,
+    "privateRent": 15,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 352,
+    "avgUpload": 63,
+    "superfastPct": 97,
+    "ultrafastPct": 88,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "St Albans",
+    "bandD": 2094,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.3,
+    "imdRank": 6247,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HP2 is the postcode district for HEMEL HEMPSTEAD, located in Hertfordshire, South East.",
+    "priceVsCounty": "The average property price in HP2 is £428,728, which is 25% below the Hertfordshire average of £572,493.",
+    "priceVsNational": "Properties in HP2 cost 49.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HP2 have risen 5.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 99.6 recorded crimes per 1,000 residents, HP2 has a crime rate significantly 23% above the national average of 81.3 per 1,000.",
+    "schoolContext": "HP2 has 19 schools within or near its boundaries, including 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HP2 are 352.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HP2 (HEMEL HEMPSTEAD) offers above-average property prices (£428,728, 49% above national average), higher-than-average crime (23% above national average), 19 nearby schools, and excellent broadband (352 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 572493,
+      "crime": 75,
+      "broadband": 352
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 352
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "WN1",
+  "name": "WIGAN",
+  "county": "greater-manchester",
+  "region": "north-west",
+  "city": "wigan",
+  "adjacent": [
+    "WN2",
+    "WN3"
+  ],
+  "property": {
+    "avgPrice": 217073,
+    "medianPrice": 160000,
+    "priceChange1y": 0,
+    "priceChange5y": 0,
+    "transactions12m": 992,
+    "byType": {
+      "detached": {
+        "avg": 384939,
+        "count": 129
+      },
+      "semi": {
+        "avg": 220132,
+        "count": 299
+      },
+      "terraced": {
+        "avg": 137802,
+        "count": 332
+      },
+      "flat": {
+        "avg": 113436,
+        "count": 160
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 210499
+      },
+      {
+        "year": 2024,
+        "avg": 220577
+      },
+      {
+        "year": 2025,
+        "avg": 220687
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.3,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0,
+      "other": 0.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 1,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Douglas Valley Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Woodfield Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Mab's Cross Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Mary and St John Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "St Patrick's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 344922,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 17,
+    "privateRent": 14,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 324,
+    "avgUpload": 58,
+    "superfastPct": 97,
+    "ultrafastPct": 79,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wigan",
+    "bandD": 1832,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.7,
+    "imdRank": 18600,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WN1 is the postcode district for WIGAN, located in Greater Manchester, North West.",
+    "priceVsCounty": "The average property price in WN1 is £217,073, which is 43% below the Greater Manchester average of £381,941.",
+    "priceVsNational": "Properties in WN1 cost 24.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WN1 have risen 0.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, WN1 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WN1 has 11 schools within or near its boundaries, including 1 rated Outstanding and 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WN1 are 324.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WN1 (WIGAN) offers affordable property prices (£217,073, 24% below national average), low crime (94% below national average), 11 nearby schools, and excellent broadband (324 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 381941,
+      "crime": 75,
+      "broadband": 324
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 324
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

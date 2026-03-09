@@ -1,0 +1,198 @@
+{
+  "code": "SW13",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "SW12",
+    "SW14",
+    "SW15"
+  ],
+  "property": {
+    "avgPrice": 1455273,
+    "medianPrice": 1075000,
+    "priceChange1y": -3.6,
+    "priceChange5y": 0,
+    "transactions12m": 700,
+    "byType": {
+      "detached": {
+        "avg": 4230900,
+        "count": 30
+      },
+      "semi": {
+        "avg": 2256965,
+        "count": 132
+      },
+      "terraced": {
+        "avg": 1425585,
+        "count": 268
+      },
+      "flat": {
+        "avg": 757586,
+        "count": 232
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1427530
+      },
+      {
+        "year": 2024,
+        "avg": 1491096
+      },
+      {
+        "year": 2025,
+        "avg": 1438020
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 47.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -42.1,
+    "byType": {
+      "violentCrime": 11.4,
+      "burglary": 3.5,
+      "vehicleCrime": 8.1,
+      "antisocialBehaviour": 9.7,
+      "otherTheft": 6.7,
+      "other": 7.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 6,
+    "outstanding": 1,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Lowther Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Barnes Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "St Paul's School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Swedish School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Harrodian School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 196678,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 12,
+    "privateRent": 23,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 355,
+    "avgUpload": 64,
+    "superfastPct": 99,
+    "ultrafastPct": 90,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Richmond upon Thames",
+    "bandD": 2141,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 9.4,
+    "imdRank": 7159,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SW13 covers LONDON in Greater London, London.",
+    "priceVsCounty": "The average property price in SW13 is £1,455,273, which is 11% above the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in SW13 cost 407.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SW13 have fallen 3.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 47.1 recorded crimes per 1,000 residents, SW13 has a crime rate well 42% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SW13 has 6 schools within or near its boundaries, including 1 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SW13 are 355.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SW13 (LONDON) offers above-average property prices (£1,455,273, 407% above national average), low crime (42% below national average), 6 nearby schools, and excellent broadband (355 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 355
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 355
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

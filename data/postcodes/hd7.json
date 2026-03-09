@@ -1,0 +1,198 @@
+{
+  "code": "HD7",
+  "name": "HUDDERSFIELD",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "huddersfield",
+  "adjacent": [
+    "HD6",
+    "HD8",
+    "HD9"
+  ],
+  "property": {
+    "avgPrice": 241680,
+    "medianPrice": 200000,
+    "priceChange1y": 3.4,
+    "priceChange5y": 0,
+    "transactions12m": 1080,
+    "byType": {
+      "detached": {
+        "avg": 432395,
+        "count": 172
+      },
+      "semi": {
+        "avg": 241181,
+        "count": 242
+      },
+      "terraced": {
+        "avg": 185639,
+        "count": 564
+      },
+      "flat": {
+        "avg": 137614,
+        "count": 62
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 234620
+      },
+      {
+        "year": 2024,
+        "avg": 241220
+      },
+      {
+        "year": 2025,
+        "avg": 249324
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 12.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -84.3,
+    "byType": {
+      "violentCrime": 5.3,
+      "burglary": 0.7,
+      "vehicleCrime": 1.4,
+      "antisocialBehaviour": 1,
+      "otherTheft": 1.8,
+      "other": 2.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 1,
+    "inadequate": 2,
+    "nearest": [
+      {
+        "name": "Clough Head Junior and Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Marsden Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Scapegoat Hill Junior and Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wellhouse Junior and Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wilberlee Junior and Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 447847,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 15,
+    "privateRent": 17,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 272,
+    "avgUpload": 49,
+    "superfastPct": 91,
+    "ultrafastPct": 64,
+    "gigabitPct": 64,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Kirklees",
+    "bandD": 2102,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.2,
+    "imdRank": 19120,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "HD7 covers HUDDERSFIELD in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in HD7 is £241,680, which is 13% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in HD7 cost 15.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in HD7 have risen 3.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 12.8 recorded crimes per 1,000 residents, HD7 has a crime rate well 84% below the national average of 81.3 per 1,000.",
+    "schoolContext": "HD7 has 13 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in HD7 are 272.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "HD7 (HUDDERSFIELD) offers affordable property prices (£241,680, 16% below national average), low crime (84% below national average), 13 nearby schools, and excellent broadband (272 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 272
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 272
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

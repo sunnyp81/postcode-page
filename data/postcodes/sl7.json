@@ -1,0 +1,198 @@
+{
+  "code": "SL7",
+  "name": "MARLOW",
+  "county": "berkshire",
+  "region": "south-east",
+  "city": "slough",
+  "adjacent": [
+    "SL6",
+    "SL8",
+    "SL9"
+  ],
+  "property": {
+    "avgPrice": 826612,
+    "medianPrice": 655000,
+    "priceChange1y": -12,
+    "priceChange5y": 0,
+    "transactions12m": 860,
+    "byType": {
+      "detached": {
+        "avg": 1162543,
+        "count": 285
+      },
+      "semi": {
+        "avg": 703901,
+        "count": 177
+      },
+      "terraced": {
+        "avg": 628044,
+        "count": 208
+      },
+      "flat": {
+        "avg": 374208,
+        "count": 158
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 795880
+      },
+      {
+        "year": 2024,
+        "avg": 886193
+      },
+      {
+        "year": 2025,
+        "avg": 779962
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 23.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -71.6,
+    "byType": {
+      "violentCrime": 9.4,
+      "burglary": 0.7,
+      "vehicleCrime": 0.9,
+      "antisocialBehaviour": 2.1,
+      "otherTheft": 5.6,
+      "other": 4.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 2,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Danesfield School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Burford School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Spinfield School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Marlow Church of England Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Little Marlow CofE School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 158943,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 13,
+    "privateRent": 18,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 316,
+    "avgUpload": 57,
+    "superfastPct": 95,
+    "ultrafastPct": 80,
+    "gigabitPct": 75,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Slough Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 8.4,
+    "imdRank": 6289,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SL7 is the postcode district for MARLOW, located in Berkshire, South East.",
+    "priceVsCounty": "The average property price in SL7 is £826,612, which is 41% above the Berkshire average of £585,928.",
+    "priceVsNational": "Properties in SL7 cost 188.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SL7 have fallen 12.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 23.1 recorded crimes per 1,000 residents, SL7 has a crime rate well 72% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SL7 has 11 schools within or near its boundaries, including 2 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SL7 are 316.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SL7 (MARLOW) offers above-average property prices (£826,612, 188% above national average), low crime (72% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (316 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 585928,
+      "crime": 75,
+      "broadband": 316
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 316
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

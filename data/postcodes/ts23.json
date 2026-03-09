@@ -1,0 +1,198 @@
+{
+  "code": "TS23",
+  "name": "BILLINGHAM",
+  "county": "teesside",
+  "region": "north-east",
+  "city": "middlesbrough",
+  "adjacent": [
+    "TS22",
+    "TS24",
+    "TS25"
+  ],
+  "property": {
+    "avgPrice": 135680,
+    "medianPrice": 124000,
+    "priceChange1y": 4.9,
+    "priceChange5y": 0,
+    "transactions12m": 1166,
+    "byType": {
+      "detached": {
+        "avg": 226671,
+        "count": 174
+      },
+      "semi": {
+        "avg": 128586,
+        "count": 538
+      },
+      "terraced": {
+        "avg": 110454,
+        "count": 412
+      },
+      "flat": {
+        "avg": 73784,
+        "count": 25
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 130299
+      },
+      {
+        "year": 2024,
+        "avg": 134806
+      },
+      {
+        "year": 2025,
+        "avg": 141476
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 74.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -8.2,
+    "byType": {
+      "violentCrime": 26.1,
+      "burglary": 4.8,
+      "vehicleCrime": 2.8,
+      "antisocialBehaviour": 13.5,
+      "otherTheft": 10.2,
+      "other": 17.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 2,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Billingham South Community Primary School",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "St Michael's Catholic Academy",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ash Trees Academy",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St John the Evangelist Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Joseph's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 206800,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 16,
+    "privateRent": 15,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 362,
+    "avgUpload": 65,
+    "superfastPct": 93,
+    "ultrafastPct": 90,
+    "gigabitPct": 90,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Middlesbrough Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 25.8,
+    "imdRank": 17541,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TS23 is the postcode district for BILLINGHAM, located in Teesside, North East.",
+    "priceVsCounty": "The average property price in TS23 is £135,680, which is 29% below the Teesside average of £189,841.",
+    "priceVsNational": "Properties in TS23 cost 52.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TS23 have risen 4.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 74.6 recorded crimes per 1,000 residents, TS23 has a crime rate 8% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TS23 has 11 schools within or near its boundaries, including 2 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TS23 are 362.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TS23 (BILLINGHAM) offers affordable property prices (£135,680, 53% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (362 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 189841,
+      "crime": 75,
+      "broadband": 362
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 362
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "TS1",
+  "name": "MIDDLESBROUGH",
+  "county": "teesside",
+  "region": "north-east",
+  "city": "middlesbrough",
+  "adjacent": [
+    "TS2",
+    "TS3"
+  ],
+  "property": {
+    "avgPrice": 111545,
+    "medianPrice": 70000,
+    "priceChange1y": 36.4,
+    "priceChange5y": 0,
+    "transactions12m": 994,
+    "byType": {
+      "detached": {
+        "avg": 225550,
+        "count": 1
+      },
+      "semi": {
+        "avg": 83786,
+        "count": 14
+      },
+      "terraced": {
+        "avg": 77658,
+        "count": 852
+      },
+      "flat": {
+        "avg": 80330,
+        "count": 36
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 91436
+      },
+      {
+        "year": 2024,
+        "avg": 105128
+      },
+      {
+        "year": 2025,
+        "avg": 143380
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 290.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 257.3,
+    "byType": {
+      "violentCrime": 102,
+      "burglary": 9.9,
+      "vehicleCrime": 15.3,
+      "antisocialBehaviour": 51.4,
+      "otherTheft": 38,
+      "other": 73.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Newport Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Northern School of Art",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Teesside University",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sacred Heart Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ayresome Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 156161,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 23,
+    "privateRent": 19,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 315,
+    "avgUpload": 57,
+    "superfastPct": 88,
+    "ultrafastPct": 77,
+    "gigabitPct": 77,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Middlesbrough Council",
+    "bandD": 2387,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 40.5,
+    "imdRank": 23729,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TS1 covers MIDDLESBROUGH in Teesside, North East.",
+    "priceVsCounty": "The average property price in TS1 is £111,545, which is 41% below the Teesside average of £189,841.",
+    "priceVsNational": "Properties in TS1 cost 61.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TS1 have risen 36.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 290.5 recorded crimes per 1,000 residents, TS1 has a crime rate significantly 257% above the national average of 81.3 per 1,000.",
+    "schoolContext": "TS1 has 7 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TS1 are 315.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "TS1 (MIDDLESBROUGH) offers affordable property prices (£111,545, 61% below national average), higher-than-average crime (257% above national average), 7 nearby schools, and excellent broadband (315 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 189841,
+      "crime": 75,
+      "broadband": 315
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 315
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

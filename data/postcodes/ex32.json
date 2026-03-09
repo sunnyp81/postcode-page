@@ -1,0 +1,198 @@
+{
+  "code": "EX32",
+  "name": "BARNSTAPLE",
+  "county": "devon",
+  "region": "south-west",
+  "city": "exeter",
+  "adjacent": [
+    "EX31",
+    "EX33",
+    "EX34"
+  ],
+  "property": {
+    "avgPrice": 280887,
+    "medianPrice": 240000,
+    "priceChange1y": 1.4,
+    "priceChange5y": 0,
+    "transactions12m": 963,
+    "byType": {
+      "detached": {
+        "avg": 426697,
+        "count": 239
+      },
+      "semi": {
+        "avg": 276608,
+        "count": 178
+      },
+      "terraced": {
+        "avg": 220196,
+        "count": 381
+      },
+      "flat": {
+        "avg": 125947,
+        "count": 116
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 282559
+      },
+      {
+        "year": 2024,
+        "avg": 278230
+      },
+      {
+        "year": 2025,
+        "avg": 282235
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 11.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -86.3,
+    "byType": {
+      "violentCrime": 5.1,
+      "burglary": 0.3,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 1.5,
+      "otherTheft": 1.3,
+      "other": 2.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bishops Tawton Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Filleigh Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Goodleigh Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Swimbridge Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "West Buckland School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 101222,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 11,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 355,
+    "avgUpload": 64,
+    "superfastPct": 91,
+    "ultrafastPct": 88,
+    "gigabitPct": 88,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Devon",
+    "bandD": 2279,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.6,
+    "imdRank": 17090,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EX32 covers BARNSTAPLE in Devon, South West.",
+    "priceVsCounty": "The average property price in EX32 is £280,887, which is 27% below the Devon average of £385,452.",
+    "priceVsNational": "Property values in EX32 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in EX32 have risen 1.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 11.1 recorded crimes per 1,000 residents, EX32 has a crime rate well 86% below the national average of 81.3 per 1,000.",
+    "schoolContext": "EX32 has 15 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EX32 are 355.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "EX32 (BARNSTAPLE) offers property prices near the national average (£280,887), low crime (86% below national average), 15 nearby schools, and excellent broadband (355 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 355
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 355
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

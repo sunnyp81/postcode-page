@@ -1,0 +1,177 @@
+{
+  "code": "TA15",
+  "name": "MONTACUTE",
+  "county": "somerset",
+  "region": "south-west",
+  "city": "taunton",
+  "adjacent": [
+    "TA14",
+    "TA16",
+    "TA17"
+  ],
+  "property": {
+    "avgPrice": 437500,
+    "medianPrice": 340000,
+    "priceChange1y": -9,
+    "priceChange5y": 0,
+    "transactions12m": 20,
+    "byType": {
+      "detached": {
+        "avg": 850000,
+        "count": 1
+      },
+      "semi": {
+        "avg": 313083,
+        "count": 6
+      },
+      "terraced": {
+        "avg": 406375,
+        "count": 12
+      },
+      "flat": {
+        "avg": 276335,
+        "count": 0
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 318667
+      },
+      {
+        "year": 2024,
+        "avg": 548188
+      },
+      {
+        "year": 2025,
+        "avg": 498833
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.9,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.3,
+      "other": 0.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 1,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "All Saints Church School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 26693,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 102,
+    "avgUpload": 18,
+    "superfastPct": 98,
+    "ultrafastPct": 14,
+    "gigabitPct": 14,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Taunton Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.7,
+    "imdRank": 9260,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TA15 encompasses MONTACUTE and its surrounding areas in Somerset, South West.",
+    "priceVsCounty": "The average property price in TA15 is £437,500, which is 17% above the Somerset average of £373,759.",
+    "priceVsNational": "Properties in TA15 cost 52.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TA15 have fallen 9.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, TA15 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TA15 has 1 school within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TA15 are 102.0 Mbps, with 85% of premises having access to superfast broadband and 43% with full fibre (FTTP) connectivity.",
+    "synthesis": "TA15 (MONTACUTE) offers above-average property prices (£437,500, 52% above national average), low crime (94% below national average), 1 nearby school, and excellent broadband (102 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 373759,
+      "crime": 75,
+      "broadband": 102
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 102
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

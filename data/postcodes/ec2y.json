@@ -1,0 +1,179 @@
+{
+  "code": "EC2Y",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 1241925,
+    "medianPrice": 875000,
+    "priceChange1y": -22.8,
+    "priceChange5y": 0,
+    "transactions12m": 251,
+    "byType": {
+      "detached": {
+        "avg": 2359658,
+        "count": 0
+      },
+      "semi": {
+        "avg": 1490310,
+        "count": 0
+      },
+      "terraced": {
+        "avg": 2126212,
+        "count": 3
+      },
+      "flat": {
+        "avg": 993427,
+        "count": 240
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1407608
+      },
+      {
+        "year": 2024,
+        "avg": 1293813
+      },
+      {
+        "year": 2025,
+        "avg": 999054
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 103.9,
+      "burglary": 26.3,
+      "vehicleCrime": 13.2,
+      "antisocialBehaviour": 63.7,
+      "otherTheft": 266.4,
+      "other": 76.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "City of London School for Girls",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Guildhall School of Music and Drama",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 223024,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 15,
+    "socialRent": 40,
+    "privateRent": 29,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 278,
+    "avgUpload": 50,
+    "superfastPct": 74,
+    "ultrafastPct": 68,
+    "gigabitPct": 68,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Islington",
+    "bandD": 1815,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.5,
+    "imdRank": 22490,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EC2Y encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in EC2Y is £1,241,925, which is 5% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in EC2Y cost 332.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EC2Y have fallen 22.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, EC2Y has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "EC2Y has 2 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EC2Y are 278.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "EC2Y (LONDON) offers above-average property prices (£1,241,925, 333% above national average), higher-than-average crime (269% above national average), 2 nearby schools, and excellent broadband (278 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 278
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 278
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

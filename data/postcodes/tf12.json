@@ -1,0 +1,187 @@
+{
+  "code": "TF12",
+  "name": "BROSELEY",
+  "county": "shropshire",
+  "region": "west-midlands",
+  "city": "telford",
+  "adjacent": [
+    "TF11",
+    "TF13"
+  ],
+  "property": {
+    "avgPrice": 269601,
+    "medianPrice": 235000,
+    "priceChange1y": 0.7,
+    "priceChange5y": 0,
+    "transactions12m": 199,
+    "byType": {
+      "detached": {
+        "avg": 366384,
+        "count": 74
+      },
+      "semi": {
+        "avg": 236754,
+        "count": 80
+      },
+      "terraced": {
+        "avg": 182592,
+        "count": 30
+      },
+      "flat": {
+        "avg": 137143,
+        "count": 7
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 258790
+      },
+      {
+        "year": 2024,
+        "avg": 274326
+      },
+      {
+        "year": 2025,
+        "avg": 276260
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 7.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -90.3,
+    "byType": {
+      "violentCrime": 3.4,
+      "burglary": 0.4,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 1,
+      "otherTheft": 0.9,
+      "other": 1.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Broseley CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Barrow 1618 CofE Free School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "John Wilkinson Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 332455,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 13,
+    "privateRent": 15,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 199,
+    "avgUpload": 36,
+    "superfastPct": 91,
+    "ultrafastPct": 43,
+    "gigabitPct": 43,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Telford Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 17.2,
+    "imdRank": 14862,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TF12 is the postcode district for BROSELEY, located in Shropshire, West Midlands.",
+    "priceVsCounty": "The average property price in TF12 is £269,601, which is 9% below the Shropshire average of £296,045.",
+    "priceVsNational": "Properties in TF12 cost 6.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TF12 have risen 0.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 7.9 recorded crimes per 1,000 residents, TF12 has a crime rate well 90% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TF12 has 3 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TF12 are 199.0 Mbps, with 99% of premises having access to superfast broadband and 70% with full fibre (FTTP) connectivity.",
+    "synthesis": "TF12 (BROSELEY) offers property prices near the national average (£269,601), low crime (90% below national average), 3 nearby schools, and excellent broadband (199 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 296045,
+      "crime": 75,
+      "broadband": 199
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 199
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

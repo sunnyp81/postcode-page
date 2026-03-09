@@ -1,0 +1,198 @@
+{
+  "code": "CM17",
+  "name": "HARLOW",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "chelmsford",
+  "adjacent": [
+    "CM16",
+    "CM18",
+    "CM19"
+  ],
+  "property": {
+    "avgPrice": 415010,
+    "medianPrice": 390000,
+    "priceChange1y": 2.2,
+    "priceChange5y": 0,
+    "transactions12m": 1181,
+    "byType": {
+      "detached": {
+        "avg": 564282,
+        "count": 300
+      },
+      "semi": {
+        "avg": 436345,
+        "count": 230
+      },
+      "terraced": {
+        "avg": 365733,
+        "count": 405
+      },
+      "flat": {
+        "avg": 241991,
+        "count": 222
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 410037
+      },
+      {
+        "year": 2024,
+        "avg": 413013
+      },
+      {
+        "year": 2025,
+        "avg": 422046
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 27.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -66.5,
+    "byType": {
+      "violentCrime": 11.8,
+      "burglary": 0.7,
+      "vehicleCrime": 2.2,
+      "antisocialBehaviour": 2.3,
+      "otherTheft": 2.6,
+      "other": 7.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Matching Green Church of England Voluntary Controlled Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Churchgate Church of England Voluntary Aided Primary School, Harlow",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Saint Nicholas School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Church Langley Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Potter Street Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 98235,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 29,
+    "privateRent": 14,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 324,
+    "avgUpload": 58,
+    "superfastPct": 97,
+    "ultrafastPct": 79,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Harlow",
+    "bandD": 2053,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 21.4,
+    "imdRank": 18582,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CM17 encompasses HARLOW and its surrounding areas in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CM17 is £415,010, broadly in line with the Essex average of £429,754.",
+    "priceVsNational": "Properties in CM17 cost 44.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CM17 have risen 2.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 27.2 recorded crimes per 1,000 residents, CM17 has a crime rate well 67% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CM17 has 10 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CM17 are 324.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CM17 (HARLOW) offers above-average property prices (£415,010, 45% above national average), low crime (67% below national average), 10 nearby schools, and excellent broadband (324 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 324
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 324
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "WS11",
+  "name": "CANNOCK",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "walsall",
+  "adjacent": [
+    "WS10",
+    "WS12",
+    "WS13"
+  ],
+  "property": {
+    "avgPrice": 252232,
+    "medianPrice": 215000,
+    "priceChange1y": 8.3,
+    "priceChange5y": 0,
+    "transactions12m": 1775,
+    "byType": {
+      "detached": {
+        "avg": 339084,
+        "count": 499
+      },
+      "semi": {
+        "avg": 205943,
+        "count": 778
+      },
+      "terraced": {
+        "avg": 184997,
+        "count": 263
+      },
+      "flat": {
+        "avg": 117082,
+        "count": 143
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 248790
+      },
+      {
+        "year": 2024,
+        "avg": 244219
+      },
+      {
+        "year": 2025,
+        "avg": 264477
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 63.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -22.1,
+    "byType": {
+      "violentCrime": 26.3,
+      "burglary": 1.4,
+      "vehicleCrime": 2.1,
+      "antisocialBehaviour": 9.9,
+      "otherTheft": 11,
+      "other": 12.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bridgtown Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chadsmoor Community Infants and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Jerome Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chadsmoor CofE (VC) Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Norton Canes High School",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 104088,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 16,
+    "privateRent": 14,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 372,
+    "avgUpload": 67,
+    "superfastPct": 98,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Cannock Chase",
+    "bandD": 2081,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.4,
+    "imdRank": 16898,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "WS11 is the postcode district for CANNOCK, located in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in WS11 is £252,232, which is 25% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in WS11 cost 12.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in WS11 have risen 8.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 63.3 recorded crimes per 1,000 residents, WS11 has a crime rate well 22% below the national average of 81.3 per 1,000.",
+    "schoolContext": "WS11 has 16 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in WS11 are 372.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "WS11 (CANNOCK) offers property prices near the national average (£252,232), low crime (22% below national average), 16 nearby schools, and excellent broadband (372 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 372
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 372
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

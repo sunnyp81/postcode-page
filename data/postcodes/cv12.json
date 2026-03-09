@@ -1,0 +1,197 @@
+{
+  "code": "CV12",
+  "name": "BEDWORTH",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "coventry",
+  "adjacent": [
+    "CV11",
+    "CV13"
+  ],
+  "property": {
+    "avgPrice": 243482,
+    "medianPrice": 235000,
+    "priceChange1y": 3.3,
+    "priceChange5y": 0,
+    "transactions12m": 1375,
+    "byType": {
+      "detached": {
+        "avg": 351257,
+        "count": 308
+      },
+      "semi": {
+        "avg": 231445,
+        "count": 685
+      },
+      "terraced": {
+        "avg": 181038,
+        "count": 252
+      },
+      "flat": {
+        "avg": 119692,
+        "count": 92
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 239315
+      },
+      {
+        "year": 2024,
+        "avg": 242028
+      },
+      {
+        "year": 2025,
+        "avg": 250086
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 73.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -9.3,
+    "byType": {
+      "violentCrime": 23.4,
+      "burglary": 2.4,
+      "vehicleCrime": 4.5,
+      "antisocialBehaviour": 18.4,
+      "otherTheft": 12.2,
+      "other": 12.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bedworth Heath Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Race Leys Infant School",
+        "type": "Primary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "The Canons C of E Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Arden Forest Infant School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Newdigate Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 141565,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 33,
+    "socialRent": 15,
+    "privateRent": 15,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 350,
+    "avgUpload": 63,
+    "superfastPct": 97,
+    "ultrafastPct": 86,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Coventry Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.5,
+    "imdRank": 18479,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CV12 covers BEDWORTH in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in CV12 is £243,482, which is 27% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in CV12 cost 15.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CV12 have risen 3.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 73.7 recorded crimes per 1,000 residents, CV12 has a crime rate 9% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CV12 has 12 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CV12 are 350.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CV12 (BEDWORTH) offers affordable property prices (£243,482, 15% below national average), 12 nearby schools, and excellent broadband (350 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 350
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 350
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

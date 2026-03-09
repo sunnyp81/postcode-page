@@ -1,0 +1,196 @@
+{
+  "code": "DT1",
+  "name": "DORCHESTER",
+  "county": "dorset",
+  "region": "south-west",
+  "city": "dorchester",
+  "adjacent": [
+    "DT2",
+    "DT3"
+  ],
+  "property": {
+    "avgPrice": 375616,
+    "medianPrice": 315000,
+    "priceChange1y": 1.4,
+    "priceChange5y": 0,
+    "transactions12m": 1316,
+    "byType": {
+      "detached": {
+        "avg": 563365,
+        "count": 210
+      },
+      "semi": {
+        "avg": 400163,
+        "count": 191
+      },
+      "terraced": {
+        "avg": 352983,
+        "count": 407
+      },
+      "flat": {
+        "avg": 239730,
+        "count": 437
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 408572
+      },
+      {
+        "year": 2024,
+        "avg": 355688
+      },
+      {
+        "year": 2025,
+        "avg": 360786
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 40.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -49.8,
+    "byType": {
+      "violentCrime": 13.4,
+      "burglary": 0.9,
+      "vehicleCrime": 1.4,
+      "antisocialBehaviour": 10.6,
+      "otherTheft": 8.5,
+      "other": 6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "The Prince of Wales School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sunninghill Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Thomas Hardye School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dorchester Middle School",
+        "type": "Other",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "St Mary's Catholic First School, Dorchester",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 23666,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 372,
+    "avgUpload": 67,
+    "superfastPct": 100,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Dorchester Council",
+    "bandD": 2115,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.7,
+    "imdRank": 13227,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DT1 covers DORCHESTER in Dorset, South West.",
+    "priceVsCounty": "The average property price in DT1 is £375,616, which is 12% below the Dorset average of £425,376.",
+    "priceVsNational": "Properties in DT1 cost 30.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DT1 have risen 1.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 40.8 recorded crimes per 1,000 residents, DT1 has a crime rate well 50% below the national average of 81.3 per 1,000.",
+    "schoolContext": "DT1 has 8 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DT1 are 372.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DT1 (DORCHESTER) offers above-average property prices (£375,616, 31% above national average), low crime (50% below national average), 8 nearby schools, and excellent broadband (372 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 425376,
+      "crime": 75,
+      "broadband": 372
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 372
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

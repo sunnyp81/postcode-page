@@ -1,0 +1,198 @@
+{
+  "code": "EX34",
+  "name": "ILFRACOMBE",
+  "county": "devon",
+  "region": "south-west",
+  "city": "exeter",
+  "adjacent": [
+    "EX33",
+    "EX35",
+    "EX36"
+  ],
+  "property": {
+    "avgPrice": 342626,
+    "medianPrice": 259500,
+    "priceChange1y": -6.4,
+    "priceChange5y": 0,
+    "transactions12m": 884,
+    "byType": {
+      "detached": {
+        "avg": 493023,
+        "count": 228
+      },
+      "semi": {
+        "avg": 320440,
+        "count": 111
+      },
+      "terraced": {
+        "avg": 243889,
+        "count": 261
+      },
+      "flat": {
+        "avg": 218669,
+        "count": 205
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 388562
+      },
+      {
+        "year": 2024,
+        "avg": 325221
+      },
+      {
+        "year": 2025,
+        "avg": 304564
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 19.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -76.1,
+    "byType": {
+      "violentCrime": 8.2,
+      "burglary": 0.4,
+      "vehicleCrime": 0.3,
+      "antisocialBehaviour": 4.5,
+      "otherTheft": 1.5,
+      "other": 4.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ilfracombe Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ilfracombe Church of England Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Ilfracombe Church of England Academy",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Combe Martin Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Woolacombe School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 101222,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 11,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 159,
+    "avgUpload": 29,
+    "superfastPct": 93,
+    "ultrafastPct": 31,
+    "gigabitPct": 31,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Devon",
+    "bandD": 2279,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 20.6,
+    "imdRank": 17090,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "EX34 encompasses ILFRACOMBE and its surrounding areas in Devon, South West.",
+    "priceVsCounty": "The average property price in EX34 is £342,626, which is 11% below the Devon average of £385,452.",
+    "priceVsNational": "Properties in EX34 cost 19.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in EX34 have fallen 6.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 19.4 recorded crimes per 1,000 residents, EX34 has a crime rate well 76% below the national average of 81.3 per 1,000.",
+    "schoolContext": "EX34 has 7 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in EX34 are 159.0 Mbps, with 94% of premises having access to superfast broadband and 59% with full fibre (FTTP) connectivity.",
+    "synthesis": "EX34 (ILFRACOMBE) offers property prices near the national average (£342,626), low crime (76% below national average), 7 nearby schools, and excellent broadband (159 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 159
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 159
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

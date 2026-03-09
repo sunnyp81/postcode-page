@@ -1,0 +1,198 @@
+{
+  "code": "BD10",
+  "name": "BRADFORD",
+  "county": "west-yorkshire",
+  "region": "yorkshire",
+  "city": "bradford",
+  "adjacent": [
+    "BD9",
+    "BD11",
+    "BD12"
+  ],
+  "property": {
+    "avgPrice": 226735,
+    "medianPrice": 193250,
+    "priceChange1y": -8.8,
+    "priceChange5y": 0,
+    "transactions12m": 1362,
+    "byType": {
+      "detached": {
+        "avg": 355389,
+        "count": 266
+      },
+      "semi": {
+        "avg": 199065,
+        "count": 536
+      },
+      "terraced": {
+        "avg": 179672,
+        "count": 399
+      },
+      "flat": {
+        "avg": 119425,
+        "count": 129
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 213827
+      },
+      {
+        "year": 2024,
+        "avg": 243324
+      },
+      {
+        "year": 2025,
+        "avg": 221880
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 98.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 20.9,
+    "byType": {
+      "violentCrime": 34.9,
+      "burglary": 7.3,
+      "vehicleCrime": 7.5,
+      "antisocialBehaviour": 15.3,
+      "otherTheft": 11.8,
+      "other": 21.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 10,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Thackley Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Blakehill Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Idle CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Woodhouse Grove School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Immanuel College",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 845189,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 20,
+    "privateRent": 20,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 383,
+    "avgUpload": 69,
+    "superfastPct": 98,
+    "ultrafastPct": 96,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Leeds",
+    "bandD": 1968,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27.3,
+    "imdRank": 18909,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BD10 covers BRADFORD in West Yorkshire, Yorkshire.",
+    "priceVsCounty": "The average property price in BD10 is £226,735, which is 18% below the West Yorkshire average of £277,857.",
+    "priceVsNational": "Properties in BD10 cost 21.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BD10 have fallen 8.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 98.3 recorded crimes per 1,000 residents, BD10 has a crime rate significantly 21% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BD10 has 10 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BD10 are 383.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BD10 (BRADFORD) offers affordable property prices (£226,735, 21% below national average), higher-than-average crime (21% above national average), 10 nearby schools, and excellent broadband (383 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 277857,
+      "crime": 75,
+      "broadband": 383
+    },
+    "regionalAvg": {
+      "price": 267130,
+      "crime": 78,
+      "broadband": 383
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

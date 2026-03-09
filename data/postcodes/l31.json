@@ -1,0 +1,198 @@
+{
+  "code": "L31",
+  "name": "LIVERPOOL",
+  "county": "merseyside",
+  "region": "north-west",
+  "city": "liverpool",
+  "adjacent": [
+    "L30",
+    "L32",
+    "L33"
+  ],
+  "property": {
+    "avgPrice": 256199,
+    "medianPrice": 235000,
+    "priceChange1y": -3.8,
+    "priceChange5y": 0,
+    "transactions12m": 1519,
+    "byType": {
+      "detached": {
+        "avg": 343044,
+        "count": 317
+      },
+      "semi": {
+        "avg": 239822,
+        "count": 762
+      },
+      "terraced": {
+        "avg": 188911,
+        "count": 244
+      },
+      "flat": {
+        "avg": 134715,
+        "count": 146
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 233834
+      },
+      {
+        "year": 2024,
+        "avg": 270660
+      },
+      {
+        "year": 2025,
+        "avg": 260503
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 26.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -67.3,
+    "byType": {
+      "violentCrime": 11.5,
+      "burglary": 1,
+      "vehicleCrime": 1.2,
+      "antisocialBehaviour": 4.2,
+      "otherTheft": 2.4,
+      "other": 6.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 1,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Hudson Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Northway Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Summerhill Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Green Park Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Melling Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 162565,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 25,
+    "privateRent": 13,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 375,
+    "avgUpload": 68,
+    "superfastPct": 97,
+    "ultrafastPct": 93,
+    "gigabitPct": 93,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Knowsley",
+    "bandD": 2150,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 43,
+    "imdRank": 26199,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "L31 encompasses LIVERPOOL and its surrounding areas in Merseyside, North West.",
+    "priceVsCounty": "The average property price in L31 is £256,199, broadly in line with the Merseyside average of £252,845.",
+    "priceVsNational": "Properties in L31 cost 10.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in L31 have fallen 3.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 26.6 recorded crimes per 1,000 residents, L31 has a crime rate well 67% below the national average of 81.3 per 1,000.",
+    "schoolContext": "L31 has 15 schools within or near its boundaries, including 1 rated Outstanding and 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in L31 are 375.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "L31 (LIVERPOOL) offers property prices near the national average (£256,199), low crime (67% below national average), 15 nearby schools, and excellent broadband (375 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 252845,
+      "crime": 75,
+      "broadband": 375
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 375
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

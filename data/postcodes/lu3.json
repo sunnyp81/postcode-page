@@ -1,0 +1,198 @@
+{
+  "code": "LU3",
+  "name": "LUTON",
+  "county": "bedfordshire",
+  "region": "east-of-england",
+  "city": "luton",
+  "adjacent": [
+    "LU2",
+    "LU4",
+    "LU5"
+  ],
+  "property": {
+    "avgPrice": 345882,
+    "medianPrice": 305000,
+    "priceChange1y": -7.8,
+    "priceChange5y": 0,
+    "transactions12m": 1818,
+    "byType": {
+      "detached": {
+        "avg": 461633,
+        "count": 272
+      },
+      "semi": {
+        "avg": 329949,
+        "count": 791
+      },
+      "terraced": {
+        "avg": 268071,
+        "count": 470
+      },
+      "flat": {
+        "avg": 157061,
+        "count": 234
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 336953
+      },
+      {
+        "year": 2024,
+        "avg": 363180
+      },
+      {
+        "year": 2025,
+        "avg": 334761
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 83.3,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 2.5,
+    "byType": {
+      "violentCrime": 35.2,
+      "burglary": 2,
+      "vehicleCrime": 7,
+      "antisocialBehaviour": 12.7,
+      "otherTheft": 8.8,
+      "other": 17.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 23,
+    "outstanding": 2,
+    "good": 7,
+    "requiresImprovement": 1,
+    "inadequate": 1,
+    "nearest": [
+      {
+        "name": "Grasmere Nursery School",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Denbigh Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Norton Road Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Parklea Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Meads Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 315877,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 380,
+    "avgUpload": 68,
+    "superfastPct": 99,
+    "ultrafastPct": 95,
+    "gigabitPct": 94,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Luton Council",
+    "bandD": 2251,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.2,
+    "imdRank": 9823,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LU3 encompasses LUTON and its surrounding areas in Bedfordshire, East Of England.",
+    "priceVsCounty": "The average property price in LU3 is £345,882, which is 6% below the Bedfordshire average of £368,807.",
+    "priceVsNational": "Properties in LU3 cost 20.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LU3 have fallen 7.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "LU3 has a crime rate of 83.3 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "LU3 has 23 schools within or near its boundaries, including 2 rated Outstanding and 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LU3 are 380.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LU3 (LUTON) offers above-average property prices (£345,882, 21% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (380 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 368807,
+      "crime": 75,
+      "broadband": 380
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 380
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

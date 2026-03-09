@@ -1,0 +1,198 @@
+{
+  "code": "N2",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "N1",
+    "N3",
+    "N4"
+  ],
+  "property": {
+    "avgPrice": 1358374,
+    "medianPrice": 675000,
+    "priceChange1y": -30.6,
+    "priceChange5y": 0,
+    "transactions12m": 808,
+    "byType": {
+      "detached": {
+        "avg": 4262970,
+        "count": 80
+      },
+      "semi": {
+        "avg": 1524069,
+        "count": 130
+      },
+      "terraced": {
+        "avg": 991810,
+        "count": 178
+      },
+      "flat": {
+        "avg": 858680,
+        "count": 391
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 1381883
+      },
+      {
+        "year": 2024,
+        "avg": 1551667
+      },
+      {
+        "year": 2025,
+        "avg": 1076215
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 57,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -29.9,
+    "byType": {
+      "violentCrime": 13,
+      "burglary": 4.5,
+      "vehicleCrime": 10,
+      "antisocialBehaviour": 12.4,
+      "otherTheft": 8.2,
+      "other": 8.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 8,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Holy Trinity CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Annemount School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Kerem School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Martin Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Christ's College Finchley",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 405050,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 13,
+    "privateRent": 30,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 225,
+    "avgUpload": 41,
+    "superfastPct": 98,
+    "ultrafastPct": 61,
+    "gigabitPct": 45,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Barnet",
+    "bandD": 1836,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.1,
+    "imdRank": 13803,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "N2 encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in N2 is £1,358,374, broadly in line with the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in N2 cost 373.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in N2 have fallen 30.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 57.0 recorded crimes per 1,000 residents, N2 has a crime rate well 30% below the national average of 81.3 per 1,000.",
+    "schoolContext": "N2 has 8 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in N2 are 225.0 Mbps, with 99% of premises having access to superfast broadband and 77% with full fibre (FTTP) connectivity.",
+    "synthesis": "N2 (LONDON) offers above-average property prices (£1,358,374, 373% above national average), low crime (30% below national average), 8 nearby schools, and excellent broadband (225 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 225
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 225
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

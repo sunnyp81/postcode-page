@@ -1,0 +1,198 @@
+{
+  "code": "PL4",
+  "name": "PLYMOUTH",
+  "county": "devon",
+  "region": "south-west",
+  "city": "plymouth",
+  "adjacent": [
+    "PL3",
+    "PL5",
+    "PL6"
+  ],
+  "property": {
+    "avgPrice": 222824,
+    "medianPrice": 190000,
+    "priceChange1y": 18.7,
+    "priceChange5y": 0,
+    "transactions12m": 1675,
+    "byType": {
+      "detached": {
+        "avg": 308571,
+        "count": 14
+      },
+      "semi": {
+        "avg": 252991,
+        "count": 82
+      },
+      "terraced": {
+        "avg": 225805,
+        "count": 907
+      },
+      "flat": {
+        "avg": 138717,
+        "count": 569
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 197436
+      },
+      {
+        "year": 2024,
+        "avg": 218398
+      },
+      {
+        "year": 2025,
+        "avg": 259302
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 273,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 235.8,
+    "byType": {
+      "violentCrime": 105.8,
+      "burglary": 5.5,
+      "vehicleCrime": 7.9,
+      "antisocialBehaviour": 48.7,
+      "otherTheft": 46.8,
+      "other": 58.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 1,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Lipson Vale Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Fletewood School at Derry Villas",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Plymouth College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Arts University Plymouth",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "University of Plymouth",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 272067,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 18,
+    "privateRent": 20,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 353,
+    "avgUpload": 64,
+    "superfastPct": 94,
+    "ultrafastPct": 90,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Plymouth Council",
+    "bandD": 2319,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.6,
+    "imdRank": 19859,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PL4 is the postcode district for PLYMOUTH, located in Devon, South West.",
+    "priceVsCounty": "The average property price in PL4 is £222,824, which is 42% below the Devon average of £385,452.",
+    "priceVsNational": "Properties in PL4 cost 22.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PL4 have risen 18.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 273.0 recorded crimes per 1,000 residents, PL4 has a crime rate significantly 236% above the national average of 81.3 per 1,000.",
+    "schoolContext": "PL4 has 12 schools within or near its boundaries, including 1 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PL4 are 353.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PL4 (PLYMOUTH) offers affordable property prices (£222,824, 22% below national average), higher-than-average crime (236% above national average), 12 nearby schools, and excellent broadband (353 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 353
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 353
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

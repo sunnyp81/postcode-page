@@ -1,0 +1,198 @@
+{
+  "code": "L30",
+  "name": "BOOTLE",
+  "county": "merseyside",
+  "region": "north-west",
+  "city": "liverpool",
+  "adjacent": [
+    "L29",
+    "L31",
+    "L32"
+  ],
+  "property": {
+    "avgPrice": 194661,
+    "medianPrice": 145000,
+    "priceChange1y": -29.2,
+    "priceChange5y": 0,
+    "transactions12m": 579,
+    "byType": {
+      "detached": {
+        "avg": 257379,
+        "count": 34
+      },
+      "semi": {
+        "avg": 166572,
+        "count": 234
+      },
+      "terraced": {
+        "avg": 132628,
+        "count": 255
+      },
+      "flat": {
+        "avg": 64043,
+        "count": 35
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 191161
+      },
+      {
+        "year": 2024,
+        "avg": 227239
+      },
+      {
+        "year": 2025,
+        "avg": 160840
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 81,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -0.4,
+    "byType": {
+      "violentCrime": 31.9,
+      "burglary": 1.2,
+      "vehicleCrime": 2.4,
+      "antisocialBehaviour": 9.9,
+      "otherTheft": 9.7,
+      "other": 25.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 1,
+    "inadequate": 2,
+    "nearest": [
+      {
+        "name": "Netherton Moss Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Oswald's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Benedict's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Holy Spirit Catholic Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Salesian Academy of St John Bosco",
+        "type": "Secondary",
+        "ofsted": "Inadequate"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 286281,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 14,
+    "privateRent": 16,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 368,
+    "avgUpload": 66,
+    "superfastPct": 98,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Sefton",
+    "bandD": 2230,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 27,
+    "imdRank": 18986,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "L30 is the postcode district for BOOTLE, located in Merseyside, North West.",
+    "priceVsCounty": "The average property price in L30 is £194,661, which is 23% below the Merseyside average of £252,845.",
+    "priceVsNational": "Properties in L30 cost 32.2% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in L30 have fallen 29.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "L30 has a crime rate of 81.0 per 1,000 residents, broadly in line with the national average of 81.3 per 1,000.",
+    "schoolContext": "L30 has 11 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in L30 are 368.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "L30 (BOOTLE) offers affordable property prices (£194,661, 32% below national average), 11 nearby schools, and excellent broadband (368 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 252845,
+      "crime": 75,
+      "broadband": 368
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 368
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "MK40",
+  "name": "BEDFORD",
+  "county": "buckinghamshire",
+  "region": "south-east",
+  "city": "milton-keynes",
+  "adjacent": [
+    "MK41",
+    "MK42"
+  ],
+  "property": {
+    "avgPrice": 409241,
+    "medianPrice": 329995,
+    "priceChange1y": -9.4,
+    "priceChange5y": 0,
+    "transactions12m": 1687,
+    "byType": {
+      "detached": {
+        "avg": 609399,
+        "count": 411
+      },
+      "semi": {
+        "avg": 396367,
+        "count": 362
+      },
+      "terraced": {
+        "avg": 318275,
+        "count": 353
+      },
+      "flat": {
+        "avg": 174510,
+        "count": 487
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 377944
+      },
+      {
+        "year": 2024,
+        "avg": 443696
+      },
+      {
+        "year": 2025,
+        "avg": 401918
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 184.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 126.9,
+    "byType": {
+      "violentCrime": 71.1,
+      "burglary": 5.9,
+      "vehicleCrime": 8.8,
+      "antisocialBehaviour": 28.3,
+      "otherTheft": 26.8,
+      "other": 43.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 1,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Priory Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Westfield Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Biddenham International School and Sports College",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bedford School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Polam School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 194976,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 16,
+    "privateRent": 17,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 342,
+    "avgUpload": 62,
+    "superfastPct": 97,
+    "ultrafastPct": 88,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Milton Keynes Council",
+    "bandD": 2321,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.9,
+    "imdRank": 15291,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "MK40 covers BEDFORD in Buckinghamshire, South East.",
+    "priceVsCounty": "The average property price in MK40 is £409,241, which is 13% below the Buckinghamshire average of £472,988.",
+    "priceVsNational": "Properties in MK40 cost 42.6% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in MK40 have fallen 9.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 184.5 recorded crimes per 1,000 residents, MK40 has a crime rate significantly 127% above the national average of 81.3 per 1,000.",
+    "schoolContext": "MK40 has 11 schools within or near its boundaries, including 1 rated Outstanding and 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in MK40 are 342.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "MK40 (BEDFORD) offers above-average property prices (£409,241, 43% above national average), higher-than-average crime (127% above national average), 11 nearby schools, and excellent broadband (342 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 472988,
+      "crime": 75,
+      "broadband": 342
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 342
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

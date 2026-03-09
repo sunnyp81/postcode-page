@@ -1,0 +1,197 @@
+{
+  "code": "DY1",
+  "name": "DUDLEY",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "dudley",
+  "adjacent": [
+    "DY2",
+    "DY3"
+  ],
+  "property": {
+    "avgPrice": 223875,
+    "medianPrice": 195000,
+    "priceChange1y": 9,
+    "priceChange5y": 0,
+    "transactions12m": 978,
+    "byType": {
+      "detached": {
+        "avg": 324536,
+        "count": 169
+      },
+      "semi": {
+        "avg": 195821,
+        "count": 469
+      },
+      "terraced": {
+        "avg": 174465,
+        "count": 198
+      },
+      "flat": {
+        "avg": 120761,
+        "count": 75
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 235085
+      },
+      {
+        "year": 2024,
+        "avg": 209963
+      },
+      {
+        "year": 2025,
+        "avg": 228769
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 107,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 31.6,
+    "byType": {
+      "violentCrime": 47.9,
+      "burglary": 4.5,
+      "vehicleCrime": 9,
+      "antisocialBehaviour": 6.5,
+      "otherTheft": 16.1,
+      "other": 23.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Russells Hall Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Wrens Nest Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Milking Bank Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sutton School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dudley College of Technology",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 331930,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 29,
+    "socialRent": 19,
+    "privateRent": 12,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 329,
+    "avgUpload": 59,
+    "superfastPct": 98,
+    "ultrafastPct": 84,
+    "gigabitPct": 78,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Dudley",
+    "bandD": 1844,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 24.1,
+    "imdRank": 18193,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DY1 encompasses DUDLEY and its surrounding areas in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in DY1 is £223,875, which is 33% below the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in DY1 cost 22.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in DY1 have risen 9.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 107.0 recorded crimes per 1,000 residents, DY1 has a crime rate significantly 32% above the national average of 81.3 per 1,000.",
+    "schoolContext": "DY1 has 14 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DY1 are 329.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DY1 (DUDLEY) offers affordable property prices (£223,875, 22% below national average), higher-than-average crime (32% above national average), 14 nearby schools, and excellent broadband (329 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 329
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 329
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

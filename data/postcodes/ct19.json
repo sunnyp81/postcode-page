@@ -1,0 +1,198 @@
+{
+  "code": "CT19",
+  "name": "FOLKESTONE",
+  "county": "kent",
+  "region": "south-east",
+  "city": "canterbury",
+  "adjacent": [
+    "CT18",
+    "CT20",
+    "CT21"
+  ],
+  "property": {
+    "avgPrice": 302741,
+    "medianPrice": 269995,
+    "priceChange1y": 1.9,
+    "priceChange5y": 0,
+    "transactions12m": 1197,
+    "byType": {
+      "detached": {
+        "avg": 511156,
+        "count": 75
+      },
+      "semi": {
+        "avg": 351093,
+        "count": 286
+      },
+      "terraced": {
+        "avg": 269717,
+        "count": 625
+      },
+      "flat": {
+        "avg": 168226,
+        "count": 157
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 309286
+      },
+      {
+        "year": 2024,
+        "avg": 296870
+      },
+      {
+        "year": 2025,
+        "avg": 302434
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 127,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 56.2,
+    "byType": {
+      "violentCrime": 49.1,
+      "burglary": 3.1,
+      "vehicleCrime": 3.2,
+      "antisocialBehaviour": 19.2,
+      "otherTheft": 23.3,
+      "other": 29
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 0,
+    "good": 8,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Folkestone, St Peter's Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Harcourt Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Beacon Folkestone",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Castle Hill Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Birchwood",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 112411,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 11,
+    "privateRent": 20,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 372,
+    "avgUpload": 67,
+    "superfastPct": 99,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Canterbury Council",
+    "bandD": 2151,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 24.1,
+    "imdRank": 19337,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CT19 encompasses FOLKESTONE and its surrounding areas in Kent, South East.",
+    "priceVsCounty": "The average property price in CT19 is £302,741, which is 33% below the Kent average of £450,882.",
+    "priceVsNational": "Properties in CT19 cost 5.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CT19 have risen 1.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 127.0 recorded crimes per 1,000 residents, CT19 has a crime rate significantly 56% above the national average of 81.3 per 1,000.",
+    "schoolContext": "CT19 has 16 schools within or near its boundaries, including 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CT19 are 372.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CT19 (FOLKESTONE) offers property prices near the national average (£302,741), higher-than-average crime (56% above national average), 16 nearby schools, and excellent broadband (372 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 372
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 372
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

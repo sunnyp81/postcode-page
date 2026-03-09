@@ -1,0 +1,197 @@
+{
+  "code": "LU6",
+  "name": "DUNSTABLE",
+  "county": "bedfordshire",
+  "region": "east-of-england",
+  "city": "luton",
+  "adjacent": [
+    "LU5",
+    "LU7"
+  ],
+  "property": {
+    "avgPrice": 402801,
+    "medianPrice": 352500,
+    "priceChange1y": 1.3,
+    "priceChange5y": 0,
+    "transactions12m": 1425,
+    "byType": {
+      "detached": {
+        "avg": 621800,
+        "count": 346
+      },
+      "semi": {
+        "avg": 385588,
+        "count": 425
+      },
+      "terraced": {
+        "avg": 318980,
+        "count": 357
+      },
+      "flat": {
+        "avg": 170310,
+        "count": 236
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 386366
+      },
+      {
+        "year": 2024,
+        "avg": 407680
+      },
+      {
+        "year": 2025,
+        "avg": 413044
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 36.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -55.1,
+    "byType": {
+      "violentCrime": 12.1,
+      "burglary": 1.8,
+      "vehicleCrime": 2.9,
+      "antisocialBehaviour": 7.6,
+      "otherTheft": 4.8,
+      "other": 7.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 15,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Westfield Nursery School",
+        "type": "Nursery",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Ashton St Peter's VA C of E School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Lark Rise Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Eaton Bray Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Weatherfield Academy",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 315877,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 38,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 287,
+    "avgUpload": 52,
+    "superfastPct": 96,
+    "ultrafastPct": 70,
+    "gigabitPct": 67,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Luton Council",
+    "bandD": 2251,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 12.2,
+    "imdRank": 9823,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "LU6 encompasses DUNSTABLE and its surrounding areas in Bedfordshire, East Of England.",
+    "priceVsCounty": "The average property price in LU6 is £402,801, which is 9% above the Bedfordshire average of £368,807.",
+    "priceVsNational": "Properties in LU6 cost 40.3% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LU6 have risen 1.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 36.5 recorded crimes per 1,000 residents, LU6 has a crime rate well 55% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LU6 has 15 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LU6 are 287.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LU6 (DUNSTABLE) offers above-average property prices (£402,801, 40% above national average), low crime (55% below national average), 15 nearby schools, and excellent broadband (287 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 368807,
+      "crime": 75,
+      "broadband": 287
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 287
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

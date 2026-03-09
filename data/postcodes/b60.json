@@ -1,0 +1,197 @@
+{
+  "code": "B60",
+  "name": "BROMSGROVE",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B61",
+    "B62"
+  ],
+  "property": {
+    "avgPrice": 364196,
+    "medianPrice": 320000,
+    "priceChange1y": 2.4,
+    "priceChange5y": 0,
+    "transactions12m": 1235,
+    "byType": {
+      "detached": {
+        "avg": 499323,
+        "count": 436
+      },
+      "semi": {
+        "avg": 314555,
+        "count": 348
+      },
+      "terraced": {
+        "avg": 264745,
+        "count": 230
+      },
+      "flat": {
+        "avg": 142616,
+        "count": 150
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 367045
+      },
+      {
+        "year": 2024,
+        "avg": 358728
+      },
+      {
+        "year": 2025,
+        "avg": 367502
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 44.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -45.1,
+    "byType": {
+      "violentCrime": 19.3,
+      "burglary": 1.4,
+      "vehicleCrime": 1.2,
+      "antisocialBehaviour": 7.7,
+      "otherTheft": 7.1,
+      "other": 7.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 12,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Finstall First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lickey End First School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hanbury CofE First School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Tardebigge CofE First School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Aston Fields Middle School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 138017,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 30,
+    "socialRent": 16,
+    "privateRent": 11,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 336,
+    "avgUpload": 60,
+    "superfastPct": 96,
+    "ultrafastPct": 82,
+    "gigabitPct": 82,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Wychavon",
+    "bandD": 2002,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.8,
+    "imdRank": 13500,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B60 covers BROMSGROVE in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B60 is £364,196, which is 9% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B60 cost 26.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B60 have risen 2.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 44.6 recorded crimes per 1,000 residents, B60 has a crime rate well 45% below the national average of 81.3 per 1,000.",
+    "schoolContext": "B60 has 12 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B60 are 336.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B60 (BROMSGROVE) offers above-average property prices (£364,196, 27% above national average), low crime (45% below national average), 12 nearby schools, and excellent broadband (336 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 336
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 336
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

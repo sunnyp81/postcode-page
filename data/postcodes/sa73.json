@@ -1,0 +1,195 @@
+{
+  "code": "SA73",
+  "name": "MILFORD HAVEN",
+  "county": "west-wales",
+  "region": "wales",
+  "city": "swansea",
+  "adjacent": [
+    "SA72"
+  ],
+  "property": {
+    "avgPrice": 195936,
+    "medianPrice": 161000,
+    "priceChange1y": 0.2,
+    "priceChange5y": 0,
+    "transactions12m": 880,
+    "byType": {
+      "detached": {
+        "avg": 294648,
+        "count": 251
+      },
+      "semi": {
+        "avg": 167698,
+        "count": 214
+      },
+      "terraced": {
+        "avg": 142859,
+        "count": 308
+      },
+      "flat": {
+        "avg": 112533,
+        "count": 42
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 190066
+      },
+      {
+        "year": 2024,
+        "avg": 199497
+      },
+      {
+        "year": 2025,
+        "avg": 199859
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 29.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -64.1,
+    "byType": {
+      "violentCrime": 15.8,
+      "burglary": 0.7,
+      "vehicleCrime": 0.2,
+      "antisocialBehaviour": 2.7,
+      "otherTheft": 1.9,
+      "other": 7.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Francis V.R.C. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Milford Haven School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pembrokeshire Pupil Referral Service",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Neyland Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ty Cariad",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 125761,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 305,
+    "avgUpload": 55,
+    "superfastPct": 96,
+    "ultrafastPct": 73,
+    "gigabitPct": 73,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swansea Council",
+    "bandD": 1623,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "SA73 encompasses MILFORD HAVEN and its surrounding areas in West Wales, Wales.",
+    "priceVsCounty": "The average property price in SA73 is £195,936, which is 25% below the West Wales average of £261,315.",
+    "priceVsNational": "Properties in SA73 cost 31.7% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in SA73 have risen 0.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 29.2 recorded crimes per 1,000 residents, SA73 has a crime rate well 64% below the national average of 81.3 per 1,000.",
+    "schoolContext": "SA73 has 7 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SA73 are 305.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SA73 (MILFORD HAVEN) offers affordable property prices (£195,936, 32% below national average), low crime (64% below national average), 7 nearby schools, and excellent broadband (305 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 261315,
+      "crime": 75,
+      "broadband": 305
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 305
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

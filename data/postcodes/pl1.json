@@ -1,0 +1,197 @@
+{
+  "code": "PL1",
+  "name": "PLYMOUTH",
+  "county": "devon",
+  "region": "south-west",
+  "city": "plymouth",
+  "adjacent": [
+    "PL2",
+    "PL3"
+  ],
+  "property": {
+    "avgPrice": 248921,
+    "medianPrice": 179000,
+    "priceChange1y": 27.3,
+    "priceChange5y": 0,
+    "transactions12m": 1335,
+    "byType": {
+      "detached": {
+        "avg": 413389,
+        "count": 9
+      },
+      "semi": {
+        "avg": 246580,
+        "count": 25
+      },
+      "terraced": {
+        "avg": 255392,
+        "count": 393
+      },
+      "flat": {
+        "avg": 180786,
+        "count": 804
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 213538
+      },
+      {
+        "year": 2024,
+        "avg": 243403
+      },
+      {
+        "year": 2025,
+        "avg": 309886
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 278.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 242.6,
+    "byType": {
+      "violentCrime": 111.6,
+      "burglary": 5.1,
+      "vehicleCrime": 6,
+      "antisocialBehaviour": 54.6,
+      "otherTheft": 45,
+      "other": 56.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 0,
+    "good": 10,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Andrew's Cof E VA Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "City College Plymouth",
+        "type": "Post-16",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Devonport High School for Boys",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St George's CofE Primary Academy",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Joseph's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 272067,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 28,
+    "socialRent": 18,
+    "privateRent": 20,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 332,
+    "avgUpload": 60,
+    "superfastPct": 91,
+    "ultrafastPct": 83,
+    "gigabitPct": 81,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Plymouth Council",
+    "bandD": 2319,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.6,
+    "imdRank": 19859,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PL1 is the postcode district for PLYMOUTH, located in Devon, South West.",
+    "priceVsCounty": "The average property price in PL1 is £248,921, which is 35% below the Devon average of £385,452.",
+    "priceVsNational": "Properties in PL1 cost 13.3% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PL1 have risen 27.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 278.5 recorded crimes per 1,000 residents, PL1 has a crime rate significantly 243% above the national average of 81.3 per 1,000.",
+    "schoolContext": "PL1 has 16 schools within or near its boundaries, including 10 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PL1 are 332.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PL1 (PLYMOUTH) offers property prices near the national average (£248,921), higher-than-average crime (243% above national average), 16 nearby schools, and excellent broadband (332 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 385452,
+      "crime": 75,
+      "broadband": 332
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 332
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

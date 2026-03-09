@@ -1,0 +1,188 @@
+{
+  "code": "B47",
+  "name": "BIRMINGHAM",
+  "county": "west-midlands",
+  "region": "west-midlands",
+  "city": "birmingham",
+  "adjacent": [
+    "B46",
+    "B48",
+    "B49"
+  ],
+  "property": {
+    "avgPrice": 413725,
+    "medianPrice": 375000,
+    "priceChange1y": -6.7,
+    "priceChange5y": 0,
+    "transactions12m": 384,
+    "byType": {
+      "detached": {
+        "avg": 481933,
+        "count": 144
+      },
+      "semi": {
+        "avg": 362196,
+        "count": 142
+      },
+      "terraced": {
+        "avg": 310234,
+        "count": 75
+      },
+      "flat": {
+        "avg": 181721,
+        "count": 14
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 422090
+      },
+      {
+        "year": 2024,
+        "avg": 421859
+      },
+      {
+        "year": 2025,
+        "avg": 393692
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 15.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -80.8,
+    "byType": {
+      "violentCrime": 4.4,
+      "burglary": 1.1,
+      "vehicleCrime": 1.1,
+      "antisocialBehaviour": 1.9,
+      "otherTheft": 4.7,
+      "other": 2.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Meadow Green Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Woodrush High School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Coppice Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 1183618,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 24,
+    "privateRent": 21,
+    "economicallyActive": 73,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 312,
+    "avgUpload": 56,
+    "superfastPct": 95,
+    "ultrafastPct": 75,
+    "gigabitPct": 75,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Birmingham",
+    "bandD": 1913,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 38.1,
+    "imdRank": 25319,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.4,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "B47 encompasses BIRMINGHAM and its surrounding areas in West Midlands, West Midlands.",
+    "priceVsCounty": "The average property price in B47 is £413,725, which is 24% above the West Midlands average of £334,385.",
+    "priceVsNational": "Properties in B47 cost 44.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in B47 have fallen 6.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 15.6 recorded crimes per 1,000 residents, B47 has a crime rate well 81% below the national average of 81.3 per 1,000.",
+    "schoolContext": "B47 has 3 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in B47 are 312.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "B47 (BIRMINGHAM) offers above-average property prices (£413,725, 44% above national average), low crime (81% below national average), 3 nearby schools, and excellent broadband (312 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 334385,
+      "crime": 75,
+      "broadband": 312
+    },
+    "regionalAvg": {
+      "price": 332825,
+      "crime": 78,
+      "broadband": 312
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

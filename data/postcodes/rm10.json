@@ -1,0 +1,198 @@
+{
+  "code": "RM10",
+  "name": "DAGENHAM",
+  "county": "greater-london",
+  "region": "london",
+  "city": "romford",
+  "adjacent": [
+    "RM9",
+    "RM11",
+    "RM12"
+  ],
+  "property": {
+    "avgPrice": 369789,
+    "medianPrice": 365000,
+    "priceChange1y": 3.2,
+    "priceChange5y": 0,
+    "transactions12m": 978,
+    "byType": {
+      "detached": {
+        "avg": 568444,
+        "count": 9
+      },
+      "semi": {
+        "avg": 403024,
+        "count": 124
+      },
+      "terraced": {
+        "avg": 377248,
+        "count": 630
+      },
+      "flat": {
+        "avg": 216463,
+        "count": 185
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 387852
+      },
+      {
+        "year": 2024,
+        "avg": 355718
+      },
+      {
+        "year": 2025,
+        "avg": 367004
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 99.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 21.9,
+    "byType": {
+      "violentCrime": 38,
+      "burglary": 3.9,
+      "vehicleCrime": 8.8,
+      "antisocialBehaviour": 17.7,
+      "otherTheft": 12.1,
+      "other": 18.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 3,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Beam Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Marsh Green Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Leys Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Village Infants' School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "William Bellamy Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 232747,
+    "medianAge": 52,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 32,
+    "privateRent": 22,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 369,
+    "avgUpload": 66,
+    "superfastPct": 99,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Romford Council",
+    "bandD": 1114,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 32.8,
+    "imdRank": 25551,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RM10 is the postcode district for DAGENHAM, located in Greater London, London.",
+    "priceVsCounty": "The average property price in RM10 is £369,789, which is 72% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in RM10 cost 28.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RM10 have risen 3.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 99.1 recorded crimes per 1,000 residents, RM10 has a crime rate significantly 22% above the national average of 81.3 per 1,000.",
+    "schoolContext": "RM10 has 14 schools within or near its boundaries, including 3 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RM10 are 369.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RM10 (DAGENHAM) offers above-average property prices (£369,789, 29% above national average), higher-than-average crime (22% above national average), 14 nearby schools, and excellent broadband (369 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 369
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 369
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

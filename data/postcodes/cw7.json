@@ -1,0 +1,198 @@
+{
+  "code": "CW7",
+  "name": "WINSFORD",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "crewe",
+  "adjacent": [
+    "CW6",
+    "CW8",
+    "CW9"
+  ],
+  "property": {
+    "avgPrice": 227298,
+    "medianPrice": 192500,
+    "priceChange1y": 13.6,
+    "priceChange5y": 0,
+    "transactions12m": 1494,
+    "byType": {
+      "detached": {
+        "avg": 299897,
+        "count": 460
+      },
+      "semi": {
+        "avg": 187911,
+        "count": 596
+      },
+      "terraced": {
+        "avg": 147031,
+        "count": 348
+      },
+      "flat": {
+        "avg": 88543,
+        "count": 42
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 221175
+      },
+      {
+        "year": 2024,
+        "avg": 216722
+      },
+      {
+        "year": 2025,
+        "avg": 246283
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 55.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -31.9,
+    "byType": {
+      "violentCrime": 30,
+      "burglary": 0.9,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 6.2,
+      "otherTheft": 4.2,
+      "other": 13.4
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 14,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Winsford High Street Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Darnhall Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St. Chad's Church of England Primary and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Over St John's CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Oaklands School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 421298,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 12,
+    "privateRent": 14,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 367,
+    "avgUpload": 66,
+    "superfastPct": 96,
+    "ultrafastPct": 91,
+    "gigabitPct": 91,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Crewe Council",
+    "bandD": 2098,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 14.5,
+    "imdRank": 11380,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CW7 encompasses WINSFORD and its surrounding areas in Cheshire, North West.",
+    "priceVsCounty": "The average property price in CW7 is £227,298, which is 27% below the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in CW7 cost 20.8% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CW7 have risen 13.6% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 55.4 recorded crimes per 1,000 residents, CW7 has a crime rate well 32% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CW7 has 14 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CW7 are 367.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CW7 (WINSFORD) offers affordable property prices (£227,298, 21% below national average), low crime (32% below national average), 14 nearby schools, and excellent broadband (367 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 367
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 367
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

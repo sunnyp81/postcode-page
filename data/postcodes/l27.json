@@ -1,0 +1,188 @@
+{
+  "code": "L27",
+  "name": "LIVERPOOL",
+  "county": "merseyside",
+  "region": "north-west",
+  "city": "liverpool",
+  "adjacent": [
+    "L26",
+    "L28",
+    "L29"
+  ],
+  "property": {
+    "avgPrice": 148867,
+    "medianPrice": 145000,
+    "priceChange1y": 7.9,
+    "priceChange5y": 0,
+    "transactions12m": 161,
+    "byType": {
+      "detached": {
+        "avg": 345000,
+        "count": 2
+      },
+      "semi": {
+        "avg": 177948,
+        "count": 47
+      },
+      "terraced": {
+        "avg": 132628,
+        "count": 110
+      },
+      "flat": {
+        "avg": 90000,
+        "count": 1
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 131324
+      },
+      {
+        "year": 2024,
+        "avg": 151329
+      },
+      {
+        "year": 2025,
+        "avg": 163246
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 40,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -50.8,
+    "byType": {
+      "violentCrime": 16.6,
+      "burglary": 1,
+      "vehicleCrime": 1.1,
+      "antisocialBehaviour": 3.3,
+      "otherTheft": 4.9,
+      "other": 13.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Norman Pannell Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "St Gregory's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lakeside School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 508961,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 23,
+    "socialRent": 26,
+    "privateRent": 24,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 383,
+    "avgUpload": 69,
+    "superfastPct": 100,
+    "ultrafastPct": 95,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Liverpool",
+    "bandD": 2308,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 42.4,
+    "imdRank": 25833,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.5,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "L27 is the postcode district for LIVERPOOL, located in Merseyside, North West.",
+    "priceVsCounty": "The average property price in L27 is £148,867, which is 41% below the Merseyside average of £252,845.",
+    "priceVsNational": "Properties in L27 cost 48.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in L27 have risen 7.9% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 40.0 recorded crimes per 1,000 residents, L27 has a crime rate well 51% below the national average of 81.3 per 1,000.",
+    "schoolContext": "L27 has 3 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in L27 are 383.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "L27 (LIVERPOOL) offers affordable property prices (£148,867, 48% below national average), low crime (51% below national average), 3 nearby schools, and excellent broadband (383 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 252845,
+      "crime": 75,
+      "broadband": 383
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 383
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

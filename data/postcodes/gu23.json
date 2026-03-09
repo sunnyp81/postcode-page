@@ -1,0 +1,183 @@
+{
+  "code": "GU23",
+  "name": "WOKING",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "guildford",
+  "adjacent": [
+    "GU22",
+    "GU24",
+    "GU25"
+  ],
+  "property": {
+    "avgPrice": 777797,
+    "medianPrice": 660000,
+    "priceChange1y": 2.5,
+    "priceChange5y": 0,
+    "transactions12m": 331,
+    "byType": {
+      "detached": {
+        "avg": 968725,
+        "count": 151
+      },
+      "semi": {
+        "avg": 644745,
+        "count": 107
+      },
+      "terraced": {
+        "avg": 528570,
+        "count": 35
+      },
+      "flat": {
+        "avg": 304361,
+        "count": 18
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 837002
+      },
+      {
+        "year": 2024,
+        "avg": 745547
+      },
+      {
+        "year": 2025,
+        "avg": 764411
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 6.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -92,
+    "byType": {
+      "violentCrime": 1.6,
+      "burglary": 0.2,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 1.3,
+      "otherTheft": 1.7,
+      "other": 1.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 2,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Send CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ripley Court School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 151359,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 32,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 235,
+    "avgUpload": 42,
+    "superfastPct": 89,
+    "ultrafastPct": 65,
+    "gigabitPct": 49,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Guildford",
+    "bandD": 2215,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 9.4,
+    "imdRank": 7197,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "GU23 encompasses WOKING and its surrounding areas in Surrey, South East.",
+    "priceVsCounty": "The average property price in GU23 is £777,797, which is 27% above the Surrey average of £612,978.",
+    "priceVsNational": "Properties in GU23 cost 171.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in GU23 have risen 2.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 6.5 recorded crimes per 1,000 residents, GU23 has a crime rate well 92% below the national average of 81.3 per 1,000.",
+    "schoolContext": "GU23 has 2 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in GU23 are 235.0 Mbps, with 99% of premises having access to superfast broadband and 80% with full fibre (FTTP) connectivity.",
+    "synthesis": "GU23 (WOKING) offers above-average property prices (£777,797, 171% above national average), low crime (92% below national average), 2 nearby schools, and excellent broadband (235 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 235
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 235
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

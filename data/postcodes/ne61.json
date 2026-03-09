@@ -1,0 +1,197 @@
+{
+  "code": "NE61",
+  "name": "MORPETH",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "newcastle-upon-tyne",
+  "adjacent": [
+    "NE62",
+    "NE63"
+  ],
+  "property": {
+    "avgPrice": 300403,
+    "medianPrice": 230000,
+    "priceChange1y": 6.2,
+    "priceChange5y": 0,
+    "transactions12m": 2078,
+    "byType": {
+      "detached": {
+        "avg": 399592,
+        "count": 756
+      },
+      "semi": {
+        "avg": 214592,
+        "count": 616
+      },
+      "terraced": {
+        "avg": 177627,
+        "count": 477
+      },
+      "flat": {
+        "avg": 164897,
+        "count": 152
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 281030
+      },
+      {
+        "year": 2024,
+        "avg": 304202
+      },
+      {
+        "year": 2025,
+        "avg": 322943
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 27.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -66.1,
+    "byType": {
+      "violentCrime": 11.8,
+      "burglary": 0.6,
+      "vehicleCrime": 0.5,
+      "antisocialBehaviour": 2.9,
+      "otherTheft": 4.6,
+      "other": 7.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 21,
+    "outstanding": 0,
+    "good": 8,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Red Row Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ellington Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Linton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Morpeth First School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Pegswood Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 331420,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 18,
+    "privateRent": 14,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 254,
+    "avgUpload": 46,
+    "superfastPct": 89,
+    "ultrafastPct": 59,
+    "gigabitPct": 59,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newcastle Upon Tyne Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.1,
+    "imdRank": 16778,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NE61 is the postcode district for MORPETH, located in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in NE61 is £300,403, which is 13% above the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Property values in NE61 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in NE61 have risen 6.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 27.6 recorded crimes per 1,000 residents, NE61 has a crime rate well 66% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NE61 has 21 schools within or near its boundaries, including 8 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NE61 are 254.0 Mbps, with 99% of premises having access to superfast broadband and 85% with full fibre (FTTP) connectivity.",
+    "synthesis": "NE61 (MORPETH) offers property prices near the national average (£300,403), low crime (66% below national average), 21 nearby schools, and excellent broadband (254 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 254
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 254
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

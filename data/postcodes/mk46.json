@@ -1,0 +1,186 @@
+{
+  "code": "MK46",
+  "name": "OLNEY",
+  "county": "buckinghamshire",
+  "region": "south-east",
+  "city": "milton-keynes",
+  "adjacent": [
+    "MK45"
+  ],
+  "property": {
+    "avgPrice": 547796,
+    "medianPrice": 425000,
+    "priceChange1y": 57,
+    "priceChange5y": 0,
+    "transactions12m": 650,
+    "byType": {
+      "detached": {
+        "avg": 595403,
+        "count": 313
+      },
+      "semi": {
+        "avg": 357855,
+        "count": 131
+      },
+      "terraced": {
+        "avg": 326489,
+        "count": 132
+      },
+      "flat": {
+        "avg": 258672,
+        "count": 47
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 544127
+      },
+      {
+        "year": 2024,
+        "avg": 449681
+      },
+      {
+        "year": 2025,
+        "avg": 706013
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 8.2,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -89.9,
+    "byType": {
+      "violentCrime": 3.9,
+      "burglary": 0.5,
+      "vehicleCrime": 0.4,
+      "antisocialBehaviour": 0.7,
+      "otherTheft": 1.7,
+      "other": 1.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 1,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Olney Infant Academy",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Olney Middle School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Lavendon School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 305884,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 18,
+    "privateRent": 19,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 343,
+    "avgUpload": 62,
+    "superfastPct": 94,
+    "ultrafastPct": 85,
+    "gigabitPct": 84,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Milton Keynes Council",
+    "bandD": 2321,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 14351,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "MK46 covers OLNEY in Buckinghamshire, South East.",
+    "priceVsCounty": "The average property price in MK46 is £547,796, which is 16% above the Buckinghamshire average of £472,988.",
+    "priceVsNational": "Properties in MK46 cost 90.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in MK46 have risen 57.0% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 8.2 recorded crimes per 1,000 residents, MK46 has a crime rate well 90% below the national average of 81.3 per 1,000.",
+    "schoolContext": "MK46 has 3 schools within or near its boundaries, including 1 rated Outstanding by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in MK46 are 343.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "MK46 (OLNEY) offers above-average property prices (£547,796, 91% above national average), low crime (90% below national average), 3 nearby schools, and excellent broadband (343 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 472988,
+      "crime": 75,
+      "broadband": 343
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 343
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

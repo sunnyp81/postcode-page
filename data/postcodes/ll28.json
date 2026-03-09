@@ -1,0 +1,192 @@
+{
+  "code": "LL28",
+  "name": "COLWYN BAY",
+  "county": "north-wales",
+  "region": "wales",
+  "city": "north-wales",
+  "adjacent": [
+    "LL27",
+    "LL29",
+    "LL30"
+  ],
+  "property": {
+    "avgPrice": 254142,
+    "medianPrice": 220000,
+    "priceChange1y": 3.3,
+    "priceChange5y": 0,
+    "transactions12m": 803,
+    "byType": {
+      "detached": {
+        "avg": 368873,
+        "count": 243
+      },
+      "semi": {
+        "avg": 224787,
+        "count": 228
+      },
+      "terraced": {
+        "avg": 180639,
+        "count": 84
+      },
+      "flat": {
+        "avg": 169586,
+        "count": 216
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 248562
+      },
+      {
+        "year": 2024,
+        "avg": 253301
+      },
+      {
+        "year": 2025,
+        "avg": 261739
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -92.6,
+    "byType": {
+      "violentCrime": 2.9,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 1.3,
+      "otherTheft": 0.3,
+      "other": 1.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Llandrillo Yn Rhos Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Glan Conwy",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Eglwysbach",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Minafon 3-11 Community School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 114891,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 66,
+    "socialRent": 14,
+    "privateRent": 20,
+    "economicallyActive": 71,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 340,
+    "avgUpload": 61,
+    "superfastPct": 97,
+    "ultrafastPct": 83,
+    "gigabitPct": 83,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "North Wales Council",
+    "bandD": 2304,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "LL28 covers COLWYN BAY in North Wales, Wales.",
+    "priceVsCounty": "The average property price in LL28 is £254,142, which is 7% below the North Wales average of £271,879.",
+    "priceVsNational": "Properties in LL28 cost 11.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in LL28 have risen 3.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 6.0 recorded crimes per 1,000 residents, LL28 has a crime rate well 93% below the national average of 81.3 per 1,000.",
+    "schoolContext": "LL28 has 4 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in LL28 are 340.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "LL28 (COLWYN BAY) offers property prices near the national average (£254,142), low crime (93% below national average), 4 nearby schools, and excellent broadband (340 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 271879,
+      "crime": 75,
+      "broadband": 340
+    },
+    "regionalAvg": {
+      "price": 276281,
+      "crime": 78,
+      "broadband": 340
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

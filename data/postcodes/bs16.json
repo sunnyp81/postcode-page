@@ -1,0 +1,195 @@
+{
+  "code": "BS16",
+  "name": "BRISTOL",
+  "county": "bristol",
+  "region": "south-west",
+  "city": "bristol",
+  "adjacent": [
+    "BS15"
+  ],
+  "property": {
+    "avgPrice": 364222,
+    "medianPrice": 340000,
+    "priceChange1y": -1.4,
+    "priceChange5y": 0,
+    "transactions12m": 3990,
+    "byType": {
+      "detached": {
+        "avg": 530808,
+        "count": 651
+      },
+      "semi": {
+        "avg": 383113,
+        "count": 1183
+      },
+      "terraced": {
+        "avg": 340471,
+        "count": 1156
+      },
+      "flat": {
+        "avg": 206273,
+        "count": 864
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 363703
+      },
+      {
+        "year": 2024,
+        "avg": 366794
+      },
+      {
+        "year": 2025,
+        "avg": 361724
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 92.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 14.3,
+    "byType": {
+      "violentCrime": 38.1,
+      "burglary": 4.1,
+      "vehicleCrime": 4.2,
+      "antisocialBehaviour": 14,
+      "otherTheft": 13.7,
+      "other": 18.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 37,
+    "outstanding": 2,
+    "good": 13,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Little Hayes Nursery School",
+        "type": "Nursery",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Chester Park Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Chester Park Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hambrook Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Bromley Heath Junior School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 39945,
+    "medianAge": 44,
+    "medianAgeSource": "synthetic-estimate",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 64,
+    "socialRent": 13,
+    "privateRent": 23,
+    "economicallyActive": 74,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 352,
+    "avgUpload": 63,
+    "superfastPct": 98,
+    "ultrafastPct": 87,
+    "gigabitPct": 86,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Bristol Council",
+    "bandD": 2134,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 26.4,
+    "imdRank": 19421,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.2,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "BS16 covers BRISTOL in Bristol, South West.",
+    "priceVsCounty": "The average property price in BS16 is £364,222, which is 19% below the Bristol average of £449,132.",
+    "priceVsNational": "Properties in BS16 cost 26.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in BS16 have fallen 1.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 92.9 recorded crimes per 1,000 residents, BS16 has a crime rate 14% above the national average of 81.3 per 1,000.",
+    "schoolContext": "BS16 has 37 schools within or near its boundaries, including 2 rated Outstanding and 13 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in BS16 are 352.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "BS16 (BRISTOL) offers above-average property prices (£364,222, 27% above national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (352 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 449132,
+      "crime": 75,
+      "broadband": 352
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 352
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

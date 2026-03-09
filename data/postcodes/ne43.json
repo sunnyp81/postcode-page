@@ -1,0 +1,188 @@
+{
+  "code": "NE43",
+  "name": "STOCKSFIELD",
+  "county": "tyne-and-wear",
+  "region": "north-east",
+  "city": "newcastle-upon-tyne",
+  "adjacent": [
+    "NE42",
+    "NE44",
+    "NE45"
+  ],
+  "property": {
+    "avgPrice": 349618,
+    "medianPrice": 255000,
+    "priceChange1y": 0.4,
+    "priceChange5y": 0,
+    "transactions12m": 197,
+    "byType": {
+      "detached": {
+        "avg": 596545,
+        "count": 57
+      },
+      "semi": {
+        "avg": 305452,
+        "count": 57
+      },
+      "terraced": {
+        "avg": 188551,
+        "count": 58
+      },
+      "flat": {
+        "avg": 104731,
+        "count": 13
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 358763
+      },
+      {
+        "year": 2024,
+        "avg": 343244
+      },
+      {
+        "year": 2025,
+        "avg": 344769
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.4,
+      "burglary": 0.1,
+      "vehicleCrime": 0.1,
+      "antisocialBehaviour": 0.2,
+      "otherTheft": 0.1,
+      "other": 0.5
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Mowden Hall School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Broomley First School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Mickley First School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 331420,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 27,
+    "socialRent": 18,
+    "privateRent": 14,
+    "economicallyActive": 69,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 239,
+    "avgUpload": 43,
+    "superfastPct": 79,
+    "ultrafastPct": 56,
+    "gigabitPct": 56,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Newcastle Upon Tyne Council",
+    "bandD": 2338,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 22.1,
+    "imdRank": 16778,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NE43 is the postcode district for STOCKSFIELD, located in Tyne And Wear, North East.",
+    "priceVsCounty": "The average property price in NE43 is £349,618, which is 32% above the Tyne And Wear average of £264,940.",
+    "priceVsNational": "Properties in NE43 cost 21.8% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NE43 have risen 0.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, NE43 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "NE43 has 3 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NE43 are 239.0 Mbps, with 99% of premises having access to superfast broadband and 81% with full fibre (FTTP) connectivity.",
+    "synthesis": "NE43 (STOCKSFIELD) offers above-average property prices (£349,618, 22% above national average), low crime (94% below national average), 3 nearby schools, and excellent broadband (239 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 264940,
+      "crime": 75,
+      "broadband": 239
+    },
+    "regionalAvg": {
+      "price": 234850,
+      "crime": 78,
+      "broadband": 239
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

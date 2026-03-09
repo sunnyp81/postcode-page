@@ -1,0 +1,198 @@
+{
+  "code": "PR5",
+  "name": "PRESTON",
+  "county": "lancashire",
+  "region": "north-west",
+  "city": "preston",
+  "adjacent": [
+    "PR4",
+    "PR6",
+    "PR7"
+  ],
+  "property": {
+    "avgPrice": 255124,
+    "medianPrice": 183000,
+    "priceChange1y": -1.7,
+    "priceChange5y": 0,
+    "transactions12m": 2059,
+    "byType": {
+      "detached": {
+        "avg": 315231,
+        "count": 518
+      },
+      "semi": {
+        "avg": 185688,
+        "count": 887
+      },
+      "terraced": {
+        "avg": 145857,
+        "count": 512
+      },
+      "flat": {
+        "avg": 108828,
+        "count": 77
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 298499
+      },
+      {
+        "year": 2024,
+        "avg": 236062
+      },
+      {
+        "year": 2025,
+        "avg": 232140
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 51,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -37.3,
+    "byType": {
+      "violentCrime": 15.8,
+      "burglary": 1.4,
+      "vehicleCrime": 1.8,
+      "antisocialBehaviour": 16.4,
+      "otherTheft": 7.6,
+      "other": 8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 24,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 2,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Lostock Hall Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Walton-le-Dale Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Coupe Green Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Clayton Brook Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Westwood Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 116113,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 10,
+    "privateRent": 11,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 326,
+    "avgUpload": 59,
+    "superfastPct": 96,
+    "ultrafastPct": 79,
+    "gigabitPct": 79,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "South Ribble",
+    "bandD": 2142,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 15.3,
+    "imdRank": 12410,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "PR5 encompasses PRESTON and its surrounding areas in Lancashire, North West.",
+    "priceVsCounty": "The average property price in PR5 is £255,124, broadly in line with the Lancashire average of £254,476.",
+    "priceVsNational": "Properties in PR5 cost 11.1% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in PR5 have fallen 1.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 51.0 recorded crimes per 1,000 residents, PR5 has a crime rate well 37% below the national average of 81.3 per 1,000.",
+    "schoolContext": "PR5 has 24 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in PR5 are 326.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "PR5 (PRESTON) offers property prices near the national average (£255,124), low crime (37% below national average), 24 nearby schools, and excellent broadband (326 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 254476,
+      "crime": 75,
+      "broadband": 326
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 326
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

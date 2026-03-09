@@ -1,0 +1,196 @@
+{
+  "code": "CH7",
+  "name": "MOLD",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "chester",
+  "adjacent": [
+    "CH6",
+    "CH8"
+  ],
+  "property": {
+    "avgPrice": 251466,
+    "medianPrice": 216000,
+    "priceChange1y": 5.5,
+    "priceChange5y": 0,
+    "transactions12m": 2051,
+    "byType": {
+      "detached": {
+        "avg": 320239,
+        "count": 817
+      },
+      "semi": {
+        "avg": 197514,
+        "count": 719
+      },
+      "terraced": {
+        "avg": 169917,
+        "count": 314
+      },
+      "flat": {
+        "avg": 134123,
+        "count": 93
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 241274
+      },
+      {
+        "year": 2024,
+        "avg": 249842
+      },
+      {
+        "year": 2025,
+        "avg": 263510
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 37.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -53.8,
+    "byType": {
+      "violentCrime": 15.9,
+      "burglary": 1,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 7.3,
+      "otherTheft": 5.7,
+      "other": 7.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 29,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Westwood Community Primary School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Glanrafon",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Northop Hall C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sychdyn C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ysgol Rhos Helyg",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 98202,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 288,
+    "avgUpload": 52,
+    "superfastPct": 93,
+    "ultrafastPct": 70,
+    "gigabitPct": 68,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Chester Council",
+    "bandD": 2098,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CH7 encompasses MOLD and its surrounding areas in Cheshire, North West.",
+    "priceVsCounty": "The average property price in CH7 is £251,466, which is 19% below the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in CH7 cost 12.4% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CH7 have risen 5.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 37.6 recorded crimes per 1,000 residents, CH7 has a crime rate well 54% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CH7 has 29 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CH7 are 288.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CH7 (MOLD) offers property prices near the national average (£251,466), low crime (54% below national average), 29 nearby schools, and excellent broadband (288 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 288
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 288
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

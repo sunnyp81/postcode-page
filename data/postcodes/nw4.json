@@ -1,0 +1,198 @@
+{
+  "code": "NW4",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "NW3",
+    "NW5",
+    "NW6"
+  ],
+  "property": {
+    "avgPrice": 663997,
+    "medianPrice": 535000,
+    "priceChange1y": -4.7,
+    "priceChange5y": 0,
+    "transactions12m": 893,
+    "byType": {
+      "detached": {
+        "avg": 1310820,
+        "count": 79
+      },
+      "semi": {
+        "avg": 829271,
+        "count": 190
+      },
+      "terraced": {
+        "avg": 672410,
+        "count": 116
+      },
+      "flat": {
+        "avg": 445289,
+        "count": 445
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 701224
+      },
+      {
+        "year": 2024,
+        "avg": 658958
+      },
+      {
+        "year": 2025,
+        "avg": 628036
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 119.4,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 46.9,
+    "byType": {
+      "violentCrime": 29.1,
+      "burglary": 6,
+      "vehicleCrime": 11.1,
+      "antisocialBehaviour": 24.7,
+      "otherTheft": 27.3,
+      "other": 21.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Sunnyfields Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Joseph's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Hendon Preparatory School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beth Jacob Grammar School for Girls",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Brampton College",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 405050,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 26,
+    "socialRent": 13,
+    "privateRent": 30,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 306,
+    "avgUpload": 55,
+    "superfastPct": 97,
+    "ultrafastPct": 73,
+    "gigabitPct": 73,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Barnet",
+    "bandD": 1836,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.1,
+    "imdRank": 13803,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "NW4 is the postcode district for LONDON, located in Greater London, London.",
+    "priceVsCounty": "The average property price in NW4 is £663,997, which is 49% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in NW4 cost 131.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in NW4 have fallen 4.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 119.4 recorded crimes per 1,000 residents, NW4 has a crime rate significantly 47% above the national average of 81.3 per 1,000.",
+    "schoolContext": "NW4 has 19 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in NW4 are 306.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "NW4 (LONDON) offers above-average property prices (£663,997, 131% above national average), higher-than-average crime (47% above national average), 19 nearby schools, and excellent broadband (306 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 306
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 306
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

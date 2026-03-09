@@ -1,0 +1,197 @@
+{
+  "code": "CH5",
+  "name": "DEESIDE",
+  "county": "cheshire",
+  "region": "north-west",
+  "city": "chester",
+  "adjacent": [
+    "CH4",
+    "CH6",
+    "CH7"
+  ],
+  "property": {
+    "avgPrice": 249560,
+    "medianPrice": 190000,
+    "priceChange1y": 17.8,
+    "priceChange5y": 0,
+    "transactions12m": 1722,
+    "byType": {
+      "detached": {
+        "avg": 306500,
+        "count": 540
+      },
+      "semi": {
+        "avg": 187948,
+        "count": 642
+      },
+      "terraced": {
+        "avg": 146860,
+        "count": 382
+      },
+      "flat": {
+        "avg": 101208,
+        "count": 83
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 233637
+      },
+      {
+        "year": 2024,
+        "avg": 237669
+      },
+      {
+        "year": 2025,
+        "avg": 279986
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 44.1,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -45.8,
+    "byType": {
+      "violentCrime": 16.2,
+      "burglary": 1.5,
+      "vehicleCrime": 1.1,
+      "antisocialBehaviour": 8.3,
+      "otherTheft": 9.1,
+      "other": 7.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 0,
+    "good": 0,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ewloe Green C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sealand C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bryn Deva C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Sandycroft C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Queens Ferry C.P. School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 155867,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 61,
+    "socialRent": 17,
+    "privateRent": 22,
+    "economicallyActive": 72,
+    "source": "synthetic-estimate"
+  },
+  "broadband": {
+    "avgDownload": 363,
+    "avgUpload": 65,
+    "superfastPct": 97,
+    "ultrafastPct": 91,
+    "gigabitPct": 89,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Chester Council",
+    "bandD": 2098,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": null,
+    "imdRank": null,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "synthetic-estimate"
+  },
+  "context": {
+    "intro": "CH5 covers DEESIDE in Cheshire, North West.",
+    "priceVsCounty": "The average property price in CH5 is £249,560, which is 20% below the Cheshire average of £311,410.",
+    "priceVsNational": "Properties in CH5 cost 13.0% less than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CH5 have risen 17.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 44.1 recorded crimes per 1,000 residents, CH5 has a crime rate well 46% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CH5 has 16 schools within or near its boundaries, including 0 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CH5 are 363.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "CH5 (DEESIDE) offers property prices near the national average (£249,560), low crime (46% below national average), 16 nearby schools, and excellent broadband (363 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 311410,
+      "crime": 75,
+      "broadband": 363
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 363
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "synthetic-estimates"
+    ]
+  }
+}

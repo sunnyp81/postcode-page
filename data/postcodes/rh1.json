@@ -1,0 +1,197 @@
+{
+  "code": "RH1",
+  "name": "REDHILL",
+  "county": "surrey",
+  "region": "south-east",
+  "city": "redhill",
+  "adjacent": [
+    "RH2",
+    "RH3"
+  ],
+  "property": {
+    "avgPrice": 490995,
+    "medianPrice": 425000,
+    "priceChange1y": -7.4,
+    "priceChange5y": 0,
+    "transactions12m": 2034,
+    "byType": {
+      "detached": {
+        "avg": 778400,
+        "count": 305
+      },
+      "semi": {
+        "avg": 519753,
+        "count": 565
+      },
+      "terraced": {
+        "avg": 443571,
+        "count": 450
+      },
+      "flat": {
+        "avg": 252501,
+        "count": 623
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 488555
+      },
+      {
+        "year": 2024,
+        "avg": 510290
+      },
+      {
+        "year": 2025,
+        "avg": 472372
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 56.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -30.4,
+    "byType": {
+      "violentCrime": 21.2,
+      "burglary": 1.7,
+      "vehicleCrime": 2.1,
+      "antisocialBehaviour": 7.4,
+      "otherTheft": 9.6,
+      "other": 14.6
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 19,
+    "outstanding": 1,
+    "good": 9,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Earlswood Infant and Nursery School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Earlswood Junior School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Nutfield Church CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Bede's School",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Hawthorns School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 90586,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 37,
+    "socialRent": 11,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 293,
+    "avgUpload": 53,
+    "superfastPct": 94,
+    "ultrafastPct": 72,
+    "gigabitPct": 69,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Tandridge",
+    "bandD": 2252,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 11.9,
+    "imdRank": 10027,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RH1 encompasses REDHILL and its surrounding areas in Surrey, South East.",
+    "priceVsCounty": "The average property price in RH1 is £490,995, which is 20% below the Surrey average of £612,978.",
+    "priceVsNational": "Properties in RH1 cost 71.1% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RH1 have fallen 7.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 56.6 recorded crimes per 1,000 residents, RH1 has a crime rate well 30% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RH1 has 19 schools within or near its boundaries, including 1 rated Outstanding and 9 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RH1 are 293.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RH1 (REDHILL) offers above-average property prices (£490,995, 71% above national average), low crime (30% below national average), 19 nearby schools, and excellent broadband (293 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 612978,
+      "crime": 75,
+      "broadband": 293
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 293
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "code": "SN2",
+  "name": "SWINDON",
+  "county": "wiltshire",
+  "region": "south-west",
+  "city": "swindon",
+  "adjacent": [
+    "SN1",
+    "SN3",
+    "SN4"
+  ],
+  "property": {
+    "avgPrice": 282459,
+    "medianPrice": 235000,
+    "priceChange1y": 13.7,
+    "priceChange5y": 0,
+    "transactions12m": 1730,
+    "byType": {
+      "detached": {
+        "avg": 349526,
+        "count": 151
+      },
+      "semi": {
+        "avg": 268147,
+        "count": 506
+      },
+      "terraced": {
+        "avg": 224447,
+        "count": 787
+      },
+      "flat": {
+        "avg": 146002,
+        "count": 223
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 308010
+      },
+      {
+        "year": 2024,
+        "avg": 252213
+      },
+      {
+        "year": 2025,
+        "avg": 286692
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 87.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 8.1,
+    "byType": {
+      "violentCrime": 33.6,
+      "burglary": 2.1,
+      "vehicleCrime": 5.2,
+      "antisocialBehaviour": 14.8,
+      "otherTheft": 13.3,
+      "other": 18.9
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 16,
+    "outstanding": 0,
+    "good": 5,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "EOTAS Swindon",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beechcroft Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Crowdys Hill School",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Swindon Academy",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's Catholic Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 243875,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 16,
+    "privateRent": 18,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 393,
+    "avgUpload": 71,
+    "superfastPct": 99,
+    "ultrafastPct": 98,
+    "gigabitPct": 98,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Swindon Council",
+    "bandD": 2370,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18.6,
+    "imdRank": 14382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "SN2 is the postcode district for SWINDON, located in Wiltshire, South West.",
+    "priceVsCounty": "The average property price in SN2 is £282,459, which is 29% below the Wiltshire average of £397,459.",
+    "priceVsNational": "Property values in SN2 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in SN2 have risen 13.7% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 87.9 recorded crimes per 1,000 residents, SN2 has a crime rate 8% above the national average of 81.3 per 1,000.",
+    "schoolContext": "SN2 has 16 schools within or near its boundaries, including 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in SN2 are 393.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "SN2 (SWINDON) offers property prices near the national average (£282,459), 16 nearby schools, and excellent broadband (393 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 397459,
+      "crime": 75,
+      "broadband": 393
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 393
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

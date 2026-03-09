@@ -1,0 +1,198 @@
+{
+  "code": "TR16",
+  "name": "REDRUTH",
+  "county": "cornwall",
+  "region": "south-west",
+  "city": "truro",
+  "adjacent": [
+    "TR15",
+    "TR17",
+    "TR18"
+  ],
+  "property": {
+    "avgPrice": 327625,
+    "medianPrice": 280000,
+    "priceChange1y": -5.2,
+    "priceChange5y": 0,
+    "transactions12m": 677,
+    "byType": {
+      "detached": {
+        "avg": 412274,
+        "count": 274
+      },
+      "semi": {
+        "avg": 272990,
+        "count": 130
+      },
+      "terraced": {
+        "avg": 241166,
+        "count": 193
+      },
+      "flat": {
+        "avg": 150936,
+        "count": 22
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 335950
+      },
+      {
+        "year": 2024,
+        "avg": 330583
+      },
+      {
+        "year": 2025,
+        "avg": 313508
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 34.6,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -57.4,
+    "byType": {
+      "violentCrime": 15.7,
+      "burglary": 0.8,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 6.8,
+      "otherTheft": 3.9,
+      "other": 6.7
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 7,
+    "outstanding": 0,
+    "good": 4,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "St Day and Carharrack Community School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Treleigh Community Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Nine Maidens Alternative Provision Academy",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Portreath Community Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Pencoys Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 583289,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 13,
+    "privateRent": 17,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 143,
+    "avgUpload": 26,
+    "superfastPct": 88,
+    "ultrafastPct": 27,
+    "gigabitPct": 27,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Truro Council",
+    "bandD": 1640,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 23.1,
+    "imdRank": 19382,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "TR16 encompasses REDRUTH and its surrounding areas in Cornwall, South West.",
+    "priceVsCounty": "The average property price in TR16 is £327,625, which is 19% below the Cornwall average of £402,222.",
+    "priceVsNational": "Properties in TR16 cost 14.2% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in TR16 have fallen 5.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 34.6 recorded crimes per 1,000 residents, TR16 has a crime rate well 57% below the national average of 81.3 per 1,000.",
+    "schoolContext": "TR16 has 7 schools within or near its boundaries, including 4 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in TR16 are 143.0 Mbps, with 91% of premises having access to superfast broadband and 54% with full fibre (FTTP) connectivity.",
+    "synthesis": "TR16 (REDRUTH) offers property prices near the national average (£327,625), low crime (57% below national average), 7 nearby schools, and excellent broadband (143 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 402222,
+      "crime": 75,
+      "broadband": 143
+    },
+    "regionalAvg": {
+      "price": 405505,
+      "crime": 78,
+      "broadband": 143
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

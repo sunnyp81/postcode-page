@@ -1,0 +1,198 @@
+{
+  "code": "E2",
+  "name": "LONDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "london",
+  "adjacent": [
+    "E1",
+    "E3",
+    "E4"
+  ],
+  "property": {
+    "avgPrice": 619638,
+    "medianPrice": 520000,
+    "priceChange1y": 1.5,
+    "priceChange5y": 0,
+    "transactions12m": 1177,
+    "byType": {
+      "detached": {
+        "avg": 1800000,
+        "count": 2
+      },
+      "semi": {
+        "avg": 985000,
+        "count": 2
+      },
+      "terraced": {
+        "avg": 976955,
+        "count": 128
+      },
+      "flat": {
+        "avg": 524479,
+        "count": 962
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 696364
+      },
+      {
+        "year": 2024,
+        "avg": 581611
+      },
+      {
+        "year": 2025,
+        "avg": 590253
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 300,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 269,
+    "byType": {
+      "violentCrime": 121.4,
+      "burglary": 22.4,
+      "vehicleCrime": 17.7,
+      "antisocialBehaviour": 93.9,
+      "otherTheft": 135.1,
+      "other": 79
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 22,
+    "outstanding": 0,
+    "good": 6,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Sebright School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Columbia Market Nursery School",
+        "type": "Nursery",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Bonner Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Globe Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Hague Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 266758,
+    "medianAge": 57,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 15,
+    "socialRent": 41,
+    "privateRent": 30,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 321,
+    "avgUpload": 58,
+    "superfastPct": 95,
+    "ultrafastPct": 80,
+    "gigabitPct": 77,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Hackney",
+    "bandD": 1773,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 32.5,
+    "imdRank": 25312,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.1,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "E2 encompasses LONDON and its surrounding areas in Greater London, London.",
+    "priceVsCounty": "The average property price in E2 is £619,638, which is 53% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in E2 cost 115.9% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in E2 have risen 1.5% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 300.0 recorded crimes per 1,000 residents, E2 has a crime rate significantly 269% above the national average of 81.3 per 1,000.",
+    "schoolContext": "E2 has 22 schools within or near its boundaries, including 6 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in E2 are 321.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "E2 (LONDON) offers above-average property prices (£619,638, 116% above national average), higher-than-average crime (269% above national average), 22 nearby schools, and excellent broadband (321 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 321
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 321
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

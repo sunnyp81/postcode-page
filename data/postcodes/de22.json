@@ -1,0 +1,198 @@
+{
+  "code": "DE22",
+  "name": "DERBY",
+  "county": "derbyshire",
+  "region": "east-midlands",
+  "city": "derby",
+  "adjacent": [
+    "DE21",
+    "DE23",
+    "DE24"
+  ],
+  "property": {
+    "avgPrice": 275498,
+    "medianPrice": 232840,
+    "priceChange1y": -2.2,
+    "priceChange5y": 0,
+    "transactions12m": 2371,
+    "byType": {
+      "detached": {
+        "avg": 406938,
+        "count": 698
+      },
+      "semi": {
+        "avg": 248240,
+        "count": 700
+      },
+      "terraced": {
+        "avg": 172833,
+        "count": 717
+      },
+      "flat": {
+        "avg": 120171,
+        "count": 206
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 257395
+      },
+      {
+        "year": 2024,
+        "avg": 287811
+      },
+      {
+        "year": 2025,
+        "avg": 281461
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 88.8,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": 9.2,
+    "byType": {
+      "violentCrime": 36.1,
+      "burglary": 3.4,
+      "vehicleCrime": 3.1,
+      "antisocialBehaviour": 12.2,
+      "otherTheft": 15.8,
+      "other": 18.2
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 23,
+    "outstanding": 1,
+    "good": 7,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Becket Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Markeaton Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Portway Infant School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Bemrose School",
+        "type": "Other",
+        "ofsted": "Good"
+      },
+      {
+        "name": "The Curzon CofE Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 130451,
+    "medianAge": 67,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 31,
+    "socialRent": 13,
+    "privateRent": 13,
+    "economicallyActive": 74,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 383,
+    "avgUpload": 69,
+    "superfastPct": 98,
+    "ultrafastPct": 96,
+    "gigabitPct": 95,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Amber Valley",
+    "bandD": 2086,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 18,
+    "imdRank": 14755,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "DE22 covers DERBY in Derbyshire, East Midlands.",
+    "priceVsCounty": "The average property price in DE22 is £275,498, broadly in line with the Derbyshire average of £289,862.",
+    "priceVsNational": "Property values in DE22 are close to the England and Wales national average of £287,000.",
+    "priceTrend": "House prices in DE22 have fallen 2.2% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 88.8 recorded crimes per 1,000 residents, DE22 has a crime rate 9% above the national average of 81.3 per 1,000.",
+    "schoolContext": "DE22 has 23 schools within or near its boundaries, including 1 rated Outstanding and 7 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in DE22 are 383.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "DE22 (DERBY) offers property prices near the national average (£275,498), 23 nearby schools, and excellent broadband (383 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 289862,
+      "crime": 75,
+      "broadband": 383
+    },
+    "regionalAvg": {
+      "price": 414486,
+      "crime": 78,
+      "broadband": 383
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "code": "ME19",
+  "name": "WEST MALLING",
+  "county": "kent",
+  "region": "south-east",
+  "city": "medway",
+  "adjacent": [
+    "ME18",
+    "ME20"
+  ],
+  "property": {
+    "avgPrice": 533761,
+    "medianPrice": 470000,
+    "priceChange1y": -6.8,
+    "priceChange5y": 0,
+    "transactions12m": 1209,
+    "byType": {
+      "detached": {
+        "avg": 674724,
+        "count": 464
+      },
+      "semi": {
+        "avg": 462006,
+        "count": 283
+      },
+      "terraced": {
+        "avg": 382347,
+        "count": 267
+      },
+      "flat": {
+        "avg": 313372,
+        "count": 155
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 530476
+      },
+      {
+        "year": 2024,
+        "avg": 552258
+      },
+      {
+        "year": 2025,
+        "avg": 514650
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 12.9,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -84.1,
+    "byType": {
+      "violentCrime": 4.9,
+      "burglary": 0.4,
+      "vehicleCrime": 0.6,
+      "antisocialBehaviour": 2.8,
+      "otherTheft": 1.3,
+      "other": 2.8
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 13,
+    "outstanding": 2,
+    "good": 5,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Offham Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Ryarsh Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Trottiscliffe Church of England Primary School",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "The Malling School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Kings Hill School Primary and Nursery",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 136853,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 36,
+    "socialRent": 15,
+    "privateRent": 11,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 294,
+    "avgUpload": 53,
+    "superfastPct": 92,
+    "ultrafastPct": 71,
+    "gigabitPct": 70,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Medway Council",
+    "bandD": 2321,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "synthetic-estimate"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 13.3,
+    "imdRank": 11005,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "ME19 covers WEST MALLING in Kent, South East.",
+    "priceVsCounty": "The average property price in ME19 is £533,761, which is 18% above the Kent average of £450,882.",
+    "priceVsNational": "Properties in ME19 cost 86.0% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in ME19 have fallen 6.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 12.9 recorded crimes per 1,000 residents, ME19 has a crime rate well 84% below the national average of 81.3 per 1,000.",
+    "schoolContext": "ME19 has 13 schools within or near its boundaries, including 2 rated Outstanding and 5 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in ME19 are 294.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "ME19 (WEST MALLING) offers above-average property prices (£533,761, 86% above national average), low crime (84% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (294 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 450882,
+      "crime": 75,
+      "broadband": 294
+    },
+    "regionalAvg": {
+      "price": 518599,
+      "crime": 78,
+      "broadband": 294
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "ons-census-2021",
+      "synthetic-estimates"
+    ]
+  }
+}

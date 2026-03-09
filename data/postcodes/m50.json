@@ -1,0 +1,184 @@
+{
+  "code": "M50",
+  "name": "SALFORD",
+  "county": "greater-manchester",
+  "region": "north-west",
+  "city": "manchester",
+  "adjacent": [],
+  "property": {
+    "avgPrice": 302626,
+    "medianPrice": 198995,
+    "priceChange1y": -46.4,
+    "priceChange5y": 0,
+    "transactions12m": 943,
+    "byType": {
+      "detached": {
+        "avg": 481250,
+        "count": 4
+      },
+      "semi": {
+        "avg": 300000,
+        "count": 1
+      },
+      "terraced": {
+        "avg": 278223,
+        "count": 17
+      },
+      "flat": {
+        "avg": 199880,
+        "count": 875
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 214954
+      },
+      {
+        "year": 2024,
+        "avg": 482074
+      },
+      {
+        "year": 2025,
+        "avg": 258153
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -93.8,
+    "byType": {
+      "violentCrime": 0.2,
+      "burglary": 0,
+      "vehicleCrime": 0,
+      "antisocialBehaviour": 0,
+      "otherTheft": 0.1,
+      "other": 0
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 3,
+    "outstanding": 0,
+    "good": 1,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Oasis Academy MediaCityUK",
+        "type": "Secondary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "AldridgeUTC@MediaCityUK",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Thompsons Academy trading as Navigators",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 294348,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 25,
+    "socialRent": 25,
+    "privateRent": 25,
+    "economicallyActive": 72,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 190,
+    "avgUpload": 34,
+    "superfastPct": 62,
+    "ultrafastPct": 44,
+    "gigabitPct": 44,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Salford",
+    "bandD": 2214,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 34.2,
+    "imdRank": 23233,
+    "imdDecile": null,
+    "pct10MostDeprived": 0.3,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "M50 is the postcode district for SALFORD, located in Greater Manchester, North West.",
+    "priceVsCounty": "The average property price in M50 is £302,626, which is 21% below the Greater Manchester average of £381,941.",
+    "priceVsNational": "Properties in M50 cost 5.4% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in M50 have fallen 46.4% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 5.0 recorded crimes per 1,000 residents, M50 has a crime rate well 94% below the national average of 81.3 per 1,000.",
+    "schoolContext": "M50 has 3 schools within or near its boundaries, including 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in M50 are 190.0 Mbps, with 99% of premises having access to superfast broadband and 67% with full fibre (FTTP) connectivity.",
+    "synthesis": "M50 (SALFORD) offers property prices near the national average (£302,626), low crime (94% below national average), 3 nearby schools, and excellent broadband (190 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 381941,
+      "crime": 75,
+      "broadband": 190
+    },
+    "regionalAvg": {
+      "price": 304053,
+      "crime": 78,
+      "broadband": 190
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

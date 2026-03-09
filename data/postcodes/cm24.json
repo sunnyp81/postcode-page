@@ -1,0 +1,191 @@
+{
+  "code": "CM24",
+  "name": "STANSTED",
+  "county": "essex",
+  "region": "east-of-england",
+  "city": "chelmsford",
+  "adjacent": [
+    "CM23"
+  ],
+  "property": {
+    "avgPrice": 506636,
+    "medianPrice": 425000,
+    "priceChange1y": 5.8,
+    "priceChange5y": 0,
+    "transactions12m": 355,
+    "byType": {
+      "detached": {
+        "avg": 677405,
+        "count": 106
+      },
+      "semi": {
+        "avg": 457934,
+        "count": 76
+      },
+      "terraced": {
+        "avg": 361201,
+        "count": 113
+      },
+      "flat": {
+        "avg": 248311,
+        "count": 37
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 496767
+      },
+      {
+        "year": 2024,
+        "avg": 496325
+      },
+      {
+        "year": 2025,
+        "avg": 525046
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 13.7,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -83.1,
+    "byType": {
+      "violentCrime": 4.9,
+      "burglary": 0.5,
+      "vehicleCrime": 0.7,
+      "antisocialBehaviour": 1.2,
+      "otherTheft": 3.3,
+      "other": 3.1
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 4,
+    "outstanding": 0,
+    "good": 2,
+    "requiresImprovement": 0,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Bentfield Primary School and Nursery",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "St Mary's CofE Foundation Primary School",
+        "type": "Primary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Forest Hall School",
+        "type": "Secondary",
+        "ofsted": "Good"
+      },
+      {
+        "name": "Magna Carta Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 95106,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 13,
+    "privateRent": 12,
+    "economicallyActive": 76,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 220,
+    "avgUpload": 40,
+    "superfastPct": 81,
+    "ultrafastPct": 59,
+    "gigabitPct": 47,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Uttlesford",
+    "bandD": 2045,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 9.3,
+    "imdRank": 7386,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "CM24 covers STANSTED in Essex, East Of England.",
+    "priceVsCounty": "The average property price in CM24 is £506,636, which is 18% above the Essex average of £429,754.",
+    "priceVsNational": "Properties in CM24 cost 76.5% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in CM24 have risen 5.8% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 13.7 recorded crimes per 1,000 residents, CM24 has a crime rate well 83% below the national average of 81.3 per 1,000.",
+    "schoolContext": "CM24 has 4 schools within or near its boundaries, including 2 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in CM24 are 220.0 Mbps, with 99% of premises having access to superfast broadband and 76% with full fibre (FTTP) connectivity.",
+    "synthesis": "CM24 (STANSTED) offers above-average property prices (£506,636, 77% above national average), low crime (83% below national average), 4 nearby schools, and excellent broadband (220 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 429754,
+      "crime": 75,
+      "broadband": 220
+    },
+    "regionalAvg": {
+      "price": 399628,
+      "crime": 78,
+      "broadband": 220
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}

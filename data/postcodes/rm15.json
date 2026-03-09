@@ -1,0 +1,198 @@
+{
+  "code": "RM15",
+  "name": "SOUTH OCKENDON",
+  "county": "greater-london",
+  "region": "london",
+  "city": "romford",
+  "adjacent": [
+    "RM14",
+    "RM16",
+    "RM17"
+  ],
+  "property": {
+    "avgPrice": 357999,
+    "medianPrice": 350000,
+    "priceChange1y": 2.3,
+    "priceChange5y": 0,
+    "transactions12m": 1040,
+    "byType": {
+      "detached": {
+        "avg": 520002,
+        "count": 66
+      },
+      "semi": {
+        "avg": 402879,
+        "count": 276
+      },
+      "terraced": {
+        "avg": 343871,
+        "count": 467
+      },
+      "flat": {
+        "avg": 204222,
+        "count": 193
+      }
+    },
+    "history": [
+      {
+        "year": 2023,
+        "avg": 385583
+      },
+      {
+        "year": 2024,
+        "avg": 341531
+      },
+      {
+        "year": 2025,
+        "avg": 349345
+      }
+    ]
+  },
+  "crime": {
+    "totalPer1000": 30.5,
+    "nationalAvgPer1000": 81.3,
+    "vsNational": -62.5,
+    "byType": {
+      "violentCrime": 13.6,
+      "burglary": 0.9,
+      "vehicleCrime": 2.7,
+      "antisocialBehaviour": 3.1,
+      "otherTheft": 2.9,
+      "other": 7.3
+    },
+    "source": "police-uk",
+    "trend12m": null
+  },
+  "schools": {
+    "count": 11,
+    "outstanding": 2,
+    "good": 1,
+    "requiresImprovement": 1,
+    "inadequate": 0,
+    "nearest": [
+      {
+        "name": "Ormiston Park Academy",
+        "type": "Secondary",
+        "ofsted": "Requires improvement"
+      },
+      {
+        "name": "Kenningtons Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Beacon Hill Academy",
+        "type": "Other",
+        "ofsted": "Not inspected"
+      },
+      {
+        "name": "Dilkes Academy",
+        "type": "Primary",
+        "ofsted": "Outstanding"
+      },
+      {
+        "name": "Shaw Primary Academy",
+        "type": "Primary",
+        "ofsted": "Not inspected"
+      }
+    ]
+  },
+  "demographics": {
+    "population": 276274,
+    "medianAge": 62,
+    "medianAgeSource": "nomis-mye",
+    "ageGroups": {
+      "0-17": 21,
+      "18-34": 23,
+      "35-54": 28,
+      "55-74": 20,
+      "75+": 8
+    },
+    "ownerOccupied": 35,
+    "socialRent": 14,
+    "privateRent": 14,
+    "economicallyActive": 80,
+    "source": "ons-census-2021"
+  },
+  "broadband": {
+    "avgDownload": 371,
+    "avgUpload": 67,
+    "superfastPct": 96,
+    "ultrafastPct": 92,
+    "gigabitPct": 92,
+    "fullFibrePct": 0,
+    "source": "ofcom"
+  },
+  "councilTax": {
+    "authority": "Havering",
+    "bandD": 2088,
+    "bands": {
+      "A": 8,
+      "B": 14,
+      "C": 25,
+      "D": 22,
+      "E": 16,
+      "F": 9,
+      "G": 5,
+      "H": 1
+    },
+    "source": "mhclg-2025"
+  },
+  "epc": {
+    "distribution": {
+      "A": 2,
+      "B": 12,
+      "C": 36,
+      "D": 32,
+      "E": 12,
+      "F": 4,
+      "G": 2
+    },
+    "avgScore": 65
+  },
+  "deprivation": {
+    "imdScore": 16.8,
+    "imdRank": 14036,
+    "imdDecile": null,
+    "pct10MostDeprived": null,
+    "source": "mhclg-imd-2019"
+  },
+  "context": {
+    "intro": "RM15 covers SOUTH OCKENDON in Greater London, London.",
+    "priceVsCounty": "The average property price in RM15 is £357,999, which is 73% below the Greater London average of £1,307,567.",
+    "priceVsNational": "Properties in RM15 cost 24.7% more than the England and Wales average of £287,000.",
+    "priceTrend": "House prices in RM15 have risen 2.3% over the past 12 months and risen 0.0% over five years.",
+    "crimeContext": "With 30.5 recorded crimes per 1,000 residents, RM15 has a crime rate well 62% below the national average of 81.3 per 1,000.",
+    "schoolContext": "RM15 has 11 schools within or near its boundaries, including 2 rated Outstanding and 1 rated Good by Ofsted.",
+    "broadbandContext": "Average broadband download speeds in RM15 are 371.0 Mbps, with 99% of premises having access to superfast broadband and 90% with full fibre (FTTP) connectivity.",
+    "synthesis": "RM15 (SOUTH OCKENDON) offers above-average property prices (£357,999, 25% above national average), low crime (62% below national average), strong school provision (2 Outstanding-rated schools), and excellent broadband (371 Mbps average)."
+  },
+  "comparisons": {
+    "countyAvg": {
+      "price": 1307567,
+      "crime": 75,
+      "broadband": 371
+    },
+    "regionalAvg": {
+      "price": 1307567,
+      "crime": 78,
+      "broadband": 371
+    },
+    "nationalAvg": {
+      "price": 287000,
+      "crime": 81.3,
+      "broadband": 59.4
+    }
+  },
+  "meta": {
+    "lastUpdated": "2026-03",
+    "dataSources": [
+      "land-registry",
+      "gias-schools",
+      "police-uk",
+      "ofcom",
+      "mhclg",
+      "ons-census-2021"
+    ]
+  }
+}
