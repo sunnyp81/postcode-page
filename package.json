@@ -11,7 +11,8 @@
     "pipeline:download": "node pipeline/01-download.mjs",
     "pipeline:parse": "node pipeline/02-parse-land-registry.mjs && node pipeline/03-parse-crime.mjs && node pipeline/04-parse-schools.mjs",
     "pipeline:aggregate": "node pipeline/09-aggregate.mjs",
-    "pipeline:context": "node pipeline/11-generate-context.mjs"
+    "pipeline:context": "node pipeline/11-generate-context.mjs",
+    "deploy": "astro build && wrangler pages deploy dist --project-name postcode-page --commit-dirty=true"
   },
   "dependencies": {
     "astro": "^5.0.0",
