@@ -13,7 +13,35 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
-const { Content } = await render(post);
+const { Content, headings } = await render(post);
+
+// Get related posts (same category, excluding current)
+const allPosts = (await getCollection('blog')).sort(
+  (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
+);
+const related = allPosts
+  .filter(p => p.data.category === post.data.category && p.id !== post.id)
+  .slice(0, 3);
+const otherPosts = related.length < 3
+  ? [...related, ...allPosts.filter(p => p.id !== post.id && !related.includes(p)).slice(0, 3 - related.length)]
+  : related;
+
+// Table of contents from H2 headings
+const toc = headings.filter(h => h.depth === 2);
+
+const catSlug = post.data.category.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+$/, '');
+
+function categoryColor(cat: string) {
+  const map: Record<string, string> = {
+    'Buying Guides': 'bg-accent-50 text-accent-600 border-accent-200',
+    'Data Explained': 'bg-blue-50 text-blue-600 border-blue-200',
+    'Area Research': 'bg-amber-50 text-amber-600 border-amber-200',
+    'Crime & Safety': 'bg-red-50 text-red-600 border-red-200',
+    'Broadband': 'bg-violet-50 text-violet-600 border-violet-200',
+    'First-Time Buyers': 'bg-emerald-50 text-emerald-600 border-emerald-200',
+  };
+  return map[cat] ?? 'bg-brand-50 text-brand-600 border-brand-100';
+}
 
 const schema = [
   {
@@ -38,7 +66,8 @@ const schema = [
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://postcode.page/" },
       { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://postcode.page/blog/" },
-      { "@type": "ListItem", "position": 3, "name": post.data.title },
+      { "@type": "ListItem", "position": 3, "name": post.data.category, "item": `https://postcode.page/blog/category/${catSlug}/` },
+      { "@type": "ListItem", "position": 4, "name": post.data.title },
     ]
   }
 ];
@@ -51,59 +80,172 @@ const schema = [
 >
   <Header />
 
+  <!-- Hero -->
   <div class="relative overflow-hidden bg-brand-950 text-white">
     <div class="absolute inset-0 opacity-20 dot-grid" aria-hidden="true"/>
-    <div class="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
-      <nav class="flex items-center gap-2 text-brand-400 text-sm mb-4">
+    <div class="absolute -bottom-24 -right-24 w-80 h-80 rounded-full opacity-10 blur-[80px]"
+         style="background: radial-gradient(circle, hsl(168, 55%, 45%), transparent 70%)" aria-hidden="true"/>
+    <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <nav class="flex items-center gap-2 text-brand-400 text-sm mb-5" aria-label="Breadcrumb">
         <a href="/blog/" class="hover:text-accent-400 transition-colors">Blog</a>
-        <span>/</span>
-        <span class="text-brand-300">{post.data.category}</span>
+        <span class="text-brand-600">/</span>
+        <a href={`/blog/category/${catSlug}/`} class="hover:text-accent-400 transition-colors">{post.data.category}</a>
       </nav>
-      <span class="text-xs font-600 text-accent-400 uppercase tracking-wide">{post.data.category}</span>
-      <h1 class="font-display font-700 text-3xl sm:text-4xl text-white tracking-tight leading-tight mt-2">{post.data.title}</h1>
-      <div class="flex items-center gap-4 text-brand-400 text-sm mt-4">
-        <time datetime={post.data.pubDate}>
-          {new Date(post.data.pubDate).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
-        </time>
-        <span>·</span>
-        <span>{post.data.readTime} min read</span>
+      <h1 class="font-display font-700 text-3xl sm:text-4xl lg:text-[2.75rem] text-white tracking-tight leading-tight max-w-3xl">{post.data.title}</h1>
+      <p class="text-brand-300 text-lg mt-4 max-w-2xl leading-relaxed">{post.data.description}</p>
+      <div class="flex flex-wrap items-center gap-4 mt-6">
+        <a href={`/blog/category/${catSlug}/`} class={`text-xs font-600 px-3 py-1 rounded-full border ${categoryColor(post.data.category)}`}>
+          {post.data.category}
+        </a>
+        <div class="flex items-center gap-3 text-brand-400 text-sm">
+          <time datetime={post.data.pubDate}>
+            {new Date(post.data.pubDate).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
+          </time>
+          <span class="text-brand-600">·</span>
+          <span>{post.data.readTime} min read</span>
+        </div>
       </div>
     </div>
   </div>
 
-  <main class="max-w-3xl mx-auto px-4 sm:px-6 py-12">
-    <article class="prose prose-brand max-w-none
-      prose-headings:font-display prose-headings:font-600 prose-headings:text-brand-900
-      prose-p:text-brand-700 prose-p:leading-relaxed
-      prose-a:text-accent-500 prose-a:no-underline hover:prose-a:underline
-      prose-strong:text-brand-800
-      prose-li:text-brand-700
-      prose-table:text-sm
-      prose-th:text-brand-600 prose-th:font-600 prose-th:bg-brand-50 prose-th:p-3
-      prose-td:text-brand-700 prose-td:p-3 prose-td:border-brand-100
-      prose-hr:border-brand-100
-      prose-code:text-accent-600 prose-code:bg-brand-50 prose-code:px-1 prose-code:rounded
-    ">
-      <Content />
-    </article>
+  <main class="max-w-4xl mx-auto px-4 sm:px-6 py-10 sm:py-14">
+    <div class="lg:grid lg:grid-cols-[1fr_220px] lg:gap-10">
 
-    <!-- CTA -->
-    <div class="mt-12 bg-brand-50 border border-brand-200 rounded-xl p-6 text-center">
-      <p class="font-display font-600 text-brand-900 text-lg mb-2">Research any UK postcode</p>
-      <p class="text-brand-500 text-sm mb-4">House prices, crime, schools, broadband, council tax and demographics — free for every district in England.</p>
-      <a href="/" class="inline-flex items-center gap-2 px-5 py-2.5 bg-accent-400 text-white rounded-lg font-600 text-sm hover:bg-accent-500 transition-colors">
-        Search a postcode →
-      </a>
-    </div>
+      <!-- Article body -->
+      <div>
+        <!-- Table of Contents (mobile: inline block, desktop: hidden — shown in sidebar) -->
+        {toc.length >= 3 && (
+          <nav class="lg:hidden mb-8 bg-white border border-brand-100 rounded-xl p-5 shadow-sm" aria-label="Table of contents">
+            <p class="text-xs font-600 text-brand-500 uppercase tracking-wider mb-3">In this guide</p>
+            <ol class="space-y-2">
+              {toc.map((h, i) => (
+                <li>
+                  <a href={`#${h.slug}`} class="flex items-start gap-2.5 text-sm text-brand-600 hover:text-accent-500 transition-colors leading-snug">
+                    <span class="text-brand-300 font-mono text-xs mt-0.5 shrink-0">{String(i + 1).padStart(2, '0')}</span>
+                    {h.text}
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </nav>
+        )}
 
-    <!-- Related posts -->
-    <div class="mt-8">
-      <h2 class="font-display font-600 text-xl text-brand-900 mb-4">More guides</h2>
-      <div class="flex flex-wrap gap-2">
-        <a href="/blog/" class="text-sm px-3 py-1.5 bg-white border border-brand-100 text-brand-600 rounded-lg hover:border-accent-300 hover:text-accent-600 transition-colors">← All blog posts</a>
-        <a href="/guides/" class="text-sm px-3 py-1.5 bg-white border border-brand-100 text-brand-600 rounded-lg hover:border-accent-300 hover:text-accent-600 transition-colors">Property guides →</a>
-        <a href="/methodology/" class="text-sm px-3 py-1.5 bg-white border border-brand-100 text-brand-600 rounded-lg hover:border-accent-300 hover:text-accent-600 transition-colors">Data methodology →</a>
+        <article class="prose prose-slate max-w-none
+          prose-headings:font-display prose-headings:tracking-tight
+          prose-h2:text-brand-900 prose-h2:text-xl prose-h2:sm:text-2xl prose-h2:font-700 prose-h2:mt-10 prose-h2:mb-4 prose-h2:scroll-mt-24
+          prose-h3:text-brand-800 prose-h3:text-lg prose-h3:font-600 prose-h3:mt-8 prose-h3:mb-3
+          prose-p:text-brand-700 prose-p:leading-[1.8]
+          prose-a:text-accent-500 prose-a:font-500 prose-a:no-underline hover:prose-a:underline prose-a:decoration-accent-300
+          prose-strong:text-brand-800 prose-strong:font-600
+          prose-li:text-brand-700 prose-li:leading-relaxed
+          prose-ul:my-4 prose-ol:my-4
+          prose-blockquote:border-accent-400 prose-blockquote:bg-accent-50/40 prose-blockquote:rounded-r-lg prose-blockquote:py-1 prose-blockquote:not-italic
+          prose-hr:border-brand-100 prose-hr:my-10
+          prose-code:text-accent-600 prose-code:bg-brand-50 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:text-[0.875em] prose-code:before:content-none prose-code:after:content-none
+          prose-table:text-sm prose-table:border-collapse
+          prose-th:text-brand-600 prose-th:font-600 prose-th:bg-brand-50 prose-th:p-3 prose-th:text-left prose-th:border-b-2 prose-th:border-brand-100
+          prose-td:text-brand-700 prose-td:p-3 prose-td:border-b prose-td:border-brand-100
+        ">
+          <Content />
+        </article>
+
+        <!-- Post-article CTA -->
+        <div class="mt-12 relative overflow-hidden bg-gradient-to-br from-brand-900 to-brand-950 rounded-2xl p-7 sm:p-8 text-white shadow-lg">
+          <div class="absolute -top-10 -right-10 w-40 h-40 rounded-full opacity-20 blur-[40px]"
+               style="background: radial-gradient(circle, hsl(168, 55%, 45%), transparent 70%)" aria-hidden="true"/>
+          <div class="relative z-10">
+            <p class="font-display font-700 text-xl sm:text-2xl text-white mb-2">Research any UK postcode</p>
+            <p class="text-brand-300 text-sm sm:text-base mb-5 max-w-lg">House prices, crime, schools, broadband, council tax and demographics — free for every district in England and Wales.</p>
+            <a href="/" class="inline-flex items-center gap-2 px-5 py-2.5 bg-accent-400 text-white rounded-lg font-600 text-sm hover:bg-accent-500 transition-colors shadow-md">
+              Search a postcode
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Related posts -->
+        {otherPosts.length > 0 && (
+          <section class="mt-12">
+            <h2 class="font-display font-700 text-xl text-brand-900 mb-5">Continue reading</h2>
+            <div class="grid sm:grid-cols-3 gap-4">
+              {otherPosts.map(p => (
+                <a
+                  href={`/blog/${p.id.replace(/\.mdx?$/, '')}/`}
+                  class="group flex flex-col bg-white border border-brand-100 rounded-xl p-4 shadow-sm hover:border-accent-300 hover:shadow-md transition-all"
+                >
+                  <span class={`self-start text-[0.65rem] font-600 px-2 py-0.5 rounded-full border mb-2.5 ${categoryColor(p.data.category)}`}>
+                    {p.data.category}
+                  </span>
+                  <h3 class="font-display font-600 text-sm text-brand-900 group-hover:text-accent-500 transition-colors leading-snug mb-2 flex-1">
+                    {p.data.title}
+                  </h3>
+                  <div class="flex items-center gap-2 text-xs text-brand-400 mt-auto">
+                    <span>{p.data.readTime} min read</span>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
+
+        <!-- Nav -->
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="/blog/" class="text-sm px-4 py-2 bg-white border border-brand-100 text-brand-600 rounded-lg hover:border-accent-300 hover:text-accent-600 transition-colors font-500">
+            <span aria-hidden="true">&larr;</span> All posts
+          </a>
+          <a href={`/blog/category/${catSlug}/`} class="text-sm px-4 py-2 bg-white border border-brand-100 text-brand-600 rounded-lg hover:border-accent-300 hover:text-accent-600 transition-colors font-500">
+            More {post.data.category}
+          </a>
+        </div>
       </div>
+
+      <!-- Sidebar (desktop only) -->
+      <aside class="hidden lg:block">
+        <div class="sticky top-8 space-y-6">
+          <!-- Table of Contents -->
+          {toc.length >= 3 && (
+            <nav class="bg-white border border-brand-100 rounded-xl p-4 shadow-sm" aria-label="Table of contents">
+              <p class="text-xs font-600 text-brand-500 uppercase tracking-wider mb-3">Contents</p>
+              <ol class="space-y-2">
+                {toc.map((h, i) => (
+                  <li>
+                    <a href={`#${h.slug}`} class="flex items-start gap-2 text-[0.8rem] text-brand-600 hover:text-accent-500 transition-colors leading-snug">
+                      <span class="text-brand-300 font-mono text-[0.65rem] mt-0.5 shrink-0">{String(i + 1).padStart(2, '0')}</span>
+                      {h.text}
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </nav>
+          )}
+
+          <!-- Quick links -->
+          <div class="bg-brand-50 border border-brand-100 rounded-xl p-4">
+            <p class="text-xs font-600 text-brand-500 uppercase tracking-wider mb-3">Tools</p>
+            <div class="space-y-2">
+              <a href="/compare/" class="flex items-center gap-2 text-sm text-brand-600 hover:text-accent-500 transition-colors">
+                <svg class="w-3.5 h-3.5 text-brand-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6m6 0h6m-6 0V5a2 2 0 012-2h2a2 2 0 012 2v14m6 0v-6a2 2 0 00-2-2h-2a2 2 0 00-2 2v6"/></svg>
+                Compare areas
+              </a>
+              <a href="/search/" class="flex items-center gap-2 text-sm text-brand-600 hover:text-accent-500 transition-colors">
+                <svg class="w-3.5 h-3.5 text-brand-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                Search postcode
+              </a>
+              <a href="/guides/" class="flex items-center gap-2 text-sm text-brand-600 hover:text-accent-500 transition-colors">
+                <svg class="w-3.5 h-3.5 text-brand-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                Property guides
+              </a>
+            </div>
+          </div>
+
+          <!-- Category link -->
+          <a href={`/blog/category/${catSlug}/`} class="block bg-white border border-brand-100 rounded-xl p-4 hover:border-accent-300 transition-colors shadow-sm">
+            <p class="text-xs font-600 text-brand-500 uppercase tracking-wider mb-1">Category</p>
+            <p class="font-display font-600 text-brand-900 text-sm">{post.data.category}</p>
+          </a>
+        </div>
+      </aside>
+
     </div>
   </main>
 

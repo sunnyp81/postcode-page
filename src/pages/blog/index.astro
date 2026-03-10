@@ -17,8 +17,23 @@ function categoryColor(cat: string) {
     'Buying Guides': 'bg-accent-50 text-accent-600 border-accent-200',
     'Data Explained': 'bg-blue-50 text-blue-600 border-blue-200',
     'Area Research': 'bg-amber-50 text-amber-600 border-amber-200',
+    'Crime & Safety': 'bg-red-50 text-red-600 border-red-200',
+    'Broadband': 'bg-violet-50 text-violet-600 border-violet-200',
+    'First-Time Buyers': 'bg-emerald-50 text-emerald-600 border-emerald-200',
   };
   return map[cat] ?? 'bg-brand-50 text-brand-600 border-brand-100';
+}
+
+function categoryIcon(cat: string) {
+  const map: Record<string, string> = {
+    'Buying Guides': 'M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-4 0v-5a2 2 0 012-2h2a2 2 0 012 2v5',
+    'Data Explained': 'M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6m6 0h6m-6 0V5a2 2 0 012-2h2a2 2 0 012 2v14m6 0v-6a2 2 0 00-2-2h-2a2 2 0 00-2 2v6',
+    'Area Research': 'M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z',
+    'Crime & Safety': 'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z',
+    'Broadband': 'M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.14 0M1.394 9.393c5.857-5.858 15.355-5.858 21.213 0',
+    'First-Time Buyers': 'M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z',
+  };
+  return map[cat] ?? 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253';
 }
 ---
 
@@ -31,10 +46,17 @@ function categoryColor(cat: string) {
   <!-- Hero -->
   <div class="relative overflow-hidden bg-brand-950 text-white">
     <div class="absolute inset-0 opacity-20 dot-grid" aria-hidden="true"/>
-    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
-      <p class="font-mono text-accent-400 text-sm font-500 tracking-widest uppercase mb-2">Blog</p>
+    <div class="absolute -bottom-20 -right-20 w-80 h-80 rounded-full opacity-10 blur-[80px]"
+         style="background: radial-gradient(circle, hsl(168, 55%, 45%), transparent 70%)" aria-hidden="true"/>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-14 sm:py-20">
+      <p class="font-mono text-accent-400 text-sm font-500 tracking-widest uppercase mb-3">Blog</p>
       <h1 class="font-display font-700 text-4xl sm:text-5xl text-white tracking-tight leading-tight">Property Research Guides</h1>
-      <p class="text-brand-300 text-lg mt-3 max-w-xl">How to use area data to make better property decisions. Practical guides from official UK sources.</p>
+      <p class="text-brand-300 text-lg mt-4 max-w-xl leading-relaxed">How to use area data to make better property decisions. Practical guides from official UK sources.</p>
+      <div class="flex items-center gap-3 mt-6 text-brand-400 text-sm">
+        <span class="font-mono">{posts.length} guides</span>
+        <span class="text-brand-600">·</span>
+        <span class="font-mono">{categories.length} topics</span>
+      </div>
     </div>
   </div>
 
@@ -42,35 +64,44 @@ function categoryColor(cat: string) {
 
     <!-- Category filter -->
     <div class="flex flex-wrap gap-2 mb-10">
-      <span class="text-xs font-600 px-3 py-1.5 bg-brand-900 text-white rounded-full border border-brand-700">All</span>
+      <span class="text-xs font-600 px-3 py-1.5 bg-brand-900 text-white rounded-full border border-brand-700 shadow-sm">All posts</span>
       {categories.map(cat => (
-        <a href={`/blog/category/${cat.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+$/, '')}/`} class={`text-xs font-600 px-3 py-1.5 rounded-full border hover:opacity-80 transition-opacity ${categoryColor(cat)}`}>{cat}</a>
+        <a href={`/blog/category/${cat.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+$/, '')}/`} class={`text-xs font-600 px-3 py-1.5 rounded-full border hover:shadow-sm transition-all ${categoryColor(cat)}`}>
+          {cat}
+        </a>
       ))}
     </div>
 
     <!-- Featured post -->
     <a
       href={`/blog/${featured.id.replace(/\.mdx?$/, '')}/`}
-      class="group block bg-white border border-brand-100 rounded-2xl overflow-hidden shadow-sm hover:border-accent-300 hover:shadow-md transition-all mb-10"
+      class="group relative block bg-white border border-brand-100 rounded-2xl overflow-hidden shadow-sm hover:border-accent-300 hover:shadow-lg transition-all mb-10"
     >
-      <div class="p-7 sm:p-8">
-        <div class="flex items-center gap-3 mb-4">
-          <span class={`text-xs font-600 px-2.5 py-1 rounded-full border ${categoryColor(featured.data.category)}`}>
-            {featured.data.category}
-          </span>
-          <span class="text-xs text-brand-400 font-500">Latest</span>
-        </div>
-        <h2 class="font-display font-700 text-2xl sm:text-3xl text-brand-900 group-hover:text-accent-500 transition-colors leading-snug mb-3">
-          {featured.data.title}
-        </h2>
-        <p class="text-brand-500 text-base leading-relaxed mb-5 max-w-2xl">{featured.data.description}</p>
-        <div class="flex items-center gap-4 text-sm text-brand-400">
-          <time datetime={featured.data.pubDate}>
-            {new Date(featured.data.pubDate).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
-          </time>
-          <span>·</span>
-          <span>{featured.data.readTime} min read</span>
-          <span class="ml-auto text-accent-500 font-600 group-hover:underline text-sm">Read guide →</span>
+      <div class="sm:flex">
+        <!-- Left accent stripe -->
+        <div class="hidden sm:block w-1.5 bg-gradient-to-b from-accent-400 to-accent-500 shrink-0" aria-hidden="true"/>
+        <div class="p-6 sm:p-8 flex-1">
+          <div class="flex items-center gap-3 mb-4">
+            <span class={`text-xs font-600 px-2.5 py-1 rounded-full border ${categoryColor(featured.data.category)}`}>
+              {featured.data.category}
+            </span>
+            <span class="text-[0.65rem] font-700 px-2 py-0.5 bg-brand-900 text-white rounded-full uppercase tracking-wider">Latest</span>
+          </div>
+          <h2 class="font-display font-700 text-2xl sm:text-3xl text-brand-900 group-hover:text-accent-500 transition-colors leading-snug mb-3">
+            {featured.data.title}
+          </h2>
+          <p class="text-brand-500 text-base leading-relaxed mb-5 max-w-2xl">{featured.data.description}</p>
+          <div class="flex items-center gap-4 text-sm text-brand-400">
+            <time datetime={featured.data.pubDate}>
+              {new Date(featured.data.pubDate).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
+            </time>
+            <span class="text-brand-200">·</span>
+            <span>{featured.data.readTime} min read</span>
+            <span class="ml-auto text-accent-500 font-600 group-hover:underline text-sm flex items-center gap-1">
+              Read guide
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+            </span>
+          </div>
         </div>
       </div>
     </a>
@@ -81,26 +112,60 @@ function categoryColor(cat: string) {
         {rest.map(post => (
           <a
             href={`/blog/${post.id.replace(/\.mdx?$/, '')}/`}
-            class="group flex flex-col bg-white border border-brand-100 rounded-xl p-5 shadow-sm hover:border-accent-300 hover:shadow-md transition-all"
+            class="group flex flex-col bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm hover:border-accent-300 hover:shadow-md transition-all"
           >
-            <span class={`self-start text-xs font-600 px-2.5 py-1 rounded-full border mb-3 ${categoryColor(post.data.category)}`}>
-              {post.data.category}
-            </span>
-            <h2 class="font-display font-600 text-brand-900 group-hover:text-accent-500 transition-colors leading-snug mb-2 flex-1">
-              {post.data.title}
-            </h2>
-            <p class="text-brand-500 text-sm leading-relaxed mb-4 line-clamp-2">{post.data.description}</p>
-            <div class="flex items-center gap-3 text-xs text-brand-400 mt-auto">
-              <time datetime={post.data.pubDate}>
-                {new Date(post.data.pubDate).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
-              </time>
-              <span>·</span>
-              <span>{post.data.readTime} min read</span>
+            <!-- Top accent bar -->
+            <div class="h-0.5 bg-gradient-to-r from-brand-200 via-accent-300 to-brand-200 group-hover:from-accent-400 group-hover:via-accent-500 group-hover:to-accent-400 transition-colors" aria-hidden="true"/>
+            <div class="p-5 flex flex-col flex-1">
+              <div class="flex items-center gap-2 mb-3">
+                <span class={`text-[0.65rem] font-600 px-2 py-0.5 rounded-full border ${categoryColor(post.data.category)}`}>
+                  {post.data.category}
+                </span>
+              </div>
+              <h2 class="font-display font-600 text-brand-900 group-hover:text-accent-500 transition-colors leading-snug mb-2 flex-1">
+                {post.data.title}
+              </h2>
+              <p class="text-brand-500 text-sm leading-relaxed mb-4 line-clamp-2">{post.data.description}</p>
+              <div class="flex items-center gap-3 text-xs text-brand-400 mt-auto pt-3 border-t border-brand-50">
+                <time datetime={post.data.pubDate}>
+                  {new Date(post.data.pubDate).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}
+                </time>
+                <span class="text-brand-200">·</span>
+                <span>{post.data.readTime} min</span>
+                <span class="ml-auto text-accent-500 opacity-0 group-hover:opacity-100 transition-opacity text-xs font-500">Read &rarr;</span>
+              </div>
             </div>
           </a>
         ))}
       </div>
     )}
+
+    <!-- Browse by topic -->
+    <section class="mt-16">
+      <h2 class="font-display font-700 text-2xl text-brand-800 mb-6">Browse by topic</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {categories.map(cat => {
+          const count = posts.filter(p => p.data.category === cat).length;
+          const slug = cat.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+$/, '');
+          return (
+            <a href={`/blog/category/${slug}/`} class="group flex items-center gap-4 bg-white border border-brand-100 rounded-xl p-4 shadow-sm hover:border-accent-300 hover:shadow-md transition-all">
+              <div class="w-10 h-10 rounded-lg bg-brand-50 border border-brand-100 flex items-center justify-center shrink-0 group-hover:bg-accent-50 group-hover:border-accent-200 transition-colors">
+                <svg class="w-5 h-5 text-brand-400 group-hover:text-accent-500 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d={categoryIcon(cat)}/>
+                </svg>
+              </div>
+              <div class="flex-1 min-w-0">
+                <p class="font-display font-600 text-brand-900 group-hover:text-accent-500 transition-colors text-sm">{cat}</p>
+                <p class="text-xs text-brand-400">{count} {count === 1 ? 'guide' : 'guides'}</p>
+              </div>
+              <svg class="w-4 h-4 text-brand-300 group-hover:text-accent-400 transition-colors shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+              </svg>
+            </a>
+          );
+        })}
+      </div>
+    </section>
 
   </main>
 
