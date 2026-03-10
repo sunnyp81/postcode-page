@@ -52,16 +52,16 @@ When reviewing schools in a potential area:
 
 2. **Focus on your relevant phase**: Primary schools matter most if you have children under 11. Secondary schools (11–16) matter if you have or plan to have older children. They are in different catchments.
 
-3. **Check catchment areas**: The district-level data on postcode.page shows total school counts and ratings. For specific catchment information, use the school's own website or the local authority admissions portal.
+3. **Check catchment areas**: The district-level data on Postcode.Page shows total school counts and ratings. For specific catchment information, use the school's own website or the local authority admissions portal.
 
 4. **Look at trends**: Is the proportion of Good/Outstanding schools in the district improving or declining? A district going from 60% to 80% over five years has a different trajectory than one declining from 80% to 65%.
 
 ## Where to Find School Data
 
-- **[postcode.page](/)**: District-level breakdown of Outstanding, Good, Requires Improvement, and Inadequate counts for every postcode district in England
+- **[Postcode.Page](/)**: District-level breakdown of Outstanding, Good, Requires Improvement, and Inadequate counts for every postcode district in England
 - **[Get Information About Schools](https://get-information-schools.service.gov.uk/)**: Individual school profiles, contact details, and inspection history
 - **[Ofsted reports](https://reports.ofsted.gov.uk/)**: Full inspection reports for any school
 
 ---
 
-The [best areas for families guide](/guides/best-areas-for-families/) on postcode.page combines school quality with crime rates and house prices into a single score for every postcode district — useful if you want to rank areas across multiple factors simultaneously.
+The [best areas for families guide](/guides/best-areas-for-families/) on Postcode.Page combines school quality with crime rates and house prices into a single score for every postcode district — useful if you want to rank areas across multiple factors simultaneously.

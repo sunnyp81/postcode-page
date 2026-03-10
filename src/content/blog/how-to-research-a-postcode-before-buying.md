@@ -23,7 +23,7 @@ Before viewing a property, look up the district's house price trends:
 - **5-year history**: Smooth, consistent growth is a healthier sign than boom-and-bust patterns.
 - **Price by property type**: A district might have a low average because there are many flats. Detached house prices in the same district could be far higher.
 
-You can find all of this for any UK postcode district on [postcode.page](/).
+You can find all of this for any UK postcode district on [Postcode.Page](/).
 
 ## Step 3: Look Up Crime Data
 
@@ -64,7 +64,7 @@ Note that coverage percentages tell you what is *available*, not what any specif
 
 The council tax Band D rate varies by hundreds of pounds per year between neighbouring local authorities. A home in a district with a £2,500/year Band D bill costs £1,000 more per year than an equivalent home where Band D is £1,500 — a difference that compounds over a 25-year ownership period.
 
-Check the band of the specific property (available on the [Valuation Office Agency website](https://www.gov.uk/council-tax-bands)) and the total Band D rate for the local authority (available on postcode.page for every district in England).
+Check the band of the specific property (available on the [Valuation Office Agency website](https://www.gov.uk/council-tax-bands)) and the total Band D rate for the local authority (available on Postcode.Page for every district in England).
 
 ## Step 7: Check Demographics and Tenure
 
@@ -81,12 +81,12 @@ No dataset replaces a visit. Go on a weekday morning, a Friday evening, and a Su
 ---
 
 **Quick research checklist:**
-1. ✅ Average price and 1-year trend ([postcode.page](/) → price section)
-2. ✅ Crime rate vs national average ([postcode.page](/) → crime section)
-3. ✅ Schools — % Good/Outstanding ([postcode.page](/) → schools section)
-4. ✅ Broadband speed and fibre coverage ([postcode.page](/) → broadband section)
-5. ✅ Council tax Band D total ([postcode.page](/) → council tax section)
-6. ✅ Owner-occupied % and tenure split ([postcode.page](/) → demographics section)
+1. ✅ Average price and 1-year trend ([Postcode.Page](/) → price section)
+2. ✅ Crime rate vs national average ([Postcode.Page](/) → crime section)
+3. ✅ Schools — % Good/Outstanding ([Postcode.Page](/) → schools section)
+4. ✅ Broadband speed and fibre coverage ([Postcode.Page](/) → broadband section)
+5. ✅ Council tax Band D total ([Postcode.Page](/) → council tax section)
+6. ✅ Owner-occupied % and tenure split ([Postcode.Page](/) → demographics section)
 7. ✅ Visit at multiple times of day and week
 
 Postcode.page brings steps 1–6 together on a single page for every postcode district in England and Wales — free, from official government sources. [Search your postcode →](/)

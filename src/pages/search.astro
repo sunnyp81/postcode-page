@@ -3,21 +3,37 @@ import Base from '../layouts/Base.astro';
 import Header from '../components/global/Header.astro';
 import Footer from '../components/global/Footer.astro';
 
-// Read query param at build time — we'll handle redirects via Cloudflare Function or JS
+// Extract the postcode district from any input (full postcode, sector, or district)
+// RG30 3DB → rg30 | SW1A 1AA → sw1a | M1 → m1 | RG30 → rg30
+function extractDistrict(input: string): string | null {
+  const raw = input.trim().toUpperCase().replace(/\s+/g, '');
+  // Full postcode: strip inward code (last 3 chars = digit + 2 letters)
+  const full = raw.match(/^([A-Z]{1,2}\d[A-Z\d]?)\d[A-Z]{2}$/);
+  if (full) return full[1].toLowerCase();
+  // District only: e.g. RG30, SW1A, M1
+  const district = raw.match(/^[A-Z]{1,2}\d[A-Z\d]?$/);
+  if (district) return raw.toLowerCase();
+  return null;
+}
+
 const query = Astro.url.searchParams.get('q') ?? '';
-const normalised = query.trim().toUpperCase().replace(/\s+/g, '');
+const district = extractDistrict(query);
 ---
 
-<Base title="Search — postcode.page" description="Search UK postcodes." noindex={true}>
+<Base title="Search — Postcode.Page" description="Search UK postcodes." noindex={true}>
   <Header />
   <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
     <h1 class="mb-4">Search Results for "{query}"</h1>
-    {normalised && (
+    {district ? (
       <p class="text-brand-600">
-        Looking for <strong>{normalised}</strong>?
-        <a href={`/${normalised.toLowerCase()}/`} class="text-accent-500 hover:underline ml-1">
-          View {normalised} area data →
+        Looking for <strong>{district.toUpperCase()}</strong>?
+        <a href={`/${district}/`} class="text-accent-500 hover:underline ml-1">
+          View {district.toUpperCase()} area data →
         </a>
+      </p>
+    ) : query && (
+      <p class="text-brand-600">
+        Could not find a postcode matching "{query}". Try entering a UK postcode like <strong>SW1A</strong> or <strong>RG30 3DB</strong>.
       </p>
     )}
   </main>
@@ -25,13 +41,18 @@ const normalised = query.trim().toUpperCase().replace(/\s+/g, '');
 </Base>
 
 <script>
-  // Client-side: redirect directly to postcode page
+  // Client-side: extract district and redirect immediately
   const params = new URLSearchParams(window.location.search);
   const q = params.get('q');
   if (q) {
-    const code = q.trim().toUpperCase().replace(/\s+/g, '');
-    if (/^[A-Z]{1,2}\d[A-Z\d]?/.test(code)) {
-      window.location.replace(`/${code.toLowerCase()}/`);
+    const raw = q.trim().toUpperCase().replace(/\s+/g, '');
+    // Full postcode → strip last 3 chars (inward code)
+    const full = raw.match(/^([A-Z]{1,2}\d[A-Z\d]?)\d[A-Z]{2}$/);
+    if (full) {
+      window.location.replace(`/${full[1].toLowerCase()}/`);
+    } else if (/^[A-Z]{1,2}\d[A-Z\d]?$/.test(raw)) {
+      // Already a district
+      window.location.replace(`/${raw.toLowerCase()}/`);
     }
   }
 </script>

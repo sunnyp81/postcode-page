@@ -31,8 +31,16 @@ for (const county of region.counties) {
 ---
 
 <Base
-  title={`${region.label} — House Prices, Crime & Area Data | postcode.page`}
+  title={`${region.label} — House Prices, Crime & Area Data | Postcode.Page`}
   description={`Average house price in ${region.label}: ${formatPriceFull(region.avgPrice)} — ${Math.abs(priceVsNational).toFixed(0)}% ${priceDir} the national average. Data for ${region.totalPostcodes} postcode districts across ${region.counties.length} counties.`}
+  schema={[{
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://postcode.page/" },
+      { "@type": "ListItem", "position": 2, "name": "Regions", "item": "https://postcode.page/regions/" },
+      { "@type": "ListItem", "position": 3, "name": region.label }
+    ]
+  }]}
 >
   <Header />
 

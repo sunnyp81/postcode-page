@@ -6,7 +6,7 @@ category: "House Prices"
 readTime: 6
 ---
 
-HM Land Registry Price Paid Data (PPD) is the foundation of every credible UK house price index, and it is the source that postcode.page uses for all district and sector price data. It is free, comprehensive, and goes back to 1995. But like all data, it has constraints worth understanding.
+HM Land Registry Price Paid Data (PPD) is the foundation of every credible UK house price index, and it is the source that Postcode.Page uses for all district and sector price data. It is free, comprehensive, and goes back to 1995. But like all data, it has constraints worth understanding.
 
 ## What It Is
 
@@ -59,4 +59,4 @@ Postcode.page uses raw PPD averages, which is standard practice for district-lev
 
 ---
 
-For a full explanation of how postcode.page processes Land Registry data, see our [methodology page](/methodology/). To see current averages for any district, [search your postcode →](/).
+For a full explanation of how Postcode.Page processes Land Registry data, see our [methodology page](/methodology/). To see current averages for any district, [search your postcode →](/).

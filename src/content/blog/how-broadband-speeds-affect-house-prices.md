@@ -59,4 +59,4 @@ Check the [Openreach build plan](https://www.openreach.com/fibre-broadband/where
 
 ---
 
-Broadband speed and coverage data from Ofcom is available for every English postcode district on [postcode.page](/). Use it alongside the [districts comparison tool](/compare/) to weigh connectivity against price, crime, and schools in your shortlisted areas.
+Broadband speed and coverage data from Ofcom is available for every English postcode district on [Postcode.Page](/). Use it alongside the [districts comparison tool](/compare/) to weigh connectivity against price, crime, and schools in your shortlisted areas.

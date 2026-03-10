@@ -27,7 +27,7 @@ A district rising 7% per year and one rising 1% per year have very different dyn
 **What does the 5-year history look like?**
 Smooth consistent growth is generally healthier than boom-and-bust. A district that rose 40% in 2020–2022 and is now falling might still have further correction ahead.
 
-Use postcode.page to look up [average house prices by region](/guides/average-house-price-uk/) or [cheapest places to live in England](/guides/cheapest-places-to-live-england/) if you have flexibility on location.
+Use Postcode.Page to look up [average house prices by region](/guides/average-house-price-uk/) or [cheapest places to live in England](/guides/cheapest-places-to-live-england/) if you have flexibility on location.
 
 ## Understand What You Are Comparing
 
@@ -83,11 +83,11 @@ The ONS Census 2021 data shows owner-occupation rates, rental percentages, and p
 A practical approach for first-time buyers with some flexibility on location:
 
 1. Define your non-negotiables: commute time, maximum price, minimum bedrooms
-2. Use [postcode.page's region browser](/) to identify affordable districts in your commuter range
-3. For each shortlisted district, check crime, schools, council tax, and broadband on postcode.page
+2. Use [Postcode.Page's region browser](/) to identify affordable districts in your commuter range
+3. For each shortlisted district, check crime, schools, council tax, and broadband on Postcode.Page
 4. Compare two or three shortlisted districts head-to-head using the [comparison tool](/compare/)
 5. Visit each shortlisted area in person before arranging property viewings
 
 ---
 
-All the data in this guide — house prices, crime, schools, broadband, council tax, and demographics — is available free for every postcode district in England on [postcode.page](/). No account required.
+All the data in this guide — house prices, crime, schools, broadband, council tax, and demographics — is available free for every postcode district in England on [Postcode.Page](/). No account required.

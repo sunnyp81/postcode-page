@@ -11,7 +11,7 @@ Use this checklist before making an offer on any property. The data checks take 
 ## Online Data Checks
 
 ### House Prices
-- [ ] Look up the postcode district's current average price on [postcode.page](/) — is it what you expected?
+- [ ] Look up the postcode district's current average price on [Postcode.Page](/) — is it what you expected?
 - [ ] Check the 1-year price change — rising, flat, or falling?
 - [ ] Check the 5-year history — consistent growth, volatility, or a recent peak?
 - [ ] Check price by property type — how does your target type sit vs the average?
@@ -29,13 +29,13 @@ Use this checklist before making an offer on any property. The data checks take 
 - [ ] Verify catchment areas with the local authority admissions portal
 
 ### Council Tax
-- [ ] Find the Band D rate for the local authority on [postcode.page](/)
+- [ ] Find the Band D rate for the local authority on [Postcode.Page](/)
 - [ ] Identify the band of the specific property via [VOA](https://www.gov.uk/council-tax-bands)
 - [ ] Calculate the actual annual bill (band fraction × Band D rate)
 - [ ] Compare to your current bill if moving from another area
 
 ### Broadband
-- [ ] Check the district's average download speed and full-fibre coverage % on [postcode.page](/)
+- [ ] Check the district's average download speed and full-fibre coverage % on [Postcode.Page](/)
 - [ ] Run a property-level check with [Openreach](https://www.openreach.com/fibre-broadband/fttp-network-checker) or your preferred ISP
 - [ ] If working from home, verify minimum speed for video calls (30 Mbps+)
 
@@ -46,7 +46,7 @@ Use this checklist before making an offer on any property. The data checks take 
 
 ## Comparing Areas
 
-- [ ] If deciding between two districts, use the [postcode.page comparison tool](/compare/)
+- [ ] If deciding between two districts, use the [Postcode.Page comparison tool](/compare/)
 - [ ] Weight factors based on your priorities (schools, crime, price trend, commute)
 - [ ] Check total cost of ownership: mortgage + council tax + commute costs for each area
 
@@ -93,4 +93,4 @@ Use this checklist before making an offer on any property. The data checks take 
 
 ---
 
-The data checks in this checklist are available free for every postcode district in England at [postcode.page](/). Start by [searching your target postcode →](/).
+The data checks in this checklist are available free for every postcode district in England at [Postcode.Page](/). Start by [searching your target postcode →](/).

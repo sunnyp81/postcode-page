@@ -1,0 +1,95 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Header from '../../../components/global/Header.astro';
+import Footer from '../../../components/global/Footer.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog');
+const categories = [...new Set(allPosts.map(p => p.data.category))];
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  const cats = [...new Set(posts.map(p => p.data.category))];
+  return cats.map(cat => ({
+    params: { category: cat.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+$/, '') },
+    props: {
+      category: cat,
+      posts: posts
+        .filter(p => p.data.category === cat)
+        .sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()),
+    },
+  }));
+}
+
+const { category, posts } = Astro.props;
+const slug = category.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+$/, '');
+const catDescriptions: Record<string, string> = {
+  'Buying Guides': 'Practical guides for UK homebuyers — from area research checklists to council tax and moving tips.',
+  'House Prices': 'How UK house prices work — Land Registry data, Ofsted premiums, and why prices vary within a postcode.',
+  'Explainers': 'Clear explanations of UK postcode systems, deprivation indices, and the data behind area research.',
+  'First-Time Buyers': 'Step-by-step guides for first-time buyers researching areas, comparing postcodes, and understanding property data.',
+  'Crime & Safety': 'How to use Police.uk crime statistics to compare area safety — and what the data does and doesn\'t tell you.',
+  'Broadband': 'How broadband speeds and fibre coverage affect property values and quality of life by postcode district.',
+};
+const description = catDescriptions[category] ?? `${category} articles from Postcode.Page — data-driven property research guides.`;
+---
+
+<Base
+  title={`${category} — Property Research Blog | Postcode.Page`}
+  description={description}
+  schema={[
+    { "@type": "CollectionPage", "name": `${category} — Postcode.Page Blog`, "description": description, "url": `https://postcode.page/blog/category/${slug}/` },
+    { "@type": "BreadcrumbList", "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://postcode.page/" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://postcode.page/blog/" },
+      { "@type": "ListItem", "position": 3, "name": category }
+    ]}
+  ]}
+>
+  <Header />
+
+  <div class="relative overflow-hidden bg-brand-950 text-white">
+    <div class="absolute inset-0 opacity-20 dot-grid" aria-hidden="true"/>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <nav class="flex items-center gap-2 text-brand-400 text-sm mb-4">
+        <a href="/blog/" class="hover:text-accent-400 transition-colors">Blog</a>
+        <span>/</span>
+        <span class="text-brand-300">{category}</span>
+      </nav>
+      <h1 class="font-display font-700 text-4xl sm:text-5xl text-white tracking-tight leading-tight">{category}</h1>
+      <p class="text-brand-300 text-lg mt-3 max-w-xl">{description}</p>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-10 sm:py-14">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      {posts.map(post => (
+        <a
+          href={`/blog/${post.id.replace(/\.mdx?$/, '')}/`}
+          class="group flex flex-col bg-white border border-brand-100 rounded-xl p-5 shadow-sm hover:border-accent-300 hover:shadow-md transition-all"
+        >
+          <span class="self-start text-xs font-600 px-2.5 py-1 rounded-full border bg-accent-50 text-accent-600 border-accent-200 mb-3">
+            {post.data.category}
+          </span>
+          <h2 class="font-display font-600 text-brand-900 group-hover:text-accent-500 transition-colors leading-snug mb-2 flex-1">
+            {post.data.title}
+          </h2>
+          <p class="text-brand-500 text-sm leading-relaxed mb-4 line-clamp-2">{post.data.description}</p>
+          <div class="flex items-center gap-3 text-xs text-brand-400 mt-auto">
+            <time datetime={post.data.pubDate}>
+              {new Date(post.data.pubDate).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
+            </time>
+            <span>·</span>
+            <span>{post.data.readTime} min read</span>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <div class="mt-10">
+      <a href="/blog/" class="text-sm px-4 py-2 bg-white border border-brand-100 text-brand-600 rounded-lg hover:border-accent-300 hover:text-accent-600 transition-colors">← All blog posts</a>
+    </div>
+  </main>
+
+  <Footer />
+</Base>

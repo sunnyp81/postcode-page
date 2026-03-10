@@ -53,4 +53,4 @@ Police forces change how they record crime periodically — often in response to
 
 ---
 
-Crime data for every English and Welsh postcode district is available on [postcode.page](/), including a comparison to the national average and a breakdown by crime type. See the [safest areas in England & Wales guide](/guides/safest-areas-england-wales/) for a full ranking.
+Crime data for every English and Welsh postcode district is available on [Postcode.Page](/), including a comparison to the national average and a breakdown by crime type. See the [safest areas in England & Wales guide](/guides/safest-areas-england-wales/) for a full ranking.

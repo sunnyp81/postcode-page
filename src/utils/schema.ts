@@ -36,7 +36,7 @@ export function buildPostcodeSchema(data: PostcodeData, url: string) {
       "@type": "WebPage",
       "@id": `${url}#webpage`,
       "url": url,
-      "name": `${data.code} — ${data.name} | postcode.page`,
+      "name": `${data.code} — ${data.name} | Postcode.Page`,
       "dateModified": data.meta.lastUpdated,
       "breadcrumb": { "@id": `${url}#breadcrumb` },
       "mainEntity": { "@id": `${url}#place` }
@@ -71,7 +71,7 @@ export function buildPostcodeSchema(data: PostcodeData, url: string) {
       "url": url,
       "creator": {
         "@type": "Organization",
-        "name": "postcode.page",
+        "name": "Postcode.Page",
         "url": "https://postcode.page/"
       },
       "license": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",

@@ -30,7 +30,7 @@ GU1 covers central Guildford and the surrounding area. SW1A covers Westminster. 
 
 This is the **most useful level for area research** — it is small enough to be meaningful but large enough to have statistically robust data on house prices, crime, schools, and demographics.
 
-**Use for**: House price research, crime comparison, school ratings, broadband speeds, council tax rates, demographic data. This is the primary level used by postcode.page.
+**Use for**: House price research, crime comparison, school ratings, broadband speeds, council tax rates, demographic data. This is the primary level used by Postcode.Page.
 
 ### 3. Postcode Sector
 

@@ -29,8 +29,26 @@ const guides = [
 ---
 
 <Base
-  title="postcode.page — UK Postcode Data: House Prices, Crime, Schools & More"
+  title="Postcode.Page — UK Postcode Data: House Prices, Crime, Schools & More"
   description="Free property prices, crime rates, school ratings, broadband speeds and demographics for every UK postcode district. Updated monthly from official government sources."
+  schema={[
+    {
+      "@type": "WebSite",
+      "name": "Postcode.Page",
+      "url": "https://postcode.page/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://postcode.page/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Organization",
+      "name": "Postcode.Page",
+      "url": "https://postcode.page/",
+      "description": "Free UK postcode data from official government sources. Property prices, crime, schools, broadband, and demographics for every postcode district."
+    }
+  ]}
 >
   <Header />
 

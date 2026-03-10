@@ -23,8 +23,16 @@ const mostAffordable = postcodes[postcodes.length - 1];
 ---
 
 <Base
-  title={`${county.label} House Prices by Postcode | postcode.page`}
+  title={`${county.label} House Prices by Postcode | Postcode.Page`}
   description={`${county.label} average house price: ${formatPriceFull(county.avgPrice)} — ${Math.abs(priceVsNational).toFixed(0)}% ${priceDir} the national average. Browse all ${postcodes.length} postcode districts in ${county.label} with prices, crime rates, and school data.`}
+  schema={[{
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://postcode.page/" },
+      { "@type": "ListItem", "position": 2, "name": "Regions", "item": "https://postcode.page/regions/" },
+      { "@type": "ListItem", "position": 3, "name": county.label }
+    ]
+  }]}
 >
   <Header />
 

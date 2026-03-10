@@ -23,7 +23,7 @@ function categoryColor(cat: string) {
 ---
 
 <Base
-  title="Property Research Blog — postcode.page"
+  title="Property Research Blog — Postcode.Page"
   description="Guides and explainers for UK homebuyers: house price data, crime statistics, school ratings, council tax, broadband, and how to research any area before buying."
 >
   <Header />
@@ -44,7 +44,7 @@ function categoryColor(cat: string) {
     <div class="flex flex-wrap gap-2 mb-10">
       <span class="text-xs font-600 px-3 py-1.5 bg-brand-900 text-white rounded-full border border-brand-700">All</span>
       {categories.map(cat => (
-        <span class={`text-xs font-600 px-3 py-1.5 rounded-full border ${categoryColor(cat)}`}>{cat}</span>
+        <a href={`/blog/category/${cat.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+$/, '')}/`} class={`text-xs font-600 px-3 py-1.5 rounded-full border hover:opacity-80 transition-opacity ${categoryColor(cat)}`}>{cat}</a>
       ))}
     </div>
 

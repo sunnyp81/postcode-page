@@ -45,6 +45,10 @@ const rising = [...postcodes]
 <Base
   title={`${label} House Prices 2026 — Average by Postcode District`}
   description={`Average house prices in ${label} by postcode district. Cheapest and most expensive areas, price trends, and market data from Land Registry 2025–26.`}
+  schema={[
+    { "@type": "Article", "headline": `${label} House Prices 2026`, "description": `Average house prices in ${label} by postcode district, from Land Registry data.`, "datePublished": "2026-03-01", "dateModified": "2026-03-10", "author": { "@type": "Organization", "name": "Postcode.Page", "url": "https://postcode.page/" }, "publisher": { "@type": "Organization", "name": "Postcode.Page", "url": "https://postcode.page/" } },
+    { "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://postcode.page/" }, { "@type": "ListItem", "position": 2, "name": "Guides", "item": "https://postcode.page/guides/" }, { "@type": "ListItem", "position": 3, "name": `${label} House Prices` }] }
+  ]}
 >
   <Header />
 

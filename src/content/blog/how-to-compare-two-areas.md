@@ -81,4 +81,4 @@ Data tells you the statistical average. A visit tells you the character.
 
 ---
 
-The [postcode.page comparison tool](/compare/) covers hundreds of district pairs with side-by-side data on all key metrics. Find your two areas and compare them directly →
+The [Postcode.Page comparison tool](/compare/) covers hundreds of district pairs with side-by-side data on all key metrics. Find your two areas and compare them directly →

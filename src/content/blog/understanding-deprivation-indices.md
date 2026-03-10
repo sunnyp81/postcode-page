@@ -55,4 +55,4 @@ At the local authority level (which maps to postcode districts), the published s
 
 ---
 
-The IMD is a useful complement to crime, school, and price data — it adds a broader socioeconomic context that no single metric captures alone. Combined with other data sources on postcode.page, it gives a more complete picture of any area in England.
+The IMD is a useful complement to crime, school, and price data — it adds a broader socioeconomic context that no single metric captures alone. Combined with other data sources on Postcode.Page, it gives a more complete picture of any area in England.
