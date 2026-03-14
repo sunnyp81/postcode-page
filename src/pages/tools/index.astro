@@ -44,19 +44,36 @@ import Footer from '../../components/global/Footer.astro';
       </div>
     </section>
 
-    <!-- Coming soon tools -->
+    <!-- Tools grid -->
     <section>
-      <h2 class="font-display font-700 text-2xl text-brand-800 mb-6">More tools coming soon</h2>
+      <h2 class="font-display font-700 text-2xl text-brand-800 mb-6">All tools</h2>
       <div class="grid sm:grid-cols-3 gap-4">
         {[
-          { title: 'Area Comparison', desc: 'Compare two postcode districts side by side across all metrics.' },
-          { title: 'Affordability Calculator', desc: 'See what salary you need to afford an area based on current prices.' },
-          { title: 'Stamp Duty Calculator', desc: 'Calculate stamp duty for any property price in any postcode.' },
+          {
+            title: 'Area Comparison',
+            desc: 'Compare two postcode districts side by side across house prices, crime, schools, broadband and more.',
+            href: '/tools/compare/',
+            icon: '⚖️',
+          },
+          {
+            title: 'Affordability Calculator',
+            desc: 'Find out what salary you need to afford an area and estimate your monthly mortgage payments.',
+            href: '/tools/affordability/',
+            icon: '💷',
+          },
+          {
+            title: 'Stamp Duty Calculator',
+            desc: 'Calculate SDLT for any property price. Updated for April 2025 rates including first-time buyer relief.',
+            href: '/tools/stamp-duty/',
+            icon: '🏛️',
+          },
         ].map(t => (
-          <div class="bg-white border border-brand-100 rounded-xl p-5 shadow-sm">
-            <h3 class="font-display font-600 text-brand-800 mb-1">{t.title}</h3>
+          <a href={t.href} class="group bg-white border border-brand-100 rounded-xl p-5 shadow-sm hover:border-accent-300 hover:shadow-md transition-all">
+            <div class="text-2xl mb-2">{t.icon}</div>
+            <h3 class="font-display font-600 text-brand-800 mb-1 group-hover:text-accent-600 transition-colors">{t.title}</h3>
             <p class="text-brand-500 text-sm">{t.desc}</p>
-          </div>
+            <span class="mt-3 inline-block text-xs font-600 text-accent-500 group-hover:text-accent-600">Open tool →</span>
+          </a>
         ))}
       </div>
     </section>

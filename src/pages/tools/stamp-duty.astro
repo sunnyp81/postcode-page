@@ -1,0 +1,308 @@
+---
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/global/Header.astro';
+import Footer from '../../components/global/Footer.astro';
+---
+<Base
+  title="Stamp Duty Calculator (SDLT) 2025 — England & Wales | Postcode.Page"
+  description="Calculate stamp duty (SDLT) for any property price in England and Wales. Updated for April 2025 rates. First-time buyer relief and second home surcharge included."
+>
+  <Header />
+
+  <div class="relative overflow-hidden bg-brand-950 text-white">
+    <div class="absolute inset-0 opacity-20 dot-grid" aria-hidden="true"/>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <p class="font-mono text-accent-400 text-sm font-500 tracking-widest uppercase mb-2">Tools</p>
+      <h1 class="font-display font-700 text-4xl sm:text-5xl text-white tracking-tight leading-tight">Stamp Duty Calculator</h1>
+      <p class="text-brand-300 text-lg mt-3 max-w-xl">Calculate SDLT for any property in England &amp; Wales. Updated for April 2025 rates.</p>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+    <div class="grid md:grid-cols-2 gap-8 items-start">
+
+      <!-- Inputs -->
+      <div class="bg-white border border-brand-100 rounded-xl p-6 shadow-sm">
+        <h2 class="font-display font-700 text-lg text-brand-800 mb-5">Property details</h2>
+
+        <div class="space-y-5">
+          <div>
+            <label for="sd-price" class="block text-sm font-600 text-brand-700 mb-1.5">Property price</label>
+            <div class="relative">
+              <span class="absolute left-3 top-1/2 -translate-y-1/2 text-brand-400 font-600">£</span>
+              <input
+                id="sd-price"
+                type="text"
+                inputmode="numeric"
+                placeholder="350,000"
+                class="w-full pl-7 pr-4 py-3 bg-brand-50 border border-brand-200 rounded-lg text-brand-800 font-mono font-600 focus:outline-none focus:ring-2 focus:ring-accent-400 focus:border-transparent transition-colors"
+              />
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-sm font-600 text-brand-700 mb-2">Buyer type</label>
+            <div class="space-y-2">
+              {[
+                { value: 'standard', label: 'Moving home', desc: 'You are selling (or have sold) your main home' },
+                { value: 'ftb', label: 'First-time buyer', desc: 'You have never owned a property before' },
+                { value: 'additional', label: 'Additional property', desc: 'Buy-to-let or second home (5% surcharge applies)' },
+              ].map((opt, i) => (
+                <label class="flex items-start gap-3 p-3 rounded-lg border border-brand-100 cursor-pointer hover:border-accent-300 hover:bg-accent-50/30 transition-colors has-[:checked]:border-accent-400 has-[:checked]:bg-accent-50">
+                  <input
+                    type="radio"
+                    name="buyer-type"
+                    value={opt.value}
+                    checked={i === 0}
+                    class="mt-0.5 accent-accent-500"
+                  />
+                  <span>
+                    <span class="block text-sm font-600 text-brand-800">{opt.label}</span>
+                    <span class="block text-xs text-brand-400 mt-0.5">{opt.desc}</span>
+                  </span>
+                </label>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="space-y-4">
+
+        <div class="bg-white border border-brand-100 rounded-xl p-6 shadow-sm">
+          <p class="text-xs font-600 text-brand-500 uppercase tracking-wide mb-1">Total stamp duty</p>
+          <p class="font-display font-700 text-4xl text-accent-500" id="sd-total">—</p>
+          <p class="text-brand-400 text-sm mt-1" id="sd-effective-rate">Enter a price to calculate</p>
+        </div>
+
+        <!-- Band breakdown table -->
+        <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+          <div class="px-5 py-3 bg-brand-50 border-b border-brand-100">
+            <p class="text-xs font-600 text-brand-600 uppercase tracking-wide">Tax band breakdown</p>
+          </div>
+          <table class="w-full text-sm" id="sd-bands-table">
+            <thead>
+              <tr class="border-b border-brand-50">
+                <th class="text-left px-4 py-2.5 text-brand-500 font-500 text-xs">Band</th>
+                <th class="text-right px-4 py-2.5 text-brand-500 font-500 text-xs">Rate</th>
+                <th class="text-right px-4 py-2.5 text-brand-500 font-500 text-xs">Taxable</th>
+                <th class="text-right px-4 py-2.5 text-brand-500 font-500 text-xs">Tax</th>
+              </tr>
+            </thead>
+            <tbody id="sd-bands-body">
+              <tr>
+                <td colspan="4" class="px-4 py-6 text-center text-brand-400 text-sm">Enter a property price above</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="bg-brand-50 rounded-xl p-4">
+          <p class="text-xs font-600 text-brand-600 uppercase tracking-wide mb-2">April 2025 rates (England &amp; Wales)</p>
+          <div id="sd-rate-note" class="text-xs text-brand-500 space-y-1">
+            <p>Standard rates apply from 1 April 2025, reverting from the temporary thresholds introduced in 2022.</p>
+          </div>
+        </div>
+
+        <div class="bg-brand-50 rounded-xl p-4 text-xs text-brand-500">
+          <strong class="text-brand-700">Note:</strong> Scotland uses Land and Buildings Transaction Tax (LBTT). Wales uses Land Transaction Tax (LTT). This calculator covers England and Northern Ireland SDLT only. Always verify with HMRC or a solicitor before completion.
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Rate table reference -->
+    <section class="mt-12">
+      <h2 class="font-display font-700 text-xl text-brand-800 mb-5">Current SDLT rates (from 1 April 2025)</h2>
+      <div class="grid sm:grid-cols-3 gap-6">
+
+        <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+          <div class="px-5 py-3 bg-brand-50 border-b border-brand-100">
+            <p class="font-600 text-brand-700 text-sm">Moving home / next property</p>
+          </div>
+          <table class="w-full text-sm">
+            <tbody>
+              {[
+                ['Up to £125,000','0%'],
+                ['£125,001 – £250,000','2%'],
+                ['£250,001 – £925,000','5%'],
+                ['£925,001 – £1,500,000','10%'],
+                ['Over £1,500,000','12%'],
+              ].map(([band, rate]) => (
+                <tr class="border-b border-brand-50">
+                  <td class="px-4 py-2.5 text-brand-600 text-xs">{band}</td>
+                  <td class="px-4 py-2.5 text-right font-mono font-600 text-brand-800 text-xs">{rate}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+          <div class="px-5 py-3 bg-accent-50 border-b border-accent-100">
+            <p class="font-600 text-accent-700 text-sm">First-time buyers</p>
+            <p class="text-xs text-accent-500 mt-0.5">Properties up to £500,000</p>
+          </div>
+          <table class="w-full text-sm">
+            <tbody>
+              {[
+                ['Up to £300,000','0%'],
+                ['£300,001 – £500,000','5%'],
+                ['Over £500,000','Standard rates apply'],
+              ].map(([band, rate]) => (
+                <tr class="border-b border-brand-50">
+                  <td class="px-4 py-2.5 text-brand-600 text-xs">{band}</td>
+                  <td class="px-4 py-2.5 text-right font-mono font-600 text-brand-800 text-xs">{rate}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm">
+          <div class="px-5 py-3 bg-red-50 border-b border-red-100">
+            <p class="font-600 text-red-700 text-sm">Additional property</p>
+            <p class="text-xs text-red-400 mt-0.5">+5% surcharge on all bands</p>
+          </div>
+          <table class="w-full text-sm">
+            <tbody>
+              {[
+                ['Up to £125,000','5%'],
+                ['£125,001 – £250,000','7%'],
+                ['£250,001 – £925,000','10%'],
+                ['£925,001 – £1,500,000','15%'],
+                ['Over £1,500,000','17%'],
+              ].map(([band, rate]) => (
+                <tr class="border-b border-brand-50">
+                  <td class="px-4 py-2.5 text-brand-600 text-xs">{band}</td>
+                  <td class="px-4 py-2.5 text-right font-mono font-600 text-red-700 text-xs">{rate}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <Footer />
+</Base>
+
+<script is:inline>
+  function fmt(n) {
+    return '\u00a3' + Math.round(n).toLocaleString('en-GB');
+  }
+
+  function parseNum(raw) {
+    return parseFloat(raw.replace(/[\u00a3,\s]/g, '')) || 0;
+  }
+
+  function getBands(buyerType, price) {
+    if (buyerType === 'ftb' && price <= 500000) {
+      return [
+        { from: 0,      to: 300000,   rate: 0,  label: 'Up to \u00a3300,000' },
+        { from: 300000, to: 500000,   rate: 5,  label: '\u00a3300,001 \u2013 \u00a3500,000' },
+      ];
+    }
+    var base = [
+      { from: 0,       to: 125000,   rate: 0,  label: 'Up to \u00a3125,000' },
+      { from: 125000,  to: 250000,   rate: 2,  label: '\u00a3125,001 \u2013 \u00a3250,000' },
+      { from: 250000,  to: 925000,   rate: 5,  label: '\u00a3250,001 \u2013 \u00a3925,000' },
+      { from: 925000,  to: 1500000,  rate: 10, label: '\u00a3925,001 \u2013 \u00a31,500,000' },
+      { from: 1500000, to: Infinity, rate: 12, label: 'Over \u00a31,500,000' },
+    ];
+    if (buyerType === 'additional') {
+      return base.map(function(b) { return { from: b.from, to: b.to, rate: b.rate + 5, label: b.label }; });
+    }
+    return base;
+  }
+
+  function calcSdlt(price, buyerType) {
+    if (price <= 0) return { total: 0, rows: [] };
+    var bands = getBands(buyerType, price);
+    var total = 0;
+    var rows = [];
+    for (var j = 0; j < bands.length; j++) {
+      var band = bands[j];
+      if (price <= band.from) break;
+      var taxable = Math.max(0, Math.min(price, band.to) - band.from);
+      var tax = taxable * (band.rate / 100);
+      total += tax;
+      rows.push({ band: band, taxable: taxable, tax: tax });
+    }
+    return { total: total, rows: rows };
+  }
+
+  function getBuyerType() {
+    var el = document.querySelector('input[name="buyer-type"]:checked');
+    return el ? el.value : 'standard';
+  }
+
+  function buildRow(r, idx) {
+    var active = r.taxable > 0;
+    var rowClass = 'border-b border-brand-50' + (idx % 2 !== 0 ? ' bg-brand-50/30' : '') + (!active ? ' opacity-40' : '');
+    var taxableCell = active ? fmt(r.taxable) : '\u2014';
+    var taxCell = active ? fmt(r.tax) : '\u00a30';
+    var taxCellClass = r.tax > 0 ? 'text-accent-600' : 'text-brand-400';
+    var tr = document.createElement('tr');
+    tr.className = rowClass;
+    tr.innerHTML =
+      '<td class="px-4 py-2.5 text-brand-600 text-xs">' + r.band.label + '</td>' +
+      '<td class="px-4 py-2.5 text-right font-mono text-xs text-brand-600">' + r.band.rate + '%</td>' +
+      '<td class="px-4 py-2.5 text-right font-mono text-xs text-brand-600">' + taxableCell + '</td>' +
+      '<td class="px-4 py-2.5 text-right font-mono font-600 text-xs ' + taxCellClass + '">' + taxCell + '</td>';
+    return tr;
+  }
+
+  function calculate() {
+    var price = parseNum(document.getElementById('sd-price').value);
+    var buyerType = getBuyerType();
+    var totalEl = document.getElementById('sd-total');
+    var rateEl = document.getElementById('sd-effective-rate');
+    var tbody = document.getElementById('sd-bands-body');
+    var noteEl = document.getElementById('sd-rate-note');
+
+    if (!price) {
+      totalEl.textContent = '\u2014';
+      rateEl.textContent = 'Enter a price to calculate';
+      tbody.innerHTML = '<tr><td colspan="4" class="px-4 py-6 text-center text-brand-400 text-sm">Enter a property price above</td></tr>';
+      return;
+    }
+
+    var result = calcSdlt(price, buyerType);
+    var effectiveRate = price > 0 ? ((result.total / price) * 100).toFixed(2) : '0.00';
+
+    totalEl.textContent = fmt(result.total);
+    rateEl.textContent = 'Effective rate: ' + effectiveRate + '% of property price';
+
+    tbody.innerHTML = '';
+    for (var i = 0; i < result.rows.length; i++) {
+      tbody.appendChild(buildRow(result.rows[i], i));
+    }
+
+    if (buyerType === 'ftb' && price <= 500000) {
+      noteEl.innerHTML = '<p>First-time buyer relief applied. Zero SDLT on the first \u00a3300,000; 5% on the portion between \u00a3300,000 and \u00a3500,000.</p>';
+    } else if (buyerType === 'ftb' && price > 500000) {
+      noteEl.innerHTML = '<p>Property price exceeds \u00a3500,000 \u2014 standard rates apply (no first-time buyer relief).</p>';
+    } else if (buyerType === 'additional') {
+      noteEl.innerHTML = '<p>Additional property 5% surcharge (effective from October 2024) applied to all bands.</p>';
+    } else {
+      noteEl.innerHTML = '<p>Standard residential rates from 1 April 2025, reverting from the temporary thresholds introduced in 2022.</p>';
+    }
+  }
+
+  function formatInput(el) {
+    var raw = el.value.replace(/[^0-9]/g, '');
+    if (raw) el.value = parseInt(raw, 10).toLocaleString('en-GB');
+  }
+
+  var priceInput = document.getElementById('sd-price');
+  priceInput.addEventListener('input', function() { formatInput(priceInput); calculate(); });
+
+  document.querySelectorAll('input[name="buyer-type"]').forEach(function(el) {
+    el.addEventListener('change', calculate);
+  });
+</script>

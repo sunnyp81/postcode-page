@@ -1,0 +1,427 @@
+---
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/global/Header.astro';
+import Footer from '../../components/global/Footer.astro';
+---
+<Base
+  title="Area Comparison Tool — Compare Any Two UK Postcodes | Postcode.Page"
+  description="Compare any two UK postcode districts side by side. See house prices, crime rates, school ratings, broadband speeds and council tax compared instantly."
+>
+  <Header />
+
+  <div class="relative overflow-hidden bg-brand-950 text-white">
+    <div class="absolute inset-0 opacity-20 dot-grid" aria-hidden="true"/>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <p class="font-mono text-accent-400 text-sm font-500 tracking-widest uppercase mb-2">Tools</p>
+      <h1 class="font-display font-700 text-4xl sm:text-5xl text-white tracking-tight leading-tight">Area Comparison</h1>
+      <p class="text-brand-300 text-lg mt-3 max-w-xl">Compare any two UK postcode areas side by side. Enter full postcodes or districts.</p>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-10">
+
+    <!-- Input form -->
+    <div class="bg-white border border-brand-100 rounded-xl p-6 shadow-sm mb-8">
+      <div class="grid sm:grid-cols-2 gap-4 mb-4">
+        <div>
+          <label for="postcode-a" class="block text-sm font-600 text-brand-700 mb-1.5">First area</label>
+          <input
+            id="postcode-a"
+            type="text"
+            placeholder="e.g. SW1A or SW1A 2AA"
+            autocomplete="off"
+            class="w-full px-4 py-3 bg-brand-50 border border-brand-200 rounded-lg text-brand-800 placeholder:text-brand-400 font-mono font-600 uppercase focus:outline-none focus:ring-2 focus:ring-accent-400 focus:border-transparent transition-colors"
+          />
+        </div>
+        <div>
+          <label for="postcode-b" class="block text-sm font-600 text-brand-700 mb-1.5">Second area</label>
+          <input
+            id="postcode-b"
+            type="text"
+            placeholder="e.g. GU1 or GU1 3AH"
+            autocomplete="off"
+            class="w-full px-4 py-3 bg-brand-50 border border-brand-200 rounded-lg text-brand-800 placeholder:text-brand-400 font-mono font-600 uppercase focus:outline-none focus:ring-2 focus:ring-accent-400 focus:border-transparent transition-colors"
+          />
+        </div>
+      </div>
+      <div id="compare-error" class="hidden mb-3 px-4 py-2.5 bg-red-50 border border-red-200 rounded-lg text-red-700 text-sm"></div>
+      <button id="compare-btn" class="w-full py-3 bg-accent-400 text-white rounded-lg font-600 hover:bg-accent-500 transition-colors text-sm">
+        Compare Areas
+      </button>
+      <p class="text-brand-400 text-xs mt-3 text-center">Accepts full postcodes (SW1A 2AA) or districts (SW1A) — any combination</p>
+    </div>
+
+    <!-- Loading state -->
+    <div id="compare-loading" class="hidden text-center py-10 text-brand-400 text-sm">Loading comparison data...</div>
+
+    <!-- Results panel (hidden until compare runs) -->
+    <div id="compare-results" class="hidden">
+
+      <!-- Score banner -->
+      <div class="grid grid-cols-3 gap-4 mb-6">
+        <div class="bg-white border border-brand-100 rounded-xl p-5 shadow-sm text-center">
+          <p class="text-xs font-600 text-brand-500 uppercase tracking-wide mb-1" id="label-a">—</p>
+          <p class="font-display font-700 text-4xl text-accent-500" id="score-a">0</p>
+          <p class="text-brand-400 text-xs mt-1" id="wins-a-label">categories won</p>
+        </div>
+        <div class="bg-brand-50 rounded-xl p-5 text-center flex items-center justify-center">
+          <span class="font-display font-700 text-2xl text-brand-400">vs</span>
+        </div>
+        <div class="bg-white border border-brand-100 rounded-xl p-5 shadow-sm text-center">
+          <p class="text-xs font-600 text-brand-500 uppercase tracking-wide mb-1" id="label-b">—</p>
+          <p class="font-display font-700 text-4xl text-accent-500" id="score-b">0</p>
+          <p class="text-brand-400 text-xs mt-1" id="wins-b-label">categories won</p>
+        </div>
+      </div>
+
+      <!-- Comparison table -->
+      <div class="bg-white border border-brand-100 rounded-xl overflow-hidden shadow-sm mb-6">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-brand-50 border-b border-brand-100">
+              <th class="text-left px-4 py-3 text-brand-600 font-600 w-1/3">Metric</th>
+              <th class="text-center px-4 py-3 text-brand-600 font-600 w-1/3" id="th-a">Area A</th>
+              <th class="text-center px-4 py-3 text-brand-600 font-600 w-1/3" id="th-b">Area B</th>
+            </tr>
+          </thead>
+          <tbody id="compare-tbody"></tbody>
+        </table>
+      </div>
+
+      <!-- Key facts side by side -->
+      <div class="grid md:grid-cols-2 gap-6 mb-6">
+        <div class="bg-white border border-brand-100 rounded-xl p-5 shadow-sm">
+          <h3 class="font-display font-600 text-brand-800 mb-3" id="facts-title-a">Area A — Key Facts</h3>
+          <dl class="space-y-2 text-sm" id="facts-a"></dl>
+          <a id="facts-link-a" href="#" class="mt-4 block text-center text-sm text-accent-500 hover:text-accent-600 font-500 border border-accent-200 rounded-lg py-2 hover:bg-accent-50 transition-colors">
+            Full profile →
+          </a>
+        </div>
+        <div class="bg-white border border-brand-100 rounded-xl p-5 shadow-sm">
+          <h3 class="font-display font-600 text-brand-800 mb-3" id="facts-title-b">Area B — Key Facts</h3>
+          <dl class="space-y-2 text-sm" id="facts-b"></dl>
+          <a id="facts-link-b" href="#" class="mt-4 block text-center text-sm text-accent-500 hover:text-accent-600 font-500 border border-accent-200 rounded-lg py-2 hover:bg-accent-50 transition-colors">
+            Full profile →
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Popular comparisons (shown by default) -->
+    <div id="popular-section">
+      <h2 class="font-display font-700 text-xl text-brand-800 mb-4">Popular comparisons</h2>
+      <div class="flex flex-wrap gap-2">
+        {[
+          ['SW1A','SW3'],['GU1','GU2'],['M1','M2'],['LS1','LS2'],
+          ['B1','B2'],['E1','E2'],['N1','N2'],['W1','W2'],
+          ['BS1','BS2'],['OX1','OX2'],['CF10','CF24'],['RG1','RG2'],
+        ].map(([a,b]) => (
+          <button
+            class="popular-pair text-sm px-3 py-1.5 bg-brand-50 text-brand-600 rounded-lg hover:bg-accent-50 hover:text-accent-600 transition-colors border border-brand-100"
+            data-a={a}
+            data-b={b}
+          >
+            {a} vs {b}
+          </button>
+        ))}
+      </div>
+    </div>
+
+  </main>
+
+  <Footer />
+</Base>
+
+<script is:inline>
+(function() {
+
+  // Extract district from full postcode or district input
+  function extractDistrict(raw) {
+    var s = raw.trim().toUpperCase().replace(/\s+/g, '');
+    // Full postcode e.g. SW1A2AA → strip last 3
+    var full = s.match(/^([A-Z]{1,2}\d[A-Z\d]?)\d[A-Z]{2}$/);
+    if (full) return full[1];
+    // District e.g. SW1A, GU1, M1
+    if (/^[A-Z]{1,2}\d[A-Z\d]?$/.test(s)) return s;
+    return null;
+  }
+
+  function fmtPrice(n) {
+    if (!n) return 'N/A';
+    return '\u00a3' + Math.round(n).toLocaleString('en-GB');
+  }
+
+  function winner(aVal, bVal, lowerIsBetter) {
+    if (aVal === bVal) return 'tie';
+    if (lowerIsBetter) return aVal < bVal ? 'a' : 'b';
+    return aVal > bVal ? 'a' : 'b';
+  }
+
+  var dataCache = null;
+
+  function loadData(cb) {
+    if (dataCache) { cb(null, dataCache); return; }
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', '/data/compare-index.json');
+    xhr.onload = function() {
+      if (xhr.status === 200) {
+        try {
+          dataCache = JSON.parse(xhr.responseText);
+          cb(null, dataCache);
+        } catch(e) {
+          cb('Failed to parse data');
+        }
+      } else {
+        cb('Failed to load data (HTTP ' + xhr.status + ')');
+      }
+    };
+    xhr.onerror = function() { cb('Network error loading data'); };
+    xhr.send();
+  }
+
+  function runCompare(codeA, codeB) {
+    var errorEl = document.getElementById('compare-error');
+    var loadingEl = document.getElementById('compare-loading');
+    var resultsEl = document.getElementById('compare-results');
+    var popularEl = document.getElementById('popular-section');
+
+    errorEl.classList.add('hidden');
+    resultsEl.classList.add('hidden');
+    loadingEl.classList.remove('hidden');
+
+    loadData(function(err, data) {
+      loadingEl.classList.add('hidden');
+      if (err) {
+        errorEl.textContent = err;
+        errorEl.classList.remove('hidden');
+        return;
+      }
+
+      var a = data[codeA];
+      var b = data[codeB];
+
+      if (!a) {
+        errorEl.textContent = 'No data found for ' + codeA + '. Check the postcode district and try again.';
+        errorEl.classList.remove('hidden');
+        return;
+      }
+      if (!b) {
+        errorEl.textContent = 'No data found for ' + codeB + '. Check the postcode district and try again.';
+        errorEl.classList.remove('hidden');
+        return;
+      }
+
+      // Build rows
+      var rows = [
+        {
+          label: 'Avg House Price',
+          aVal: a.avgPrice, bVal: b.avgPrice,
+          fmt: fmtPrice, win: winner(a.avgPrice, b.avgPrice, false), note: 'higher price'
+        },
+        {
+          label: '1-Year Price Change',
+          aVal: a.priceChange1y, bVal: b.priceChange1y,
+          fmt: function(v) { return v != null ? (v > 0 ? '+' : '') + v.toFixed(1) + '%' : 'N/A'; },
+          win: winner(a.priceChange1y || 0, b.priceChange1y || 0, false), note: 'faster growth'
+        },
+        {
+          label: 'Crime (per 1,000)',
+          aVal: a.crimePer1000, bVal: b.crimePer1000,
+          fmt: function(v) { return v != null ? v.toFixed(1) : 'N/A'; },
+          win: winner(a.crimePer1000 || 0, b.crimePer1000 || 0, true), note: 'lower crime'
+        },
+        {
+          label: 'Schools Good+',
+          aVal: a.schoolsGoodPct, bVal: b.schoolsGoodPct,
+          fmt: function(v) { return v + '%'; },
+          win: winner(a.schoolsGoodPct, b.schoolsGoodPct, false), note: 'better schools'
+        },
+        {
+          label: 'Avg Broadband',
+          aVal: a.broadbandAvg, bVal: b.broadbandAvg,
+          fmt: function(v) { return v != null ? v.toFixed(0) + ' Mbps' : 'N/A'; },
+          win: winner(a.broadbandAvg || 0, b.broadbandAvg || 0, false), note: 'faster broadband'
+        },
+        {
+          label: 'Council Tax Band D',
+          aVal: a.councilTaxBandD, bVal: b.councilTaxBandD,
+          fmt: fmtPrice, win: winner(a.councilTaxBandD || 0, b.councilTaxBandD || 0, true), note: 'lower council tax'
+        },
+        {
+          label: 'Owner-Occupied',
+          aVal: a.ownerOccupied, bVal: b.ownerOccupied,
+          fmt: function(v) { return v + '%'; },
+          win: winner(a.ownerOccupied, b.ownerOccupied, false), note: 'more owner-occupied'
+        },
+        {
+          label: 'Superfast Broadband',
+          aVal: a.superfastPct, bVal: b.superfastPct,
+          fmt: function(v) { return v + '%'; },
+          win: winner(a.superfastPct, b.superfastPct, false), note: 'better coverage'
+        },
+      ];
+
+      var aWins = rows.filter(function(r) { return r.win === 'a'; }).length;
+      var bWins = rows.filter(function(r) { return r.win === 'b'; }).length;
+
+      var labelA = codeA + (a.name && a.name !== codeA ? ' (' + a.name + ')' : '');
+      var labelB = codeB + (b.name && b.name !== codeB ? ' (' + b.name + ')' : '');
+
+      // Score banner
+      document.getElementById('label-a').textContent = codeA + ' wins';
+      document.getElementById('label-b').textContent = codeB + ' wins';
+      document.getElementById('score-a').textContent = aWins;
+      document.getElementById('score-b').textContent = bWins;
+      document.getElementById('wins-a-label').textContent = 'of ' + rows.length + ' categories';
+      document.getElementById('wins-b-label').textContent = 'of ' + rows.length + ' categories';
+
+      // Table headers
+      document.getElementById('th-a').textContent = codeA;
+      document.getElementById('th-b').textContent = codeB;
+
+      // Table body
+      var tbody = document.getElementById('compare-tbody');
+      tbody.innerHTML = '';
+      rows.forEach(function(row, i) {
+        var tr = document.createElement('tr');
+        tr.className = 'border-b border-brand-50' + (i % 2 !== 0 ? ' bg-brand-50/20' : '');
+
+        var tdLabel = document.createElement('td');
+        tdLabel.className = 'px-4 py-3 text-brand-700 font-500';
+        tdLabel.textContent = row.label;
+
+        var tdA = document.createElement('td');
+        tdA.className = 'px-4 py-3 text-center font-mono font-600 ' + (row.win === 'a' ? 'text-accent-600 bg-accent-50/50' : 'text-brand-600');
+        tdA.textContent = row.fmt(row.aVal);
+        if (row.win === 'a') {
+          var tick = document.createElement('span');
+          tick.className = 'ml-1 text-xs text-accent-500';
+          tick.textContent = '\u2713';
+          tdA.appendChild(tick);
+        }
+
+        var tdB = document.createElement('td');
+        tdB.className = 'px-4 py-3 text-center font-mono font-600 ' + (row.win === 'b' ? 'text-accent-600 bg-accent-50/50' : 'text-brand-600');
+        tdB.textContent = row.fmt(row.bVal);
+        if (row.win === 'b') {
+          var tick2 = document.createElement('span');
+          tick2.className = 'ml-1 text-xs text-accent-500';
+          tick2.textContent = '\u2713';
+          tdB.appendChild(tick2);
+        }
+
+        tr.appendChild(tdLabel);
+        tr.appendChild(tdA);
+        tr.appendChild(tdB);
+        tbody.appendChild(tr);
+      });
+
+      // Key facts
+      document.getElementById('facts-title-a').textContent = labelA + ' \u2014 Key Facts';
+      document.getElementById('facts-title-b').textContent = labelB + ' \u2014 Key Facts';
+
+      function buildFacts(el, code, d) {
+        el.innerHTML = '';
+        var items = [
+          ['County', d.county ? d.county.replace(/-/g, ' ') : 'N/A'],
+          ['Region', d.region ? d.region.replace(/-/g, ' ') : 'N/A'],
+          ['Transactions (12m)', d.transactions12m ? d.transactions12m.toLocaleString('en-GB') : 'N/A'],
+          ['Full fibre', d.fullFibrePct + '%'],
+          ['Schools', d.schoolsCount + ' total'],
+          ['Owner-occupied', d.ownerOccupied + '%'],
+        ];
+        items.forEach(function(item) {
+          var div = document.createElement('div');
+          div.className = 'flex justify-between';
+          var dt = document.createElement('dt');
+          dt.className = 'text-brand-500';
+          dt.textContent = item[0];
+          var dd = document.createElement('dd');
+          dd.className = 'font-500 capitalize';
+          dd.textContent = item[1];
+          div.appendChild(dt);
+          div.appendChild(dd);
+          el.appendChild(div);
+        });
+      }
+
+      buildFacts(document.getElementById('facts-a'), codeA, a);
+      buildFacts(document.getElementById('facts-b'), codeB, b);
+
+      var linkA = document.getElementById('facts-link-a');
+      linkA.href = '/' + codeA.toLowerCase() + '/';
+      linkA.textContent = 'Full ' + codeA + ' profile \u2192';
+
+      var linkB = document.getElementById('facts-link-b');
+      linkB.href = '/' + codeB.toLowerCase() + '/';
+      linkB.textContent = 'Full ' + codeB + ' profile \u2192';
+
+      popularEl.classList.add('hidden');
+      resultsEl.classList.remove('hidden');
+
+      // Scroll to results
+      resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  }
+
+  function handleCompare() {
+    var errorEl = document.getElementById('compare-error');
+    errorEl.classList.add('hidden');
+
+    var rawA = document.getElementById('postcode-a').value;
+    var rawB = document.getElementById('postcode-b').value;
+
+    var a = extractDistrict(rawA);
+    var b = extractDistrict(rawB);
+
+    if (!rawA.trim() || !rawB.trim()) {
+      errorEl.textContent = 'Please enter both postcodes.';
+      errorEl.classList.remove('hidden');
+      return;
+    }
+    if (!a) {
+      errorEl.textContent = '\u201c' + rawA + '\u201d is not a valid UK postcode or district.';
+      errorEl.classList.remove('hidden');
+      return;
+    }
+    if (!b) {
+      errorEl.textContent = '\u201c' + rawB + '\u201d is not a valid UK postcode or district.';
+      errorEl.classList.remove('hidden');
+      return;
+    }
+    if (a === b) {
+      errorEl.textContent = 'Please enter two different areas.';
+      errorEl.classList.remove('hidden');
+      return;
+    }
+
+    runCompare(a, b);
+  }
+
+  document.getElementById('compare-btn').addEventListener('click', handleCompare);
+
+  // Enter key on inputs
+  ['postcode-a', 'postcode-b'].forEach(function(id) {
+    var el = document.getElementById(id);
+    el.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') handleCompare();
+    });
+    el.addEventListener('input', function() {
+      el.value = el.value.toUpperCase();
+    });
+  });
+
+  // Popular pair buttons
+  document.querySelectorAll('.popular-pair').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var a = btn.getAttribute('data-a');
+      var b = btn.getAttribute('data-b');
+      document.getElementById('postcode-a').value = a;
+      document.getElementById('postcode-b').value = b;
+      runCompare(a, b);
+    });
+  });
+
+})();
+</script>

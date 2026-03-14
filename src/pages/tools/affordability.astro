@@ -1,0 +1,238 @@
+---
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/global/Header.astro';
+import Footer from '../../components/global/Footer.astro';
+---
+<Base
+  title="Affordability Calculator — What Salary Do You Need? | Postcode.Page"
+  description="Calculate the salary you need to buy a home in any UK area. Enter a property price and deposit to find out what income is required and estimate monthly mortgage payments."
+>
+  <Header />
+
+  <div class="relative overflow-hidden bg-brand-950 text-white">
+    <div class="absolute inset-0 opacity-20 dot-grid" aria-hidden="true"/>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <p class="font-mono text-accent-400 text-sm font-500 tracking-widest uppercase mb-2">Tools</p>
+      <h1 class="font-display font-700 text-4xl sm:text-5xl text-white tracking-tight leading-tight">Affordability Calculator</h1>
+      <p class="text-brand-300 text-lg mt-3 max-w-xl">Find out what salary you need to buy a home and estimate your monthly mortgage payments.</p>
+    </div>
+  </div>
+
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+    <div class="grid md:grid-cols-2 gap-8 items-start">
+
+      <!-- Inputs -->
+      <div class="bg-white border border-brand-100 rounded-xl p-6 shadow-sm">
+        <h2 class="font-display font-700 text-lg text-brand-800 mb-5">Your details</h2>
+
+        <div class="space-y-5">
+
+          <div>
+            <label for="property-price" class="block text-sm font-600 text-brand-700 mb-1.5">Property price</label>
+            <div class="relative">
+              <span class="absolute left-3 top-1/2 -translate-y-1/2 text-brand-400 font-600">£</span>
+              <input
+                id="property-price"
+                type="text"
+                inputmode="numeric"
+                placeholder="350,000"
+                class="w-full pl-7 pr-4 py-3 bg-brand-50 border border-brand-200 rounded-lg text-brand-800 font-mono font-600 focus:outline-none focus:ring-2 focus:ring-accent-400 focus:border-transparent transition-colors"
+              />
+            </div>
+            <p class="text-brand-400 text-xs mt-1">Look up the average price on any <a href="/" class="text-accent-500 hover:underline">postcode page</a></p>
+          </div>
+
+          <div>
+            <label for="deposit" class="block text-sm font-600 text-brand-700 mb-1.5">Deposit</label>
+            <div class="relative">
+              <span class="absolute left-3 top-1/2 -translate-y-1/2 text-brand-400 font-600">£</span>
+              <input
+                id="deposit"
+                type="text"
+                inputmode="numeric"
+                placeholder="35,000"
+                class="w-full pl-7 pr-4 py-3 bg-brand-50 border border-brand-200 rounded-lg text-brand-800 font-mono font-600 focus:outline-none focus:ring-2 focus:ring-accent-400 focus:border-transparent transition-colors"
+              />
+            </div>
+          </div>
+
+          <div>
+            <label for="mortgage-multiple" class="block text-sm font-600 text-brand-700 mb-1.5">
+              Income multiple
+              <span class="font-400 text-brand-400 ml-1">(lender typical range: 4–5×)</span>
+            </label>
+            <select
+              id="mortgage-multiple"
+              class="w-full px-4 py-3 bg-brand-50 border border-brand-200 rounded-lg text-brand-800 font-600 focus:outline-none focus:ring-2 focus:ring-accent-400 focus:border-transparent transition-colors"
+            >
+              <option value="4">4× salary (conservative)</option>
+              <option value="4.5" selected>4.5× salary (typical)</option>
+              <option value="5">5× salary (high)</option>
+              <option value="5.5">5.5× salary (exceptional)</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="interest-rate" class="block text-sm font-600 text-brand-700 mb-1.5">
+              Mortgage rate (%)
+            </label>
+            <input
+              id="interest-rate"
+              type="number"
+              min="1"
+              max="15"
+              step="0.1"
+              value="4.5"
+              class="w-full px-4 py-3 bg-brand-50 border border-brand-200 rounded-lg text-brand-800 font-mono font-600 focus:outline-none focus:ring-2 focus:ring-accent-400 focus:border-transparent transition-colors"
+            />
+          </div>
+
+          <div>
+            <label for="term-years" class="block text-sm font-600 text-brand-700 mb-1.5">Mortgage term</label>
+            <select
+              id="term-years"
+              class="w-full px-4 py-3 bg-brand-50 border border-brand-200 rounded-lg text-brand-800 font-600 focus:outline-none focus:ring-2 focus:ring-accent-400 focus:border-transparent transition-colors"
+            >
+              <option value="20">20 years</option>
+              <option value="25" selected>25 years</option>
+              <option value="30">30 years</option>
+              <option value="35">35 years</option>
+            </select>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="space-y-4">
+
+        <div id="result-salary" class="bg-white border border-brand-100 rounded-xl p-6 shadow-sm">
+          <p class="text-xs font-600 text-brand-500 uppercase tracking-wide mb-1">Minimum salary needed</p>
+          <p class="font-display font-700 text-4xl text-accent-500" id="out-salary">—</p>
+          <p class="text-brand-400 text-sm mt-1" id="out-salary-joint">Enter details above to calculate</p>
+        </div>
+
+        <div class="bg-white border border-brand-100 rounded-xl p-6 shadow-sm">
+          <p class="text-xs font-600 text-brand-500 uppercase tracking-wide mb-1">Monthly mortgage payment</p>
+          <p class="font-display font-700 text-4xl text-accent-500" id="out-monthly">—</p>
+          <p class="text-brand-400 text-sm mt-1" id="out-monthly-note">&nbsp;</p>
+        </div>
+
+        <div class="bg-white border border-brand-100 rounded-xl p-6 shadow-sm">
+          <p class="text-xs font-600 text-brand-500 uppercase tracking-wide mb-3">Breakdown</p>
+          <dl class="space-y-2 text-sm" id="out-breakdown">
+            <div class="flex justify-between text-brand-500"><dt>Property price</dt><dd id="bd-price">—</dd></div>
+            <div class="flex justify-between text-brand-500"><dt>Deposit</dt><dd id="bd-deposit">—</dd></div>
+            <div class="flex justify-between text-brand-500"><dt>Deposit %</dt><dd id="bd-ltv">—</dd></div>
+            <div class="flex justify-between font-600 text-brand-700 border-t border-brand-100 pt-2"><dt>Mortgage required</dt><dd id="bd-mortgage">—</dd></div>
+            <div class="flex justify-between text-brand-500"><dt>Total repaid over term</dt><dd id="bd-total">—</dd></div>
+            <div class="flex justify-between text-brand-500"><dt>Total interest</dt><dd id="bd-interest">—</dd></div>
+          </dl>
+        </div>
+
+        <div class="bg-brand-50 rounded-xl p-4 text-xs text-brand-500">
+          <strong class="text-brand-700">Note:</strong> This is an estimate. Lenders assess affordability based on income, outgoings, credit history, and stress testing. Speak to a mortgage broker for personal advice. Monthly payment assumes capital repayment mortgage.
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Context section -->
+    <section class="mt-12">
+      <h2 class="font-display font-700 text-xl text-brand-800 mb-5">UK affordability context</h2>
+      <div class="grid sm:grid-cols-3 gap-4">
+        <div class="bg-white border border-brand-100 rounded-xl p-5 shadow-sm">
+          <p class="text-xs font-600 text-brand-500 uppercase tracking-wide mb-2">UK average house price</p>
+          <p class="font-display font-700 text-2xl text-brand-800">£286,000</p>
+          <p class="text-brand-400 text-xs mt-1">England &amp; Wales, 2024</p>
+        </div>
+        <div class="bg-white border border-brand-100 rounded-xl p-5 shadow-sm">
+          <p class="text-xs font-600 text-brand-500 uppercase tracking-wide mb-2">Typical 10% deposit</p>
+          <p class="font-display font-700 text-2xl text-brand-800">£28,600</p>
+          <p class="text-brand-400 text-xs mt-1">On UK average price</p>
+        </div>
+        <div class="bg-white border border-brand-100 rounded-xl p-5 shadow-sm">
+          <p class="text-xs font-600 text-brand-500 uppercase tracking-wide mb-2">Salary needed (4.5×)</p>
+          <p class="font-display font-700 text-2xl text-brand-800">£57,156</p>
+          <p class="text-brand-400 text-xs mt-1">For UK average price + 10% deposit</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <Footer />
+</Base>
+
+<script is:inline>
+  function fmt(n) {
+    return '\u00a3' + Math.round(n).toLocaleString('en-GB');
+  }
+
+  function parseNum(raw) {
+    return parseFloat(raw.replace(/[\u00a3,\s]/g, '')) || 0;
+  }
+
+  function calcMonthly(principal, annualRate, years) {
+    if (principal <= 0) return 0;
+    var r = annualRate / 100 / 12;
+    var n = years * 12;
+    if (r === 0) return principal / n;
+    return principal * (r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
+  }
+
+  function calculate() {
+    var price = parseNum(document.getElementById('property-price').value);
+    var deposit = parseNum(document.getElementById('deposit').value);
+    var multiple = parseFloat(document.getElementById('mortgage-multiple').value);
+    var rate = parseFloat(document.getElementById('interest-rate').value) || 4.5;
+    var term = parseInt(document.getElementById('term-years').value);
+
+    if (!price || !deposit) {
+      document.getElementById('out-salary').textContent = '\u2014';
+      document.getElementById('out-salary-joint').textContent = 'Enter details above to calculate';
+      document.getElementById('out-monthly').textContent = '\u2014';
+      document.getElementById('out-monthly-note').innerHTML = '&nbsp;';
+      ['bd-price','bd-deposit','bd-ltv','bd-mortgage','bd-total','bd-interest'].forEach(function(id) {
+        document.getElementById(id).textContent = '\u2014';
+      });
+      return;
+    }
+
+    var mortgage = Math.max(0, price - deposit);
+    var salaryNeeded = mortgage / multiple;
+    var ltv = ((mortgage / price) * 100).toFixed(1);
+    var monthly = calcMonthly(mortgage, rate, term);
+    var totalRepaid = monthly * term * 12;
+    var totalInterest = totalRepaid - mortgage;
+
+    document.getElementById('out-salary').textContent = fmt(salaryNeeded);
+    document.getElementById('out-salary-joint').textContent =
+      'Or ' + fmt(salaryNeeded / 2) + ' each for a joint mortgage at ' + multiple + '\u00d7 income';
+
+    document.getElementById('out-monthly').textContent = fmt(monthly) + '/mo';
+    document.getElementById('out-monthly-note').textContent =
+      rate + '% rate, ' + term + '-year capital repayment';
+
+    document.getElementById('bd-price').textContent = fmt(price);
+    document.getElementById('bd-deposit').textContent = fmt(deposit);
+    document.getElementById('bd-ltv').textContent = ltv + '% LTV';
+    document.getElementById('bd-mortgage').textContent = fmt(mortgage);
+    document.getElementById('bd-total').textContent = fmt(totalRepaid);
+    document.getElementById('bd-interest').textContent = fmt(totalInterest);
+  }
+
+  function formatInput(el) {
+    var raw = el.value.replace(/[^0-9]/g, '');
+    if (raw) el.value = parseInt(raw, 10).toLocaleString('en-GB');
+  }
+
+  ['property-price','deposit'].forEach(function(id) {
+    var el = document.getElementById(id);
+    el.addEventListener('input', function() { formatInput(el); calculate(); });
+  });
+
+  ['mortgage-multiple','interest-rate','term-years'].forEach(function(id) {
+    document.getElementById(id).addEventListener('change', calculate);
+  });
+</script>
