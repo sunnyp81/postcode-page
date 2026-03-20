@@ -12,6 +12,19 @@ const categories = [...new Set(posts.map(p => p.data.category))];
 const featured = posts[0];
 const rest = posts.slice(1);
 
+// Editorially-picked essential guides (by slug)
+const essentialSlugs = [
+  'how-to-research-a-postcode-before-buying',
+  'first-time-buyer-guide-to-area-research',
+  'council-tax-bands-explained',
+  'best-places-to-live-uk-2026',
+  'how-to-check-if-an-area-is-safe',
+  'understanding-house-price-data',
+];
+const essentialPosts = essentialSlugs
+  .map(slug => posts.find(p => p.id.replace(/\.mdx?$/, '') === slug))
+  .filter(Boolean) as typeof posts;
+
 function categoryColor(cat: string) {
   const map: Record<string, string> = {
     'Buying Guides': 'bg-accent-50 text-accent-600 border-accent-200',
@@ -105,6 +118,34 @@ function categoryIcon(cat: string) {
         </div>
       </div>
     </a>
+
+    <!-- Essential guides -->
+    {essentialPosts.length > 0 && (
+      <section class="mb-12">
+        <div class="flex items-baseline justify-between mb-5">
+          <h2 class="font-display font-700 text-xl text-brand-800">Essential guides</h2>
+          <span class="text-xs text-brand-400 font-mono">{essentialPosts.length} guides</span>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {essentialPosts.map(post => (
+            <a
+              href={`/blog/${post.id.replace(/\.mdx?$/, '')}/`}
+              class="group flex items-start gap-3 bg-white border border-brand-100 rounded-xl p-4 shadow-sm hover:border-accent-300 hover:shadow-md transition-all"
+            >
+              <div class="w-8 h-8 rounded-lg bg-accent-50 border border-accent-200 flex items-center justify-center shrink-0 mt-0.5">
+                <svg class="w-4 h-4 text-accent-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                </svg>
+              </div>
+              <div class="min-w-0">
+                <h3 class="font-display font-600 text-sm text-brand-900 group-hover:text-accent-500 transition-colors leading-snug">{post.data.title}</h3>
+                <p class="text-xs text-brand-400 mt-1">{post.data.readTime} min read</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
 
     <!-- Grid of remaining posts -->
     {rest.length > 0 && (

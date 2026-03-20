@@ -26,10 +26,12 @@ const slug = category.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+$/, '
 const catDescriptions: Record<string, string> = {
   'Buying Guides': 'Practical guides for UK homebuyers — from area research checklists to council tax and moving tips.',
   'House Prices': 'How UK house prices work — Land Registry data, Ofsted premiums, and why prices vary within a postcode.',
+  'Data Explained': 'How to read and interpret official UK property data — Land Registry prices, deprivation indices, and the numbers behind area research.',
   'Explainers': 'Clear explanations of UK postcode systems, deprivation indices, and the data behind area research.',
   'First-Time Buyers': 'Step-by-step guides for first-time buyers researching areas, comparing postcodes, and understanding property data.',
   'Crime & Safety': 'How to use Police.uk crime statistics to compare area safety — and what the data does and doesn\'t tell you.',
   'Broadband': 'How broadband speeds and fibre coverage affect property values and quality of life by postcode district.',
+  'Area Research': 'Data-driven analysis of UK areas — best places to live rankings, population trends, and regional comparisons.',
 };
 const description = catDescriptions[category] ?? `${category} articles from Postcode.Page — data-driven property research guides.`;
 ---

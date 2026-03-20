@@ -5,8 +5,13 @@ import TrendChart from '../../components/data/TrendChart.astro';
 import BarChart from '../../components/data/BarChart.astro';
 import SynthesisCard from '../../components/content/SynthesisCard.astro';
 import NearbyGrid from '../../components/content/NearbyGrid.astro';
+import RelatedGuides from '../../components/content/RelatedGuides.astro';
+import FAQSection from '../../components/content/FAQSection.astro';
 import MortgageCTA from '../../components/cta/MortgageCTA.astro';
 import ValuationCTA from '../../components/cta/ValuationCTA.astro';
+import UrbanSVG from '../../components/svg/UrbanSVG.astro';
+import SuburbanSVG from '../../components/svg/SuburbanSVG.astro';
+import RuralSVG from '../../components/svg/RuralSVG.astro';
 import {
   getAllPostcodeSlugs,
   getPostcodeData,
@@ -21,7 +26,7 @@ import {
   crimeSentiment,
   schoolSentiment,
 } from '../../utils/format';
-import { buildPostcodeSchema, buildFAQSchema, type FAQItem } from '../../utils/schema';
+import { buildPostcodeSchema } from '../../utils/schema';
 
 export async function getStaticPaths() {
   const slugs = getAllPostcodeSlugs();
@@ -45,47 +50,18 @@ const priceVsCounty = pctDiff(property.avgPrice, countyAvgPrice);
 const countyLabel = capitalize(county);
 const regionLabel = capitalize(region);
 
-const pageTitle = `${code} — ${name} | Property Prices, Crime & Area Data`;
-const metaDescription = `${code} (${name}): average house price ${formatPriceFull(property.avgPrice)} (${property.priceChange1y > 0 ? '+' : ''}${property.priceChange1y.toFixed(1)}% YoY). Crime ${Math.abs(crime.vsNational).toFixed(0)}% ${crime.vsNational < 0 ? 'below' : 'above'} national average. ${schools.outstanding} Outstanding-rated school${schools.outstanding !== 1 ? 's' : ''}. Data updated ${data.meta.lastUpdated}.`;
+const pageTitle = `${code} ${name} — House Prices, Crime Rate & Demographics | Postcode.Page`;
 
-// Build FAQ data from real district metrics
-const goodSchoolPct = schools.count > 0
-  ? Math.round((schools.outstanding + schools.good) / schools.count * 100)
-  : 0;
-const crimeVerdict = crime.vsNational < -20
-  ? `significantly below the national average (${crime.totalPer1000.toFixed(1)} crimes per 1,000 residents vs the national average of ${crime.nationalAvgPer1000.toFixed(1)})`
-  : crime.vsNational > 20
-    ? `above the national average (${crime.totalPer1000.toFixed(1)} crimes per 1,000 residents vs ${crime.nationalAvgPer1000.toFixed(1)} nationally)`
-    : `close to the national average at ${crime.totalPer1000.toFixed(1)} crimes per 1,000 residents`;
+const _pricePart = `Avg house price ${formatPriceFull(property.avgPrice)} (${property.priceChange1y > 0 ? '+' : ''}${property.priceChange1y.toFixed(1)}% YoY).`;
+const _crimePart = `Crime rate ${crime.totalPer1000.toFixed(1)}/1,000 (${Math.abs(crime.vsNational).toFixed(0)}% ${crime.vsNational < 0 ? 'below' : 'above'} national avg).`;
+const _tail = ' Schools, broadband & council tax data.';
+const _baseDesc = `${code} ${name}: ${_pricePart} ${_crimePart}${_tail}`;
+const _popSuffix = demographics.population > 0 ? ` Pop. ${demographics.population.toLocaleString()}.` : '';
+// Insert population before the tail only if it fits within 155 chars
+const _descWithPop = `${code} ${name}: ${_pricePart} ${_crimePart}${_popSuffix}${_tail}`;
+const metaDescription = _descWithPop.length <= 155 ? _descWithPop : _baseDesc;
 
-const faqs: FAQItem[] = [
-  {
-    question: `What is the average house price in ${code}?`,
-    answer: `The average house price in ${code} (${name}) is ${formatPriceFull(property.avgPrice)}, based on ${property.transactions12m} residential sales in the past 12 months. This is ${Math.abs(Math.round(priceVsNational))}% ${priceVsNational > 0 ? 'above' : 'below'} the national average of ${formatPriceFull(nationalAvgPrice)}. Prices have ${property.priceChange1y >= 0 ? 'risen' : 'fallen'} by ${Math.abs(property.priceChange1y).toFixed(1)}% over the past year.`,
-  },
-  {
-    question: `Is ${code} a safe area to live?`,
-    answer: `Crime in ${code} is ${crimeVerdict}. The most common crime types recorded are violent crime (${crime.byType.violentCrime.toFixed(1)} per 1,000) and antisocial behaviour (${crime.byType.antisocialBehaviour.toFixed(1)} per 1,000). Crime figures are sourced from data.police.uk rolling 12-month data.`,
-  },
-  {
-    question: `What are the schools like in ${code}?`,
-    answer: `There are ${schools.count} schools in or near ${code}. ${goodSchoolPct}% are rated Good or Outstanding by Ofsted — ${schools.outstanding} Outstanding and ${schools.good} Good. ${schools.requiresImprovement > 0 ? `${schools.requiresImprovement} school${schools.requiresImprovement > 1 ? 's' : ''} require${schools.requiresImprovement === 1 ? 's' : ''} improvement.` : 'None require improvement.'}`,
-  },
-  {
-    question: `What is the council tax in ${code}?`,
-    answer: `Council tax in ${code} is collected by ${councilTax.authority}. The Band D rate is £${councilTax.bandD.toLocaleString()} per year (2025–26). This is the total bill including county, district, police, and fire precepts.`,
-  },
-  {
-    question: `What broadband speeds are available in ${code}?`,
-    answer: `The average broadband download speed in ${code} is ${broadband.avgDownload.toFixed(0)} Mbps. Superfast broadband (30 Mbps+) is available to ${broadband.superfastPct}% of premises, ultrafast to ${broadband.ultrafastPct}%, and full-fibre (FTTP) to ${broadband.fullFibrePct}%. Source: Ofcom Connected Nations.`,
-  },
-  {
-    question: `What percentage of homes in ${code} are owner-occupied?`,
-    answer: `According to the ONS Census 2021, ${demographics.ownerOccupied}% of homes in ${code} are owner-occupied. ${demographics.privateRent}% are privately rented and ${demographics.socialRent}% are social housing. The total population is approximately ${demographics.population.toLocaleString()}.`,
-  },
-];
-
-const schema = [...buildPostcodeSchema(data, Astro.url.href), buildFAQSchema(faqs, Astro.url.href)];
+const schema = buildPostcodeSchema(data, Astro.url.href);
 
 // Deprivation display helpers (computed in frontmatter to avoid JSX ternary parse issues)
 const imdDecile = deprivation?.imdDecile ?? null;
@@ -119,6 +95,9 @@ const crimeItems = [
   { label: 'Antisocial behaviour', value: crime.byType.antisocialBehaviour, comparison: 16.2 },
   { label: 'Other theft', value: crime.byType.otherTheft, comparison: 9.5 },
 ];
+
+// Classify area type by population for SVG selection
+const areaType = demographics.population > 30000 ? 'urban' : demographics.population < 5000 ? 'rural' : 'suburban';
 
 const synthesisTag = [
   {
@@ -211,6 +190,13 @@ const synthesisTag = [
     </div>
   </div>
 
+  <!-- Area illustration -->
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 mt-6 mb-2 opacity-70">
+    {areaType === 'urban' && <UrbanSVG />}
+    {areaType === 'suburban' && <SuburbanSVG />}
+    {areaType === 'rural' && <RuralSVG />}
+  </div>
+
   <!-- METRIC BENTO GRID -->
   <div class="max-w-5xl mx-auto px-4 sm:px-6 mt-8">
     <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 fade-up">
@@ -257,6 +243,9 @@ const synthesisTag = [
         <p class="text-brand-700 leading-relaxed">{context.priceVsCounty}</p>
         <p class="text-brand-700 leading-relaxed mt-3">{context.priceVsNational}</p>
         <p class="text-brand-700 leading-relaxed mt-3">{context.priceTrend}</p>
+        <p class="text-sm text-brand-500 mt-3">
+          Explore <a href={`/counties/${county}/`} class="text-accent-500 hover:underline font-500">{countyLabel} postcodes</a> or read the <a href={`/guides/${county}-house-prices/`} class="text-accent-500 hover:underline font-500">{countyLabel} house prices guide →</a>
+        </p>
       </div>
 
       <!-- Price by type table -->
@@ -305,6 +294,9 @@ const synthesisTag = [
 
       <div class="card p-6 mb-4">
         <p class="text-brand-700 leading-relaxed">{context.crimeContext}</p>
+        <p class="text-sm text-brand-500 mt-3">
+          See how {code} compares: <a href="/guides/safest-areas-england-wales/" class="text-accent-500 hover:underline font-500">safest areas in England &amp; Wales →</a>
+        </p>
       </div>
 
       <div class="card p-6 mb-6">
@@ -340,6 +332,9 @@ const synthesisTag = [
 
       <div class="card p-6 mb-4">
         <p class="text-brand-700 leading-relaxed">{context.schoolContext}</p>
+        <p class="text-sm text-brand-500 mt-3">
+          <a href="/blog/what-ofsted-ratings-mean-for-house-prices/" class="text-accent-500 hover:underline font-500">How Ofsted ratings affect house prices →</a>
+        </p>
       </div>
 
       {schools.nearest.length > 0 && (
@@ -438,7 +433,10 @@ const synthesisTag = [
       <p class="text-brand-500 text-sm mb-6">Source: Ofcom Connected Nations</p>
 
       <div class="card p-6">
-        <p class="text-brand-700 leading-relaxed mb-5">{context.broadbandContext}</p>
+        <p class="text-brand-700 leading-relaxed mb-3">{context.broadbandContext}</p>
+        <p class="text-sm text-brand-500 mb-5">
+          <a href="/blog/how-broadband-speeds-affect-house-prices/" class="text-accent-500 hover:underline font-500">How broadband speeds affect house prices →</a>
+        </p>
         <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
           {[
             { label: 'Avg Download', value: `${broadband.avgDownload.toFixed(1)} Mbps` },
@@ -547,6 +545,9 @@ const synthesisTag = [
       </div>
     </section>
 
+    <!-- FAQ SECTION -->
+    <FAQSection data={data} url={Astro.url.href} />
+
     <!-- NEARBY POSTCODES -->
     {nearbyPostcodes.length > 0 && (
       <section aria-labelledby="nearby" class="mt-12 fade-up">
@@ -576,43 +577,7 @@ const synthesisTag = [
     )}
 
     <!-- RELATED GUIDES -->
-    <section class="mt-8 fade-up">
-      <h2 class="text-lg font-display font-600 text-brand-900 mb-3">Related property guides</h2>
-      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
-        {[
-          { href: '/guides/average-house-price-uk/', label: 'UK Average House Prices' },
-          { href: `/guides/${county}-house-prices/`, label: `${county.replace(/-/g,' ').replace(/\b\w/g, (c: string) => c.toUpperCase())} House Prices` },
-          { href: '/guides/cheapest-places-to-live-england/', label: 'Cheapest Places to Live' },
-          { href: '/guides/safest-areas-england-wales/', label: 'Safest Areas in England' },
-          { href: '/guides/best-areas-for-families/', label: 'Best Areas for Families' },
-          { href: '/guides/fastest-rising-house-prices/', label: 'Fastest-Rising Prices' },
-        ].map(g => (
-          <a href={g.href} class="text-sm px-3 py-2.5 bg-white border border-brand-100 text-brand-600 rounded-lg hover:border-accent-200 hover:text-accent-600 transition-colors font-500">
-            {g.label} →
-          </a>
-        ))}
-      </div>
-    </section>
-
-    <!-- FAQ SECTION -->
-    <section aria-labelledby="faq" class="mt-12 fade-up">
-      <h2 id="faq" class="text-2xl font-display font-600 text-brand-900 mb-6">Frequently Asked Questions</h2>
-      <div class="space-y-3">
-        {faqs.map((faq, i) => (
-          <details class="bg-white border border-brand-100 rounded-xl shadow-sm group" open={i === 0}>
-            <summary class="px-5 py-4 cursor-pointer flex items-center justify-between gap-4 font-600 text-brand-900 hover:text-accent-600 transition-colors list-none">
-              <span>{faq.question}</span>
-              <svg class="w-4 h-4 shrink-0 text-brand-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-              </svg>
-            </summary>
-            <div class="px-5 pb-4 text-brand-600 text-sm leading-relaxed border-t border-brand-50 pt-3">
-              {faq.answer}
-            </div>
-          </details>
-        ))}
-      </div>
-    </section>
+    <RelatedGuides data={data} />
 
     <!-- METHODOLOGY NOTE -->
     <aside class="mt-8 mb-8 fade-up">

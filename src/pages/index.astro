@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Header from '../components/global/Header.astro';
 import Footer from '../components/global/Footer.astro';
+import NeighbourhoodScene from '../components/svg/NeighbourhoodScene.astro';
 import { getAllRegions, getAllCountyData, getAllPostcodeSlugs, getPostcodeData } from '../utils/data';
 import { formatPriceFull, formatPrice } from '../utils/format';
 
@@ -94,6 +95,11 @@ const guides = [
         </div>
         <p class="text-brand-500 text-xs mt-3">Try: <a href="/gu1/" class="text-brand-400 hover:text-white transition-colors">GU1</a> · <a href="/sw1a/" class="text-brand-400 hover:text-white transition-colors">SW1A</a> · <a href="/m1/" class="text-brand-400 hover:text-white transition-colors">M1</a> · <a href="/bs1/" class="text-brand-400 hover:text-white transition-colors">BS1</a></p>
       </form>
+
+      <!-- Street scene illustration -->
+      <div class="mt-12 opacity-80">
+        <NeighbourhoodScene />
+      </div>
     </div>
   </section>
 

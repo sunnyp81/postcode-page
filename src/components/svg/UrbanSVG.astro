@@ -1,0 +1,127 @@
+---
+/**
+ * Urban city skyline SVG — for postcodes in urban areas.
+ * Tall buildings, cranes, a bus stop. Brand blue-slate + teal accent.
+ */
+---
+<svg viewBox="0 0 800 280" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full max-w-2xl mx-auto" role="img" aria-label="Illustration of an urban city skyline with tall buildings and a bus stop">
+  <defs>
+    <linearGradient id="urban-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="hsl(210, 35%, 22%)"/>
+      <stop offset="100%" stop-color="hsl(210, 40%, 35%)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="280" fill="url(#urban-sky)"/>
+
+  <!-- Distant buildings (back layer) -->
+  <g opacity="0.2" fill="hsl(210, 30%, 50%)">
+    <rect x="20" y="100" width="60" height="140"/>
+    <rect x="90" y="80" width="45" height="160"/>
+    <rect x="620" y="90" width="50" height="150"/>
+    <rect x="680" y="110" width="70" height="130"/>
+    <rect x="760" y="130" width="40" height="110"/>
+  </g>
+
+  <!-- Mid buildings -->
+  <g fill="hsl(210, 40%, 28%)">
+    <rect x="140" y="60" width="70" height="180" rx="2"/>
+    <rect x="220" y="90" width="55" height="150" rx="2"/>
+    <rect x="290" y="40" width="80" height="200" rx="2"/>
+    <rect x="400" y="70" width="65" height="170" rx="2"/>
+    <rect x="480" y="50" width="90" height="190" rx="2"/>
+    <rect x="585" y="80" width="60" height="160" rx="2"/>
+  </g>
+
+  <!-- Windows on mid buildings -->
+  <g fill="hsl(42, 70%, 70%)" opacity="0.4">
+    <!-- Building 1 windows -->
+    <rect x="150" y="75" width="10" height="10" rx="1"/>
+    <rect x="168" y="75" width="10" height="10" rx="1"/>
+    <rect x="186" y="75" width="10" height="10" rx="1"/>
+    <rect x="150" y="95" width="10" height="10" rx="1"/>
+    <rect x="168" y="95" width="10" height="10" rx="1"/>
+    <rect x="186" y="95" width="10" height="10" rx="1"/>
+    <rect x="150" y="115" width="10" height="10" rx="1"/>
+    <rect x="168" y="115" width="10" height="10" rx="1"/>
+    <rect x="150" y="135" width="10" height="10" rx="1"/>
+    <rect x="186" y="135" width="10" height="10" rx="1"/>
+    <!-- Tall building windows -->
+    <rect x="305" y="55" width="12" height="10" rx="1"/>
+    <rect x="325" y="55" width="12" height="10" rx="1"/>
+    <rect x="345" y="55" width="12" height="10" rx="1"/>
+    <rect x="305" y="75" width="12" height="10" rx="1"/>
+    <rect x="345" y="75" width="12" height="10" rx="1"/>
+    <rect x="305" y="95" width="12" height="10" rx="1"/>
+    <rect x="325" y="95" width="12" height="10" rx="1"/>
+    <rect x="345" y="95" width="12" height="10" rx="1"/>
+    <rect x="325" y="115" width="12" height="10" rx="1"/>
+    <rect x="305" y="135" width="12" height="10" rx="1"/>
+    <rect x="345" y="135" width="12" height="10" rx="1"/>
+    <!-- Wide building windows -->
+    <rect x="495" y="65" width="12" height="10" rx="1"/>
+    <rect x="515" y="65" width="12" height="10" rx="1"/>
+    <rect x="535" y="65" width="12" height="10" rx="1"/>
+    <rect x="555" y="65" width="12" height="10" rx="1"/>
+    <rect x="495" y="85" width="12" height="10" rx="1"/>
+    <rect x="535" y="85" width="12" height="10" rx="1"/>
+    <rect x="555" y="85" width="12" height="10" rx="1"/>
+    <rect x="495" y="105" width="12" height="10" rx="1"/>
+    <rect x="515" y="105" width="12" height="10" rx="1"/>
+    <rect x="555" y="105" width="12" height="10" rx="1"/>
+  </g>
+
+  <!-- Lit windows (warm glow) -->
+  <g fill="hsl(42, 80%, 75%)" opacity="0.7">
+    <rect x="186" y="95" width="10" height="10" rx="1"/>
+    <rect x="325" y="75" width="12" height="10" rx="1"/>
+    <rect x="515" y="85" width="12" height="10" rx="1"/>
+    <rect x="535" y="65" width="12" height="10" rx="1"/>
+    <rect x="305" y="135" width="12" height="10" rx="1"/>
+  </g>
+
+  <!-- Crane -->
+  <g transform="translate(380, 10)" stroke="hsl(210, 20%, 55%)" stroke-width="1.5" opacity="0.5">
+    <line x1="0" y1="0" x2="0" y2="50"/>
+    <line x1="-25" y1="0" x2="30" y2="0"/>
+    <line x1="0" y1="0" x2="-25" y2="5"/>
+    <line x1="30" y1="0" x2="28" y2="20"/>
+  </g>
+
+  <!-- Ground / road -->
+  <rect x="0" y="240" width="800" height="40" fill="hsl(210, 25%, 18%)"/>
+  <rect x="0" y="238" width="800" height="4" fill="hsl(210, 20%, 30%)"/>
+
+  <!-- Road markings -->
+  <g opacity="0.4">
+    <rect x="30" y="258" width="50" height="3" rx="1.5" fill="white"/>
+    <rect x="140" y="258" width="50" height="3" rx="1.5" fill="white"/>
+    <rect x="250" y="258" width="50" height="3" rx="1.5" fill="white"/>
+    <rect x="360" y="258" width="50" height="3" rx="1.5" fill="white"/>
+    <rect x="470" y="258" width="50" height="3" rx="1.5" fill="white"/>
+    <rect x="580" y="258" width="50" height="3" rx="1.5" fill="white"/>
+    <rect x="690" y="258" width="50" height="3" rx="1.5" fill="white"/>
+  </g>
+
+  <!-- Bus stop -->
+  <g transform="translate(660, 210)">
+    <rect x="0" y="0" width="3" height="30" fill="hsl(210, 20%, 55%)"/>
+    <rect x="-8" y="-2" width="20" height="12" rx="2" fill="hsl(0, 70%, 45%)"/>
+    <text x="2" y="7" font-size="5" fill="white" font-weight="bold" text-anchor="middle">BUS</text>
+  </g>
+
+  <!-- Street lamp -->
+  <g transform="translate(120, 200)" opacity="0.6">
+    <rect x="0" y="0" width="2" height="40" fill="hsl(210, 20%, 55%)"/>
+    <circle cx="1" cy="-2" r="4" fill="hsl(42, 80%, 75%)" opacity="0.5"/>
+    <rect x="-3" y="-3" width="8" height="3" rx="1" fill="hsl(210, 20%, 55%)"/>
+  </g>
+
+  <!-- Street lamp 2 -->
+  <g transform="translate(440, 200)" opacity="0.6">
+    <rect x="0" y="0" width="2" height="40" fill="hsl(210, 20%, 55%)"/>
+    <circle cx="1" cy="-2" r="4" fill="hsl(42, 80%, 75%)" opacity="0.5"/>
+    <rect x="-3" y="-3" width="8" height="3" rx="1" fill="hsl(210, 20%, 55%)"/>
+  </g>
+</svg>

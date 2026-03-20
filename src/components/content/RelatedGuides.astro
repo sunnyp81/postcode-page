@@ -1,0 +1,75 @@
+---
+import type { PostcodeData } from '../../utils/data';
+
+interface Props {
+  data: PostcodeData;
+}
+
+const { data } = Astro.props;
+const { property, crime, schools, county } = data;
+
+const countyLabel = county.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase());
+
+// All candidate guides with contextual relevance scoring
+const allGuides = [
+  {
+    href: `/guides/average-house-price-uk/`,
+    title: 'UK Average House Prices',
+    description: 'See how property prices compare across England and Wales.',
+    priority: 10, // always include
+  },
+  {
+    href: `/guides/${county}-house-prices/`,
+    title: `${countyLabel} House Prices`,
+    description: `Explore average prices, trends, and postcode breakdowns across ${countyLabel}.`,
+    priority: 10, // always include
+  },
+  {
+    href: `/guides/safest-areas-england-wales/`,
+    title: 'Safest Areas in England & Wales',
+    description: 'Ranked by crime rate — find the lowest-crime places to live.',
+    priority: crime.vsNational > 15 ? 9 : 3,
+  },
+  {
+    href: `/guides/cheapest-places-to-live-england/`,
+    title: 'Cheapest Places to Live in England',
+    description: 'The most affordable postcode districts for buyers and renters.',
+    priority: property.avgPrice < 200000 ? 9 : 2,
+  },
+  {
+    href: `/guides/best-areas-for-families/`,
+    title: 'Best Areas for Families',
+    description: 'Top-rated areas based on schools, safety, and community data.',
+    priority: schools.count > 0 && (schools.outstanding / schools.count) >= 0.25 ? 8 : 2,
+  },
+  {
+    href: `/guides/fastest-rising-house-prices/`,
+    title: 'Fastest-Rising House Prices',
+    description: 'Postcodes where property values are growing the quickest.',
+    priority: property.priceChange1y >= 5 ? 8 : 2,
+  },
+];
+
+// Sort by priority descending, always show the top 3
+const guides = [...allGuides]
+  .sort((a, b) => b.priority - a.priority)
+  .slice(0, 3);
+---
+
+<section class="mt-8 fade-up" aria-labelledby="related-guides">
+  <h2 id="related-guides" class="text-lg font-display font-600 text-brand-900 mb-3">Related property guides</h2>
+  <div class="grid sm:grid-cols-3 gap-3">
+    {guides.map(guide => (
+      <a
+        href={guide.href}
+        class="group block card p-4 hover:-translate-y-0.5 transition-transform duration-200"
+      >
+        <p class="font-600 text-brand-900 text-sm group-hover:text-accent-600 transition-colors leading-snug">
+          {guide.title}
+        </p>
+        <p class="text-xs text-brand-500 mt-1.5 leading-relaxed">{guide.description}</p>
+        <p class="text-xs text-accent-500 font-500 mt-2 group-hover:text-accent-400 transition-colors">Read guide →</p>
+      </a>
+    ))}
+  </div>
+</section>

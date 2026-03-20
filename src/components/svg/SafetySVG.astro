@@ -1,0 +1,71 @@
+---
+/**
+ * Safety/Crime SVG — shield icon with a neighbourhood watch vibe.
+ * For crime/safety blog posts. Brand blue-slate + teal accent.
+ */
+---
+<svg viewBox="0 0 600 200" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full max-w-md mx-auto" role="img" aria-label="Illustration of neighbourhood safety with a shield and residential street">
+  <defs>
+    <linearGradient id="safety-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="hsl(210, 40%, 97%)"/>
+      <stop offset="100%" stop-color="hsl(210, 38%, 94%)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="200" rx="12" fill="url(#safety-bg)"/>
+
+  <!-- Shield -->
+  <g transform="translate(60, 25)">
+    <path d="M60 0 C75 2 95 5 110 3 L110 65 C110 100 80 130 60 140 C40 130 10 100 10 65 L10 3 C25 5 45 2 60 0Z"
+          fill="hsl(168, 55%, 45%)" opacity="0.12"/>
+    <path d="M60 0 C75 2 95 5 110 3 L110 65 C110 100 80 130 60 140 C40 130 10 100 10 65 L10 3 C25 5 45 2 60 0Z"
+          fill="none" stroke="hsl(168, 55%, 45%)" stroke-width="2.5"/>
+    <!-- Checkmark inside shield -->
+    <path d="M40 68 L55 83 L85 48" stroke="hsl(168, 55%, 45%)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- "NHW" text (Neighbourhood Watch) -->
+    <text x="60" y="110" font-family="system-ui, sans-serif" font-size="9" fill="hsl(168, 55%, 45%)" text-anchor="middle" font-weight="600" opacity="0.6">SAFE</text>
+  </g>
+
+  <!-- Street scene (right side) -->
+  <g transform="translate(240, 50)">
+    <!-- Houses row -->
+    <rect x="0" y="40" width="60" height="55" rx="2" fill="hsl(15, 50%, 60%)" opacity="0.5"/>
+    <polygon points="0,42 30,22 60,42" fill="hsl(210, 40%, 30%)" opacity="0.5"/>
+    <rect x="8" y="52" width="14" height="14" rx="1" fill="hsl(210, 40%, 92%)" opacity="0.5"/>
+    <rect x="38" y="52" width="14" height="14" rx="1" fill="hsl(210, 40%, 92%)" opacity="0.5"/>
+    <rect x="22" y="70" width="16" height="25" rx="1" fill="hsl(168, 55%, 42%)" opacity="0.5"/>
+
+    <rect x="75" y="35" width="65" height="60" rx="2" fill="hsl(40, 20%, 85%)" opacity="0.5"/>
+    <polygon points="75,37 107,15 140,37" fill="hsl(0, 35%, 42%)" opacity="0.5"/>
+    <rect x="83" y="48" width="16" height="14" rx="1" fill="hsl(210, 40%, 92%)" opacity="0.5"/>
+    <rect x="115" y="48" width="16" height="14" rx="1" fill="hsl(210, 40%, 92%)" opacity="0.5"/>
+
+    <rect x="155" y="38" width="55" height="57" rx="2" fill="hsl(210, 15%, 80%)" opacity="0.5"/>
+    <rect x="155" y="35" width="55" height="6" fill="hsl(210, 30%, 35%)" opacity="0.5"/>
+    <rect x="163" y="48" width="14" height="14" rx="1" fill="hsl(210, 40%, 92%)" opacity="0.5"/>
+    <rect x="188" y="48" width="14" height="14" rx="1" fill="hsl(210, 40%, 92%)" opacity="0.5"/>
+  </g>
+
+  <!-- Crime stats mini-chart -->
+  <g transform="translate(240, 125)">
+    <text x="0" y="10" font-family="system-ui, sans-serif" font-size="9" fill="hsl(210, 30%, 55%)" font-weight="600">Crime rate per 1,000 people</text>
+    <!-- Bars -->
+    <g transform="translate(0, 18)">
+      <rect x="0" y="0" width="180" height="10" rx="3" fill="hsl(210, 25%, 90%)"/>
+      <rect x="0" y="0" width="65" height="10" rx="3" fill="hsl(168, 55%, 45%)" opacity="0.5"/>
+      <text x="70" y="8" font-family="monospace" font-size="7" fill="hsl(168, 55%, 40%)">This area</text>
+    </g>
+    <g transform="translate(0, 34)">
+      <rect x="0" y="0" width="180" height="10" rx="3" fill="hsl(210, 25%, 90%)"/>
+      <rect x="0" y="0" width="120" height="10" rx="3" fill="hsl(210, 30%, 70%)" opacity="0.4"/>
+      <text x="125" y="8" font-family="monospace" font-size="7" fill="hsl(210, 30%, 55%)">National avg</text>
+    </g>
+  </g>
+
+  <!-- Street lamp -->
+  <g transform="translate(500, 40)" opacity="0.3">
+    <rect x="0" y="0" width="3" height="90" fill="hsl(210, 20%, 55%)"/>
+    <circle cx="1.5" cy="-3" r="6" fill="hsl(42, 80%, 75%)" opacity="0.4"/>
+    <rect x="-4" y="-4" width="11" height="4" rx="2" fill="hsl(210, 20%, 55%)"/>
+  </g>
+</svg>

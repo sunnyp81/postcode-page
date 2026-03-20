@@ -2,6 +2,7 @@
 import Base from '../../../layouts/Base.astro';
 import Header from '../../../components/global/Header.astro';
 import Footer from '../../../components/global/Footer.astro';
+import CountySVG from '../../../components/svg/CountySVG.astro';
 import { getAllCountySlugs, getCountyData, getCountyPostcodes } from '../../../utils/data';
 import { formatPriceFull, formatChange, capitalize } from '../../../utils/format';
 
@@ -90,6 +91,11 @@ const mostAffordable = postcodes[postcodes.length - 1];
   </div>
 
   <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+
+    <!-- County illustration -->
+    <div class="mb-8 flex justify-center">
+      <CountySVG />
+    </div>
 
     <!-- About -->
     <section class="bg-white border border-brand-100 rounded-xl p-6 shadow-sm mb-8">

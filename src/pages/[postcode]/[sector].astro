@@ -40,8 +40,8 @@ const vsNational = ((sectorData.property.avgPrice - nationalAvg) / nationalAvg *
 ---
 
 <Base
-  title={`${sectorLabel} House Prices 2026 — Average Property Price`}
-  description={`Average house price in ${sectorLabel} (${districtName}) is ${formatPriceFull(sectorData.property.avgPrice)} based on ${sectorData.property.transactions12m} recent sales. Price trends and breakdown by property type.`}
+  title={`${sectorLabel} ${districtName} — House Prices & Property Data | Postcode.Page`}
+  description={`${sectorLabel} (${districtName}): avg house price ${formatPriceFull(sectorData.property.avgPrice)}${sectorData.property.priceChange1y !== null ? ` (${sectorData.property.priceChange1y > 0 ? '+' : ''}${sectorData.property.priceChange1y.toFixed(1)}% YoY)` : ''}. ${sectorData.property.transactions12m} recent sales. Price trends and breakdown by property type.`}
 >
   <Header />
 

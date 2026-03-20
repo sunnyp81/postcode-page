@@ -1,0 +1,96 @@
+---
+/**
+ * Moving Checklist SVG — boxes, clipboard, moving van.
+ * For the moving home checklist blog post. Brand blue-slate + teal accent.
+ */
+---
+<svg viewBox="0 0 600 200" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full max-w-md mx-auto" role="img" aria-label="Illustration of moving home with boxes, a clipboard and a van">
+  <defs>
+    <linearGradient id="mv-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="hsl(210, 40%, 97%)"/>
+      <stop offset="100%" stop-color="hsl(210, 38%, 94%)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="200" rx="12" fill="url(#mv-bg)"/>
+
+  <!-- Clipboard -->
+  <g transform="translate(40, 20)">
+    <!-- Board -->
+    <rect x="0" y="10" width="100" height="140" rx="6" fill="hsl(35, 30%, 70%)"/>
+    <rect x="5" y="15" width="90" height="130" rx="4" fill="white"/>
+    <!-- Clip -->
+    <rect x="30" y="2" width="40" height="14" rx="4" fill="hsl(210, 25%, 55%)"/>
+    <rect x="35" y="0" width="30" height="8" rx="4" fill="hsl(210, 25%, 55%)"/>
+
+    <!-- Checklist items -->
+    <g transform="translate(14, 30)">
+      <rect x="0" y="0" width="9" height="9" rx="2" fill="hsl(168, 55%, 45%)" opacity="0.2"/>
+      <path d="M2 4.5 L3.5 6 L7 2.5" stroke="hsl(168, 55%, 45%)" stroke-width="1.5" fill="none"/>
+      <rect x="16" y="2" width="48" height="4" rx="2" fill="hsl(210, 25%, 82%)"/>
+    </g>
+    <g transform="translate(14, 48)">
+      <rect x="0" y="0" width="9" height="9" rx="2" fill="hsl(168, 55%, 45%)" opacity="0.2"/>
+      <path d="M2 4.5 L3.5 6 L7 2.5" stroke="hsl(168, 55%, 45%)" stroke-width="1.5" fill="none"/>
+      <rect x="16" y="2" width="40" height="4" rx="2" fill="hsl(210, 25%, 82%)"/>
+    </g>
+    <g transform="translate(14, 66)">
+      <rect x="0" y="0" width="9" height="9" rx="2" fill="hsl(168, 55%, 45%)" opacity="0.2"/>
+      <path d="M2 4.5 L3.5 6 L7 2.5" stroke="hsl(168, 55%, 45%)" stroke-width="1.5" fill="none"/>
+      <rect x="16" y="2" width="55" height="4" rx="2" fill="hsl(210, 25%, 82%)"/>
+    </g>
+    <g transform="translate(14, 84)">
+      <rect x="0" y="0" width="9" height="9" rx="2" fill="hsl(210, 25%, 88%)" opacity="0.3"/>
+      <rect x="16" y="2" width="45" height="4" rx="2" fill="hsl(210, 25%, 88%)"/>
+    </g>
+    <g transform="translate(14, 102)">
+      <rect x="0" y="0" width="9" height="9" rx="2" fill="hsl(210, 25%, 88%)" opacity="0.3"/>
+      <rect x="16" y="2" width="38" height="4" rx="2" fill="hsl(210, 25%, 88%)"/>
+    </g>
+    <g transform="translate(14, 120)">
+      <rect x="0" y="0" width="9" height="9" rx="2" fill="hsl(210, 25%, 88%)" opacity="0.3"/>
+      <rect x="16" y="2" width="50" height="4" rx="2" fill="hsl(210, 25%, 88%)"/>
+    </g>
+  </g>
+
+  <!-- Moving boxes -->
+  <g transform="translate(200, 80)">
+    <!-- Box 1 (large) -->
+    <rect x="0" y="20" width="60" height="55" rx="3" fill="hsl(30, 40%, 65%)"/>
+    <rect x="0" y="20" width="60" height="8" fill="hsl(30, 35%, 58%)" rx="3"/>
+    <rect x="15" y="45" width="30" height="2" fill="hsl(30, 25%, 50%)" opacity="0.4"/>
+    <!-- Box 2 (medium, stacked) -->
+    <rect x="20" y="-5" width="50" height="45" rx="3" fill="hsl(30, 45%, 70%)"/>
+    <rect x="20" y="-5" width="50" height="8" fill="hsl(30, 40%, 63%)" rx="3"/>
+    <text x="45" y="22" font-family="system-ui, sans-serif" font-size="8" fill="hsl(30, 30%, 45%)" text-anchor="middle" font-weight="600">KITCHEN</text>
+    <!-- Box 3 (small) -->
+    <rect x="70" y="40" width="40" height="35" rx="3" fill="hsl(30, 35%, 62%)"/>
+    <rect x="70" y="40" width="40" height="6" fill="hsl(30, 30%, 55%)" rx="3"/>
+    <text x="90" y="58" font-family="system-ui, sans-serif" font-size="6" fill="hsl(30, 25%, 42%)" text-anchor="middle" font-weight="600">FRAGILE</text>
+  </g>
+
+  <!-- Moving van -->
+  <g transform="translate(380, 55)">
+    <!-- Van body -->
+    <rect x="0" y="30" width="120" height="70" rx="4" fill="hsl(168, 55%, 45%)" opacity="0.8"/>
+    <rect x="0" y="30" width="120" height="12" rx="4" fill="hsl(168, 50%, 38%)"/>
+    <!-- Cab -->
+    <rect x="120" y="45" width="60" height="55" rx="4" fill="hsl(168, 50%, 38%)"/>
+    <!-- Windscreen -->
+    <rect x="128" y="52" width="44" height="22" rx="3" fill="hsl(210, 40%, 88%)"/>
+    <!-- Headlight -->
+    <rect x="172" y="80" width="8" height="6" rx="2" fill="hsl(42, 70%, 70%)"/>
+    <!-- Door line -->
+    <line x1="155" y1="52" x2="155" y2="98" stroke="hsl(168, 45%, 32%)" stroke-width="0.8"/>
+    <!-- Wheels -->
+    <circle cx="30" cy="102" r="12" fill="hsl(210, 20%, 30%)"/>
+    <circle cx="30" cy="102" r="5" fill="hsl(210, 15%, 50%)"/>
+    <circle cx="155" cy="102" r="12" fill="hsl(210, 20%, 30%)"/>
+    <circle cx="155" cy="102" r="5" fill="hsl(210, 15%, 50%)"/>
+    <!-- Text on van -->
+    <text x="60" y="72" font-family="system-ui, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="700" opacity="0.7">REMOVALS</text>
+  </g>
+
+  <!-- Ground -->
+  <rect x="370" y="167" width="230" height="4" rx="2" fill="hsl(210, 20%, 80%)" opacity="0.4"/>
+</svg>

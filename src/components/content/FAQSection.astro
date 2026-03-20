@@ -1,0 +1,99 @@
+---
+import type { PostcodeData } from '../../utils/data';
+import { formatPriceFull } from '../../utils/format';
+import type { FAQItem } from '../../utils/schema';
+
+interface Props {
+  data: PostcodeData;
+  url: string;
+}
+
+const { data, url } = Astro.props;
+const { code, name, property, crime, schools, demographics, broadband, comparisons } = data;
+
+const nationalAvgPrice = comparisons.nationalAvg.price;
+const priceVsNational = ((property.avgPrice - nationalAvgPrice) / nationalAvgPrice) * 100;
+
+const goodSchoolPct = schools.count > 0
+  ? Math.round((schools.outstanding + schools.good) / schools.count * 100)
+  : 0;
+
+const crimeVerdict = crime.vsNational < -20
+  ? `significantly below the national average (${crime.totalPer1000.toFixed(1)} crimes per 1,000 residents vs the national average of ${crime.nationalAvgPer1000.toFixed(1)})`
+  : crime.vsNational > 20
+    ? `above the national average (${crime.totalPer1000.toFixed(1)} crimes per 1,000 residents vs ${crime.nationalAvgPer1000.toFixed(1)} nationally)`
+    : `close to the national average at ${crime.totalPer1000.toFixed(1)} crimes per 1,000 residents`;
+
+// Build FAQs — only include items where data exists
+const faqs: FAQItem[] = [];
+
+// 1. House prices — always present
+faqs.push({
+  question: `What is the average house price in ${code} ${name}?`,
+  answer: `The average house price in ${code} (${name}) is ${formatPriceFull(property.avgPrice)}, based on ${property.transactions12m} residential sales in the past 12 months. This is ${Math.abs(Math.round(priceVsNational))}% ${priceVsNational > 0 ? 'above' : 'below'} the national average of ${formatPriceFull(nationalAvgPrice)}. Prices have ${property.priceChange1y >= 0 ? 'risen' : 'fallen'} by ${Math.abs(property.priceChange1y).toFixed(1)}% over the past year.`,
+});
+
+// 2. Safety — always present
+faqs.push({
+  question: `Is ${code} ${name} a safe area to live?`,
+  answer: `Crime in ${code} is ${crimeVerdict}. The most common crime types recorded are violent crime (${crime.byType.violentCrime.toFixed(1)} per 1,000) and antisocial behaviour (${crime.byType.antisocialBehaviour.toFixed(1)} per 1,000). Crime figures are sourced from data.police.uk rolling 12-month data.`,
+});
+
+// 3. Population / demographics — always present
+faqs.push({
+  question: `What is the population of ${code} ${name}?`,
+  answer: `The population of ${code} (${name}) is approximately ${demographics.population.toLocaleString()} (ONS Census 2021). The median age is ${demographics.medianAge} years. ${demographics.ownerOccupied}% of homes are owner-occupied, ${demographics.privateRent}% are privately rented, and ${demographics.socialRent}% are social housing.`,
+});
+
+// 4. Broadband — always present
+faqs.push({
+  question: `How fast is broadband in ${code}?`,
+  answer: `The average broadband download speed in ${code} is ${broadband.avgDownload.toFixed(0)} Mbps. Superfast broadband (30 Mbps+) is available to ${broadband.superfastPct}% of premises, ultrafast to ${broadband.ultrafastPct}%, and full-fibre (FTTP) to ${broadband.fullFibrePct}%. Source: Ofcom Connected Nations.`,
+});
+
+// 5. Schools — only if there are schools
+if (schools.count > 0) {
+  faqs.push({
+    question: `What are schools like in ${code} ${name}?`,
+    answer: `There are ${schools.count} schools in or near ${code}. ${goodSchoolPct}% are rated Good or Outstanding by Ofsted — ${schools.outstanding} Outstanding and ${schools.good} Good. ${schools.requiresImprovement > 0 ? `${schools.requiresImprovement} school${schools.requiresImprovement > 1 ? 's' : ''} require${schools.requiresImprovement === 1 ? 's' : ''} improvement.` : 'None require improvement.'}`,
+  });
+}
+
+// Build FAQPage JSON-LD schema inline
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": `${url}#faq`,
+  "mainEntity": faqs.map(f => ({
+    "@type": "Question",
+    "name": f.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": f.answer,
+    },
+  })),
+};
+---
+
+<section aria-labelledby="faq" class="mt-12 fade-up">
+  <h2 id="faq" class="text-2xl font-display font-600 text-brand-900 mb-6">
+    Frequently Asked Questions about {code} {name}
+  </h2>
+  <div class="space-y-3">
+    {faqs.map((faq, i) => (
+      <details class="bg-white border border-brand-100 rounded-xl shadow-sm group" open={i === 0}>
+        <summary class="px-5 py-4 cursor-pointer flex items-center justify-between gap-4 font-600 text-brand-900 hover:text-accent-600 transition-colors list-none">
+          <span>{faq.question}</span>
+          <svg class="w-4 h-4 shrink-0 text-brand-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </summary>
+        <div class="px-5 pb-4 text-brand-600 text-sm leading-relaxed border-t border-brand-50 pt-3">
+          {faq.answer}
+        </div>
+      </details>
+    ))}
+  </div>
+</section>
+
+<script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />

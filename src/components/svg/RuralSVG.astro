@@ -1,0 +1,129 @@
+---
+/**
+ * Rural countryside SVG — rolling fields, a church spire, stone wall, sheep.
+ * For rural postcode pages. Brand blue-slate + teal accent.
+ */
+---
+<svg viewBox="0 0 800 300" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full max-w-2xl mx-auto" role="img" aria-label="Illustration of a rural English countryside with rolling fields, a church and sheep">
+  <defs>
+    <linearGradient id="rural-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="hsl(200, 50%, 92%)"/>
+      <stop offset="100%" stop-color="hsl(195, 45%, 88%)"/>
+    </linearGradient>
+    <linearGradient id="rural-field1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="hsl(95, 45%, 55%)"/>
+      <stop offset="100%" stop-color="hsl(95, 50%, 45%)"/>
+    </linearGradient>
+    <linearGradient id="rural-field2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="hsl(80, 40%, 60%)"/>
+      <stop offset="100%" stop-color="hsl(80, 45%, 50%)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="300" fill="url(#rural-sky)"/>
+
+  <!-- Clouds -->
+  <g opacity="0.4">
+    <ellipse cx="130" cy="45" rx="60" ry="20" fill="white"/>
+    <ellipse cx="170" cy="40" rx="40" ry="16" fill="white"/>
+    <ellipse cx="450" cy="30" rx="55" ry="18" fill="white"/>
+    <ellipse cx="490" cy="25" rx="35" ry="14" fill="white"/>
+    <ellipse cx="700" cy="50" rx="45" ry="16" fill="white"/>
+  </g>
+
+  <!-- Distant hills -->
+  <path d="M0 180 Q100 130 200 160 Q350 110 450 145 Q550 120 650 140 Q750 115 800 135 V300 H0Z" fill="hsl(130, 30%, 60%)" opacity="0.4"/>
+
+  <!-- Mid-ground rolling hill -->
+  <path d="M0 200 Q150 160 300 185 Q500 150 650 175 Q750 160 800 170 V300 H0Z" fill="url(#rural-field1)"/>
+
+  <!-- Foreground field -->
+  <path d="M0 235 Q200 215 400 230 Q600 210 800 225 V300 H0Z" fill="url(#rural-field2)"/>
+
+  <!-- Hedgerow line -->
+  <path d="M0 230 Q100 225 200 228 Q350 220 500 226 Q650 218 800 222" stroke="hsl(130, 30%, 35%)" stroke-width="3" fill="none" opacity="0.5"/>
+
+  <!-- Stone wall -->
+  <g transform="translate(50, 240)" opacity="0.5">
+    <rect x="0" y="0" width="200" height="6" rx="1" fill="hsl(35, 15%, 60%)"/>
+    <rect x="0" y="0" width="12" height="8" rx="1" fill="hsl(35, 12%, 55%)"/>
+    <rect x="18" y="0" width="10" height="8" rx="1" fill="hsl(35, 15%, 58%)"/>
+    <rect x="33" y="0" width="14" height="8" rx="1" fill="hsl(35, 12%, 55%)"/>
+    <rect x="52" y="0" width="11" height="8" rx="1" fill="hsl(35, 15%, 60%)"/>
+    <rect x="68" y="0" width="13" height="8" rx="1" fill="hsl(35, 12%, 55%)"/>
+    <rect x="86" y="0" width="10" height="8" rx="1" fill="hsl(35, 15%, 58%)"/>
+    <rect x="101" y="0" width="14" height="8" rx="1" fill="hsl(35, 12%, 55%)"/>
+    <rect x="120" y="0" width="11" height="8" rx="1" fill="hsl(35, 15%, 60%)"/>
+    <rect x="136" y="0" width="13" height="8" rx="1" fill="hsl(35, 12%, 55%)"/>
+    <rect x="154" y="0" width="10" height="8" rx="1" fill="hsl(35, 15%, 58%)"/>
+    <rect x="169" y="0" width="14" height="8" rx="1" fill="hsl(35, 12%, 55%)"/>
+    <rect x="188" y="0" width="12" height="8" rx="1" fill="hsl(35, 15%, 60%)"/>
+  </g>
+
+  <!-- Church -->
+  <g transform="translate(600, 100)">
+    <!-- Body -->
+    <rect x="0" y="50" width="60" height="60" rx="2" fill="hsl(35, 20%, 72%)"/>
+    <!-- Roof -->
+    <polygon points="-3,53 30,25 63,53" fill="hsl(210, 35%, 35%)"/>
+    <!-- Spire -->
+    <rect x="26" y="2" width="8" height="25" fill="hsl(210, 35%, 35%)"/>
+    <polygon points="26,5 30,0 34,5" fill="hsl(210, 35%, 35%)"/>
+    <!-- Windows -->
+    <rect x="10" y="65" width="14" height="20" rx="7" fill="hsl(210, 40%, 90%)"/>
+    <rect x="36" y="65" width="14" height="20" rx="7" fill="hsl(210, 40%, 90%)"/>
+    <!-- Door -->
+    <rect x="20" y="85" width="20" height="25" rx="10" fill="hsl(25, 30%, 40%)"/>
+  </g>
+
+  <!-- Farmhouse -->
+  <g transform="translate(320, 140)">
+    <rect x="0" y="25" width="70" height="50" rx="2" fill="hsl(35, 25%, 78%)"/>
+    <polygon points="-3,28 35,8 73,28" fill="hsl(210, 35%, 35%)"/>
+    <rect x="12" y="38" width="14" height="14" rx="1" fill="hsl(210, 40%, 90%)"/>
+    <rect x="44" y="38" width="14" height="14" rx="1" fill="hsl(210, 40%, 90%)"/>
+    <rect x="27" y="50" width="16" height="25" rx="1" fill="hsl(25, 30%, 40%)"/>
+    <!-- Chimney -->
+    <rect x="55" y="10" width="8" height="15" fill="hsl(35, 20%, 65%)"/>
+  </g>
+
+  <!-- Trees -->
+  <g transform="translate(270, 130)">
+    <rect x="6" y="40" width="7" height="30" fill="hsl(25, 40%, 35%)"/>
+    <ellipse cx="9" cy="28" rx="18" ry="22" fill="hsl(130, 40%, 40%)"/>
+    <ellipse cx="15" cy="22" rx="12" ry="15" fill="hsl(135, 45%, 45%)"/>
+  </g>
+  <g transform="translate(560, 110)">
+    <rect x="5" y="38" width="6" height="28" fill="hsl(25, 40%, 35%)"/>
+    <ellipse cx="8" cy="26" rx="16" ry="20" fill="hsl(130, 40%, 40%)"/>
+  </g>
+  <g transform="translate(690, 125)">
+    <rect x="6" y="42" width="7" height="30" fill="hsl(25, 40%, 35%)"/>
+    <ellipse cx="9" cy="30" rx="17" ry="22" fill="hsl(130, 40%, 40%)"/>
+    <ellipse cx="14" cy="24" rx="11" ry="14" fill="hsl(135, 45%, 45%)"/>
+  </g>
+
+  <!-- Sheep -->
+  <g transform="translate(420, 235)" opacity="0.8">
+    <ellipse cx="8" cy="5" rx="8" ry="5" fill="hsl(0, 0%, 95%)"/>
+    <circle cx="1" cy="2" r="3" fill="hsl(0, 0%, 20%)"/>
+    <rect x="3" y="9" width="2" height="5" fill="hsl(0, 0%, 25%)"/>
+    <rect x="10" y="9" width="2" height="5" fill="hsl(0, 0%, 25%)"/>
+  </g>
+  <g transform="translate(460, 240)" opacity="0.7">
+    <ellipse cx="7" cy="4" rx="7" ry="4.5" fill="hsl(0, 0%, 95%)"/>
+    <circle cx="1" cy="1.5" r="2.5" fill="hsl(0, 0%, 20%)"/>
+    <rect x="3" y="8" width="2" height="4" fill="hsl(0, 0%, 25%)"/>
+    <rect x="9" y="8" width="2" height="4" fill="hsl(0, 0%, 25%)"/>
+  </g>
+  <g transform="translate(490, 237)" opacity="0.6">
+    <ellipse cx="6" cy="4" rx="6" ry="4" fill="hsl(0, 0%, 95%)"/>
+    <circle cx="1" cy="1" r="2" fill="hsl(0, 0%, 20%)"/>
+    <rect x="2" y="7" width="2" height="4" fill="hsl(0, 0%, 25%)"/>
+    <rect x="8" y="7" width="2" height="4" fill="hsl(0, 0%, 25%)"/>
+  </g>
+
+  <!-- Tractor path -->
+  <path d="M0 260 Q200 255 400 262 Q600 258 800 265" stroke="hsl(35, 25%, 55%)" stroke-width="2" fill="none" opacity="0.3"/>
+</svg>

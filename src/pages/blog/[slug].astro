@@ -2,6 +2,12 @@
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/global/Header.astro';
 import Footer from '../../components/global/Footer.astro';
+import CouncilTaxSVG from '../../components/svg/CouncilTaxSVG.astro';
+import FirstTimeBuyerSVG from '../../components/svg/FirstTimeBuyerSVG.astro';
+import BroadbandSVG from '../../components/svg/BroadbandSVG.astro';
+import SafetySVG from '../../components/svg/SafetySVG.astro';
+import MovingChecklistSVG from '../../components/svg/MovingChecklistSVG.astro';
+import SuburbanSVG from '../../components/svg/SuburbanSVG.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -30,6 +36,26 @@ const otherPosts = related.length < 3
 const toc = headings.filter(h => h.depth === 2);
 
 const catSlug = post.data.category.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+$/, '');
+
+// Map blog slug to SVG component
+const slug = post.id.replace(/\.mdx?$/, '');
+const svgMap: Record<string, string> = {
+  'council-tax-bands-explained': 'council-tax',
+  'first-time-buyer-guide-to-area-research': 'first-time-buyer',
+  'how-broadband-speeds-affect-house-prices': 'broadband',
+  'how-to-check-if-an-area-is-safe': 'safety',
+  'is-crime-data-reliable-for-choosing-where-to-live': 'safety',
+  'moving-home-checklist': 'moving',
+};
+const categorySvgMap: Record<string, string> = {
+  'Buying Guides': 'first-time-buyer',
+  'First-Time Buyers': 'first-time-buyer',
+  'Crime & Safety': 'safety',
+  'Broadband': 'broadband',
+  'Data Explained': 'suburban',
+  'Area Research': 'suburban',
+};
+const svgType = svgMap[slug] ?? categorySvgMap[post.data.category] ?? 'suburban';
 
 function categoryColor(cat: string) {
   const map: Record<string, string> = {
@@ -106,6 +132,16 @@ const schema = [
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- Blog post illustration -->
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 -mb-4 mt-8">
+    {svgType === 'council-tax' && <CouncilTaxSVG />}
+    {svgType === 'first-time-buyer' && <FirstTimeBuyerSVG />}
+    {svgType === 'broadband' && <BroadbandSVG />}
+    {svgType === 'safety' && <SafetySVG />}
+    {svgType === 'moving' && <MovingChecklistSVG />}
+    {svgType === 'suburban' && <SuburbanSVG />}
   </div>
 
   <main class="max-w-4xl mx-auto px-4 sm:px-6 py-10 sm:py-14">

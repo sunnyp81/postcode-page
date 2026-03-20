@@ -36,7 +36,7 @@ export function buildPostcodeSchema(data: PostcodeData, url: string) {
       "@type": "WebPage",
       "@id": `${url}#webpage`,
       "url": url,
-      "name": `${data.code} — ${data.name} | Postcode.Page`,
+      "name": `${data.code} ${data.name} — House Prices, Crime Rate & Demographics | Postcode.Page`,
       "dateModified": data.meta.lastUpdated,
       "breadcrumb": { "@id": `${url}#breadcrumb` },
       "mainEntity": { "@id": `${url}#place` }
