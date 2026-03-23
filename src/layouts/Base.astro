@@ -81,5 +81,37 @@ const schemaArray = schema ? (Array.isArray(schema) ? schema : [schema]) : [];
     }, { threshold: 0.1 });
     document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
   </script>
+
+  <!-- Cookie consent banner -->
+  <div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-50 bg-gray-900 text-white px-4 py-4 shadow-lg" style="display:none">
+    <div class="max-w-5xl mx-auto flex flex-col sm:flex-row items-start sm:items-center gap-4">
+      <p class="text-sm text-gray-300 flex-1">
+        We use cookies to improve your experience. By continuing to use this site you agree to our
+        <a href="/privacy" class="underline hover:text-white">Privacy Policy</a>.
+      </p>
+      <div class="flex gap-3 shrink-0">
+        <button id="cookie-accept" class="bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-medium px-5 py-2 rounded-lg transition-colors">
+          Accept
+        </button>
+        <button id="cookie-decline" class="bg-gray-700 hover:bg-gray-600 text-gray-300 text-sm font-medium px-5 py-2 rounded-lg transition-colors">
+          Decline
+        </button>
+      </div>
+    </div>
+  </div>
+  <script>
+    const banner = document.getElementById('cookie-banner');
+    if (!localStorage.getItem('cookie-consent') && banner) {
+      banner.style.display = 'block';
+    }
+    document.getElementById('cookie-accept')?.addEventListener('click', () => {
+      localStorage.setItem('cookie-consent', 'accepted');
+      if (banner) banner.style.display = 'none';
+    });
+    document.getElementById('cookie-decline')?.addEventListener('click', () => {
+      localStorage.setItem('cookie-consent', 'declined');
+      if (banner) banner.style.display = 'none';
+    });
+  </script>
 </body>
 </html>

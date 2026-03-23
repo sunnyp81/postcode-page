@@ -32,6 +32,7 @@ const guides = [
 <Base
   title="Postcode.Page — UK Postcode Data: House Prices, Crime, Schools & More"
   description="Free property prices, crime rates, school ratings, broadband speeds and demographics for every UK postcode district. Updated monthly from official government sources."
+  ogImage="/og-homepage.svg"
   schema={[
     {
       "@type": "WebSite",
@@ -318,7 +319,59 @@ const guides = [
       </div>
     </section>
 
+    <!-- EMAIL CAPTURE -->
+    <section class="bg-brand-900 py-16 text-center" id="email-section">
+      <div class="max-w-xl mx-auto px-4 sm:px-6">
+        <h2 class="text-2xl font-display font-700 text-white mb-2">Get UK postcode data updates</h2>
+        <p class="text-brand-400 text-sm mb-8">Monthly updates when we refresh house prices, crime, and school data.</p>
+
+        <!-- Success state (hidden until ?joined=true) -->
+        <div id="email-success" class="hidden py-4 px-6 bg-accent-500/20 border border-accent-500/40 rounded-xl text-accent-300 font-500" role="status" aria-live="polite">
+          You're in — we'll email you when data is updated.
+        </div>
+
+        <!-- Form (hidden on success) -->
+        <form id="email-form" action="https://api.staticforms.xyz/submit" method="POST" class="flex flex-col gap-3">
+          <input type="hidden" name="accessKey" value="sf_9e906eb6c00416b9d3354749" />
+          <input type="hidden" name="redirectTo" value="https://postcode.page/?joined=true" />
+          <input type="hidden" name="subject" value="New subscriber — Postcode.page" />
+          <input
+            type="text"
+            name="name"
+            placeholder="Your name"
+            required
+            class="flex-1 px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder:text-brand-500 focus:outline-none focus:ring-2 focus:ring-accent-400 focus:border-transparent text-sm"
+          />
+          <label for="email-input" class="sr-only">Your email address</label>
+          <input
+            id="email-input"
+            type="email"
+            name="email"
+            placeholder="Your email address"
+            required
+            class="flex-1 px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder:text-brand-500 focus:outline-none focus:ring-2 focus:ring-accent-400 focus:border-transparent text-sm"
+          />
+          <button
+            type="submit"
+            class="px-6 py-3 bg-accent-400 hover:bg-accent-500 text-white font-600 text-sm rounded-xl transition-colors shrink-0"
+          >
+            Keep Me Updated
+          </button>
+        </form>
+      </div>
+    </section>
+
   </main>
+
+  <script>
+    // Handle ?joined=true success state
+    if (new URLSearchParams(window.location.search).get('joined') === 'true') {
+      document.getElementById('email-form')?.classList.add('hidden');
+      document.getElementById('email-success')?.classList.remove('hidden');
+      // Clean URL without reload
+      history.replaceState(null, '', window.location.pathname);
+    }
+  </script>
 
   <Footer />
 </Base>
