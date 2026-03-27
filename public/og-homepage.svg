@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="glow" cx="80%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="hsl(168,55%,45%)" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="15" r="1" fill="white" opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="hsl(210,55%,8%)"/>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Logo mark -->
+  <rect x="80" y="80" width="56" height="56" rx="12" fill="hsl(168,55%,45%)"/>
+  <rect x="94" y="94" width="14" height="14" rx="3" fill="white"/>
+  <rect x="112" y="94" width="14" height="14" rx="3" fill="white" opacity="0.7"/>
+  <rect x="94" y="112" width="14" height="14" rx="3" fill="white" opacity="0.7"/>
+  <rect x="112" y="112" width="14" height="14" rx="3" fill="white" opacity="0.4"/>
+
+  <!-- Brand name -->
+  <text x="152" y="120" font-family="system-ui,sans-serif" font-weight="700" font-size="36" fill="white">Postcode<tspan fill="hsl(168,55%,45%)">.Page</tspan></text>
+
+  <!-- Main headline -->
+  <text x="80" y="260" font-family="system-ui,sans-serif" font-weight="700" font-size="72" fill="white">Every UK postcode.</text>
+  <text x="80" y="350" font-family="system-ui,sans-serif" font-weight="700" font-size="72" fill="hsl(168,55%,45%)">One page of data.</text>
+
+  <!-- Subtext -->
+  <text x="80" y="430" font-family="system-ui,sans-serif" font-weight="400" font-size="28" fill="hsl(210,30%,65%)">House prices · Crime rates · School ratings · Broadband</text>
+
+  <!-- Data badges -->
+  <rect x="80" y="490" width="220" height="44" rx="8" fill="white" fill-opacity="0.08"/>
+  <text x="190" y="519" font-family="system-ui,sans-serif" font-size="18" fill="hsl(210,30%,70%)" text-anchor="middle">HM Land Registry</text>
+
+  <rect x="316" y="490" width="160" height="44" rx="8" fill="white" fill-opacity="0.08"/>
+  <text x="396" y="519" font-family="system-ui,sans-serif" font-size="18" fill="hsl(210,30%,70%)" text-anchor="middle">data.police.uk</text>
+
+  <rect x="492" y="490" width="100" height="44" rx="8" fill="white" fill-opacity="0.08"/>
+  <text x="542" y="519" font-family="system-ui,sans-serif" font-size="18" fill="hsl(210,30%,70%)" text-anchor="middle">Ofsted</text>
+
+  <rect x="608" y="490" width="100" height="44" rx="8" fill="white" fill-opacity="0.08"/>
+  <text x="658" y="519" font-family="system-ui,sans-serif" font-size="18" fill="hsl(210,30%,70%)" text-anchor="middle">Ofcom</text>
+
+  <!-- Right side — postcode pill examples -->
+  <rect x="850" y="200" width="140" height="52" rx="10" fill="hsl(168,55%,45%)" fill-opacity="0.15" stroke="hsl(168,55%,45%)" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="920" y="233" font-family="monospace,system-ui" font-weight="700" font-size="26" fill="hsl(168,55%,55%)" text-anchor="middle">SW1A</text>
+
+  <rect x="1010" y="200" width="120" height="52" rx="10" fill="hsl(168,55%,45%)" fill-opacity="0.08" stroke="hsl(168,55%,45%)" stroke-opacity="0.25" stroke-width="1"/>
+  <text x="1070" y="233" font-family="monospace,system-ui" font-weight="700" font-size="26" fill="hsl(168,55%,45%)" text-anchor="middle">GU1</text>
+
+  <rect x="850" y="270" width="120" height="52" rx="10" fill="hsl(168,55%,45%)" fill-opacity="0.08" stroke="hsl(168,55%,45%)" stroke-opacity="0.25" stroke-width="1"/>
+  <text x="910" y="303" font-family="monospace,system-ui" font-weight="700" font-size="26" fill="hsl(168,55%,45%)" text-anchor="middle">M1</text>
+
+  <rect x="990" y="270" width="140" height="52" rx="10" fill="hsl(168,55%,45%)" fill-opacity="0.08" stroke="hsl(168,55%,45%)" stroke-opacity="0.25" stroke-width="1"/>
+  <text x="1060" y="303" font-family="monospace,system-ui" font-weight="700" font-size="26" fill="hsl(168,55%,45%)" text-anchor="middle">OX1</text>
+
+  <rect x="870" y="340" width="120" height="52" rx="10" fill="hsl(168,55%,45%)" fill-opacity="0.08" stroke="hsl(168,55%,45%)" stroke-opacity="0.25" stroke-width="1"/>
+  <text x="930" y="373" font-family="monospace,system-ui" font-weight="700" font-size="26" fill="hsl(168,55%,45%)" text-anchor="middle">BS1</text>
+
+  <rect x="1010" y="340" width="120" height="52" rx="10" fill="hsl(168,55%,45%)" fill-opacity="0.08" stroke="hsl(168,55%,45%)" stroke-opacity="0.25" stroke-width="1"/>
+  <text x="1070" y="373" font-family="monospace,system-ui" font-weight="700" font-size="26" fill="hsl(168,55%,45%)" text-anchor="middle">LS1</text>
+
+  <!-- Free badge -->
+  <rect x="850" y="440" width="280" height="52" rx="26" fill="hsl(168,55%,45%)"/>
+  <text x="990" y="473" font-family="system-ui,sans-serif" font-weight="700" font-size="22" fill="white" text-anchor="middle">Free · Updated Monthly</text>
+</svg>

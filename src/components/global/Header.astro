@@ -50,7 +50,67 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
         </svg>
       </button>
+
+      <!-- Hamburger (mobile) -->
+      <button
+        id="nav-toggle"
+        class="sm:hidden p-2 text-brand-600 hover:text-brand-900 hover:bg-brand-50 rounded-lg transition-colors"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg id="hamburger-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+        <svg id="close-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
     </nav>
 
   </div>
+
+  <!-- Mobile menu -->
+  <div
+    id="mobile-menu"
+    class="sm:hidden hidden border-t border-brand-100 bg-white"
+    aria-label="Mobile navigation"
+  >
+    <div class="max-w-5xl mx-auto px-4 py-3 flex flex-col gap-1">
+      <form action="/search" method="get" role="search" class="mb-2">
+        <label for="mobile-search" class="sr-only">Search postcodes</label>
+        <div class="relative">
+          <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+          </svg>
+          <input
+            id="mobile-search"
+            type="search"
+            name="q"
+            placeholder="Enter a postcode (e.g. SW1A)"
+            autocomplete="off"
+            class="w-full pl-9 pr-4 py-2.5 text-sm bg-brand-50 border border-brand-200 rounded-lg text-brand-800 placeholder:text-brand-400 focus:outline-none focus:ring-2 focus:ring-accent-400 focus:border-transparent"
+          />
+        </div>
+      </form>
+      <a href="/guides/" class="px-3 py-2.5 text-sm text-brand-700 hover:text-brand-900 hover:bg-brand-50 rounded-lg transition-colors">Guides</a>
+      <a href="/blog/" class="px-3 py-2.5 text-sm font-500 text-accent-600 hover:text-accent-700 hover:bg-accent-50 rounded-lg transition-colors">Blog</a>
+      <a href="/tools/" class="px-3 py-2.5 text-sm text-brand-700 hover:text-brand-900 hover:bg-brand-50 rounded-lg transition-colors">Tools</a>
+      <a href="/regions/" class="px-3 py-2.5 text-sm text-brand-700 hover:text-brand-900 hover:bg-brand-50 rounded-lg transition-colors">Regions</a>
+    </div>
+  </div>
 </header>
+
+<script>
+  const toggle = document.getElementById('nav-toggle');
+  const menu = document.getElementById('mobile-menu');
+  const hamburger = document.getElementById('hamburger-icon');
+  const close = document.getElementById('close-icon');
+
+  toggle?.addEventListener('click', () => {
+    const open = menu?.classList.toggle('hidden') === false;
+    toggle.setAttribute('aria-expanded', String(open));
+    hamburger?.classList.toggle('hidden', open);
+    close?.classList.toggle('hidden', !open);
+  });
+</script>
