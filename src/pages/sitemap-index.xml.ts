@@ -8,6 +8,7 @@ const sitemaps = [
   { loc: `${SITE}/sitemap-counties.xml` },
   { loc: `${SITE}/sitemap-guides.xml` },
   { loc: `${SITE}/sitemap-blog.xml` },
+  { loc: `${SITE}/sitemap-compare.xml` },
 ];
 
 export const GET: APIRoute = () => {

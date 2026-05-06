@@ -6,6 +6,7 @@ const TODAY = new Date().toISOString().split('T')[0];
 
 // Static guide pages
 const staticGuides = [
+  '/',
   '/guides/',
   '/guides/average-house-price-uk/',
   '/guides/best-areas-for-families/',
@@ -13,8 +14,14 @@ const staticGuides = [
   '/guides/fastest-rising-house-prices/',
   '/guides/safest-areas-england-wales/',
   '/tools/',
+  '/tools/affordability/',
+  '/tools/compare/',
+  '/tools/stamp-duty/',
   '/methodology/',
   '/about/',
+  '/privacy/',
+  '/terms/',
+  '/regions/',
 ];
 
 export const GET: APIRoute = () => {

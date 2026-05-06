@@ -7,3 +7,16 @@ node_modules/
 .wrangler/
 pipeline/raw/
 *.csv
+
+# leak-scan: appended 2026-05-01
+.env.local
+.env.production
+*.pem
+*.key
+credentials.json
+credentials*.json
+secrets.*
+.vercel/
+.next/cache/
+wordpress-config.md
+master-builds.md
